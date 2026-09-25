@@ -170,9 +170,12 @@ export function buildScript(door: Door, marks: ScriptMarks): TutorialBeat[] {
         door.number +
         ". " +
         door.sanskrit +
+        (door.sanskrit_devanagari ? " (" + door.sanskrit_devanagari + ")" : "") +
         ", " +
         door.english +
-        ". House: " +
+        "." +
+        (door.dimension ? " Dimension: " + door.dimension + "." : "") +
+        " House: " +
         door.house +
         ". Element: " +
         door.element +

@@ -30,7 +30,9 @@
       "maximum": 112
     },
     "sanskrit": { "type": "string", "minLength": 1 },
+    "sanskrit_devanagari": { "type": "string", "minLength": 1 },
     "english": { "type": "string", "minLength": 1 },
+    "dimension": { "type": "string", "minLength": 1 },
     "house": { "type": "string", "minLength": 1 },
     "element": { "type": "string", "minLength": 1 },
     "color": { "type": "string", "minLength": 1 },
@@ -179,6 +181,13 @@
         "units": { "type": "string" },
         "seat": { "type": "string" }
       }
+    },
+    "cartoon_beats": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Eight mural captions. The spoken tutorial is still the sequencer's eight beats."
     },
     "safety": {
       "type": "object",

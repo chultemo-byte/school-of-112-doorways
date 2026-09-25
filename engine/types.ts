@@ -98,7 +98,11 @@ export interface Door {
   /** 1–112 */
   number: number;
   sanskrit: string;
+  /** Devanagari spelling when a seed records one. */
+  sanskrit_devanagari?: string;
   english: string;
+  /** Short dimension name folded from an earlier house seed, when present. */
+  dimension?: string;
   house: string;
   element: string;
   color: string;
@@ -131,6 +135,8 @@ export interface Door {
   alternate_geometry?: Geometry;
   /** Extra safety record. Padmasana names the open-seat twin here. */
   safety?: DoorSafety;
+  /** Eight mural captions. Not a substitute for the spoken beats. */
+  cartoon_beats?: string[];
 }
 
 export interface StudentProfile {
