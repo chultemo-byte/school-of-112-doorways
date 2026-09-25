@@ -47,7 +47,7 @@ function doorCouldOpen(profile: StudentProfile, door: Door): boolean {
 
 function refusalMessage(door: Door, gates: TeachingSession["gates"]): string {
   const reasons = gates.filter((gate) => gate.effect === "halt" || gate.effect === "block");
-  const lines = reasons.map((gate) => gate.title + ". " + gate.detail);
+  const lines = reasons.map((gate) => gate.detail);
   return "Door " + door.number + " (" + door.english + ") does not open. " + lines.join(" ");
 }
 

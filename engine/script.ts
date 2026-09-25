@@ -9,6 +9,10 @@ export interface ScriptMarks {
 const BREATH_UNIT =
   "Counts are equal pulses, not clock seconds. Leave the count the moment it becomes a grip.";
 
+function article(phrase: string): string {
+  return /^[aeiou]/i.test(phrase) ? "an" : "a";
+}
+
 function mark(observe: boolean): { observe_only: true } | Record<string, never> {
   return observe ? { observe_only: true } : {};
 }
@@ -33,12 +37,16 @@ export function buildScript(door: Door, marks: ScriptMarks): TutorialBeat[] {
         ".";
 
   const geometrySpoken = geometryObserve
-    ? "Observe only. The figure is a " +
+    ? "Observe only. The figure is " +
+      article(door.geometry.polygon) +
+      " " +
       door.geometry.polygon +
       " (" +
       door.geometry.vertices.length +
       " vertices). Look at it. Do not build it with the body. Breath has not cleared this geometry, so the geometry waits."
-    : "The figure is a " +
+    : "The figure is " +
+      article(door.geometry.polygon) +
+      " " +
       door.geometry.polygon +
       ", " +
       door.geometry.vertices.length +
@@ -131,9 +139,7 @@ export function buildScript(door: Door, marks: ScriptMarks): TutorialBeat[] {
     door.five_ways[0] +
     " Safety stays in force. " +
     door.safety_notes[0] +
-    " The guardian " +
-    door.guardian +
-    " does not grade the stay.";
+    " The guardian does not grade the stay.";
 
   const beats: TutorialBeat[] = [
     {

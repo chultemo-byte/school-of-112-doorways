@@ -121,7 +121,7 @@ export function gateLotus(profile: StudentProfile, door: Door): GateResult {
       passed: false,
       effect: "block",
       detail:
-        "Lotus is never forced. Door " +
+        "Door " +
         door.number +
         " stays shut until lotus_ready is true. A chair or an easy seat is a complete practice.",
     };

@@ -75,7 +75,8 @@ export function loadDoor(number: number): Door {
         " is unassigned. Seeded doors are 1 (Tadasana), 49 (Bhujangasana), and 112 (Padmasana).",
     );
   }
-  const file = path.join(ROOT, "doors", entry.file ?? doorFileName(number));
+  const relative = entry.file ?? path.join("doors", doorFileName(number));
+  const file = path.join(ROOT, relative);
   const raw = JSON.parse(readFileSync(file, "utf8")) as unknown;
   const door = validateDoor(raw);
   if (door.number !== number) {

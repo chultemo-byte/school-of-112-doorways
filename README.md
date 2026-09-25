@@ -53,7 +53,13 @@ A profile that has cleared the house and is willing to study the extreme verse w
 npm run teach -- --door 112 --profile profiles/lotus-cleared.json
 ```
 
-Omit `--door` and the sequencer opens the next seeded door the laws allow. `--json` prints the session object. `npm run check` validates the three doors and the gates.
+Omit `--door` and the sequencer opens the next seeded door the laws allow. `npm run check` validates the three doors and the gates.
+
+`--json` prints the session object. npm itself writes a banner on stdout, so for a clean document use:
+
+```bash
+npm run --silent teach -- --json --door 1
+```
 
 Exit codes: `0` teaching, `2` halted for pain, `3` door blocked, `1` bad input or an unassigned number.
 
