@@ -1,66 +1,90 @@
-import type {
-  Door,
-  GateResult,
-  HardLawId,
-  SpokenBreath,
-  StudentProfile,
-} from "./types.ts";
+import type { Door, GateResult, PracticeMode, SpokenBreath, StudentProfile } from "./types.ts";
 
 /**
- * Five hard laws of the school.
- * Names here match docs/YOGA-TEACHING-MACHINE-MASTER-PLAN.md and safety/rules.md.
- * Until a Chief of Staff verbatim plan replaces the engineer draft, these are the laws.
+ * Five hard laws. Wording matches the Chief of Staff master plan §3d and §5.
+ * docs/YOGA-TEACHING-MACHINE-MASTER-PLAN.md is that plan, verbatim.
+ * safety/rules.md is the same five laws in prose for the prototype.
  */
 
-export const PAIN_IS_A_HARD_STOP = "PAIN_IS_A_HARD_STOP" as const;
+export const PAIN_IS_INFORMATION = "PAIN_IS_INFORMATION" as const;
 export const LOTUS_IS_NEVER_FORCED = "LOTUS_IS_NEVER_FORCED" as const;
 export const EXTREME_VBT_IS_OBSERVE_ONLY = "EXTREME_VBT_IS_OBSERVE_ONLY" as const;
-export const BREATH_LEADS_POSTURE = "BREATH_LEADS_POSTURE" as const;
-export const GUARDIAN_INTENSITY_GATE = "GUARDIAN_INTENSITY_GATE" as const;
+export const PRACTICE_IS_NOT_MEDICINE = "PRACTICE_IS_NOT_MEDICINE" as const;
+export const NO_DOORWAY_IS_OWNED = "NO_DOORWAY_IS_OWNED" as const;
 
 export interface HardLaw {
-  id: HardLawId;
+  id: GateResult["law"];
   title: string;
   text: string;
 }
 
 export const FIVE_HARD_LAWS: readonly HardLaw[] = [
   {
-    id: PAIN_IS_A_HARD_STOP,
-    title: "Pain is a hard stop",
-    text: "If the student reports pain, halt. Never push through.",
+    id: PAIN_IS_INFORMATION,
+    title: "Pain is information",
+    text: "Pain = information → pause, regress, or exit; never push through.",
   },
   {
     id: LOTUS_IS_NEVER_FORCED,
-    title: "Lotus is never forced",
-    text: "Padmasana (door 112) and any door marked requires_lotus stay shut until lotus_ready is true. The knees are not levers.",
+    title: "Never force lotus",
+    text: "Never force lotus (or any closed hip/knee bind). Offer an open-seat twin.",
   },
   {
     id: EXTREME_VBT_IS_OBSERVE_ONLY,
-    title: "Extreme VBT is observe_only",
-    text: "An extreme Vijnana Bhairava dharana is marked observe_only while the student profile keeps vbt_observe_only true.",
+    title: "Extreme VBT is not a class drill",
+    text: "Extreme VBT methods = historical / observe_only — not class drills.",
   },
   {
-    id: BREATH_LEADS_POSTURE,
-    title: "Breath leads posture",
-    text: "Never force geometry against breath capacity. If capacity is below the door's breath demand, the shape is observe_only and the count is shortened.",
+    id: PRACTICE_IS_NOT_MEDICINE,
+    title: "Practice is not medicine",
+    text: "Practice ≠ medical treatment; no diagnose/cure language.",
   },
   {
-    id: GUARDIAN_INTENSITY_GATE,
-    title: "Guardian intensity gate",
-    text: "The student readiness profile must clear the door's house intensity before that door may open.",
+    id: NO_DOORWAY_IS_OWNED,
+    title: "No doorway is owned",
+    text: "No doorway is owned — lineage credited; school pairing labeled school_device.",
   },
 ] as const;
 
-/** Door 112 is Padmasana. Any door may also set requires_lotus. */
+/** Door 112 is Padmasana, a closed hip/knee bind. */
 export const LOTUS_DOOR_NUMBER = 112;
 
-export function doorRequiresLotus(door: Door): boolean {
-  return door.requires_lotus === true || door.number === LOTUS_DOOR_NUMBER;
+/** Earlier researched door offered after pain. It is not started while pain is present. */
+export const REGRESSION_DOOR_NUMBER = 1;
+
+export function doorIsClosedBind(door: Door): boolean {
+  return door.requires_lotus === true || door.number === LOTUS_DOOR_NUMBER || door.safety?.bind === "never_force";
+}
+
+export function openSeatName(door: Door): string | null {
+  return door.alternate_geometry?.seat ?? door.safety?.open_seat_twin ?? door.alternate_geometry?.polygon ?? null;
+}
+
+export function vbtMode(door: Door): PracticeMode {
+  const methodMode = door.adiyogi_method.practice_mode;
+  const doorMode = door.practice_mode;
+  if (methodMode === "historical" || doorMode === "historical") {
+    return "historical";
+  }
+  if (methodMode === "observe_only" || doorMode === "observe_only" || door.adiyogi_method.extreme === true) {
+    return "observe_only";
+  }
+  return "practice";
 }
 
 export function doorVbtIsExtreme(door: Door): boolean {
-  return door.adiyogi_method.extreme === true;
+  return vbtMode(door) !== "practice";
+}
+
+/**
+ * Earlier foundation door to name after pain.
+ * Null when the student is already on that door, or no door was in play: exit.
+ */
+export function regressionDoor(door: Door | null): number | null {
+  if (!door || door.number === REGRESSION_DOOR_NUMBER) {
+    return null;
+  }
+  return REGRESSION_DOOR_NUMBER;
 }
 
 export function scaleBreath(door: Door, profile: StudentProfile): SpokenBreath {
@@ -83,15 +107,21 @@ export function scaleBreath(door: Door, profile: StudentProfile): SpokenBreath {
   };
 }
 
-export function gatePain(profile: StudentProfile): GateResult {
+export function gatePain(profile: StudentProfile, door: Door | null = null): GateResult {
   const law = FIVE_HARD_LAWS[0];
   if (profile.pain) {
+    const regression = regressionDoor(door);
+    const where = regression
+      ? " Pause. Do not continue this door. Regression door, for later and not during pain: " +
+        regression +
+        ". Or exit."
+      : " Pause or exit. There is no earlier door to regress to.";
     return {
       law: law.id,
       title: law.title,
       passed: false,
       effect: "halt",
-      detail: "Pain is reported. The sequence stops. Do not continue, modify, or push through.",
+      detail: "Pain is information." + where + " Never push through.",
     };
   }
   return {
@@ -99,22 +129,23 @@ export function gatePain(profile: StudentProfile): GateResult {
     title: law.title,
     passed: true,
     effect: "clear",
-    detail: "No pain reported. This is not a medical clearance; pain later still stops the session.",
+    detail: "No pain reported. If pain appears, pause, regress, or exit.",
   };
 }
 
 export function gateLotus(profile: StudentProfile, door: Door): GateResult {
   const law = FIVE_HARD_LAWS[1];
-  if (!doorRequiresLotus(door)) {
+  if (!doorIsClosedBind(door)) {
     return {
       law: law.id,
       title: law.title,
       passed: true,
       effect: "clear",
-      detail: "This door does not ask for lotus.",
+      detail: "This door does not ask for lotus or a closed hip or knee bind.",
     };
   }
-  if (!profile.lotus_ready) {
+  const twin = openSeatName(door);
+  if (!twin) {
     return {
       law: law.id,
       title: law.title,
@@ -123,7 +154,19 @@ export function gateLotus(profile: StudentProfile, door: Door): GateResult {
       detail:
         "Door " +
         door.number +
-        " stays shut until lotus_ready is true. A chair or an easy seat is a complete practice.",
+        " is a closed bind and has no open-seat twin. The closed shape is not taught.",
+    };
+  }
+  if (!profile.lotus_ready) {
+    return {
+      law: law.id,
+      title: law.title,
+      passed: true,
+      effect: "clear",
+      detail:
+        "Lotus is not entered. Open-seat twin: " +
+        twin +
+        ". The closed geometry stays on the record and is not used.",
     };
   }
   return {
@@ -132,13 +175,16 @@ export function gateLotus(profile: StudentProfile, door: Door): GateResult {
     passed: true,
     effect: "clear",
     detail:
-      "lotus_ready is true. The script may describe the seat. Any knee complaint still ends it; readiness is not permission to haul the foot.",
+      "lotus_ready is true. The closed seat may be described and is never forced. Open-seat twin remains " +
+      twin +
+      ". Any knee complaint exits to that twin.",
   };
 }
 
-export function gateExtremeVbt(profile: StudentProfile, door: Door): GateResult {
+export function gateExtremeVbt(door: Door): GateResult {
   const law = FIVE_HARD_LAWS[2];
-  if (!doorVbtIsExtreme(door)) {
+  const mode = vbtMode(door);
+  if (mode === "practice") {
     return {
       law: law.id,
       title: law.title,
@@ -147,64 +193,80 @@ export function gateExtremeVbt(profile: StudentProfile, door: Door): GateResult 
       detail:
         "Verse " +
         door.adiyogi_method.vbt_verse +
-        " is not marked extreme. It may be taught as study inside the other laws.",
-    };
-  }
-  if (profile.vbt_observe_only) {
-    return {
-      law: law.id,
-      title: law.title,
-      passed: true,
-      effect: "observe",
-      detail:
-        "Verse " +
-        door.adiyogi_method.vbt_verse +
-        " is extreme. vbt_observe_only is true, so the Adiyogi beat is observe_only. Hear it. Do not perform it.",
+        " is not marked extreme or historical. It may be spoken as study. It is still a school pairing, not canon.",
     };
   }
   return {
     law: law.id,
     title: law.title,
     passed: true,
-    effect: "clear",
+    effect: "observe",
     detail:
       "Verse " +
       door.adiyogi_method.vbt_verse +
-      " is extreme, and the profile allows practice. The other four laws still bind. This is not an initiation.",
+      " is " +
+      mode +
+      ". Observe only. Not a class drill. A readiness flag cannot promote it.",
   };
 }
 
-export function gateBreathLeadsPosture(profile: StudentProfile, door: Door): GateResult {
+const MEDICAL_CLAIM = /\b(cures?|diagnos(?:e|es|is|tic)|heals?|prescriptions?|treats)\b/i;
+
+/** True when prose makes a diagnose, cure, heal, prescription, or "treats" claim. Negations are not claims. */
+export function hasMedicalClaim(text: string): boolean {
+  const stripped = text
+    .replace(/practice is not medical treatment/gi, "")
+    .replace(/not medical treatment/gi, "")
+    .replace(/\bnot a (?:cure|diagnosis|treatment|prescription)\b/gi, "")
+    .replace(/\b(?:does not|do not|don't|never|no|not)\s+(?:diagnose|cure|heal|treat|prescribe)\w*/gi, "");
+  return MEDICAL_CLAIM.test(stripped);
+}
+
+export function doorProse(door: Door): string {
+  const chunks: string[] = [
+    door.sanskrit,
+    door.english,
+    door.house,
+    door.guardian,
+    door.lineage ?? "",
+    door.geometry.polygon,
+    door.geometry.units ?? "",
+    door.geometry.seat ?? "",
+    door.alternate_geometry?.polygon ?? "",
+    door.alternate_geometry?.units ?? "",
+    door.alternate_geometry?.seat ?? "",
+    door.reaction.reactants.join(" "),
+    door.reaction.catalyst,
+    door.reaction.product,
+    door.reaction.phase,
+    door.reaction.note ?? "",
+    door.breath.bandha,
+    door.breath.units ?? "",
+    door.orientation.hand_placement,
+    door.orientation.gaze,
+    door.orientation.joint_lead,
+    door.attention.locus,
+    door.attention.chakra ?? "",
+    door.adiyogi_method.summary,
+    door.safety_notes.join("\n"),
+    door.five_ways.join("\n"),
+    door.safety?.bind ?? "",
+    door.safety?.open_seat_twin ?? "",
+    door.safety?.override ?? "",
+    (door.safety?.notes ?? []).join("\n"),
+  ];
+  return chunks.join("\n");
+}
+
+export function gatePracticeIsNotMedicine(door: Door): GateResult {
   const law = FIVE_HARD_LAWS[3];
-  const demand = door.breath_demand;
-  if (demand === undefined) {
+  if (hasMedicalClaim(doorProse(door))) {
     return {
       law: law.id,
       title: law.title,
       passed: false,
-      effect: "observe",
-      detail: "This door has no breath_demand. Geometry stays observe_only until a demand is set.",
-    };
-  }
-  if (profile.breath_capacity < demand) {
-    const spoken = scaleBreath(door, profile);
-    return {
-      law: law.id,
-      title: law.title,
-      passed: false,
-      effect: "observe",
-      detail:
-        "Breath capacity " +
-        profile.breath_capacity +
-        " is below demand " +
-        demand +
-        ". Geometry and orientation stay observe_only. Spoken count is " +
-        spoken.inhale +
-        " in, " +
-        spoken.exhale +
-        " out, pause " +
-        spoken.pause +
-        ".",
+      effect: "block",
+      detail: "This door record uses diagnose or cure language. It is not taught until that language is removed. Practice is not medical treatment.",
     };
   }
   return {
@@ -212,43 +274,30 @@ export function gateBreathLeadsPosture(profile: StudentProfile, door: Door): Gat
     title: law.title,
     passed: true,
     effect: "clear",
-    detail:
-      "Breath capacity " +
-      profile.breath_capacity +
-      " meets demand " +
-      demand +
-      ". If the breath shortens inside the shape, leave the shape.",
+    detail: "No diagnose or cure claim on this door. Practice is not medical treatment.",
   };
 }
 
-export function gateGuardianIntensity(profile: StudentProfile, door: Door): GateResult {
+export function gateNoDoorwayOwned(door: Door): GateResult {
   const law = FIVE_HARD_LAWS[4];
-  const intensity = door.house_intensity;
-  if (intensity === undefined) {
+  const labeled = door.pairing_type === "school_device";
+  const credited = typeof door.lineage === "string" && door.lineage.trim().length > 0;
+  if (!labeled) {
     return {
       law: law.id,
       title: law.title,
       passed: false,
       effect: "block",
-      detail: "This door has no house_intensity. The guardian does not open an unmarked house.",
+      detail: "This doorway has no school_device pairing label. It is not taught as canon, and it is not taught unlabeled.",
     };
   }
-  if (profile.intensity_clearance < intensity) {
+  if (!credited) {
     return {
       law: law.id,
       title: law.title,
       passed: false,
       effect: "block",
-      detail:
-        "Clearance is " +
-        profile.intensity_clearance +
-        "; " +
-        door.house +
-        " asks " +
-        intensity +
-        ". " +
-        door.guardian +
-        " has not opened the door.",
+      detail: "pairing_type is school_device, and the lineage credit is missing. No doorway is owned.",
     };
   }
   return {
@@ -256,22 +305,17 @@ export function gateGuardianIntensity(profile: StudentProfile, door: Door): Gate
     title: law.title,
     passed: true,
     effect: "clear",
-    detail:
-      "Clearance " +
-      profile.intensity_clearance +
-      " meets house intensity " +
-      intensity +
-      ".",
+    detail: "Lineage is credited. School pairing is labeled school_device. The school does not own the door.",
   };
 }
 
 export function evaluateGates(profile: StudentProfile, door: Door): GateResult[] {
   return [
-    gatePain(profile),
+    gatePain(profile, door),
     gateLotus(profile, door),
-    gateExtremeVbt(profile, door),
-    gateBreathLeadsPosture(profile, door),
-    gateGuardianIntensity(profile, door),
+    gateExtremeVbt(door),
+    gatePracticeIsNotMedicine(door),
+    gateNoDoorwayOwned(door),
   ];
 }
 
@@ -283,16 +327,12 @@ export function sessionIsBlocked(gates: GateResult[]): boolean {
   return gates.some((gate) => gate.effect === "block");
 }
 
-export function geometryIsObserveOnly(gates: GateResult[]): boolean {
-  return gates.some(
-    (gate) => gate.law === BREATH_LEADS_POSTURE && gate.effect === "observe",
-  );
+export function vbtIsObserveOnly(gates: GateResult[]): boolean {
+  return gates.some((gate) => gate.law === EXTREME_VBT_IS_OBSERVE_ONLY && gate.effect === "observe");
 }
 
-export function vbtIsObserveOnly(gates: GateResult[]): boolean {
-  return gates.some(
-    (gate) => gate.law === EXTREME_VBT_IS_OBSERVE_ONLY && gate.effect === "observe",
-  );
+export function usesOpenSeat(profile: StudentProfile, door: Door): boolean {
+  return doorIsClosedBind(door) && !profile.lotus_ready && openSeatName(door) !== null;
 }
 
 export function assertProfile(profile: StudentProfile): void {

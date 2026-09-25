@@ -112,7 +112,10 @@
         "yukti": { "type": "integer", "minimum": 1, "maximum": 112 },
         "extreme": {
           "type": "boolean",
-          "description": "When true, the dharana stays observe_only until the student profile allows practice."
+          "description": "When true, the dharana is historical or observe_only and is not a class drill."
+        },
+        "practice_mode": {
+          "enum": ["practice", "observe_only", "historical"]
         }
       }
     },
@@ -133,17 +136,62 @@
       "type": "integer",
       "minimum": 1,
       "maximum": 5,
-      "description": "House intensity the student must already have clearance for."
+      "description": "Recorded house intensity from 1 to 5. Not itself one of the five hard laws."
     },
     "breath_demand": {
       "type": "integer",
       "minimum": 1,
       "maximum": 5,
-      "description": "Breath capacity required before geometry may be entered."
+      "description": "When the student's breath capacity is lower, the spoken count is shortened. The shape is not refused by this field alone."
     },
     "requires_lotus": {
       "type": "boolean",
-      "description": "True when the door asks for Padmasana. Lotus is never forced."
+      "description": "True when the door asks for a closed hip or knee bind. Lotus is never forced."
+    },
+    "status": {
+      "enum": ["stub", "researched", "live"]
+    },
+    "pairing_type": {
+      "const": "school_device",
+      "description": "School pairing label. Not a claim of ancient one-to-one canon."
+    },
+    "lineage": { "type": "string", "minLength": 1 },
+    "practice_mode": {
+      "enum": ["practice", "observe_only", "historical"]
+    },
+    "alternate_geometry": {
+      "description": "Open-seat twin offered instead of a closed bind.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["polygon", "vertices"],
+      "properties": {
+        "polygon": { "type": "string", "minLength": 1 },
+        "vertices": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 3,
+            "items": { "type": "number" }
+          }
+        },
+        "units": { "type": "string" },
+        "seat": { "type": "string" }
+      }
+    },
+    "safety": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "bind": { "type": "string" },
+        "open_seat_twin": { "type": "string" },
+        "override": { "type": "string" },
+        "notes": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
     }
   }
 }

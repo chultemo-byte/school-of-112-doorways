@@ -9,6 +9,9 @@
   "house_intensity": 1,
   "breath_demand": 1,
   "requires_lotus": false,
+  "status": "researched",
+  "pairing_type": "school_device",
+  "lineage": "Vijnana Bhairava Tantra. The asana–verse pairing on this door is a School of 112 Doorways device (school_device), not a claim of ancient one-to-one canon.",
   "geometry": {
     "polygon": "isosceles triangle",
     "vertices": [
@@ -49,6 +52,7 @@
     "vbt_verse": 24,
     "yukti": 1,
     "extreme": false,
+    "practice_mode": "practice",
     "summary": "Teaching reference, not a claim that Mountain is the verse. Vijnana Bhairava Tantra verse 24 is the first of the 112 dharanas in the usual counting: attention at the two junctions where the breath turns, until those pauses feel full rather than empty. Here the mountain is that junction stood upright — a pause one inhabits and does not grip. Editions differ by a line or two; if a copy numbers the breath-junction a verse away, follow the junction, and say so."
   },
   "guardian": "Himavan — the mountain who does not announce himself",

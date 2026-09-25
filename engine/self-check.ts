@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { loadDoor, loadIndex } from "./doors.ts";
 import { teach, DEFAULT_PROFILE } from "./sequencer.ts";
-import { FIVE_HARD_LAWS } from "./safety.ts";
+import { FIVE_HARD_LAWS, hasMedicalClaim } from "./safety.ts";
 import type { StudentProfile } from "./types.ts";
 
 function profile(partial: Partial<StudentProfile>): StudentProfile {
@@ -24,11 +24,30 @@ assert.equal(mountain.english, "Mountain");
 assert.equal(cobra.english, "Cobra");
 assert.equal(lotus.english, "Lotus");
 assert.equal(mountain.five_ways.length, 5);
+assert.equal(mountain.pairing_type, "school_device");
+assert.equal(cobra.pairing_type, "school_device");
+assert.equal(lotus.pairing_type, "school_device");
+assert.equal(lotus.practice_mode, "observe_only");
+assert.equal(lotus.alternate_geometry?.seat, "Sukhāsana, or a chair");
 assert.equal(lotus.adiyogi_method.extreme, true);
 assert.equal(mountain.adiyogi_method.vbt_verse, 24);
 assert.equal(cobra.adiyogi_method.vbt_verse, 49);
 assert.equal(lotus.adiyogi_method.vbt_verse, 138);
 assert.equal(FIVE_HARD_LAWS.length, 5);
+assert.deepEqual(
+  FIVE_HARD_LAWS.map((law) => law.id),
+  [
+    "PAIN_IS_INFORMATION",
+    "LOTUS_IS_NEVER_FORCED",
+    "EXTREME_VBT_IS_OBSERVE_ONLY",
+    "PRACTICE_IS_NOT_MEDICINE",
+    "NO_DOORWAY_IS_OWNED",
+  ],
+);
+
+assert.equal(hasMedicalClaim("this pose cures pain"), true);
+assert.equal(hasMedicalClaim("Practice is not medical treatment."), false);
+assert.equal(hasMedicalClaim("This machine does not diagnose."), false);
 
 assert.throws(() => loadDoor(2), /unassigned/);
 
@@ -36,82 +55,86 @@ const taught = teach(profile({}), { door: 1 });
 assert.equal(taught.status, "teaching");
 assert.equal(taught.script.length, 8);
 assert.deepEqual(
-  taught.script.map((beat) => beat.beat),
-  [1, 2, 3, 4, 5, 6, 7, 8],
+  taught.script.map((beat) => beat.title),
+  [
+    "Name the door",
+    "Geometry",
+    "Orientation",
+    "Breath",
+    "Attention",
+    "Reaction",
+    "Adiyogi thread",
+    "Exit / integrate",
+  ],
 );
 assert.equal(taught.script[1].instrument, "geometry");
 assert.equal(taught.script[2].instrument, "orientation");
 assert.equal(taught.script[3].instrument, "breath");
-assert.equal(taught.script[4].instrument, "reaction");
-assert.equal(taught.script[5].instrument, "attention");
+assert.equal(taught.script[4].instrument, "attention");
+assert.equal(taught.script[5].instrument, "reaction");
 assert.equal(taught.script[6].instrument, "adiyogi_method");
-assert.equal(taught.script[1].observe_only, undefined);
 assert.equal(taught.script[6].observe_only, undefined);
+assert.match(taught.script[0].spoken, /school_device/);
 assert.match(taught.script[3].spoken, /Inhale 4/);
+assert.match(taught.script[7].spoken, /Practice is not medical treatment/);
+for (const beat of taught.script) {
+  assert.equal(hasMedicalClaim(beat.spoken), false);
+}
 
 const cobraSession = teach(profile({}), { door: 49 });
 assert.equal(cobraSession.status, "teaching");
-assert.equal(cobraSession.script.length, 8);
+assert.equal(cobraSession.script[4].instrument, "attention");
+assert.equal(cobraSession.script[5].instrument, "reaction");
 
 const lowBreath = teach(profile({ breath_capacity: 1 }), { door: 49 });
 assert.equal(lowBreath.status, "teaching");
-assert.equal(lowBreath.script[1].observe_only, true);
-assert.equal(lowBreath.script[2].observe_only, true);
-assert.equal(lowBreath.script[3].observe_only, undefined);
-assert.match(lowBreath.script[3].spoken, /Breath leads/);
+assert.equal(lowBreath.script[1].observe_only, undefined);
+assert.match(lowBreath.script[3].spoken, /shortened/);
+assert.match(lowBreath.script[3].spoken, /inhale 2/);
 
-const halted = teach(profile({ pain: true }), { door: 1 });
+const halted = teach(profile({ pain: true }), { door: 49 });
 assert.equal(halted.status, "halt");
 assert.equal(halted.door, null);
 assert.equal(halted.script.length, 0);
-assert.equal(halted.gates[0].law, "PAIN_IS_A_HARD_STOP");
+assert.equal(halted.regression_door, 1);
+assert.equal(halted.gates[0].law, "PAIN_IS_INFORMATION");
+assert.match(halted.message, /Never push through/);
 
-const lotusBlocked = teach(profile({}), { door: 112 });
-assert.equal(lotusBlocked.status, "blocked");
-assert.equal(lotusBlocked.script.length, 0);
-assert.ok(lotusBlocked.gates.some((gate) => gate.law === "LOTUS_IS_NEVER_FORCED" && gate.effect === "block"));
-assert.ok(lotusBlocked.gates.some((gate) => gate.law === "GUARDIAN_INTENSITY_GATE" && gate.effect === "block"));
+const haltedOnMountain = teach(profile({ pain: true }), { door: 1 });
+assert.equal(haltedOnMountain.regression_door, null);
 
-const lotusStudy = teach(
+const lotusOpenSeat = teach(profile({}), { door: 112 });
+assert.equal(lotusOpenSeat.status, "teaching");
+assert.equal(lotusOpenSeat.script.length, 8);
+assert.match(lotusOpenSeat.script[1].spoken, /Open-seat twin/);
+assert.match(lotusOpenSeat.script[1].spoken, /Never force/);
+assert.doesNotMatch(lotusOpenSeat.script[1].spoken, /haul/);
+assert.equal(lotusOpenSeat.script[6].observe_only, true);
+assert.match(lotusOpenSeat.script[6].spoken, /Observe only/);
+assert.match(lotusOpenSeat.script[6].spoken, /Not a class drill/);
+assert.match(lotusOpenSeat.script[6].spoken, /138/);
+
+const lotusReadyStillObserved = teach(
   profile({
     lotus_ready: true,
-    intensity_clearance: 5,
-    breath_capacity: 4,
-    vbt_observe_only: true,
-  }),
-  { door: 112 },
-);
-assert.equal(lotusStudy.status, "teaching");
-assert.equal(lotusStudy.script[6].observe_only, true);
-assert.match(lotusStudy.script[6].spoken, /Observe only/);
-assert.match(lotusStudy.script[6].spoken, /138/);
-
-const lotusPractice = teach(
-  profile({
-    lotus_ready: true,
-    intensity_clearance: 5,
-    breath_capacity: 4,
     vbt_observe_only: false,
+    intensity_clearance: 5,
+    breath_capacity: 5,
   }),
   { door: 112 },
 );
-assert.equal(lotusPractice.status, "teaching");
-assert.equal(lotusPractice.script[6].observe_only, undefined);
-assert.doesNotMatch(lotusPractice.script[6].spoken, /^Observe only/);
+assert.equal(lotusReadyStillObserved.status, "teaching");
+assert.equal(lotusReadyStillObserved.script[6].observe_only, true);
+assert.match(lotusReadyStillObserved.script[1].spoken, /Never force/);
+assert.match(lotusReadyStillObserved.script[1].spoken, /Sukhāsana/);
 
 const next = teach(profile({ completed_doors: [1] }));
 assert.equal(next.status, "teaching");
 assert.equal(next.door?.number, 49);
 
-const noneOpen = teach(
-  profile({
-    completed_doors: [1, 49],
-    intensity_clearance: 3,
-    lotus_ready: false,
-  }),
-);
-assert.equal(noneOpen.status, "blocked");
-assert.equal(noneOpen.door, null);
-assert.match(noneOpen.message, /Lotus is never forced/);
+const afterTwo = teach(profile({ completed_doors: [1, 49] }));
+assert.equal(afterTwo.status, "teaching");
+assert.equal(afterTwo.door?.number, 112);
+assert.match(afterTwo.script[1].spoken, /Open-seat twin/);
 
 console.log("self-check ok");

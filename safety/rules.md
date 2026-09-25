@@ -1,51 +1,43 @@
 # Safety rules
 
-The sequencer enforces these five laws in code (`engine/safety.ts`, re-exported from `safety/index.ts`). Names match the constants. This page is the same law in prose.
+The sequencer enforces these five laws in `engine/safety.ts` (re-exported from `safety/index.ts`). The sentences are the Chief of Staff plan, section 3d and section 5. The plan itself is `docs/YOGA-TEACHING-MACHINE-MASTER-PLAN.md`, copied verbatim.
 
-These are ordinary teaching limits. They are not a medical clearance, a diagnosis, or a promise that a pose is safe for a particular body.
+## 1. Pain is information
 
-## 1. Pain is a hard stop
+`PAIN_IS_INFORMATION`
 
-`PAIN_IS_A_HARD_STOP`
+Pain = information → pause, regress, or exit; never push through.
 
-If the student reports pain, the session halts. The machine does not offer a gentler variation of the same demand, and it does not suggest pushing through. Rest. If pain persists, the next authority is a person who can see the student — a teacher in the room, or a clinician. The machine does not diagnose.
+The session stops. The script is empty. If the door in play was not Mountain, door 1 is named as the regression door for a later session. It is not started while pain is reported. On Mountain itself, the response is exit.
 
-## 2. Lotus is never forced
+## 2. Never force lotus
 
 `LOTUS_IS_NEVER_FORCED`
 
-Door 112, Padmāsana, and any door with `requires_lotus` stay shut until `lotus_ready` is true. Readiness still does not permit hauling a foot onto a thigh. If a knee lifts, complains, or must be pressed, the door is shut again. A chair or an easy seat is a complete practice.
+Never force lotus (or any closed hip/knee bind). Offer an open-seat twin.
 
-## 3. Extreme VBT is observe_only
+Door 112 keeps its closed octagon on the record and teaches Sukhāsana or a chair unless `lotus_ready` is true. Even then the closed seat is not forced, and the twin stays in the script. A closed bind with no twin recorded is not taught.
+
+## 3. Extreme VBT is not a class drill
 
 `EXTREME_VBT_IS_OBSERVE_ONLY`
 
-A door whose Adiyogi method is marked `extreme` is heard, not performed, while the profile has `vbt_observe_only: true`. Door 112's verse (VBT 138, yukti 112) is marked extreme. Verses 24 and 49, as paired with Mountain and Cobra, are not.
+Extreme VBT methods = historical / observe_only — not class drills.
 
-Clearing the flag means the text may be practiced as contemplation. It is not an initiation, and it does not cancel the other four laws.
+Door 112, verse 138, is `practice_mode: observe_only`. The Adiyogi beat is marked observe_only. `vbt_observe_only: false` on a profile does not turn it into a drill. Verses 24 and 49, as paired here, are not marked extreme.
 
-## 4. Breath leads posture
+## 4. Practice is not medicine
 
-`BREATH_LEADS_POSTURE`
+`PRACTICE_IS_NOT_MEDICINE`
 
-Each seeded door declares a `breath_demand` from 1 to 5. If the student's `breath_capacity` is lower, geometry and orientation are `observe_only`, and the spoken count is shortened. The canonical ratio stays on the door. The body is not pulled into a figure the breath cannot carry.
+Practice ≠ medical treatment; no diagnose/cure language.
 
-Even when the gate is clear: if the breath shortens in order to win the shape, the shape is finished.
+A door whose prose claims to cure, diagnose, heal, prescribe, or treat is not taught. The exit beat says that practice is not medical treatment. That sentence is a limit, not a claim.
 
-## 5. Guardian intensity gate
+## 5. No doorway is owned
 
-`GUARDIAN_INTENSITY_GATE`
+`NO_DOORWAY_IS_OWNED`
 
-Each seeded door declares `house_intensity` from 1 to 5. The profile's `intensity_clearance` must be at least that number or the guardian does not open the house.
+No doorway is owned — lineage credited; school pairing labeled `school_device`.
 
-| Door | House | Intensity |
-| --- | --- | --- |
-| 1 Tāḍāsana | House of the Rooted Axis | 1 |
-| 49 Bhujaṅgāsana | House of the Wakeful Spine | 3 |
-| 112 Padmāsana | House of the Unstruck Seat | 5 |
-
-Unmarked future doors fail closed: no intensity, no entry.
-
-## What the notes on a door are for
-
-Each door carries its own `safety_notes` — knees, spine, pregnancy, wrists, blood pressure, numbness — as relevant to that shape. The five laws decide whether a script is spoken at all. The notes travel with the script when it is spoken. They are caveats for practice, not treatment claims.
+A researched door without `pairing_type: school_device` and a lineage credit is not taught. The three seeded doors credit the Vijnana Bhairava Tantra and label the asana–verse pairing as a school device, not ancient one-to-one canon.

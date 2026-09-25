@@ -9,6 +9,26 @@
   "house_intensity": 5,
   "breath_demand": 3,
   "requires_lotus": true,
+  "status": "researched",
+  "pairing_type": "school_device",
+  "practice_mode": "observe_only",
+  "lineage": "Vijnana Bhairava Tantra. The asana–verse pairing on this door is a School of 112 Doorways device (school_device), not a claim of ancient one-to-one canon. Lotus is an optional seat, not proof of mastery.",
+  "alternate_geometry": {
+    "polygon": "open seat",
+    "seat": "Sukhāsana, or a chair",
+    "vertices": [
+      [-1.2, 0],
+      [-0.5, 0.55],
+      [0.5, 0.55],
+      [1.2, 0]
+    ],
+    "units": "Horizontal sketch of an open seat. The knees fall only as far as they already do. This twin replaces the closed octagon whenever lotus would have to be forced."
+  },
+  "safety": {
+    "bind": "never_force",
+    "open_seat_twin": "Sukhāsana, or a chair",
+    "override": "The safety layer overrides the closed lotus geometry. If a knee complains, the session is the open seat."
+  },
   "geometry": {
     "polygon": "octagon",
     "vertices": [
@@ -54,7 +74,8 @@
     "vbt_verse": 138,
     "yukti": 112,
     "extreme": true,
-    "summary": "Teaching reference, marked extreme: observe_only until the readiness profile allows otherwise. Verse 138 is yukti 112 in the usual counting of the Vijnana Bhairava Tantra, the last of the 112 brief instructions. It points toward a settling in which restless mind, breath-as-effort, the feeling of being a separate knower, and the self-image are no longer being held in place. This gloss is not a translation and not a technique for forcing that settling. Verse 49's heart-lotus is a cousin image; this door does not collapse the two into one claim. The pose is never the method."
+    "practice_mode": "observe_only",
+    "summary": "Teaching reference, marked historical and observe_only: not a class drill, and no readiness flag promotes it into one. Verse 138 is yukti 112 in the usual counting of the Vijnana Bhairava Tantra, the last of the 112 brief instructions. It points toward a settling in which restless mind, breath-as-effort, the feeling of being a separate knower, and the self-image are no longer being held in place. This gloss is not a translation and not a technique for forcing that settling. Verse 49's heart-lotus is a cousin image; this door does not collapse the two into one claim. The pose is never the method."
   },
   "guardian": "Dakṣiṇāmūrti — the teacher who faces south and speaks by silence",
   "safety_notes": [

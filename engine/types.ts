@@ -7,9 +7,10 @@
  *
  * `reaction` is an alchemical teaching metaphor. It is not a laboratory procedure.
  *
- * Optional fields (`house_intensity`, `breath_demand`, `requires_lotus`,
- * `adiyogi_method.extreme`) let the sequencer apply the five hard laws.
- * Missing intensity or breath demand fails closed.
+ * The five hard laws live in engine/safety.ts and match the Chief of Staff plan §3d and §5.
+ * Optional fields (`status`, `safety`, `practice_mode`, `pairing_type`,
+ * `alternate_geometry`, `lineage`) record honesty flags. Padmasana carries the
+ * open-seat twin.
  */
 
 export interface Geometry {
@@ -19,6 +20,8 @@ export interface Geometry {
   vertices: number[][];
   /** What the coordinates mean. They are a sketch, not a body measurement. */
   units?: string;
+  /** Named seat when this figure is an open-seat twin, not the closed bind. */
+  seat?: string;
 }
 
 export interface Reaction {
@@ -69,11 +72,26 @@ export interface AdiyogiMethod {
   /** Yukti index 1–112 in the common counting, when we are willing to name it. */
   yukti?: number;
   /**
-   * Extreme practices stay observe_only while the student profile says so.
-   * Culminating or forceful dharanas are extreme. Ordinary breath-junction
-   * and heart-space readings are not.
+   * Extreme or historical dharanas are observe_only. They are not class drills.
+   * A profile flag cannot promote them into practice.
    */
   extreme?: boolean;
+  /** `practice` for ordinary study. `observe_only` or `historical` for extremes. */
+  practice_mode?: PracticeMode;
+}
+
+export type PracticeMode = "practice" | "observe_only" | "historical";
+export type DoorStatus = "stub" | "researched" | "live";
+export type PairingType = "school_device";
+
+export interface DoorSafety {
+  /** Closed hip or knee bind policy. Lotus uses `never_force`. */
+  bind?: string;
+  /** Name of the open seat offered instead of a closed bind. */
+  open_seat_twin?: string;
+  /** Short statement that safety overrides geometry. */
+  override?: string;
+  notes?: string[];
 }
 
 export interface Door {
@@ -95,23 +113,34 @@ export interface Door {
   safety_notes: string[];
   /** Exactly five teaching approaches for this door. */
   five_ways: string[];
-  /** 1–5. The guardian gate compares this with the student's clearance. */
+  /** 1–5. Recorded house intensity. Not a hard law by itself. */
   house_intensity?: number;
-  /** 1–5. Breath must meet this before geometry may be entered. */
+  /** 1–5. Used only to shorten a spoken breath count. */
   breath_demand?: number;
-  /** True for Padmasana and any future door that asks for lotus. */
+  /** True for Padmasana and any future door that asks for a closed hip or knee bind. */
   requires_lotus?: boolean;
+  /** Plan vocabulary: stub, researched, or live. */
+  status?: DoorStatus;
+  /** School pairing label. Live teaching requires `school_device`. */
+  pairing_type?: PairingType;
+  /** Lineage credit. Required before a door is taught. */
+  lineage?: string;
+  /** Door-level mode. Extreme VBT stays observe_only or historical. */
+  practice_mode?: PracticeMode;
+  /** Open-seat figure offered instead of a closed bind. Required for lotus. */
+  alternate_geometry?: Geometry;
+  /** Extra safety record. Padmasana names the open-seat twin here. */
+  safety?: DoorSafety;
 }
 
 export interface StudentProfile {
   /** Reported pain. When true, the session halts. */
   pain: boolean;
-  /** When false, door 112 and any requires_lotus door stay shut. */
+  /** When false, a closed bind is not entered. The open-seat twin is taught instead. */
   lotus_ready: boolean;
   /**
-   * When true, extreme VBT material is marked observe_only.
-   * When false, the student may be given the dharana as practice,
-   * still inside the other four laws.
+   * Retained on the profile for readiness notes.
+   * It cannot turn an extreme or historical VBT method into a class drill.
    */
   vbt_observe_only: boolean;
   completed_doors: number[];
@@ -143,12 +172,18 @@ export type SessionStatus = "teaching" | "halt" | "blocked";
 export interface TeachingSession {
   status: SessionStatus;
   profile: StudentProfile;
-  /** The door under consideration. Null when pain halts before a door opens. */
+  /** The door under consideration. Null when pain exits before a door is taught. */
   door: Door | null;
   /** Eight beats when teaching. Empty when halted or blocked. */
   script: TutorialBeat[];
   gates: GateResult[];
   message: string;
+  /**
+   * When pain ends the session, the earlier door to return to later.
+   * Null means exit, with no regression door.
+   * The regression door is not started while pain is reported.
+   */
+  regression_door: number | null;
 }
 
 export interface GateResult {
@@ -166,11 +201,11 @@ export interface GateResult {
 }
 
 export const HARD_LAW_IDS = [
-  "PAIN_IS_A_HARD_STOP",
+  "PAIN_IS_INFORMATION",
   "LOTUS_IS_NEVER_FORCED",
   "EXTREME_VBT_IS_OBSERVE_ONLY",
-  "BREATH_LEADS_POSTURE",
-  "GUARDIAN_INTENSITY_GATE",
+  "PRACTICE_IS_NOT_MEDICINE",
+  "NO_DOORWAY_IS_OWNED",
 ] as const;
 
 export type HardLawId = (typeof HARD_LAW_IDS)[number];

@@ -1,122 +1,190 @@
-# Yoga Teaching Machine — Master Plan
+# School of 112 Doorways — Yoga Teaching Machine
+## Master Plan (Engineer Blueprint)
 
-Status: Engineer draft — replace with Chief of Staff verbatim when provided.
+**Status:** Draft v1 — combine-all plan  
+**Owner:** Chief of Staff (coordination) → Engineer (build)  
+**Date:** 2026-09-25  
+**Scope:** One teaching instrument that braids six layers per door across all 112 doors.
 
-This document is a working plan written so the prototype can be built and reviewed. It is not a verbatim Chief of Staff text. Where a later plan disagrees, the later plan wins, except that the five hard laws below stay in force until they are explicitly revised.
+---
 
-## Purpose
+## 1. VISION
 
-The School of 112 Doorways is a teaching machine for āsana and contemplation. It holds one hundred and twelve doors. Three are seeded: Mountain, Cobra, and Lotus. The rest are numbered and unassigned.
+The Yoga Teaching Machine is not an app, feed, or pose library. It is a living instrument that teaches **112 doors as dimensions of practice**, not as shapes to copy. For every door it holds six braided instruments at once: a geometry (polygon / skeletal map), a chemical reaction (named phase change in the body-field), a breath signature, an orientation adjustment (how the body meets gravity and space), an attention lock (where awareness is held — including chakra foci when that door uses one), and an Adiyogi / Vijnana Bhairava Tantra (VBT) research method tied to that door’s verse or research lane. The machine sequences doors by house and by student readiness, shows each door as an 8-beat temple-mural tutorial, and refuses force: pain is information; lotus and other extremes are never coerced. Serial pairing of asana ↔ VBT method is an explicit **school device**, not a claim of ancient one-to-one canon.
 
-A door is not a video and not a feed. It is a record a teacher, or the sequencer, can walk in order. The tone is the tone of a craft: exact, willing to stop, uninterested in keeping a student for one more minute than the practice asks.
+---
 
-The machine does not diagnose, does not clear a student for a pose, and does not claim that a verse number is a medical or initiatory attainment. Verse pairings are teaching references. Editions of the Vijnana Bhairava Tantra differ by a line; the summaries say so.
+## 2. THE STACK PER DOOR
 
-## Six instruments
+Every door record (`D-001` … `D-112`) must contain these six fields. Empty fields block “live” status.
 
-Every door carries the same six instruments, in this stored order:
+| # | Instrument | Field ID | What it stores | Engineer constraint |
+|---|------------|----------|----------------|---------------------|
+| 1 | Geometry | `geometry` | Named polygon / line set + joint map for that door | SVG or JSON skeleton; one primary polygon |
+| 2 | Chemical reaction | `reaction` | Named phase change (e.g. solid→fluid attention, heat rise, cool settle) | Enum + short prose; no medical claims |
+| 3 | Breath signature | `breath` | Pattern: pace, ratio, where breath lands | Machine-readable: `{inhale, hold, exhale, cycles}` + cue text |
+| 4 | Orientation adjustment | `orientation` | Gravity / axis / facing tweak vs a neutral stand | Degrees or named cue (e.g. “crown over heels”, “gaze soft front”) |
+| 5 | Attention lock | `attention` | Focal point; may name a chakra when the door uses one | Single primary lock; optional secondary |
+| 6 | Adiyogi method | `adiyogi` | VBT verse ref + research method summary from bot R-nnn | Cite verse id; flag `historical_extreme: true` when non-practice |
 
-1. **Geometry** — a polygon name and vertices. A sketch of the figure in a teaching plane.
-2. **Reaction** — reactants, catalyst, product, and phase. An alchemical metaphor for what the practice is doing. Not laboratory chemistry, and not a substance.
-3. **Breath** — inhale, exhale, and pause as equal counts (a comfortable pulse, not a clock second), plus the bandha, which may be “none.”
-4. **Orientation** — hand placement, gaze, and the joint that leads.
-5. **Attention** — the locus, and optionally a traditional center.
-6. **Adiyogi method** — a Vijnana Bhairava Tantra verse number and a short gloss.
+**Interlock rule:** Teaching output for a door always emits all six in one 8-beat script. No door ships with only asana geometry.
 
-Around those six, each door also names its number, Sanskrit and English names, house, element, color, seed syllable, guardian, safety notes, and five ways of teaching it.
+### Exemplar — Door 001 (Tadasana / Mountain)
 
-Optional fields the sequencer requires in practice, and which fail closed when missing:
+| Instrument | Content (concrete draft) |
+|------------|--------------------------|
+| Geometry | Vertical line + base triangle (two feet → pelvic floor). Polygon: upright column. |
+| Reaction | “Settle” — scattered charge → grounded stillness (name only; not a lab claim). |
+| Breath | Natural lengthen: inhale 4 / exhale 4; 6 cycles. Breath lands in lower belly then ribs. |
+| Orientation | Crown over heels; weight even on triple foot points; gaze soft horizontal. |
+| Attention | Lock at soles + crown axis (mula–sahasrara line as school attention map, not medical). |
+| Adiyogi | Pair with opening / still-point VBT lane assigned to D-001 by research bot R-001; verse text in knowledge graph only. |
 
-- `house_intensity` (1–5)
-- `breath_demand` (1–5)
-- `requires_lotus` (boolean)
-- `adiyogi_method.extreme` (boolean)
+### Exemplar — Door 049 (Bhujangasana / Cobra)
 
-## Door flow
+| Instrument | Content (concrete draft) |
+|------------|--------------------------|
+| Geometry | Arc from pubis through thoracic; arms as props. Polygon: low crescent. |
+| Reaction | “Heat lift” — cool belly → warm open front body (metaphorical phase label). |
+| Breath | Inhale to rise, brief hold at top, exhale to soften chest; no forced max height. |
+| Orientation | Pubis and tops of feet stay heavy; elbows soft; gaze forward-up only if neck free. |
+| Attention | Lock at sternum / anahata band; secondary: length of back body. |
+| Adiyogi | R-049 supplies VBT method for heart-space / rising awareness; if verse is extreme, `practice_mode: observe_only`. |
 
-The stored order of the six instruments is the order on the door. The spoken tutorial is eight beats, because a student needs an arrival and a close, and because orientation is heard before the count that will limit it:
+### Exemplar — Door 112 (Padmasana / Lotus)
 
-1. Arrive — name, house, element, color, bija, guardian. Nothing is asked yet.
-2. Geometry
-3. Orientation
-4. Breath
-5. Reaction metaphor
-6. Attention
-7. Adiyogi method
-8. Close — leave the figure, one of the five ways, the first safety note.
+| Instrument | Content (concrete draft) |
+|------------|--------------------------|
+| Geometry | Closed seat polygon; knees as hinges — **never force**. Alternate geometry: sukhasana / siddhasana for most bodies. |
+| Reaction | “Seal” — outer motion → inner closed circuit (school label). |
+| Breath | Slow equal breath; longer exhale if agitation. |
+| Orientation | Both sit bones; spine tall; if knees complain → exit to open seat immediately. |
+| Attention | Lock at brow or heart per student’s lane; default brow for D-112 school map. |
+| Adiyogi | Culminating VBT method from R-112; lotus as **optional seat**, not proof of mastery. Safety layer overrides geometry. |
 
-Breath is spoken after the figure is seen and before anyone is praised for holding it. If breath capacity is below the door’s demand, beats 2 and 3 are marked `observe_only`: the figure is shown and not entered, and the count is shortened.
+---
 
-The three seeded doors:
+## 3. ARCHITECTURE
 
-| Door | Name | House | Intensity | Breath demand | VBT | Extreme |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1 | Tāḍāsana, Mountain | House of the Rooted Axis | 1 | 1 | 24 (yukti 1) | no |
-| 49 | Bhujaṅgāsana, Cobra | House of the Wakeful Spine | 3 | 2 | 49 (yukti 23) | no |
-| 112 | Padmāsana, Lotus | House of the Unstruck Seat | 5 | 3 | 138 (yukti 112) | yes |
+Five layers. Build bottom-up; do not skip safety.
 
-Other houses are not invented here. Unassigned doors stay null in `doors/index.json` until a later plan names them.
+### (a) 112-door knowledge graph
 
-## Safety — five hard laws
+- **Nodes:** `Door`, `House`, `Geometry`, `Reaction`, `Breath`, `Orientation`, `Attention`, `VBTVerse`, `ResearchNote`, `TutorialBeat`.
+- **Edges:** `Door -[:IN_HOUSE]-> House`, `Door -[:HAS]->` each of the six instruments, `Door -[:PAIRED_WITH]-> VBTVerse` (school pairing, tagged `pairing_type: school_device`), `Door -[:TAUGHT_BY]-> TutorialBeat` (exactly 8 beats).
+- **Store (Phase 1–2):** JSON/YAML files under `doors/D-XXX/door.json` + optional graph export later.
+- **Required schema keys:** `id`, `name`, `house`, `status` (`stub`|`researched`|`live`), six instruments, `safety`, `beats[8]`.
 
-Encoded as named constants and gate functions in `engine/safety.ts`. Prose copy: `safety/rules.md`.
+### (b) 112 research bots (R-001 … R-112)
 
-1. **Pain is a hard stop** (`PAIN_IS_A_HARD_STOP`). Halt. Never push through. No script.
-2. **Lotus is never forced** (`LOTUS_IS_NEVER_FORCED`). Door 112, and any `requires_lotus` door, stays shut until `lotus_ready` is true. The teaching script, when the door does open, still tells the student to leave if a knee complains.
-3. **Extreme VBT is observe_only** (`EXTREME_VBT_IS_OBSERVE_ONLY`). While `vbt_observe_only` is true, an extreme dharana is heard and not performed. Door 112’s verse is extreme. Verses 24 and 49, as used here, are not.
-4. **Breath leads posture** (`BREATH_LEADS_POSTURE`). Geometry is not forced against breath capacity. Low capacity marks geometry and orientation `observe_only` and shortens the count.
-5. **Guardian intensity gate** (`GUARDIAN_INTENSITY_GATE`). `intensity_clearance` must meet `house_intensity` before the door opens.
+- One bot (or one bot-run) per door. Output = fill the six instruments + sources + honesty flags.
+- Feed **guardians** (review roles): accuracy, safety, non-canon pairing disclosure, language tone.
+- Pipeline: `R-nnn draft → guardian check → merge to door.json → status=researched`.
+- Bots never invent medical outcomes; extreme VBT methods marked historical.
 
-A missing intensity or a missing breath demand fails closed. These laws are ordinary teaching limits, not medical claims.
+### (c) Teaching engine
 
-## Sequencer
+- Inputs: student profile (readiness, contraindications, language), current house path, completed doors.
+- Logic: sequence by house order unless readiness gate fails; then offer regression door or prep door.
+- Readiness gates (minimal v1): pain flag, lotus/knee gate, breath capacity, attention stability score (self-report).
+- Output: next door id + 8-beat script + “do not force” overlays.
 
-`engine/sequencer.ts` loads a door by number, or chooses the next seeded door the laws allow, and returns a session:
+### (d) Safety layer (hard rules)
 
-- `status`: `teaching`, `halt`, or `blocked`
-- `door`: the door, or null when pain stops the meeting before a door opens
-- `script`: eight beats, or an empty list when halted or blocked
-- `gates`: one result per law
-- `message`: a single paragraph a teacher can read aloud as the reason
+1. Pain = information → pause, regress, or exit; never “push through.”  
+2. Never force lotus (or any closed hip/knee bind). Offer open-seat twin.  
+3. Extreme VBT methods = historical / contemplative text, not class drills.  
+4. Practice ≠ medical treatment; no diagnose/cure language in UI.  
+5. No doorway is owned — lineage credited; school pairing labeled as school device.
 
-A blocked or halted session has no tutorial to follow. Callers must not improvise a lotus from the door JSON after a block.
+### (e) Presentation layer
 
-Student profile:
+- Format: **cartoon temple-mural tutorials**, **8 beats per door**.
+- Beat map (fixed): (1) name the door, (2) geometry, (3) orientation, (4) breath, (5) attention, (6) reaction cue, (7) Adiyogi thread (safe form), (8) exit / integrate.
+- Assets: mural frames + short captions; Mongolian + English strings from day one of Phase 5 (structure strings with `i18n` keys from Phase 2).
 
-```ts
-{
-  pain: boolean;
-  lotus_ready: boolean;
-  vbt_observe_only: boolean;
-  completed_doors: number[];
-  breath_capacity: number; // 1–5
-  intensity_clearance: number; // 1–5
-}
+```
+[Student] → [Teaching Engine] → [Door Graph]
+                 ↓                    ↑
+           [Safety Layer] ←—— [Guardians]
+                 ↓
+        [8-beat Mural UI]
+                 ↑
+        [R-001..R-112 research]
 ```
 
-Run:
+---
 
-```bash
-npm install
-npx tsc --noEmit
-npm run teach -- --door 1
-npm run check
-```
+## 4. PHASES
 
-Exit codes: `0` teaching, `2` halt, `3` blocked, `1` bad input or an unassigned door.
+| Phase | Name | Outcome | Exit criteria |
+|-------|------|---------|---------------|
+| **0** | Volume 0 + charter | Book + school charter exist | **Done** (per current brief) |
+| **1** | Light all 112 research bots | Every `doors/D-XXX/door.json` has six instruments + sources + flags | 112 × `status=researched`; guardian sign-off checklist complete |
+| **2** | Teaching engine prototype | **3 doors live** (recommend D-001, D-049, D-112) | Student can run full 8-beat flow; safety gates fire in test; i18n keys stubbed |
+| **3** | Full 112-door digital twin | All doors `status=live` in digital machine | Graph complete; sequencing by house; regression paths tested |
+| **4** | Physical installation / kiosk | On-site mural + kiosk build | Offline-capable lesson player; durability + accessibility pass |
+| **5** | Multilingual editions | English + Mongolian first | All UI + beat captions translated; verse handling policy per language |
 
-## Bots
+**Phase 2 door set (locked for prototype):** D-001 Tadasana, D-049 Bhujangasana, D-112 Padmasana (with mandatory open-seat alternate).
 
-Eight roles in `bots/roster.json`: Doorwarden, Geometer, Orienter, Counter, Alembic, Lamp, Reader, Closer. They are duties, not a cast. The Doorwarden may refuse the others their turn. A person in the room outranks the roster when pain appears.
+---
 
-## Roadmap
+## 5. RISKS & HONESTY LAWS
 
-What this draft does not do, and does not pretend to have done:
+| Law | Statement | Product consequence |
+|-----|-----------|---------------------|
+| School device | Serial asana ↔ VBT pairing is a **School of 112 Doorways** teaching device, not ancient canon | UI footer / door meta: “School pairing” |
+| Historical extremes | Some VBT methods are historical or unfit for class | `practice_mode: observe_only` \| `historical` |
+| Not medicine | Practice is not medical treatment | No diagnosis, prescription, or cure claims |
+| No ownership | No doorway owned by the school | Credits + open citation fields |
+| Pain | Pain = information | Safety layer can halt a session |
+| Lotus | Never force | Alternate geometry always offered for D-112 and binds |
 
-- Name doors 2–48, 50–111, or assign their houses.
-- Replace this file with a Chief of Staff verbatim plan.
-- Build the cartoon as software. The storyboard is `ui/cartoon-tutorial.md`.
-- Add accounts, progress streaks, or advice that outruns the five laws.
-- Treat a verse gloss as a translation or as śakti-pāta.
+**Other risks:** hallucination in research bots (mitigate: guardians + source URLs); cultural flattening (mitigate: Mongolian edition + local review); kiosk misuse without teacher (mitigate: Phase 4 always shows safety beat).
 
-When the remaining doors are seeded, each one must validate against `schemas/door.schema.json`, carry real safety notes, and fail closed if intensity or breath demand is omitted. Lotus-like demands set `requires_lotus`. Forceful or culminating dharanas set `adiyogi_method.extreme`.
+---
+
+## 6. DELIVERABLES LIST
+
+### Exists now (Phase 0)
+
+- [x] Volume 0 book  
+- [x] School charter  
+- [ ] *(Add exact file paths / URLs here when inventoried)*
+
+### Create next (Phase 1 → 2)
+
+| Deliverable | Path / artifact | Owner |
+|-------------|-----------------|-------|
+| Door schema | `schemas/door.schema.json` | Engineer |
+| Door stubs × 112 | `doors/D-001` … `D-112/door.json` | Engineer + bots |
+| Research bot prompts | `research/R-NNN.md` or bot configs | Chief of Staff / Engineer |
+| Guardian checklist | `guardians/CHECKLIST.md` | Chief of Staff |
+| Teaching engine v0 | `engine/` (sequence + readiness) | Engineer |
+| Prototype tutorials | 3 × 8-beat mural scripts + art briefs | Engineer + art |
+| Safety module | `engine/safety.js` (or equiv.) | Engineer |
+| i18n stub | `i18n/en.json`, `i18n/mn.json` | Engineer |
+| This master plan | `YOGA-TEACHING-MACHINE-MASTER-PLAN.md` | Chief of Staff |
+
+### Later
+
+- Phase 3: full graph export, house curricula, student progress store  
+- Phase 4: kiosk hardware spec + offline package  
+- Phase 5: full EN/MN editorial pass + any further languages  
+
+---
+
+## Engineer: first build ticket (do this first)
+
+1. Commit `schemas/door.schema.json` matching the six instruments + safety + 8 beats.  
+2. Generate 112 stub `door.json` files (`status: stub`).  
+3. Flesh **D-001, D-049, D-112** to `researched` by hand or bot.  
+4. Implement teaching engine that plays one door as 8 beats with safety halt.  
+5. Do not start kiosk or full bot farm until schema + 3-door prototype pass review.
+
+---
+
+## Changelog
+
+- **2026-09-25** — v1 master plan: vision, stack, architecture, phases, honesty laws, deliverables.

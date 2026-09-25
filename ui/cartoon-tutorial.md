@@ -8,11 +8,11 @@ Character: a student in plain cloth, barefoot, face calm and specific, not cute.
 
 Palette: paper, ochre for Mountain, emerald for Cobra, indigo for Lotus. Black line throughout.
 
-## Panel 1 — Arrive
+## Panel 1 — Name the door
 
-The student stands before a closed wooden door. The number is cut into the lintel. A hand (Doorwarden) rests on the latch and does not yet move it. In the corner, five short strokes stand for the five laws; none of them is a icon with a label shout.
+The student stands before a wooden door. The number is cut into the lintel. A small line under the number reads “school_device,” crediting the verse tradition without claiming the pose is the verse. A hand (Doorwarden) rests on the latch.
 
-Caption: “Door 1. Tāḍāsana. Nothing is asked yet.”
+Caption: “Door 1. Tāḍāsana. School pairing.”
 
 ## Panel 2 — Geometry
 
@@ -34,27 +34,27 @@ The Counter’s hand lays four beads, then four beads, then two beads of a paler
 
 Caption: “Four in. Four out. Two quiet. Leave the count if it grips.”
 
-## Panel 5 — Reaction
-
-The Alembic’s hand sets down a sealed clay flask. It is not opened. The wash inside is ochre, the same as the house color. A written slip beside it reads “metaphor.”
-
-Caption: “Weight and a hunting gaze, met by both soles. The product is quiet, or there is no product.”
-
-## Panel 6 — Attention
+## Panel 5 — Attention
 
 The Lamp’s hand holds a small oil lamp at the height of the chest, then lowers the flame, in the drawing, to a thin line from the feet to the crown. The room does not get busier.
 
 Caption: “The line from the soles to the crown.”
 
-## Panel 7 — Adiyogi method
+## Panel 6 — Reaction
 
-The Reader’s hand opens a palm-leaf copy just enough to show a verse number, 24, not a paragraph of scripture. The student’s eyes are on the number, then back on the horizon.
+The Alembic’s hand sets down a sealed clay flask. It is not opened. The wash inside is ochre, the same as the house color. A written slip beside it reads “metaphor.”
 
-Caption: “Verse 24. A teaching reference: the pause between breaths. Not a claim that the pose is the verse.”
+Caption: “Weight and a hunting gaze, met by both soles. The product is quiet, or there is no product.”
 
-For door 112 the leaf is marked with a ring, and the caption begins “Observe only,” unless the profile has cleared extreme practice.
+## Panel 7 — Adiyogi thread
 
-## Panel 8 — Close
+The Reader’s hand opens a palm-leaf copy just enough to show a verse number, 24, not a paragraph of scripture. The student’s eyes are on the number, then back on the horizon. A corner of the leaf says “school_device.”
+
+Caption: “Verse 24, safe form. A school pairing: the pause between breaths. Not a claim that the pose is the verse.”
+
+For door 112 the leaf is ringed and the caption begins “Observe only. Not a class drill.” No profile removes that ring.
+
+## Panel 8 — Exit / integrate
 
 The student has stepped back. The door is closing, not slammed. The Closer’s hand returns the triangle, the beads, the flask, and the leaf to a shelf. One safety sentence is lettered on the back of the door, small enough that the student must stand close to read it.
 
@@ -62,10 +62,10 @@ Caption: “Leave the figure before you decide how it went.”
 
 ## Lotus, specially
 
-If `lotus_ready` is false, panel 1 does not open. The lintel still reads 112. The Doorwarden’s hand does not lift. There is no drawing of a foot being pulled onto a thigh, anywhere in the film.
+The lintel still reads 112. Panel 2 draws two figures: a closed octagon, crossed out, and an open seat (easy cross-leg, or a chair). The student sits in the open seat. There is no drawing of a foot being pulled onto a thigh, anywhere in the film.
 
-If the door does open, the octagon is drawn on the floor as eight petals of chalk. The student’s legs are shown only in a seat they already have. A second, smaller figure — the teacher’s, or a drawing on the wall — may show full lotus. The student is not that figure unless the knee is already at rest.
+If `lotus_ready` is true, the octagon may be drawn in chalk as a possibility. The student’s legs are still shown only in a seat the knees already accept. The open seat stays in the same panel, labeled twin.
 
 ## What this storyboard refuses
 
-No glowing chakras racing up the spine. No before-and-after body. No verse quoted as decoration. No joke at the expense of the practice. The cartoon is a sequence of hands and objects so a new teacher can see the order: arrive, geometry, orientation, breath, reaction, attention, method, close.
+No glowing chakras racing up the spine. No before-and-after body. No verse quoted as decoration. No joke at the expense of the practice. The cartoon is a sequence of hands and objects so a new teacher can see the order: name the door, geometry, orientation, breath, attention, reaction, Adiyogi thread, exit.

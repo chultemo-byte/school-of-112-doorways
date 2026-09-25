@@ -9,6 +9,9 @@
   "house_intensity": 3,
   "breath_demand": 2,
   "requires_lotus": false,
+  "status": "researched",
+  "pairing_type": "school_device",
+  "lineage": "Vijnana Bhairava Tantra. The asana–verse pairing on this door is a School of 112 Doorways device (school_device), not a claim of ancient one-to-one canon.",
   "geometry": {
     "polygon": "rising arc",
     "vertices": [
@@ -51,6 +54,7 @@
     "vbt_verse": 49,
     "yukti": 23,
     "extreme": false,
+    "practice_mode": "practice",
     "summary": "Teaching reference. Verse 49 of the Vijnana Bhairava Tantra is yukti 23 in the common enumeration. It turns attention into the space of the heart, in the inner recess of the heart-lotus, with the senses unhooked from their objects. The verse's lotus is the heart, not Padmāsana, and it is not an instruction to lift Cobra higher. In this school the pose only serves that width. If an edition numbers the verse a line off, follow the heart-space dharana and say so."
   },
   "guardian": "Ananta — the coil that holds, and does not strike",

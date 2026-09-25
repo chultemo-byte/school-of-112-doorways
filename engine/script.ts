@@ -1,7 +1,9 @@
-import type { Door, SpokenBreath, TutorialBeat } from "./types.ts";
+import type { Door, Geometry, SpokenBreath, TutorialBeat } from "./types.ts";
+import { openSeatName, vbtMode } from "./safety.ts";
 
 export interface ScriptMarks {
-  geometryObserveOnly: boolean;
+  /** Closed bind is replaced by the open-seat twin for this session. */
+  openSeat: boolean;
   vbtObserveOnly: boolean;
   breath: SpokenBreath;
 }
@@ -17,14 +19,27 @@ function mark(observe: boolean): { observe_only: true } | Record<string, never> 
   return observe ? { observe_only: true } : {};
 }
 
+function figureClause(geometry: Geometry): string {
+  const seat = geometry.seat ? " Seat: " + geometry.seat + "." : "";
+  const units = geometry.units ? " " + geometry.units : "";
+  return (
+    article(geometry.polygon) +
+    " " +
+    geometry.polygon +
+    " (" +
+    geometry.vertices.length +
+    " vertices)." +
+    seat +
+    units
+  );
+}
+
 /**
- * Eight beats: arrive, geometry, orientation, breath, reaction, attention,
- * adiyogi method, close. The six instruments live on the door; this is the
- * order a student hears them.
+ * Eight beats from the master plan:
+ * name the door, geometry, orientation, breath, attention, reaction,
+ * Adiyogi thread in its safe form, exit / integrate.
  */
 export function buildScript(door: Door, marks: ScriptMarks): TutorialBeat[] {
-  const geometryObserve = marks.geometryObserveOnly;
-  const vbtObserve = marks.vbtObserveOnly;
   const breath = marks.breath;
   const canonical = door.breath;
   const pauseSpoken =
@@ -35,39 +50,40 @@ export function buildScript(door: Door, marks: ScriptMarks): TutorialBeat[] {
         " after the " +
         (canonical.pause_after === "inhale" ? "inhale" : "exhale") +
         ".";
+  const twin = openSeatName(door);
+  const practiced = marks.openSeat && door.alternate_geometry ? door.alternate_geometry : door.geometry;
 
-  const geometrySpoken = geometryObserve
-    ? "Observe only. The figure is " +
-      article(door.geometry.polygon) +
-      " " +
-      door.geometry.polygon +
-      " (" +
-      door.geometry.vertices.length +
-      " vertices). Look at it. Do not build it with the body. Breath has not cleared this geometry, so the geometry waits."
-    : "The figure is " +
-      article(door.geometry.polygon) +
-      " " +
-      door.geometry.polygon +
-      ", " +
-      door.geometry.vertices.length +
-      " vertices, a teaching sketch rather than a measurement. See it, then enter only as far as the next breaths stay honest. If the breath thins to win the shape, the shape is finished. " +
-      (door.geometry.units ?? "");
+  let geometrySpoken: string;
+  if (marks.openSeat && door.alternate_geometry) {
+    geometrySpoken =
+      "Closed figure, not entered: " +
+      figureClause(door.geometry) +
+      " Never force lotus or a closed hip or knee bind. Open-seat twin, and the figure for today: " +
+      figureClause(door.alternate_geometry);
+  } else if (twin && door.requires_lotus) {
+    geometrySpoken =
+      "The figure is " +
+      figureClause(door.geometry) +
+      " Never force it. If either knee complains, leave at once for the open-seat twin: " +
+      twin +
+      ".";
+  } else {
+    geometrySpoken =
+      "The figure is " +
+      figureClause(practiced) +
+      " A teaching sketch, not a measurement. If the breath thins to win the shape, the shape is finished.";
+  }
 
-  const orientationSpoken = geometryObserve
-    ? "Observe only. Hands: " +
-      door.orientation.hand_placement +
-      " Gaze: " +
-      door.orientation.gaze +
-      " Joint lead: " +
-      door.orientation.joint_lead +
-      " Hear the placement. Do not take it."
-    : "Hands: " +
-      door.orientation.hand_placement +
-      " Gaze: " +
-      door.orientation.gaze +
-      " The joint that leads: " +
-      door.orientation.joint_lead +
-      " If a joint that should follow begins to lead, come back.";
+  const orientationSpoken =
+    "Hands: " +
+    door.orientation.hand_placement +
+    " Gaze: " +
+    door.orientation.gaze +
+    " The joint that leads: " +
+    door.orientation.joint_lead +
+    (marks.openSeat
+      ? " Use this orientation in the open seat, not in lotus. A knee that would have to be persuaded ends the closed shape only; this session stays with the twin."
+      : " If a joint that should follow begins to lead, come back.");
 
   const breathSpoken = breath.scaled
     ? "The door records inhale " +
@@ -76,7 +92,7 @@ export function buildScript(door: Door, marks: ScriptMarks): TutorialBeat[] {
       canonical.exhale +
       ", pause " +
       canonical.pause +
-      ". Breath leads, so today is inhale " +
+      ". The count is shortened to the breath you have: inhale " +
       breath.inhale +
       ", exhale " +
       breath.exhale +
@@ -102,6 +118,13 @@ export function buildScript(door: Door, marks: ScriptMarks): TutorialBeat[] {
       BREATH_UNIT +
       " Stay inside this count. Do not lengthen it to feel serious.";
 
+  const attentionSpoken =
+    "Rest attention at " +
+    door.attention.locus +
+    "." +
+    (door.attention.chakra ? " The traditional center named here is " + door.attention.chakra + "." : "") +
+    " If attention becomes a project, return to the breath count.";
+
   const reactionNote = door.reaction.note ? " " + door.reaction.note : "";
   const reactionSpoken =
     "This is a metaphor, not a substance and not a procedure. Reactants: " +
@@ -115,36 +138,33 @@ export function buildScript(door: Door, marks: ScriptMarks): TutorialBeat[] {
     "." +
     reactionNote;
 
-  const attentionSpoken =
-    "Rest attention at " +
-    door.attention.locus +
-    "." +
-    (door.attention.chakra ? " The traditional center named here is " + door.attention.chakra + "." : "") +
-    " If attention becomes a project, return to the breath count.";
-
-  const adiyogiSpoken = vbtObserve
-    ? "Observe only. Do not turn this into an exercise. Vijnana Bhairava Tantra, verse " +
-      door.adiyogi_method.vbt_verse +
-      (door.adiyogi_method.yukti !== undefined ? " (yukti " + door.adiyogi_method.yukti + ")" : "") +
-      ". " +
-      door.adiyogi_method.summary
-    : "Vijnana Bhairava Tantra, verse " +
-      door.adiyogi_method.vbt_verse +
-      (door.adiyogi_method.yukti !== undefined ? " (yukti " + door.adiyogi_method.yukti + ")" : "") +
-      ". " +
-      door.adiyogi_method.summary;
+  const mode = vbtMode(door);
+  const verse =
+    "Vijnana Bhairava Tantra, verse " +
+    door.adiyogi_method.vbt_verse +
+    (door.adiyogi_method.yukti !== undefined ? " (yukti " + door.adiyogi_method.yukti + ")" : "") +
+    ". School pairing: school_device. " +
+    door.adiyogi_method.summary;
+  const adiyogiSpoken = marks.vbtObserveOnly
+    ? "Safe form. " +
+      (mode === "historical" ? "Historical. " : "") +
+      "Observe only. Not a class drill. " +
+      verse
+    : "Safe form. " + verse;
 
   const closeSpoken =
-    "Come out of the figure before you decide how it went. One way for the next meeting, not all five: " +
+    "Exit the figure before you decide how it went. Integrate by feeling the ground that is already under you. One way for the next meeting, not all five: " +
     door.five_ways[0] +
     " Safety stays in force. " +
     door.safety_notes[0] +
-    " The guardian does not grade the stay.";
+    " Practice is not medical treatment. The school does not own this door.";
+
+  const pairing = door.pairing_type === "school_device" ? "school_device" : "unlabeled";
 
   const beats: TutorialBeat[] = [
     {
       beat: 1,
-      title: "Arrive",
+      title: "Name the door",
       spoken:
         "Door " +
         door.number +
@@ -162,21 +182,23 @@ export function buildScript(door: Door, marks: ScriptMarks): TutorialBeat[] {
         door.bija +
         ", once, without decoration. Guardian: " +
         door.guardian +
-        ". Nothing is asked yet. Feel the ground that is already under you.",
+        ". Lineage: " +
+        (door.lineage ?? "uncredited") +
+        " Pairing type: " +
+        pairing +
+        ".",
     },
     {
       beat: 2,
       title: "Geometry",
       instrument: "geometry",
       spoken: geometrySpoken.trim(),
-      ...mark(geometryObserve),
     },
     {
       beat: 3,
       title: "Orientation",
       instrument: "orientation",
       spoken: orientationSpoken,
-      ...mark(geometryObserve),
     },
     {
       beat: 4,
@@ -186,26 +208,26 @@ export function buildScript(door: Door, marks: ScriptMarks): TutorialBeat[] {
     },
     {
       beat: 5,
-      title: "Reaction",
-      instrument: "reaction",
-      spoken: reactionSpoken,
-    },
-    {
-      beat: 6,
       title: "Attention",
       instrument: "attention",
       spoken: attentionSpoken,
     },
     {
+      beat: 6,
+      title: "Reaction",
+      instrument: "reaction",
+      spoken: reactionSpoken,
+    },
+    {
       beat: 7,
-      title: "Adiyogi method",
+      title: "Adiyogi thread",
       instrument: "adiyogi_method",
       spoken: adiyogiSpoken,
-      ...mark(vbtObserve),
+      ...mark(marks.vbtObserveOnly),
     },
     {
       beat: 8,
-      title: "Close",
+      title: "Exit / integrate",
       spoken: closeSpoken,
     },
   ];

@@ -14,18 +14,18 @@ This is a craft record, not a feed. It does not diagnose, and it does not claim 
 
 ## How a door is spoken
 
-The door stores the six instruments. The sequencer speaks them as eight beats:
+The door stores the six instruments. The sequencer speaks them as eight beats, in the master plan’s order:
 
-1. **Arrive** — name, house, element, color, seed syllable, guardian.
-2. **Geometry** — the polygon and its vertices, as a sketch.
+1. **Name the door** — Sanskrit, English, house, lineage, and the `school_device` pairing label.
+2. **Geometry** — the polygon and its vertices, as a sketch. Lotus offers the open-seat twin here.
 3. **Orientation** — hands, gaze, and the joint that leads.
-4. **Breath** — inhale, exhale, and pause in equal counts (a comfortable pulse, not a clock second), and the bandha or the refusal to use one.
-5. **Reaction** — reactants, catalyst, product, phase. A metaphor. Nothing is mixed or applied.
-6. **Attention** — the locus.
-7. **Adiyogi method** — VBT verse number and a teaching gloss. Extreme verses are marked observe-only until the profile allows practice.
-8. **Close** — leave the figure, one of the five ways, the first safety note.
+4. **Breath** — inhale, exhale, and pause in equal counts (a comfortable pulse, not a clock second), and the bandha or the refusal to use one. A short breath shortens the count.
+5. **Attention** — the locus.
+6. **Reaction** — reactants, catalyst, product, phase. A metaphor. Nothing is mixed or applied.
+7. **Adiyogi thread** — VBT verse number and a teaching gloss, in its safe form. Extreme methods are observe-only, not class drills.
+8. **Exit / integrate** — leave the figure, one of the five ways, and the line that practice is not medical treatment.
 
-Five laws can interrupt that order. Pain halts the session with no script. Lotus (door 112) never opens until the profile says the student is ready, and even then a complaining knee ends it. A house above the student’s intensity clearance stays shut. If breath capacity is below the door’s demand, the shape is shown and not entered, and the count is shortened. The laws are in `engine/safety.ts` and `safety/rules.md`. The working plan is `docs/YOGA-TEACHING-MACHINE-MASTER-PLAN.md` (an engineer draft, until a Chief of Staff text replaces it).
+Five laws can interrupt that order. Pain pauses, names a regression door when there is an earlier one, and exits — the script is empty, and nothing is pushed through. Lotus and any closed hip or knee bind are never forced; door 112 teaches Sukhāsana or a chair unless the profile is lotus-ready, and even then the knee is not hauled. Extreme VBT stays historical or observe-only. Diagnose and cure language blocks a door. Every taught door credits its lineage and is labeled `school_device`. The laws are in `engine/safety.ts` and `safety/rules.md`. The plan is `docs/YOGA-TEACHING-MACHINE-MASTER-PLAN.md`, the Chief of Staff text, verbatim.
 
 ## Run the prototype
 
@@ -41,13 +41,13 @@ Cobra, with the default profile (breath 3, intensity clearance 3):
 npm run teach -- --door 49
 ```
 
-Lotus stays shut on that profile. Both the guardian gate and the lotus law refuse it, and there is no tutorial to follow:
+Door 112 on that profile teaches the open-seat twin and reads verse 138 as observe-only. It does not ask for lotus:
 
 ```bash
 npm run teach -- --door 112
 ```
 
-A profile that has cleared the house and is willing to study the extreme verse without being asked to perform it:
+With `lotus_ready` true the closed seat may be described, still never forced, and the verse stays observe-only:
 
 ```bash
 npm run teach -- --door 112 --profile profiles/lotus-cleared.json
@@ -72,6 +72,6 @@ engine/      types, safety gates, sequencer
 safety/      the five laws in prose; index.ts re-exports the gates
 bots/        eight teaching roles
 ui/          cartoon storyboard (not an app)
-docs/        master plan (engineer draft)
+docs/        Chief of Staff master plan, verbatim
 profiles/    example readiness files
 ```

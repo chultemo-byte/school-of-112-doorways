@@ -5,20 +5,20 @@ import { loadDoor, seededDoors } from "./doors.ts";
 import { buildScript } from "./script.ts";
 import {
   assertProfile,
-  doorRequiresLotus,
+  doorIsClosedBind,
   evaluateGates,
-  FIVE_HARD_LAWS,
-  geometryIsObserveOnly,
+  regressionDoor,
   scaleBreath,
   sessionIsBlocked,
   sessionIsHalted,
+  usesOpenSeat,
   vbtIsObserveOnly,
 } from "./safety.ts";
 import type { Door, StudentProfile, TeachingSession } from "./types.ts";
 
 /**
- * Default readiness: foundation work is open, cobra's house is just open,
- * lotus and extreme VBT are not.
+ * Default readiness: no pain, lotus not ready (open seat instead),
+ * extreme VBT stays observe_only regardless of the flag below.
  */
 export const DEFAULT_PROFILE: StudentProfile = {
   pain: false,
@@ -48,7 +48,16 @@ function doorCouldOpen(profile: StudentProfile, door: Door): boolean {
 function refusalMessage(door: Door, gates: TeachingSession["gates"]): string {
   const reasons = gates.filter((gate) => gate.effect === "halt" || gate.effect === "block");
   const lines = reasons.map((gate) => gate.detail);
-  return "Door " + door.number + " (" + door.english + ") does not open. " + lines.join(" ");
+  return "Door " + door.number + " (" + door.english + ") is not taught. " + lines.join(" ");
+}
+
+function painMessage(door: Door | null): string {
+  const regression = regressionDoor(door);
+  const which = door ? " Door " + door.number + " stops." : " No door is selected.";
+  const later = regression
+    ? " Regression door, for a later session and not while pain is present: " + regression + " (Mountain)."
+    : " Exit. There is no earlier door to regress to.";
+  return "Pain is information. Pause, regress, or exit. Never push through." + which + later + " Practice is not medical treatment.";
 }
 
 /**
@@ -59,22 +68,23 @@ export function teach(profile: StudentProfile, options: TeachOptions = {}): Teac
   assertProfile(profile);
 
   if (profile.pain && options.door === undefined) {
-    const law = FIVE_HARD_LAWS[0];
+    const gates = [
+      {
+        law: "PAIN_IS_INFORMATION" as const,
+        title: "Pain is information",
+        passed: false,
+        effect: "halt" as const,
+        detail: "Pain is reported. No door is selected. Pause or exit. Never push through.",
+      },
+    ];
     return {
       status: "halt",
       profile,
       door: null,
       script: [],
-      gates: [
-        {
-          law: law.id,
-          title: law.title,
-          passed: false,
-          effect: "halt",
-          detail: "Pain is reported. No door is selected.",
-        },
-      ],
-      message: "Pain is a hard stop. The sequence does not continue. Rest. If pain persists, ask a person who can see you — a teacher in the room, or a clinician. This machine does not diagnose.",
+      gates,
+      message: painMessage(null),
+      regression_door: null,
     };
   }
 
@@ -94,8 +104,9 @@ export function teach(profile: StudentProfile, options: TeachOptions = {}): Teac
         door: null,
         script: [],
         gates: [],
+        regression_door: null,
         message: lotusWaiting
-          ? "No seeded door is open. Door 112 remains, and it stays shut until lotus readiness and house clearance are both true. Lotus is never forced."
+          ? "No seeded door is open under these laws. Door 112 remains on the record. Lotus is never forced; an open-seat twin is the way in when the other laws allow it."
           : "No seeded door is open for this profile.",
       };
     }
@@ -111,10 +122,8 @@ export function teach(profile: StudentProfile, options: TeachOptions = {}): Teac
       door: null,
       script: [],
       gates,
-      message:
-        "Pain is a hard stop. Door " +
-        door.number +
-        " is not taught. Rest. If pain persists, ask a person who can see you. This machine does not diagnose.",
+      regression_door: regressionDoor(door),
+      message: painMessage(door),
     };
   }
 
@@ -125,24 +134,28 @@ export function teach(profile: StudentProfile, options: TeachOptions = {}): Teac
       door,
       script: [],
       gates,
+      regression_door: null,
       message: refusalMessage(door, gates),
     };
   }
 
+  const openSeat = usesOpenSeat(profile, door);
   const script = buildScript(door, {
-    geometryObserveOnly: geometryIsObserveOnly(gates),
+    openSeat,
     vbtObserveOnly: vbtIsObserveOnly(gates),
     breath: scaleBreath(door, profile),
   });
 
-  const observes: string[] = [];
-  if (geometryIsObserveOnly(gates)) {
-    observes.push("geometry and orientation are observe_only because breath leads");
+  const notes: string[] = [];
+  if (openSeat) {
+    notes.push("the closed bind is not entered; the open-seat twin is the figure");
+  } else if (doorIsClosedBind(door)) {
+    notes.push("lotus may be described and is never forced");
   }
   if (vbtIsObserveOnly(gates)) {
-    observes.push("the Adiyogi beat is observe_only");
+    notes.push("the Adiyogi beat is historical or observe_only, not a class drill");
   }
-  const suffix = observes.length > 0 ? " Marks: " + observes.join("; ") + "." : "";
+  const suffix = notes.length > 0 ? " Marks: " + notes.join("; ") + "." : "";
 
   return {
     status: "teaching",
@@ -150,6 +163,7 @@ export function teach(profile: StudentProfile, options: TeachOptions = {}): Teac
     door,
     script,
     gates,
+    regression_door: null,
     message:
       "Door " +
       door.number +
@@ -157,8 +171,7 @@ export function teach(profile: StudentProfile, options: TeachOptions = {}): Teac
       door.sanskrit +
       " (" +
       door.english +
-      ") is open." +
-      (doorRequiresLotus(door) ? " Enter nothing that the knee refuses." : "") +
+      ") is open. School pairing: school_device." +
       suffix,
   };
 }
@@ -241,8 +254,8 @@ Flags
   --help
 
 With no --door, the sequencer opens the next seeded door the laws allow.
-Default profile: no pain, lotus not ready, extreme VBT observe_only,
-breath 3, intensity clearance 3, nothing completed.
+Default profile: no pain, lotus not ready (open-seat twin for door 112),
+extreme VBT always observe_only, breath 3, intensity clearance 3, nothing completed.
 `);
 }
 
