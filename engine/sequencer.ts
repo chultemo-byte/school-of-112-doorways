@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { loadDoor, seededDoors } from "./doors.ts";
+import { loadDoor, teachableDoors } from "./doors.ts";
 import { buildScript } from "./script.ts";
 import {
   assertProfile,
@@ -15,6 +15,7 @@ import {
   vbtIsObserveOnly,
 } from "./safety.ts";
 import type { Door, StudentProfile, TeachingSession } from "./types.ts";
+import { doorEnglish, doorNumber, doorSanskrit, isResearchDoor } from "./types.ts";
 
 /**
  * Default readiness: no pain, lotus not ready (open seat instead),
@@ -35,7 +36,7 @@ export interface TeachOptions {
 }
 
 function doorCouldOpen(profile: StudentProfile, door: Door): boolean {
-  if (profile.completed_doors.includes(door.number)) {
+  if (profile.completed_doors.includes(doorNumber(door))) {
     return false;
   }
   const gates = evaluateGates(profile, door);
@@ -48,12 +49,12 @@ function doorCouldOpen(profile: StudentProfile, door: Door): boolean {
 function refusalMessage(door: Door, gates: TeachingSession["gates"]): string {
   const reasons = gates.filter((gate) => gate.effect === "halt" || gate.effect === "block");
   const lines = reasons.map((gate) => gate.detail);
-  return "Door " + door.number + " (" + door.english + ") is not taught. " + lines.join(" ");
+  return "Door " + doorNumber(door) + " (" + doorEnglish(door) + ") is not taught. " + lines.join(" ");
 }
 
 function painMessage(door: Door | null): string {
   const regression = regressionDoor(door);
-  const which = door ? " Door " + door.number + " stops." : " No door is selected.";
+  const which = door ? " Door " + doorNumber(door) + " stops." : " No door is selected.";
   const later = regression
     ? " Regression door, for a later session and not while pain is present: " + regression + " (Mountain)."
     : " Exit. There is no earlier door to regress to.";
@@ -92,11 +93,11 @@ export function teach(profile: StudentProfile, options: TeachOptions = {}): Teac
   if (options.door !== undefined) {
     door = loadDoor(options.door);
   } else {
-    const next = seededDoors()
+    const next = teachableDoors()
       .map((entry) => loadDoor(entry.number))
       .find((candidate) => doorCouldOpen(profile, candidate));
     if (!next) {
-      const waiting = seededDoors().filter((entry) => !profile.completed_doors.includes(entry.number));
+      const waiting = teachableDoors().filter((entry) => !profile.completed_doors.includes(entry.number));
       const lotusWaiting = waiting.some((entry) => entry.number === 112);
       return {
         status: "blocked",
@@ -106,8 +107,8 @@ export function teach(profile: StudentProfile, options: TeachOptions = {}): Teac
         gates: [],
         regression_door: null,
         message: lotusWaiting
-          ? "No seeded door is open under these laws. Door 112 remains on the record. Lotus is never forced; an open-seat twin is the way in when the other laws allow it."
-          : "No seeded door is open for this profile.",
+          ? "No teachable door is open under these laws. Door 112 remains on the record. Lotus is never forced; an open-seat twin is the way in when the other laws allow it."
+          : "No teachable door is open for this profile.",
       };
     }
     door = next;
@@ -140,11 +141,22 @@ export function teach(profile: StudentProfile, options: TeachOptions = {}): Teac
   }
 
   const openSeat = usesOpenSeat(profile, door);
-  const script = buildScript(door, {
-    openSeat,
-    vbtObserveOnly: vbtIsObserveOnly(gates),
-    breath: scaleBreath(door, profile),
-  });
+  const script = isResearchDoor(door)
+    ? buildScript(door, {
+        openSeat: false,
+        vbtObserveOnly: vbtIsObserveOnly(gates),
+        breath: {
+          inhale: door.breath.inhale,
+          exhale: door.breath.exhale,
+          pause: door.breath.hold,
+          scaled: false,
+        },
+      })
+    : buildScript(door, {
+        openSeat,
+        vbtObserveOnly: vbtIsObserveOnly(gates),
+        breath: scaleBreath(door, profile),
+      });
 
   const notes: string[] = [];
   if (openSeat) {
@@ -166,12 +178,14 @@ export function teach(profile: StudentProfile, options: TeachOptions = {}): Teac
     regression_door: null,
     message:
       "Door " +
-      door.number +
+      doorNumber(door) +
       " " +
-      door.sanskrit +
+      doorSanskrit(door) +
       " (" +
-      door.english +
-      ") is open. School pairing: school_device." +
+      doorEnglish(door) +
+      ") is open. School pairing: " +
+      (isResearchDoor(door) ? door.honesty.pairing_type : "school_device") +
+      "." +
       suffix,
   };
 }
@@ -253,7 +267,7 @@ Flags
   --json                    Print the session object
   --help
 
-With no --door, the sequencer opens the next seeded door the laws allow.
+With no --door, the sequencer opens the next researched or seeded door the laws allow.
 Default profile: no pain, lotus not ready (open-seat twin for door 112),
 extreme VBT always observe_only, breath 3, intensity clearance 3, nothing completed.
 `);
@@ -274,7 +288,7 @@ export function formatSession(session: TeachingSession): string {
   }
   if (session.status === "teaching" && session.door && session.script.length > 0) {
     const door = session.door;
-    lines.push("door " + door.number + "  " + door.sanskrit + " — " + door.english);
+    lines.push("door " + doorNumber(door) + "  " + doorSanskrit(door) + " — " + doorEnglish(door));
     lines.push("");
     for (const beat of session.script) {
       const observe = beat.observe_only ? "  (observe_only)" : "";
@@ -283,15 +297,24 @@ export function formatSession(session: TeachingSession): string {
       lines.push("  " + beat.spoken);
       lines.push("");
     }
-    lines.push("safety notes:");
-    for (const note of door.safety_notes) {
-      lines.push("  - " + note);
+    if (isResearchDoor(door)) {
+      lines.push("safety:");
+      lines.push("  - " + door.safety.pain_rule);
+      if (typeof door.safety.open_seat_alternate === "string" && door.safety.open_seat_alternate.length > 0) {
+        lines.push("  - " + door.safety.open_seat_alternate);
+      }
+      lines.push("  - " + door.safety.contraindication_notes);
+    } else {
+      lines.push("safety notes:");
+      for (const note of door.safety_notes) {
+        lines.push("  - " + note);
+      }
+      lines.push("");
+      lines.push("five ways:");
+      door.five_ways.forEach((way, index) => {
+        lines.push("  " + (index + 1) + ". " + way);
+      });
     }
-    lines.push("");
-    lines.push("five ways:");
-    door.five_ways.forEach((way, index) => {
-      lines.push("  " + (index + 1) + ". " + way);
-    });
   }
   return lines.join("\n");
 }

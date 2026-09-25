@@ -1,0 +1,137 @@
+{
+  "id": "D-007",
+  "name": "Plank",
+  "sanskrit": "Phalakasana",
+  "house": 1,
+  "status": "researched",
+  "geometry": {
+    "polygon": "Horizontal staff / long rectangle: heels-to-crown line parallel to floor, wrists as front posts",
+    "joints": [
+      "ankles",
+      "knees",
+      "hips",
+      "lumbar",
+      "thoracic",
+      "shoulders",
+      "elbows",
+      "wrists",
+      "cervical"
+    ],
+    "summary": "From hands and toes (or knees), stack wrists under shoulders and lengthen one continuous line from heels through pelvis and crown, roughly parallel to the floor. Elbows soft-straight, not locked. Hips neither pike nor sag. The shape is a held horizontal staff: four contact points (two hands, two feet) supporting a long midline.",
+    "svg_hint": "side view: two wrist posts under shoulders, long horizontal body bar heels-to-crown, toes tucked, head in line with spine looking slightly ahead of hands"
+  },
+  "reaction": {
+    "name": "Hold-line",
+    "from_phase": "wobbling scatter",
+    "to_phase": "continuous midline",
+    "summary": "School metaphor: shaky, piece-by-piece effort reorganizes into one steady horizontal charge along the central line. Not a biochemical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "lands_in": "midline core band (navel to low ribs) without collapsing the plank line",
+    "cue": "Equal inhale four, exhale four. Keep the breath quiet and even so the line does not bounce or sag. No forced retention."
+  },
+  "orientation": {
+    "cue": "Wrists under shoulders; heels press back; crown reaches forward so heels-to-head stay one long line.",
+    "gravity": "Body parallel to the floor; press the floor away through the hands; lift the front of the thighs and lower belly so the hips do not dump.",
+    "gaze": "Soft toward the floor a short way ahead of the hands; neck stays in line with the spine.",
+    "degrees_hint": "Torso ~0\u00b0 to floor (true plank); avoid piking hips above ~20\u00b0 or sagging belly below the line."
+  },
+  "attention": {
+    "primary": "Central line from heels through crown",
+    "secondary": "Wrists stacked under shoulders; even press through both hands",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 007 (verse 30)",
+    "verse_paraphrase": "Twelve successive centers, linked with twelve letters, are meditated in turn\u2014first in a coarse phase, then subtle, then supreme\u2014each left behind until, in the end, identification with \u015aiva is pointed to.",
+    "method_summary": "Safe class form in plank: move attention up a short midline sequence (pelvic floor \u2192 navel \u2192 heart \u2192 throat \u2192 brow). At each station, feel the coarse body-sense, then a subtler quiet, then leave it and rise to the next. Do not drill genital-tip (janm\u0101gra) stations. No forced breath-hold; keep equal breath while the attention climbs and releases.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "This asana\u2194method link is a School of 112 Doorways teaching device, not ancient canon. Plank is paired with VBT dharana 007 by school index, not by historical one-to-one tradition.",
+    "notes": "Mild experiential rhyme only: plank holds a continuous midline while dharana 007 moves attention station-to-station along central stations and leaves each. Classical verse 30 includes janm\u0101gra (generative tip); School class form omits that station and starts at pelvic floor / navel. That rhyme and omission do not upgrade pairing beyond school_device."
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "Drop knees to the floor (knee plank), elevate hands on blocks or a chair, or take a short hold and rest in Child's Pose. Wrists may turn slightly outward or use fists/forearms if hands complain\u2014keep the long line.",
+    "contraindication_notes": "General practice caution only; not medical advice. Ease out if wrists, shoulders, or low back turn sharp. Do not sag or pike through pain. Shorten the hold rather than collapse the line. Pregnancy and wrist concerns: prefer knee plank, elevated hands, or skip the hold."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh \u2014 Vijnanabhairava (dharana 7 / verse 30 paraphrase basis)",
+      "kind": "vbt",
+      "ref": "VBT verse 30; krama-dv\u0101da\u015baka / twelve stations; sth\u016bla\u2013s\u016bk\u1e63ma\u2013para then leave each \u2192 \u015aiva",
+      "url": "https://hareesh.org/blog/2022/12/3/vijana-bhairava-tantra-verse-28-the-central-channel-rhcdg"
+    },
+    {
+      "label": "Hareesh Wallis \u2014 VBT verses 29\u201330 commentary (twelve centers / vowels practice reading)",
+      "kind": "commentary",
+      "ref": "Verse 30 as successive twelve-center meditation in coarse, subtle, supreme phases",
+      "url": "https://hareesh.org/blog/2022/12/3/vijana-bhairava-tantra-verse-28-the-central-channel-rhcdg"
+    },
+    {
+      "label": "Yoga Journal \u2014 Plank Pose (Phalakasana)",
+      "kind": "asana",
+      "ref": "High plank: wrists under shoulders, heels-to-crown line, core lift, gaze slightly forward",
+      "url": "https://www.yogajournal.com/poses/plank-pose/"
+    },
+    {
+      "label": "School of 112 Doorways \u2014 Yoga Teaching Machine Master Plan",
+      "kind": "school",
+      "ref": "YOGA-TEACHING-MACHINE-MASTER-PLAN.md; school_device pairing law; guardians/CHECKLIST.md",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This door is Plank, Phalakasana. A held horizontal staff\u2014heels to crown in one long line over the hands."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "Wrists under shoulders. Press the floor away. Lengthen heels back and crown forward so the body is one plank, not a pike or a sag."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Body parallel to the floor. Gaze soft ahead of the hands. Neck stays in line. Lift the front thighs and lower belly into the line."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Inhale four, exhale four. Six easy cycles. Keep the breath quiet so the plank line does not bounce. No forced holds."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Lock on the central line from heels through crown. Secondary: even press through both hands under the shoulders."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "Feel the school cue called Hold-line: wobbling scatter becomes one continuous midline. Metaphor only\u2014not a medical claim."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Adiyogi thread, safe form: walk attention up pelvic floor, navel, heart, throat, brow. Feel each, then leave it and rise. Soft equal breath\u2014no genital-station drills."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Lower the knees, or step back to Down Dog, or rest in Child's Pose. Shake out the wrists. Carry the long midline into the next shape. Pain means pause or exit."
+    }
+  ],
+  "researcher": "R-007",
+  "researched_at": "2026-09-25"
+}

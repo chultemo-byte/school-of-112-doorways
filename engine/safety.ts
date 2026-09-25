@@ -1,4 +1,5 @@
-import type { Door, GateResult, PracticeMode, SpokenBreath, StudentProfile } from "./types.ts";
+import type { Door, GateResult, PracticeMode, PrototypeDoor, SpokenBreath, StudentProfile } from "./types.ts";
+import { doorNumber, isResearchDoor } from "./types.ts";
 
 /**
  * Five hard laws. Wording matches the Chief of Staff master plan §3d and §5.
@@ -53,14 +54,30 @@ export const LOTUS_DOOR_NUMBER = 112;
 export const REGRESSION_DOOR_NUMBER = 1;
 
 export function doorIsClosedBind(door: Door): boolean {
+  if (isResearchDoor(door)) {
+    return doorNumber(door) === LOTUS_DOOR_NUMBER;
+  }
   return door.requires_lotus === true || door.number === LOTUS_DOOR_NUMBER || door.safety?.bind === "never_force";
 }
 
 export function openSeatName(door: Door): string | null {
+  if (isResearchDoor(door)) {
+    const alternate = door.safety.open_seat_alternate;
+    return typeof alternate === "string" && alternate.trim().length > 0 ? alternate : null;
+  }
   return door.alternate_geometry?.seat ?? door.safety?.open_seat_twin ?? door.alternate_geometry?.polygon ?? null;
 }
 
 export function vbtMode(door: Door): PracticeMode {
+  if (isResearchDoor(door)) {
+    if (door.adiyogi.practice_mode === "historical") {
+      return "historical";
+    }
+    if (door.adiyogi.practice_mode === "observe_only" || door.adiyogi.historical_extreme === true) {
+      return "observe_only";
+    }
+    return "practice";
+  }
   const methodMode = door.adiyogi_method.practice_mode;
   const doorMode = door.practice_mode;
   if (methodMode === "historical" || doorMode === "historical") {
@@ -81,13 +98,13 @@ export function doorVbtIsExtreme(door: Door): boolean {
  * Null when the student is already on that door, or no door was in play: exit.
  */
 export function regressionDoor(door: Door | null): number | null {
-  if (!door || door.number === REGRESSION_DOOR_NUMBER) {
+  if (!door || doorNumber(door) === REGRESSION_DOOR_NUMBER) {
     return null;
   }
   return REGRESSION_DOOR_NUMBER;
 }
 
-export function scaleBreath(door: Door, profile: StudentProfile): SpokenBreath {
+export function scaleBreath(door: PrototypeDoor, profile: StudentProfile): SpokenBreath {
   const canonical = door.breath;
   const demand = door.breath_demand;
   if (demand === undefined || profile.breath_capacity >= demand) {
@@ -153,7 +170,7 @@ export function gateLotus(profile: StudentProfile, door: Door): GateResult {
       effect: "block",
       detail:
         "Door " +
-        door.number +
+        doorNumber(door) +
         " is a closed bind and has no open-seat twin. The closed shape is not taught.",
     };
   }
@@ -181,9 +198,17 @@ export function gateLotus(profile: StudentProfile, door: Door): GateResult {
   };
 }
 
+function vbtRefLabel(door: Door): string {
+  if (isResearchDoor(door)) {
+    return door.adiyogi.vbt_ref;
+  }
+  return "Verse " + door.adiyogi_method.vbt_verse;
+}
+
 export function gateExtremeVbt(door: Door): GateResult {
   const law = FIVE_HARD_LAWS[2];
   const mode = vbtMode(door);
+  const ref = vbtRefLabel(door);
   if (mode === "practice") {
     return {
       law: law.id,
@@ -191,9 +216,7 @@ export function gateExtremeVbt(door: Door): GateResult {
       passed: true,
       effect: "clear",
       detail:
-        "Verse " +
-        door.adiyogi_method.vbt_verse +
-        " is not marked extreme or historical. It may be spoken as study. It is still a school pairing, not canon.",
+        ref + " is not marked extreme or historical. It may be spoken as study. It is still a school pairing, not canon.",
     };
   }
   return {
@@ -201,12 +224,7 @@ export function gateExtremeVbt(door: Door): GateResult {
     title: law.title,
     passed: true,
     effect: "observe",
-    detail:
-      "Verse " +
-      door.adiyogi_method.vbt_verse +
-      " is " +
-      mode +
-      ". Observe only. Not a class drill. A readiness flag cannot promote it.",
+    detail: ref + " is " + mode + ". Observe only. Not a class drill. A readiness flag cannot promote it.",
   };
 }
 
@@ -222,7 +240,30 @@ export function hasMedicalClaim(text: string): boolean {
   return MEDICAL_CLAIM.test(stripped);
 }
 
+function collectStrings(value: unknown, out: string[]): void {
+  if (typeof value === "string") {
+    out.push(value);
+    return;
+  }
+  if (Array.isArray(value)) {
+    for (const item of value) {
+      collectStrings(item, out);
+    }
+    return;
+  }
+  if (value && typeof value === "object") {
+    for (const item of Object.values(value)) {
+      collectStrings(item, out);
+    }
+  }
+}
+
 export function doorProse(door: Door): string {
+  if (isResearchDoor(door)) {
+    const chunks: string[] = [];
+    collectStrings(door, chunks);
+    return chunks.join("\n");
+  }
   const chunks: string[] = [
     door.sanskrit,
     door.english,
@@ -280,6 +321,35 @@ export function gatePracticeIsNotMedicine(door: Door): GateResult {
 
 export function gateNoDoorwayOwned(door: Door): GateResult {
   const law = FIVE_HARD_LAWS[4];
+  if (isResearchDoor(door)) {
+    const labeled = door.honesty.pairing_type === "school_device";
+    const credited = door.honesty.disclosure.trim().length > 0;
+    if (!labeled) {
+      return {
+        law: law.id,
+        title: law.title,
+        passed: false,
+        effect: "block",
+        detail: "This doorway has no school_device pairing label. It is not taught as canon, and it is not taught unlabeled.",
+      };
+    }
+    if (!credited) {
+      return {
+        law: law.id,
+        title: law.title,
+        passed: false,
+        effect: "block",
+        detail: "pairing_type is school_device, and the honesty disclosure is missing. No doorway is owned.",
+      };
+    }
+    return {
+      law: law.id,
+      title: law.title,
+      passed: true,
+      effect: "clear",
+      detail: "Honesty disclosure is present. School pairing is labeled school_device. The school does not own the door.",
+    };
+  }
   const labeled = door.pairing_type === "school_device";
   const credited = typeof door.lineage === "string" && door.lineage.trim().length > 0;
   if (!labeled) {

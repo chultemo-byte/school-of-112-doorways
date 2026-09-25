@@ -2,11 +2,11 @@
 
 A teaching machine for yoga. One hundred and twelve doors. Each door is six instruments and a set of limits: geometry, an alchemical metaphor, breath, orientation, attention, and a verse from the Vijnana Bhairava Tantra, plus a guardian and serious safety notes.
 
-Three doors are fully seeded. The others are numbered in `doors/index.json` and left unnamed.
+House 1, doors 001–016, is researched. Each door is `doors/D-00N/door.json`, validated with `schemas/research-door.schema.json`. The registry is `doors/HOUSE-1-REGISTRY.md`. Guardian reviews are `guardians/reviews/`. Doors 049 and 112 remain the earlier prototype seeds. The other doors are numbered in `doors/index.json` and left unnamed.
 
 | Door | File | Practice |
 | --- | --- | --- |
-| 1 | `doors/001.json` | Tāḍāsana, Mountain |
+| D-001–D-016 | `doors/D-00N/door.json` | House 1, researched |
 | 49 | `doors/049.json` | Bhujaṅgāsana, Cobra |
 | 112 | `doors/112.json` | Padmāsana, Lotus |
 
@@ -14,7 +14,9 @@ This is a craft record, not a feed. It does not diagnose, and it does not claim 
 
 ## How a door is spoken
 
-The door stores the six instruments. The sequencer speaks them as eight beats, in the master plan’s order:
+A researched door already stores eight beats. The sequencer speaks those scripts as written. D-013 keeps `adiyogi.practice_mode` `observe_only`; that Adiyogi beat is marked observe-only and the recorded script is not rewritten.
+
+Prototype doors 049 and 112 still store the six instruments. The sequencer speaks them as eight beats, in the master plan’s order:
 
 1. **Name the door** — Sanskrit, English, house, lineage, and the `school_device` pairing label.
 2. **Geometry** — the polygon and its vertices, as a sketch. Lotus offers the open-seat twin here.
@@ -33,6 +35,9 @@ Five laws can interrupt that order. Pain pauses, names a regression door when th
 npm install
 npx tsc --noEmit
 npm run teach -- --door 1
+npm run teach -- --door 2
+npm run teach -- --door 13
+npm run teach -- --door 16
 ```
 
 Cobra, with the default profile (breath 3, intensity clearance 3):
@@ -53,7 +58,7 @@ With `lotus_ready` true the closed seat may be described, still never forced, an
 npm run teach -- --door 112 --profile profiles/lotus-cleared.json
 ```
 
-Omit `--door` and the sequencer opens the next seeded door the laws allow. `npm run check` validates the three doors and the gates.
+Omit `--door` and the sequencer opens the next researched or seeded door the laws allow. `npm run check` validates House 1, doors 049 and 112, and the gates.
 
 `--json` prints the session object. npm itself writes a banner on stdout, so for a clean document use:
 
@@ -66,9 +71,10 @@ Exit codes: `0` teaching, `2` halted for pain, `3` door blocked, `1` bad input o
 ## Layout
 
 ```
-doors/       001, 049, 112, and index.json for all 112
-schemas/     door.schema.json
+doors/       D-001…D-016/door.json, 049, 112, index.json, HOUSE-1-REGISTRY.md
+schemas/     door.schema.json (prototype), research-door.schema.json (House 1)
 engine/      types, safety gates, sequencer
+guardians/   checklist and House 1 reviews
 safety/      the five laws in prose; index.ts re-exports the gates
 bots/        eight teaching roles
 ui/          cartoon storyboard (not an app)

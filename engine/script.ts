@@ -1,4 +1,5 @@
-import type { Door, Geometry, SpokenBreath, TutorialBeat } from "./types.ts";
+import type { Door, Geometry, Instrument, PrototypeDoor, ResearchDoor, SpokenBreath, TutorialBeat } from "./types.ts";
+import { isResearchDoor } from "./types.ts";
 import { openSeatName, vbtMode } from "./safety.ts";
 
 export interface ScriptMarks {
@@ -34,12 +35,53 @@ function figureClause(geometry: Geometry): string {
   );
 }
 
+const RESEARCH_BEAT_INSTRUMENT: Partial<Record<TutorialBeat["beat"], Instrument>> = {
+  2: "geometry",
+  3: "orientation",
+  4: "breath",
+  5: "attention",
+  6: "reaction",
+  7: "adiyogi_method",
+};
+
+function asBeatNumber(n: number): TutorialBeat["beat"] {
+  if (n === 1 || n === 2 || n === 3 || n === 4 || n === 5 || n === 6 || n === 7 || n === 8) {
+    return n;
+  }
+  throw new Error("Research beat n must be an integer from 1 to 8.");
+}
+
+/** Speak the eight researched beats as written. No added teaching sentences. */
+function buildResearchScript(door: ResearchDoor, marks: ScriptMarks): TutorialBeat[] {
+  return door.beats.map((beat) => {
+    const n = asBeatNumber(beat.n);
+    const instrument = RESEARCH_BEAT_INSTRUMENT[n];
+    const observe = n === 7 && marks.vbtObserveOnly;
+    const row: TutorialBeat = {
+      beat: n,
+      title: beat.title,
+      spoken: beat.script,
+      ...(instrument ? { instrument } : {}),
+      ...(observe ? { observe_only: true as const } : {}),
+    };
+    return row;
+  });
+}
+
 /**
  * Eight beats from the master plan:
  * name the door, geometry, orientation, breath, attention, reaction,
  * Adiyogi thread in its safe form, exit / integrate.
+ * Research doors speak their recorded beats. Prototype doors use the builder below.
  */
 export function buildScript(door: Door, marks: ScriptMarks): TutorialBeat[] {
+  if (isResearchDoor(door)) {
+    return buildResearchScript(door, marks);
+  }
+  return buildPrototypeScript(door, marks);
+}
+
+function buildPrototypeScript(door: PrototypeDoor, marks: ScriptMarks): TutorialBeat[] {
   const breath = marks.breath;
   const canonical = door.breath;
   const pauseSpoken =

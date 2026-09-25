@@ -1,0 +1,145 @@
+{
+  "id": "D-012",
+  "name": "Triangle",
+  "sanskrit": "Utthita Trikonasana",
+  "house": 1,
+  "status": "researched",
+  "geometry": {
+    "polygon": "wide-base triangle (two feet + floor) plus long side diagonal (front ankle to hip to top hand)",
+    "joints": [
+      "ankle_front",
+      "ankle_back",
+      "knee_front",
+      "knee_back",
+      "hip_front",
+      "hip_back",
+      "spine_lateral",
+      "shoulder_bottom",
+      "shoulder_top",
+      "wrist_top",
+      "neck_gaze"
+    ],
+    "summary": "Stand in a wide stance with the front foot roughly forward and the back foot angled. Keep both legs long and fold the torso sideways over the front leg so the lower hand finds shin, ankle, block, or floor without collapsing the underside waist. The top arm reaches on the same diagonal. The legs and floor make one triangle; torso and arms make a long slanted line.",
+    "svg_hint": "isosceles base under pelvis; long diagonal stroke from front foot through side body to raised hand"
+  },
+  "reaction": {
+    "name": "Line open",
+    "from_phase": "compressed side body",
+    "to_phase": "lengthened diagonal field",
+    "summary": "School metaphor: attention that was bunched in the waist and shoulders spreads along the long side line from foot to hand, like a filament lighting up. Not a medical or biochemical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "lands_in": "long side body (bottom waist through top ribs and top arm)",
+    "cue": "Inhale to lengthen the underside; exhale to settle weight into both feet without dumping into the front hip. Equal four-count breath for six cycles, then switch sides."
+  },
+  "orientation": {
+    "cue": "Stack the long side: bottom waist lifts away from the front thigh while both legs stay rooted; do not collapse the lower ribs onto the front leg.",
+    "gravity": "Even load through both feet; front big-toe mound and back outer heel especially clear; pelvis neither dumped forward nor rolled shut.",
+    "gaze": "Soft toward the top hand if the neck is free; otherwise keep the gaze level with the side of the room.",
+    "degrees_hint": "Torso folds in the coronal plane roughly 30 to 70 degrees depending on hamstring and side-body length; never chase the floor at the cost of the long line."
+  },
+  "attention": {
+    "primary": "Slender attention-line along the open side body from front outer foot through hip and underarm to the top fingertips (school map of a filament / madhya line).",
+    "secondary": "Quiet contact of both soles with the floor.",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 012 (Singh-style sequential method index; commonly verse 35)",
+    "verse_paraphrase": "Attend to the central channel in the middle of the body, fine as a lotus-stalk filament. Contemplating that inner space as the Goddess, the Divine becomes clear.",
+    "method_summary": "Safe class form: while holding Triangle, rest awareness on one continuous slender line through the open side of the body, as if tracing a fine filament of space, without forcing breath, gaze, or depth. Sense the line as open inner space rather than as a muscle to grip.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Linking Utthita Trikonasana with VBT method 012 is a School of 112 Doorways teaching device, not an ancient one-to-one claim. The shared image is a slender line of attention (side body in Triangle; central filament in the verse).",
+    "notes": "VBT method indexing differs by edition. This door follows Singh-style sequential dharana count from the first technique verse (about 24), so dharana 012 is approximately verse 35 (madhya-nadi / lotus-filament). Wallis groups early breath verses as one yukti, so his Y12 is a later verse. Some public dharana lists label a different sensory-Bhairava method as number 12. Guardians should keep the Singh-style school index unless the school standardizes otherwise."
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain in hamstring, knee, sacroiliac joint, or neck.",
+    "never_force": true,
+    "open_seat_alternate": null,
+    "contraindication_notes": "Shorten the stance, rest the lower hand on a block or shin, and keep the gaze neutral if balance, neck, or hamstrings complain. General practice caution only; not medical advice."
+  },
+  "sources": [
+    {
+      "label": "Vijnanabhairava (GRETIL Sanskrit text)",
+      "kind": "vbt",
+      "ref": "Verse 35 (madhya-nadi / bisa-sutra filament method); school dharana index 012 via sequential count from verse 24",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/3_phil/saiva/vijnbhau.htm"
+    },
+    {
+      "label": "Jaideva Singh, Vijnanabhairava or Divine Consciousness",
+      "kind": "commentary",
+      "ref": "Sequential dharana numbering used for school index 012 approximately verse 35 central-channel practice",
+      "url": ""
+    },
+    {
+      "label": "Christopher Wallis VBT translation concordance",
+      "kind": "commentary",
+      "ref": "Cross-check: Wallis labels the same verse within his early yukti sequence; notes edition indexing variance vs school sequential index",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+    },
+    {
+      "label": "Classical asana geometry for Utthita Trikonasana (Iyengar-tradition cues, paraphrased)",
+      "kind": "asana",
+      "ref": "Wide stance, lateral fold, long side line, hand to shin/block/floor, soft upward gaze when neck free",
+      "url": ""
+    },
+    {
+      "label": "School of 112 Doorways master plan and door schema",
+      "kind": "school",
+      "ref": "YOGA-TEACHING-MACHINE-MASTER-PLAN.md; schemas/door.schema.json; research/PROMPT_TEMPLATE.md",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door Twelve: Triangle, Utthita Trikonasana. A wide stance that opens one long side of the body."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "Feet wide. Front toes forward, back foot angled. Fold sideways over the front leg. Lower hand to shin or block; top arm reaches on the same diagonal."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Root both feet. Lift the underside waist so ribs do not dump onto the thigh. Gaze to the top hand only if the neck stays easy."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Breathe four in, four out. Let the inhale lengthen the open side; let the exhale settle the feet. Six cycles, then change sides."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Hold a thin line of attention from the front outer foot up through the hip and underarm to the top hand, like a fine filament of space."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "Notice the shift we call Line open: from a short side waist toward a long, even diagonal. If anything sharpens, shorten the pose."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "VBT method twelve points to a slender central channel like a lotus filament. Here, meet that idea safely as the open side-line of Triangle: space, not force."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Inhale to rise with a long spine. Step the feet together. Stand quiet and feel both sides even before you leave."
+    }
+  ],
+  "researcher": "R-012",
+  "researched_at": "2026-09-25"
+}

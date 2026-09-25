@@ -1,0 +1,141 @@
+{
+  "id": "D-008",
+  "name": "Four-Limbed Staff",
+  "sanskrit": "Chaturanga Dandasana",
+  "house": 1,
+  "status": "researched",
+  "geometry": {
+    "polygon": "long staff rectangle on four contact points (two hands, two feet)",
+    "joints": [
+      "wrists",
+      "elbows",
+      "shoulders",
+      "spine",
+      "hips",
+      "knees",
+      "ankles"
+    ],
+    "summary": "From a high plank line, the body lowers as one staff until the upper arms are roughly parallel to the floor and the elbows track close beside the ribs. Hands stay under the shoulders (or slightly forward if that keeps the shoulders stable). Heels press back, legs firm, hips level with the shoulders so the torso does not sag or pike. The polygon is a long low rectangle: four limbs as posts, torso and legs as one continuous beam.",
+    "svg_hint": "two_hand_pads + two_foot_pads; horizontal_torso_leg_beam; elbows_bent_~90_close_to_ribs; optional_knees_down_regression"
+  },
+  "reaction": {
+    "name": "Gather-to-staff",
+    "from_phase": "scattered_push_effort",
+    "to_phase": "coherent_held_beam",
+    "summary": "School metaphor only: scattered gripping and shoulder dump gather into one steady staff-line under load, with effort organized along the midline rather than dumping into the low back or collarbones."
+  },
+  "breath": {
+    "inhale": 3,
+    "hold": 0,
+    "exhale": 3,
+    "cycles": 4,
+    "lands_in": "side ribs and steady belly wall, without bracing the throat",
+    "cue": "Lower on an exhale when entering. In the hold, breathe short equal counts (about 3 in / 3 out) for up to four easy cycles. If breath gets hard or jagged, regress to knees or exit to plank or child's pose."
+  },
+  "orientation": {
+    "cue": "One straight line from heels through hips and crown; elbows hug ribs; shoulders do not dip below the elbows",
+    "gravity": "Press the floor away through the hands and reach the heels back so the midsection stays lifted; weight shared across hands and feet, not collapsed into the wrists alone",
+    "gaze": "Soft slightly forward of the hands or down between the thumbs; keep the back of the neck long",
+    "degrees_hint": "Torso ~0\u201315\u00b0 to floor when range allows; elbows ~90\u00b0; upper arms parallel to floor"
+  },
+  "attention": {
+    "primary": "Steady mind-space inside the skull-bowl while the staff holds (soft gaze open in asana; closed-eye version after exit)",
+    "secondary": "Midline: elbows-to-ribs and heels pressing back",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 008 (commonly manuscript verse 34; yukti 8)",
+    "verse_paraphrase": "With eyes closed, rest attention inside the cranium; as steadiness of mind gradually increases, that which is most worthy of being perceived becomes clearer.",
+    "method_summary": "Practice: sit or lie quietly, close the eyes, and place attention inside the skull as a soft field rather than a clenched point. Let mental steadiness build bit by bit without forcing a vision or a blank. In this door, the safe braid is: during the asana keep a soft open gaze and feel the same quiet skull-bowl steadiness under body load; after exiting, optionally close the eyes for a few breaths and rest attention inside the cranium.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Linking Four-Limbed Staff to VBT dharana 008 is a School of 112 Doorways teaching device, not a claim of ancient one-to-one canon.",
+    "notes": "Serial school index pairs D-008 with method index 008 (Wallis yukti 8 / verse 34). Shared teaching hook: gradual steadiness of mind under sustained effort. Edition variance: some popular lists number a later illusion/painting verse as dharana 8; this draft follows the school's sibling pattern (dharana N \u2248 early yukti N)."
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "Knees-down Four-Limbed Staff (knees on the floor, same elbow-rib geometry) or stay in high plank / forearm plank if wrists or shoulders complain. Child's pose is always a valid exit.",
+    "contraindication_notes": "General practice caution only; not medical advice. Ease or skip if wrists, elbows, shoulders, or low back complain; do not force the shoulders below the elbows or collapse the midsection."
+  },
+  "sources": [
+    {
+      "label": "Hareesh Wallis \u2014 VBT verse 34 / Yukti 8 (inside the cranium)",
+      "kind": "vbt",
+      "ref": "VBT v. 34; yukti/dharana 008",
+      "url": "https://hareesh.org/blog/2024/3/29/vijana-bhairava-tantra-verse-34"
+    },
+    {
+      "label": "Tantra 112 \u2014 Wallis translation (Verse 34 \u00b7 Yukti 8)",
+      "kind": "vbt",
+      "ref": "Full VBT English; yukti 8 cranial attention",
+      "url": "https://tantra112.app/vijnana-bhairava-tantra"
+    },
+    {
+      "label": "Hareesh Wallis \u2014 VBT translation concordance (Y8 listing)",
+      "kind": "commentary",
+      "ref": "Concordance maps verse 34 as Yukti 8",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+    },
+    {
+      "label": "School asana teaching \u2014 Chaturanga Dandasana / Four-Limbed Staff",
+      "kind": "asana",
+      "ref": "Standard low-plank staff geometry with knees-down regression; school paraphrase",
+      "url": ""
+    },
+    {
+      "label": "School of 112 Doorways \u2014 master plan + door schema",
+      "kind": "school",
+      "ref": "YOGA-TEACHING-MACHINE-MASTER-PLAN.md; schemas/door.schema.json; research/house1-dispatches/R-008.md",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door D-008, Four-Limbed Staff, Chaturanga Dandasana. A low, held staff on hands and feet."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "From plank, lower as one beam until upper arms are about parallel to the floor. Elbows hug the ribs. Hips level with shoulders. Heels press back."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "One line from heels through crown. Shoulders stay above the elbows. Soft gaze forward of the hands. Neck long."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Enter on an exhale. In the hold, breathe about three in and three out for up to four easy cycles. Jagged breath means regress or exit."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Primary: quiet steadiness inside the skull-bowl. Secondary: elbows to ribs and heels pressing back."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "Feel the school cue Gather-to-staff: scattered push gathers into one coherent held beam."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "VBT method 008: rest attention inside the cranium and let mental steadiness grow gradually. Here, feel that quiet skull-bowl under load; eyes may stay softly open."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Press up to plank, drop knees, or move to child's pose. Optional: close the eyes for two breaths and rest attention inside the skull. Never force the next shape."
+    }
+  ],
+  "researcher": "R-008",
+  "researched_at": "2026-09-25"
+}

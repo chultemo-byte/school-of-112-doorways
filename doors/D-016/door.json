@@ -1,0 +1,135 @@
+{
+  "id": "D-016",
+  "name": "Tree",
+  "sanskrit": "Vrksasana",
+  "house": 1,
+  "status": "researched",
+  "geometry": {
+    "polygon": "vertical column on single-foot base; raised-leg T-branch at hip; optional overhead arm triangle",
+    "joints": [
+      "standing ankle",
+      "standing knee",
+      "both hips",
+      "pelvis",
+      "spine",
+      "shoulders",
+      "raised knee"
+    ],
+    "summary": "Stand on one foot with the other foot pressed to the inner thigh or calf (never the knee). Keep the pelvis square and level, spine lengthening as a vertical column, and arms either at the heart or reaching up. The shape is a rooted trunk with one branch open to the side.",
+    "svg_hint": "upright stick on one circle foot; second foot mid-inner thigh; arms up or anjali"
+  },
+  "reaction": {
+    "name": "Root settle",
+    "from_phase": "sway / scattered balance",
+    "to_phase": "still vertical axis",
+    "summary": "School metaphor: wobble and chase settle into one quiet plumb line from standing sole through crown. Not a medical or biochemical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "lands_in": "standing foot sole, then low belly",
+    "cue": "Even breath. Soften the jaw. Let each exhale drop weight into the standing foot without collapsing the tall spine."
+  },
+  "orientation": {
+    "cue": "Crown over standing heel; pelvis square to the front; raised knee opens only as far as the pelvis stays level",
+    "gravity": "Whole body weight through one foot's three points (big-toe mound, little-toe mound, heel); lifted foot presses in, standing thigh presses back",
+    "gaze": "Soft fixed point ahead at eye height (drishti); avoid looking down at the foot",
+    "degrees_hint": "0 deg twist; raised thigh opens in the frontal plane only while pelvis stays forward-facing"
+  },
+  "attention": {
+    "primary": "standing foot sole and inner standing thigh",
+    "secondary": "quiet vertical line sole to crown",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 016 (verse 39)",
+    "verse_paraphrase": "Utter a pra\u1e47ava (such as O\u1e43, or another seed sound in that family) in a drawn-out form; at the end of that protracted sound, rest attention in the silent open void. Through that spacious openness, awareness meets its own clear nature.",
+    "method_summary": "Safe class form: after settling in Tree, silently lengthen one soft O\u1e43 (or simply feel the breath as sound fading). At the moment sound or breath-sound ends, rest in the quiet gap\u2014no chasing the next thought. Keep eyes soft on the balance point; do not force breath retention.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "This asana\u2194method link is a School of 112 Doorways teaching device, not ancient canon. Tree and VBT 016 share a modern school rhyme (rooted body, open sky of attention), not a historical one-to-one pairing.",
+    "notes": "Serial index pairing D-016 \u2194 VBT dharana/yukti 016 (commonly mapped to verse 39: pra\u1e47ava \u2192 \u015b\u016bnya at pluta-end). Experiential rhyme noted; claim kept at school_device."
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "Foot to calf or toes to floor; stand near a wall; or keep both feet down in Mountain with arms branching up.",
+    "contraindication_notes": "Avoid pressing the raised foot into the standing knee joint. Use wall or lower foot placement if balance is unstable. General practice caution only; not medical advice."
+  },
+  "sources": [
+    {
+      "label": "Vij\u00f1\u0101na Bhairava Tantra \u2014 dharana 16 / verse 39 (pra\u1e47ava \u2192 void)",
+      "kind": "vbt",
+      "ref": "VBT \u015bloka 39; yukti/dharana 16 in sequential school indexing",
+      "url": "https://hareesh.org/blog/2024/10/1/vijnaana-bhairava-tantra-verses-38-amp-39"
+    },
+    {
+      "label": "Jaideva Singh / Trika commentaries on VBT 39",
+      "kind": "commentary",
+      "ref": "Standard Kashmir Shaiva reading: pluta pra\u1e47ava, then \u015b\u016bnya-bh\u0101van\u0101",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "Yoga Journal \u2014 Vrksasana alignment",
+      "kind": "asana",
+      "ref": "Standing-leg plumb line; foot on thigh or calf, never knee; pelvis square",
+      "url": "https://www.yogajournal.com/practice/beginners/how-to/tree-pose/"
+    },
+    {
+      "label": "School of 112 Doorways \u2014 Phase 1 research template",
+      "kind": "school",
+      "ref": "research/PROMPT_TEMPLATE.md; schemas/door.schema.json",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 016: Tree, Vrksasana. One standing root, one open branch, tall spine."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "From Mountain, shift onto one foot. Place the other foot on the inner thigh or calf\u2014never the knee. Hands at heart or reach up."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Crown over the standing heel. Keep the pelvis square. Gaze soft and fixed ahead. Wall is welcome."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Breathe four counts in, four out, about six rounds. Let the exhale land in the standing foot and low belly."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Lock attention in the standing sole and inner thigh. Feel a quiet line from foot to crown. Soften the face."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "Notice sway become a still axis. School name for that shift: Root settle. Wobble is information, not failure."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "VBT 016 thread: silently draw out a soft Om, then rest in the quiet gap when sound ends. Stay with that open silence a few breaths."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Lower the foot with control. Stand in Mountain. Switch sides when ready. Carry the quiet root into your next step."
+    }
+  ],
+  "researcher": "R-016",
+  "researched_at": "2026-09-25"
+}

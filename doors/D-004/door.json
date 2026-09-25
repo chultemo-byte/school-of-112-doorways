@@ -1,0 +1,137 @@
+{
+  "id": "D-004",
+  "name": "Half Forward Fold",
+  "sanskrit": "Ardha Uttanasana",
+  "house": 1,
+  "status": "researched",
+  "geometry": {
+    "polygon": "Inverted L: vertical leg column + horizontal torso line (table spine)",
+    "joints": [
+      "ankles",
+      "knees",
+      "hips",
+      "lumbar",
+      "thoracic",
+      "cervical",
+      "shoulders",
+      "elbows",
+      "wrists"
+    ],
+    "summary": "From a forward fold, lift the torso until the back is long and roughly parallel to the floor. Hands rest on shins, thighs, blocks, or the floor\u2014whichever height keeps the spine long. Legs stay rooted; knees may soft-bend. The shape is a hinge at the hips with a flat, extended back body, not a deeper fold.",
+    "svg_hint": "side view: two vertical legs, pelvis hinge, straight torso bar parallel to floor, head in line with spine, hands on mid-shin props"
+  },
+  "reaction": {
+    "name": "Suspend",
+    "from_phase": "collapsed fold",
+    "to_phase": "held length",
+    "summary": "School metaphor: the descending fold pauses into a suspended, long axis\u2014charge that was dumping downward reorganizes along a still horizontal line."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 2,
+    "exhale": 4,
+    "cycles": 6,
+    "lands_in": "front body length along the long spine (sternum to pubis)",
+    "cue": "Inhale to lift into half fold and lengthen. Softly notice the brief pause at the top without forcing retention. Exhale to return to fold or step forward as cued."
+  },
+  "orientation": {
+    "cue": "Hinge at the hips; sit bones reach back; crown reaches forward so the spine is one long line.",
+    "gravity": "Weight even through both feet; hands press down into support so the back body can lift against the hands.",
+    "gaze": "Soft toward the floor a short way ahead of the feet; neck stays in line with the spine.",
+    "degrees_hint": "Torso ~parallel to floor (0\u201320\u00b0 above horizontal); avoid cranking the neck upward."
+  },
+  "attention": {
+    "primary": "Length from tip of tailbone through crown",
+    "secondary": "Hands pressing into shins, thighs, or blocks (not the knee joints)",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 004 (verse 27)",
+    "verse_paraphrase": "When the breath-power is gently retained after inhale or after exhale, at the end of that quiet pause the tranquil (\u015b\u0101nta) awareness is said to shine through that power.",
+    "method_summary": "Safe class form: in the half-lift, lengthen on the inhale, then briefly notice the natural still point at the end of the breath\u2014inside after inhale or outside after exhale\u2014without forcing a hard kumbhaka. Use the pause as a door of attention, then continue with soft equal breath.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "This asana\u2194method link is a School of 112 Doorways teaching device, not ancient canon. Half Forward Fold is paired with VBT dharana 004 by school index, not by historical one-to-one tradition.",
+    "notes": "Mild experiential rhyme only: the half-lift is itself a pause between folds, which echoes dharana 004\u2019s attention to a retained-breath stillness. That rhyme does not upgrade pairing beyond school_device."
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "Hands on thighs, blocks, chair seat, or wall; soft bend in knees. Flat long spine beats straight legs or floor touch.",
+    "contraindication_notes": "General practice caution only; not medical advice. Avoid pressing hands on the knee joints. Ease out if low-back, hamstring, or neck sensation turns sharp. Pregnancy and back concerns: use a higher hand support and keep the spine long rather than deep."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh \u2014 Vijnanabhairava (dharana 4 / verse 27 paraphrase basis)",
+      "kind": "vbt",
+      "ref": "VBT verse 27; kumbhit\u0101 recit\u0101 / p\u016brit\u0101 \u2192 \u015b\u0101nta Bhairava",
+      "url": "https://hareesh.org/blog/2022/11/30/vijana-bhairava-tantra-verses-22-27-the-foundational-practice"
+    },
+    {
+      "label": "Hareesh Wallis \u2014 VBT verses 22\u201327 commentary (practical reading of verse 27)",
+      "kind": "commentary",
+      "ref": "Quiescent breath retained after inhale or exhale; tranquil One manifests",
+      "url": "https://hareesh.org/blog/2022/11/30/vijana-bhairava-tantra-verses-22-27-the-foundational-practice"
+    },
+    {
+      "label": "Yoga Journal \u2014 Standing Half Forward Bend (Ardha Uttanasana)",
+      "kind": "asana",
+      "ref": "Flat-back half lift; hands on floor/blocks/shins; length pubis to navel",
+      "url": "https://www.yogajournal.com/poses/standing-half-forward-bend/"
+    },
+    {
+      "label": "School of 112 Doorways \u2014 Yoga Teaching Machine Master Plan",
+      "kind": "school",
+      "ref": "YOGA-TEACHING-MACHINE-MASTER-PLAN.md; school_device pairing law",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This door is Half Forward Fold, Ardha Uttanasana. It is the halfway lift\u2014a long spine pause inside the fold, not a deeper dive."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "Hinge at the hips. Lift the torso until the back is long and roughly parallel to the floor. Hands find shins, thighs, or blocks\u2014whatever keeps that long line."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Sit bones reach back; crown reaches forward. Gaze soft to the floor ahead. Neck stays in line with the spine. Weight stays even in both feet."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Inhale four counts to lift and lengthen. Soft hold for two counts at the top. Exhale four counts to fold or step on. Six easy cycles."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Lock attention on the length from tailbone through crown. Secondary: hands press into support, never into the knee joints."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "Feel the school cue called Suspend: the fold pauses into held length. Collapsed dump becomes a still horizontal line."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Adiyogi thread, safe form: notice the quiet pause at the end of the inhale or exhale. No forced breath-hold\u2014just meet the stillness, then continue."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Exhale back to fold, or inhale to rise. Soften the knees. Carry the long-spine cue into the next standing shape. Pain means pause or exit."
+    }
+  ],
+  "researcher": "R-004",
+  "researched_at": "2026-09-25"
+}

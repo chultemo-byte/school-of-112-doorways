@@ -1,0 +1,143 @@
+{
+  "id": "D-005",
+  "name": "Low Lunge",
+  "sanskrit": "Anjaneyasana",
+  "house": 1,
+  "status": "researched",
+  "geometry": {
+    "polygon": "asymmetric_lunge_trapezoid",
+    "joints": [
+      "front ankle",
+      "front knee",
+      "front hip",
+      "back knee",
+      "back hip",
+      "pelvis",
+      "spine",
+      "shoulders",
+      "wrists"
+    ],
+    "summary": "From kneeling, step one foot forward so the front knee stacks over the ankle and the back knee rests on the floor. Hips square toward the front edge of the mat as much as honesty allows. Torso rises as a vertical column; hands may rest on the front thigh, frame the front foot, or reach overhead. The shape is a long grounded base with a lifted centerline\u2014not a deepest-backbend contest.",
+    "svg_hint": "side view: front shin vertical, front thigh near-horizontal, back thigh long diagonal to grounded knee, torso upright column, optional arms rising"
+  },
+  "reaction": {
+    "name": "Base Rise",
+    "from_phase": "compact_ground_hold",
+    "to_phase": "ascending_length",
+    "summary": "School metaphor only: sensation gathered low at the grounded back knee and front hip crease softens and lengthens upward through the front body toward the crown\u2014density giving way to a finer rising line. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "lands_in": "front of the pelvis and lower belly, then soft rise through the ribs",
+    "cue": "Inhale four: lengthen from the grounded back knee up through the crown. Exhale four: keep the front knee steady and let the hips settle without collapsing the chest. No forced hold."
+  },
+  "orientation": {
+    "cue": "Back knee heavy on the mat (pad if needed); front heel rooted; pelvis leveling toward square; spine stacking tall over the hips",
+    "gravity": "Primary weight into back knee and front foot; lift travels the centerline, not by yanking the lumbar into a deep arch",
+    "gaze": "Soft forward at eye level, or slightly upward only if the neck stays long and pain-free",
+    "degrees_hint": "Front knee near 90 degrees over ankle; torso upright with at most a gentle 0\u201315 degree chest lift; do not force a deep lumbar arch"
+  },
+  "attention": {
+    "primary": "Contact of back knee and front hip crease as the low anchor",
+    "secondary": "A fine rising line from that anchor through the midline toward the crown",
+    "chakra": "muladhara"
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 005 (Jaideva Singh verse 28)",
+    "verse_paraphrase": "Contemplate the luminous power rising from the root center like rays of the sun, growing subtler and subtler until it dissolves in the upper twelve-finger space; in that dissolution, Bhairava becomes evident.",
+    "method_summary": "Safe class form: while steady in Low Lunge, rest attention at the base of the pelvis, then imagine a soft radiance rising and thinning along the centerline toward the space above the crown. Ordinary breath only. Do not force heat, shaking, breath retention, or dramatic kundalini theatrics.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "This Low Lunge and VBT dharana 005 are linked by the School of 112 Doorways as a teaching device (Door 005 with dharana 005). It is not a claim of ancient one-to-one canon.",
+    "notes": "Supportive resonance only: Anjaneyasana\u2019s grounded back knee and upright rising centerline make a base-to-rise attention map easy to feel, which echoes dharana 005\u2019s contemplation of luminosity rising from muladhara and subtling toward dvadasanta. Pairing remains school_device by door index. Edition note: Jaideva Singh / Lakshmanjoo number dharana 5 as verse 28 (muladhara sun-ray rise). Some popular web indexes place a nose-tip bindu method at dharana 5; this door follows the Jaideva Singh numbering used for House 1."
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain in the front knee, back knee, hips, or low back.",
+    "never_force": true,
+    "open_seat_alternate": "If kneeling is unavailable: take a high lunge with the back knee lifted and hands on blocks, or practice the rising-attention thread seated upright in an open seat.",
+    "contraindication_notes": "General practice caution only; not medical advice. Pad the back knee. Keep the front knee tracking over the ankle, not collapsing inward. Skip deep backbending versions if the low back complains."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh \u2014 Vijnanabhairava or Divine Consciousness (dharana 5 / verse 28 paraphrase used)",
+      "kind": "vbt",
+      "ref": "VBT verse 28; fifth of 112 dharanas; Sakti rising from muladhara like sun-rays, subtling into dvadasanta",
+      "url": ""
+    },
+    {
+      "label": "Swami Lakshmanjoo / Manual of Self-Realization commentary lane on dharana 5",
+      "kind": "commentary",
+      "ref": "Rising prana-sakti / cit-kundalini contemplation into upper dvadasanta; anavopaya moving toward saktopaya",
+      "url": ""
+    },
+    {
+      "label": "Repose paraphrase notes on VBT dharana 5",
+      "kind": "commentary",
+      "ref": "Light arising from muladhara, growing subtler toward brahmarandhra",
+      "url": "https://repose.ghost.io/repose-dharana-5/"
+    },
+    {
+      "label": "School of 112 Doorways \u2014 House 1 Low Lunge / Anjaneyasana geometry cues",
+      "kind": "asana",
+      "ref": "HOUSE-1-REGISTRY.md D-005; common modern alignment: front knee over ankle, back knee down, torso upright",
+      "url": ""
+    },
+    {
+      "label": "School honesty / safety conventions",
+      "kind": "school",
+      "ref": "PROMPT_TEMPLATE.md + guardians/CHECKLIST.md",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 005, Low Lunge \u2014 Anjaneyasana. One foot forward, back knee down, centerline rising. A doorway of base and lift, not a pose to win."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "Front knee stacks over the ankle. Back knee rests on the mat. Hips face forward as honestly as they can. Torso stands tall; arms may rise. Keep the shape long and steady."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Feel gravity in the back knee and front foot. Level the pelvis. Stack the spine over the hips. Gaze soft forward. Do not force the low back into a deep arch."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Inhale for four. Exhale for four. Six easy cycles. Let the breath land low in the pelvis, then rise softly through the ribs without gripping."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Hold the back knee and front hip crease as your low anchor. Secondary: a thin rising thread up the midline toward the crown. Sensation, not strain."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "Name the school shift Base Rise: from a compact ground-hold toward ascending length. Feel it as metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "From VBT dharana 005: imagine soft light rising from the base of the pelvis, growing subtler toward the space above the crown. Ordinary breath. No force, no performance."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Hands frame the front foot. Step back to a stable kneel or your next shape. Stand or sit. Notice the after-feel of base and rise. Pain means pause."
+    }
+  ],
+  "researcher": "R-005",
+  "researched_at": "2026-09-25"
+}
