@@ -1,0 +1,76 @@
+{
+  "number": 49,
+  "sanskrit": "Bhujaṅgāsana",
+  "english": "Cobra",
+  "house": "House of the Wakeful Spine",
+  "element": "Fire",
+  "color": "emerald",
+  "bija": "RAM",
+  "house_intensity": 3,
+  "breath_demand": 2,
+  "requires_lotus": false,
+  "status": "researched",
+  "pairing_type": "school_device",
+  "lineage": "Vijnana Bhairava Tantra. The asana–verse pairing on this door is a School of 112 Doorways device (school_device), not a claim of ancient one-to-one canon.",
+  "geometry": {
+    "polygon": "rising arc",
+    "vertices": [
+      [0, 0],
+      [1.2, 0.05],
+      [2.4, 0.35],
+      [3.4, 0.9],
+      [4.2, 1.55]
+    ],
+    "units": "Sagittal plane, in body-lengths. The tail of the arc — legs and pubic bone — stays low. The chest end rises. An open arc, not a closed ring and not a height to win."
+  },
+  "reaction": {
+    "reactants": [
+      "a collapsed upper back",
+      "a chest that has forgotten width"
+    ],
+    "catalyst": "low, even pressure through both palms, elbows slightly in",
+    "product": "a sternum that lifts without asking the lower back to shout",
+    "phase": "kindling",
+    "note": "Alchemical teaching metaphor for a backbend. Not heat applied to the spine, and not a chemical procedure."
+  },
+  "breath": {
+    "inhale": 4,
+    "exhale": 6,
+    "pause": 0,
+    "pause_after": "none",
+    "bandha": "None while prone. Keep the belly long enough to breathe. No uḍḍīyāna and no forced mūla bandha inside the backbend.",
+    "units": "Equal counts. One count is a comfortable pulse, not a clock second. Pause is zero: do not add a retention to make the lift feel advanced."
+  },
+  "orientation": {
+    "hand_placement": "Palms on the floor beside the lower ribs, fingers spread and pointing forward, elbows bent and drawn slightly toward the waist.",
+    "gaze": "The floor a little ahead of the hands, or the horizon. Do not crank the neck to look at the ceiling.",
+    "joint_lead": "The thoracic spine and the width of the collarbones. The pubic bone stays heavy. The lower back follows; it does not lead."
+  },
+  "attention": {
+    "locus": "width across the heart, not height at any cost",
+    "chakra": "anāhata"
+  },
+  "adiyogi_method": {
+    "vbt_verse": 49,
+    "yukti": 23,
+    "extreme": false,
+    "practice_mode": "practice",
+    "summary": "Teaching reference. Verse 49 of the Vijnana Bhairava Tantra is yukti 23 in the common enumeration. It turns attention into the space of the heart, in the inner recess of the heart-lotus, with the senses unhooked from their objects. The verse's lotus is the heart, not Padmāsana, and it is not an instruction to lift Cobra higher. In this school the pose only serves that width. If an edition numbers the verse a line off, follow the heart-space dharana and say so."
+  },
+  "guardian": "Ananta — the coil that holds, and does not strike",
+  "safety_notes": [
+    "Pregnancy: do not practice this prone backbend. A standing heart-opener, or rest, is the honest substitute.",
+    "Recent abdominal surgery, hernia, or an acute abdominal condition: do not enter the pose.",
+    "Acute low-back pain, a known spondylolisthesis, or spinal instability: do not enter a backbend. Reported pain halts the machine in any case.",
+    "Neck injury, or dizziness when looking up: keep the gaze on the floor. Do not extend the cervical spine to look impressive.",
+    "Painful wrists or carpal tunnel: do not grind through the heels of the hands. Skip the pose, or rest the forearms only if a teacher who can see you has already offered that variation.",
+    "Soon after a large meal: wait. A short breath and a quiet chest, face down or on the side, is enough."
+  ],
+  "five_ways": [
+    "Show a low cobra, then a lower one. Teach the lower one.",
+    "Cue three things: pubic bone heavy, elbows slightly in, collarbones wide. Do not cue a higher head.",
+    "If the wrists complain, the door for the day is rest, or a sphinx on the forearms already known to that student. Pain ends the experiment.",
+    "Inhale to prepare and exhale to admit that more height is unnecessary. Use four counts in and six out only while the throat stays quiet.",
+    "Read the heart-space verse as width in the chest. Ask what can be felt without moving one inch further."
+  ]
+}

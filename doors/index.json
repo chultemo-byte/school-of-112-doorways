@@ -1,0 +1,682 @@
+{
+  "school": "School of 112 Doorways",
+  "count": 112,
+  "note": "Sanskrit and English are filled for the three seeded doors. The other 109 are unassigned; null means not yet named, not a secret name.",
+  "doors": [
+    {
+      "number": 1,
+      "sanskrit": "Tāḍāsana",
+      "english": "Mountain",
+      "status": "seeded",
+      "file": "doors/001.json"
+    },
+    {
+      "number": 2,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 3,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 4,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 5,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 6,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 7,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 8,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 9,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 10,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 11,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 12,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 13,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 14,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 15,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 16,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 17,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 18,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 19,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 20,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 21,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 22,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 23,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 24,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 25,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 26,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 27,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 28,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 29,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 30,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 31,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 32,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 33,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 34,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 35,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 36,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 37,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 38,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 39,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 40,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 41,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 42,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 43,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 44,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 45,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 46,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 47,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 48,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 49,
+      "sanskrit": "Bhujaṅgāsana",
+      "english": "Cobra",
+      "status": "seeded",
+      "file": "doors/049.json"
+    },
+    {
+      "number": 50,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 51,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 52,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 53,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 54,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 55,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 56,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 57,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 58,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 59,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 60,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 61,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 62,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 63,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 64,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 65,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 66,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 67,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 68,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 69,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 70,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 71,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 72,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 73,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 74,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 75,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 76,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 77,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 78,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 79,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 80,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 81,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 82,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 83,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 84,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 85,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 86,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 87,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 88,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 89,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 90,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 91,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 92,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 93,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 94,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 95,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 96,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 97,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 98,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 99,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 100,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 101,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 102,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 103,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 104,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 105,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 106,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 107,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 108,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 109,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 110,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 111,
+      "sanskrit": null,
+      "english": null,
+      "status": "unassigned"
+    },
+    {
+      "number": 112,
+      "sanskrit": "Padmāsana",
+      "english": "Lotus",
+      "status": "seeded",
+      "file": "doors/112.json"
+    }
+  ]
+}

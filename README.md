@@ -1,60 +1,77 @@
 # School of 112 Doorways
 
-A yoga teaching machine.
-One hundred twelve asanas. One hundred twelve dimensions.
-Each door carries six instruments: geometry, reaction, breath, orientation, attention, presentation.
+A teaching machine for yoga. One hundred and twelve doors. Each door is six instruments and a set of limits: geometry, an alchemical metaphor, breath, orientation, attention, and a verse from the Vijnana Bhairava Tantra, plus a guardian and serious safety notes.
 
-**Source of truth:** this repository.  
-**Human book:** Volume 0 — *The Book of 112 Doorways*.  
-**Motto:** *sthira-sukham āsanam* (Yoga Sūtra 2.46).
+Three doors are fully seeded. The others are numbered in `doors/index.json` and left unnamed.
 
-## What this is
+| Door | File | Practice |
+| --- | --- | --- |
+| 1 | `doors/001.json` | Tāḍāsana, Mountain |
+| 49 | `doors/049.json` | Bhujaṅgāsana, Cobra |
+| 112 | `doors/112.json` | Padmāsana, Lotus |
 
-Not a museum of stretches. A living school that braids three rivers:
+This is a craft record, not a feed. It does not diagnose, and it does not claim a pose or a verse as medical treatment.
 
-1. **Haṭhābhyāsapaddhati** (18th c.) — 112 described āsanas in six sequenced groups.
-2. **Vijñāna Bhairava Tantra** — 112 *dhāraṇās*, inner doorways.
-3. **114-chakra map** — 112 workable junctions inside the body, arranged as 7 houses × 16 aspects. Two extra-body doors flower as consequence.
+## How a door is spoken
 
-Classical Haṭha’s 84 live inside the 112 as the principal current.
+The door stores the six instruments. The sequencer speaks them as eight beats, in the master plan’s order:
 
-This is a practice engine, not a medical device.
+1. **Name the door** — Sanskrit, English, house, lineage, and the `school_device` pairing label.
+2. **Geometry** — the polygon and its vertices, as a sketch. Lotus offers the open-seat twin here.
+3. **Orientation** — hands, gaze, and the joint that leads.
+4. **Breath** — inhale, exhale, and pause in equal counts (a comfortable pulse, not a clock second), and the bandha or the refusal to use one. A short breath shortens the count.
+5. **Attention** — the locus.
+6. **Reaction** — reactants, catalyst, product, phase. A metaphor. Nothing is mixed or applied.
+7. **Adiyogi thread** — VBT verse number and a teaching gloss, in its safe form. Extreme methods are observe-only, not class drills.
+8. **Exit / integrate** — leave the figure, one of the five ways, and the line that practice is not medical treatment.
 
-## Six instruments per door
+Five laws can interrupt that order. Pain pauses, names a regression door when there is an earlier one, and exits — the script is empty, and nothing is pushed through. Lotus and any closed hip or knee bind are never forced; door 112 teaches Sukhāsana or a chair unless the profile is lotus-ready, and even then the knee is not hauled. Extreme VBT stays historical or observe-only. Diagnose and cure language blocks a door. Every taught door credits its lineage and is labeled `school_device`. The laws are in `engine/safety.ts` and `safety/rules.md`. The plan is `docs/YOGA-TEACHING-MACHINE-MASTER-PLAN.md`, the Chief of Staff text, verbatim.
 
-| # | Instrument | Function |
-|---|---|---|
-| 1 | Geometry | The polygon the body becomes |
-| 2 | Reaction | Subtle-body phase change (analogy, not lab chemistry) |
-| 3 | Breath | Door-specific prāṇāyāma signature |
-| 4 | Orientation | Precise entry: hands, gaze, lead joint |
-| 5 | Attention | One lock — one locus |
-| 6 | Presentation | Color, bīja, five ways, guardian bot, 8-beat cartoon |
+## Run the prototype
 
-## Repo map
-
-```
-schema/door.schema.json     canonical door object
-data/houses.json            7 houses × 16 doors
-data/doors/001.json         Tāḍāsana — Mountain
-data/doors/049.json         Bhujaṅgāsana — Cobra
-data/doors/112.json         Padmāsana — Lotus
-data/doors/A1.json          Adho Mukha Śvānāsana — first axis
-docs/MACHINE.md             architecture and build phases
+```bash
+npm install
+npx tsc --noEmit
+npm run teach -- --door 1
 ```
 
-## Safety
+Cobra, with the default profile (breath 3, intensity clearance 3):
 
-Pain is information, not a badge.  
-A modified seat still opens the door.  
-Inversions, deep backbends, and full lotus have explicit exits.  
-We teach yoga as practice, not treatment.
+```bash
+npm run teach -- --door 49
+```
 
-## Next
+Door 112 on that profile teaches the open-seat twin and reads verse 138 as observe-only. It does not ask for lotus:
 
-1. Fill House of Earth (doors 001–016) as JSON.
-2. Guardian-bot runtime — one prompt-program per door.
-3. Vercel school — one page per doorway.
-4. Cartoon pipeline and Volume 1 book render from the same JSON.
+```bash
+npm run teach -- --door 112
+```
 
-112 doorways. One body. One future.
+With `lotus_ready` true the closed seat may be described, still never forced, and the verse stays observe-only:
+
+```bash
+npm run teach -- --door 112 --profile profiles/lotus-cleared.json
+```
+
+Omit `--door` and the sequencer opens the next seeded door the laws allow. `npm run check` validates the three doors and the gates.
+
+`--json` prints the session object. npm itself writes a banner on stdout, so for a clean document use:
+
+```bash
+npm run --silent teach -- --json --door 1
+```
+
+Exit codes: `0` teaching, `2` halted for pain, `3` door blocked, `1` bad input or an unassigned number.
+
+## Layout
+
+```
+doors/       001, 049, 112, and index.json for all 112
+schemas/     door.schema.json
+engine/      types, safety gates, sequencer
+safety/      the five laws in prose; index.ts re-exports the gates
+bots/        eight teaching roles
+ui/          cartoon storyboard (not an app)
+docs/        Chief of Staff master plan, verbatim
+profiles/    example readiness files
+```

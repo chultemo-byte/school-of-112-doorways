@@ -1,0 +1,206 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/chultemo-byte/school-of-112-doorways/schemas/door.schema.json",
+  "title": "Door",
+  "description": "One doorway in the School of 112 Doorways. Reaction is a teaching metaphor, not laboratory chemistry. Breath numbers are equal counts (a comfortable pulse), not clock seconds.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "number",
+    "sanskrit",
+    "english",
+    "house",
+    "element",
+    "color",
+    "bija",
+    "geometry",
+    "reaction",
+    "breath",
+    "orientation",
+    "attention",
+    "adiyogi_method",
+    "guardian",
+    "safety_notes",
+    "five_ways"
+  ],
+  "properties": {
+    "number": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 112
+    },
+    "sanskrit": { "type": "string", "minLength": 1 },
+    "sanskrit_devanagari": { "type": "string", "minLength": 1 },
+    "english": { "type": "string", "minLength": 1 },
+    "dimension": { "type": "string", "minLength": 1 },
+    "house": { "type": "string", "minLength": 1 },
+    "element": { "type": "string", "minLength": 1 },
+    "color": { "type": "string", "minLength": 1 },
+    "bija": { "type": "string", "minLength": 1 },
+    "geometry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["polygon", "vertices"],
+      "properties": {
+        "polygon": { "type": "string", "minLength": 1 },
+        "vertices": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 3,
+            "items": { "type": "number" }
+          }
+        },
+        "units": { "type": "string" }
+      }
+    },
+    "reaction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reactants", "catalyst", "product", "phase"],
+      "properties": {
+        "reactants": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "catalyst": { "type": "string", "minLength": 1 },
+        "product": { "type": "string", "minLength": 1 },
+        "phase": { "type": "string", "minLength": 1 },
+        "note": { "type": "string" }
+      }
+    },
+    "breath": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["inhale", "exhale", "pause", "bandha"],
+      "properties": {
+        "inhale": { "type": "number", "minimum": 0 },
+        "exhale": { "type": "number", "minimum": 0 },
+        "pause": { "type": "number", "minimum": 0 },
+        "bandha": { "type": "string", "minLength": 1 },
+        "units": { "type": "string" },
+        "pause_after": { "enum": ["exhale", "inhale", "none"] }
+      }
+    },
+    "orientation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hand_placement", "gaze", "joint_lead"],
+      "properties": {
+        "hand_placement": { "type": "string", "minLength": 1 },
+        "gaze": { "type": "string", "minLength": 1 },
+        "joint_lead": { "type": "string", "minLength": 1 }
+      }
+    },
+    "attention": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["locus"],
+      "properties": {
+        "locus": { "type": "string", "minLength": 1 },
+        "chakra": { "type": "string" }
+      }
+    },
+    "adiyogi_method": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["vbt_verse", "summary"],
+      "properties": {
+        "vbt_verse": { "type": "integer", "minimum": 1 },
+        "summary": { "type": "string", "minLength": 1 },
+        "yukti": { "type": "integer", "minimum": 1, "maximum": 112 },
+        "extreme": {
+          "type": "boolean",
+          "description": "When true, the dharana is historical or observe_only and is not a class drill."
+        },
+        "practice_mode": {
+          "enum": ["practice", "observe_only", "historical"]
+        }
+      }
+    },
+    "guardian": { "type": "string", "minLength": 1 },
+    "safety_notes": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "five_ways": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Five teaching approaches for this door."
+    },
+    "house_intensity": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Recorded house intensity from 1 to 5. Not itself one of the five hard laws."
+    },
+    "breath_demand": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "When the student's breath capacity is lower, the spoken count is shortened. The shape is not refused by this field alone."
+    },
+    "requires_lotus": {
+      "type": "boolean",
+      "description": "True when the door asks for a closed hip or knee bind. Lotus is never forced."
+    },
+    "status": {
+      "enum": ["stub", "researched", "live"]
+    },
+    "pairing_type": {
+      "const": "school_device",
+      "description": "School pairing label. Not a claim of ancient one-to-one canon."
+    },
+    "lineage": { "type": "string", "minLength": 1 },
+    "practice_mode": {
+      "enum": ["practice", "observe_only", "historical"]
+    },
+    "alternate_geometry": {
+      "description": "Open-seat twin offered instead of a closed bind.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["polygon", "vertices"],
+      "properties": {
+        "polygon": { "type": "string", "minLength": 1 },
+        "vertices": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 3,
+            "items": { "type": "number" }
+          }
+        },
+        "units": { "type": "string" },
+        "seat": { "type": "string" }
+      }
+    },
+    "cartoon_beats": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Eight mural captions. The spoken tutorial is still the sequencer's eight beats."
+    },
+    "safety": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "bind": { "type": "string" },
+        "open_seat_twin": { "type": "string" },
+        "override": { "type": "string" },
+        "notes": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}

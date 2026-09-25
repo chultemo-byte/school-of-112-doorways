@@ -1,0 +1,86 @@
+{
+  "number": 1,
+  "sanskrit": "Tāḍāsana",
+  "sanskrit_devanagari": "ताडासन",
+  "english": "Mountain",
+  "dimension": "The Unmoving Standing",
+  "house": "House of the Rooted Axis",
+  "element": "Earth",
+  "color": "ochre",
+  "bija": "LAM",
+  "house_intensity": 1,
+  "breath_demand": 1,
+  "requires_lotus": false,
+  "status": "researched",
+  "pairing_type": "school_device",
+  "lineage": "Vijnana Bhairava Tantra. The asana–verse pairing on this door is a School of 112 Doorways device (school_device), not a claim of ancient one-to-one canon.",
+  "geometry": {
+    "polygon": "isosceles triangle",
+    "vertices": [
+      [0, 0],
+      [2, 0],
+      [1, 3.2]
+    ],
+    "units": "Frontal plane, in body-widths. The base is the two feet. The apex is the crown. A sketch of the mountain, not a measurement to match."
+  },
+  "reaction": {
+    "reactants": [
+      "weight dumped into one hip",
+      "a gaze that hunts for something to do"
+    ],
+    "catalyst": "even contact of both soles with the ground",
+    "product": "unforced vertical quiet",
+    "phase": "solidification",
+    "note": "Alchemical teaching metaphor. Nothing is mixed, swallowed, or applied."
+  },
+  "breath": {
+    "inhale": 4,
+    "exhale": 4,
+    "pause": 2,
+    "pause_after": "exhale",
+    "bandha": "None. The feet are the root. Do not grip the jaw, the belly, or the pelvic floor to feel established.",
+    "units": "Equal counts. One count is a comfortable pulse, not a clock second. The pause is a quiet suspension after the exhale, released the moment it becomes a grip."
+  },
+  "orientation": {
+    "hand_placement": "Arms hang beside the ribs, palms turned toward the thighs, fingers soft and awake.",
+    "gaze": "The horizon, eyes level. If the horizon swims or darkens, lower the gaze to the floor a short distance ahead and shorten the stay.",
+    "joint_lead": "The four corners of each foot: mound of the big toe, mound of the little toe, inner heel, outer heel. Lift the toes, fan them, and plant them. Knees follow without locking. Hips stack over the ankles. The crown is last, and it does not reach."
+  },
+  "attention": {
+    "locus": "the inner line from the center of both soles to the crown",
+    "chakra": "mūlādhāra, as ground rather than as a place to strain"
+  },
+  "adiyogi_method": {
+    "vbt_verse": 24,
+    "yukti": 1,
+    "extreme": false,
+    "practice_mode": "practice",
+    "summary": "Teaching reference, not a claim that Mountain is the verse. Vijnana Bhairava Tantra verse 24 is the first of the 112 dharanas in the usual counting: attention at the two junctions where the breath turns, until those pauses feel full rather than empty. Here the mountain is that junction stood upright — a pause one inhabits and does not grip. Editions differ by a line or two; if a copy numbers the breath-junction a verse away, follow the junction, and say so."
+  },
+  "guardian": "Himavan — the mountain who does not announce himself. Before every journey, the earth must recognize you.",
+  "safety_notes": [
+    "Do not lock or thrust the knees backward. If the knees hyperextend, keep a whisper of softness and bring weight toward the heels and the mounds of the big toes.",
+    "Dizziness, narrowing vision, or a sudden heat in the face is a stop. Lower the gaze, lengthen the exhale, and sit down if it does not pass. This is not a cleansing sign.",
+    "Recent ankle sprain, acute knee pain, or an inner-ear balance disturbance: practice beside a wall, one hand available, not in the middle of the room.",
+    "Low blood pressure, long illness, or heat: Mountain is still standing. Fatigue is information. Shorten the stay.",
+    "Pregnancy: the pose is generally suitable. Widen the feet if a broader base is kinder, and do not hold a long time in heat.",
+    "To leave: soften the knees. Feel the floor as ordinary ground."
+  ],
+  "cartoon_beats": [
+    "An ochre arch rises from the soil.",
+    "Bare feet on the threshold.",
+    "Toes lift, then plant. Four points under each foot.",
+    "A quiet current climbs the legs.",
+    "The spine becomes a ridge.",
+    "The crown is a thread, not a reach.",
+    "LAM, if sounded, is one low stroke, not a performance.",
+    "The student is still. The door is simply open."
+  ],
+  "five_ways": [
+    "Show the pose twice in silence: once as a whole figure, once with attention only on the feet.",
+    "Name the four corners of each foot, then stop talking: big-toe mound, little-toe mound, inner heel, outer heel. Knees stay unlocked. The crown does not lift the chin.",
+    "Offer a wall behind the heels, or a block lightly between the thighs, when weight keeps escaping to one side.",
+    "Lead four counts in and four counts out. Let the pause after the exhale appear. Do not hunt a longer one.",
+    "If the student begins performing straightness, end the stay and ask them to feel the pause between two ordinary steps."
+  ]
+}
