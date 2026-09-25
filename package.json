@@ -1,0 +1,23 @@
+{
+  "name": "school-of-112-doorways",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A yoga teaching machine: 112 doors, six instruments, five hard safety laws.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "teach": "tsx engine/sequencer.ts",
+    "check": "tsx engine/self-check.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
