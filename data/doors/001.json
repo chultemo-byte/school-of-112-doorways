@@ -1,0 +1,84 @@
+{
+  "door_id": "001",
+  "kind": "house",
+  "sanskrit": "Tadasana",
+  "sanskrit_devanagari": "ताडासन",
+  "english": "Mountain Pose",
+  "house": 1,
+  "house_name": "Muladhara",
+  "axis": null,
+  "element": "earth",
+  "color": "vermilion",
+  "color_hex": "#9B1B30",
+  "bija": "LAM",
+  "dimension": "The Unmoving Standing",
+  "geometry": {
+    "polygon": "square standing into a vertical line",
+    "description": "Four corners of each foot make the earth-square. The stacked body is one mountain-line from sole to crown.",
+    "vectors": ["soles down", "thighs up", "crown floating"]
+  },
+  "reaction": {
+    "name": "Earth recognizes the human",
+    "vessel": "the square of the feet",
+    "reagent": "long leaving breath",
+    "catalyst": "LAM in the heels",
+    "precipitate": "Being Here",
+    "note": "Yogic metaphor. Not a laboratory protocol."
+  },
+  "breath": {
+    "name": "Earth breath",
+    "inhale": "length climbs the inner line from arches to crown",
+    "exhale": "weight pours into four corners of each foot",
+    "ratio": "4 in / 6 out",
+    "pause": "half-second after exhale — the mountain listens",
+    "bandha": "whisper of mula bandha on exhale only",
+    "mantra_on_breath": "LAM rides the exhale through the bones of the feet"
+  },
+  "orientation": {
+    "enter_keys": [
+      "big-toe mounds together or hip-width",
+      "lift toes, fan, plant",
+      "four corners: big-toe mound, little-toe mound, inner heel, outer heel",
+      "thighs lift without locking knees",
+      "pelvis a bowl that spills neither way"
+    ],
+    "gaze": "soft horizon, or closed",
+    "leads": "feet",
+    "follows": "skull"
+  },
+  "attention": {
+    "locus": "four corners of the soles",
+    "chakra": "Muladhara",
+    "instruction": "Do not watch the whole body. Watch the feet until the earth answers."
+  },
+  "ways_to_perfection": [
+    "Two feet.",
+    "One spine.",
+    "Breath climbs.",
+    "LAM colors the climb.",
+    "Become the mountain that does not leave."
+  ],
+  "octaves": {
+    "enter": "stand and notice",
+    "refine": "even weight, three body-planes stacked, jaw unclenched",
+    "dissolve": "you are the mountain, not a person doing Mountain"
+  },
+  "guardian": {
+    "name": "MERU",
+    "voice": "quiet granite with a child’s curiosity",
+    "opening_line": "Before every journey, the earth must recognize you."
+  },
+  "safety": "Dizziness: stand near a wall. Knee pain: secret micro-bend. Pregnancy: hip-width feet.",
+  "close_the_door": "Soften the knees. Feel the floor as ordinary ground, which is still sacred.",
+  "vbt_companion": "The still point between two breaths, while standing.",
+  "cartoon_beats": [
+    "Red arch rises from soil.",
+    "Bare feet on the threshold.",
+    "Toes lift like little flags, then plant. Four golden dots under each foot.",
+    "Red current climbs the legs.",
+    "Spine becomes a mountain ridge.",
+    "Crown opens a thin white thread to the sky.",
+    "LAM appears as a low red drum under the pelvis.",
+    "The yogi is still. The doorway clicks open."
+  ]
+}
