@@ -1,0 +1,133 @@
+{
+  "id": "D-001",
+  "name": "Mountain",
+  "sanskrit": "Tadasana",
+  "house": 1,
+  "status": "researched",
+  "geometry": {
+    "polygon": "upright_column",
+    "joints": [
+      "ankles",
+      "knees",
+      "hips",
+      "shoulders",
+      "crown"
+    ],
+    "summary": "A vertical column from the soles through the pelvis and ribcage to the crown, with a base triangle formed by the two feet and the pelvic floor. Feet hip-width or together; legs long without locked knees; arms soft at the sides; spine stacked in one clear upright line.",
+    "svg_hint": "line from midfeet through pelvis to crown; base triangle feet-to-pelvic-floor"
+  },
+  "reaction": {
+    "name": "Settle",
+    "from_phase": "scattered_charge",
+    "to_phase": "grounded_stillness",
+    "summary": "School metaphor only: attention that was bouncing outward settles into quiet vertical presence. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "lands_in": "lower belly, then soft ribs",
+    "cue": "Even inhale four, even exhale four. No forced hold. Notice the natural brief turn at the top and bottom of each breath."
+  },
+  "orientation": {
+    "cue": "Crown over heels; weight even on both feet",
+    "gravity": "Down through the triple foot points (heel, big-toe ball, little-toe ball); up through the crown",
+    "gaze": "Soft horizontal, eyes open or lightly closed",
+    "degrees_hint": "0 degrees tilt from vertical; no lean forward or back"
+  },
+  "attention": {
+    "primary": "Soles-to-crown vertical axis",
+    "secondary": "Natural pauses where breath turns",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 001 (verse 24)",
+    "verse_paraphrase": "Exhalation rises and inhalation descends as a continuous emission. Rest awareness at the two places where these flows arise or turn; fullness (bharita) becomes available.",
+    "method_summary": "In standing stillness, follow natural breath without forcing. At the end of inhale and the end of exhale, rest attention for a moment in the brief turn (inner center and outer dvadasanta as classical map). Do not strain or stop the breath; notice the pause that is already there.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "This asana and VBT method are linked by the School of 112 Doorways as a teaching device (Door 001 with dharana 001). It is not a claim of ancient one-to-one canon.",
+    "notes": "Supportive resonance only: Tadasana stillness makes the two breath-turn points easier to notice. Pairing remains school_device by door index."
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "If standing is not available, practice the same breath-turn attention seated upright in an open seat (sukhasana or chair).",
+    "contraindication_notes": "General practice caution only; not medical advice. Soften the knees if locking bothers them. Sit or hold a wall if balance or fatigue appear."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh \u2014 Vijnanabhairava or Divine Consciousness (dharana 1 / verse 24 paraphrase used)",
+      "kind": "vbt",
+      "ref": "VBT verse 24; first of 112 dharanas; breath-turn / bharita sthiti",
+      "url": ""
+    },
+    {
+      "label": "Public concordance summaries of VBT verse 24 (prana/jiva turn points)",
+      "kind": "commentary",
+      "ref": "Synthesis of standard Kashmir Shaiva commentary lane for dharana 1",
+      "url": "https://hatha.es/en/texts/vijnana-bhairava-tantra/001/"
+    },
+    {
+      "label": "School of 112 Doorways \u2014 House 1 Mountain / Tadasana geometry cues",
+      "kind": "asana",
+      "ref": "YOGA-TEACHING-MACHINE-MASTER-PLAN.md exemplar D-001",
+      "url": ""
+    },
+    {
+      "label": "School honesty / safety conventions",
+      "kind": "school",
+      "ref": "PROMPT_TEMPLATE.md + guardians/CHECKLIST.md",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 001, Mountain \u2014 Tadasana. Stand as a quiet upright column. Nothing to prove. Just arrive."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "Feet plant. Legs long, knees soft. Pelvis stacked over ankles, ribs over pelvis, crown floating up. Arms rest by your sides. One vertical line."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Crown over heels. Weight even on both feet \u2014 heel, big-toe ball, little-toe ball. Gaze soft and level. Gravity down, length up."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Inhale for four. Exhale for four. Six easy cycles. Breath lands in the lower belly, then soft ribs. No forced hold."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Hold the soles-to-crown line. Secondary: notice the natural turn at the top of the inhale and the bottom of the exhale."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "Name the school shift Settle: scattered charge moves toward grounded stillness. Feel it as metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "From VBT dharana 001: rest awareness at the two places where breath turns. Do not stop the breath. Meet the pause that is already there."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Take one free breath. Soften the knees. Carry the vertical quiet into the next step, or sit if you need rest."
+    }
+  ],
+  "researcher": "R-001",
+  "researched_at": "2026-09-25"
+}

@@ -1,0 +1,140 @@
+{
+  "id": "D-006",
+  "name": "Downward-Facing Dog",
+  "sanskrit": "Adho Mukha Svanasana",
+  "house": 1,
+  "status": "researched",
+  "geometry": {
+    "polygon": "inverted_V",
+    "joints": [
+      "wrists",
+      "elbows",
+      "shoulders",
+      "hips",
+      "knees",
+      "ankles"
+    ],
+    "summary": "An inverted V: hands and feet as the two base points, hips as the high apex. Spine lengthens from wrists through the back body toward the heels. Knees may bend; heels reach toward the floor without forcing. Weight shared through the whole palm and the triple foot points.",
+    "svg_hint": "two_base_points_hands_feet_apex_hips_long_spine"
+  },
+  "reaction": {
+    "name": "Long settle",
+    "from_phase": "upright scatter",
+    "to_phase": "inverted long line",
+    "summary": "School metaphor: scattered upright charge settles into one long, quiet line from hands through hips to heels. Not a biochemical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 6,
+    "cycles": 6,
+    "lands_in": "side ribs and long back body",
+    "cue": "Inhale lengthen the sides of the waist; exhale root the hands and let the heels soften back without forcing."
+  },
+  "orientation": {
+    "cue": "Hips high as apex; crown soft toward the space between the upper arms; heels reach back and down.",
+    "gravity": "Weight shared through palms and feet; hips stay the highest point of the shape.",
+    "gaze": "Soft toward navel or thighs; neck long, not craned.",
+    "degrees_hint": "inverted V ~45-60 at ankles and wrists depending on body; no fixed angle target"
+  },
+  "attention": {
+    "primary": "Continuous central line from hands through spine to heels",
+    "secondary": "Even rooting through the whole palm",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 006 (verse 29)",
+    "verse_paraphrase": "Imagine awareness rising like a brief flash of lightning through successive centers along the central channel, up to about three fists above the crown. At that soft culmination, a great dawning of clear awareness may be felt.",
+    "method_summary": "Safe class form: while holding Down Dog, quietly mark attention center by center along the long spine line (base, belly, heart, throat, brow, crown), then rest awareness in the soft space above the crown for a breath or two. Contemplative tracing only; never force sensation or breath.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "This asana and VBT method are paired by School of 112 Doorways door number (D-006 with dharana 006). That link is a teaching device, not ancient one-to-one canon.",
+    "notes": "Both invite attention along a continuous central line. That shared metaphor supports the braid in class, but does not upgrade the pairing beyond school_device."
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "Puppy pose (Anahatasana) or knees-down dog if wrists, shoulders, or hamstrings complain.",
+    "contraindication_notes": "General practice caution only; not medical advice. Ease off if wrists, shoulders, or low back complain; bend knees freely; do not force heels to the floor."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh \u2014 Vijnanabhairava, or Divine Consciousness",
+      "kind": "vbt",
+      "ref": "Dharana 6 / verse 29 (udgacchant\u012b\u1e43 ta\u1e0ditr\u016bp\u0101m\u2026); Motilal Banarsidass, 1979",
+      "url": ""
+    },
+    {
+      "label": "Christopher Wallis \u2014 Vij\u00f1ana-bhairava-tantra verses 29\u201330",
+      "kind": "commentary",
+      "ref": "Paraphrase of verse 29 lightning-ascent / mahodaya; twelve-finger dv\u0101da\u015b\u0101nta note",
+      "url": "https://hareesh.org/blog/2022/12/3/vijana-bhairava-tantra-verse-28-the-central-channel-rhcdg"
+    },
+    {
+      "label": "Sanskrit & Trika Shaivism \u2014 Vij\u00f1\u0101nabhairava verse 29",
+      "kind": "vbt",
+      "ref": "Sanskrit + English for verse 29 (lightning-form \u015bakti through cakras to mu\u1e63\u1e6di-traya)",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School asana geometry \u2014 Adho Mukha Svanasana",
+      "kind": "asana",
+      "ref": "House 1 registry working name Downward-Facing Dog; inverted-V teaching geometry",
+      "url": ""
+    },
+    {
+      "label": "School of 112 Doorways \u2014 master plan honesty laws",
+      "kind": "school",
+      "ref": "Serial pairing = school_device; pain = information; no medical claims",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door D-006: Downward-Facing Dog, Adho Mukha Svanasana. An inverted V that lengthens the whole back body."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "Hands and feet plant. Hips rise as the peak. Spine long. Knees may bend. Heels reach back without forcing."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Share weight through palms and feet. Keep hips the high point. Soften the crown toward the space between the arms. Gaze toward navel or thighs."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Breathe inhale four, exhale six, for about six cycles. Inhale lengthen the waist. Exhale root the hands and soften the heels."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Hold one continuous line from hands through the spine to the heels. Secondary: even pressure across each whole palm."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "Feel the school cue Long settle: upright scatter becoming one quiet inverted line. Metaphor only. If pain speaks, exit."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Safe VBT 006 thread: quietly mark attention up the centers along that long line, then rest soft awareness above the crown for a breath. Trace only. Never force."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Bend knees, walk or step forward, or lower to puppy pose. Stand or sit. Notice the long line still available without the shape."
+    }
+  ],
+  "researcher": "R-006",
+  "researched_at": "2026-09-25"
+}

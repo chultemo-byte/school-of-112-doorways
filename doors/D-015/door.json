@@ -1,0 +1,135 @@
+{
+  "id": "D-015",
+  "name": "Wide-Legged Standing Forward Fold",
+  "sanskrit": "Prasarita Padottanasana",
+  "house": 1,
+  "status": "researched",
+  "geometry": {
+    "polygon": "Wide-base inverted V (A-frame): two long leg lines from a broad foot base to the hip hinge, then a lengthened spine vector toward the floor; optional crown contact as a soft third point.",
+    "joints": [
+      "ankles",
+      "knees",
+      "hips",
+      "lumbar-thoracic spine",
+      "shoulders",
+      "elbows",
+      "cervical / crown"
+    ],
+    "summary": "Feet stand wide and parallel (or toes slightly in), legs firm, pelvis hinges forward. Hands land under the shoulders first with a long concave spine; then elbows bend and the crown may meet floor or a block while weight stays in the legs, not the head.",
+    "svg_hint": "Front view: wide stance rectangle base; side view: inverted-V legs + forward-hinged torso; mark crown optional support."
+  },
+  "reaction": {
+    "name": "Gross to Void",
+    "from_phase": "gross_sound",
+    "to_phase": "clear_void",
+    "summary": "School metaphor: attention rides the coarse layer of stance and breath, then thins through half-felt vibration and a single point into quiet. Not a medical or chemical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 6,
+    "cycles": 6,
+    "lands_in": "the still gap after the exhale, at the soft crown line",
+    "cue": "Inhale lengthen the spine long; exhale hinge and settle without dumping weight on the head. Rest one beat in the quiet after sound fades."
+  },
+  "orientation": {
+    "cue": "Hinge at the hip creases; keep the spine long; let the crown aim toward the floor only after the back has stayed long.",
+    "gravity": "Load the four corners of both feet; legs carry the body. Head is light or supported\u2014never a dump.",
+    "gaze": "First stage: look forward with a concave back. Full fold: soft gaze toward the floor or eyes softly closed.",
+    "degrees_hint": "Stance roughly 90\u00b0 between legs (about 4\u20135 feet for many bodies); elbows near 90\u00b0 when crown lowers."
+  },
+  "attention": {
+    "primary": "The quiet after the last audible edge of the breath or inner sound cue (bindu \u2192 \u015b\u016bnya)",
+    "secondary": "Even press through both feet and lifted inner arches",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 015",
+    "verse_paraphrase": "On any compact (pi\u1e47\u1e0da) mantra, move attention along the gross letters, then through half-moon, point, end of resonance, into void\u2014this is supreme meditation.",
+    "method_summary": "Contemplative class form: take a short inner sound or the breath itself as the \u2018mantra,\u2019 notice it thicken then thin\u2014vibration, single point, fade\u2014and rest in the quiet that follows. Do not force occult letter-stages or unpronounceable consonant masses; the teaching is progressive dissolution into silence.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "This asana\u2194method link is a School of 112 Doorways teaching device, not ancient canon. Wide-legged fold and dharana 015 are paired by school index, not by classical one-to-one lineage.",
+    "notes": "Edition note: school index = dharana 015 as labeled at hatha.es (pi\u1e47\u1e0damantra \u2192 ardhendu-bindu-n\u0101d\u0101nta-\u015b\u016bnya). Many printed editions place related Sanskrit near verse ~42 (e.g. Jaideva Singh / commentary lines); numbering of \u2018dharana 15\u2019 vs \u2018verse N\u2019 varies by edition. Soft experiential rhyme (gross form thinning toward quiet) is noted but not elevated to inner_logic without stronger textual warrant."
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "Keep hands on blocks or a chair with a concave spine; skip crown-to-floor. Soften knees if hamstrings or low back protest.",
+    "contraindication_notes": "General practice caution only; not medical advice. Use support under hands or head; avoid dumping weight onto the neck. If dizziness appears in the fold, come up slowly with hands on hips."
+  },
+  "sources": [
+    {
+      "label": "hatha.es \u2014 Dh\u0101ra\u1e47\u0101 15 (Vij\u00f1\u0101na Bhairava Tantra)",
+      "kind": "vbt",
+      "ref": "Dh\u0101ra\u1e47\u0101 15: pi\u1e47\u1e0damantra / ardhendu-bindu-n\u0101d\u0101nta-\u015b\u016bnya",
+      "url": "https://hatha.es/en/texts/vijnana-bhairava-tantra/015"
+    },
+    {
+      "label": "Yogi Matsyendranatha / Dupuche discussion of related \u015bloka",
+      "kind": "commentary",
+      "ref": "Discussion of pi\u1e47\u1e0damantra stages (often cited near VBT 42 in some editions)",
+      "url": "https://matsyendranatha.com/?p=169"
+    },
+    {
+      "label": "Iyengar tradition \u2014 Prasarita Padottanasana alignment",
+      "kind": "asana",
+      "ref": "Wide stance, concave-back stage, crown optional; weight in legs (Light on Yoga plates / studio cues)",
+      "url": "https://yogavastu.com/p/prasarita-padottanasana/"
+    },
+    {
+      "label": "School of 112 Doorways \u2014 House 1 dispatch R-015",
+      "kind": "school",
+      "ref": "research/house1-dispatches/R-015.md + schemas/door.schema.json",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "Door D-015: Wide-Legged Standing Forward Fold \u2014 Prasarita Padottanasana. A wide stance that folds the spine long toward quiet."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "Step the feet wide and parallel. Firm the legs. Hinge at the hips. Hands under the shoulders first; spine long. Crown may meet floor or a block later\u2014legs still carry you."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Gravity lives in the feet. Keep the head light. Look forward while the back stays concave; only then soften the gaze down as you fold."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Inhale four to lengthen. Exhale six to hinge and settle. Six cycles. Land in the still gap after the exhale."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Primary lock: the quiet after the last edge of breath or inner sound. Secondary: even press through both feet."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School cue only: Gross to Void. Feel coarse stance and sound thin toward a point, then open into quiet. Metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Safe VBT 015 thread: let a short inner sound or the breath dissolve\u2014vibration, point, fade\u2014and rest in the silence that follows. No forced occult stages."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Inhale, lift the head, hands to hips, rise with a long spine. Feet walk in. Stand quiet for one breath and notice the same quiet without the fold."
+    }
+  ],
+  "researcher": "R-015",
+  "researched_at": "2026-09-25"
+}

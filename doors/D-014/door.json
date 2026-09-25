@@ -1,0 +1,129 @@
+{
+  "id": "D-014",
+  "name": "Extended Side Angle",
+  "sanskrit": "Utthita Parsvakonasana",
+  "house": 1,
+  "status": "researched",
+  "geometry": {
+    "polygon": "long lateral diagonal (back heel \u2192 front knee \u2192 side ribs \u2192 top hand) over a wide base triangle",
+    "joints": [
+      "ankles",
+      "front knee",
+      "hips",
+      "spine (lateral)",
+      "shoulders",
+      "top elbow",
+      "wrists"
+    ],
+    "summary": "From a wide Warrior II stance, bend the front knee over the front ankle, tip the torso over the front thigh, and place the bottom hand on the floor, a block, or the front shin. Reach the top arm overhead into one long side-body line from back heel through outer ribs to fingertips. Keep the chest open toward the side/ceiling; never collapse the front knee inward.",
+    "svg_hint": "wide base; bent front knee; angled torso; bottom hand support; top arm long diagonal"
+  },
+  "reaction": {
+    "name": "Solid \u2192 sky",
+    "from_phase": "solid body-edge",
+    "to_phase": "omnidirectional space",
+    "summary": "School metaphor: the strong lateral stretch first makes the body feel like a hard edge; then attention softens that edge into spaciousness felt in all directions at once (not a medical or biochemical claim)."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 6,
+    "cycles": 6,
+    "lands_in": "long side body (bottom waist through top ribs) then soft belly",
+    "cue": "Inhale lengthen the top arm and outer side; exhale settle weight into the back heel and front foot without collapsing the chest."
+  },
+  "orientation": {
+    "cue": "Back heel heavy; front knee tracks over second toe; torso tips over front thigh while chest stays open to the side.",
+    "gravity": "Load both feet; bottom hand is a light prop, not a dump of the whole torso.",
+    "gaze": "Soft toward the top hand or forward along the cheek if the neck complains.",
+    "degrees_hint": "Front thigh approaching parallel when available; top arm continues the side-body line (~one long diagonal)."
+  },
+  "attention": {
+    "primary": "Whole-body field as space in all six directions at once (front, back, left, right, above, below)",
+    "secondary": "Long outer-side line from back heel to top fingertips",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 014 (VBh ~43)",
+    "verse_paraphrase": "In your own body, contemplate space in every direction at the same time. When the mind stops fabricating solid boundaries, experience unfolds as space.",
+    "method_summary": "While holding the shape (or seated after), sense the whole body at once and let attention spread evenly through front, back, sides, above, and below. Soften the idea of a hard body-edge; rest as if inner and outer space were the same field. Do not force a visualization or suppress thoughts.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "This asana\u2194method link is a School of 112 Doorways teaching device, not ancient canon. Extended Side Angle and VBT dharana 014 are paired by school index so students can braid a strong side-body geometry with an omnidirectional space contemplation.",
+    "notes": "Experiential resonance (not canon): the pose\u2019s vivid one-sided stretch can highlight the habit of locating awareness in a solid edge; dharana 014 then invites space in all directions at once. Kept as school_device because the serial index pairing is the School\u2019s primary rule."
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "Hands-on-hips side bend in a shorter stance, or Warrior II with soft side stretch; use a block under the bottom hand rather than reaching the floor.",
+    "contraindication_notes": "General practice caution only; not medical advice. Ease off if front knee, hip, or neck complains; shorten stance and raise the bottom hand."
+  },
+  "sources": [
+    {
+      "label": "Vij\u00f1\u0101na Bhairava Tantra \u2014 Dh\u0101ra\u1e47\u0101 14 (body as space in all directions)",
+      "kind": "vbt",
+      "ref": "VBh ~43 / dharana 014; paraphrase from public commentary summary",
+      "url": "https://hatha.es/en/texts/vijnana-bhairava-tantra/014"
+    },
+    {
+      "label": "School of 112 Doorways \u2014 door schema & research template",
+      "kind": "school",
+      "ref": "schemas/door.schema.json; research/PROMPT_TEMPLATE.md; research/house1-dispatches/R-014.md",
+      "url": ""
+    },
+    {
+      "label": "Utthita Parsvakonasana \u2014 common asana geometry (Iyengar / modern standing tradition)",
+      "kind": "asana",
+      "ref": "Standard teaching cues: wide stance, front knee tracking, long side body, prop under bottom hand",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "Door D-014: Extended Side Angle \u2014 Utthita Parsvakonasana. One long side-body line over a wide base."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "Wide stance. Bend the front knee over the ankle. Tip the torso over the front thigh. Bottom hand to floor, block, or shin. Top arm reaches long overhead."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Back heel heavy. Front knee tracks over the second toe. Bottom hand props lightly. Chest opens to the side, not folded down."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Inhale four counts to lengthen the top side. Exhale six counts into both feet. Six cycles. Soften if the breath shortens."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Feel the long outer side \u2014 then also front, back, other side, above, and below. Attention fills the whole body-field at once."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School cue: solid edge softens toward sky. The stretch stays; the sense of a hard body-boundary can loosen."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "VBT dharana 014, safe form: in this body, contemplate space in all directions at once. Rest when constructs of solidity quiet."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Inhale to lift the torso. Straighten the front leg. Step back to standing. Notice residual space-sense before the next shape."
+    }
+  ],
+  "researcher": "R-014",
+  "researched_at": "2026-09-25"
+}

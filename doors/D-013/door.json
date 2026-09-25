@@ -1,0 +1,135 @@
+{
+  "id": "D-013",
+  "name": "Revolved Triangle",
+  "sanskrit": "Parivrtta Trikonasana",
+  "house": 1,
+  "status": "researched",
+  "geometry": {
+    "polygon": "triangle + spiral axis",
+    "joints": [
+      "ankles",
+      "knees",
+      "hips",
+      "spine",
+      "shoulders",
+      "wrists",
+      "neck"
+    ],
+    "summary": "From a wide standing base, the front foot points forward and the back foot turns in. Both legs stay long (soften the front knee if the hamstring shouts). The torso hinges over the front leg, then rotates toward the front thigh so the bottom hand meets a block, the shin, or the floor, and the top arm reaches up. The shape is a triangle in the legs with a long spiral through the spine.",
+    "svg_hint": "wide stance; front leg forward; torso fold + twist; bottom hand low, top arm high; long spiral spine"
+  },
+  "reaction": {
+    "name": "Tangle to Thread",
+    "from_phase": "tangle",
+    "to_phase": "thread",
+    "summary": "School metaphor: the first moments of the twist feel knotted and busy. Soft length through the spine lets the knot thin into one clear thread of attention from back heel to crown."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 6,
+    "cycles": 6,
+    "lands_in": "long spine and front heel",
+    "cue": "Inhale lengthen the side body; exhale rotate a little more around that length. Never yank the neck or force the bottom hand lower."
+  },
+  "orientation": {
+    "cue": "Grow a long diagonal from the back outer heel through the crown while the ribs rotate around that line.",
+    "gravity": "Even weight through both feet; let the floor hold the base so the twist does not collapse the hips.",
+    "gaze": "Toward the top hand if the neck is easy; otherwise look to the floor or forward.",
+    "degrees_hint": "Stance roughly 3\u20134 feet; twist only as far as breath stays smooth"
+  },
+  "attention": {
+    "primary": "Spinal length as the axis of the twist",
+    "secondary": "Soft midpoint between the eyebrows (no pressure)",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 013 (verse 36)",
+    "verse_paraphrase": "With the hands closing the sense openings and attention at the brow, a point of light may appear; as it gradually dissolves, rest in the center of that stillness.",
+    "method_summary": "Classical method: a seated sensory-seal (hands covering eyes, ears, and other openings) while piercing attention at the eyebrow center until an inner bindu appears and fades. For this door, do not teach the sealing mudra in asana class; use only the safe contemplative form in Beat 7.",
+    "practice_mode": "observe_only",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "This asana and VBT method are paired by School of 112 Doorways index (Door 013 with dharana 013). That link is a teaching device, not a claim of ancient one-to-one canon.",
+    "notes": "Experiential rhyme only: both ask attention toward a center line (spinal axis; brow point). Not justified as inner_logic or axis_pairing without stronger historical support."
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "Hand on a block or the shin instead of the floor; shorten the stance; keep gaze down if the neck complains.",
+    "contraindication_notes": "General practice caution for deep twists, hamstrings, and neck. Not medical advice. Skip classical sensory-seal pressure on the eyes in class."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh \u2014 Vijnanabhairava (dharana 13 / verse 36)",
+      "kind": "vbt",
+      "ref": "VBT verse 36; sensory-seal / brow-bindu method",
+      "url": "https://www.siva.sh/vijnana-bhairava-tantra/36-40"
+    },
+    {
+      "label": "VBT concordance \u2014 verse 36 translations",
+      "kind": "commentary",
+      "ref": "Multiple English renderings of kararuddhad\u1e5bgastre\u1e47a\u2026 (dharana 13)",
+      "url": ""
+    },
+    {
+      "label": "Standard asana teaching \u2014 Parivrtta Trikonasana",
+      "kind": "asana",
+      "ref": "Standing revolved triangle: wide stance, hinge, spiral, hand to block/shin/floor",
+      "url": ""
+    },
+    {
+      "label": "School of 112 Doorways \u2014 House 1 registry",
+      "kind": "school",
+      "ref": "D-013 Revolved Triangle / R-013",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 013: Revolved Triangle, Parivrtta Trikonasana. Standing base, long legs, a twist toward the front thigh."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "Step wide. Front foot forward, back foot turned in. Hinge over the front leg, then spiral the ribs. Bottom hand to block, shin, or floor; top arm reaches up."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Feel a long line from back heel to crown. Gravity stays in both feet. Gaze up only if the neck is quiet; otherwise look down or forward."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Inhale for four counts and lengthen. Exhale for six and rotate a little around that length. Six easy cycles. No yanking."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Keep the primary lock on spinal length \u2014 the axis you twist around. Optionally soften attention at the brow without pressing."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "Notice any tangle in the twist. Soften and lengthen until it thins into one clear thread from heel to crown. School metaphor only."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "The VBT method for this door seals the senses and watches a point at the brow \u2014 observe only here. In class, simply rest soft attention at the brow and notice quiet; do not press the eyes or plug the nostrils."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Inhale unwind the ribs to center. Exhale hand to hip and rise. Step the feet together. Stand for one breath and notice the after-feel of the spiral."
+    }
+  ],
+  "researcher": "R-013",
+  "researched_at": "2026-09-25"
+}

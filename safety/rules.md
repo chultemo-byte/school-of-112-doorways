@@ -24,7 +24,7 @@ Door 112 keeps its closed octagon on the record and teaches Sukhāsana or a chai
 
 Extreme VBT methods = historical / observe_only — not class drills.
 
-Door 112, verse 138, is `practice_mode: observe_only`. The Adiyogi beat is marked observe_only. `vbt_observe_only: false` on a profile does not turn it into a drill. Verses 24 and 49, as paired here, are not marked extreme.
+Door 112, verse 138, is `practice_mode: observe_only`. The Adiyogi beat is marked observe_only. `vbt_observe_only: false` on a profile does not turn it into a drill. Verses 24 and 49, as paired on the prototype doors, are not marked extreme. House 1 door D-013 keeps `adiyogi.practice_mode` `observe_only`. That Adiyogi beat is marked observe_only, and the researched script is spoken unchanged.
 
 ## 4. Practice is not medicine
 
@@ -32,7 +32,7 @@ Door 112, verse 138, is `practice_mode: observe_only`. The Adiyogi beat is marke
 
 Practice ≠ medical treatment; no diagnose/cure language.
 
-A door whose prose claims to cure, diagnose, heal, prescribe, or treat is not taught. The exit beat says that practice is not medical treatment. That sentence is a limit, not a claim.
+A door whose prose claims to cure, diagnose, heal, prescribe, or treat is not taught. On prototype doors 049 and 112, the exit beat says that practice is not medical treatment. That sentence is a limit, not a claim. House 1 doors speak the exit script stored on the research record.
 
 ## 5. No doorway is owned
 
@@ -40,4 +40,4 @@ A door whose prose claims to cure, diagnose, heal, prescribe, or treat is not ta
 
 No doorway is owned — lineage credited; school pairing labeled `school_device`.
 
-A researched door without `pairing_type: school_device` and a lineage credit is not taught. The three seeded doors credit the Vijnana Bhairava Tantra and label the asana–verse pairing as a school device, not ancient one-to-one canon.
+A House 1 research door is taught when `honesty.pairing_type` is `school_device` and `honesty.disclosure` is present. Prototype doors 049 and 112 still require top-level `pairing_type: school_device` and a lineage credit. Those prototype doors credit the Vijnana Bhairava Tantra and label the asana–verse pairing as a school device, not ancient one-to-one canon.

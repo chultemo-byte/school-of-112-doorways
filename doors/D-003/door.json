@@ -1,0 +1,134 @@
+{
+  "id": "D-003",
+  "name": "Standing Forward Fold",
+  "sanskrit": "Uttanasana",
+  "house": 1,
+  "status": "researched",
+  "geometry": {
+    "polygon": "inverted V / hanging triangle",
+    "joints": [
+      "ankles",
+      "knees (soft)",
+      "hips (primary hinge)",
+      "spine",
+      "shoulders",
+      "neck (soft)"
+    ],
+    "summary": "From standing, feet about hip-width, tip the pelvis at the hip crease and fold the torso toward the legs. Keep knees soft as needed. Hands rest on floor, blocks, shins, or ankles. Crown hangs toward the floor; neck soft. The shape is an inverted V: feet as base points, hips as apex, spine and head as the hanging line.",
+    "svg_hint": "two foot points; hip peak; long fold line from hips to crown; soft knee marks; optional hand props"
+  },
+  "reaction": {
+    "name": "Still-center settle",
+    "from_phase": "upright scatter",
+    "to_phase": "hanging quiet",
+    "summary": "School metaphor: busy upright charge softens into a quiet middle pause as the fold lets outer motion thin. Not a biochemical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 6,
+    "cycles": 6,
+    "lands_in": "back body and soft belly",
+    "cue": "Inhale for four to lengthen the back of the body; exhale for six as the fold settles. No forced breath-hold. Soften on the longer out-breath."
+  },
+  "orientation": {
+    "cue": "Hinge at the hip crease, not the waist. Soften knees so the spine can stay long before it rounds. Weight even through the feet, slightly toward the balls if heels lock you back.",
+    "gravity": "Crown yields toward the floor; hips stack over heels as much as available; let gravity do the fold\u2014do not pull yourself down.",
+    "gaze": "Eyes soft toward shins or closed; neck hangs free.",
+    "degrees_hint": "Pelvis tips forward over femurs; torso folds from ~0\u00b0 upright toward ~90\u00b0+ hang as available\u2014depth is not the goal."
+  },
+  "attention": {
+    "primary": "Still point at the middle of the breath (madhya)\u2014where inhale and exhale meet and quiet",
+    "secondary": "Hip crease hinge and even foot contact",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 003 (verse 26)",
+    "verse_paraphrase": "When breath-energy neither goes out nor comes in, and the middle opens as thought-constructs thin, the Bhairava nature is pointed to.",
+    "method_summary": "Rest awareness in the natural still center (madhya) where pr\u0101\u1e47a-\u015bakti is not rushing out or in. Prefer recognizing the pause over forcing a hold. Class-safe form: notice the quiet join of inhale and exhale while folded; if breath pauses lightly on its own, witness it\u2014do not strain into kumbhaka.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "This asana\u2194method link is a School of 112 Doorways teaching device, not ancient canon. Uttanasana and VBT dharana 003 are paired here by school index.",
+    "notes": "Serial pairing by door number. Optional teaching rhyme only: the fold often quiets outer motion and makes the breath\u2019s middle easier to notice; that rhyme does not upgrade this to inner_logic or claim historical pairing."
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "Bend knees generously, hands on blocks or shins, or take Ardha Uttanasana (half fold with long spine) if the full hang strains the low back or hamstrings.",
+    "contraindication_notes": "General practice caution only; not medical advice. Soften or exit if sharp low-back, hamstring, or head pressure appears. Avoid forcing straight legs. Use props. If dizziness arises when inverted, come up slowly with a long spine or bent knees."
+  },
+  "sources": [
+    {
+      "label": "Vijnana Bhairava Tantra \u2014 dharana 3 / verse 26 (madhya; breath-\u015bakti neither exits nor enters)",
+      "kind": "vbt",
+      "ref": "VBT verse 26; Jaideva Singh commentary tradition; Wallis concordance summary",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+    },
+    {
+      "label": "Hareesh.org \u2014 VBT verses 22\u201327 foundational practice notes",
+      "kind": "commentary",
+      "ref": "Discussion of verse 26 as center-expansion / still breath-power",
+      "url": "https://hareesh.org/blog/2022/11/30/vijana-bhairava-tantra-verses-22-27-the-foundational-practice"
+    },
+    {
+      "label": "Uttanasana teaching cues \u2014 hip hinge, soft knees, props",
+      "kind": "asana",
+      "ref": "Standard modern asana pedagogy (hip crease hinge; micro-bend; blocks/shins)",
+      "url": "https://liforme.com/blogs/blog/yoga-poses-standing-forward-fold"
+    },
+    {
+      "label": "School of 112 Doorways \u2014 research prompt + door schema",
+      "kind": "school",
+      "ref": "research/PROMPT_TEMPLATE.md; schemas/door.schema.json; guardians/CHECKLIST.md",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door D-003: Standing Forward Fold, Uttanasana. A standing fold that hangs the crown toward the floor."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "Feet hip-width. Tip from the hip crease into an inverted V: hips high, spine hanging, hands to floor, blocks, or shins. Soft knees are welcome."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Hinge at the hips, not the waist. Let the crown yield to gravity. Keep weight through the feet; do not yank yourself deeper."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Inhale four to lengthen the back body. Exhale six to settle the fold. Six easy cycles. No forced holds."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Place attention at the still middle of the breath\u2014where inhale and exhale meet and quiet. Secondary: hip crease and even feet."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "Name the phase: upright scatter settling into hanging quiet. Feel outer rush thin. Metaphor only\u2014not a medical claim."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "VBT dharana 003 points to the center where breath-energy is not rushing out or in. In the fold, notice that quiet join. Witness any natural pause; do not strain."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Bend the knees. Rise slowly with a long spine, or step back to a milder fold. Stand and feel the after-quiet before the next door."
+    }
+  ],
+  "researcher": "R-003",
+  "researched_at": "2026-09-25"
+}

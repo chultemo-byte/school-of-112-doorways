@@ -1,0 +1,143 @@
+{
+  "id": "D-011",
+  "name": "Warrior II",
+  "sanskrit": "Virabhadrasana II",
+  "house": 1,
+  "status": "researched",
+  "geometry": {
+    "polygon": "Wide-stance T: base line (two feet), upright front shin pillar, horizontal arm line at shoulder height, torso column over pelvis facing the long side of the mat.",
+    "joints": [
+      "ankles",
+      "knees",
+      "hips",
+      "pelvis",
+      "spine",
+      "shoulders",
+      "elbows",
+      "wrists",
+      "cervical / gaze"
+    ],
+    "summary": "Feet wide; front foot points forward, back foot turned in about 45\u201380 degrees as the hips allow. Front heel roughly lines with back arch (or heel-to-heel if hips need more space). Front knee bends over the ankle without collapsing inward; back leg stays long and grounded. Arms reach to a T at shoulder height; torso stays upright and centered, not tipping toward the front leg.",
+    "svg_hint": "trapezoid base + vertical front shin + horizontal bilateral arm axis + upright torso rectangle facing long-edge"
+  },
+  "reaction": {
+    "name": "Nexus settle",
+    "from_phase": "object-grab",
+    "to_phase": "relation-field",
+    "summary": "School metaphor: attention that was lost in the front hand, the room, or the effort of holding shape softens into the felt connection of seeing\u2014spanning both arms and both feet without chasing either pole."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "lands_in": "side ribs and lower belly while arms stay soft at the sockets",
+    "cue": "Even counts. Inhale widen the side body; exhale root through both feet without collapsing the front knee."
+  },
+  "orientation": {
+    "cue": "Crown over pelvis; shoulders stacked over hips facing the long side of the mat; front knee tracks over middle of front foot.",
+    "gravity": "Even weight through both feet\u2014front heel and back outer edge heavy; lift is through the spine, not through hiking the shoulders.",
+    "gaze": "Soft drishti past the front fingertips; eyes rest without hardening the jaw or neck.",
+    "degrees_hint": "Front thigh toward parallel only as the knee stays over the ankle; back foot ~45\u201380\u00b0 turn-in matched to available hip rotation\u2014not a forced 90\u00b0 square."
+  },
+  "attention": {
+    "primary": "The connection of seeing: neither lost in the front hand-object nor stuck in self-effort\u2014hold the act/nexus of relating to what is ahead.",
+    "secondary": "Front knee tracking over the foot while both arms stay equally alive.",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 011",
+    "verse_paraphrase": "Ordinary awareness knows a perceived thing and a perceiver. The yogi\u2019s distinction is careful attention to the connection between them\u2014the relating itself, not collapsing into object or subject.",
+    "method_summary": "While holding Warrior II, notice gaze and front-hand field without gripping them. Softly attend to the link of perceiving: the span between who is looking and what is seen. Practice in any safe moment of perception; class form stays contemplative and standing.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "This asana\u2194method link is a School of 112 Doorways teaching device, not ancient canon. Warrior II and VBT dharana 011 are paired by school index for teaching, not as a historical one-to-one.",
+    "notes": "Soft experiential resonance only: the pose\u2019s dual reach and forward gaze make the \u2018connection of seeing\u2019 easy to point to in class. That does not upgrade the pairing beyond school_device."
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": null,
+    "contraindication_notes": "General practice caution only; not medical advice. Shorten stance or reduce front-knee bend if knees, hips, or shoulders complain. Do not force the front thigh parallel or square the pelvis past what keeps the front knee tracking."
+  },
+  "sources": [
+    {
+      "label": "Dh\u0101ra\u1e47\u0101 11 \u2014 Vij\u00f1\u0101na Bhairava Tantra (hatha.es)",
+      "kind": "vbt",
+      "ref": "VBT dharana 011 / gr\u0101hya-gr\u0101haka-sa\u1e43vitti; sambandhe s\u0101vadh\u0101nat\u0101",
+      "url": "https://hatha.es/en/texts/vijnana-bhairava-tantra/011"
+    },
+    {
+      "label": "Lakshmanjoo Academy \u2014 Manual for Self Realization (112 meditations)",
+      "kind": "commentary",
+      "ref": "Swami Lakshmanjoo oral teaching edition of the Vijnana Bhairava (edition name; class paraphrase only)",
+      "url": "https://www.lakshmanjooacademy.org/blog/introduction-and-approach-to-the-vijnana-bhairava-by-swami-lakshmanjoo"
+    },
+    {
+      "label": "Yoga Journal \u2014 Warrior II Pose",
+      "kind": "asana",
+      "ref": "Virabhadrasana II alignment overview (stance, knee over ankle, arm line, drishti)",
+      "url": "https://www.yogajournal.com/poses/warrior-ii-pose/"
+    },
+    {
+      "label": "Yoga International \u2014 Common Warrior II alignment mistakes",
+      "kind": "asana",
+      "ref": "Pelvis/knee tracking and stance notes for Virabhadrasana II",
+      "url": "https://yogainternational.com/article/view/the-five-most-common-alignment-mistakes-in-warrior-ii/"
+    },
+    {
+      "label": "School of 112 Doorways \u2014 research prompt / door schema",
+      "kind": "school",
+      "ref": "R-011 dispatch; schemas/door.schema.json; guardians/CHECKLIST.md",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door D-011: Warrior II, Virabhadrasana II. Wide stance, arms like a T, gaze soft past the front hand."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "Feet wide. Front heel toward back arch. Bend the front knee over the ankle. Reach both arms to shoulder height. Keep the torso upright over the pelvis."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Face the long side of the mat. Crown over pelvis. Front knee tracks mid-foot. Weight shares both feet. Soft gaze past the front fingertips."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Breathe even fours: inhale four, exhale four, six cycles. Let the breath land in the side ribs. Do not hold the breath to force depth."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Primary lock: the connection of seeing\u2014not the hand, not your effort. Secondary: keep the front knee honest over the foot."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School cue: from object-grab to relation-field. If you catch yourself staring hard or straining, soften into the span between you and what you see."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "VBT dharana 011, safe form: everyone knows seer and seen. Here, gently notice the link between them while you stand. School pairing, not ancient canon."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Straighten the front leg, lower the arms, step the feet together. Stand a breath and feel the same soft relating without the shape."
+    }
+  ],
+  "researcher": "R-011",
+  "researched_at": "2026-09-25"
+}

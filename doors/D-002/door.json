@@ -1,0 +1,141 @@
+{
+  "id": "D-002",
+  "name": "Upward Salute",
+  "sanskrit": "Urdhva Hastasana",
+  "house": 1,
+  "status": "researched",
+  "geometry": {
+    "polygon": "vertical column with overhead V (or joined palms)",
+    "joints": [
+      "ankles",
+      "knees",
+      "hips",
+      "spine",
+      "shoulders",
+      "elbows",
+      "wrists"
+    ],
+    "summary": "From a stable Mountain base, both arms rise overhead on a long line from soles through side ribs to fingertips. Elbows soft, shoulders drop away from ears, ribs stay quiet rather than flared. Palms may face each other, touch lightly, or stay shoulder-width. The polygon is an upright column topped by an open V or a soft diamond of joined hands.",
+    "svg_hint": "feet_base_triangle + upright_spine_line + two_arm_rays_overhead; optional palm_join_at_crown"
+  },
+  "reaction": {
+    "name": "Lift-and-open",
+    "from_phase": "compressed_neutral_stand",
+    "to_phase": "lengthened_reach_with_soft_pause",
+    "summary": "School metaphor only: the field shifts from a compact vertical stand toward a lengthened overhead reach, then briefly settles in the quiet at the top of the inhale before return."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 1,
+    "exhale": 4,
+    "cycles": 6,
+    "lands_in": "side ribs and soft upper lungs, then quiet pause at turn",
+    "cue": "Inhale arms up for 4; soft 1-count pause at the top without strain; exhale arms down or stay up for 4. Never force the pause."
+  },
+  "orientation": {
+    "cue": "Crown continues the line of the heels; arms stack over the side body, not behind the ears",
+    "gravity": "Even weight on both feet (big toe mound, little toe mound, heel); lift without tipping back",
+    "gaze": "Soft toward thumbs or slightly forward-up only if the neck stays free; otherwise gaze soft horizontal",
+    "degrees_hint": "0\u00b0 torso lean; arms ~180\u00b0 overhead relative to floor when range allows"
+  },
+  "attention": {
+    "primary": "The turn of the breath at the top of the inhale (and optionally the bottom of the exhale)",
+    "secondary": "Soles-to-fingertips length without shoulder shrug",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 002 (commonly manuscript verse 25)",
+    "verse_paraphrase": "As breath moves in and out, rest awareness in the brief inner and outer pauses where the breath turns, without rushing back into the next movement; in that still interval, the nature of awareness is pointed to.",
+    "method_summary": "Practice: stand or sit with natural breath. Notice the micro-pause after inhale and after exhale. Keep attention in those gaps rather than on forcing the breath. In this door, braid the method with arms overhead so the soft pause at the top of the inhale is easier to feel.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Linking Upward Salute to VBT dharana 002 is a School of 112 Doorways teaching device, not a claim of ancient one-to-one canon.",
+    "notes": "Serial school index pairs D-002 with method index 002. Shared experiential hook (breath-turn awareness) is a teaching braid only; editions also note verse-24/25 clustering as one breath-pause family."
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "If standing overhead reach aggravates shoulders or low back, practice the same breath-pause attention seated with arms resting or only partially raised.",
+    "contraindication_notes": "General practice caution only; not medical advice. Ease range if shoulders, neck, or low back complain; keep ribs soft and avoid forcing arms behind the ears."
+  },
+  "sources": [
+    {
+      "label": "Hareesh Wallis \u2014 VBT translation concordance (verses 24\u201325 breath-pause family)",
+      "kind": "vbt",
+      "ref": "VBT vv. 24\u201325; dharana/index 002 treated as verse-25 pause method",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+    },
+    {
+      "label": "Life Positive \u2014 Teachings of the breath (names dharana 2 as pause awareness)",
+      "kind": "commentary",
+      "ref": "Dharana 2 paraphrase: attention on pauses as breath turns",
+      "url": "https://www.lifepositive.com/index.php/teachings-of-the-breath"
+    },
+    {
+      "label": "Tantra 112 \u2014 Breath:Pause yukti notes (vv. 24\u201325)",
+      "kind": "vbt",
+      "ref": "Yukti notes on inner/outer pause; related verse cluster",
+      "url": "https://tantra112.app/y/breath-pause"
+    },
+    {
+      "label": "School asana teaching \u2014 Urdhva Hastasana / Upward Salute alignment cues",
+      "kind": "asana",
+      "ref": "Standard standing overhead-arm geometry; school paraphrase, not a single locked edition",
+      "url": ""
+    },
+    {
+      "label": "School of 112 Doorways \u2014 master plan + door schema",
+      "kind": "school",
+      "ref": "YOGA-TEACHING-MACHINE-MASTER-PLAN.md; schemas/door.schema.json",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door D-002, Upward Salute, Urdhva Hastasana. From a steady stand, both arms rise overhead."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "Feet root like Mountain. Arms lift on one line from heels through side ribs to fingertips. Soft elbows. Shoulders away from ears. Palms face or lightly touch."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Weight even on both feet. Do not tip back. Crown stays over heels. Gaze soft to the thumbs, or forward if the neck prefers."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Inhale four as arms rise. Soft one-count pause at the top. Exhale four. Six easy cycles. Never strain the pause."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Primary lock: the turn of the breath at the top. Secondary: length from soles to fingertips without shrugging."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "Feel the school cue Lift-and-open: compact stand becomes lengthened reach, then a quiet settle in the pause."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "VBT method 002: rest awareness in the brief pause where the breath turns, inside and outside. Notice the gap; do not force it."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Exhale arms down to Mountain, or stay up if steady. Soften shoulders. Keep the pause awareness for one more quiet breath, then release."
+    }
+  ],
+  "researcher": "R-002",
+  "researched_at": "2026-09-25"
+}

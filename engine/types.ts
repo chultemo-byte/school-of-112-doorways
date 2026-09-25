@@ -11,6 +11,9 @@
  * Optional fields (`status`, `safety`, `practice_mode`, `pairing_type`,
  * `alternate_geometry`, `lineage`) record honesty flags. Padmasana carries the
  * open-seat twin.
+ *
+ * House 1 doors D-001–D-016 use `ResearchDoor` (id, beats, adiyogi, honesty).
+ * Doors 049 and 112 stay `PrototypeDoor`. `Door` is either shape.
  */
 
 export interface Geometry {
@@ -94,7 +97,7 @@ export interface DoorSafety {
   notes?: string[];
 }
 
-export interface Door {
+export interface PrototypeDoor {
   /** 1–112 */
   number: number;
   sanskrit: string;
@@ -137,6 +140,126 @@ export interface Door {
   safety?: DoorSafety;
   /** Eight mural captions. Not a substitute for the spoken beats. */
   cartoon_beats?: string[];
+}
+
+/** Research Door. Fields match schemas/research-door.schema.json. */
+export interface ResearchGeometry {
+  polygon: string;
+  joints?: string[];
+  summary: string;
+  svg_hint?: string;
+}
+
+export interface ResearchReaction {
+  name: string;
+  from_phase: string;
+  to_phase: string;
+  summary: string;
+}
+
+export interface ResearchBreath {
+  inhale: number;
+  hold: number;
+  exhale: number;
+  cycles: number;
+  lands_in: string;
+  cue: string;
+}
+
+export interface ResearchOrientation {
+  cue: string;
+  gravity: string;
+  gaze?: string;
+  degrees_hint?: string;
+}
+
+export interface ResearchAttention {
+  primary: string;
+  secondary?: string;
+  chakra?: string | null;
+}
+
+export interface ResearchAdiyogi {
+  vbt_ref: string;
+  verse_paraphrase?: string;
+  method_summary: string;
+  practice_mode: PracticeMode;
+  historical_extreme?: boolean;
+  sexual_content?: boolean;
+}
+
+export type ResearchPairingType = "school_device" | "inner_logic" | "axis_pairing";
+
+export interface ResearchHonesty {
+  pairing_type: ResearchPairingType;
+  disclosure: string;
+  notes?: string;
+}
+
+export interface ResearchDoorSafety {
+  pain_rule: string;
+  never_force: boolean;
+  open_seat_alternate?: string | null;
+  contraindication_notes: string;
+}
+
+export interface ResearchSource {
+  label: string;
+  kind: "vbt" | "asana" | "commentary" | "school" | "other";
+  ref?: string;
+  url?: string;
+}
+
+export interface ResearchBeat {
+  n: number;
+  title: string;
+  script: string;
+}
+
+export type ResearchDoorStatus = "stub" | "draft" | "researched" | "live";
+
+export interface ResearchDoor {
+  id: string;
+  name: string;
+  sanskrit?: string;
+  house: number;
+  status: ResearchDoorStatus;
+  geometry: ResearchGeometry;
+  reaction: ResearchReaction;
+  breath: ResearchBreath;
+  orientation: ResearchOrientation;
+  attention: ResearchAttention;
+  adiyogi: ResearchAdiyogi;
+  honesty: ResearchHonesty;
+  safety: ResearchDoorSafety;
+  sources: ResearchSource[];
+  beats: ResearchBeat[];
+  researcher: string;
+  researched_at?: string;
+}
+
+export type Door = PrototypeDoor | ResearchDoor;
+
+export function isResearchDoor(door: Door): door is ResearchDoor {
+  return typeof (door as ResearchDoor).id === "string";
+}
+
+export function doorNumber(door: Door): number {
+  if (isResearchDoor(door)) {
+    return Number(door.id.slice(2));
+  }
+  return door.number;
+}
+
+export function doorEnglish(door: Door): string {
+  return isResearchDoor(door) ? door.name : door.english;
+}
+
+export function doorSanskrit(door: Door): string {
+  if (isResearchDoor(door)) {
+    return door.sanskrit ?? "";
+  }
+  return door.sanskrit;
 }
 
 export interface StudentProfile {
@@ -220,8 +343,10 @@ export interface DoorIndexEntry {
   number: number;
   sanskrit: string | null;
   english: string | null;
-  status: "seeded" | "unassigned";
+  status: "seeded" | "researched" | "unassigned";
   file?: string;
+  /** House number from a research door, when the index entry records one. */
+  house?: number;
 }
 
 export interface DoorIndex {

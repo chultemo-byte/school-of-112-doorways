@@ -1,104 +1,135 @@
 {
   "school": "School of 112 Doorways",
   "count": 112,
-  "note": "Sanskrit and English are filled for the three seeded doors. The other 109 are unassigned; null means not yet named, not a secret name.",
+  "note": "Doors 001-016 are House 1 researched records at doors/D-00N/door.json. Registry: doors/HOUSE-1-REGISTRY.md. Guardian reviews: guardians/reviews/. Doors 049 and 112 remain prototype seeds. Other doors are unassigned; null means not yet named, not a secret name.",
   "doors": [
     {
       "number": 1,
-      "sanskrit": "Tāḍāsana",
+      "sanskrit": "Tadasana",
       "english": "Mountain",
-      "status": "seeded",
-      "file": "doors/001.json"
+      "status": "researched",
+      "house": 1,
+      "file": "doors/D-001/door.json"
     },
     {
       "number": 2,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "Urdhva Hastasana",
+      "english": "Upward Salute",
+      "status": "researched",
+      "house": 1,
+      "file": "doors/D-002/door.json"
     },
     {
       "number": 3,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "Uttanasana",
+      "english": "Standing Forward Fold",
+      "status": "researched",
+      "house": 1,
+      "file": "doors/D-003/door.json"
     },
     {
       "number": 4,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "Ardha Uttanasana",
+      "english": "Half Forward Fold",
+      "status": "researched",
+      "house": 1,
+      "file": "doors/D-004/door.json"
     },
     {
       "number": 5,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "Anjaneyasana",
+      "english": "Low Lunge",
+      "status": "researched",
+      "house": 1,
+      "file": "doors/D-005/door.json"
     },
     {
       "number": 6,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "Adho Mukha Svanasana",
+      "english": "Downward-Facing Dog",
+      "status": "researched",
+      "house": 1,
+      "file": "doors/D-006/door.json"
     },
     {
       "number": 7,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "Phalakasana",
+      "english": "Plank",
+      "status": "researched",
+      "house": 1,
+      "file": "doors/D-007/door.json"
     },
     {
       "number": 8,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "Chaturanga Dandasana",
+      "english": "Four-Limbed Staff",
+      "status": "researched",
+      "house": 1,
+      "file": "doors/D-008/door.json"
     },
     {
       "number": 9,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "Urdhva Mukha Svanasana",
+      "english": "Upward-Facing Dog",
+      "status": "researched",
+      "house": 1,
+      "file": "doors/D-009/door.json"
     },
     {
       "number": 10,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "Virabhadrasana I",
+      "english": "Warrior I",
+      "status": "researched",
+      "house": 1,
+      "file": "doors/D-010/door.json"
     },
     {
       "number": 11,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "Virabhadrasana II",
+      "english": "Warrior II",
+      "status": "researched",
+      "house": 1,
+      "file": "doors/D-011/door.json"
     },
     {
       "number": 12,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "Utthita Trikonasana",
+      "english": "Triangle",
+      "status": "researched",
+      "house": 1,
+      "file": "doors/D-012/door.json"
     },
     {
       "number": 13,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "Parivrtta Trikonasana",
+      "english": "Revolved Triangle",
+      "status": "researched",
+      "house": 1,
+      "file": "doors/D-013/door.json"
     },
     {
       "number": 14,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "Utthita Parsvakonasana",
+      "english": "Extended Side Angle",
+      "status": "researched",
+      "house": 1,
+      "file": "doors/D-014/door.json"
     },
     {
       "number": 15,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "Prasarita Padottanasana",
+      "english": "Wide-Legged Standing Forward Fold",
+      "status": "researched",
+      "house": 1,
+      "file": "doors/D-015/door.json"
     },
     {
       "number": 16,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "Vrksasana",
+      "english": "Tree",
+      "status": "researched",
+      "house": 1,
+      "file": "doors/D-016/door.json"
     },
     {
       "number": 17,

@@ -1,0 +1,135 @@
+{
+  "id": "D-009",
+  "name": "Upward-Facing Dog",
+  "sanskrit": "Urdhva Mukha Svanasana",
+  "house": 1,
+  "status": "researched",
+  "geometry": {
+    "polygon": "Long front-opening arc: tops of feet to lifted thighs to pelvis to sternum, with two arm columns under the shoulders",
+    "joints": [
+      "wrists stacked under shoulders",
+      "elbows straight but soft",
+      "shoulders drawn off the ears",
+      "thoracic spine extending",
+      "hips and thighs lifted off the floor",
+      "knees extended",
+      "ankles dorsiflexed with tops of feet pressing down"
+    ],
+    "summary": "From prone or from Chaturanga, press the palms and the tops of the feet, straighten the arms with shoulders over wrists, and lift the thighs so only hands and feet touch the floor. The shape is a long front-body arc carried by active legs and open chest, not a dump into the low back.",
+    "svg_hint": "side view: two ground points (hands, feet), elevated thigh-pelvis line, open chest arc, head facing forward"
+  },
+  "reaction": {
+    "name": "Open rise",
+    "from_phase": "front-body collapse",
+    "to_phase": "front-body lift and space",
+    "summary": "School metaphor: heavy closed front field shifts toward lifted, spacious chest and lengthened front line. Label only; not a chemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 1,
+    "exhale": 4,
+    "cycles": 6,
+    "lands_in": "sternum and upper ribs, with soft belly support",
+    "cue": "Inhale to lengthen and lift the chest through the arms; brief pause at the top; exhale without collapsing the lift. Keep the breath even; never force range."
+  },
+  "orientation": {
+    "cue": "Shoulders stacked over wrists; tops of feet heavy; thighs active and lifted; chest draws forward-up through the arm gateway",
+    "gravity": "Load shared through palms and tops of feet; legs press back while chest reaches forward so the spine lengthens instead of hinging only at the lumbar",
+    "gaze": "Soft forward (or slight lift only if the neck stays free); do not throw the head back",
+    "degrees_hint": "Aim for roughly 90-degree wrist stack under shoulders; thoracic curve preferred over deep lumbar fold"
+  },
+  "attention": {
+    "primary": "Sternum / heart-band space opening forward",
+    "secondary": "Tops of feet pressing down and long active legs",
+    "chakra": "anahata"
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 009 (verse 32; Jaideva Singh numbering)",
+    "verse_paraphrase": "Contemplate the five sense-fields as nested colorful circles like a peacock feather\u2019s eye; as they merge toward the empty center, awareness enters the heart as supreme open space.",
+    "method_summary": "Safe class form: in the held shape, soften the gaze and notice the whole sensory field (sight, sound, touch, taste, smell) as one nested mandala. Let detail dissolve toward the quiet center at the chest-heart, without chasing sensation or forcing trance. Practice contemplative only; not a prolonged peacock-feather visualization drill.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "This asana\u2194VBT link is a School of 112 Doorways teaching device by door index, not ancient one-to-one canon. Some editions number the same verse differently (e.g. as yukti 6).",
+    "notes": "School index D-009 maps to Jaideva Singh dharana 9 = verse 32 (five voids / peacock mandala \u2192 heart). Experiential affinity with open front-body and heart-band attention is noted but not claimed as ancient pairing."
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain in wrists, low back, neck, or legs.",
+    "never_force": true,
+    "open_seat_alternate": "Bhujangasana (Cobra) or Sphinx with thighs down; or hands on blocks to reduce wrist extension",
+    "contraindication_notes": "General practice caution for loaded wrist extension and lumbar compression; not medical advice. If wrists or low back complain, regress to Cobra/Sphinx or skip."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh \u2014 Vijnanabhairava (dharana 9 / verse 32 paraphrase)",
+      "kind": "vbt",
+      "ref": "VBT verse 32; Singh dharana 9",
+      "url": ""
+    },
+    {
+      "label": "Christopher Wallis / Hareesh \u2014 VBT verse 32 concordance and practice notes",
+      "kind": "commentary",
+      "ref": "Verse 32; Wallis yukti 6 (same Sanskrit verse as Singh dharana 9)",
+      "url": "https://hareesh.org/blog/2023/11/28/vijana-bhairava-tantra-verse-32-merging-the-sensual-spaces"
+    },
+    {
+      "label": "Yoga Journal \u2014 Upward-Facing Dog alignment teaching cues",
+      "kind": "asana",
+      "ref": "Urdhva Mukha Svanasana wrist stack, leg drive, thoracic preference",
+      "url": "https://www.yogajournal.com/poses/upward-facing-dog-2/"
+    },
+    {
+      "label": "School of 112 Doorways \u2014 door schema and House 1 dispatch R-009",
+      "kind": "school",
+      "ref": "schemas/door.schema.json; research/house1-dispatches/R-009.md",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door D-009: Upward-Facing Dog, Urdhva Mukha Svanasana. A front-opening lift on hands and tops of feet."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "Press palms and tops of feet. Straighten arms with shoulders over wrists. Lift the thighs so only hands and feet touch. Long arc through chest, not a fold dumped into the low back."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Stack shoulders over wrists. Draw shoulders off the ears. Reach legs back while chest moves forward-up. Gaze soft forward unless the neck is free."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Inhale four to lengthen and lift. Soft one-count pause. Exhale four without collapsing. Six even cycles. Breath lands at sternum with soft belly support."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Primary lock: sternum and heart-band opening forward. Secondary: tops of feet pressing and long active legs."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "Name the phase Open rise: from front-body collapse toward lifted spacious front line. Metaphor only\u2014feel the shift, don\u2019t chase a stretch goal."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "VBT dharana 009: notice the five senses as one nested field, like circles into a quiet center. Let attention rest in the heart-space of the open chest. Safe contemplative form only."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Exhale down to prone or move on with control. If wrists or low back spoke up, take Cobra or Sphinx next. Pain means stop. Pairing is a school teaching device, not ancient canon."
+    }
+  ],
+  "researcher": "R-009",
+  "researched_at": "2026-09-25"
+}

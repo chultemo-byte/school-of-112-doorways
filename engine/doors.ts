@@ -2,7 +2,9 @@ import { readFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import Ajv, { type ErrorObject, type ValidateFunction } from "ajv";
-import type { Door, DoorIndex, DoorIndexEntry } from "./types.ts";
+import Ajv2020 from "ajv/dist/2020.js";
+import type { Door, DoorIndex, DoorIndexEntry, PrototypeDoor, ResearchDoor } from "./types.ts";
+import { isResearchDoor } from "./types.ts";
 
 const ROOT = path.resolve(fileURLToPath(new URL("..", import.meta.url)));
 
@@ -10,21 +12,33 @@ export function repoRoot(): string {
   return ROOT;
 }
 
-let validator: ValidateFunction | undefined;
+let prototypeValidator: ValidateFunction | undefined;
+let researchValidator: ValidateFunction | undefined;
 
-function getValidator(): ValidateFunction {
-  if (!validator) {
-    const schemaPath = path.join(ROOT, "schemas", "door.schema.json");
-    const schema = JSON.parse(readFileSync(schemaPath, "utf8")) as object;
-    const ajv = new Ajv({ allErrors: true, strict: false });
-    validator = ajv.compile(schema);
-  }
-  return validator;
+function loadSchema(relativePath: string): object {
+  const schemaPath = path.join(ROOT, relativePath);
+  return JSON.parse(readFileSync(schemaPath, "utf8")) as object;
 }
 
-export function formatSchemaErrors(errors: ErrorObject[] | null | undefined): string {
+function getPrototypeValidator(): ValidateFunction {
+  if (!prototypeValidator) {
+    const ajv = new Ajv({ allErrors: true, strict: false });
+    prototypeValidator = ajv.compile(loadSchema(path.join("schemas", "door.schema.json")));
+  }
+  return prototypeValidator;
+}
+
+function getResearchValidator(): ValidateFunction {
+  if (!researchValidator) {
+    const ajv = new Ajv2020({ allErrors: true, strict: false });
+    researchValidator = ajv.compile(loadSchema(path.join("schemas", "research-door.schema.json")));
+  }
+  return researchValidator;
+}
+
+export function formatSchemaErrors(errors: ErrorObject[] | null | undefined, schemaPath: string): string {
   if (!errors || errors.length === 0) {
-    return "Door JSON does not match schemas/door.schema.json.";
+    return "Door JSON does not match " + schemaPath + ".";
   }
   return errors
     .map((error) => {
@@ -34,12 +48,28 @@ export function formatSchemaErrors(errors: ErrorObject[] | null | undefined): st
     .join("; ");
 }
 
+function isResearchPayload(data: unknown): boolean {
+  return (
+    typeof data === "object" &&
+    data !== null &&
+    "id" in data &&
+    typeof (data as { id: unknown }).id === "string"
+  );
+}
+
 export function validateDoor(data: unknown): Door {
-  const validate = getValidator();
-  if (!validate(data)) {
-    throw new Error(formatSchemaErrors(validate.errors));
+  if (isResearchPayload(data)) {
+    const validate = getResearchValidator();
+    if (!validate(data)) {
+      throw new Error(formatSchemaErrors(validate.errors, "schemas/research-door.schema.json"));
+    }
+    return data as ResearchDoor;
   }
-  return data as Door;
+  const validate = getPrototypeValidator();
+  if (!validate(data)) {
+    throw new Error(formatSchemaErrors(validate.errors, "schemas/door.schema.json"));
+  }
+  return data as PrototypeDoor;
 }
 
 export function doorFileName(number: number): string {
@@ -68,19 +98,16 @@ export function indexEntry(number: number): DoorIndexEntry {
 
 export function loadDoor(number: number): Door {
   const entry = indexEntry(number);
-  if (entry.status !== "seeded") {
-    throw new Error(
-      "Door " +
-        number +
-        " is unassigned. Seeded doors are 1 (Tadasana), 49 (Bhujangasana), and 112 (Padmasana).",
-    );
+  if (entry.status !== "seeded" && entry.status !== "researched") {
+    throw new Error("Door " + number + " is unassigned.");
   }
   const relative = entry.file ?? path.join("doors", doorFileName(number));
   const file = path.join(ROOT, relative);
   const raw = JSON.parse(readFileSync(file, "utf8")) as unknown;
   const door = validateDoor(raw);
-  if (door.number !== number) {
-    throw new Error("Door file " + file + " declares number " + door.number + ", not " + number + ".");
+  const declared = isResearchDoor(door) ? Number(door.id.slice(2)) : door.number;
+  if (declared !== number) {
+    throw new Error("Door file " + file + " declares " + declared + ", not " + number + ".");
   }
   return door;
 }
@@ -88,5 +115,12 @@ export function loadDoor(number: number): Door {
 export function seededDoors(): DoorIndexEntry[] {
   return loadIndex()
     .doors.filter((door) => door.status === "seeded")
+    .sort((a, b) => a.number - b.number);
+}
+
+/** Prototype seeds and researched doors, in door-number order. */
+export function teachableDoors(): DoorIndexEntry[] {
+  return loadIndex()
+    .doors.filter((door) => door.status === "seeded" || door.status === "researched")
     .sort((a, b) => a.number - b.number);
 }

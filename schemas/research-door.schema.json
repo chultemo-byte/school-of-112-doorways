@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://school-of-112-doorways.local/schemas/door.schema.json",
+  "title": "Door",
+  "type": "object",
+  "required": ["id","name","house","status","geometry","reaction","breath","orientation","attention","adiyogi","honesty","safety","sources","beats","researcher"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^D-(0[0-9]{2}|10[0-9]|11[0-2])$" },
+    "name": { "type": "string", "minLength": 1 },
+    "sanskrit": { "type": "string" },
+    "house": { "type": "integer", "minimum": 1, "maximum": 7 },
+    "status": { "enum": ["stub", "draft", "researched", "live"] },
+    "geometry": {
+      "type": "object",
+      "required": ["polygon", "summary"],
+      "properties": {
+        "polygon": { "type": "string" },
+        "joints": { "type": "array", "items": { "type": "string" } },
+        "summary": { "type": "string" },
+        "svg_hint": { "type": "string" }
+      }
+    },
+    "reaction": {
+      "type": "object",
+      "required": ["name", "from_phase", "to_phase", "summary"],
+      "properties": {
+        "name": { "type": "string" },
+        "from_phase": { "type": "string" },
+        "to_phase": { "type": "string" },
+        "summary": { "type": "string" }
+      }
+    },
+    "breath": {
+      "type": "object",
+      "required": ["inhale", "hold", "exhale", "cycles", "lands_in", "cue"],
+      "properties": {
+        "inhale": { "type": "number" },
+        "hold": { "type": "number" },
+        "exhale": { "type": "number" },
+        "cycles": { "type": "integer" },
+        "lands_in": { "type": "string" },
+        "cue": { "type": "string" }
+      }
+    },
+    "orientation": {
+      "type": "object",
+      "required": ["cue", "gravity"],
+      "properties": {
+        "cue": { "type": "string" },
+        "gravity": { "type": "string" },
+        "gaze": { "type": "string" },
+        "degrees_hint": { "type": "string" }
+      }
+    },
+    "attention": {
+      "type": "object",
+      "required": ["primary"],
+      "properties": {
+        "primary": { "type": "string" },
+        "secondary": { "type": "string" },
+        "chakra": { "type": ["string", "null"] }
+      }
+    },
+    "adiyogi": {
+      "type": "object",
+      "required": ["vbt_ref", "method_summary", "practice_mode"],
+      "properties": {
+        "vbt_ref": { "type": "string" },
+        "verse_paraphrase": { "type": "string" },
+        "method_summary": { "type": "string" },
+        "practice_mode": { "enum": ["practice", "observe_only", "historical"] },
+        "historical_extreme": { "type": "boolean" },
+        "sexual_content": { "type": "boolean" }
+      }
+    },
+    "honesty": {
+      "type": "object",
+      "required": ["pairing_type", "disclosure"],
+      "properties": {
+        "pairing_type": { "enum": ["school_device", "inner_logic", "axis_pairing"] },
+        "disclosure": { "type": "string" },
+        "notes": { "type": "string" }
+      }
+    },
+    "safety": {
+      "type": "object",
+      "required": ["pain_rule", "never_force", "contraindication_notes"],
+      "properties": {
+        "pain_rule": { "type": "string" },
+        "never_force": { "type": "boolean" },
+        "open_seat_alternate": { "type": ["string", "null"] },
+        "contraindication_notes": { "type": "string" }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["label", "kind"],
+        "properties": {
+          "label": { "type": "string" },
+          "kind": { "enum": ["vbt", "asana", "commentary", "school", "other"] },
+          "ref": { "type": "string" },
+          "url": { "type": "string" }
+        }
+      }
+    },
+    "beats": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "required": ["n", "title", "script"],
+        "properties": {
+          "n": { "type": "integer" },
+          "title": { "type": "string" },
+          "script": { "type": "string" }
+        }
+      }
+    },
+    "researcher": { "type": "string" },
+    "researched_at": { "type": "string" }
+  }
+}

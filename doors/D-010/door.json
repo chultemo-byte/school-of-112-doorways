@@ -1,0 +1,147 @@
+{
+  "id": "D-010",
+  "name": "Warrior I",
+  "sanskrit": "Virabhadrasana I",
+  "house": 1,
+  "status": "researched",
+  "geometry": {
+    "polygon": "Forward lunge wedge with vertical arm column (front bent knee, back straight leg, arms overhead).",
+    "joints": [
+      "ankles",
+      "knees",
+      "hips",
+      "spine",
+      "shoulders",
+      "elbows",
+      "wrists"
+    ],
+    "summary": "One foot forward, one angled back and grounded; front knee tracks over the ankle without collapsing inward; torso lifts and arms reach up. Prefer feet on parallel tracks (hip-width) over a tightrope line. Turn the chest forward within comfort; do not wrench the back knee by forcing the pelvis fully square.",
+    "svg_hint": "side-view: back heel to crown vertical-ish stack over staggered base; arms as continuing vertical line"
+  },
+  "reaction": {
+    "name": "Aim",
+    "from_phase": "scattered",
+    "to_phase": "directed",
+    "summary": "School metaphor: diffuse readiness gathers into one upright forward line\u2014root through the back foot, reach through the arms\u2014without claiming any biochemical change."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "lands_in": "Back heel and outer edge of the back foot first, then ribs and the reach of the arms.",
+    "cue": "Inhale lengthen the upward reach; exhale root the back heel and steady the front knee."
+  },
+  "orientation": {
+    "cue": "Chest faces the front of the mat within comfort; back foot angled about forty-five degrees with heel grounded; front knee stacked toward the ankle line.",
+    "gravity": "Weight shared between front heel and outer edge of the back foot; crown lifts away from the heels.",
+    "gaze": "Soft forward, or toward the thumbs only if the neck stays free.",
+    "degrees_hint": "Back foot ~45\u00b0 turn-out; front knee depth only as far as ankle tracking stays clean (often shy of 90\u00b0)."
+  },
+  "attention": {
+    "primary": "Outer edge of the back foot and the continuous upward reach through the arms.",
+    "secondary": "Front knee tracking over the ankle (not collapsing inward).",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 010",
+    "verse_paraphrase": "Rest awareness, one after another, on open emptiness, on a blank surface such as a wall, or on the presence of someone you hold as excellent; the quality of that resting itself leans toward absorption.",
+    "method_summary": "School class form: in Warrior I, let soft gaze rest in the open field above and between the hands (empty sky), keep attention there without chasing thoughts, and meet the still quality of that field like a quiet wall. Optional contemplative variant off-mat: briefly rest attention on a worthy presence you admire, then return to breath and stance. Practice is contemplative focus, not ritual or force.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "This asana\u2194method link is a School of 112 Doorways teaching device, not ancient canon. Door index 010 is paired with VBT method/dharana 010 by school map.",
+    "notes": "Numbering note: many practice commentaries present Verse ~33 (void / wall / worthy person) as skill/dharana 10; some popular lists place an all-directions space visualization at dharana 10. This draft follows the void/wall/worthy-person lane as VBT dharana 010 and discloses the school pairing."
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "If the flat back foot or hip rotation agitates the back knee or hip, use High Crescent Lunge (back heel lifted, hips freer) or shorten the stance. Do not force the pelvis square.",
+    "contraindication_notes": "General practice caution only for knees, hips, low back, and neck (especially if looking up). Not medical advice; regress depth or exit when needed."
+  },
+  "sources": [
+    {
+      "label": "Manblunder commentary \u2014 VBT Verse 33 as Skill 10 (void, wall, worthy person)",
+      "kind": "commentary",
+      "ref": "Vijnana Bhairava Tantra Part 7; Verse 33 / Skill 10",
+      "url": "https://www.manblunder.com/articlesview/vijnana-bhairava-tantra-part-7/"
+    },
+    {
+      "label": "Grant Shepherd (Somanath) \u2014 Vijnana Bhairava Dharana 10 guided paraphrase",
+      "kind": "vbt",
+      "ref": "Dharana 10: void / wall / excellent person \u2192 absorption",
+      "url": "https://insighttimer.com/Somanath/guided-meditations/vijnana-bhairava-dharana-10"
+    },
+    {
+      "label": "Jaideva Singh \u2014 Vij\u00f1\u0101nabhairava or Divine Consciousness (edition reference)",
+      "kind": "vbt",
+      "ref": "Standard scholarly English edition for VBT method numbering cross-check",
+      "url": ""
+    },
+    {
+      "label": "Yoga Journal \u2014 Warrior I Pose (Virabhadrasana I) practice cues",
+      "kind": "asana",
+      "ref": "Alignment overview: stance, front knee, arms, gaze",
+      "url": "https://www.yogajournal.com/poses/warrior-i-pose/"
+    },
+    {
+      "label": "Yoga International \u2014 demystifying Warrior I (stance width, back-leg rotation caution)",
+      "kind": "asana",
+      "ref": "Do not force full hip square; prefer stable tracks",
+      "url": "https://yogainternational.com/article/view/pose-breakdown-8-tips-to-demystify-warrior-i/"
+    },
+    {
+      "label": "School of 112 Doorways \u2014 door schema + R-010 dispatch",
+      "kind": "school",
+      "ref": "schemas/door.schema.json; research/house1-dispatches/R-010.md",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "Door D-010: Warrior I, Virabhadrasana I. A standing forward lunge with arms reaching up."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "Step one foot forward, angle the back foot and plant the heel. Bend the front knee over the ankle. Reach the arms up. Keep the feet hip-width for balance."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Face the chest forward within comfort. Root the outer edge of the back foot. Lift the crown. Soft gaze forward\u2014or to the thumbs only if the neck is free."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Breathe equal fours: inhale lengthen the reach; exhale root the back heel. Six easy cycles. No strain."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Lock attention on the outer back foot and the upward line of the arms. Second check: front knee tracks clean over the ankle."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "Feel the school cue Aim: scattered energy gathers into one directed upright line. Metaphor only\u2014not a medical claim."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "VBT dharana 010, safe form: rest soft gaze in the empty space above the hands, like sky or a quiet wall. Stay with that field; do not chase thoughts."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Lower the arms. Straighten the front leg. Step back to Mountain. If anything felt sharp, choose Crescent or a shorter stance next time. Pain means pause."
+    }
+  ],
+  "researcher": "R-010",
+  "researched_at": "2026-09-25"
+}

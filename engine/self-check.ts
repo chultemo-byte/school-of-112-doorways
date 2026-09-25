@@ -1,8 +1,11 @@
 import assert from "node:assert/strict";
-import { loadDoor, loadIndex } from "./doors.ts";
+import { readFileSync } from "node:fs";
+import path from "node:path";
+import { loadDoor, loadIndex, repoRoot } from "./doors.ts";
 import { teach, DEFAULT_PROFILE } from "./sequencer.ts";
 import { FIVE_HARD_LAWS, hasMedicalClaim } from "./safety.ts";
 import type { StudentProfile } from "./types.ts";
+import { doorNumber, isResearchDoor } from "./types.ts";
 
 function profile(partial: Partial<StudentProfile>): StudentProfile {
   return {
@@ -14,25 +17,53 @@ function profile(partial: Partial<StudentProfile>): StudentProfile {
 
 const index = loadIndex();
 assert.equal(index.doors.length, 112);
-assert.equal(index.doors.filter((door) => door.status === "seeded").length, 3);
-assert.equal(index.doors.filter((door) => door.sanskrit === null).length, 109);
+assert.equal(index.doors.filter((door) => door.status === "researched").length, 16);
+assert.equal(index.doors.filter((door) => door.status === "seeded").length, 2);
+assert.equal(index.doors.filter((door) => door.status === "unassigned").length, 94);
+assert.equal(index.doors.filter((door) => door.sanskrit === null).length, 94);
+
+for (let number = 1; number <= 16; number += 1) {
+  const entry = index.doors[number - 1];
+  assert.equal(entry?.number, number);
+  assert.equal(entry?.status, "researched");
+  assert.equal(entry?.house, 1);
+  assert.equal(entry?.file, "doors/D-" + String(number).padStart(3, "0") + "/door.json");
+}
 
 const mountain = loadDoor(1);
 const cobra = loadDoor(49);
 const lotus = loadDoor(112);
-assert.equal(mountain.english, "Mountain");
+assert.equal(isResearchDoor(cobra), false);
+assert.equal(isResearchDoor(lotus), false);
+if (isResearchDoor(cobra) || isResearchDoor(lotus)) {
+  throw new Error("Doors 49 and 112 stay on the prototype record.");
+}
+assert.equal(isResearchDoor(mountain), true);
+if (!isResearchDoor(mountain)) {
+  throw new Error("Door 1 must load the researched record.");
+}
+assert.equal(mountain.id, "D-001");
+assert.equal(mountain.name, "Mountain");
+assert.equal(mountain.status, "researched");
+assert.equal(mountain.honesty.pairing_type, "school_device");
+assert.equal(mountain.adiyogi.practice_mode, "practice");
+assert.equal(mountain.adiyogi.vbt_ref, "VBT dharana 001 (verse 24)");
 assert.equal(cobra.english, "Cobra");
 assert.equal(lotus.english, "Lotus");
-assert.equal(mountain.five_ways.length, 5);
-assert.equal(mountain.pairing_type, "school_device");
+assert.equal(cobra.five_ways.length, 5);
+assert.equal(lotus.five_ways.length, 5);
 assert.equal(cobra.pairing_type, "school_device");
 assert.equal(lotus.pairing_type, "school_device");
 assert.equal(lotus.practice_mode, "observe_only");
 assert.equal(lotus.alternate_geometry?.seat, "Sukhāsana, or a chair");
 assert.equal(lotus.adiyogi_method.extreme, true);
-assert.equal(mountain.adiyogi_method.vbt_verse, 24);
 assert.equal(cobra.adiyogi_method.vbt_verse, 49);
 assert.equal(lotus.adiyogi_method.vbt_verse, 138);
+
+const raw013 = JSON.parse(
+  readFileSync(path.join(repoRoot(), "doors", "D-013", "door.json"), "utf8"),
+) as { adiyogi: { practice_mode: string } };
+assert.equal(raw013.adiyogi.practice_mode, "observe_only");
 assert.equal(FIVE_HARD_LAWS.length, 5);
 assert.deepEqual(
   FIVE_HARD_LAWS.map((law) => law.id),
@@ -49,13 +80,57 @@ assert.equal(hasMedicalClaim("this pose cures pain"), true);
 assert.equal(hasMedicalClaim("Practice is not medical treatment."), false);
 assert.equal(hasMedicalClaim("This machine does not diagnose."), false);
 
-assert.throws(() => loadDoor(2), /unassigned/);
+assert.throws(() => loadDoor(17), /unassigned/);
 
-const taught = teach(profile({}), { door: 1 });
-assert.equal(taught.status, "teaching");
-assert.equal(taught.script.length, 8);
+for (const number of [1, 2, 13, 16]) {
+  const door = loadDoor(number);
+  assert.equal(isResearchDoor(door), true);
+  if (!isResearchDoor(door)) {
+    throw new Error("Door " + number + " must load the researched record.");
+  }
+  const session = teach(profile({}), { door: number });
+  assert.equal(session.status, "teaching");
+  assert.equal(session.script.length, 8);
+  assert.deepEqual(
+    session.script.map((beat) => beat.spoken),
+    door.beats.map((beat) => beat.script),
+  );
+  assert.deepEqual(
+    session.script.map((beat) => beat.title),
+    door.beats.map((beat) => beat.title),
+  );
+  assert.equal(session.script[1]?.instrument, "geometry");
+  assert.equal(session.script[2]?.instrument, "orientation");
+  assert.equal(session.script[3]?.instrument, "breath");
+  assert.equal(session.script[4]?.instrument, "attention");
+  assert.equal(session.script[5]?.instrument, "reaction");
+  assert.equal(session.script[6]?.instrument, "adiyogi_method");
+  if (door.adiyogi.practice_mode === "observe_only" || door.adiyogi.practice_mode === "historical") {
+    assert.equal(session.script[6]?.observe_only, true);
+  } else {
+    assert.equal(session.script[6]?.observe_only, undefined);
+  }
+  for (const beat of session.script) {
+    assert.equal(hasMedicalClaim(beat.spoken), false);
+  }
+}
+
+const revolved = loadDoor(13);
+assert.equal(isResearchDoor(revolved), true);
+if (isResearchDoor(revolved)) {
+  assert.equal(revolved.id, "D-013");
+  assert.equal(revolved.adiyogi.practice_mode, "observe_only");
+}
+const revolvedSession = teach(profile({}), { door: 13 });
+assert.equal(revolvedSession.script[6]?.observe_only, true);
+if (isResearchDoor(revolved)) {
+  assert.equal(revolvedSession.script[6]?.spoken, revolved.beats[6]?.script);
+}
+
+const cobraSession = teach(profile({}), { door: 49 });
+assert.equal(cobraSession.status, "teaching");
 assert.deepEqual(
-  taught.script.map((beat) => beat.title),
+  cobraSession.script.map((beat) => beat.title),
   [
     "Name the door",
     "Geometry",
@@ -67,24 +142,19 @@ assert.deepEqual(
     "Exit / integrate",
   ],
 );
-assert.equal(taught.script[1].instrument, "geometry");
-assert.equal(taught.script[2].instrument, "orientation");
-assert.equal(taught.script[3].instrument, "breath");
-assert.equal(taught.script[4].instrument, "attention");
-assert.equal(taught.script[5].instrument, "reaction");
-assert.equal(taught.script[6].instrument, "adiyogi_method");
-assert.equal(taught.script[6].observe_only, undefined);
-assert.match(taught.script[0].spoken, /school_device/);
-assert.match(taught.script[3].spoken, /Inhale 4/);
-assert.match(taught.script[7].spoken, /Practice is not medical treatment/);
-for (const beat of taught.script) {
-  assert.equal(hasMedicalClaim(beat.spoken), false);
-}
-
-const cobraSession = teach(profile({}), { door: 49 });
-assert.equal(cobraSession.status, "teaching");
+assert.equal(cobraSession.script[1].instrument, "geometry");
+assert.equal(cobraSession.script[2].instrument, "orientation");
+assert.equal(cobraSession.script[3].instrument, "breath");
 assert.equal(cobraSession.script[4].instrument, "attention");
 assert.equal(cobraSession.script[5].instrument, "reaction");
+assert.equal(cobraSession.script[6].instrument, "adiyogi_method");
+assert.equal(cobraSession.script[6].observe_only, undefined);
+assert.match(cobraSession.script[0].spoken, /school_device/);
+assert.match(cobraSession.script[3].spoken, /Inhale 4/);
+assert.match(cobraSession.script[7].spoken, /Practice is not medical treatment/);
+for (const beat of cobraSession.script) {
+  assert.equal(hasMedicalClaim(beat.spoken), false);
+}
 
 const lowBreath = teach(profile({ breath_capacity: 1 }), { door: 49 });
 assert.equal(lowBreath.status, "teaching");
@@ -130,11 +200,17 @@ assert.match(lotusReadyStillObserved.script[1].spoken, /Sukhāsana/);
 
 const next = teach(profile({ completed_doors: [1] }));
 assert.equal(next.status, "teaching");
-assert.equal(next.door?.number, 49);
+assert.ok(next.door);
+assert.equal(next.door ? doorNumber(next.door) : 0, 2);
 
-const afterTwo = teach(profile({ completed_doors: [1, 49] }));
-assert.equal(afterTwo.status, "teaching");
-assert.equal(afterTwo.door?.number, 112);
-assert.match(afterTwo.script[1].spoken, /Open-seat twin/);
+const house1 = Array.from({ length: 16 }, (_, index) => index + 1);
+const afterHouse = teach(profile({ completed_doors: house1 }));
+assert.equal(afterHouse.status, "teaching");
+assert.equal(afterHouse.door ? doorNumber(afterHouse.door) : 0, 49);
+
+const afterHouseAndCobra = teach(profile({ completed_doors: [...house1, 49] }));
+assert.equal(afterHouseAndCobra.status, "teaching");
+assert.equal(afterHouseAndCobra.door ? doorNumber(afterHouseAndCobra.door) : 0, 112);
+assert.match(afterHouseAndCobra.script[1].spoken, /Open-seat twin/);
 
 console.log("self-check ok");
