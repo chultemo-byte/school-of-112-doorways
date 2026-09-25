@@ -1,0 +1,85 @@
+{
+  "school": "School of 112 Doorways",
+  "formula": "7 houses × 16 aspects = 112 doors",
+  "motto": "sthira-sukham asanam",
+  "houses": [
+    {
+      "id": 1,
+      "family": "Muladhara",
+      "doors": ["001", "016"],
+      "element": "earth",
+      "color": "vermilion",
+      "bija": "LAM",
+      "polygon": "square",
+      "attention": "soles and pelvic floor",
+      "dimension": "Being Here"
+    },
+    {
+      "id": 2,
+      "family": "Svadhisthana",
+      "doors": ["017", "032"],
+      "element": "water",
+      "color": "orange",
+      "bija": "VAM",
+      "polygon": "crescent",
+      "attention": "lower belly",
+      "dimension": "Flow"
+    },
+    {
+      "id": 3,
+      "family": "Manipura",
+      "doors": ["033", "048"],
+      "element": "fire",
+      "color": "gold",
+      "bija": "RAM",
+      "polygon": "upward triangle",
+      "attention": "navel",
+      "dimension": "Will"
+    },
+    {
+      "id": 4,
+      "family": "Anahata",
+      "doors": ["049", "064"],
+      "element": "air",
+      "color": "emerald",
+      "bija": "YAM",
+      "polygon": "hexagram",
+      "attention": "sternum",
+      "dimension": "Unstruck Love"
+    },
+    {
+      "id": 5,
+      "family": "Vishuddha",
+      "doors": ["065", "080"],
+      "element": "ether",
+      "color": "sky-blue",
+      "bija": "HAM",
+      "polygon": "sphere",
+      "attention": "throat pit",
+      "dimension": "True Voice"
+    },
+    {
+      "id": 6,
+      "family": "Ajna",
+      "doors": ["081", "096"],
+      "element": "light",
+      "color": "indigo",
+      "bija": "OM",
+      "polygon": "bindu",
+      "attention": "brow",
+      "dimension": "Inner Command"
+    },
+    {
+      "id": 7,
+      "family": "Sahasrara",
+      "doors": ["097", "112"],
+      "element": "void",
+      "color": "violet-white",
+      "bija": "silence",
+      "polygon": "empty circle",
+      "attention": "crown",
+      "dimension": "Thousand Petals"
+    }
+  ],
+  "axis_doors": ["A1"]
+}
