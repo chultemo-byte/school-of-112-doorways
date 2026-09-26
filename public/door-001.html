@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Door 001 · Tāḍāsana · School of 112 Doorways</title>
+<meta name="description" content="Animated demonstration of Door 001, Tāḍāsana — the unmoving standing. Geometry, breath, three foot points." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg:#0b0a12; --ink:#f4efe6; --muted:#9a8f7a;
+    --vermilion:#c0392b; --gold:#c9a227; --paper:#f4efe6;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:radial-gradient(1200px 800px at 50% -10%, #1a1530 0%, var(--bg) 60%);
+    color:var(--ink); font-family:'Inter',system-ui,sans-serif;
+    min-height:100vh; overflow-x:hidden;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:40px 20px 80px}
+  header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  .brand{font-family:'Cormorant Garamond',serif;font-weight:600;letter-spacing:.04em;font-size:1.05rem}
+  .brand small{display:block;color:var(--muted);font-family:'Inter';font-weight:300;font-size:.7rem;letter-spacing:.18em;text-transform:uppercase}
+  nav a{color:var(--muted);text-decoration:none;font-size:.8rem;margin-left:16px;transition:color .3s}
+  nav a:hover{color:var(--ink)}
+  .eyebrow{color:var(--gold);font-size:.74rem;letter-spacing:.28em;text-transform:uppercase;font-weight:500;text-align:center}
+  h1{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;margin:10px 0 6px;letter-spacing:.01em;text-align:center}
+  h1 em{font-style:italic;color:var(--gold)}
+  .sanskrit{text-align:center;color:var(--muted);font-style:italic;font-size:.95rem;margin-bottom:28px}
+  .stage{
+    position:relative;border:1px solid rgba(255,255,255,.08);border-radius:20px;
+    background:linear-gradient(160deg,rgba(255,255,255,.03),rgba(255,255,255,0));
+    padding:28px 20px 24px;overflow:hidden;
+  }
+  .canvas-wrap{display:flex;justify-content:center;align-items:flex-end;min-height:340px}
+  svg{width:100%;max-width:320px;height:auto;display:block}
+  .controls{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:22px;flex-wrap:wrap}
+  button{
+    font-family:'Inter';font-size:.82rem;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--ink);background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.16);
+    border-radius:999px;padding:10px 18px;cursor:pointer;transition:background .3s,border-color .3s;
+  }
+  button:hover{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.3)}
+  button.primary{background:var(--vermilion);border-color:var(--vermilion);color:#fff}
+  button.primary:hover{filter:brightness(1.1)}
+  .status{font-size:.78rem;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;min-width:120px;text-align:center}
+  .caption{
+    margin-top:22px;text-align:center;color:var(--muted);font-size:.92rem;line-height:1.6;
+    min-height:3.2em;font-weight:300;
+  }
+  .caption b{color:var(--gold);font-weight:500}
+  .law{margin:40px auto 0;max-width:520px;text-align:center;color:var(--muted);font-size:.86rem;line-height:1.7;border-top:1px solid rgba(255,255,255,.08);padding-top:24px}
+  .law b{color:var(--gold);font-weight:500}
+  footer{margin-top:48px;text-align:center;color:var(--muted);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase}
+  footer a{color:var(--muted);text-decoration:none}
+  .reveal{opacity:0;transform:translateY(14px);animation:rise .8s ease forwards}
+  @keyframes rise{to{opacity:1;transform:none}}
+  .mist{animation:breathe 5s ease-in-out infinite}
+  @keyframes breathe{0%,100%{opacity:.4}50%{opacity:.7}}
+  .dot-pulse{animation:pulse 2.4s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:.35;r:3}50%{opacity:1;r:5}}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="reveal">
+      <div class="brand">School of 112 Doorways<small>Dvāra-Śata-Dvādaśa Mandala</small></div>
+      <nav>
+        <a href="/">Gate</a>
+        <a href="https://github.com/chultemo-byte/school-of-112-doorways">Repo</a>
+      </nav>
+    </header>
+
+    <div class="eyebrow reveal" style="margin-top:48px">Door 001 · House 1 · Earth</div>
+    <h1 class="reveal">Tāḍāsana <em>stands.</em></h1>
+    <div class="sanskrit reveal">The Unmoving Standing · Guardian MERU · LAM</div>
+
+    <section class="stage reveal">
+      <div class="canvas-wrap">
+        <svg viewBox="0 0 320 340" role="img" aria-label="Animated figure standing in Tadasana">
+          <defs>
+            <radialGradient id="mist" cx="50%" cy="60%" r="60%">
+              <stop offset="0%" stop-color="#c0392b" stop-opacity="0.35"/>
+              <stop offset="100%" stop-color="#c0392b" stop-opacity="0"/>
+            </radialGradient>
+            <linearGradient id="line" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#f4efe6" stop-opacity="0.9"/>
+              <stop offset="100%" stop-color="#c9a227" stop-opacity="0.5"/>
+            </linearGradient>
+          </defs>
+
+          <!-- breath mist -->
+          <ellipse class="mist" cx="160" cy="150" rx="90" ry="120" fill="url(#mist)"/>
+
+          <!-- ground -->
+          <line x1="60" y1="300" x2="260" y2="300" stroke="rgba(255,255,255,.18)" stroke-width="1"/>
+          <line x1="60" y1="300" x2="60" y2="306" stroke="rgba(255,255,255,.18)" stroke-width="1"/>
+          <line x1="260" y1="300" x2="260" y2="306" stroke="rgba(255,255,255,.18)" stroke-width="1"/>
+
+          <!-- vertical axis line -->
+          <line x1="160" y1="60" x2="160" y2="300" stroke="url(#line)" stroke-width="1" stroke-dasharray="2 4" opacity="0.6"/>
+
+          <!-- figure: head -->
+          <circle cx="160" cy="78" r="16" fill="none" stroke="#f4efe6" stroke-width="1.6"/>
+          <!-- neck -->
+          <line x1="160" y1="94" x2="160" y2="108" stroke="#f4efe6" stroke-width="1.6"/>
+          <!-- torso -->
+          <path d="M140 110 Q138 150 142 190 Q150 210 160 212 Q170 210 178 190 Q182 150 180 110 Z" fill="none" stroke="#f4efe6" stroke-width="1.6"/>
+          <!-- arms hanging -->
+          <path d="M142 118 Q132 150 134 188" fill="none" stroke="#f4efe6" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M178 118 Q188 150 186 188" fill="none" stroke="#f4efe6" stroke-width="1.6" stroke-linecap="round"/>
+          <!-- legs -->
+          <path d="M150 212 Q148 250 150 290" fill="none" stroke="#f4efe6" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M170 212 Q172 250 170 290" fill="none" stroke="#f4efe6" stroke-width="1.6" stroke-linecap="round"/>
+
+          <!-- three foot points: heel, big-toe mound, little-toe mound -->
+          <circle class="dot-pulse" cx="150" cy="300" r="4" fill="#c9a227"/>
+          <circle class="dot-pulse" cx="158" cy="300" r="4" fill="#c9a227" style="animation-delay:.4s"/>
+          <circle class="dot-pulse" cx="170" cy="300" r="4" fill="#c9a227" style="animation-delay:.8s"/>
+
+          <!-- labels -->
+          <text x="150" y="322" fill="#9a8f7a" font-family="Inter" font-size="9" text-anchor="middle">heel</text>
+          <text x="158" y="322" fill="#9a8f7a" font-family="Inter" font-size="9" text-anchor="middle">big</text>
+          <text x="170" y="322" fill="#9a8f7a" font-family="Inter" font-size="9" text-anchor="middle">little</text>
+        </svg>
+      </div>
+
+      <div class="controls">
+        <button id="play" class="primary">Play</button>
+        <button id="reset">Reset</button>
+        <div class="status" id="status">Standing</div>
+      </div>
+      <div class="caption" id="caption">One vertical line from the midfeet through the pelvis to the crown. The mountain does not imagine — it just stands.</div>
+    </section>
+
+    <section class="law reveal">
+      <b>sthira-sukham āsanam</b> — Yoga Sūtra 2.46. Steady and easeful. Pain is information, never a badge. A modified seat still opens the door. Practice is not medical treatment.
+    </section>
+
+    <footer class="reveal"><a href="/">School of 112 Doorways</a> · yoga112.com · one body, one future</footer>
+  </div>
+
+<script>
+(function(){
+  const playBtn = document.getElementById('play');
+  const resetBtn = document.getElementById('reset');
+  const statusEl = document.getElementById('status');
+  const captionEl = document.getElementById('caption');
+  const captions = [
+    'One vertical line from the midfeet through the pelvis to the crown. The mountain does not imagine — it just stands.',
+    'Three points of contact: heel, big-toe mound, little-toe mound. Weight even across all three.',
+    'If one goes quiet, the line leans. The quiet point is where attention lives right now.',
+    'Breathe: smell a flower for four. Blow a bubble for four. Six easy cycles. Soft knees keep the line alive.',
+    'Crown over heels. Not reaching up — just not sinking down. The line holds you; you do not hold the line.',
+    'Six breaths. Three points. One quiet line. Then you walk into the next hour with the floor still under you.'
+  ];
+  let i = 0, timer = null;
+  function show(n){
+    i = n % captions.length;
+    captionEl.innerHTML = captions[i];
+    statusEl.textContent = ['Standing','Feet','Quiet point','Breath','Crown','Integrate'][i];
+  }
+  function start(){
+    if(timer) clearInterval(timer);
+    playBtn.textContent = 'Pause';
+    playBtn.classList.remove('primary');
+    timer = setInterval(function(){ show(i+1); }, 4200);
+  }
+  function stop(){
+    if(timer){ clearInterval(timer); timer = null; }
+    playBtn.textContent = 'Play';
+    playBtn.classList.add('primary');
+  }
+  playBtn.addEventListener('click', function(){ if(timer) stop(); else start(); });
+  resetBtn.addEventListener('click', function(){ stop(); show(0); });
+  show(0);
+})();
+</script>
+</body>
+</html>
