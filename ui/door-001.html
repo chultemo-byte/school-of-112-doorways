@@ -50,7 +50,7 @@ footer{margin-top:28px;font-size:.8rem;color:var(--muted);text-align:center}
 <body>
   <div class="page">
     <div class="title">Guru Meru</div>
-    <h1>Mountain</h1>
+    <h1 data-meru="asana" role="button" tabindex="0" aria-label="Guru Meru speaks this door">Mountain</h1>
     <p class="sa">Door 001 · Tāḍāsana · House 1 · Mūlādhāra · LAM</p>
     <div class="calc">
       <div><b>001</b>door</div>
@@ -58,7 +58,7 @@ footer{margin-top:28px;font-size:.8rem;color:var(--muted);text-align:center}
       <div><b>vermilion</b>color</div>
       <div><b>LAM</b>bija</div>
     </div>
-    <div class="film">
+    <div class="film" data-meru="asana" role="button" tabindex="0" aria-label="Guru Meru speaks this door">
       <video autoplay muted loop playsinline controls src="media/door001_guru_meru.mp4">Guru Meru stands.</video>
       <div class="film-cap"><b>GURU MERU DEMONSTRATES</b> · six-second loop · start on the exhale</div>
     </div>
@@ -162,5 +162,6 @@ footer{margin-top:28px;font-size:.8rem;color:var(--muted);text-align:center}
   document.querySelectorAll('.chips button').forEach(function(b){ b.onclick=function(){ go(b.getAttribute('data-q')); }; });
 })();
 </script>
+<script src="../public/meru.js"></script>
 </body>
 </html>
