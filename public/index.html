@@ -40,11 +40,10 @@
     <p class="sa">Door 001 · Tāḍāsana · the pot and the body are one</p>
 
     <div class="film">
-      <video id="loop" autoplay muted loop playsinline controls src="media/door001_guru_meru.mp4">Guru Meru stands.</video>
-      <div class="poster" id="fallback" hidden>
+      <div class="poster" id="fallback">
         <div class="orb"></div>
         <h2>Guru Meru stands</h2>
-        <p>Start on the exhale. Mist at the feet.<br>Inhale — mist climbs. Exhale — mist falls.<br>Soft knees. Six loops. No hold.</p>
+        <p>animation slot — same camera as 001<br>Start on the exhale. Mist at the feet.<br>Inhale — mist climbs. Exhale — mist falls.<br>Soft knees. Six loops. No hold.</p>
       </div>
       <div class="cap"><b>GURU MERU DEMONSTRATES</b> · six-second loop · start on the exhale</div>
     </div>
@@ -59,19 +58,14 @@
 
     <p class="law">Practice is not medicine. <i>Sthira-sukham āsanam.</i></p>
     <nav>
+      <a href="/pose.html?n=1">Walk the 112</a>
       <a href="door-001.html">Door 001</a>
       <a href="/ui/112.html">City of 112</a>
       <a href="https://yoga112.vercel.app/door-001.html">Parchment pot</a>
     </nav>
     <footer>School of 112 Doorways · practice is not medicine · <i>sthira-sukham āsanam</i></footer>
   </div>
-<script>
-(function(){
-  var v=document.getElementById('loop');
-  var fb=document.getElementById('fallback');
-  if(!v) return;
-  v.addEventListener('error',function(){ if(fb){ fb.hidden=false; v.style.display='none'; }});
-})();
-</script>
+<script type="application/json" id="meru-plate">{"number":1,"sealed":false,"english":"Mountain","sanskrit":"Tāḍāsana","guardian":"MERU","look":"Heel, big-toe pad, little-toe pad.","water":"In four, out four. No hold.","exit":"If it hurts, sit. A chair is still the mountain.","safety":"If it hurts, stop. A chair still opens the door.","open_seat":"A chair is still the mountain."}</script>
+<script src="meru.js"></script>
 </body>
 </html>

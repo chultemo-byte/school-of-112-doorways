@@ -10,7 +10,8 @@
   "scripts": {
     "teach": "tsx engine/sequencer.ts",
     "check": "tsx engine/self-check.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "build:public": "node scripts/build-public-doors.mjs"
   },
   "dependencies": {
     "ajv": "^8.17.1"

@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { loadDoor, loadIndex, repoRoot } from "./doors.ts";
 import { teach, DEFAULT_PROFILE } from "./sequencer.ts";
@@ -212,5 +212,120 @@ const afterHouseAndCobra = teach(profile({ completed_doors: [...house1, 49] }));
 assert.equal(afterHouseAndCobra.status, "teaching");
 assert.equal(afterHouseAndCobra.door ? doorNumber(afterHouseAndCobra.door) : 0, 112);
 assert.match(afterHouseAndCobra.script[1].spoken, /Open-seat twin/);
+
+const publicRoot = path.join(repoRoot(), "public");
+const registry = JSON.parse(readFileSync(path.join(publicRoot, "doors.json"), "utf8")) as Array<{
+  number: number;
+  sanskrit: string | null;
+  english: string | null;
+  status: string;
+  breath: unknown;
+  guardian: string | null;
+  pairing_type: string;
+  lotus_never_forced: boolean;
+  practice_mode: string | null;
+  bija: string;
+  element: string;
+  color: string | null;
+  house: number;
+}>;
+assert.equal(registry.length, 112);
+const namedPublic = registry.filter((door) => door.status === "named");
+const sealedPublic = registry.filter((door) => door.status === "sealed_unnamed");
+assert.equal(namedPublic.length, 18);
+assert.equal(sealedPublic.length, 94);
+assert.deepEqual(
+  namedPublic.map((door) => door.number),
+  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 49, 112],
+);
+for (const door of sealedPublic) {
+  assert.equal(door.sanskrit, null, "sealed " + door.number + " sanskrit");
+  assert.equal(door.english, null, "sealed " + door.number + " english");
+  assert.equal(door.breath, null, "sealed " + door.number + " breath");
+  assert.equal(door.guardian, null);
+}
+for (const door of registry) {
+  assert.equal(door.pairing_type, "school_device");
+  assert.equal(door.lotus_never_forced, true);
+  if (door.guardian) assert.doesNotMatch(door.guardian, /chief of staff/i);
+  assert.doesNotMatch(JSON.stringify(door), /432|dopamine/i);
+}
+const door1 = registry[0] as unknown as {
+  guardian: string;
+  benefits: string;
+  yes: string;
+  no: string;
+  look: string;
+  five_ways: string[];
+  eight_beats: { script: string }[];
+  derived: string[];
+  field_sources: Record<string, string>;
+  geometry: { summary: string };
+};
+assert.equal(door1.guardian, "MERU");
+assert.equal(door1.field_sources.benefits, "owner_plate");
+assert.equal(door1.field_sources.yes, "owner_plate");
+assert.equal(door1.field_sources.no, "owner_plate");
+assert.equal(door1.field_sources.mentality, "owner_plate");
+assert.equal(door1.field_sources.emotion, "owner_plate");
+assert.equal(door1.field_sources.physics, "owner_plate");
+assert.equal(door1.field_sources.philosophy, "owner_plate");
+assert.equal(door1.field_sources.five_ways, "owner_plate");
+assert.equal(door1.field_sources.look, "owner_plate");
+assert.equal(door1.field_sources.eight_beats, "research");
+assert.equal(door1.field_sources.geometry, "research");
+assert.equal(door1.benefits, "Wakes the feet. Settles fidgeting. Gives the school its axis. A chair still opens this door.");
+assert.equal(door1.yes, "Soft knees. Even three points.");
+assert.equal(door1.look, "Heel, big-toe pad, little-toe pad.");
+assert.equal(door1.eight_beats.length, 8);
+assert.equal(door1.derived.includes("five_ways"), false);
+assert.match(door1.geometry.summary, /vertical column/);
+const ownerUi = readFileSync(path.join(repoRoot(), "ui", "door-001.html"), "utf8");
+assert.match(ownerUi, /src="media\/door001_guru_meru\.mp4"/);
+assert.doesNotMatch(ownerUi, /meru\.js/);
+const publicDoor1 = readFileSync(path.join(publicRoot, "door-001.html"), "utf8");
+assert.match(publicDoor1, /Wakes the feet/);
+assert.match(publicDoor1, /meru\.js/);
+assert.doesNotMatch(publicDoor1, /door001_guru_meru\.mp4/);
+assert.doesNotMatch(publicDoor1, /http-equiv="refresh"/);
+assert.equal(registry[48]?.guardian, "NAGINI");
+assert.equal(registry[48]?.bija, "YAM");
+assert.equal(registry[48]?.element, "Air");
+assert.equal(registry[48]?.house, 4);
+assert.equal(registry[111]?.guardian, "PADMA");
+assert.equal(registry[111]?.bija, "silence");
+assert.equal(registry[111]?.element, "Crown");
+assert.equal(registry[0]?.bija, "LAM");
+assert.equal(registry[0]?.color, "vermilion");
+assert.equal(registry[0]?.house, 1);
+assert.equal(registry[16]?.status, "sealed_unnamed");
+assert.equal(registry[16]?.house, 2);
+assert.equal(registry[16]?.bija, "VAM");
+assert.equal(registry[12]?.practice_mode, "observe_only");
+assert.equal(registry[111]?.practice_mode, "observe_only");
+for (const door of namedPublic) {
+  assert.equal(typeof door.sanskrit, "string");
+  assert.equal(typeof door.english, "string");
+  assert.equal(
+    existsSync(path.join(publicRoot, "door-" + String(door.number).padStart(3, "0") + ".html")),
+    true,
+  );
+}
+for (let part = 1; part <= 4; part += 1) {
+  const slice = JSON.parse(
+    readFileSync(path.join(publicRoot, "doors-part" + part + ".json"), "utf8"),
+  ) as unknown[];
+  assert.equal(slice.length, 28);
+  assert.deepEqual(slice, registry.slice((part - 1) * 28, part * 28));
+}
+for (const file of readdirSync(publicRoot)) {
+  if (!file.endsWith(".html") && !file.endsWith(".js")) continue;
+  const html = readFileSync(path.join(publicRoot, file), "utf8");
+  assert.doesNotMatch(html, /Chief of Staff/);
+  for (const match of html.matchAll(/<(?:video|source)\b[^>]*\ssrc=["']([^"']+\.mp4)/gi)) {
+    const rel = match[1].replace(/^\//, "");
+    assert.equal(existsSync(path.join(publicRoot, rel)), true, file + " missing " + match[1]);
+  }
+}
 
 console.log("self-check ok");
