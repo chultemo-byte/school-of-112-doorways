@@ -119,6 +119,7 @@ function researchDoor(n, raw, h) {
     guardian: "owner",
     safety_notes: "research",
     five_ways: "school_default",
+    eight_beats: "research",
     exit: "research",
     pairing_type: raw.honesty && raw.honesty.pairing_type === "school_device" ? "research" : "school_law",
     lotus_never_forced: raw.safety && raw.safety.never_force === true ? "research" : "school_law",
@@ -198,6 +199,7 @@ function researchDoor(n, raw, h) {
     },
     guardian: guardianFor(n),
     safety_notes: safety,
+    eight_beats: raw.beats.map((b) => ({ n: b.n, title: b.title, script: b.script })),
     five_ways: fiveFromBeats ? [beat(1), beat(2), beat(3), beat(4), beat(8)] : null,
     five_ways_basis: fiveFromBeats ? "Beats 1, 2, 3, 4, and 8, verbatim from the research record." : null,
     exit: beat(8),
@@ -514,6 +516,7 @@ function orientationHtml(o) {
 }
 
 function plate(door) {
+  const beat = door.eight_beats && door.eight_beats[0] && door.eight_beats[0].script;
   return {
     number: door.number,
     sealed: false,
@@ -523,16 +526,26 @@ function plate(door) {
     look: door.look,
     water: door.water,
     exit: door.exit,
+    yes: door.yes || null,
+    no: door.no || null,
+    house: door.house,
+    house_name: door.house_name,
+    bija: door.bija,
+    element: door.element,
+    beat: beat || null,
+    practice_mode: door.practice_mode || null,
+    lotus_never_forced: door.lotus_never_forced === true,
     safety: (door.safety_notes && door.safety_notes[0]) || UNIVERSAL,
     open_seat: door.open_seat,
   };
 }
 
+const ASANA = " data-meru=\"asana\" role=\"button\" tabindex=\"0\" aria-label=\"Guru Meru speaks this door\"";
 function filmBlock(door) {
   if (door.film && String(door.film).endsWith(".mp4")) {
-    return "<div class=\"slot\"><video controls src=\"" + esc(door.film) + "\"></video></div>";
+    return "<div class=\"slot\"" + ASANA + "><video controls src=\"" + esc(door.film) + "\"></video></div>";
   }
-  return "<div class=\"slot\">animation slot — same camera as 001</div>";
+  return "<div class=\"slot\"" + ASANA + ">animation slot — same camera as 001</div>";
 }
 
 function page(door, stage, play) {
@@ -543,12 +556,12 @@ function page(door, stage, play) {
   body += "<header><div class=\"brand\">School of 112 Doorways<small>Door " + pad(door.number) + "</small></div><nav><a href=\"index.html\">Gate</a> <a href=\"pose.html?n=" + door.number + "\">Constructor</a></nav></header>";
   if (accepted001) {
     body += "<div class=\"eyebrow\">Door 001 · House 1 · Earth</div>";
-    body += "<h1>Tāḍāsana <em>stands.</em></h1>";
+    body += "<h1" + ASANA + ">Tāḍāsana <em>stands.</em></h1>";
     body += "<p class=\"sanskrit\">The Unmoving Standing · Guardian MERU · LAM</p>";
     body += stage;
   } else {
     body += "<div class=\"eyebrow\">Door " + pad(door.number) + " · House " + door.house + " · " + esc(door.element) + "</div>";
-    body += "<h1>" + esc(door.english) + "</h1>";
+    body += "<h1" + ASANA + ">" + esc(door.english) + "</h1>";
     body += "<p class=\"sanskrit\">" + esc(door.sanskrit) + " · Guardian " + esc(door.guardian) + " · " + esc(door.bija) + "</p>";
     body += filmBlock(door);
   }
@@ -594,11 +607,17 @@ function emitPublicDoor001(door) {
     video,
     '<p style="margin:0;min-height:280px;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;color:#e8d7b4">animation slot — same camera as 001</p>',
   );
-  html = html.replace('href="112.html"', 'href="../ui/112.html"');
+  html = html.replace(/\.\.\/public\/meru\.js/g, "meru.js");
   const json = JSON.stringify(plate(door)).replace(/</g, "\\u003c");
-  const inject = '<script type="application/json" id="meru-plate">' + json + '</script>\n<script src="meru.js"></script>\n';
+  const plateTag = '<script type="application/json" id="meru-plate">' + json + "</script>\n";
+  if (html.includes('id="meru-plate"')) {
+    html = html.replace(/<script type="application\/json" id="meru-plate">[\s\S]*?<\/script>\n?/, plateTag);
+  } else if (html.includes('src="meru.js"')) {
+    html = html.replace('<script src="meru.js"></script>', plateTag + '<script src="meru.js"></script>');
+  } else {
+    html = html.replace("</body>", plateTag + '<script src="meru.js"></script>\n</body>');
+  }
   if (!html.includes("</body>")) throw new Error("owner plate has no body");
-  html = html.replace("</body>", inject + "</body>");
   writeFileSync(path.join(ROOT, "public/door-001.html"), html);
 }
 
@@ -620,5 +639,8 @@ const report = doors.filter((d) => d.status === "named").map((d) => ({
   practice_mode: d.practice_mode,
 }));
 writeFileSync("/tmp/field-report.json", JSON.stringify(report, null, 2));
+const city = readFileSync(path.join(ROOT, "ui/112.html"), "utf8");
+if (!city.includes("&meru=1")) throw new Error("ui/112.html cells must open the door with meru=1");
+writeFileSync(path.join(ROOT, "public/112.html"), city);
 console.log("doors", doors.length, "named", doors.filter((d) => d.status === "named").length, "sealed", doors.filter((d) => d.status === "sealed_unnamed").length);
 console.log("films", doors.filter((d) => d.film).map((d) => d.number + ":" + d.film).join(", ") || "none");

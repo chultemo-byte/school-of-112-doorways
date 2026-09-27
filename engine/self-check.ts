@@ -282,7 +282,8 @@ assert.equal(door1.derived.includes("five_ways"), false);
 assert.match(door1.geometry.summary, /vertical column/);
 const ownerUi = readFileSync(path.join(repoRoot(), "ui", "door-001.html"), "utf8");
 assert.match(ownerUi, /src="media\/door001_guru_meru\.mp4"/);
-assert.doesNotMatch(ownerUi, /meru\.js/);
+assert.match(ownerUi, /meru\.js/);
+assert.match(ownerUi, /data-meru="asana"/);
 const publicDoor1 = readFileSync(path.join(publicRoot, "door-001.html"), "utf8");
 assert.match(publicDoor1, /Wakes the feet/);
 assert.match(publicDoor1, /meru\.js/);
@@ -322,10 +323,33 @@ for (const file of readdirSync(publicRoot)) {
   if (!file.endsWith(".html") && !file.endsWith(".js")) continue;
   const html = readFileSync(path.join(publicRoot, file), "utf8");
   assert.doesNotMatch(html, /Chief of Staff/);
+  if (file.endsWith(".html")) {
+    for (const href of html.matchAll(/href=["']([^"']*)["']/gi)) {
+      assert.equal(href[1].includes("/ui/"), false, file + " href " + href[1]);
+    }
+  }
   for (const match of html.matchAll(/<(?:video|source)\b[^>]*\ssrc=["']([^"']+\.mp4)/gi)) {
     const rel = match[1].replace(/^\//, "");
     assert.equal(existsSync(path.join(publicRoot, rel)), true, file + " missing " + match[1]);
   }
 }
+
+const meruSrc = readFileSync(path.join(publicRoot, "meru.js"), "utf8");
+const sealedBlock = meruSrc.match(/var SEALED_SPEECH = \[([\s\S]*?)\];/);
+assert.ok(sealedBlock, "SEALED_SPEECH");
+const sealedSpeech = sealedBlock?.[1] ?? "";
+assert.match(sealedSpeech, /sealed — a name will arrive honestly/);
+assert.match(sealedSpeech, /Null is not a secret name/);
+for (const door of namedPublic) {
+  if (door.english) {
+    assert.equal(sealedSpeech.toLowerCase().includes(door.english.toLowerCase()), false, door.english);
+  }
+  if (door.sanskrit) {
+    assert.equal(sealedSpeech.toLowerCase().includes(door.sanskrit.toLowerCase()), false, door.sanskrit);
+  }
+}
+const city = readFileSync(path.join(publicRoot, "112.html"), "utf8");
+assert.match(city, /meru=1/);
+assert.match(readFileSync(path.join(repoRoot(), "ui", "112.html"), "utf8"), /meru=1/);
 
 console.log("self-check ok");

@@ -21,8 +21,8 @@
 <body>
   <div class="wrap">
     <div class="eyebrow">School of 112 Doorways</div>
-    <h1 id="title">Sealed pot</h1>
-    <p class="seal" id="seal">sealed — waiting for an honest name</p>
+    <h1 id="title" data-meru="asana" role="button" tabindex="0" aria-label="Guru Meru speaks this door">Sealed pot</h1>
+    <p class="seal" id="seal" data-meru="asana" role="button" tabindex="0" aria-label="Guru Meru speaks this door">sealed — waiting for an honest name</p>
     <p id="house"></p>
     <div class="safety">
       <span>Start on the exhale.</span>
@@ -64,7 +64,7 @@
       return "<a href=\""+href+"\">"+label+"</a>";
     }
     document.getElementById("nav").innerHTML = link(n-1, "← "+pad(n-1)) + "<a href=\"pose.html?n="+n+"\">pose</a>" + link(n+1, pad(n+1)+" →");
-    window.MERU_PLATE = {number:n, sealed:true, house:h.house, house_name:h.name, element:h.element, bija:h.bija};
+    window.MERU_PLATE = {number:n, sealed:true, house:h.house, house_name:h.name, element:h.element, bija:h.bija, exit:"If it hurts, stop. A chair still opens the door."};
     if (window.MERU) window.MERU.boot(window.MERU_PLATE);
     var named = {};
     for (var i=1;i<=16;i++) named[i]=true;

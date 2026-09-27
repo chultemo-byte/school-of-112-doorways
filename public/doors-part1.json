@@ -57,6 +57,48 @@
       "If standing is not available, practice the same breath-turn attention seated upright in an open seat (sukhasana or chair).",
       "General practice caution only; not medical advice. Soften the knees if locking bothers them. Sit or hold a wall if balance or fatigue appear."
     ],
+    "eight_beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door 001, Mountain — Tadasana. Stand as a quiet upright column. Nothing to prove. Just arrive."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "Feet plant. Legs long, knees soft. Pelvis stacked over ankles, ribs over pelvis, crown floating up. Arms rest by your sides. One vertical line."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Crown over heels. Weight even on both feet — heel, big-toe ball, little-toe ball. Gaze soft and level. Gravity down, length up."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Inhale for four. Exhale for four. Six easy cycles. Breath lands in the lower belly, then soft ribs. No forced hold."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Hold the soles-to-crown line. Secondary: notice the natural turn at the top of the inhale and the bottom of the exhale."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "Name the school shift Settle: scattered charge moves toward grounded stillness. Feel it as metaphor, not medicine."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "From VBT dharana 001: rest awareness at the two places where breath turns. Do not stop the breath. Meet the pause that is already there."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Take one free breath. Soften the knees. Carry the vertical quiet into the next step, or sit if you need rest."
+      }
+    ],
     "five_ways": [
       "Stand.",
       "Soften the knees.",
@@ -130,6 +172,7 @@
       "guardian": "owner",
       "safety_notes": "research",
       "five_ways": "owner_plate",
+      "eight_beats": "research",
       "exit": "research",
       "pairing_type": "research",
       "lotus_never_forced": "research",
@@ -140,57 +183,14 @@
       "mentality": "owner_plate",
       "emotion": "owner_plate",
       "physics": "owner_plate",
-      "philosophy": "owner_plate",
-      "eight_beats": "research"
+      "philosophy": "owner_plate"
     },
     "derived": [],
     "benefits": "Wakes the feet. Settles fidgeting. Gives the school its axis. A chair still opens this door.",
     "mentality": "Nothing to prove. Arrive. If the mind wanders, return to the quiet foot point.",
     "emotion": "Quiet pride is allowed. Fidgeting is information, not failure.",
     "physics": "Three-point base resists sway. Soft knees keep the line alive. A locked knee is a held breath in the leg.",
-    "philosophy": "Sthira-sukham āsanam. The mountain does not imagine. It just stands. Door 001 is paired with VBT dharana 001 as a school device, not ancient one-to-one canon.",
-    "eight_beats": [
-      {
-        "n": 1,
-        "title": "Name the door",
-        "script": "This is Door 001, Mountain — Tadasana. Stand as a quiet upright column. Nothing to prove. Just arrive."
-      },
-      {
-        "n": 2,
-        "title": "Geometry",
-        "script": "Feet plant. Legs long, knees soft. Pelvis stacked over ankles, ribs over pelvis, crown floating up. Arms rest by your sides. One vertical line."
-      },
-      {
-        "n": 3,
-        "title": "Orientation",
-        "script": "Crown over heels. Weight even on both feet — heel, big-toe ball, little-toe ball. Gaze soft and level. Gravity down, length up."
-      },
-      {
-        "n": 4,
-        "title": "Breath",
-        "script": "Inhale for four. Exhale for four. Six easy cycles. Breath lands in the lower belly, then soft ribs. No forced hold."
-      },
-      {
-        "n": 5,
-        "title": "Attention",
-        "script": "Hold the soles-to-crown line. Secondary: notice the natural turn at the top of the inhale and the bottom of the exhale."
-      },
-      {
-        "n": 6,
-        "title": "Reaction cue",
-        "script": "Name the school shift Settle: scattered charge moves toward grounded stillness. Feel it as metaphor, not medicine."
-      },
-      {
-        "n": 7,
-        "title": "Adiyogi thread",
-        "script": "From VBT dharana 001: rest awareness at the two places where breath turns. Do not stop the breath. Meet the pause that is already there."
-      },
-      {
-        "n": 8,
-        "title": "Exit / integrate",
-        "script": "Take one free breath. Soften the knees. Carry the vertical quiet into the next step, or sit if you need rest."
-      }
-    ]
+    "philosophy": "Sthira-sukham āsanam. The mountain does not imagine. It just stands. Door 001 is paired with VBT dharana 001 as a school device, not ancient one-to-one canon."
   },
   {
     "number": 2,
@@ -249,6 +249,48 @@
       "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
       "If standing overhead reach aggravates shoulders or low back, practice the same breath-pause attention seated with arms resting or only partially raised.",
       "General practice caution only; not medical advice. Ease range if shoulders, neck, or low back complain; keep ribs soft and avoid forcing arms behind the ears."
+    ],
+    "eight_beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door D-002, Upward Salute, Urdhva Hastasana. From a steady stand, both arms rise overhead."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "Feet root like Mountain. Arms lift on one line from heels through side ribs to fingertips. Soft elbows. Shoulders away from ears. Palms face or lightly touch."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Weight even on both feet. Do not tip back. Crown stays over heels. Gaze soft to the thumbs, or forward if the neck prefers."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Inhale four as arms rise. Soft one-count pause at the top. Exhale four. Six easy cycles. Never strain the pause."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Primary lock: the turn of the breath at the top. Secondary: length from soles to fingertips without shrugging."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "Feel the school cue Lift-and-open: compact stand becomes lengthened reach, then a quiet settle in the pause."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "VBT method 002: rest awareness in the brief pause where the breath turns, inside and outside. Notice the gap; do not force it."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Exhale arms down to Mountain, or stay up if steady. Soften shoulders. Keep the pause awareness for one more quiet breath, then release."
+      }
     ],
     "five_ways": [
       "This is Door D-002, Upward Salute, Urdhva Hastasana. From a steady stand, both arms rise overhead.",
@@ -323,6 +365,7 @@
       "guardian": "owner",
       "safety_notes": "research",
       "five_ways": "school_default",
+      "eight_beats": "research",
       "exit": "research",
       "pairing_type": "research",
       "lotus_never_forced": "research",
@@ -390,6 +433,48 @@
       "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
       "Bend knees generously, hands on blocks or shins, or take Ardha Uttanasana (half fold with long spine) if the full hang strains the low back or hamstrings.",
       "General practice caution only; not medical advice. Soften or exit if sharp low-back, hamstring, or head pressure appears. Avoid forcing straight legs. Use props. If dizziness arises when inverted, come up slowly with a long spine or bent knees."
+    ],
+    "eight_beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door D-003: Standing Forward Fold, Uttanasana. A standing fold that hangs the crown toward the floor."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "Feet hip-width. Tip from the hip crease into an inverted V: hips high, spine hanging, hands to floor, blocks, or shins. Soft knees are welcome."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Hinge at the hips, not the waist. Let the crown yield to gravity. Keep weight through the feet; do not yank yourself deeper."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Inhale four to lengthen the back body. Exhale six to settle the fold. Six easy cycles. No forced holds."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Place attention at the still middle of the breath—where inhale and exhale meet and quiet. Secondary: hip crease and even feet."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "Name the phase: upright scatter settling into hanging quiet. Feel outer rush thin. Metaphor only—not a medical claim."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "VBT dharana 003 points to the center where breath-energy is not rushing out or in. In the fold, notice that quiet join. Witness any natural pause; do not strain."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Bend the knees. Rise slowly with a long spine, or step back to a milder fold. Stand and feel the after-quiet before the next door."
+      }
     ],
     "five_ways": [
       "This is Door D-003: Standing Forward Fold, Uttanasana. A standing fold that hangs the crown toward the floor.",
@@ -464,6 +549,7 @@
       "guardian": "owner",
       "safety_notes": "research",
       "five_ways": "school_default",
+      "eight_beats": "research",
       "exit": "research",
       "pairing_type": "research",
       "lotus_never_forced": "research",
@@ -531,6 +617,48 @@
       "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
       "Hands on thighs, blocks, chair seat, or wall; soft bend in knees. Flat long spine beats straight legs or floor touch.",
       "General practice caution only; not medical advice. Avoid pressing hands on the knee joints. Ease out if low-back, hamstring, or neck sensation turns sharp. Pregnancy and back concerns: use a higher hand support and keep the spine long rather than deep."
+    ],
+    "eight_beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This door is Half Forward Fold, Ardha Uttanasana. It is the halfway lift—a long spine pause inside the fold, not a deeper dive."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "Hinge at the hips. Lift the torso until the back is long and roughly parallel to the floor. Hands find shins, thighs, or blocks—whatever keeps that long line."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Sit bones reach back; crown reaches forward. Gaze soft to the floor ahead. Neck stays in line with the spine. Weight stays even in both feet."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Inhale four counts to lift and lengthen. Soft hold for two counts at the top. Exhale four counts to fold or step on. Six easy cycles."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Lock attention on the length from tailbone through crown. Secondary: hands press into support, never into the knee joints."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "Feel the school cue called Suspend: the fold pauses into held length. Collapsed dump becomes a still horizontal line."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "Adiyogi thread, safe form: notice the quiet pause at the end of the inhale or exhale. No forced breath-hold—just meet the stillness, then continue."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Exhale back to fold, or inhale to rise. Soften the knees. Carry the long-spine cue into the next standing shape. Pain means pause or exit."
+      }
     ],
     "five_ways": [
       "This door is Half Forward Fold, Ardha Uttanasana. It is the halfway lift—a long spine pause inside the fold, not a deeper dive.",
@@ -605,6 +733,7 @@
       "guardian": "owner",
       "safety_notes": "research",
       "five_ways": "school_default",
+      "eight_beats": "research",
       "exit": "research",
       "pairing_type": "research",
       "lotus_never_forced": "research",
@@ -673,6 +802,48 @@
       "Pain is information. Pause, regress, or exit. Never push through sharp pain in the front knee, back knee, hips, or low back.",
       "If kneeling is unavailable: take a high lunge with the back knee lifted and hands on blocks, or practice the rising-attention thread seated upright in an open seat.",
       "General practice caution only; not medical advice. Pad the back knee. Keep the front knee tracking over the ankle, not collapsing inward. Skip deep backbending versions if the low back complains."
+    ],
+    "eight_beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door 005, Low Lunge — Anjaneyasana. One foot forward, back knee down, centerline rising. A doorway of base and lift, not a pose to win."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "Front knee stacks over the ankle. Back knee rests on the mat. Hips face forward as honestly as they can. Torso stands tall; arms may rise. Keep the shape long and steady."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Feel gravity in the back knee and front foot. Level the pelvis. Stack the spine over the hips. Gaze soft forward. Do not force the low back into a deep arch."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Inhale for four. Exhale for four. Six easy cycles. Let the breath land low in the pelvis, then rise softly through the ribs without gripping."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Hold the back knee and front hip crease as your low anchor. Secondary: a thin rising thread up the midline toward the crown. Sensation, not strain."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "Name the school shift Base Rise: from a compact ground-hold toward ascending length. Feel it as metaphor, not medicine."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "From VBT dharana 005: imagine soft light rising from the base of the pelvis, growing subtler toward the space above the crown. Ordinary breath. No force, no performance."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Hands frame the front foot. Step back to a stable kneel or your next shape. Stand or sit. Notice the after-feel of base and rise. Pain means pause."
+      }
     ],
     "five_ways": [
       "This is Door 005, Low Lunge — Anjaneyasana. One foot forward, back knee down, centerline rising. A doorway of base and lift, not a pose to win.",
@@ -747,6 +918,7 @@
       "guardian": "owner",
       "safety_notes": "research",
       "five_ways": "school_default",
+      "eight_beats": "research",
       "exit": "research",
       "pairing_type": "research",
       "lotus_never_forced": "research",
@@ -814,6 +986,48 @@
       "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
       "Puppy pose (Anahatasana) or knees-down dog if wrists, shoulders, or hamstrings complain.",
       "General practice caution only; not medical advice. Ease off if wrists, shoulders, or low back complain; bend knees freely; do not force heels to the floor."
+    ],
+    "eight_beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door D-006: Downward-Facing Dog, Adho Mukha Svanasana. An inverted V that lengthens the whole back body."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "Hands and feet plant. Hips rise as the peak. Spine long. Knees may bend. Heels reach back without forcing."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Share weight through palms and feet. Keep hips the high point. Soften the crown toward the space between the arms. Gaze toward navel or thighs."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Breathe inhale four, exhale six, for about six cycles. Inhale lengthen the waist. Exhale root the hands and soften the heels."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Hold one continuous line from hands through the spine to the heels. Secondary: even pressure across each whole palm."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "Feel the school cue Long settle: upright scatter becoming one quiet inverted line. Metaphor only. If pain speaks, exit."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "Safe VBT 006 thread: quietly mark attention up the centers along that long line, then rest soft awareness above the crown for a breath. Trace only. Never force."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Bend knees, walk or step forward, or lower to puppy pose. Stand or sit. Notice the long line still available without the shape."
+      }
     ],
     "five_ways": [
       "This is Door D-006: Downward-Facing Dog, Adho Mukha Svanasana. An inverted V that lengthens the whole back body.",
@@ -888,6 +1102,7 @@
       "guardian": "owner",
       "safety_notes": "research",
       "five_ways": "school_default",
+      "eight_beats": "research",
       "exit": "research",
       "pairing_type": "research",
       "lotus_never_forced": "research",
@@ -956,6 +1171,48 @@
       "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
       "Drop knees to the floor (knee plank), elevate hands on blocks or a chair, or take a short hold and rest in Child's Pose. Wrists may turn slightly outward or use fists/forearms if hands complain—keep the long line.",
       "General practice caution only; not medical advice. Ease out if wrists, shoulders, or low back turn sharp. Do not sag or pike through pain. Shorten the hold rather than collapse the line. Pregnancy and wrist concerns: prefer knee plank, elevated hands, or skip the hold."
+    ],
+    "eight_beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This door is Plank, Phalakasana. A held horizontal staff—heels to crown in one long line over the hands."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "Wrists under shoulders. Press the floor away. Lengthen heels back and crown forward so the body is one plank, not a pike or a sag."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Body parallel to the floor. Gaze soft ahead of the hands. Neck stays in line. Lift the front thighs and lower belly into the line."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Inhale four, exhale four. Six easy cycles. Keep the breath quiet so the plank line does not bounce. No forced holds."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Lock on the central line from heels through crown. Secondary: even press through both hands under the shoulders."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "Feel the school cue called Hold-line: wobbling scatter becomes one continuous midline. Metaphor only—not a medical claim."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "Adiyogi thread, safe form: walk attention up pelvic floor, navel, heart, throat, brow. Feel each, then leave it and rise. Soft equal breath—no genital-station drills."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Lower the knees, or step back to Down Dog, or rest in Child's Pose. Shake out the wrists. Carry the long midline into the next shape. Pain means pause or exit."
+      }
     ],
     "five_ways": [
       "This door is Plank, Phalakasana. A held horizontal staff—heels to crown in one long line over the hands.",
@@ -1030,6 +1287,7 @@
       "guardian": "owner",
       "safety_notes": "research",
       "five_ways": "school_default",
+      "eight_beats": "research",
       "exit": "research",
       "pairing_type": "research",
       "lotus_never_forced": "research",
@@ -1097,6 +1355,48 @@
       "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
       "Knees-down Four-Limbed Staff (knees on the floor, same elbow-rib geometry) or stay in high plank / forearm plank if wrists or shoulders complain. Child's pose is always a valid exit.",
       "General practice caution only; not medical advice. Ease or skip if wrists, elbows, shoulders, or low back complain; do not force the shoulders below the elbows or collapse the midsection."
+    ],
+    "eight_beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door D-008, Four-Limbed Staff, Chaturanga Dandasana. A low, held staff on hands and feet."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "From plank, lower as one beam until upper arms are about parallel to the floor. Elbows hug the ribs. Hips level with shoulders. Heels press back."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "One line from heels through crown. Shoulders stay above the elbows. Soft gaze forward of the hands. Neck long."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Enter on an exhale. In the hold, breathe about three in and three out for up to four easy cycles. Jagged breath means regress or exit."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Primary: quiet steadiness inside the skull-bowl. Secondary: elbows to ribs and heels pressing back."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "Feel the school cue Gather-to-staff: scattered push gathers into one coherent held beam."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "VBT method 008: rest attention inside the cranium and let mental steadiness grow gradually. Here, feel that quiet skull-bowl under load; eyes may stay softly open."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Press up to plank, drop knees, or move to child's pose. Optional: close the eyes for two breaths and rest attention inside the skull. Never force the next shape."
+      }
     ],
     "five_ways": [
       "This is Door D-008, Four-Limbed Staff, Chaturanga Dandasana. A low, held staff on hands and feet.",
@@ -1171,6 +1471,7 @@
       "guardian": "owner",
       "safety_notes": "research",
       "five_ways": "school_default",
+      "eight_beats": "research",
       "exit": "research",
       "pairing_type": "research",
       "lotus_never_forced": "research",
@@ -1239,6 +1540,48 @@
       "Pain is information. Pause, regress, or exit. Never push through sharp pain in wrists, low back, neck, or legs.",
       "Bhujangasana (Cobra) or Sphinx with thighs down; or hands on blocks to reduce wrist extension",
       "General practice caution for loaded wrist extension and lumbar compression; not medical advice. If wrists or low back complain, regress to Cobra/Sphinx or skip."
+    ],
+    "eight_beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door D-009: Upward-Facing Dog, Urdhva Mukha Svanasana. A front-opening lift on hands and tops of feet."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "Press palms and tops of feet. Straighten arms with shoulders over wrists. Lift the thighs so only hands and feet touch. Long arc through chest, not a fold dumped into the low back."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Stack shoulders over wrists. Draw shoulders off the ears. Reach legs back while chest moves forward-up. Gaze soft forward unless the neck is free."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Inhale four to lengthen and lift. Soft one-count pause. Exhale four without collapsing. Six even cycles. Breath lands at sternum with soft belly support."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Primary lock: sternum and heart-band opening forward. Secondary: tops of feet pressing and long active legs."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "Name the phase Open rise: from front-body collapse toward lifted spacious front line. Metaphor only—feel the shift, don’t chase a stretch goal."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "VBT dharana 009: notice the five senses as one nested field, like circles into a quiet center. Let attention rest in the heart-space of the open chest. Safe contemplative form only."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Exhale down to prone or move on with control. If wrists or low back spoke up, take Cobra or Sphinx next. Pain means stop. Pairing is a school teaching device, not ancient canon."
+      }
     ],
     "five_ways": [
       "This is Door D-009: Upward-Facing Dog, Urdhva Mukha Svanasana. A front-opening lift on hands and tops of feet.",
@@ -1313,6 +1656,7 @@
       "guardian": "owner",
       "safety_notes": "research",
       "five_ways": "school_default",
+      "eight_beats": "research",
       "exit": "research",
       "pairing_type": "research",
       "lotus_never_forced": "research",
@@ -1381,6 +1725,48 @@
       "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
       "If the flat back foot or hip rotation agitates the back knee or hip, use High Crescent Lunge (back heel lifted, hips freer) or shorten the stance. Do not force the pelvis square.",
       "General practice caution only for knees, hips, low back, and neck (especially if looking up). Not medical advice; regress depth or exit when needed."
+    ],
+    "eight_beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "Door D-010: Warrior I, Virabhadrasana I. A standing forward lunge with arms reaching up."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "Step one foot forward, angle the back foot and plant the heel. Bend the front knee over the ankle. Reach the arms up. Keep the feet hip-width for balance."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Face the chest forward within comfort. Root the outer edge of the back foot. Lift the crown. Soft gaze forward—or to the thumbs only if the neck is free."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Breathe equal fours: inhale lengthen the reach; exhale root the back heel. Six easy cycles. No strain."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Lock attention on the outer back foot and the upward line of the arms. Second check: front knee tracks clean over the ankle."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "Feel the school cue Aim: scattered energy gathers into one directed upright line. Metaphor only—not a medical claim."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "VBT dharana 010, safe form: rest soft gaze in the empty space above the hands, like sky or a quiet wall. Stay with that field; do not chase thoughts."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Lower the arms. Straighten the front leg. Step back to Mountain. If anything felt sharp, choose Crescent or a shorter stance next time. Pain means pause."
+      }
     ],
     "five_ways": [
       "Door D-010: Warrior I, Virabhadrasana I. A standing forward lunge with arms reaching up.",
@@ -1455,6 +1841,7 @@
       "guardian": "owner",
       "safety_notes": "research",
       "five_ways": "school_default",
+      "eight_beats": "research",
       "exit": "research",
       "pairing_type": "research",
       "lotus_never_forced": "research",
@@ -1523,6 +1910,48 @@
     "safety_notes": [
       "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
       "General practice caution only; not medical advice. Shorten stance or reduce front-knee bend if knees, hips, or shoulders complain. Do not force the front thigh parallel or square the pelvis past what keeps the front knee tracking."
+    ],
+    "eight_beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door D-011: Warrior II, Virabhadrasana II. Wide stance, arms like a T, gaze soft past the front hand."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "Feet wide. Front heel toward back arch. Bend the front knee over the ankle. Reach both arms to shoulder height. Keep the torso upright over the pelvis."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Face the long side of the mat. Crown over pelvis. Front knee tracks mid-foot. Weight shares both feet. Soft gaze past the front fingertips."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Breathe even fours: inhale four, exhale four, six cycles. Let the breath land in the side ribs. Do not hold the breath to force depth."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Primary lock: the connection of seeing—not the hand, not your effort. Secondary: keep the front knee honest over the foot."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "School cue: from object-grab to relation-field. If you catch yourself staring hard or straining, soften into the span between you and what you see."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "VBT dharana 011, safe form: everyone knows seer and seen. Here, gently notice the link between them while you stand. School pairing, not ancient canon."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Straighten the front leg, lower the arms, step the feet together. Stand a breath and feel the same soft relating without the shape."
+      }
     ],
     "five_ways": [
       "This is Door D-011: Warrior II, Virabhadrasana II. Wide stance, arms like a T, gaze soft past the front hand.",
@@ -1597,6 +2026,7 @@
       "guardian": "owner",
       "safety_notes": "research",
       "five_ways": "school_default",
+      "eight_beats": "research",
       "exit": "research",
       "pairing_type": "research",
       "lotus_never_forced": "research",
@@ -1665,6 +2095,48 @@
     "safety_notes": [
       "Pain is information. Pause, regress, or exit. Never push through sharp pain in hamstring, knee, sacroiliac joint, or neck.",
       "Shorten the stance, rest the lower hand on a block or shin, and keep the gaze neutral if balance, neck, or hamstrings complain. General practice caution only; not medical advice."
+    ],
+    "eight_beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door Twelve: Triangle, Utthita Trikonasana. A wide stance that opens one long side of the body."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "Feet wide. Front toes forward, back foot angled. Fold sideways over the front leg. Lower hand to shin or block; top arm reaches on the same diagonal."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Root both feet. Lift the underside waist so ribs do not dump onto the thigh. Gaze to the top hand only if the neck stays easy."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Breathe four in, four out. Let the inhale lengthen the open side; let the exhale settle the feet. Six cycles, then change sides."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Hold a thin line of attention from the front outer foot up through the hip and underarm to the top hand, like a fine filament of space."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "Notice the shift we call Line open: from a short side waist toward a long, even diagonal. If anything sharpens, shorten the pose."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "VBT method twelve points to a slender central channel like a lotus filament. Here, meet that idea safely as the open side-line of Triangle: space, not force."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Inhale to rise with a long spine. Step the feet together. Stand quiet and feel both sides even before you leave."
+      }
     ],
     "five_ways": [
       "This is Door Twelve: Triangle, Utthita Trikonasana. A wide stance that opens one long side of the body.",
@@ -1739,6 +2211,7 @@
       "guardian": "owner",
       "safety_notes": "research",
       "five_ways": "school_default",
+      "eight_beats": "research",
       "exit": "research",
       "pairing_type": "research",
       "lotus_never_forced": "research",
@@ -1807,6 +2280,48 @@
       "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
       "Hand on a block or the shin instead of the floor; shorten the stance; keep gaze down if the neck complains.",
       "General practice caution for deep twists, hamstrings, and neck. Not medical advice. Skip classical sensory-seal pressure on the eyes in class."
+    ],
+    "eight_beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door 013: Revolved Triangle, Parivrtta Trikonasana. Standing base, long legs, a twist toward the front thigh."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "Step wide. Front foot forward, back foot turned in. Hinge over the front leg, then spiral the ribs. Bottom hand to block, shin, or floor; top arm reaches up."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Feel a long line from back heel to crown. Gravity stays in both feet. Gaze up only if the neck is quiet; otherwise look down or forward."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Inhale for four counts and lengthen. Exhale for six and rotate a little around that length. Six easy cycles. No yanking."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Keep the primary lock on spinal length — the axis you twist around. Optionally soften attention at the brow without pressing."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "Notice any tangle in the twist. Soften and lengthen until it thins into one clear thread from heel to crown. School metaphor only."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "The VBT method for this door seals the senses and watches a point at the brow — observe only here. In class, simply rest soft attention at the brow and notice quiet; do not press the eyes or plug the nostrils."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Inhale unwind the ribs to center. Exhale hand to hip and rise. Step the feet together. Stand for one breath and notice the after-feel of the spiral."
+      }
     ],
     "five_ways": [
       "This is Door 013: Revolved Triangle, Parivrtta Trikonasana. Standing base, long legs, a twist toward the front thigh.",
@@ -1881,6 +2396,7 @@
       "guardian": "owner",
       "safety_notes": "research",
       "five_ways": "school_default",
+      "eight_beats": "research",
       "exit": "research",
       "pairing_type": "research",
       "lotus_never_forced": "research",
@@ -1949,6 +2465,48 @@
       "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
       "Hands-on-hips side bend in a shorter stance, or Warrior II with soft side stretch; use a block under the bottom hand rather than reaching the floor.",
       "General practice caution only; not medical advice. Ease off if front knee, hip, or neck complains; shorten stance and raise the bottom hand."
+    ],
+    "eight_beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "Door D-014: Extended Side Angle — Utthita Parsvakonasana. One long side-body line over a wide base."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "Wide stance. Bend the front knee over the ankle. Tip the torso over the front thigh. Bottom hand to floor, block, or shin. Top arm reaches long overhead."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Back heel heavy. Front knee tracks over the second toe. Bottom hand props lightly. Chest opens to the side, not folded down."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Inhale four counts to lengthen the top side. Exhale six counts into both feet. Six cycles. Soften if the breath shortens."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Feel the long outer side — then also front, back, other side, above, and below. Attention fills the whole body-field at once."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "School cue: solid edge softens toward sky. The stretch stays; the sense of a hard body-boundary can loosen."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "VBT dharana 014, safe form: in this body, contemplate space in all directions at once. Rest when constructs of solidity quiet."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Inhale to lift the torso. Straighten the front leg. Step back to standing. Notice residual space-sense before the next shape."
+      }
     ],
     "five_ways": [
       "Door D-014: Extended Side Angle — Utthita Parsvakonasana. One long side-body line over a wide base.",
@@ -2023,6 +2581,7 @@
       "guardian": "owner",
       "safety_notes": "research",
       "five_ways": "school_default",
+      "eight_beats": "research",
       "exit": "research",
       "pairing_type": "research",
       "lotus_never_forced": "research",
@@ -2092,6 +2651,48 @@
       "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
       "Keep hands on blocks or a chair with a concave spine; skip crown-to-floor. Soften knees if hamstrings or low back protest.",
       "General practice caution only; not medical advice. Use support under hands or head; avoid dumping weight onto the neck. If dizziness appears in the fold, come up slowly with hands on hips."
+    ],
+    "eight_beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "Door D-015: Wide-Legged Standing Forward Fold — Prasarita Padottanasana. A wide stance that folds the spine long toward quiet."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "Step the feet wide and parallel. Firm the legs. Hinge at the hips. Hands under the shoulders first; spine long. Crown may meet floor or a block later—legs still carry you."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Gravity lives in the feet. Keep the head light. Look forward while the back stays concave; only then soften the gaze down as you fold."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Inhale four to lengthen. Exhale six to hinge and settle. Six cycles. Land in the still gap after the exhale."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Primary lock: the quiet after the last edge of breath or inner sound. Secondary: even press through both feet."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "School cue only: Gross to Void. Feel coarse stance and sound thin toward a point, then open into quiet. Metaphor, not medicine."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "Safe VBT 015 thread: let a short inner sound or the breath dissolve—vibration, point, fade—and rest in the silence that follows. No forced occult stages."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Inhale, lift the head, hands to hips, rise with a long spine. Feet walk in. Stand quiet for one breath and notice the same quiet without the fold."
+      }
     ],
     "five_ways": [
       "Door D-015: Wide-Legged Standing Forward Fold — Prasarita Padottanasana. A wide stance that folds the spine long toward quiet.",
@@ -2166,6 +2767,7 @@
       "guardian": "owner",
       "safety_notes": "research",
       "five_ways": "school_default",
+      "eight_beats": "research",
       "exit": "research",
       "pairing_type": "research",
       "lotus_never_forced": "research",
@@ -2235,6 +2837,48 @@
       "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
       "Foot to calf or toes to floor; stand near a wall; or keep both feet down in Mountain with arms branching up.",
       "Avoid pressing the raised foot into the standing knee joint. Use wall or lower foot placement if balance is unstable. General practice caution only; not medical advice."
+    ],
+    "eight_beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door 016: Tree, Vrksasana. One standing root, one open branch, tall spine."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "From Mountain, shift onto one foot. Place the other foot on the inner thigh or calf—never the knee. Hands at heart or reach up."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Crown over the standing heel. Keep the pelvis square. Gaze soft and fixed ahead. Wall is welcome."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Breathe four counts in, four out, about six rounds. Let the exhale land in the standing foot and low belly."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Lock attention in the standing sole and inner thigh. Feel a quiet line from foot to crown. Soften the face."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "Notice sway become a still axis. School name for that shift: Root settle. Wobble is information, not failure."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "VBT 016 thread: silently draw out a soft Om, then rest in the quiet gap when sound ends. Stay with that open silence a few breaths."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Lower the foot with control. Stand in Mountain. Switch sides when ready. Carry the quiet root into your next step."
+      }
     ],
     "five_ways": [
       "This is Door 016: Tree, Vrksasana. One standing root, one open branch, tall spine.",
@@ -2309,6 +2953,7 @@
       "guardian": "owner",
       "safety_notes": "research",
       "five_ways": "school_default",
+      "eight_beats": "research",
       "exit": "research",
       "pairing_type": "research",
       "lotus_never_forced": "research",
