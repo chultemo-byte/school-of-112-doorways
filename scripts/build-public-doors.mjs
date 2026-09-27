@@ -25,7 +25,7 @@ const FILMS = {
   5: ["public/media/door005_low_lunge.mp4", "ui/media/door005_low_lunge.mp4"],
 };
 const YESNO = {
-  1: { yes: "soft knees", no: "locked legs", file: "ui/door-001.html" },
+  1: { yes: "Soft knees. Even three points.", no: "Locked legs. Fidgeting feet.", file: "ui/door-001.html" },
   2: { yes: "shoulders drop away from ears", no: "avoid forcing arms behind the ears", file: "doors/D-002/door.json" },
   3: { yes: "Keep knees soft as needed", no: "Avoid forcing straight legs", file: "doors/D-003/door.json" },
   4: { yes: "whichever height keeps the spine long", no: "Avoid pressing hands on the knee joints", file: "doors/D-004/door.json" },
@@ -141,9 +141,10 @@ function researchDoor(n, raw, h) {
     if (!b) throw new Error("missing beat " + k + " on " + n);
     return b.script;
   };
-  derived.push("five_ways");
   const safety = [raw.safety.pain_rule, raw.safety.open_seat_alternate, raw.safety.contraindication_notes].filter(Boolean);
-  return {
+  const fiveFromBeats = n !== 1;
+  if (fiveFromBeats) derived.push("five_ways");
+  const door = {
     number: n,
     sanskrit: raw.sanskrit,
     english: raw.name,
@@ -197,8 +198,8 @@ function researchDoor(n, raw, h) {
     },
     guardian: guardianFor(n),
     safety_notes: safety,
-    five_ways: [beat(1), beat(2), beat(3), beat(4), beat(8)],
-    five_ways_basis: "Beats 1, 2, 3, 4, and 8, verbatim from the research record.",
+    five_ways: fiveFromBeats ? [beat(1), beat(2), beat(3), beat(4), beat(8)] : null,
+    five_ways_basis: fiveFromBeats ? "Beats 1, 2, 3, 4, and 8, verbatim from the research record." : null,
     exit: beat(8),
     yes: yn.yes,
     no: yn.no,
@@ -215,6 +216,35 @@ function researchDoor(n, raw, h) {
     field_sources: sources,
     derived,
   };
+  if (n === 1) applyOwnerPlate001(door, raw);
+  return door;
+}
+
+const OWNER_PLATE_001 = {
+  look: "Heel, big-toe pad, little-toe pad.",
+  yes: "Soft knees. Even three points.",
+  no: "Locked legs. Fidgeting feet.",
+  benefits: "Wakes the feet. Settles fidgeting. Gives the school its axis. A chair still opens this door.",
+  mentality: "Nothing to prove. Arrive. If the mind wanders, return to the quiet foot point.",
+  emotion: "Quiet pride is allowed. Fidgeting is information, not failure.",
+  physics: "Three-point base resists sway. Soft knees keep the line alive. A locked knee is a held breath in the leg.",
+  philosophy: "Sthira-sukham āsanam. The mountain does not imagine. It just stands. Door 001 is paired with VBT dharana 001 as a school device, not ancient one-to-one canon.",
+  five_ways: ["Stand.", "Soften the knees.", "Find three points.", "Breathe 4 and 4.", "Stop if it hurts."],
+};
+
+function applyOwnerPlate001(door, raw) {
+  const plate = "ui/door-001.html";
+  for (const [key, value] of Object.entries(OWNER_PLATE_001)) {
+    const needle = Array.isArray(value) ? "1 Stand. 2 Soften the knees. 3 Find three points. 4 Breathe 4 and 4. 5 Stop if it hurts." : value;
+    mustContain(plate, needle.startsWith("Sthira") ? "Sthira-sukham āsanam." : needle);
+    door[key] = value;
+    door.field_sources[key] = "owner_plate";
+  }
+  mustContain(plate, "The mountain does not imagine. It just stands.");
+  door.eight_beats = raw.beats.map((b) => ({ n: b.n, title: b.title, script: b.script }));
+  door.field_sources.eight_beats = "research";
+  door.field_sources.look = "owner_plate";
+  door.five_ways_basis = "Owner plate on ui/door-001.html. The research record has no five_ways field.";
 }
 
 function prototypeDoor(n, raw, h) {
@@ -556,8 +586,28 @@ for (let i = 0; i < 4; i++) {
 }
 const stage = readFileSync(path.join(ROOT, "scripts/fragments/door-001-stage.html"), "utf8");
 const play = readFileSync(path.join(ROOT, "scripts/fragments/door-001-play.js.html"), "utf8");
+function emitPublicDoor001(door) {
+  const video = '<video autoplay muted loop playsinline controls src="media/door001_guru_meru.mp4">Guru Meru stands.</video>';
+  let html = readFileSync(path.join(ROOT, "ui/door-001.html"), "utf8");
+  if (!html.includes(video)) throw new Error("owner plate video line moved");
+  html = html.replace(
+    video,
+    '<p style="margin:0;min-height:280px;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;color:#e8d7b4">animation slot — same camera as 001</p>',
+  );
+  html = html.replace('href="112.html"', 'href="../ui/112.html"');
+  const json = JSON.stringify(plate(door)).replace(/</g, "\\u003c");
+  const inject = '<script type="application/json" id="meru-plate">' + json + '</script>\n<script src="meru.js"></script>\n';
+  if (!html.includes("</body>")) throw new Error("owner plate has no body");
+  html = html.replace("</body>", inject + "</body>");
+  writeFileSync(path.join(ROOT, "public/door-001.html"), html);
+}
+
 for (const door of doors) {
   if (door.status !== "named") continue;
+  if (door.number === 1) {
+    emitPublicDoor001(door);
+    continue;
+  }
   writeFileSync(path.join(ROOT, "public/door-" + pad(door.number) + ".html"), page(door, stage, play));
 }
 const report = doors.filter((d) => d.status === "named").map((d) => ({

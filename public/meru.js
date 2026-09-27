@@ -2,17 +2,18 @@
 (function () {
   var FALLBACK = "I hear you. Press the three points, breathe, and stop if it hurts.";
   var FOOT = "Guru Meru answers from the accepted plate. He does not invent. He does not rush.";
+  var DOOR1_FALLBACK = "I hear you. Press the three points. Breathe four and four. Stop if it hurts. Ask me the feet, the water, or the exit.";
   var DOOR1 = [
-    { k: ["quiet", "quiet first", "went quiet", "which"], t: "The quiet point is the door. Press it again, gently. That is where your mind wandered — and where it returns. Stay there one breath." },
-    { k: ["heel"], t: "The heel is root. Feel it press. If it is loud and the toes are silent, your weight has slid back. Find the middle again." },
-    { k: ["big toe", "big-toe", "toe pad"], t: "The big-toe pad is the forward root. Press it. If it is quiet, you are tipping back. The mountain does not lean." },
-    { k: ["little toe", "little-toe"], t: "The little-toe pad is the side root. Press it. If it is quiet, you are collapsing inward. Open the outer edge." },
-    { k: ["weight", "even", "balance"], t: "Even weight across all three. Not equal force — equal attention. The feet do not argue." },
-    { k: ["soft knee", "knees", "locked"], t: "Soft knees. Never locked. A locked knee is a held breath in the leg. Let it bend a hair." },
-    { k: ["breath", "breathe", "flower", "bubble"], t: "Smell a flower — four. Blow a bubble — four. Six rounds. Soft knees the whole time. The breath is the water; the feet are the ground." },
-    { k: ["mountain", "tadasana", "tāḍāsana", "stand"], t: "You are already standing. That is the whole pose. The mountain does not imagine. It just stands. Borrow that." },
-    { k: ["film", "video", "movie"], t: "The film is me standing. Watch the mist. Inhale it climbs. Exhale it falls. Start on the exhale. Soft knees. That is the whole class." },
-    { k: ["done", "finish", "exit", "leave"], t: "Soften the knees. Carry the quiet. Or sit. The door closes when you choose — not when it is forced." }
+    { k: ["look", "quiet", "point", "foot"], t: "Look here: heel, big-toe pad, little-toe pad. The quiet point is the door. Press it again, gently." },
+    { k: ["water", "breath", "flower", "bubble", "inhale", "exhale"], t: "The water: start on the exhale. Mist at the feet. In four, out four. Six loops. No hold." },
+    { k: ["exit", "hurt", "pain", "stop", "sit"], t: "If it hurts, sit. A chair is still the mountain. That is the whole rule." },
+    { k: ["start", "begin", "how"], t: "Stand. Soft knees. Find three points. Start on the exhale. Watch the mist climb and fall." },
+    { k: ["geometry", "line", "column"], t: "One vertical column. Soles through pelvis to crown. Zero-degree tilt. Arms rest." },
+    { k: ["knee", "locked", "soft"], t: "Soft knees. A locked knee is a held breath in the leg. Let it bend a hair." },
+    { k: ["heel"], t: "The heel is root. If it is loud and the toes are silent, your weight slid back." },
+    { k: ["big"], t: "The big-toe pad is the forward root. If it is quiet, you are tipping back." },
+    { k: ["little"], t: "The little-toe pad is the side root. If it is quiet, you are collapsing inward." },
+    { k: ["meru", "fidget"], t: "I do not fidget. You do not have to either." }
   ];
 
   function has(q, words) {
@@ -35,14 +36,14 @@
       if (has(q, ["how", "what", "teach", "job", "do"])) return "Look here. Breathe. Exit if it hurts.";
       return FALLBACK;
     }
-    if (has(q, ["hurt", "pain", "stop", "red"])) {
-      if (plate.number === 1) return "Then stop. Soften the knees. Sit if you need to. A chair is still the Mountain. The rule is not a suggestion.";
-      return plate.safety || "If it hurts, stop. A chair still opens the door.";
-    }
     if (plate.number === 1) {
-      for (var i = 0; i < DOOR1.length; i++) {
-        if (has(q, DOOR1[i].k)) return DOOR1[i].t;
+      for (var d = 0; d < DOOR1.length; d++) {
+        if (has(q, DOOR1[d].k)) return DOOR1[d].t;
       }
+      return DOOR1_FALLBACK;
+    }
+    if (has(q, ["hurt", "pain", "stop", "red"])) {
+      return plate.safety || "If it hurts, stop. A chair still opens the door.";
     }
     if (has(q, ["breath", "breathe", "water", "inhale", "exhale", "flower", "bubble"])) {
       return plate.water || "Start on the exhale.";

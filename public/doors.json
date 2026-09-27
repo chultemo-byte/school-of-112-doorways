@@ -58,17 +58,17 @@
       "General practice caution only; not medical advice. Soften the knees if locking bothers them. Sit or hold a wall if balance or fatigue appear."
     ],
     "five_ways": [
-      "This is Door 001, Mountain — Tadasana. Stand as a quiet upright column. Nothing to prove. Just arrive.",
-      "Feet plant. Legs long, knees soft. Pelvis stacked over ankles, ribs over pelvis, crown floating up. Arms rest by your sides. One vertical line.",
-      "Crown over heels. Weight even on both feet — heel, big-toe ball, little-toe ball. Gaze soft and level. Gravity down, length up.",
-      "Inhale for four. Exhale for four. Six easy cycles. Breath lands in the lower belly, then soft ribs. No forced hold.",
-      "Take one free breath. Soften the knees. Carry the vertical quiet into the next step, or sit if you need rest."
+      "Stand.",
+      "Soften the knees.",
+      "Find three points.",
+      "Breathe 4 and 4.",
+      "Stop if it hurts."
     ],
-    "five_ways_basis": "Beats 1, 2, 3, 4, and 8, verbatim from the research record.",
+    "five_ways_basis": "Owner plate on ui/door-001.html. The research record has no five_ways field.",
     "exit": "Take one free breath. Soften the knees. Carry the vertical quiet into the next step, or sit if you need rest.",
-    "yes": "soft knees",
-    "no": "locked legs",
-    "look": "Soft horizontal, eyes open or lightly closed",
+    "yes": "Soft knees. Even three points.",
+    "no": "Locked legs. Fidgeting feet.",
+    "look": "Heel, big-toe pad, little-toe pad.",
     "water": "Even inhale four, even exhale four. No forced hold. Notice the natural brief turn at the top and bottom of each breath.",
     "open_seat": "If standing is not available, practice the same breath-turn attention seated upright in an open seat (sukhasana or chair).",
     "honesty": "This asana and VBT method are linked by the School of 112 Doorways as a teaching device (Door 001 with dharana 001). It is not a claim of ancient one-to-one canon.",
@@ -129,15 +129,67 @@
       "adiyogi_method": "research",
       "guardian": "owner",
       "safety_notes": "research",
-      "five_ways": "school_default",
+      "five_ways": "owner_plate",
       "exit": "research",
       "pairing_type": "research",
       "lotus_never_forced": "research",
-      "yes": "ui/door-001.html",
-      "no": "ui/door-001.html"
+      "yes": "owner_plate",
+      "no": "owner_plate",
+      "look": "owner_plate",
+      "benefits": "owner_plate",
+      "mentality": "owner_plate",
+      "emotion": "owner_plate",
+      "physics": "owner_plate",
+      "philosophy": "owner_plate",
+      "eight_beats": "research"
     },
-    "derived": [
-      "five_ways"
+    "derived": [],
+    "benefits": "Wakes the feet. Settles fidgeting. Gives the school its axis. A chair still opens this door.",
+    "mentality": "Nothing to prove. Arrive. If the mind wanders, return to the quiet foot point.",
+    "emotion": "Quiet pride is allowed. Fidgeting is information, not failure.",
+    "physics": "Three-point base resists sway. Soft knees keep the line alive. A locked knee is a held breath in the leg.",
+    "philosophy": "Sthira-sukham āsanam. The mountain does not imagine. It just stands. Door 001 is paired with VBT dharana 001 as a school device, not ancient one-to-one canon.",
+    "eight_beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door 001, Mountain — Tadasana. Stand as a quiet upright column. Nothing to prove. Just arrive."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "Feet plant. Legs long, knees soft. Pelvis stacked over ankles, ribs over pelvis, crown floating up. Arms rest by your sides. One vertical line."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Crown over heels. Weight even on both feet — heel, big-toe ball, little-toe ball. Gaze soft and level. Gravity down, length up."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Inhale for four. Exhale for four. Six easy cycles. Breath lands in the lower belly, then soft ribs. No forced hold."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Hold the soles-to-crown line. Secondary: notice the natural turn at the top of the inhale and the bottom of the exhale."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "Name the school shift Settle: scattered charge moves toward grounded stillness. Feel it as metaphor, not medicine."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "From VBT dharana 001: rest awareness at the two places where breath turns. Do not stop the breath. Meet the pause that is already there."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Take one free breath. Soften the knees. Carry the vertical quiet into the next step, or sit if you need rest."
+      }
     ]
   },
   {
