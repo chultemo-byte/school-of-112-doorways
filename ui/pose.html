@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Door · School of 112 Doorways</title>
+</head>
+<body>
+<div class="page" id="app">Loading…</div>
+<script>
+(function(){
+  var REG = __REGISTRY__;
+  function pad(n){return (n<10?"00":n<100?"0":"")+n;}
+  var n=parseInt((location.search.match(/[?&]n=(\d+)/)||[])[1]||"1",10);
+  if(isNaN(n)||n<1||n>112)n=1;
+  var p=REG.pots[String(n)];
+  var prev=n===1?112:n-1, next=n===112?1:n+1;
+  var h="";
+  h+="<div class='guru'>Guru Meru</div>";
+  if(!p||p.status==="sealed"){
+    h+="<h1>Door "+pad(n)+"</h1>";
+    h+="<p class='sa'>House "+p.house+" · "+p.house_name+" · "+p.bija+"</p>";
+    h+="<div class='sealed'><p>This pot exists.</p><p>The name waits.</p><p style='font-style:italic'>Null is not a secret name.</p></div>";
+  } else {
+    h+="<h1>"+p.en+"</h1>";
+    h+="<p class='sa'>Door "+pad(n)+" · "+p.sa+" · "+p.guardian+"</p>";
+    h+="<p class='house'>House "+p.house+" · "+p.house_name+" · "+p.bija+"</p>";
+    h+="<div class='film'><div class='who'>GURU MERU DEMONSTRATES</div>";
+    if(n===1){h+="<video class='loop' autoplay muted loop playsinline src='https://raw.githubusercontent.com/chultemo-byte/school-of-112-doorways/main/imagine_videos/door001_guru_meru.mp4'></video>";}
+    else if(n===2){h+="<video class='loop' autoplay muted loop playsinline src='https://raw.githubusercontent.com/chultemo-byte/school-of-112-doorways/main/imagine_videos/door002_sky_reach.mp4'></video>";}
+    else {h+="<div class='slot'>"+p.film+"</div>";}
+    h+="</div>";
+    h+="<div class='shots'>"+[["Front",""],["Side",""],["Back",""],["Up",""],["Look-here",p.look],["YES",p.yes],["NO",p.no]].map(function(s){return "<div class='shot'><b>"+s[0]+"</b>"+(s[1]?"<br>"+s[1]:"")+"</div>";}).join("")+"</div>";
+    h+="<div class='spot'><b>Look here:</b> "+p.look+"</div>";
+    h+="<div class='film'><div class='who'>THE WATER</div><p style='margin:8px 0 0;line-height:1.5'>"+p.water+"</p></div>";
+    h+="<p class='law'><b>Geometry:</b> "+p.geo+"</p>";
+    h+="<div class='yn'><div class='y'><b>YES</b>"+p.yes+"</div><div class='n'><b>NO</b>"+p.no+"</div></div>";
+    h+="<p class='law'><b>Exit:</b> "+p.exit+"</p>";
+    h+="<p class='law'><b>Benefits:</b> "+p.benefits+"</p>";
+    h+="<div class='meru'>Guru Meru: Start on the exhale. Soft knees. A chair still opens the door. If it hurts, stop.</div>";
+  }
+  h+="<nav><a href='pose.html?n="+prev+"'>← "+pad(prev)+"</a><a href='112.html'>city</a><a href='pose.html?n="+next+"">"+pad(next)+" →</a></nav>";
+  h+="<footer>112 pots. One camera. Guru Meru demonstrates.<br>Practice is not medicine. <a href='breath.html'>the water</a></footer>";
+  document.getElementById("app").innerHTML=h;
+  document.title=pad(n)+" · "+(p&&p.en?p.en:"waiting")+" · yoga112";
+})();
+</script>
+</body>
+</html>
