@@ -16,6 +16,29 @@
   p{color:var(--muted);font-size:1.1rem;line-height:1.6}
   .spot{border:1px solid rgba(201,162,39,.35);border-radius:16px;padding:18px;margin:24px 0;background:rgba(201,162,39,.05)}
   .spot b{color:var(--gold);display:block;margin-bottom:6px}
+  .stage{margin:28px 0;display:flex;justify-content:center}
+  .fig{width:150px;height:230px;position:relative}
+  .fig .head{position:absolute;top:0;left:50%;width:30px;height:30px;border-radius:50%;background:var(--ink);transform:translateX(-50%);transition:top .9s ease}
+  .fig .spine{position:absolute;top:30px;left:50%;width:4px;height:110px;background:var(--ink);transform:translateX(-50%);transition:all .9s ease}
+  .fig .arm{position:absolute;top:42px;width:42px;height:4px;background:var(--ink);border-radius:2px;transition:transform .9s ease}
+  .fig .arm.l{left:50%;transform-origin:left center;transform:translateX(2px) rotate(6deg)}
+  .fig .arm.r{right:50%;transform-origin:right center;transform:translateX(-2px) rotate(-6deg)}
+  .fig .leg{position:absolute;bottom:0;width:5px;height:66px;background:var(--ink);border-radius:2px;transition:transform .9s ease}
+  .fig .leg.l{left:50%;transform:translateX(-8px)}
+  .fig .leg.r{right:50%;transform:translateX(3px)}
+  .fig.fold .head{top:108px}
+  .fig.fold .spine{height:36px;top:108px}
+  .fig.fold .arm.l{transform:translateX(2px) rotate(38deg)}
+  .fig.fold .arm.r{transform:translateX(-2px) rotate(-38deg)}
+  .fig.fold .leg.l{transform:translateX(-8px) rotate(18deg)}
+  .fig.fold .leg.r{transform:translateX(3px) rotate(-18deg)}
+  .fig.reach .head{top:-5px}
+  .fig.reach .arm.l{transform:translateX(2px) rotate(-68deg)}
+  .fig.reach .arm.r{transform:translateX(-2px) rotate(68deg)}
+  .fig.reach .spine{height:118px}
+  .ctrl{display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap}
+  .ctrl button{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.18);color:var(--ink);border-radius:10px;padding:8px 14px;font-family:system-ui,sans-serif;font-size:.85rem;cursor:pointer}
+  .ctrl button.on{border-color:var(--gold);color:var(--gold)}
   .breathe{font-size:1.3rem;color:var(--ink);margin:20px 0}
   .lights{display:grid;gap:10px;margin:24px 0}
   .light{border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:12px 14px;font-size:.95rem}
@@ -30,7 +53,21 @@
     <div class="eyebrow">Door 1 of 112</div>
     <h1>Mountain</h1>
     <div class="sub">Tāḍāsana · the axis · grown-up name, same shape</div>
-    <p>Stand like you mean it. Not like a soldier. Like a mountain that has no appointment.</p>
+    <div class="stage">
+      <div class="fig" id="fig">
+        <div class="head"></div>
+        <div class="spine"></div>
+        <div class="arm l"></div>
+        <div class="arm r"></div>
+        <div class="leg l"></div>
+        <div class="leg r"></div>
+      </div>
+    </div>
+    <div class="ctrl">
+      <button class="on" data-p="stand">Stand</button>
+      <button data-p="reach">Reach</button>
+      <button data-p="fold">Fold</button>
+    </div>
     <div class="spot"><b>Look here</b>The three points under your feet: heel, big-toe pad, little-toe pad. Press each one gently. The one that goes quiet is where your mind wandered. That is the door opening — not the pose getting prettier.</div>
     <p class="breathe">Smell a flower — four counts. Blow a bubble — four counts. Six rounds. Soft knees the whole time.</p>
     <div class="lights">
@@ -40,5 +77,18 @@
     <p>One question before you leave: <i>which foot point went quiet first?</i></p>
     <footer><a href="teens.html">← back to the three doors</a> · <a href="index.html">gate</a></footer>
   </div>
+<script>
+(function(){
+  var fig=document.getElementById('fig');
+  var btns=document.querySelectorAll('.ctrl button');
+  btns.forEach(function(b){
+    b.addEventListener('click',function(){
+      btns.forEach(function(x){x.classList.remove('on');});
+      b.classList.add('on');
+      fig.className='fig '+b.dataset.p;
+    });
+  });
+})();
+</script>
 </body>
 </html>

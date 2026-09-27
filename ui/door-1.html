@@ -15,6 +15,28 @@
   p,li{color:var(--muted);font-size:1.12rem;line-height:1.55}
   .spot{border-left:3px solid var(--c);padding:8px 14px;margin:20px 0;color:var(--ink)}
   .say{margin:18px 0;padding:16px;border-radius:14px;background:rgba(192,57,43,.12);color:var(--ink)}
+  .stage{margin:28px 0;display:flex;justify-content:center}
+  .fig{width:160px;height:240px;position:relative}
+  .fig .head{position:absolute;top:0;left:50%;width:34px;height:34px;border-radius:50%;background:var(--ink);transform:translateX(-50%);transition:top .8s ease}
+  .fig .spine{position:absolute;top:34px;left:50%;width:4px;height:120px;background:var(--ink);transform:translateX(-50%);transition:height .8s ease, top .8s ease}
+  .fig .arm{position:absolute;top:46px;width:46px;height:4px;background:var(--ink);border-radius:2px;transition:transform .8s ease}
+  .fig .arm.l{left:50%;transform-origin:left center;transform:translateX(2px) rotate(8deg)}
+  .fig .arm.r{right:50%;transform-origin:right center;transform:translateX(-2px) rotate(-8deg)}
+  .fig .leg{position:absolute;bottom:0;width:5px;height:70px;background:var(--ink);border-radius:2px;transition:transform .8s ease, height .8s ease}
+  .fig .leg.l{left:50%;transform:translateX(-9px)}
+  .fig .leg.r{right:50%;transform:translateX(4px)}
+  .fig.fold .head{top:120px}
+  .fig.fold .spine{height:40px;top:120px}
+  .fig.fold .arm.l{transform:translateX(2px) rotate(40deg)}
+  .fig.fold .arm.r{transform:translateX(-2px) rotate(-40deg)}
+  .fig.fold .leg.l{transform:translateX(-9px) rotate(20deg)}
+  .fig.fold .leg.r{transform:translateX(4px) rotate(-20deg)}
+  .fig.reach .head{top:-6px}
+  .fig.reach .arm.l{transform:translateX(2px) rotate(-70deg)}
+  .fig.reach .arm.r{transform:translateX(-2px) rotate(70deg)}
+  .ctrl{display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap}
+  .ctrl button{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.18);color:var(--ink);border-radius:10px;padding:8px 14px;font-family:system-ui,sans-serif;font-size:.85rem;cursor:pointer}
+  .ctrl button.on{border-color:var(--c);color:var(--c)}
   ol{padding-left:1.2em}
   footer{margin-top:36px;color:var(--muted);font-size:.85rem}
 </style>
@@ -25,6 +47,21 @@
     <h1>Mountain Stand</h1>
     <p>Tejas: Hi. We stand like a mountain. If it hurts, we stop.</p>
     <div class="spot">Look here: the bottoms of your feet. Heel. Big-toe pad. Little-toe pad.</div>
+    <div class="stage">
+      <div class="fig" id="fig">
+        <div class="head"></div>
+        <div class="spine"></div>
+        <div class="arm l"></div>
+        <div class="arm r"></div>
+        <div class="leg l"></div>
+        <div class="leg r"></div>
+      </div>
+    </div>
+    <div class="ctrl">
+      <button class="on" data-p="stand">Stand</button>
+      <button data-p="reach">Reach</button>
+      <button data-p="fold">Fold</button>
+    </div>
     <ol>
       <li>Feet on the floor. Arms hanging. Head like a balloon on a string.</li>
       <li>Soft knees. No toy-soldier legs.</li>
@@ -35,5 +72,18 @@
     <p>When you are done, feel your feet. That is the whole class.</p>
     <footer><a href="kids.html">Back to class</a> · Practice is not medicine.</footer>
   </div>
+<script>
+(function(){
+  var fig=document.getElementById('fig');
+  var btns=document.querySelectorAll('.ctrl button');
+  btns.forEach(function(b){
+    b.addEventListener('click',function(){
+      btns.forEach(function(x){x.classList.remove('on');});
+      b.classList.add('on');
+      fig.className='fig '+b.dataset.p;
+    });
+  });
+})();
+</script>
 </body>
 </html>
