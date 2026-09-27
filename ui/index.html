@@ -13,6 +13,14 @@
   .eyebrow{color:var(--gold);letter-spacing:.2em;text-transform:uppercase;font-size:.72rem;font-family:system-ui,sans-serif}
   h1{font-weight:500;font-size:2.6rem;line-height:1.1;margin:12px 0 16px}
   p{color:var(--muted);font-size:1.15rem;line-height:1.55}
+  .film{margin:22px 0 8px;border:1px solid rgba(201,162,39,.35);border-radius:18px;overflow:hidden;background:#1a140c}
+  .film video,.film .poster{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;background:#1a140c}
+  .film .poster{min-height:280px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:28px 18px;text-align:center}
+  .film .poster .who{letter-spacing:.28em;font-size:.72rem;color:var(--vermilion);text-transform:uppercase;margin-bottom:8px}
+  .film .poster h2{margin:0 0 8px;font-weight:500;font-size:1.8rem;color:var(--ink)}
+  .film .poster span{color:var(--muted);font-size:.95rem;line-height:1.45}
+  .film-cap{padding:12px 14px 14px;font-size:.82rem;color:var(--muted);letter-spacing:.04em;text-align:center;background:rgba(0,0,0,.35)}
+  .film-cap b{color:var(--gold);font-weight:500}
   .rule{border:1px solid rgba(255,255,255,.18);border-radius:16px;padding:18px 20px;margin:28px 0;background:rgba(201,162,39,.06)}
   .rule b{color:var(--ink);display:block;margin-bottom:6px;font-size:1.1rem}
   .doors{display:grid;gap:14px;margin-top:32px}
@@ -48,10 +56,23 @@
   <div class="wrap">
     <div class="eyebrow">Stand. Open. Sit.</div>
     <h1>School of 112 Doorways</h1>
-    <p>One hundred twelve asanas as one hundred twelve dimensions. Six instruments per door. One body.</p>
+    <p>One hundred twelve asanas as one hundred twelve dimensions. Guru Meru demonstrates the first door.</p>
+
+    <div class="film" id="film">
+      <video id="loop" autoplay muted loop playsinline controls poster="" src="media/door001_guru_meru.mp4">
+        Your browser cannot play this film.
+      </video>
+      <div class="poster" id="fallback" hidden>
+        <div class="who">Guru Meru</div>
+        <h2>Mountain</h2>
+        <span>Door 001 · Tāḍāsana · start on the exhale. Mist at the feet. Soft knees. No hold.</span>
+      </div>
+      <div class="film-cap"><b>GURU MERU</b> · Door 001 · Mountain · six-second loop · start on the exhale</div>
+    </div>
+
     <div class="rule"><b>The one rule. Free. Forever.</b> If it hurts, stop. That is not weakness. That is the whole practice. Soft knees. No breath-holding. A chair still counts as the door.</div>
     <div class="doors">
-      <a class="door" href="door-1.html"><b>001 — Tāḍāsana</b><span>Mountain · MERU · LAM · vermilion</span></a>
+      <a class="door" href="door-001.html"><b>001 — Tāḍāsana</b><span>Mountain · MERU · LAM · vermilion · the film lives here too</span></a>
       <a class="door" href="door-2.html"><b>002 — Ūrdhva Hastāsana</b><span>Sky Reach · hinge · soft pause</span></a>
       <a class="door" href="door-3.html"><b>003 — Uttanāsana</b><span>Ragdoll Fold · sacrum · longer exhale</span></a>
       <a class="door" href="112.html"><b>The city of 112</b><span>7 houses · 16 doors · waiting pots stay empty</span></a>
@@ -74,7 +95,7 @@
           <div class="g-role">guardian of Door 001 · the axis</div>
         </div>
       </div>
-      <p class="g-say" id="g-say">I am Guru Meru. I know one door — the Mountain — and I know it completely. Stand where you are. Tell me what you feel in your feet, and I will answer.</p>
+      <p class="g-say" id="g-say">I am Guru Meru. I know one door — the Mountain — and I know it completely. The film above is my body. Stand where you are. Tell me what you feel in your feet, and I will answer.</p>
       <div class="g-input">
         <input id="g-in" placeholder="which foot point went quiet?" autocomplete="off" />
         <button id="g-btn">Ask</button>
@@ -82,11 +103,17 @@
       <div class="g-foot">Guru Meru answers from the accepted Door 001 plate. He does not invent. He does not rush.</div>
     </div>
 
-    <p class="free"><b>This gate is free.</b> Three doors. Two voices. The city map. The one rule on every plate. No card. No login. Walk in.</p>
+    <p class="free"><b>This gate is free.</b> The film is the first teacher. Three doors. Two voices. The city map. The one rule on every plate. No card. No login. Walk in.</p>
     <footer>Practice is not treatment. <i>Sthira-sukham āsanam.</i></footer>
   </div>
 <script>
 (function(){
+  var v=document.getElementById('loop');
+  var fb=document.getElementById('fallback');
+  if(v){
+    v.addEventListener('error',function(){ if(fb){ fb.hidden=false; v.style.display='none'; } });
+    v.addEventListener('loadeddata',function(){ if(fb) fb.hidden=true; });
+  }
   var say=document.getElementById('g-say');
   var inp=document.getElementById('g-in');
   var btn=document.getElementById('g-btn');
@@ -100,6 +127,7 @@
     {k:['weight','even','balance'],t:'Even weight across all three. Not equal force — equal attention. The feet do not argue.'},
     {k:['soft knee','knees','locked'],t:'Soft knees. Never locked. A locked knee is a held breath in the leg. Let it bend a hair.'},
     {k:['mountain','tadasana','tāḍāsana','stand'],t:'You are already standing. That is the whole pose. The mountain does not imagine. It just stands. Borrow that.'},
+    {k:['film','video','movie'],t:'The film is me standing. Watch the mist. Inhale it climbs. Exhale it falls. Start on the exhale. Soft knees. That is the whole class.'},
     {k:['done','finish','exit','leave'],t:'Soften the knees. Carry the quiet. Or sit. The door closes when you choose — not when it is forced.'}
   ];
   var fallback='I hear you. The Mountain has one answer for everything: press the three points, breathe four and four, and stop if it hurts. Ask me something specific about the feet, the breath, or the rule.';
