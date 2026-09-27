@@ -40,8 +40,8 @@ footer{margin-top:24px;font-size:.78rem;color:var(--muted);text-align:center}
     {n:7,name:"Sahasrāra",range:[97,112],bija:"silence"}
   ];
   var POTS={
-    1:{en:"Mountain",sa:"Tāḍāsana",g:"MERU",look:"heel, big-toe pad, little-toe pad",water:"Start on the exhale. Mist at the feet. Inhale — mist climbs. Exhale — mist falls. Six loops. 4 and 4. No hold.",geo:"Vertical column on a three-point base. Soft knees.",yes:"soft knees, even three points",no:"locked legs, fidgeting feet",exit:"If it hurts, sit. A chair is still the mountain.",film:"Official 6-second Tejas loop. This is the camera every later door copies."},
-    2:{en:"Sky Reach",sa:"Ūrdhva Hastāsana",g:"ŪRDHVA",look:"the hinge — belly and hips. Secondary: the quiet at the top.",water:"Start on the exhale, arms hanging. Inhale — arms rise on 4. Soft one-count at the top. Exhale — mist falls, arms stay up. Never squeeze the pause.",geo:"Mountain base. Arms overhead. Shoulders drop away from the ears.",yes:"quiet ribs, soft shoulders, arms up",no:"shrugged ears, tipping back",exit:"Shoulders at the ears = arms down.",film:"Official 6-second Tejas loop shot. Same camera as 001. Arms stay up so this is not waving Mountain."},
+    1:{en:"Mountain",sa:"Tāḍāsana",g:"MERU",look:"heel, big-toe pad, little-toe pad",water:"Start on the exhale. Mist at the feet. Inhale — mist climbs. Exhale — mist falls. Six loops. 4 and 4. No hold.",geo:"Vertical column on a three-point base. Soft knees.",yes:"soft knees, even three points",no:"locked legs, fidgeting feet",exit:"If it hurts, sit. A chair is still the mountain.",film:"Official 6-second Guru Meru loop. This is the camera every later door copies."},
+    2:{en:"Sky Reach",sa:"Ūrdhva Hastāsana",g:"ŪRDHVA",look:"the hinge — belly and hips. Secondary: the quiet at the top.",water:"Start on the exhale, arms hanging. Inhale — arms rise on 4. Soft one-count at the top. Exhale — mist falls, arms stay up. Never squeeze the pause.",geo:"Mountain base. Arms overhead. Shoulders drop away from the ears.",yes:"quiet ribs, soft shoulders, arms up",no:"shrugged ears, tipping back",exit:"Shoulders at the ears = arms down.",film:"Official 6-second Guru Meru loop shot. Same camera as 001. Arms stay up so this is not waving Mountain."},
     3:{en:"Ragdoll Fold",sa:"Uttanāsana",g:"NAMAH",look:"the sacrum — the triangle bone",water:"4 in, 6 out. Come up like a sleepy cat.",geo:"Hinge at the hips. Knees bend freely. Head is heavy and soft.",yes:"soft knees, heavy head",no:"yanked neck, locked legs",exit:"If it hurts or spins, bend more or stand up slow.",film:"Same camera as 001. Not filmed yet."},
     4:{en:"Half Fold",sa:"Ardha Uttanāsana",g:"ARDHA",look:"length from tailbone through crown",water:"Inhale 4 to lift long. Soft pause 2. Exhale 4.",geo:"Torso roughly parallel to the floor. Hands on shins, thighs, or a chair.",yes:"long spine",no:"hands on the knee joints",exit:"Hands never on the knees. If it hurts, stop.",film:"Same camera as 001. Not filmed yet."},
     5:{en:"Low Lunge",sa:"Añjaneyāsana",g:"AÑJANA",look:"back knee and the front hip crease",water:"4 in, 4 out. Lengthen on the inhale. Settle the hips on the exhale without collapsing.",geo:"Front knee over ankle. Back knee down. Torso tall.",yes:"front knee tracking",no:"dumped inner knee or yanked lumbar",exit:"Pad the back knee. High lunge if kneeling is unavailable.",film:"Same camera as 001. Not filmed yet."},
@@ -67,7 +67,7 @@ footer{margin-top:24px;font-size:.78rem;color:var(--muted);text-align:center}
   var p=POTS[n];
   var prev=n===1?112:n-1, next=n===112?1:n+1;
   var html="";
-  html+="<div class=\"title\">Tejas Yātrī</div>";
+  html+="<div class=\"title\">Guru Meru</div>";
   if(!p){
     html+="<h1>Door "+pad(n)+"</h1>";
     html+="<p class=\"sa\">House "+h.n+" · "+h.name+" · "+h.bija+"</p>";
@@ -83,7 +83,7 @@ footer{margin-top:24px;font-size:.78rem;color:var(--muted);text-align:center}
     html+="<p class=\"law\">Start on the exhale. Soft knees. A chair still opens the door.</p>";
   }
   html+="<nav><a href=\"pose.html?n="+prev+"\">← "+pad(prev)+"</a><a href=\"112.html\">city</a><a href=\"pose.html?n="+next+"\">"+pad(next)+" →</a></nav>";
-  html+="<footer>112 pots. One camera. <a href=\"breath.html\">the water</a></footer>";
+  html+="<footer>112 pots. One camera. Guru Meru. <a href=\"breath.html\">the water</a></footer>";
   document.getElementById("app").innerHTML=html;
   document.title=pad(n)+" · "+(p?p.en:"waiting")+" · yoga112";
 })();
