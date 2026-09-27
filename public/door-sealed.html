@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sealed pot · School of 112 Doorways</title>
+<style>
+  :root{--bg:#0b0a12;--ink:#f4efe6;--muted:#9a8f7a;--gold:#c9a227;--vermilion:#c0392b}
+  *{box-sizing:border-box} html,body{margin:0;padding:0}
+  body{background:#0b0a12;color:var(--ink);font-family:Georgia,serif;min-height:100vh}
+  .wrap{max-width:640px;margin:0 auto;padding:36px 18px 96px}
+  a{color:var(--gold);text-decoration:none}
+  .eyebrow{color:var(--gold);letter-spacing:.2em;text-transform:uppercase;font-size:.72rem}
+  h1{font-weight:500;font-size:2rem;margin:10px 0}
+  p{line-height:1.55;color:var(--muted)}
+  .seal{color:var(--ink);font-size:1.25rem}
+  .safety span{display:block;color:var(--ink)}
+  nav{display:flex;justify-content:space-between;margin-top:22px}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="eyebrow">School of 112 Doorways</div>
+    <h1 id="title">Sealed pot</h1>
+    <p class="seal" id="seal">sealed — waiting for an honest name</p>
+    <p id="house"></p>
+    <div class="safety">
+      <span>Start on the exhale.</span>
+      <span>Soft knees.</span>
+      <span>If it hurts, stop. A chair still opens the door.</span>
+    </div>
+    <nav id="nav"></nav>
+  </div>
+  <script src="meru.js"></script>
+  <script>
+  (function(){
+    var HOUSES = [
+      {house:1,name:"Mūlādhāra",element:"Earth",bija:"LAM",from:1,to:16},
+      {house:2,name:"Svādhiṣṭhāna",element:"Water",bija:"VAM",from:17,to:32},
+      {house:3,name:"Maṇipūra",element:"Fire",bija:"RAM",from:33,to:48},
+      {house:4,name:"Anāhata",element:"Air",bija:"YAM",from:49,to:64},
+      {house:5,name:"Viśuddha",element:"Ether",bija:"HAM",from:65,to:80},
+      {house:6,name:"Ājñā",element:"Sight",bija:"OM",from:81,to:96},
+      {house:7,name:"Sahasrāra",element:"Crown",bija:"silence",from:97,to:112}
+    ];
+    function pad(n){return String(n).padStart(3,"0");}
+    function houseOf(n){return HOUSES.filter(function(h){return n>=h.from&&n<=h.to;})[0];}
+    function readN(){
+      var m = location.search.match(/[?&]n=(\d+)/);
+      var n = m ? parseInt(m[1],10) : 17;
+      if (isNaN(n) || n<1) n = 1;
+      if (n>112) n = 112;
+      return n;
+    }
+    var n = readN();
+    var h = houseOf(n);
+    document.getElementById("title").textContent = "Door " + pad(n);
+    document.getElementById("house").textContent = "House " + h.house + " · " + h.name + " · " + h.element + " · " + h.bija;
+    document.title = pad(n) + " · sealed";
+    function link(k, label){
+      if (k<1 || k>112) return "<span></span>";
+      var named = (k>=1 && k<=16) || k===49 || k===112;
+      var href = named ? "door-"+pad(k)+".html" : "door-sealed.html?n="+k;
+      return "<a href=\""+href+"\">"+label+"</a>";
+    }
+    document.getElementById("nav").innerHTML = link(n-1, "← "+pad(n-1)) + "<a href=\"pose.html?n="+n+"\">pose</a>" + link(n+1, pad(n+1)+" →");
+    window.MERU_PLATE = {number:n, sealed:true, house:h.house, house_name:h.name, element:h.element, bija:h.bija};
+    if (window.MERU) window.MERU.boot(window.MERU_PLATE);
+    var named = {};
+    for (var i=1;i<=16;i++) named[i]=true;
+    named[49]=true; named[112]=true;
+    if (named[n]) location.replace("door-"+pad(n)+".html");
+  })();
+  </script>
+</body>
+</html>

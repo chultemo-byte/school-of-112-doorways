@@ -1,506 +1,2158 @@
 [
   {
     "number": 57,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 4,
     "house_name": "Anāhata",
+    "element": "Air",
+    "color": null,
     "bija": "YAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 58,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 4,
     "house_name": "Anāhata",
+    "element": "Air",
+    "color": null,
     "bija": "YAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 59,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 4,
     "house_name": "Anāhata",
+    "element": "Air",
+    "color": null,
     "bija": "YAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 60,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 4,
     "house_name": "Anāhata",
+    "element": "Air",
+    "color": null,
     "bija": "YAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 61,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 4,
     "house_name": "Anāhata",
+    "element": "Air",
+    "color": null,
     "bija": "YAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 62,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 4,
     "house_name": "Anāhata",
+    "element": "Air",
+    "color": null,
     "bija": "YAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 63,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 4,
     "house_name": "Anāhata",
+    "element": "Air",
+    "color": null,
     "bija": "YAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 64,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 4,
     "house_name": "Anāhata",
+    "element": "Air",
+    "color": null,
     "bija": "YAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 65,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 5,
     "house_name": "Viśuddha",
+    "element": "Ether",
+    "color": null,
     "bija": "HAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 66,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 5,
     "house_name": "Viśuddha",
+    "element": "Ether",
+    "color": null,
     "bija": "HAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 67,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 5,
     "house_name": "Viśuddha",
+    "element": "Ether",
+    "color": null,
     "bija": "HAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 68,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 5,
     "house_name": "Viśuddha",
+    "element": "Ether",
+    "color": null,
     "bija": "HAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 69,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 5,
     "house_name": "Viśuddha",
+    "element": "Ether",
+    "color": null,
     "bija": "HAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 70,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 5,
     "house_name": "Viśuddha",
+    "element": "Ether",
+    "color": null,
     "bija": "HAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 71,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 5,
     "house_name": "Viśuddha",
+    "element": "Ether",
+    "color": null,
     "bija": "HAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 72,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 5,
     "house_name": "Viśuddha",
+    "element": "Ether",
+    "color": null,
     "bija": "HAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 73,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 5,
     "house_name": "Viśuddha",
+    "element": "Ether",
+    "color": null,
     "bija": "HAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 74,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 5,
     "house_name": "Viśuddha",
+    "element": "Ether",
+    "color": null,
     "bija": "HAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 75,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 5,
     "house_name": "Viśuddha",
+    "element": "Ether",
+    "color": null,
     "bija": "HAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 76,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 5,
     "house_name": "Viśuddha",
+    "element": "Ether",
+    "color": null,
     "bija": "HAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 77,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 5,
     "house_name": "Viśuddha",
+    "element": "Ether",
+    "color": null,
     "bija": "HAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 78,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 5,
     "house_name": "Viśuddha",
+    "element": "Ether",
+    "color": null,
     "bija": "HAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 79,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 5,
     "house_name": "Viśuddha",
+    "element": "Ether",
+    "color": null,
     "bija": "HAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 80,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 5,
     "house_name": "Viśuddha",
+    "element": "Ether",
+    "color": null,
     "bija": "HAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 81,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 6,
     "house_name": "Ājñā",
+    "element": "Sight",
+    "color": null,
     "bija": "OM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 82,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 6,
     "house_name": "Ājñā",
+    "element": "Sight",
+    "color": null,
     "bija": "OM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 83,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 6,
     "house_name": "Ājñā",
+    "element": "Sight",
+    "color": null,
     "bija": "OM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 84,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 6,
     "house_name": "Ājñā",
+    "element": "Sight",
+    "color": null,
     "bija": "OM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   }
 ]

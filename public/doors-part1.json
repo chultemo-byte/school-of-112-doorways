@@ -1,506 +1,3195 @@
 [
   {
     "number": 1,
-    "en": "Mountain",
-    "sa": "Tadasana",
-    "guardian": "Chief of Staff",
+    "sanskrit": "Tadasana",
+    "english": "Mountain",
     "house": 1,
     "house_name": "Mūlādhāra",
+    "element": "Earth",
+    "color": "vermilion",
     "bija": "LAM",
-    "status": "named",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": "Soft horizontal, eyes open or lightly closed",
-    "water": "Even inhale four, even exhale four. No forced hold. Notice the natural brief turn at the top and bottom of each breath.",
-    "geo": "A vertical column from the soles through the pelvis and ribcage to the crown, with a base triangle formed by the two feet and the pelvic floor. Feet hip-width or together; legs long without locked knees; arms soft at the sides; spine stacked in one clear upright line.",
+    "geometry": {
+      "polygon": "upright_column",
+      "vertices": null,
+      "summary": "A vertical column from the soles through the pelvis and ribcage to the crown, with a base triangle formed by the two feet and the pelvic floor. Feet hip-width or together; legs long without locked knees; arms soft at the sides; spine stacked in one clear upright line.",
+      "svg_hint": "line from midfeet through pelvis to crown; base triangle feet-to-pelvic-floor"
+    },
+    "reaction": {
+      "reactants": null,
+      "catalyst": null,
+      "product": null,
+      "phase": "Settle",
+      "from_phase": "scattered_charge",
+      "to_phase": "grounded_stillness",
+      "note": "School metaphor only: attention that was bouncing outward settles into quiet vertical presence. Not a biochemical or medical claim."
+    },
+    "breath": {
+      "inhale": 4,
+      "exhale": 4,
+      "pause": 0,
+      "bandha": "No forced hold.",
+      "cycles": 6,
+      "lands_in": "lower belly, then soft ribs",
+      "cue": "Even inhale four, even exhale four. No forced hold. Notice the natural brief turn at the top and bottom of each breath."
+    },
+    "orientation": {
+      "hand_placement": null,
+      "gaze": "Soft horizontal, eyes open or lightly closed",
+      "joint_lead": null,
+      "cue": "Crown over heels; weight even on both feet",
+      "gravity": "Down through the triple foot points (heel, big-toe ball, little-toe ball); up through the crown"
+    },
+    "attention": {
+      "locus": "Soles-to-crown vertical axis",
+      "secondary": "Natural pauses where breath turns",
+      "chakra": null
+    },
+    "adiyogi_method": {
+      "vbt_verse": 24,
+      "vbt_ref": "VBT dharana 001 (verse 24)",
+      "summary": "In standing stillness, follow natural breath without forcing. At the end of inhale and the end of exhale, rest attention for a moment in the brief turn (inner center and outer dvadasanta as classical map). Do not strain or stop the breath; notice the pause that is already there.",
+      "verse_paraphrase": "Exhalation rises and inhalation descends as a continuous emission. Rest awareness at the two places where these flows arise or turn; fullness (bharita) becomes available.",
+      "practice_mode": "practice"
+    },
+    "guardian": "MERU",
+    "safety_notes": [
+      "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+      "If standing is not available, practice the same breath-turn attention seated upright in an open seat (sukhasana or chair).",
+      "General practice caution only; not medical advice. Soften the knees if locking bothers them. Sit or hold a wall if balance or fatigue appear."
+    ],
+    "five_ways": [
+      "This is Door 001, Mountain — Tadasana. Stand as a quiet upright column. Nothing to prove. Just arrive.",
+      "Feet plant. Legs long, knees soft. Pelvis stacked over ankles, ribs over pelvis, crown floating up. Arms rest by your sides. One vertical line.",
+      "Crown over heels. Weight even on both feet — heel, big-toe ball, little-toe ball. Gaze soft and level. Gravity down, length up.",
+      "Inhale for four. Exhale for four. Six easy cycles. Breath lands in the lower belly, then soft ribs. No forced hold.",
+      "Take one free breath. Soften the knees. Carry the vertical quiet into the next step, or sit if you need rest."
+    ],
+    "five_ways_basis": "Beats 1, 2, 3, 4, and 8, verbatim from the research record.",
+    "exit": "Take one free breath. Soften the knees. Carry the vertical quiet into the next step, or sit if you need rest.",
     "yes": "soft knees",
     "no": "locked legs",
-    "exit": "Take one free breath. Soften the knees. Carry the vertical quiet into the next step, or sit if you need rest.",
-    "benefits": null
+    "look": "Soft horizontal, eyes open or lightly closed",
+    "water": "Even inhale four, even exhale four. No forced hold. Notice the natural brief turn at the top and bottom of each breath.",
+    "open_seat": "If standing is not available, practice the same breath-turn attention seated upright in an open seat (sukhasana or chair).",
+    "honesty": "This asana and VBT method are linked by the School of 112 Doorways as a teaching device (Door 001 with dharana 001). It is not a claim of ancient one-to-one canon.",
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": "practice",
+    "status": "named",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "number": "research",
+      "sanskrit": "research",
+      "english": "research",
+      "house": "research",
+      "element": "ui/112.html",
+      "color": "ui/index.html",
+      "bija": "school_map",
+      "geometry": "research",
+      "geometry.vertices": "absent",
+      "reaction": "research",
+      "reaction.reactants": "absent",
+      "reaction.catalyst": "absent",
+      "reaction.product": "absent",
+      "breath": "research",
+      "orientation": "research",
+      "orientation.hand_placement": "absent",
+      "orientation.joint_lead": "absent",
+      "attention": "research",
+      "adiyogi_method": "research",
+      "guardian": "owner",
+      "safety_notes": "research",
+      "five_ways": "school_default",
+      "exit": "research",
+      "pairing_type": "research",
+      "lotus_never_forced": "research",
+      "yes": "ui/door-001.html",
+      "no": "ui/door-001.html"
+    },
+    "derived": [
+      "five_ways"
+    ]
   },
   {
     "number": 2,
-    "en": "Upward Salute",
-    "sa": "Urdhva Hastasana",
-    "guardian": "Chief of Staff (interim)",
+    "sanskrit": "Urdhva Hastasana",
+    "english": "Upward Salute",
     "house": 1,
     "house_name": "Mūlādhāra",
+    "element": "Earth",
+    "color": "vermilion",
     "bija": "LAM",
-    "status": "named",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": "Soft toward thumbs or slightly forward-up only if the neck stays free; otherwise gaze soft horizontal",
-    "water": "Inhale arms up for 4; soft 1-count pause at the top without strain; exhale arms down or stay up for 4. Never force the pause.",
-    "geo": "From a stable Mountain base, both arms rise overhead on a long line from soles through side ribs to fingertips. Elbows soft, shoulders drop away from ears, ribs stay quiet rather than flared. Palms may face each other, touch lightly, or stay shoulder-width. The polygon is an upright column topped by an open V or a soft diamond of joined hands.",
+    "geometry": {
+      "polygon": "vertical column with overhead V (or joined palms)",
+      "vertices": null,
+      "summary": "From a stable Mountain base, both arms rise overhead on a long line from soles through side ribs to fingertips. Elbows soft, shoulders drop away from ears, ribs stay quiet rather than flared. Palms may face each other, touch lightly, or stay shoulder-width. The polygon is an upright column topped by an open V or a soft diamond of joined hands.",
+      "svg_hint": "feet_base_triangle + upright_spine_line + two_arm_rays_overhead; optional palm_join_at_crown"
+    },
+    "reaction": {
+      "reactants": null,
+      "catalyst": null,
+      "product": null,
+      "phase": "Lift-and-open",
+      "from_phase": "compressed_neutral_stand",
+      "to_phase": "lengthened_reach_with_soft_pause",
+      "note": "School metaphor only: the field shifts from a compact vertical stand toward a lengthened overhead reach, then briefly settles in the quiet at the top of the inhale before return."
+    },
+    "breath": {
+      "inhale": 4,
+      "exhale": 4,
+      "pause": 1,
+      "bandha": "Never force the pause.",
+      "cycles": 6,
+      "lands_in": "side ribs and soft upper lungs, then quiet pause at turn",
+      "cue": "Inhale arms up for 4; soft 1-count pause at the top without strain; exhale arms down or stay up for 4. Never force the pause."
+    },
+    "orientation": {
+      "hand_placement": null,
+      "gaze": "Soft toward thumbs or slightly forward-up only if the neck stays free; otherwise gaze soft horizontal",
+      "joint_lead": null,
+      "cue": "Crown continues the line of the heels; arms stack over the side body, not behind the ears",
+      "gravity": "Even weight on both feet (big toe mound, little toe mound, heel); lift without tipping back"
+    },
+    "attention": {
+      "locus": "The turn of the breath at the top of the inhale (and optionally the bottom of the exhale)",
+      "secondary": "Soles-to-fingertips length without shoulder shrug",
+      "chakra": null
+    },
+    "adiyogi_method": {
+      "vbt_verse": 25,
+      "vbt_ref": "VBT dharana 002 (commonly manuscript verse 25)",
+      "summary": "Practice: stand or sit with natural breath. Notice the micro-pause after inhale and after exhale. Keep attention in those gaps rather than on forcing the breath. In this door, braid the method with arms overhead so the soft pause at the top of the inhale is easier to feel.",
+      "verse_paraphrase": "As breath moves in and out, rest awareness in the brief inner and outer pauses where the breath turns, without rushing back into the next movement; in that still interval, the nature of awareness is pointed to.",
+      "practice_mode": "practice"
+    },
+    "guardian": "unnamed — waiting",
+    "safety_notes": [
+      "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+      "If standing overhead reach aggravates shoulders or low back, practice the same breath-pause attention seated with arms resting or only partially raised.",
+      "General practice caution only; not medical advice. Ease range if shoulders, neck, or low back complain; keep ribs soft and avoid forcing arms behind the ears."
+    ],
+    "five_ways": [
+      "This is Door D-002, Upward Salute, Urdhva Hastasana. From a steady stand, both arms rise overhead.",
+      "Feet root like Mountain. Arms lift on one line from heels through side ribs to fingertips. Soft elbows. Shoulders away from ears. Palms face or lightly touch.",
+      "Weight even on both feet. Do not tip back. Crown stays over heels. Gaze soft to the thumbs, or forward if the neck prefers.",
+      "Inhale four as arms rise. Soft one-count pause at the top. Exhale four. Six easy cycles. Never strain the pause.",
+      "Exhale arms down to Mountain, or stay up if steady. Soften shoulders. Keep the pause awareness for one more quiet breath, then release."
+    ],
+    "five_ways_basis": "Beats 1, 2, 3, 4, and 8, verbatim from the research record.",
+    "exit": "Exhale arms down to Mountain, or stay up if steady. Soften shoulders. Keep the pause awareness for one more quiet breath, then release.",
     "yes": "shoulders drop away from ears",
     "no": "avoid forcing arms behind the ears",
-    "exit": "Exhale arms down to Mountain, or stay up if steady. Soften shoulders. Keep the pause awareness for one more quiet breath, then release.",
-    "benefits": null
+    "look": "Soft toward thumbs or slightly forward-up only if the neck stays free; otherwise gaze soft horizontal",
+    "water": "Inhale arms up for 4; soft 1-count pause at the top without strain; exhale arms down or stay up for 4. Never force the pause.",
+    "open_seat": "If standing overhead reach aggravates shoulders or low back, practice the same breath-pause attention seated with arms resting or only partially raised.",
+    "honesty": "Linking Upward Salute to VBT dharana 002 is a School of 112 Doorways teaching device, not a claim of ancient one-to-one canon.",
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": "practice",
+    "status": "named",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "number": "research",
+      "sanskrit": "research",
+      "english": "research",
+      "house": "research",
+      "element": "ui/112.html",
+      "color": "ui/index.html",
+      "bija": "school_map",
+      "geometry": "research",
+      "geometry.vertices": "absent",
+      "reaction": "research",
+      "reaction.reactants": "absent",
+      "reaction.catalyst": "absent",
+      "reaction.product": "absent",
+      "breath": "research",
+      "orientation": "research",
+      "orientation.hand_placement": "absent",
+      "orientation.joint_lead": "absent",
+      "attention": "research",
+      "adiyogi_method": "research",
+      "guardian": "owner",
+      "safety_notes": "research",
+      "five_ways": "school_default",
+      "exit": "research",
+      "pairing_type": "research",
+      "lotus_never_forced": "research",
+      "yes": "research",
+      "no": "research"
+    },
+    "derived": [
+      "five_ways"
+    ]
   },
   {
     "number": 3,
-    "en": "Standing Forward Fold",
-    "sa": "Uttanasana",
-    "guardian": "Chief of Staff (interim)",
+    "sanskrit": "Uttanasana",
+    "english": "Standing Forward Fold",
     "house": 1,
     "house_name": "Mūlādhāra",
+    "element": "Earth",
+    "color": "vermilion",
     "bija": "LAM",
-    "status": "named",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": "Eyes soft toward shins or closed; neck hangs free.",
-    "water": "Inhale for four to lengthen the back of the body; exhale for six as the fold settles. No forced breath-hold. Soften on the longer out-breath.",
-    "geo": "From standing, feet about hip-width, tip the pelvis at the hip crease and fold the torso toward the legs. Keep knees soft as needed. Hands rest on floor, blocks, shins, or ankles. Crown hangs toward the floor; neck soft. The shape is an inverted V: feet as base points, hips as apex, spine and head as the hanging line.",
+    "geometry": {
+      "polygon": "inverted V / hanging triangle",
+      "vertices": null,
+      "summary": "From standing, feet about hip-width, tip the pelvis at the hip crease and fold the torso toward the legs. Keep knees soft as needed. Hands rest on floor, blocks, shins, or ankles. Crown hangs toward the floor; neck soft. The shape is an inverted V: feet as base points, hips as apex, spine and head as the hanging line.",
+      "svg_hint": "two foot points; hip peak; long fold line from hips to crown; soft knee marks; optional hand props"
+    },
+    "reaction": {
+      "reactants": null,
+      "catalyst": null,
+      "product": null,
+      "phase": "Still-center settle",
+      "from_phase": "upright scatter",
+      "to_phase": "hanging quiet",
+      "note": "School metaphor: busy upright charge softens into a quiet middle pause as the fold lets outer motion thin. Not a biochemical claim."
+    },
+    "breath": {
+      "inhale": 4,
+      "exhale": 6,
+      "pause": 0,
+      "bandha": "No forced breath-hold.",
+      "cycles": 6,
+      "lands_in": "back body and soft belly",
+      "cue": "Inhale for four to lengthen the back of the body; exhale for six as the fold settles. No forced breath-hold. Soften on the longer out-breath."
+    },
+    "orientation": {
+      "hand_placement": null,
+      "gaze": "Eyes soft toward shins or closed; neck hangs free.",
+      "joint_lead": null,
+      "cue": "Hinge at the hip crease, not the waist. Soften knees so the spine can stay long before it rounds. Weight even through the feet, slightly toward the balls if heels lock you back.",
+      "gravity": "Crown yields toward the floor; hips stack over heels as much as available; let gravity do the fold—do not pull yourself down."
+    },
+    "attention": {
+      "locus": "Still point at the middle of the breath (madhya)—where inhale and exhale meet and quiet",
+      "secondary": "Hip crease hinge and even foot contact",
+      "chakra": null
+    },
+    "adiyogi_method": {
+      "vbt_verse": 26,
+      "vbt_ref": "VBT dharana 003 (verse 26)",
+      "summary": "Rest awareness in the natural still center (madhya) where prāṇa-śakti is not rushing out or in. Prefer recognizing the pause over forcing a hold. Class-safe form: notice the quiet join of inhale and exhale while folded; if breath pauses lightly on its own, witness it—do not strain into kumbhaka.",
+      "verse_paraphrase": "When breath-energy neither goes out nor comes in, and the middle opens as thought-constructs thin, the Bhairava nature is pointed to.",
+      "practice_mode": "practice"
+    },
+    "guardian": "unnamed — waiting",
+    "safety_notes": [
+      "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+      "Bend knees generously, hands on blocks or shins, or take Ardha Uttanasana (half fold with long spine) if the full hang strains the low back or hamstrings.",
+      "General practice caution only; not medical advice. Soften or exit if sharp low-back, hamstring, or head pressure appears. Avoid forcing straight legs. Use props. If dizziness arises when inverted, come up slowly with a long spine or bent knees."
+    ],
+    "five_ways": [
+      "This is Door D-003: Standing Forward Fold, Uttanasana. A standing fold that hangs the crown toward the floor.",
+      "Feet hip-width. Tip from the hip crease into an inverted V: hips high, spine hanging, hands to floor, blocks, or shins. Soft knees are welcome.",
+      "Hinge at the hips, not the waist. Let the crown yield to gravity. Keep weight through the feet; do not yank yourself deeper.",
+      "Inhale four to lengthen the back body. Exhale six to settle the fold. Six easy cycles. No forced holds.",
+      "Bend the knees. Rise slowly with a long spine, or step back to a milder fold. Stand and feel the after-quiet before the next door."
+    ],
+    "five_ways_basis": "Beats 1, 2, 3, 4, and 8, verbatim from the research record.",
+    "exit": "Bend the knees. Rise slowly with a long spine, or step back to a milder fold. Stand and feel the after-quiet before the next door.",
     "yes": "Keep knees soft as needed",
     "no": "Avoid forcing straight legs",
-    "exit": "Bend the knees. Rise slowly with a long spine, or step back to a milder fold. Stand and feel the after-quiet before the next door.",
-    "benefits": null
+    "look": "Eyes soft toward shins or closed; neck hangs free.",
+    "water": "Inhale for four to lengthen the back of the body; exhale for six as the fold settles. No forced breath-hold. Soften on the longer out-breath.",
+    "open_seat": "Bend knees generously, hands on blocks or shins, or take Ardha Uttanasana (half fold with long spine) if the full hang strains the low back or hamstrings.",
+    "honesty": "This asana↔method link is a School of 112 Doorways teaching device, not ancient canon. Uttanasana and VBT dharana 003 are paired here by school index.",
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": "practice",
+    "status": "named",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "number": "research",
+      "sanskrit": "research",
+      "english": "research",
+      "house": "research",
+      "element": "ui/112.html",
+      "color": "ui/index.html",
+      "bija": "school_map",
+      "geometry": "research",
+      "geometry.vertices": "absent",
+      "reaction": "research",
+      "reaction.reactants": "absent",
+      "reaction.catalyst": "absent",
+      "reaction.product": "absent",
+      "breath": "research",
+      "orientation": "research",
+      "orientation.hand_placement": "absent",
+      "orientation.joint_lead": "absent",
+      "attention": "research",
+      "adiyogi_method": "research",
+      "guardian": "owner",
+      "safety_notes": "research",
+      "five_ways": "school_default",
+      "exit": "research",
+      "pairing_type": "research",
+      "lotus_never_forced": "research",
+      "yes": "research",
+      "no": "research"
+    },
+    "derived": [
+      "five_ways"
+    ]
   },
   {
     "number": 4,
-    "en": "Half Forward Fold",
-    "sa": "Ardha Uttanasana",
-    "guardian": "Chief of Staff (interim)",
+    "sanskrit": "Ardha Uttanasana",
+    "english": "Half Forward Fold",
     "house": 1,
     "house_name": "Mūlādhāra",
+    "element": "Earth",
+    "color": "vermilion",
     "bija": "LAM",
-    "status": "named",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": "Soft toward the floor a short way ahead of the feet; neck stays in line with the spine.",
-    "water": "Inhale to lift into half fold and lengthen. Softly notice the brief pause at the top without forcing retention. Exhale to return to fold or step forward as cued.",
-    "geo": "From a forward fold, lift the torso until the back is long and roughly parallel to the floor. Hands rest on shins, thighs, blocks, or the floor—whichever height keeps the spine long. Legs stay rooted; knees may soft-bend. The shape is a hinge at the hips with a flat, extended back body, not a deeper fold.",
+    "geometry": {
+      "polygon": "Inverted L: vertical leg column + horizontal torso line (table spine)",
+      "vertices": null,
+      "summary": "From a forward fold, lift the torso until the back is long and roughly parallel to the floor. Hands rest on shins, thighs, blocks, or the floor—whichever height keeps the spine long. Legs stay rooted; knees may soft-bend. The shape is a hinge at the hips with a flat, extended back body, not a deeper fold.",
+      "svg_hint": "side view: two vertical legs, pelvis hinge, straight torso bar parallel to floor, head in line with spine, hands on mid-shin props"
+    },
+    "reaction": {
+      "reactants": null,
+      "catalyst": null,
+      "product": null,
+      "phase": "Suspend",
+      "from_phase": "collapsed fold",
+      "to_phase": "held length",
+      "note": "School metaphor: the descending fold pauses into a suspended, long axis—charge that was dumping downward reorganizes along a still horizontal line."
+    },
+    "breath": {
+      "inhale": 4,
+      "exhale": 4,
+      "pause": 2,
+      "bandha": null,
+      "cycles": 6,
+      "lands_in": "front body length along the long spine (sternum to pubis)",
+      "cue": "Inhale to lift into half fold and lengthen. Softly notice the brief pause at the top without forcing retention. Exhale to return to fold or step forward as cued."
+    },
+    "orientation": {
+      "hand_placement": null,
+      "gaze": "Soft toward the floor a short way ahead of the feet; neck stays in line with the spine.",
+      "joint_lead": null,
+      "cue": "Hinge at the hips; sit bones reach back; crown reaches forward so the spine is one long line.",
+      "gravity": "Weight even through both feet; hands press down into support so the back body can lift against the hands."
+    },
+    "attention": {
+      "locus": "Length from tip of tailbone through crown",
+      "secondary": "Hands pressing into shins, thighs, or blocks (not the knee joints)",
+      "chakra": null
+    },
+    "adiyogi_method": {
+      "vbt_verse": 27,
+      "vbt_ref": "VBT dharana 004 (verse 27)",
+      "summary": "Safe class form: in the half-lift, lengthen on the inhale, then briefly notice the natural still point at the end of the breath—inside after inhale or outside after exhale—without forcing a hard kumbhaka. Use the pause as a door of attention, then continue with soft equal breath.",
+      "verse_paraphrase": "When the breath-power is gently retained after inhale or after exhale, at the end of that quiet pause the tranquil (śānta) awareness is said to shine through that power.",
+      "practice_mode": "practice"
+    },
+    "guardian": "unnamed — waiting",
+    "safety_notes": [
+      "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+      "Hands on thighs, blocks, chair seat, or wall; soft bend in knees. Flat long spine beats straight legs or floor touch.",
+      "General practice caution only; not medical advice. Avoid pressing hands on the knee joints. Ease out if low-back, hamstring, or neck sensation turns sharp. Pregnancy and back concerns: use a higher hand support and keep the spine long rather than deep."
+    ],
+    "five_ways": [
+      "This door is Half Forward Fold, Ardha Uttanasana. It is the halfway lift—a long spine pause inside the fold, not a deeper dive.",
+      "Hinge at the hips. Lift the torso until the back is long and roughly parallel to the floor. Hands find shins, thighs, or blocks—whatever keeps that long line.",
+      "Sit bones reach back; crown reaches forward. Gaze soft to the floor ahead. Neck stays in line with the spine. Weight stays even in both feet.",
+      "Inhale four counts to lift and lengthen. Soft hold for two counts at the top. Exhale four counts to fold or step on. Six easy cycles.",
+      "Exhale back to fold, or inhale to rise. Soften the knees. Carry the long-spine cue into the next standing shape. Pain means pause or exit."
+    ],
+    "five_ways_basis": "Beats 1, 2, 3, 4, and 8, verbatim from the research record.",
+    "exit": "Exhale back to fold, or inhale to rise. Soften the knees. Carry the long-spine cue into the next standing shape. Pain means pause or exit.",
     "yes": "whichever height keeps the spine long",
     "no": "Avoid pressing hands on the knee joints",
-    "exit": "Exhale back to fold, or inhale to rise. Soften the knees. Carry the long-spine cue into the next standing shape. Pain means pause or exit.",
-    "benefits": null
+    "look": "Soft toward the floor a short way ahead of the feet; neck stays in line with the spine.",
+    "water": "Inhale to lift into half fold and lengthen. Softly notice the brief pause at the top without forcing retention. Exhale to return to fold or step forward as cued.",
+    "open_seat": "Hands on thighs, blocks, chair seat, or wall; soft bend in knees. Flat long spine beats straight legs or floor touch.",
+    "honesty": "This asana↔method link is a School of 112 Doorways teaching device, not ancient canon. Half Forward Fold is paired with VBT dharana 004 by school index, not by historical one-to-one tradition.",
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": "practice",
+    "status": "named",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "number": "research",
+      "sanskrit": "research",
+      "english": "research",
+      "house": "research",
+      "element": "ui/112.html",
+      "color": "ui/index.html",
+      "bija": "school_map",
+      "geometry": "research",
+      "geometry.vertices": "absent",
+      "reaction": "research",
+      "reaction.reactants": "absent",
+      "reaction.catalyst": "absent",
+      "reaction.product": "absent",
+      "breath": "research",
+      "orientation": "research",
+      "orientation.hand_placement": "absent",
+      "orientation.joint_lead": "absent",
+      "attention": "research",
+      "adiyogi_method": "research",
+      "guardian": "owner",
+      "safety_notes": "research",
+      "five_ways": "school_default",
+      "exit": "research",
+      "pairing_type": "research",
+      "lotus_never_forced": "research",
+      "yes": "research",
+      "no": "research",
+      "breath.bandha": "absent"
+    },
+    "derived": [
+      "five_ways"
+    ]
   },
   {
     "number": 5,
-    "en": "Low Lunge",
-    "sa": "Anjaneyasana",
-    "guardian": "Chief of Staff",
+    "sanskrit": "Anjaneyasana",
+    "english": "Low Lunge",
     "house": 1,
     "house_name": "Mūlādhāra",
+    "element": "Earth",
+    "color": "vermilion",
     "bija": "LAM",
-    "status": "named",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": "Soft forward at eye level, or slightly upward only if the neck stays long and pain-free",
-    "water": "Inhale four: lengthen from the grounded back knee up through the crown. Exhale four: keep the front knee steady and let the hips settle without collapsing the chest. No forced hold.",
-    "geo": "From kneeling, step one foot forward so the front knee stacks over the ankle and the back knee rests on the floor. Hips square toward the front edge of the mat as much as honesty allows. Torso rises as a vertical column; hands may rest on the front thigh, frame the front foot, or reach overhead. The shape is a long grounded base with a lifted centerline—not a deepest-backbend contest.",
+    "geometry": {
+      "polygon": "asymmetric_lunge_trapezoid",
+      "vertices": null,
+      "summary": "From kneeling, step one foot forward so the front knee stacks over the ankle and the back knee rests on the floor. Hips square toward the front edge of the mat as much as honesty allows. Torso rises as a vertical column; hands may rest on the front thigh, frame the front foot, or reach overhead. The shape is a long grounded base with a lifted centerline—not a deepest-backbend contest.",
+      "svg_hint": "side view: front shin vertical, front thigh near-horizontal, back thigh long diagonal to grounded knee, torso upright column, optional arms rising"
+    },
+    "reaction": {
+      "reactants": null,
+      "catalyst": null,
+      "product": null,
+      "phase": "Base Rise",
+      "from_phase": "compact_ground_hold",
+      "to_phase": "ascending_length",
+      "note": "School metaphor only: sensation gathered low at the grounded back knee and front hip crease softens and lengthens upward through the front body toward the crown—density giving way to a finer rising line. Not a biochemical or medical claim."
+    },
+    "breath": {
+      "inhale": 4,
+      "exhale": 4,
+      "pause": 0,
+      "bandha": "No forced hold.",
+      "cycles": 6,
+      "lands_in": "front of the pelvis and lower belly, then soft rise through the ribs",
+      "cue": "Inhale four: lengthen from the grounded back knee up through the crown. Exhale four: keep the front knee steady and let the hips settle without collapsing the chest. No forced hold."
+    },
+    "orientation": {
+      "hand_placement": null,
+      "gaze": "Soft forward at eye level, or slightly upward only if the neck stays long and pain-free",
+      "joint_lead": null,
+      "cue": "Back knee heavy on the mat (pad if needed); front heel rooted; pelvis leveling toward square; spine stacking tall over the hips",
+      "gravity": "Primary weight into back knee and front foot; lift travels the centerline, not by yanking the lumbar into a deep arch"
+    },
+    "attention": {
+      "locus": "Contact of back knee and front hip crease as the low anchor",
+      "secondary": "A fine rising line from that anchor through the midline toward the crown",
+      "chakra": "muladhara"
+    },
+    "adiyogi_method": {
+      "vbt_verse": 28,
+      "vbt_ref": "VBT dharana 005 (Jaideva Singh verse 28)",
+      "summary": "Safe class form: while steady in Low Lunge, rest attention at the base of the pelvis, then imagine a soft radiance rising and thinning along the centerline toward the space above the crown. Ordinary breath only. Do not force heat, shaking, breath retention, or dramatic kundalini theatrics.",
+      "verse_paraphrase": "Contemplate the luminous power rising from the root center like rays of the sun, growing subtler and subtler until it dissolves in the upper twelve-finger space; in that dissolution, Bhairava becomes evident.",
+      "practice_mode": "practice"
+    },
+    "guardian": "unnamed — waiting",
+    "safety_notes": [
+      "Pain is information. Pause, regress, or exit. Never push through sharp pain in the front knee, back knee, hips, or low back.",
+      "If kneeling is unavailable: take a high lunge with the back knee lifted and hands on blocks, or practice the rising-attention thread seated upright in an open seat.",
+      "General practice caution only; not medical advice. Pad the back knee. Keep the front knee tracking over the ankle, not collapsing inward. Skip deep backbending versions if the low back complains."
+    ],
+    "five_ways": [
+      "This is Door 005, Low Lunge — Anjaneyasana. One foot forward, back knee down, centerline rising. A doorway of base and lift, not a pose to win.",
+      "Front knee stacks over the ankle. Back knee rests on the mat. Hips face forward as honestly as they can. Torso stands tall; arms may rise. Keep the shape long and steady.",
+      "Feel gravity in the back knee and front foot. Level the pelvis. Stack the spine over the hips. Gaze soft forward. Do not force the low back into a deep arch.",
+      "Inhale for four. Exhale for four. Six easy cycles. Let the breath land low in the pelvis, then rise softly through the ribs without gripping.",
+      "Hands frame the front foot. Step back to a stable kneel or your next shape. Stand or sit. Notice the after-feel of base and rise. Pain means pause."
+    ],
+    "five_ways_basis": "Beats 1, 2, 3, 4, and 8, verbatim from the research record.",
+    "exit": "Hands frame the front foot. Step back to a stable kneel or your next shape. Stand or sit. Notice the after-feel of base and rise. Pain means pause.",
     "yes": "front knee stacks over the ankle",
     "no": "not collapsing inward",
-    "exit": "Hands frame the front foot. Step back to a stable kneel or your next shape. Stand or sit. Notice the after-feel of base and rise. Pain means pause.",
-    "benefits": null
+    "look": "Soft forward at eye level, or slightly upward only if the neck stays long and pain-free",
+    "water": "Inhale four: lengthen from the grounded back knee up through the crown. Exhale four: keep the front knee steady and let the hips settle without collapsing the chest. No forced hold.",
+    "open_seat": "If kneeling is unavailable: take a high lunge with the back knee lifted and hands on blocks, or practice the rising-attention thread seated upright in an open seat.",
+    "honesty": "This Low Lunge and VBT dharana 005 are linked by the School of 112 Doorways as a teaching device (Door 005 with dharana 005). It is not a claim of ancient one-to-one canon.",
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": "practice",
+    "status": "named",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "number": "research",
+      "sanskrit": "research",
+      "english": "research",
+      "house": "research",
+      "element": "ui/112.html",
+      "color": "ui/index.html",
+      "bija": "school_map",
+      "geometry": "research",
+      "geometry.vertices": "absent",
+      "reaction": "research",
+      "reaction.reactants": "absent",
+      "reaction.catalyst": "absent",
+      "reaction.product": "absent",
+      "breath": "research",
+      "orientation": "research",
+      "orientation.hand_placement": "absent",
+      "orientation.joint_lead": "absent",
+      "attention": "research",
+      "adiyogi_method": "research",
+      "guardian": "owner",
+      "safety_notes": "research",
+      "five_ways": "school_default",
+      "exit": "research",
+      "pairing_type": "research",
+      "lotus_never_forced": "research",
+      "yes": "research",
+      "no": "research"
+    },
+    "derived": [
+      "five_ways"
+    ]
   },
   {
     "number": 6,
-    "en": "Downward-Facing Dog",
-    "sa": "Adho Mukha Svanasana",
-    "guardian": "Chief of Staff",
+    "sanskrit": "Adho Mukha Svanasana",
+    "english": "Downward-Facing Dog",
     "house": 1,
     "house_name": "Mūlādhāra",
+    "element": "Earth",
+    "color": "vermilion",
     "bija": "LAM",
-    "status": "named",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": "Soft toward navel or thighs; neck long, not craned.",
-    "water": "Inhale lengthen the sides of the waist; exhale root the hands and let the heels soften back without forcing.",
-    "geo": "An inverted V: hands and feet as the two base points, hips as the high apex. Spine lengthens from wrists through the back body toward the heels. Knees may bend; heels reach toward the floor without forcing. Weight shared through the whole palm and the triple foot points.",
+    "geometry": {
+      "polygon": "inverted_V",
+      "vertices": null,
+      "summary": "An inverted V: hands and feet as the two base points, hips as the high apex. Spine lengthens from wrists through the back body toward the heels. Knees may bend; heels reach toward the floor without forcing. Weight shared through the whole palm and the triple foot points.",
+      "svg_hint": "two_base_points_hands_feet_apex_hips_long_spine"
+    },
+    "reaction": {
+      "reactants": null,
+      "catalyst": null,
+      "product": null,
+      "phase": "Long settle",
+      "from_phase": "upright scatter",
+      "to_phase": "inverted long line",
+      "note": "School metaphor: scattered upright charge settles into one long, quiet line from hands through hips to heels. Not a biochemical claim."
+    },
+    "breath": {
+      "inhale": 4,
+      "exhale": 6,
+      "pause": 0,
+      "bandha": null,
+      "cycles": 6,
+      "lands_in": "side ribs and long back body",
+      "cue": "Inhale lengthen the sides of the waist; exhale root the hands and let the heels soften back without forcing."
+    },
+    "orientation": {
+      "hand_placement": null,
+      "gaze": "Soft toward navel or thighs; neck long, not craned.",
+      "joint_lead": null,
+      "cue": "Hips high as apex; crown soft toward the space between the upper arms; heels reach back and down.",
+      "gravity": "Weight shared through palms and feet; hips stay the highest point of the shape."
+    },
+    "attention": {
+      "locus": "Continuous central line from hands through spine to heels",
+      "secondary": "Even rooting through the whole palm",
+      "chakra": null
+    },
+    "adiyogi_method": {
+      "vbt_verse": 29,
+      "vbt_ref": "VBT dharana 006 (verse 29)",
+      "summary": "Safe class form: while holding Down Dog, quietly mark attention center by center along the long spine line (base, belly, heart, throat, brow, crown), then rest awareness in the soft space above the crown for a breath or two. Contemplative tracing only; never force sensation or breath.",
+      "verse_paraphrase": "Imagine awareness rising like a brief flash of lightning through successive centers along the central channel, up to about three fists above the crown. At that soft culmination, a great dawning of clear awareness may be felt.",
+      "practice_mode": "practice"
+    },
+    "guardian": "unnamed — waiting",
+    "safety_notes": [
+      "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+      "Puppy pose (Anahatasana) or knees-down dog if wrists, shoulders, or hamstrings complain.",
+      "General practice caution only; not medical advice. Ease off if wrists, shoulders, or low back complain; bend knees freely; do not force heels to the floor."
+    ],
+    "five_ways": [
+      "This is Door D-006: Downward-Facing Dog, Adho Mukha Svanasana. An inverted V that lengthens the whole back body.",
+      "Hands and feet plant. Hips rise as the peak. Spine long. Knees may bend. Heels reach back without forcing.",
+      "Share weight through palms and feet. Keep hips the high point. Soften the crown toward the space between the arms. Gaze toward navel or thighs.",
+      "Breathe inhale four, exhale six, for about six cycles. Inhale lengthen the waist. Exhale root the hands and soften the heels.",
+      "Bend knees, walk or step forward, or lower to puppy pose. Stand or sit. Notice the long line still available without the shape."
+    ],
+    "five_ways_basis": "Beats 1, 2, 3, 4, and 8, verbatim from the research record.",
+    "exit": "Bend knees, walk or step forward, or lower to puppy pose. Stand or sit. Notice the long line still available without the shape.",
     "yes": "Knees may bend",
     "no": "do not force heels to the floor",
-    "exit": "Bend knees, walk or step forward, or lower to puppy pose. Stand or sit. Notice the long line still available without the shape.",
-    "benefits": null
+    "look": "Soft toward navel or thighs; neck long, not craned.",
+    "water": "Inhale lengthen the sides of the waist; exhale root the hands and let the heels soften back without forcing.",
+    "open_seat": "Puppy pose (Anahatasana) or knees-down dog if wrists, shoulders, or hamstrings complain.",
+    "honesty": "This asana and VBT method are paired by School of 112 Doorways door number (D-006 with dharana 006). That link is a teaching device, not ancient one-to-one canon.",
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": "practice",
+    "status": "named",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "number": "research",
+      "sanskrit": "research",
+      "english": "research",
+      "house": "research",
+      "element": "ui/112.html",
+      "color": "ui/index.html",
+      "bija": "school_map",
+      "geometry": "research",
+      "geometry.vertices": "absent",
+      "reaction": "research",
+      "reaction.reactants": "absent",
+      "reaction.catalyst": "absent",
+      "reaction.product": "absent",
+      "breath": "research",
+      "orientation": "research",
+      "orientation.hand_placement": "absent",
+      "orientation.joint_lead": "absent",
+      "attention": "research",
+      "adiyogi_method": "research",
+      "guardian": "owner",
+      "safety_notes": "research",
+      "five_ways": "school_default",
+      "exit": "research",
+      "pairing_type": "research",
+      "lotus_never_forced": "research",
+      "yes": "research",
+      "no": "research",
+      "breath.bandha": "absent"
+    },
+    "derived": [
+      "five_ways"
+    ]
   },
   {
     "number": 7,
-    "en": "Plank",
-    "sa": "Phalakasana",
-    "guardian": "Chief of Staff",
+    "sanskrit": "Phalakasana",
+    "english": "Plank",
     "house": 1,
     "house_name": "Mūlādhāra",
+    "element": "Earth",
+    "color": "vermilion",
     "bija": "LAM",
-    "status": "named",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": "Soft toward the floor a short way ahead of the hands; neck stays in line with the spine.",
-    "water": "Equal inhale four, exhale four. Keep the breath quiet and even so the line does not bounce or sag. No forced retention.",
-    "geo": "From hands and toes (or knees), stack wrists under shoulders and lengthen one continuous line from heels through pelvis and crown, roughly parallel to the floor. Elbows soft-straight, not locked. Hips neither pike nor sag. The shape is a held horizontal staff: four contact points (two hands, two feet) supporting a long midline.",
+    "geometry": {
+      "polygon": "Horizontal staff / long rectangle: heels-to-crown line parallel to floor, wrists as front posts",
+      "vertices": null,
+      "summary": "From hands and toes (or knees), stack wrists under shoulders and lengthen one continuous line from heels through pelvis and crown, roughly parallel to the floor. Elbows soft-straight, not locked. Hips neither pike nor sag. The shape is a held horizontal staff: four contact points (two hands, two feet) supporting a long midline.",
+      "svg_hint": "side view: two wrist posts under shoulders, long horizontal body bar heels-to-crown, toes tucked, head in line with spine looking slightly ahead of hands"
+    },
+    "reaction": {
+      "reactants": null,
+      "catalyst": null,
+      "product": null,
+      "phase": "Hold-line",
+      "from_phase": "wobbling scatter",
+      "to_phase": "continuous midline",
+      "note": "School metaphor: shaky, piece-by-piece effort reorganizes into one steady horizontal charge along the central line. Not a biochemical claim."
+    },
+    "breath": {
+      "inhale": 4,
+      "exhale": 4,
+      "pause": 0,
+      "bandha": "No forced retention.",
+      "cycles": 6,
+      "lands_in": "midline core band (navel to low ribs) without collapsing the plank line",
+      "cue": "Equal inhale four, exhale four. Keep the breath quiet and even so the line does not bounce or sag. No forced retention."
+    },
+    "orientation": {
+      "hand_placement": null,
+      "gaze": "Soft toward the floor a short way ahead of the hands; neck stays in line with the spine.",
+      "joint_lead": null,
+      "cue": "Wrists under shoulders; heels press back; crown reaches forward so heels-to-head stay one long line.",
+      "gravity": "Body parallel to the floor; press the floor away through the hands; lift the front of the thighs and lower belly so the hips do not dump."
+    },
+    "attention": {
+      "locus": "Central line from heels through crown",
+      "secondary": "Wrists stacked under shoulders; even press through both hands",
+      "chakra": null
+    },
+    "adiyogi_method": {
+      "vbt_verse": 30,
+      "vbt_ref": "VBT dharana 007 (verse 30)",
+      "summary": "Safe class form in plank: move attention up a short midline sequence (pelvic floor → navel → heart → throat → brow). At each station, feel the coarse body-sense, then a subtler quiet, then leave it and rise to the next. Do not drill genital-tip (janmāgra) stations. No forced breath-hold; keep equal breath while the attention climbs and releases.",
+      "verse_paraphrase": "Twelve successive centers, linked with twelve letters, are meditated in turn—first in a coarse phase, then subtle, then supreme—each left behind until, in the end, identification with Śiva is pointed to.",
+      "practice_mode": "practice"
+    },
+    "guardian": "unnamed — waiting",
+    "safety_notes": [
+      "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+      "Drop knees to the floor (knee plank), elevate hands on blocks or a chair, or take a short hold and rest in Child's Pose. Wrists may turn slightly outward or use fists/forearms if hands complain—keep the long line.",
+      "General practice caution only; not medical advice. Ease out if wrists, shoulders, or low back turn sharp. Do not sag or pike through pain. Shorten the hold rather than collapse the line. Pregnancy and wrist concerns: prefer knee plank, elevated hands, or skip the hold."
+    ],
+    "five_ways": [
+      "This door is Plank, Phalakasana. A held horizontal staff—heels to crown in one long line over the hands.",
+      "Wrists under shoulders. Press the floor away. Lengthen heels back and crown forward so the body is one plank, not a pike or a sag.",
+      "Body parallel to the floor. Gaze soft ahead of the hands. Neck stays in line. Lift the front thighs and lower belly into the line.",
+      "Inhale four, exhale four. Six easy cycles. Keep the breath quiet so the plank line does not bounce. No forced holds.",
+      "Lower the knees, or step back to Down Dog, or rest in Child's Pose. Shake out the wrists. Carry the long midline into the next shape. Pain means pause or exit."
+    ],
+    "five_ways_basis": "Beats 1, 2, 3, 4, and 8, verbatim from the research record.",
+    "exit": "Lower the knees, or step back to Down Dog, or rest in Child's Pose. Shake out the wrists. Carry the long midline into the next shape. Pain means pause or exit.",
     "yes": "Hips neither pike nor sag",
     "no": "Do not sag or pike through pain",
-    "exit": "Lower the knees, or step back to Down Dog, or rest in Child's Pose. Shake out the wrists. Carry the long midline into the next shape. Pain means pause or exit.",
-    "benefits": null
+    "look": "Soft toward the floor a short way ahead of the hands; neck stays in line with the spine.",
+    "water": "Equal inhale four, exhale four. Keep the breath quiet and even so the line does not bounce or sag. No forced retention.",
+    "open_seat": "Drop knees to the floor (knee plank), elevate hands on blocks or a chair, or take a short hold and rest in Child's Pose. Wrists may turn slightly outward or use fists/forearms if hands complain—keep the long line.",
+    "honesty": "This asana↔method link is a School of 112 Doorways teaching device, not ancient canon. Plank is paired with VBT dharana 007 by school index, not by historical one-to-one tradition.",
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": "practice",
+    "status": "named",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "number": "research",
+      "sanskrit": "research",
+      "english": "research",
+      "house": "research",
+      "element": "ui/112.html",
+      "color": "ui/index.html",
+      "bija": "school_map",
+      "geometry": "research",
+      "geometry.vertices": "absent",
+      "reaction": "research",
+      "reaction.reactants": "absent",
+      "reaction.catalyst": "absent",
+      "reaction.product": "absent",
+      "breath": "research",
+      "orientation": "research",
+      "orientation.hand_placement": "absent",
+      "orientation.joint_lead": "absent",
+      "attention": "research",
+      "adiyogi_method": "research",
+      "guardian": "owner",
+      "safety_notes": "research",
+      "five_ways": "school_default",
+      "exit": "research",
+      "pairing_type": "research",
+      "lotus_never_forced": "research",
+      "yes": "research",
+      "no": "research"
+    },
+    "derived": [
+      "five_ways"
+    ]
   },
   {
     "number": 8,
-    "en": "Four-Limbed Staff",
-    "sa": "Chaturanga Dandasana",
-    "guardian": "Chief of Staff",
+    "sanskrit": "Chaturanga Dandasana",
+    "english": "Four-Limbed Staff",
     "house": 1,
     "house_name": "Mūlādhāra",
+    "element": "Earth",
+    "color": "vermilion",
     "bija": "LAM",
-    "status": "named",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": "Soft slightly forward of the hands or down between the thumbs; keep the back of the neck long",
-    "water": "Lower on an exhale when entering. In the hold, breathe short equal counts (about 3 in / 3 out) for up to four easy cycles. If breath gets hard or jagged, regress to knees or exit to plank or child's pose.",
-    "geo": "From a high plank line, the body lowers as one staff until the upper arms are roughly parallel to the floor and the elbows track close beside the ribs. Hands stay under the shoulders (or slightly forward if that keeps the shoulders stable). Heels press back, legs firm, hips level with the shoulders so the torso does not sag or pike. The polygon is a long low rectangle: four limbs as posts, torso and legs as one continuous beam.",
+    "geometry": {
+      "polygon": "long staff rectangle on four contact points (two hands, two feet)",
+      "vertices": null,
+      "summary": "From a high plank line, the body lowers as one staff until the upper arms are roughly parallel to the floor and the elbows track close beside the ribs. Hands stay under the shoulders (or slightly forward if that keeps the shoulders stable). Heels press back, legs firm, hips level with the shoulders so the torso does not sag or pike. The polygon is a long low rectangle: four limbs as posts, torso and legs as one continuous beam.",
+      "svg_hint": "two_hand_pads + two_foot_pads; horizontal_torso_leg_beam; elbows_bent_~90_close_to_ribs; optional_knees_down_regression"
+    },
+    "reaction": {
+      "reactants": null,
+      "catalyst": null,
+      "product": null,
+      "phase": "Gather-to-staff",
+      "from_phase": "scattered_push_effort",
+      "to_phase": "coherent_held_beam",
+      "note": "School metaphor only: scattered gripping and shoulder dump gather into one steady staff-line under load, with effort organized along the midline rather than dumping into the low back or collarbones."
+    },
+    "breath": {
+      "inhale": 3,
+      "exhale": 3,
+      "pause": 0,
+      "bandha": null,
+      "cycles": 4,
+      "lands_in": "side ribs and steady belly wall, without bracing the throat",
+      "cue": "Lower on an exhale when entering. In the hold, breathe short equal counts (about 3 in / 3 out) for up to four easy cycles. If breath gets hard or jagged, regress to knees or exit to plank or child's pose."
+    },
+    "orientation": {
+      "hand_placement": null,
+      "gaze": "Soft slightly forward of the hands or down between the thumbs; keep the back of the neck long",
+      "joint_lead": null,
+      "cue": "One straight line from heels through hips and crown; elbows hug ribs; shoulders do not dip below the elbows",
+      "gravity": "Press the floor away through the hands and reach the heels back so the midsection stays lifted; weight shared across hands and feet, not collapsed into the wrists alone"
+    },
+    "attention": {
+      "locus": "Steady mind-space inside the skull-bowl while the staff holds (soft gaze open in asana; closed-eye version after exit)",
+      "secondary": "Midline: elbows-to-ribs and heels pressing back",
+      "chakra": null
+    },
+    "adiyogi_method": {
+      "vbt_verse": 34,
+      "vbt_ref": "VBT dharana 008 (commonly manuscript verse 34; yukti 8)",
+      "summary": "Practice: sit or lie quietly, close the eyes, and place attention inside the skull as a soft field rather than a clenched point. Let mental steadiness build bit by bit without forcing a vision or a blank. In this door, the safe braid is: during the asana keep a soft open gaze and feel the same quiet skull-bowl steadiness under body load; after exiting, optionally close the eyes for a few breaths and rest attention inside the cranium.",
+      "verse_paraphrase": "With eyes closed, rest attention inside the cranium; as steadiness of mind gradually increases, that which is most worthy of being perceived becomes clearer.",
+      "practice_mode": "practice"
+    },
+    "guardian": "unnamed — waiting",
+    "safety_notes": [
+      "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+      "Knees-down Four-Limbed Staff (knees on the floor, same elbow-rib geometry) or stay in high plank / forearm plank if wrists or shoulders complain. Child's pose is always a valid exit.",
+      "General practice caution only; not medical advice. Ease or skip if wrists, elbows, shoulders, or low back complain; do not force the shoulders below the elbows or collapse the midsection."
+    ],
+    "five_ways": [
+      "This is Door D-008, Four-Limbed Staff, Chaturanga Dandasana. A low, held staff on hands and feet.",
+      "From plank, lower as one beam until upper arms are about parallel to the floor. Elbows hug the ribs. Hips level with shoulders. Heels press back.",
+      "One line from heels through crown. Shoulders stay above the elbows. Soft gaze forward of the hands. Neck long.",
+      "Enter on an exhale. In the hold, breathe about three in and three out for up to four easy cycles. Jagged breath means regress or exit.",
+      "Press up to plank, drop knees, or move to child's pose. Optional: close the eyes for two breaths and rest attention inside the skull. Never force the next shape."
+    ],
+    "five_ways_basis": "Beats 1, 2, 3, 4, and 8, verbatim from the research record.",
+    "exit": "Press up to plank, drop knees, or move to child's pose. Optional: close the eyes for two breaths and rest attention inside the skull. Never force the next shape.",
     "yes": "elbows track close beside the ribs",
     "no": "do not force the shoulders below the elbows",
-    "exit": "Press up to plank, drop knees, or move to child's pose. Optional: close the eyes for two breaths and rest attention inside the skull. Never force the next shape.",
-    "benefits": null
+    "look": "Soft slightly forward of the hands or down between the thumbs; keep the back of the neck long",
+    "water": "Lower on an exhale when entering. In the hold, breathe short equal counts (about 3 in / 3 out) for up to four easy cycles. If breath gets hard or jagged, regress to knees or exit to plank or child's pose.",
+    "open_seat": "Knees-down Four-Limbed Staff (knees on the floor, same elbow-rib geometry) or stay in high plank / forearm plank if wrists or shoulders complain. Child's pose is always a valid exit.",
+    "honesty": "Linking Four-Limbed Staff to VBT dharana 008 is a School of 112 Doorways teaching device, not a claim of ancient one-to-one canon.",
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": "practice",
+    "status": "named",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "number": "research",
+      "sanskrit": "research",
+      "english": "research",
+      "house": "research",
+      "element": "ui/112.html",
+      "color": "ui/index.html",
+      "bija": "school_map",
+      "geometry": "research",
+      "geometry.vertices": "absent",
+      "reaction": "research",
+      "reaction.reactants": "absent",
+      "reaction.catalyst": "absent",
+      "reaction.product": "absent",
+      "breath": "research",
+      "orientation": "research",
+      "orientation.hand_placement": "absent",
+      "orientation.joint_lead": "absent",
+      "attention": "research",
+      "adiyogi_method": "research",
+      "guardian": "owner",
+      "safety_notes": "research",
+      "five_ways": "school_default",
+      "exit": "research",
+      "pairing_type": "research",
+      "lotus_never_forced": "research",
+      "yes": "research",
+      "no": "research",
+      "breath.bandha": "absent"
+    },
+    "derived": [
+      "five_ways"
+    ]
   },
   {
     "number": 9,
-    "en": "Upward-Facing Dog",
-    "sa": "Urdhva Mukha Svanasana",
-    "guardian": "Chief of Staff",
+    "sanskrit": "Urdhva Mukha Svanasana",
+    "english": "Upward-Facing Dog",
     "house": 1,
     "house_name": "Mūlādhāra",
+    "element": "Earth",
+    "color": "vermilion",
     "bija": "LAM",
-    "status": "named",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": "Soft forward (or slight lift only if the neck stays free); do not throw the head back",
-    "water": "Inhale to lengthen and lift the chest through the arms; brief pause at the top; exhale without collapsing the lift. Keep the breath even; never force range.",
-    "geo": "From prone or from Chaturanga, press the palms and the tops of the feet, straighten the arms with shoulders over wrists, and lift the thighs so only hands and feet touch the floor. The shape is a long front-body arc carried by active legs and open chest, not a dump into the low back.",
+    "geometry": {
+      "polygon": "Long front-opening arc: tops of feet to lifted thighs to pelvis to sternum, with two arm columns under the shoulders",
+      "vertices": null,
+      "summary": "From prone or from Chaturanga, press the palms and the tops of the feet, straighten the arms with shoulders over wrists, and lift the thighs so only hands and feet touch the floor. The shape is a long front-body arc carried by active legs and open chest, not a dump into the low back.",
+      "svg_hint": "side view: two ground points (hands, feet), elevated thigh-pelvis line, open chest arc, head facing forward"
+    },
+    "reaction": {
+      "reactants": null,
+      "catalyst": null,
+      "product": null,
+      "phase": "Open rise",
+      "from_phase": "front-body collapse",
+      "to_phase": "front-body lift and space",
+      "note": "School metaphor: heavy closed front field shifts toward lifted, spacious chest and lengthened front line. Label only; not a chemical or medical claim."
+    },
+    "breath": {
+      "inhale": 4,
+      "exhale": 4,
+      "pause": 1,
+      "bandha": null,
+      "cycles": 6,
+      "lands_in": "sternum and upper ribs, with soft belly support",
+      "cue": "Inhale to lengthen and lift the chest through the arms; brief pause at the top; exhale without collapsing the lift. Keep the breath even; never force range."
+    },
+    "orientation": {
+      "hand_placement": null,
+      "gaze": "Soft forward (or slight lift only if the neck stays free); do not throw the head back",
+      "joint_lead": null,
+      "cue": "Shoulders stacked over wrists; tops of feet heavy; thighs active and lifted; chest draws forward-up through the arm gateway",
+      "gravity": "Load shared through palms and tops of feet; legs press back while chest reaches forward so the spine lengthens instead of hinging only at the lumbar"
+    },
+    "attention": {
+      "locus": "Sternum / heart-band space opening forward",
+      "secondary": "Tops of feet pressing down and long active legs",
+      "chakra": "anahata"
+    },
+    "adiyogi_method": {
+      "vbt_verse": 32,
+      "vbt_ref": "VBT dharana 009 (verse 32; Jaideva Singh numbering)",
+      "summary": "Safe class form: in the held shape, soften the gaze and notice the whole sensory field (sight, sound, touch, taste, smell) as one nested mandala. Let detail dissolve toward the quiet center at the chest-heart, without chasing sensation or forcing trance. Practice contemplative only; not a prolonged peacock-feather visualization drill.",
+      "verse_paraphrase": "Contemplate the five sense-fields as nested colorful circles like a peacock feather’s eye; as they merge toward the empty center, awareness enters the heart as supreme open space.",
+      "practice_mode": "practice"
+    },
+    "guardian": "unnamed — waiting",
+    "safety_notes": [
+      "Pain is information. Pause, regress, or exit. Never push through sharp pain in wrists, low back, neck, or legs.",
+      "Bhujangasana (Cobra) or Sphinx with thighs down; or hands on blocks to reduce wrist extension",
+      "General practice caution for loaded wrist extension and lumbar compression; not medical advice. If wrists or low back complain, regress to Cobra/Sphinx or skip."
+    ],
+    "five_ways": [
+      "This is Door D-009: Upward-Facing Dog, Urdhva Mukha Svanasana. A front-opening lift on hands and tops of feet.",
+      "Press palms and tops of feet. Straighten arms with shoulders over wrists. Lift the thighs so only hands and feet touch. Long arc through chest, not a fold dumped into the low back.",
+      "Stack shoulders over wrists. Draw shoulders off the ears. Reach legs back while chest moves forward-up. Gaze soft forward unless the neck is free.",
+      "Inhale four to lengthen and lift. Soft one-count pause. Exhale four without collapsing. Six even cycles. Breath lands at sternum with soft belly support.",
+      "Exhale down to prone or move on with control. If wrists or low back spoke up, take Cobra or Sphinx next. Pain means stop. Pairing is a school teaching device, not ancient canon."
+    ],
+    "five_ways_basis": "Beats 1, 2, 3, 4, and 8, verbatim from the research record.",
+    "exit": "Exhale down to prone or move on with control. If wrists or low back spoke up, take Cobra or Sphinx next. Pain means stop. Pairing is a school teaching device, not ancient canon.",
     "yes": "lift the thighs so only hands and feet touch the floor",
     "no": "do not throw the head back",
-    "exit": "Exhale down to prone or move on with control. If wrists or low back spoke up, take Cobra or Sphinx next. Pain means stop. Pairing is a school teaching device, not ancient canon.",
-    "benefits": null
+    "look": "Soft forward (or slight lift only if the neck stays free); do not throw the head back",
+    "water": "Inhale to lengthen and lift the chest through the arms; brief pause at the top; exhale without collapsing the lift. Keep the breath even; never force range.",
+    "open_seat": "Bhujangasana (Cobra) or Sphinx with thighs down; or hands on blocks to reduce wrist extension",
+    "honesty": "This asana↔VBT link is a School of 112 Doorways teaching device by door index, not ancient one-to-one canon. Some editions number the same verse differently (e.g. as yukti 6).",
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": "practice",
+    "status": "named",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "number": "research",
+      "sanskrit": "research",
+      "english": "research",
+      "house": "research",
+      "element": "ui/112.html",
+      "color": "ui/index.html",
+      "bija": "school_map",
+      "geometry": "research",
+      "geometry.vertices": "absent",
+      "reaction": "research",
+      "reaction.reactants": "absent",
+      "reaction.catalyst": "absent",
+      "reaction.product": "absent",
+      "breath": "research",
+      "orientation": "research",
+      "orientation.hand_placement": "absent",
+      "orientation.joint_lead": "absent",
+      "attention": "research",
+      "adiyogi_method": "research",
+      "guardian": "owner",
+      "safety_notes": "research",
+      "five_ways": "school_default",
+      "exit": "research",
+      "pairing_type": "research",
+      "lotus_never_forced": "research",
+      "yes": "research",
+      "no": "research",
+      "breath.bandha": "absent"
+    },
+    "derived": [
+      "five_ways"
+    ]
   },
   {
     "number": 10,
-    "en": "Warrior I",
-    "sa": "Virabhadrasana I",
-    "guardian": null,
+    "sanskrit": "Virabhadrasana I",
+    "english": "Warrior I",
     "house": 1,
     "house_name": "Mūlādhāra",
+    "element": "Earth",
+    "color": "vermilion",
     "bija": "LAM",
-    "status": "named",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": "Soft forward, or toward the thumbs only if the neck stays free.",
-    "water": "Inhale lengthen the upward reach; exhale root the back heel and steady the front knee.",
-    "geo": "One foot forward, one angled back and grounded; front knee tracks over the ankle without collapsing inward; torso lifts and arms reach up. Prefer feet on parallel tracks (hip-width) over a tightrope line. Turn the chest forward within comfort; do not wrench the back knee by forcing the pelvis fully square.",
+    "geometry": {
+      "polygon": "Forward lunge wedge with vertical arm column (front bent knee, back straight leg, arms overhead).",
+      "vertices": null,
+      "summary": "One foot forward, one angled back and grounded; front knee tracks over the ankle without collapsing inward; torso lifts and arms reach up. Prefer feet on parallel tracks (hip-width) over a tightrope line. Turn the chest forward within comfort; do not wrench the back knee by forcing the pelvis fully square.",
+      "svg_hint": "side-view: back heel to crown vertical-ish stack over staggered base; arms as continuing vertical line"
+    },
+    "reaction": {
+      "reactants": null,
+      "catalyst": null,
+      "product": null,
+      "phase": "Aim",
+      "from_phase": "scattered",
+      "to_phase": "directed",
+      "note": "School metaphor: diffuse readiness gathers into one upright forward line—root through the back foot, reach through the arms—without claiming any biochemical change."
+    },
+    "breath": {
+      "inhale": 4,
+      "exhale": 4,
+      "pause": 0,
+      "bandha": null,
+      "cycles": 6,
+      "lands_in": "Back heel and outer edge of the back foot first, then ribs and the reach of the arms.",
+      "cue": "Inhale lengthen the upward reach; exhale root the back heel and steady the front knee."
+    },
+    "orientation": {
+      "hand_placement": null,
+      "gaze": "Soft forward, or toward the thumbs only if the neck stays free.",
+      "joint_lead": null,
+      "cue": "Chest faces the front of the mat within comfort; back foot angled about forty-five degrees with heel grounded; front knee stacked toward the ankle line.",
+      "gravity": "Weight shared between front heel and outer edge of the back foot; crown lifts away from the heels."
+    },
+    "attention": {
+      "locus": "Outer edge of the back foot and the continuous upward reach through the arms.",
+      "secondary": "Front knee tracking over the ankle (not collapsing inward).",
+      "chakra": null
+    },
+    "adiyogi_method": {
+      "vbt_verse": null,
+      "vbt_ref": "VBT dharana 010",
+      "summary": "School class form: in Warrior I, let soft gaze rest in the open field above and between the hands (empty sky), keep attention there without chasing thoughts, and meet the still quality of that field like a quiet wall. Optional contemplative variant off-mat: briefly rest attention on a worthy presence you admire, then return to breath and stance. Practice is contemplative focus, not ritual or force.",
+      "verse_paraphrase": "Rest awareness, one after another, on open emptiness, on a blank surface such as a wall, or on the presence of someone you hold as excellent; the quality of that resting itself leans toward absorption.",
+      "practice_mode": "practice"
+    },
+    "guardian": "unnamed — waiting",
+    "safety_notes": [
+      "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+      "If the flat back foot or hip rotation agitates the back knee or hip, use High Crescent Lunge (back heel lifted, hips freer) or shorten the stance. Do not force the pelvis square.",
+      "General practice caution only for knees, hips, low back, and neck (especially if looking up). Not medical advice; regress depth or exit when needed."
+    ],
+    "five_ways": [
+      "Door D-010: Warrior I, Virabhadrasana I. A standing forward lunge with arms reaching up.",
+      "Step one foot forward, angle the back foot and plant the heel. Bend the front knee over the ankle. Reach the arms up. Keep the feet hip-width for balance.",
+      "Face the chest forward within comfort. Root the outer edge of the back foot. Lift the crown. Soft gaze forward—or to the thumbs only if the neck is free.",
+      "Breathe equal fours: inhale lengthen the reach; exhale root the back heel. Six easy cycles. No strain.",
+      "Lower the arms. Straighten the front leg. Step back to Mountain. If anything felt sharp, choose Crescent or a shorter stance next time. Pain means pause."
+    ],
+    "five_ways_basis": "Beats 1, 2, 3, 4, and 8, verbatim from the research record.",
+    "exit": "Lower the arms. Straighten the front leg. Step back to Mountain. If anything felt sharp, choose Crescent or a shorter stance next time. Pain means pause.",
     "yes": "front knee tracks over the ankle without collapsing inward",
     "no": "do not wrench the back knee by forcing the pelvis fully square",
-    "exit": "Lower the arms. Straighten the front leg. Step back to Mountain. If anything felt sharp, choose Crescent or a shorter stance next time. Pain means pause.",
-    "benefits": null
+    "look": "Soft forward, or toward the thumbs only if the neck stays free.",
+    "water": "Inhale lengthen the upward reach; exhale root the back heel and steady the front knee.",
+    "open_seat": "If the flat back foot or hip rotation agitates the back knee or hip, use High Crescent Lunge (back heel lifted, hips freer) or shorten the stance. Do not force the pelvis square.",
+    "honesty": "This asana↔method link is a School of 112 Doorways teaching device, not ancient canon. Door index 010 is paired with VBT method/dharana 010 by school map.",
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": "practice",
+    "status": "named",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "number": "research",
+      "sanskrit": "research",
+      "english": "research",
+      "house": "research",
+      "element": "ui/112.html",
+      "color": "ui/index.html",
+      "bija": "school_map",
+      "geometry": "research",
+      "geometry.vertices": "absent",
+      "reaction": "research",
+      "reaction.reactants": "absent",
+      "reaction.catalyst": "absent",
+      "reaction.product": "absent",
+      "breath": "research",
+      "orientation": "research",
+      "orientation.hand_placement": "absent",
+      "orientation.joint_lead": "absent",
+      "attention": "research",
+      "adiyogi_method": "research",
+      "guardian": "owner",
+      "safety_notes": "research",
+      "five_ways": "school_default",
+      "exit": "research",
+      "pairing_type": "research",
+      "lotus_never_forced": "research",
+      "yes": "research",
+      "no": "research",
+      "adiyogi_method.vbt_verse": "absent",
+      "breath.bandha": "absent"
+    },
+    "derived": [
+      "five_ways"
+    ]
   },
   {
     "number": 11,
-    "en": "Warrior II",
-    "sa": "Virabhadrasana II",
-    "guardian": "Chief of Staff (interim)",
+    "sanskrit": "Virabhadrasana II",
+    "english": "Warrior II",
     "house": 1,
     "house_name": "Mūlādhāra",
+    "element": "Earth",
+    "color": "vermilion",
     "bija": "LAM",
-    "status": "named",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": "Soft drishti past the front fingertips; eyes rest without hardening the jaw or neck.",
-    "water": "Even counts. Inhale widen the side body; exhale root through both feet without collapsing the front knee.",
-    "geo": "Feet wide; front foot points forward, back foot turned in about 45–80 degrees as the hips allow. Front heel roughly lines with back arch (or heel-to-heel if hips need more space). Front knee bends over the ankle without collapsing inward; back leg stays long and grounded. Arms reach to a T at shoulder height; torso stays upright and centered, not tipping toward the front leg.",
+    "geometry": {
+      "polygon": "Wide-stance T: base line (two feet), upright front shin pillar, horizontal arm line at shoulder height, torso column over pelvis facing the long side of the mat.",
+      "vertices": null,
+      "summary": "Feet wide; front foot points forward, back foot turned in about 45–80 degrees as the hips allow. Front heel roughly lines with back arch (or heel-to-heel if hips need more space). Front knee bends over the ankle without collapsing inward; back leg stays long and grounded. Arms reach to a T at shoulder height; torso stays upright and centered, not tipping toward the front leg.",
+      "svg_hint": "trapezoid base + vertical front shin + horizontal bilateral arm axis + upright torso rectangle facing long-edge"
+    },
+    "reaction": {
+      "reactants": null,
+      "catalyst": null,
+      "product": null,
+      "phase": "Nexus settle",
+      "from_phase": "object-grab",
+      "to_phase": "relation-field",
+      "note": "School metaphor: attention that was lost in the front hand, the room, or the effort of holding shape softens into the felt connection of seeing—spanning both arms and both feet without chasing either pole."
+    },
+    "breath": {
+      "inhale": 4,
+      "exhale": 4,
+      "pause": 0,
+      "bandha": null,
+      "cycles": 6,
+      "lands_in": "side ribs and lower belly while arms stay soft at the sockets",
+      "cue": "Even counts. Inhale widen the side body; exhale root through both feet without collapsing the front knee."
+    },
+    "orientation": {
+      "hand_placement": null,
+      "gaze": "Soft drishti past the front fingertips; eyes rest without hardening the jaw or neck.",
+      "joint_lead": null,
+      "cue": "Crown over pelvis; shoulders stacked over hips facing the long side of the mat; front knee tracks over middle of front foot.",
+      "gravity": "Even weight through both feet—front heel and back outer edge heavy; lift is through the spine, not through hiking the shoulders."
+    },
+    "attention": {
+      "locus": "The connection of seeing: neither lost in the front hand-object nor stuck in self-effort—hold the act/nexus of relating to what is ahead.",
+      "secondary": "Front knee tracking over the foot while both arms stay equally alive.",
+      "chakra": null
+    },
+    "adiyogi_method": {
+      "vbt_verse": null,
+      "vbt_ref": "VBT dharana 011",
+      "summary": "While holding Warrior II, notice gaze and front-hand field without gripping them. Softly attend to the link of perceiving: the span between who is looking and what is seen. Practice in any safe moment of perception; class form stays contemplative and standing.",
+      "verse_paraphrase": "Ordinary awareness knows a perceived thing and a perceiver. The yogi’s distinction is careful attention to the connection between them—the relating itself, not collapsing into object or subject.",
+      "practice_mode": "practice"
+    },
+    "guardian": "unnamed — waiting",
+    "safety_notes": [
+      "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+      "General practice caution only; not medical advice. Shorten stance or reduce front-knee bend if knees, hips, or shoulders complain. Do not force the front thigh parallel or square the pelvis past what keeps the front knee tracking."
+    ],
+    "five_ways": [
+      "This is Door D-011: Warrior II, Virabhadrasana II. Wide stance, arms like a T, gaze soft past the front hand.",
+      "Feet wide. Front heel toward back arch. Bend the front knee over the ankle. Reach both arms to shoulder height. Keep the torso upright over the pelvis.",
+      "Face the long side of the mat. Crown over pelvis. Front knee tracks mid-foot. Weight shares both feet. Soft gaze past the front fingertips.",
+      "Breathe even fours: inhale four, exhale four, six cycles. Let the breath land in the side ribs. Do not hold the breath to force depth.",
+      "Straighten the front leg, lower the arms, step the feet together. Stand a breath and feel the same soft relating without the shape."
+    ],
+    "five_ways_basis": "Beats 1, 2, 3, 4, and 8, verbatim from the research record.",
+    "exit": "Straighten the front leg, lower the arms, step the feet together. Stand a breath and feel the same soft relating without the shape.",
     "yes": "Front knee bends over the ankle without collapsing inward",
     "no": "Do not force the front thigh parallel",
-    "exit": "Straighten the front leg, lower the arms, step the feet together. Stand a breath and feel the same soft relating without the shape.",
-    "benefits": null
+    "look": "Soft drishti past the front fingertips; eyes rest without hardening the jaw or neck.",
+    "water": "Even counts. Inhale widen the side body; exhale root through both feet without collapsing the front knee.",
+    "open_seat": null,
+    "honesty": "This asana↔method link is a School of 112 Doorways teaching device, not ancient canon. Warrior II and VBT dharana 011 are paired by school index for teaching, not as a historical one-to-one.",
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": "practice",
+    "status": "named",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "number": "research",
+      "sanskrit": "research",
+      "english": "research",
+      "house": "research",
+      "element": "ui/112.html",
+      "color": "ui/index.html",
+      "bija": "school_map",
+      "geometry": "research",
+      "geometry.vertices": "absent",
+      "reaction": "research",
+      "reaction.reactants": "absent",
+      "reaction.catalyst": "absent",
+      "reaction.product": "absent",
+      "breath": "research",
+      "orientation": "research",
+      "orientation.hand_placement": "absent",
+      "orientation.joint_lead": "absent",
+      "attention": "research",
+      "adiyogi_method": "research",
+      "guardian": "owner",
+      "safety_notes": "research",
+      "five_ways": "school_default",
+      "exit": "research",
+      "pairing_type": "research",
+      "lotus_never_forced": "research",
+      "yes": "research",
+      "no": "research",
+      "adiyogi_method.vbt_verse": "absent",
+      "breath.bandha": "absent"
+    },
+    "derived": [
+      "five_ways"
+    ]
   },
   {
     "number": 12,
-    "en": "Triangle",
-    "sa": "Utthita Trikonasana",
-    "guardian": "Chief of Staff",
+    "sanskrit": "Utthita Trikonasana",
+    "english": "Triangle",
     "house": 1,
     "house_name": "Mūlādhāra",
+    "element": "Earth",
+    "color": "vermilion",
     "bija": "LAM",
-    "status": "named",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": "Soft toward the top hand if the neck is free; otherwise keep the gaze level with the side of the room.",
-    "water": "Inhale to lengthen the underside; exhale to settle weight into both feet without dumping into the front hip. Equal four-count breath for six cycles, then switch sides.",
-    "geo": "Stand in a wide stance with the front foot roughly forward and the back foot angled. Keep both legs long and fold the torso sideways over the front leg so the lower hand finds shin, ankle, block, or floor without collapsing the underside waist. The top arm reaches on the same diagonal. The legs and floor make one triangle; torso and arms make a long slanted line.",
+    "geometry": {
+      "polygon": "wide-base triangle (two feet + floor) plus long side diagonal (front ankle to hip to top hand)",
+      "vertices": null,
+      "summary": "Stand in a wide stance with the front foot roughly forward and the back foot angled. Keep both legs long and fold the torso sideways over the front leg so the lower hand finds shin, ankle, block, or floor without collapsing the underside waist. The top arm reaches on the same diagonal. The legs and floor make one triangle; torso and arms make a long slanted line.",
+      "svg_hint": "isosceles base under pelvis; long diagonal stroke from front foot through side body to raised hand"
+    },
+    "reaction": {
+      "reactants": null,
+      "catalyst": null,
+      "product": null,
+      "phase": "Line open",
+      "from_phase": "compressed side body",
+      "to_phase": "lengthened diagonal field",
+      "note": "School metaphor: attention that was bunched in the waist and shoulders spreads along the long side line from foot to hand, like a filament lighting up. Not a medical or biochemical claim."
+    },
+    "breath": {
+      "inhale": 4,
+      "exhale": 4,
+      "pause": 0,
+      "bandha": null,
+      "cycles": 6,
+      "lands_in": "long side body (bottom waist through top ribs and top arm)",
+      "cue": "Inhale to lengthen the underside; exhale to settle weight into both feet without dumping into the front hip. Equal four-count breath for six cycles, then switch sides."
+    },
+    "orientation": {
+      "hand_placement": null,
+      "gaze": "Soft toward the top hand if the neck is free; otherwise keep the gaze level with the side of the room.",
+      "joint_lead": null,
+      "cue": "Stack the long side: bottom waist lifts away from the front thigh while both legs stay rooted; do not collapse the lower ribs onto the front leg.",
+      "gravity": "Even load through both feet; front big-toe mound and back outer heel especially clear; pelvis neither dumped forward nor rolled shut."
+    },
+    "attention": {
+      "locus": "Slender attention-line along the open side body from front outer foot through hip and underarm to the top fingertips (school map of a filament / madhya line).",
+      "secondary": "Quiet contact of both soles with the floor.",
+      "chakra": null
+    },
+    "adiyogi_method": {
+      "vbt_verse": 35,
+      "vbt_ref": "VBT dharana 012 (Singh-style sequential method index; commonly verse 35)",
+      "summary": "Safe class form: while holding Triangle, rest awareness on one continuous slender line through the open side of the body, as if tracing a fine filament of space, without forcing breath, gaze, or depth. Sense the line as open inner space rather than as a muscle to grip.",
+      "verse_paraphrase": "Attend to the central channel in the middle of the body, fine as a lotus-stalk filament. Contemplating that inner space as the Goddess, the Divine becomes clear.",
+      "practice_mode": "practice"
+    },
+    "guardian": "unnamed — waiting",
+    "safety_notes": [
+      "Pain is information. Pause, regress, or exit. Never push through sharp pain in hamstring, knee, sacroiliac joint, or neck.",
+      "Shorten the stance, rest the lower hand on a block or shin, and keep the gaze neutral if balance, neck, or hamstrings complain. General practice caution only; not medical advice."
+    ],
+    "five_ways": [
+      "This is Door Twelve: Triangle, Utthita Trikonasana. A wide stance that opens one long side of the body.",
+      "Feet wide. Front toes forward, back foot angled. Fold sideways over the front leg. Lower hand to shin or block; top arm reaches on the same diagonal.",
+      "Root both feet. Lift the underside waist so ribs do not dump onto the thigh. Gaze to the top hand only if the neck stays easy.",
+      "Breathe four in, four out. Let the inhale lengthen the open side; let the exhale settle the feet. Six cycles, then change sides.",
+      "Inhale to rise with a long spine. Step the feet together. Stand quiet and feel both sides even before you leave."
+    ],
+    "five_ways_basis": "Beats 1, 2, 3, 4, and 8, verbatim from the research record.",
+    "exit": "Inhale to rise with a long spine. Step the feet together. Stand quiet and feel both sides even before you leave.",
     "yes": "without collapsing the underside waist",
     "no": "do not collapse the lower ribs onto the front leg",
-    "exit": "Inhale to rise with a long spine. Step the feet together. Stand quiet and feel both sides even before you leave.",
-    "benefits": null
+    "look": "Soft toward the top hand if the neck is free; otherwise keep the gaze level with the side of the room.",
+    "water": "Inhale to lengthen the underside; exhale to settle weight into both feet without dumping into the front hip. Equal four-count breath for six cycles, then switch sides.",
+    "open_seat": null,
+    "honesty": "Linking Utthita Trikonasana with VBT method 012 is a School of 112 Doorways teaching device, not an ancient one-to-one claim. The shared image is a slender line of attention (side body in Triangle; central filament in the verse).",
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": "practice",
+    "status": "named",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "number": "research",
+      "sanskrit": "research",
+      "english": "research",
+      "house": "research",
+      "element": "ui/112.html",
+      "color": "ui/index.html",
+      "bija": "school_map",
+      "geometry": "research",
+      "geometry.vertices": "absent",
+      "reaction": "research",
+      "reaction.reactants": "absent",
+      "reaction.catalyst": "absent",
+      "reaction.product": "absent",
+      "breath": "research",
+      "orientation": "research",
+      "orientation.hand_placement": "absent",
+      "orientation.joint_lead": "absent",
+      "attention": "research",
+      "adiyogi_method": "research",
+      "guardian": "owner",
+      "safety_notes": "research",
+      "five_ways": "school_default",
+      "exit": "research",
+      "pairing_type": "research",
+      "lotus_never_forced": "research",
+      "yes": "research",
+      "no": "research",
+      "breath.bandha": "absent"
+    },
+    "derived": [
+      "five_ways"
+    ]
   },
   {
     "number": 13,
-    "en": "Revolved Triangle",
-    "sa": "Parivrtta Trikonasana",
-    "guardian": "Chief of Staff (interim)",
+    "sanskrit": "Parivrtta Trikonasana",
+    "english": "Revolved Triangle",
     "house": 1,
     "house_name": "Mūlādhāra",
+    "element": "Earth",
+    "color": "vermilion",
     "bija": "LAM",
-    "status": "named",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": "Toward the top hand if the neck is easy; otherwise look to the floor or forward.",
-    "water": "Inhale lengthen the side body; exhale rotate a little more around that length. Never yank the neck or force the bottom hand lower.",
-    "geo": "From a wide standing base, the front foot points forward and the back foot turns in. Both legs stay long (soften the front knee if the hamstring shouts). The torso hinges over the front leg, then rotates toward the front thigh so the bottom hand meets a block, the shin, or the floor, and the top arm reaches up. The shape is a triangle in the legs with a long spiral through the spine.",
+    "geometry": {
+      "polygon": "triangle + spiral axis",
+      "vertices": null,
+      "summary": "From a wide standing base, the front foot points forward and the back foot turns in. Both legs stay long (soften the front knee if the hamstring shouts). The torso hinges over the front leg, then rotates toward the front thigh so the bottom hand meets a block, the shin, or the floor, and the top arm reaches up. The shape is a triangle in the legs with a long spiral through the spine.",
+      "svg_hint": "wide stance; front leg forward; torso fold + twist; bottom hand low, top arm high; long spiral spine"
+    },
+    "reaction": {
+      "reactants": null,
+      "catalyst": null,
+      "product": null,
+      "phase": "Tangle to Thread",
+      "from_phase": "tangle",
+      "to_phase": "thread",
+      "note": "School metaphor: the first moments of the twist feel knotted and busy. Soft length through the spine lets the knot thin into one clear thread of attention from back heel to crown."
+    },
+    "breath": {
+      "inhale": 4,
+      "exhale": 6,
+      "pause": 0,
+      "bandha": null,
+      "cycles": 6,
+      "lands_in": "long spine and front heel",
+      "cue": "Inhale lengthen the side body; exhale rotate a little more around that length. Never yank the neck or force the bottom hand lower."
+    },
+    "orientation": {
+      "hand_placement": null,
+      "gaze": "Toward the top hand if the neck is easy; otherwise look to the floor or forward.",
+      "joint_lead": null,
+      "cue": "Grow a long diagonal from the back outer heel through the crown while the ribs rotate around that line.",
+      "gravity": "Even weight through both feet; let the floor hold the base so the twist does not collapse the hips."
+    },
+    "attention": {
+      "locus": "Spinal length as the axis of the twist",
+      "secondary": "Soft midpoint between the eyebrows (no pressure)",
+      "chakra": null
+    },
+    "adiyogi_method": {
+      "vbt_verse": 36,
+      "vbt_ref": "VBT dharana 013 (verse 36)",
+      "summary": "Classical method: a seated sensory-seal (hands covering eyes, ears, and other openings) while piercing attention at the eyebrow center until an inner bindu appears and fades. For this door, do not teach the sealing mudra in asana class; use only the safe contemplative form in Beat 7.",
+      "verse_paraphrase": "With the hands closing the sense openings and attention at the brow, a point of light may appear; as it gradually dissolves, rest in the center of that stillness.",
+      "practice_mode": "observe_only"
+    },
+    "guardian": "unnamed — waiting",
+    "safety_notes": [
+      "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+      "Hand on a block or the shin instead of the floor; shorten the stance; keep gaze down if the neck complains.",
+      "General practice caution for deep twists, hamstrings, and neck. Not medical advice. Skip classical sensory-seal pressure on the eyes in class."
+    ],
+    "five_ways": [
+      "This is Door 013: Revolved Triangle, Parivrtta Trikonasana. Standing base, long legs, a twist toward the front thigh.",
+      "Step wide. Front foot forward, back foot turned in. Hinge over the front leg, then spiral the ribs. Bottom hand to block, shin, or floor; top arm reaches up.",
+      "Feel a long line from back heel to crown. Gravity stays in both feet. Gaze up only if the neck is quiet; otherwise look down or forward.",
+      "Inhale for four counts and lengthen. Exhale for six and rotate a little around that length. Six easy cycles. No yanking.",
+      "Inhale unwind the ribs to center. Exhale hand to hip and rise. Step the feet together. Stand for one breath and notice the after-feel of the spiral."
+    ],
+    "five_ways_basis": "Beats 1, 2, 3, 4, and 8, verbatim from the research record.",
+    "exit": "Inhale unwind the ribs to center. Exhale hand to hip and rise. Step the feet together. Stand for one breath and notice the after-feel of the spiral.",
     "yes": "soften the front knee if the hamstring shouts",
     "no": "Never yank the neck or force the bottom hand lower",
-    "exit": "Inhale unwind the ribs to center. Exhale hand to hip and rise. Step the feet together. Stand for one breath and notice the after-feel of the spiral.",
-    "benefits": null
+    "look": "Toward the top hand if the neck is easy; otherwise look to the floor or forward.",
+    "water": "Inhale lengthen the side body; exhale rotate a little more around that length. Never yank the neck or force the bottom hand lower.",
+    "open_seat": "Hand on a block or the shin instead of the floor; shorten the stance; keep gaze down if the neck complains.",
+    "honesty": "This asana and VBT method are paired by School of 112 Doorways index (Door 013 with dharana 013). That link is a teaching device, not a claim of ancient one-to-one canon.",
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": "observe_only",
+    "status": "named",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "number": "research",
+      "sanskrit": "research",
+      "english": "research",
+      "house": "research",
+      "element": "ui/112.html",
+      "color": "ui/index.html",
+      "bija": "school_map",
+      "geometry": "research",
+      "geometry.vertices": "absent",
+      "reaction": "research",
+      "reaction.reactants": "absent",
+      "reaction.catalyst": "absent",
+      "reaction.product": "absent",
+      "breath": "research",
+      "orientation": "research",
+      "orientation.hand_placement": "absent",
+      "orientation.joint_lead": "absent",
+      "attention": "research",
+      "adiyogi_method": "research",
+      "guardian": "owner",
+      "safety_notes": "research",
+      "five_ways": "school_default",
+      "exit": "research",
+      "pairing_type": "research",
+      "lotus_never_forced": "research",
+      "yes": "research",
+      "no": "research",
+      "breath.bandha": "absent"
+    },
+    "derived": [
+      "five_ways"
+    ]
   },
   {
     "number": 14,
-    "en": "Extended Side Angle",
-    "sa": "Utthita Parsvakonasana",
-    "guardian": "Chief of Staff (interim)",
+    "sanskrit": "Utthita Parsvakonasana",
+    "english": "Extended Side Angle",
     "house": 1,
     "house_name": "Mūlādhāra",
+    "element": "Earth",
+    "color": "vermilion",
     "bija": "LAM",
-    "status": "named",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": "Soft toward the top hand or forward along the cheek if the neck complains.",
-    "water": "Inhale lengthen the top arm and outer side; exhale settle weight into the back heel and front foot without collapsing the chest.",
-    "geo": "From a wide Warrior II stance, bend the front knee over the front ankle, tip the torso over the front thigh, and place the bottom hand on the floor, a block, or the front shin. Reach the top arm overhead into one long side-body line from back heel through outer ribs to fingertips. Keep the chest open toward the side/ceiling; never collapse the front knee inward.",
+    "geometry": {
+      "polygon": "long lateral diagonal (back heel → front knee → side ribs → top hand) over a wide base triangle",
+      "vertices": null,
+      "summary": "From a wide Warrior II stance, bend the front knee over the front ankle, tip the torso over the front thigh, and place the bottom hand on the floor, a block, or the front shin. Reach the top arm overhead into one long side-body line from back heel through outer ribs to fingertips. Keep the chest open toward the side/ceiling; never collapse the front knee inward.",
+      "svg_hint": "wide base; bent front knee; angled torso; bottom hand support; top arm long diagonal"
+    },
+    "reaction": {
+      "reactants": null,
+      "catalyst": null,
+      "product": null,
+      "phase": "Solid → sky",
+      "from_phase": "solid body-edge",
+      "to_phase": "omnidirectional space",
+      "note": "School metaphor: the strong lateral stretch first makes the body feel like a hard edge; then attention softens that edge into spaciousness felt in all directions at once (not a medical or biochemical claim)."
+    },
+    "breath": {
+      "inhale": 4,
+      "exhale": 6,
+      "pause": 0,
+      "bandha": null,
+      "cycles": 6,
+      "lands_in": "long side body (bottom waist through top ribs) then soft belly",
+      "cue": "Inhale lengthen the top arm and outer side; exhale settle weight into the back heel and front foot without collapsing the chest."
+    },
+    "orientation": {
+      "hand_placement": null,
+      "gaze": "Soft toward the top hand or forward along the cheek if the neck complains.",
+      "joint_lead": null,
+      "cue": "Back heel heavy; front knee tracks over second toe; torso tips over front thigh while chest stays open to the side.",
+      "gravity": "Load both feet; bottom hand is a light prop, not a dump of the whole torso."
+    },
+    "attention": {
+      "locus": "Whole-body field as space in all six directions at once (front, back, left, right, above, below)",
+      "secondary": "Long outer-side line from back heel to top fingertips",
+      "chakra": null
+    },
+    "adiyogi_method": {
+      "vbt_verse": null,
+      "vbt_ref": "VBT dharana 014 (VBh ~43)",
+      "summary": "While holding the shape (or seated after), sense the whole body at once and let attention spread evenly through front, back, sides, above, and below. Soften the idea of a hard body-edge; rest as if inner and outer space were the same field. Do not force a visualization or suppress thoughts.",
+      "verse_paraphrase": "In your own body, contemplate space in every direction at the same time. When the mind stops fabricating solid boundaries, experience unfolds as space.",
+      "practice_mode": "practice"
+    },
+    "guardian": "unnamed — waiting",
+    "safety_notes": [
+      "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+      "Hands-on-hips side bend in a shorter stance, or Warrior II with soft side stretch; use a block under the bottom hand rather than reaching the floor.",
+      "General practice caution only; not medical advice. Ease off if front knee, hip, or neck complains; shorten stance and raise the bottom hand."
+    ],
+    "five_ways": [
+      "Door D-014: Extended Side Angle — Utthita Parsvakonasana. One long side-body line over a wide base.",
+      "Wide stance. Bend the front knee over the ankle. Tip the torso over the front thigh. Bottom hand to floor, block, or shin. Top arm reaches long overhead.",
+      "Back heel heavy. Front knee tracks over the second toe. Bottom hand props lightly. Chest opens to the side, not folded down.",
+      "Inhale four counts to lengthen the top side. Exhale six counts into both feet. Six cycles. Soften if the breath shortens.",
+      "Inhale to lift the torso. Straighten the front leg. Step back to standing. Notice residual space-sense before the next shape."
+    ],
+    "five_ways_basis": "Beats 1, 2, 3, 4, and 8, verbatim from the research record.",
+    "exit": "Inhale to lift the torso. Straighten the front leg. Step back to standing. Notice residual space-sense before the next shape.",
     "yes": "Keep the chest open toward the side/ceiling",
     "no": "never collapse the front knee inward",
-    "exit": "Inhale to lift the torso. Straighten the front leg. Step back to standing. Notice residual space-sense before the next shape.",
-    "benefits": null
+    "look": "Soft toward the top hand or forward along the cheek if the neck complains.",
+    "water": "Inhale lengthen the top arm and outer side; exhale settle weight into the back heel and front foot without collapsing the chest.",
+    "open_seat": "Hands-on-hips side bend in a shorter stance, or Warrior II with soft side stretch; use a block under the bottom hand rather than reaching the floor.",
+    "honesty": "This asana↔method link is a School of 112 Doorways teaching device, not ancient canon. Extended Side Angle and VBT dharana 014 are paired by school index so students can braid a strong side-body geometry with an omnidirectional space contemplation.",
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": "practice",
+    "status": "named",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "number": "research",
+      "sanskrit": "research",
+      "english": "research",
+      "house": "research",
+      "element": "ui/112.html",
+      "color": "ui/index.html",
+      "bija": "school_map",
+      "geometry": "research",
+      "geometry.vertices": "absent",
+      "reaction": "research",
+      "reaction.reactants": "absent",
+      "reaction.catalyst": "absent",
+      "reaction.product": "absent",
+      "breath": "research",
+      "orientation": "research",
+      "orientation.hand_placement": "absent",
+      "orientation.joint_lead": "absent",
+      "attention": "research",
+      "adiyogi_method": "research",
+      "guardian": "owner",
+      "safety_notes": "research",
+      "five_ways": "school_default",
+      "exit": "research",
+      "pairing_type": "research",
+      "lotus_never_forced": "research",
+      "yes": "research",
+      "no": "research",
+      "adiyogi_method.vbt_verse": "absent",
+      "breath.bandha": "absent"
+    },
+    "derived": [
+      "five_ways"
+    ]
   },
   {
     "number": 15,
-    "en": "Wide-Legged Standing Forward Fold",
-    "sa": "Prasarita Padottanasana",
-    "guardian": "Chief of Staff",
+    "sanskrit": "Prasarita Padottanasana",
+    "english": "Wide-Legged Standing Forward Fold",
     "house": 1,
     "house_name": "Mūlādhāra",
+    "element": "Earth",
+    "color": "vermilion",
     "bija": "LAM",
-    "status": "named",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": "First stage: look forward with a concave back. Full fold: soft gaze toward the floor or eyes softly closed.",
-    "water": "Inhale lengthen the spine long; exhale hinge and settle without dumping weight on the head. Rest one beat in the quiet after sound fades.",
-    "geo": "Feet stand wide and parallel (or toes slightly in), legs firm, pelvis hinges forward. Hands land under the shoulders first with a long concave spine; then elbows bend and the crown may meet floor or a block while weight stays in the legs, not the head.",
+    "geometry": {
+      "polygon": "Wide-base inverted V (A-frame): two long leg lines from a broad foot base to the hip hinge, then a lengthened spine vector toward the floor; optional crown contact as a soft third point.",
+      "vertices": null,
+      "summary": "Feet stand wide and parallel (or toes slightly in), legs firm, pelvis hinges forward. Hands land under the shoulders first with a long concave spine; then elbows bend and the crown may meet floor or a block while weight stays in the legs, not the head.",
+      "svg_hint": "Front view: wide stance rectangle base; side view: inverted-V legs + forward-hinged torso; mark crown optional support."
+    },
+    "reaction": {
+      "reactants": null,
+      "catalyst": null,
+      "product": null,
+      "phase": "Gross to Void",
+      "from_phase": "gross_sound",
+      "to_phase": "clear_void",
+      "note": "School metaphor: attention rides the coarse layer of stance and breath, then thins through half-felt vibration and a single point into quiet. Not a medical or chemical claim."
+    },
+    "breath": {
+      "inhale": 4,
+      "exhale": 6,
+      "pause": 0,
+      "bandha": null,
+      "cycles": 6,
+      "lands_in": "the still gap after the exhale, at the soft crown line",
+      "cue": "Inhale lengthen the spine long; exhale hinge and settle without dumping weight on the head. Rest one beat in the quiet after sound fades."
+    },
+    "orientation": {
+      "hand_placement": null,
+      "gaze": "First stage: look forward with a concave back. Full fold: soft gaze toward the floor or eyes softly closed.",
+      "joint_lead": null,
+      "cue": "Hinge at the hip creases; keep the spine long; let the crown aim toward the floor only after the back has stayed long.",
+      "gravity": "Load the four corners of both feet; legs carry the body. Head is light or supported—never a dump."
+    },
+    "attention": {
+      "locus": "The quiet after the last audible edge of the breath or inner sound cue (bindu → śūnya)",
+      "secondary": "Even press through both feet and lifted inner arches",
+      "chakra": null
+    },
+    "adiyogi_method": {
+      "vbt_verse": null,
+      "vbt_ref": "VBT dharana 015",
+      "summary": "Contemplative class form: take a short inner sound or the breath itself as the ‘mantra,’ notice it thicken then thin—vibration, single point, fade—and rest in the quiet that follows. Do not force occult letter-stages or unpronounceable consonant masses; the teaching is progressive dissolution into silence.",
+      "verse_paraphrase": "On any compact (piṇḍa) mantra, move attention along the gross letters, then through half-moon, point, end of resonance, into void—this is supreme meditation.",
+      "practice_mode": "practice"
+    },
+    "guardian": "unnamed — waiting",
+    "safety_notes": [
+      "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+      "Keep hands on blocks or a chair with a concave spine; skip crown-to-floor. Soften knees if hamstrings or low back protest.",
+      "General practice caution only; not medical advice. Use support under hands or head; avoid dumping weight onto the neck. If dizziness appears in the fold, come up slowly with hands on hips."
+    ],
+    "five_ways": [
+      "Door D-015: Wide-Legged Standing Forward Fold — Prasarita Padottanasana. A wide stance that folds the spine long toward quiet.",
+      "Step the feet wide and parallel. Firm the legs. Hinge at the hips. Hands under the shoulders first; spine long. Crown may meet floor or a block later—legs still carry you.",
+      "Gravity lives in the feet. Keep the head light. Look forward while the back stays concave; only then soften the gaze down as you fold.",
+      "Inhale four to lengthen. Exhale six to hinge and settle. Six cycles. Land in the still gap after the exhale.",
+      "Inhale, lift the head, hands to hips, rise with a long spine. Feet walk in. Stand quiet for one breath and notice the same quiet without the fold."
+    ],
+    "five_ways_basis": "Beats 1, 2, 3, 4, and 8, verbatim from the research record.",
+    "exit": "Inhale, lift the head, hands to hips, rise with a long spine. Feet walk in. Stand quiet for one breath and notice the same quiet without the fold.",
     "yes": "long concave spine",
     "no": "avoid dumping weight onto the neck",
-    "exit": "Inhale, lift the head, hands to hips, rise with a long spine. Feet walk in. Stand quiet for one breath and notice the same quiet without the fold.",
-    "benefits": null
+    "look": "First stage: look forward with a concave back. Full fold: soft gaze toward the floor or eyes softly closed.",
+    "water": "Inhale lengthen the spine long; exhale hinge and settle without dumping weight on the head. Rest one beat in the quiet after sound fades.",
+    "open_seat": "Keep hands on blocks or a chair with a concave spine; skip crown-to-floor. Soften knees if hamstrings or low back protest.",
+    "honesty": "This asana↔method link is a School of 112 Doorways teaching device, not ancient canon. Wide-legged fold and dharana 015 are paired by school index, not by classical one-to-one lineage.",
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": "practice",
+    "status": "named",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "number": "research",
+      "sanskrit": "research",
+      "english": "research",
+      "house": "research",
+      "element": "ui/112.html",
+      "color": "ui/index.html",
+      "bija": "school_map",
+      "geometry": "research",
+      "geometry.vertices": "absent",
+      "reaction": "research",
+      "reaction.reactants": "absent",
+      "reaction.catalyst": "absent",
+      "reaction.product": "absent",
+      "breath": "research",
+      "orientation": "research",
+      "orientation.hand_placement": "absent",
+      "orientation.joint_lead": "absent",
+      "attention": "research",
+      "adiyogi_method": "research",
+      "guardian": "owner",
+      "safety_notes": "research",
+      "five_ways": "school_default",
+      "exit": "research",
+      "pairing_type": "research",
+      "lotus_never_forced": "research",
+      "yes": "research",
+      "no": "research",
+      "adiyogi_method.vbt_verse": "absent",
+      "breath.bandha": "absent"
+    },
+    "derived": [
+      "five_ways"
+    ]
   },
   {
     "number": 16,
-    "en": "Tree",
-    "sa": "Vrksasana",
-    "guardian": "Chief of Staff",
+    "sanskrit": "Vrksasana",
+    "english": "Tree",
     "house": 1,
     "house_name": "Mūlādhāra",
+    "element": "Earth",
+    "color": "vermilion",
     "bija": "LAM",
-    "status": "named",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": "Soft fixed point ahead at eye height (drishti); avoid looking down at the foot",
-    "water": "Even breath. Soften the jaw. Let each exhale drop weight into the standing foot without collapsing the tall spine.",
-    "geo": "Stand on one foot with the other foot pressed to the inner thigh or calf (never the knee). Keep the pelvis square and level, spine lengthening as a vertical column, and arms either at the heart or reaching up. The shape is a rooted trunk with one branch open to the side.",
+    "geometry": {
+      "polygon": "vertical column on single-foot base; raised-leg T-branch at hip; optional overhead arm triangle",
+      "vertices": null,
+      "summary": "Stand on one foot with the other foot pressed to the inner thigh or calf (never the knee). Keep the pelvis square and level, spine lengthening as a vertical column, and arms either at the heart or reaching up. The shape is a rooted trunk with one branch open to the side.",
+      "svg_hint": "upright stick on one circle foot; second foot mid-inner thigh; arms up or anjali"
+    },
+    "reaction": {
+      "reactants": null,
+      "catalyst": null,
+      "product": null,
+      "phase": "Root settle",
+      "from_phase": "sway / scattered balance",
+      "to_phase": "still vertical axis",
+      "note": "School metaphor: wobble and chase settle into one quiet plumb line from standing sole through crown. Not a medical or biochemical claim."
+    },
+    "breath": {
+      "inhale": 4,
+      "exhale": 4,
+      "pause": 0,
+      "bandha": null,
+      "cycles": 6,
+      "lands_in": "standing foot sole, then low belly",
+      "cue": "Even breath. Soften the jaw. Let each exhale drop weight into the standing foot without collapsing the tall spine."
+    },
+    "orientation": {
+      "hand_placement": null,
+      "gaze": "Soft fixed point ahead at eye height (drishti); avoid looking down at the foot",
+      "joint_lead": null,
+      "cue": "Crown over standing heel; pelvis square to the front; raised knee opens only as far as the pelvis stays level",
+      "gravity": "Whole body weight through one foot's three points (big-toe mound, little-toe mound, heel); lifted foot presses in, standing thigh presses back"
+    },
+    "attention": {
+      "locus": "standing foot sole and inner standing thigh",
+      "secondary": "quiet vertical line sole to crown",
+      "chakra": null
+    },
+    "adiyogi_method": {
+      "vbt_verse": 39,
+      "vbt_ref": "VBT dharana 016 (verse 39)",
+      "summary": "Safe class form: after settling in Tree, silently lengthen one soft Oṃ (or simply feel the breath as sound fading). At the moment sound or breath-sound ends, rest in the quiet gap—no chasing the next thought. Keep eyes soft on the balance point; do not force breath retention.",
+      "verse_paraphrase": "Utter a praṇava (such as Oṃ, or another seed sound in that family) in a drawn-out form; at the end of that protracted sound, rest attention in the silent open void. Through that spacious openness, awareness meets its own clear nature.",
+      "practice_mode": "practice"
+    },
+    "guardian": "unnamed — waiting",
+    "safety_notes": [
+      "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+      "Foot to calf or toes to floor; stand near a wall; or keep both feet down in Mountain with arms branching up.",
+      "Avoid pressing the raised foot into the standing knee joint. Use wall or lower foot placement if balance is unstable. General practice caution only; not medical advice."
+    ],
+    "five_ways": [
+      "This is Door 016: Tree, Vrksasana. One standing root, one open branch, tall spine.",
+      "From Mountain, shift onto one foot. Place the other foot on the inner thigh or calf—never the knee. Hands at heart or reach up.",
+      "Crown over the standing heel. Keep the pelvis square. Gaze soft and fixed ahead. Wall is welcome.",
+      "Breathe four counts in, four out, about six rounds. Let the exhale land in the standing foot and low belly.",
+      "Lower the foot with control. Stand in Mountain. Switch sides when ready. Carry the quiet root into your next step."
+    ],
+    "five_ways_basis": "Beats 1, 2, 3, 4, and 8, verbatim from the research record.",
+    "exit": "Lower the foot with control. Stand in Mountain. Switch sides when ready. Carry the quiet root into your next step.",
     "yes": "inner thigh or calf",
     "no": "never the knee",
-    "exit": "Lower the foot with control. Stand in Mountain. Switch sides when ready. Carry the quiet root into your next step.",
-    "benefits": null
+    "look": "Soft fixed point ahead at eye height (drishti); avoid looking down at the foot",
+    "water": "Even breath. Soften the jaw. Let each exhale drop weight into the standing foot without collapsing the tall spine.",
+    "open_seat": "Foot to calf or toes to floor; stand near a wall; or keep both feet down in Mountain with arms branching up.",
+    "honesty": "This asana↔method link is a School of 112 Doorways teaching device, not ancient canon. Tree and VBT 016 share a modern school rhyme (rooted body, open sky of attention), not a historical one-to-one pairing.",
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": "practice",
+    "status": "named",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "number": "research",
+      "sanskrit": "research",
+      "english": "research",
+      "house": "research",
+      "element": "ui/112.html",
+      "color": "ui/index.html",
+      "bija": "school_map",
+      "geometry": "research",
+      "geometry.vertices": "absent",
+      "reaction": "research",
+      "reaction.reactants": "absent",
+      "reaction.catalyst": "absent",
+      "reaction.product": "absent",
+      "breath": "research",
+      "orientation": "research",
+      "orientation.hand_placement": "absent",
+      "orientation.joint_lead": "absent",
+      "attention": "research",
+      "adiyogi_method": "research",
+      "guardian": "owner",
+      "safety_notes": "research",
+      "five_ways": "school_default",
+      "exit": "research",
+      "pairing_type": "research",
+      "lotus_never_forced": "research",
+      "yes": "research",
+      "no": "research",
+      "breath.bandha": "absent"
+    },
+    "derived": [
+      "five_ways"
+    ]
   },
   {
     "number": 17,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
+    "element": "Water",
+    "color": null,
     "bija": "VAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 18,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
+    "element": "Water",
+    "color": null,
     "bija": "VAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 19,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
+    "element": "Water",
+    "color": null,
     "bija": "VAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 20,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
+    "element": "Water",
+    "color": null,
     "bija": "VAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 21,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
+    "element": "Water",
+    "color": null,
     "bija": "VAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 22,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
+    "element": "Water",
+    "color": null,
     "bija": "VAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 23,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
+    "element": "Water",
+    "color": null,
     "bija": "VAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 24,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
+    "element": "Water",
+    "color": null,
     "bija": "VAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 25,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
+    "element": "Water",
+    "color": null,
     "bija": "VAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 26,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
+    "element": "Water",
+    "color": null,
     "bija": "VAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 27,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
+    "element": "Water",
+    "color": null,
     "bija": "VAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   },
   {
     "number": 28,
-    "en": null,
-    "sa": null,
-    "guardian": null,
+    "sanskrit": null,
+    "english": null,
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
+    "element": "Water",
+    "color": null,
     "bija": "VAM",
-    "status": "sealed",
-    "film": "Same camera as 001. Not filmed yet.",
-    "look": null,
-    "water": null,
-    "geo": null,
+    "geometry": null,
+    "reaction": null,
+    "breath": null,
+    "orientation": null,
+    "attention": null,
+    "adiyogi_method": null,
+    "guardian": null,
+    "safety_notes": [
+      "If it hurts, stop. A chair still opens the door."
+    ],
+    "five_ways": null,
+    "exit": "If it hurts, stop. A chair still opens the door.",
     "yes": null,
     "no": null,
-    "exit": null,
-    "benefits": null
+    "look": null,
+    "water": null,
+    "open_seat": null,
+    "honesty": null,
+    "pairing_type": "school_device",
+    "lotus_never_forced": true,
+    "practice_mode": null,
+    "status": "sealed_unnamed",
+    "film": null,
+    "stills": [
+      {
+        "slot": "Front",
+        "exists": false
+      },
+      {
+        "slot": "Side",
+        "exists": false
+      },
+      {
+        "slot": "Back",
+        "exists": false
+      },
+      {
+        "slot": "Up",
+        "exists": false
+      },
+      {
+        "slot": "Close",
+        "exists": false
+      },
+      {
+        "slot": "YES",
+        "exists": false
+      },
+      {
+        "slot": "NO",
+        "exists": false
+      }
+    ],
+    "field_sources": {
+      "house": "school_map",
+      "element": "ui/112.html",
+      "color": "absent",
+      "bija": "school_map",
+      "safety_notes": "school_default",
+      "exit": "school_default",
+      "pairing_type": "school_law",
+      "lotus_never_forced": "school_law"
+    },
+    "derived": [
+      "safety_notes",
+      "exit"
+    ]
   }
 ]

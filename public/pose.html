@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Door · School of 112 Doorways</title>
+<style>
+  :root{--bg:#0b0a12;--ink:#f4efe6;--muted:#9a8f7a;--gold:#c9a227;--vermilion:#c0392b}
+  *{box-sizing:border-box} html,body{margin:0;padding:0}
+  body{background:radial-gradient(1200px 800px at 50% -10%, #1a1530 0%, var(--bg) 55%);color:var(--ink);font-family:Georgia,serif;min-height:100vh}
+  .wrap{max-width:720px;margin:0 auto;padding:28px 18px 100px}
+  a{color:var(--gold);text-decoration:none}
+  .eyebrow{color:var(--gold);letter-spacing:.22em;text-transform:uppercase;font-size:.72rem;font-family:system-ui,sans-serif}
+  h1{font-weight:500;font-size:clamp(1.8rem,6vw,2.6rem);margin:8px 0}
+  .sa{color:var(--muted);margin-top:0}
+  .seal{color:var(--ink);font-size:1.2rem}
+  .slot{border:1px solid rgba(201,162,39,.4);border-radius:18px;min-height:220px;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;background:#1a140c;color:var(--muted);margin:14px 0}
+  .slot video{width:100%;max-height:420px;border-radius:12px}
+  .shots{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+  .shot{border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:8px;text-align:center;font-size:.75rem}
+  .shot b{display:block}
+  .shot span{color:var(--muted)}
+  section{margin:14px 0}
+  h2{font-size:1rem;color:var(--gold);font-weight:500;margin:0 0 6px}
+  p,li{line-height:1.5}
+  .waits{color:var(--muted);font-style:italic}
+  .mode{border-left:3px solid var(--vermilion);padding:8px 12px;background:rgba(192,57,43,.12)}
+  .safety span{display:block}
+  .yn{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .yn div{border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:10px}
+  nav{display:flex;justify-content:space-between;gap:8px;margin-top:18px}
+  .off{color:var(--muted)}
+  footer{margin-top:22px;color:var(--muted);font-size:.85rem}
+  .err{color:var(--vermilion)}
+  @media(max-width:560px){.shots{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="eyebrow">Guru Meru</div>
+    <div id="app"><p>Loading the pots.</p></div>
+  </div>
+  <script src="meru.js"></script>
+  <script>
+  (function(){
+    var STILLS = ["Front","Side","Back","Up","Close","YES","NO"];
+    function pad(n){return String(n).padStart(3,"0");}
+    function esc(s){
+      return String(s).replace(/[&<>"']/g, function(c){
+        return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c];
+      });
+    }
+    function readN(){
+      var m = location.search.match(/[?&]n=(\d+)/);
+      var n = m ? parseInt(m[1], 10) : 1;
+      if (isNaN(n)) n = 1;
+      if (n < 1) n = 1;
+      if (n > 112) n = 112;
+      return n;
+    }
+    function waits(v){
+      if (v == null || v === "") return "<p class=\"waits\">waits</p>";
+      return "<p>" + esc(v) + "</p>";
+    }
+    function film(door){
+      if (door.film && /\.mp4(\?|#|$)/i.test(door.film)) {
+        return "<div class=\"slot\"><video controls src=\"" + esc(door.film) + "\"></video></div>";
+      }
+      return "<div class=\"slot\">animation slot — same camera as 001</div>";
+    }
+    function stills(door){
+      var known = {};
+      (door.stills || []).forEach(function(s){ known[s.slot] = s.exists === true; });
+      return "<div class=\"shots\">" + STILLS.map(function(name){
+        return "<div class=\"shot\"><b>" + esc(name) + "</b><span>" + (known[name] ? "shot" : "not shot yet") + "</span></div>";
+      }).join("") + "</div>";
+    }
+    function safety(){
+      return "<div class=\"safety\"><span>Start on the exhale.</span><span>Soft knees.</span><span>A chair still opens the door.</span><span>If it hurts, stop.</span></div>";
+    }
+    function nav(n){
+      var prev = n > 1 ? "<a href=\"pose.html?n=" + (n - 1) + "\">← " + pad(n - 1) + "</a>" : "<span class=\"off\">← 001</span>";
+      var next = n < 112 ? "<a href=\"pose.html?n=" + (n + 1) + "\">" + pad(n + 1) + " →</a>" : "<span class=\"off\">112 →</span>";
+      var named = (n >= 1 && n <= 16) || n === 49 || n === 112;
+      var page = named ? "<a href=\"door-" + pad(n) + ".html\">door page</a>" : "<a href=\"door-sealed.html?n=" + n + "\">sealed page</a>";
+      return "<nav>" + prev + page + next + "</nav>";
+    }
+    function footer(){
+      return "<footer><a href=\"index.html\">Gate</a> · <a href=\"../ui/breath.html\">breath</a> · <a href=\"../ui/kids.html\">kids</a> · <a href=\"../ui/teens.html\">teens</a></footer>";
+    }
+    function render(door){
+      var n = door.number;
+      var h = "";
+      if (door.status === "sealed_unnamed") {
+        h += "<h1>Door " + pad(n) + "</h1>";
+        h += "<p class=\"seal\">this pot is sealed — a name will arrive honestly.</p>";
+        h += "<p>House " + esc(door.house) + " · " + esc(door.house_name) + " · " + esc(door.element) + " · " + esc(door.bija) + "</p>";
+        h += safety();
+        h += "<section><h2>Exit</h2>" + waits(door.exit) + "</section>";
+        document.title = pad(n) + " · sealed";
+        window.MERU_PLATE = {number:n, sealed:true};
+      } else {
+        h += "<h1>" + esc(door.english) + "</h1>";
+        h += "<p class=\"sa\">" + esc(door.sanskrit) + " · House " + esc(door.house) + " " + esc(door.house_name) + " · " + esc(door.element) + " · " + esc(door.bija || "") + "</p>";
+        if (door.practice_mode === "observe_only") h += "<p class=\"mode\">Practice mode: observe_only.</p>";
+        h += film(door);
+        h += stills(door);
+        h += "<section><h2>Look here</h2>" + waits(door.look) + "</section>";
+        h += "<section><h2>Water</h2>" + waits(door.water) + "</section>";
+        var g = door.geometry;
+        h += "<section><h2>Geometry</h2>" + (g ? "<p>" + esc(g.polygon) + "</p>" + (g.summary ? "<p>" + esc(g.summary) + "</p>" : "") + (g.units ? "<p>" + esc(g.units) + "</p>" : "") + (Array.isArray(g.vertices) ? "" : "<p class=\"waits\">Vertices wait.</p>") : waits(null)) + "</section>";
+        var r = door.reaction;
+        h += "<section><h2>Reaction</h2>" + (r ? "<p>" + esc(r.phase || "") + "</p>" + (r.note ? "<p>" + esc(r.note) + "</p>" : "") + (Array.isArray(r.reactants) ? "<p>" + esc(r.reactants.join("; ")) + "</p>" : "<p class=\"waits\">Reactants wait.</p>") : waits(null)) + "</section>";
+        var o = door.orientation;
+        h += "<section><h2>Orientation</h2>" + (o ? waits(o.gaze) + (o.hand_placement ? "<p>" + esc(o.hand_placement) + "</p>" : "<p class=\"waits\">Hand placement waits.</p>") + (o.joint_lead ? "<p>" + esc(o.joint_lead) + "</p>" : "<p class=\"waits\">Joint lead waits.</p>") : waits(null)) + "</section>";
+        h += "<section><h2>Attention</h2>" + waits(door.attention && door.attention.locus) + "</section>";
+        var a = door.adiyogi_method;
+        h += "<section><h2>Adiyogi</h2>" + waits(a && (a.vbt_ref || (a.vbt_verse ? "Verse " + a.vbt_verse : null))) + (a && a.summary ? "<p>" + esc(a.summary) + "</p>" : "") + "</section>";
+        h += "<section><h2>Guardian</h2>" + waits(door.guardian) + "</section>";
+        h += "<section><h2>Safety</h2>" + (door.safety_notes ? "<ul>" + door.safety_notes.map(function(s){return "<li>" + esc(s) + "</li>";}).join("") + "</ul>" : waits(null)) + "</section>";
+        h += safety();
+        h += "<section><h2>Five ways</h2>" + (door.five_ways ? "<ol>" + door.five_ways.map(function(s){return "<li>" + esc(s) + "</li>";}).join("") + "</ol>" : waits(null)) + "</section>";
+        h += "<section><h2>Exit</h2>" + waits(door.exit) + "</section>";
+        h += "<div class=\"yn\"><div><b>YES</b>" + waits(door.yes) + "</div><div><b>NO</b>" + waits(door.no) + "</div></div>";
+        if (door.honesty) h += "<section><h2>Honesty</h2><p>" + esc(door.honesty) + "</p></section>";
+        document.title = pad(n) + " · " + door.english;
+        window.MERU_PLATE = {
+          number: n,
+          sealed: false,
+          english: door.english,
+          sanskrit: door.sanskrit,
+          guardian: door.guardian,
+          look: door.look,
+          water: door.water,
+          exit: door.exit,
+          safety: (door.safety_notes && door.safety_notes[0]) || "",
+          open_seat: door.open_seat || null
+        };
+      }
+      h += nav(n);
+      h += footer();
+      document.getElementById("app").innerHTML = h;
+      if (window.MERU) window.MERU.boot(window.MERU_PLATE);
+    }
+    function fail(msg){
+      document.getElementById("app").innerHTML = "<p class=\"err\">The pots did not load.</p><p>" + esc(msg) + "</p>";
+    }
+    function fetchJson(url){
+      return fetch(url).then(function(r){
+        if (!r.ok) throw new Error(url + " " + r.status);
+        return r.json();
+      });
+    }
+    function load(){
+      return fetchJson("doors.json").catch(function(){
+        return fetchJson("https://cdn.jsdelivr.net/gh/chultemo-byte/school-of-112-doorways@main/public/doors.json");
+      }).catch(function(){
+        return Promise.all([1,2,3,4].map(function(i){ return fetchJson("doors-part" + i + ".json"); })).then(function(parts){
+          return parts.reduce(function(all, part){ return all.concat(part); }, []);
+        });
+      });
+    }
+    load().then(function(doors){
+      if (!Array.isArray(doors)) throw new Error("registry");
+      var n = readN();
+      var door = null;
+      for (var i = 0; i < doors.length; i++) if (doors[i].number === n) door = doors[i];
+      if (!door) throw new Error("missing " + n);
+      render(door);
+    }).catch(function(err){ fail(err && err.message ? err.message : "load failed"); });
+  })();
+  </script>
+</body>
+</html>
