@@ -607,7 +607,6 @@ function emitPublicDoor001(door) {
     video,
     '<p style="margin:0;min-height:280px;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;color:#e8d7b4">animation slot — same camera as 001</p>',
   );
-  html = html.replace('href="112.html"', 'href="../ui/112.html"');
   html = html.replace(/\.\.\/public\/meru\.js/g, "meru.js");
   const json = JSON.stringify(plate(door)).replace(/</g, "\\u003c");
   const plateTag = '<script type="application/json" id="meru-plate">' + json + "</script>\n";

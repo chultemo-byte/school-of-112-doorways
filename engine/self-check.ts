@@ -323,6 +323,11 @@ for (const file of readdirSync(publicRoot)) {
   if (!file.endsWith(".html") && !file.endsWith(".js")) continue;
   const html = readFileSync(path.join(publicRoot, file), "utf8");
   assert.doesNotMatch(html, /Chief of Staff/);
+  if (file.endsWith(".html")) {
+    for (const href of html.matchAll(/href=["']([^"']*)["']/gi)) {
+      assert.equal(href[1].includes("/ui/"), false, file + " href " + href[1]);
+    }
+  }
   for (const match of html.matchAll(/<(?:video|source)\b[^>]*\ssrc=["']([^"']+\.mp4)/gi)) {
     const rel = match[1].replace(/^\//, "");
     assert.equal(existsSync(path.join(publicRoot, rel)), true, file + " missing " + match[1]);
