@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>112 Doorways · the city map</title>
+<style>
+  :root{--bg:#0b0a12;--ink:#f4efe6;--muted:#9a8f7a;--gold:#c9a227;--red:#c0392b}
+  *{box-sizing:border-box}html,body{margin:0;padding:0}
+  body{background:#0b0a12;color:var(--ink);font-family:Georgia,serif}
+  .wrap{max-width:720px;margin:0 auto;padding:28px 18px 80px}
+  a{color:var(--gold);text-decoration:none}
+  .eyebrow{color:var(--gold);letter-spacing:.2em;text-transform:uppercase;font-size:.7rem;font-family:system-ui,sans-serif}
+  h1{font-weight:500;font-size:2rem;line-height:1.15;margin:10px 0 12px}
+  p{color:var(--muted);line-height:1.55}
+  .law{border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:14px 16px;margin:18px 0}
+  h2{font-size:1.15rem;margin:28px 0 10px;color:var(--gold)}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+  .cell{border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:8px 6px;font-size:.72rem;font-family:system-ui,sans-serif;min-height:54px}
+  .cell b{display:block;color:var(--ink);font-size:.78rem}
+  .cell.open{border-color:rgba(201,162,39,.45);background:rgba(201,162,39,.08)}
+  .cell.seed{border-color:rgba(192,57,43,.4);background:rgba(192,57,43,.08)}
+  .cell.wait{color:var(--muted)}
+  footer{margin-top:36px;color:var(--muted);font-size:.85rem}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="eyebrow">7 houses × 16 doors</div>
+    <h1>The city of 112 doorways</h1>
+    <p>One pot per door. One guru per pot. A waiting pot is empty on purpose — not a secret name.</p>
+    <div class="law"><b>Student job.</b> Look here. Breathe. Exit if it hurts. The rest stays in the pot.</div>
+
+    <h2>House 1 · Earth · 001–016 · OPEN</h2>
+    <div class="grid">
+      <a class="cell open" href="door-1.html"><b>001 Mountain</b>Tāḍāsana</a>
+      <a class="cell open" href="door-2.html"><b>002 Sky Reach</b>Šrdhva Hastāsana</a>
+      <a class="cell open" href="door-3.html"><b>003 Fold</b>Uttanāsana</a>
+      <a class="cell open" href="house1.html"><b>004 Half Fold</b>Ardha Uttanāsana</a>
+      <a class="cell open" href="house1.html"><b>005 Low Lunge</b>Añjaneyāsana</a>
+      <a class="cell open" href="house1.html"><b>006 Down Dog</b>Adho Mukha Śvānāsana</a>
+      <a class="cell open" href="house1.html"><b>007 Plank</b>Phalakāsana</a>
+      <a class="cell open" href="house1.html"><b>008 Chaturanga</b>Caturaṅga Daṇḍāsana</a>
+      <a class="cell open" href="house1.html"><b>009 Up Dog</b>Šrdhva Mukha Śvānāsana</a>
+      <a class="cell open" href="house1.html"><b>010 Warrior I</b>Vīrabhadrāsana I</a>
+      <a class="cell open" href="house1.html"><b>011 Warrior II</b>Vīrabhadrāsana II</a>
+      <a class="cell open" href="house1.html"><b>012 Triangle</b>Utthita Trikoṇāsana</a>
+      <a class="cell open" href="house1.html"><b>013 Rev. Triangle</b>Parivṛtta Trikoṇāsana</a>
+      <a class="cell open" href="house1.html"><b>014 Side Angle</b>Utthita Pārśvakoṇāsana</a>
+      <a class="cell open" href="house1.html"><b>015 Wide Fold</b>Prasārita Pādottānāsana</a>
+      <a class="cell open" href="house1.html"><b>016 Tree</b>Vṛkṣāsana</a>
+    </div>
+
+    <h2>House 2 · Water · 017–032 · WAITING</h2>
+    <div class="grid" id="h2"></div>
+    <h2>House 3 · Fire · 033–048 · WAITING</h2>
+    <div class="grid" id="h3"></div>
+
+    <h2>House 4 · Air · 049–064</h2>
+    <div class="grid" id="h4"></div>
+
+    <h2>House 5 · Ether · 065–080 · WAITING</h2>
+    <div class="grid" id="h5"></div>
+    <h2>House 6 · Sight · 081–096 · WAITING</h2>
+    <div class="grid" id="h6"></div>
+    <h2>House 7 · Crown · 097–112</h2>
+    <div class="grid" id="h7"></div>
+
+    <p>049 and 112 are seeded anchors. The empty pots wait for a name that is researched, not invented in a hurry.</p>
+    <footer><a href="index.html">School gate</a> · Practice is not medicine. <i>Sthira-sukham āsanam.</i></footer>
+  </div>
+<script>
+function cells(el, start, end, special){
+  var h='';
+  for(var n=start;n<=end;n++){
+    var s=special[n];
+    if(s){ h+='<a class="cell seed" href="'+s.href+'"><b>'+String(n).padStart(3,'0')+' '+s.name+'</b>'+s.sa+'</a>'; }
+    else { h+='<div class="cell wait"><b>'+String(n).padStart(3,'0')+'</b>waiting pot</div>'; }
+  }
+  el.innerHTML=h;
+}
+cells(document.getElementById('h2'),17,32,{});
+cells(document.getElementById('h3'),33,48,{});
+cells(document.getElementById('h4'),49,64,{49:{name:'Cobra',sa:'Bhujaṅgāsana',href:'index.html'}});
+cells(document.getElementById('h5'),65,80,{});
+cells(document.getElementById('h6'),81,96,{});
+cells(document.getElementById('h7'),97,112,{112:{name:'Lotus',sa:'Padmāsana',href:'index.html'}});
+</script>
+</body>
+</html>
