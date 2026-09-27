@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Pose · School of 112 Doorways</title>
+<style>
+  :root{--bg:#1a140c;--p:#ead7b0;--ink:#3a2a18;--muted:#7a5e3a;--v:#9c2b1a;--gold:#c9a227}
+  *{box-sizing:border-box}html,body{margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:Georgia,serif}
+  .page{max-width:560px;margin:0 auto;background:linear-gradient(180deg,#f3e2c2,#e4cf9e);min-height:100vh;padding:24px 20px 80px}
+  .brand{text-align:center;letter-spacing:.28em;font-size:.78rem;color:var(--v);text-transform:uppercase}
+  h1{text-align:center;font-weight:500;font-size:2rem;margin:8px 0 4px}
+  .sa{text-align:center;color:var(--muted);margin:0 0 16px}
+  .arch{border:2px solid #c4a56a;border-radius:160px 160px 12px 12px;padding:16px;text-align:center;background:rgba(255,255,255,.2);margin:12px 0 18px}
+  .film{font-size:.72rem;letter-spacing:.18em;color:var(--v);text-transform:uppercase}
+  .arch p{margin:8px 0 0;line-height:1.5}
+  .block{margin:14px 0;padding:12px 14px;background:rgba(255,255,255,.28);border-radius:12px;line-height:1.5}
+  .block b{color:var(--v)}
+  .nav{display:flex;justify-content:space-between;margin-top:22px;font-size:.95rem}
+  a{color:var(--v)}
+  .wait{text-align:center;padding:24px 8px;color:var(--muted)}
+  footer{margin-top:28px;text-align:center;font-size:.8rem;color:var(--muted)}
+</style>
+</head>
+<body>
+  <div class="page">
+    <div class="brand">Tejas Yātrī</div>
+    <h1 id="name">Door</h1>
+    <p class="sa" id="sa"></p>
+    <div class="arch">
+      <div class="film">The pot's breath</div>
+      <p id="film">Same mural camera as Door 001. Mist is breath, not fire. Start on the exhale.</p>
+    </div>
+    <div id="body"></div>
+    <div class="nav"><a id="prev" href="112.html">City</a><a id="next" href="112.html">City</a></div>
+    <footer>Look here. Breathe. Exit if it hurts. Practice is not medicine.</footer>
+  </div>
+<script>
+function pad(n){return String(n).padStart(3,'0')}
+var HOUSE=['Earth','Water','Fire','Air','Ether','Sight','Crown'];
+var OPEN={
+  1:{name:'Mountain',sa:'Tāḍāsana',g:'MERU',look:'three points of the feet — heel, big-toe pad, little-toe pad',water:'Start on the exhale. Mist at the feet. In 4, out 4. Six loops. No hold.',exit:'If it hurts, sit. Soft knees. A chair is still the mountain.',geo:'One vertical line. Base triangle of two feet.',yes:'soft knees, even three points',no:'locked legs, leaning, held breath',steps:['Stand. Arms hang. Head like a balloon on a string.','Find heel, big-toe pad, little-toe pad.','Exhale first. Then breathe four and four.','Ask: which point went quiet?']},
+  2:{name:'Sky Reach',sa:'Ūrdhva Hastāsana',g:'ŪRDHVA',look:'the hip hinge — belly and hips',water:'Arms rise on 4. Quiet one second. Out 4.',exit:'Shoulders at the ears = arms down.',geo:'Mountain plus two rising lines.',yes:'ribs stay quiet',no:'shrugging the neck',steps:['Keep the three foot points.','Float the arms. Do not shrug.','Notice the quiet at the top. Gift or squeeze?']},
+  3:{name:'Ragdoll Fold',sa:'Uttanāsana',g:'NAMANA',look:'the sacrum — the triangle bone',water:'In 4. Long out 6. Come up slow.',exit:'Room spins = sit. Do not yank head to toes.',geo:'Hinge at the hips. Soft knees.',yes:'heavy head, bent knees ok',no:'locked legs, pulling the neck',steps:['Tip from the hips.','Hang. Head is heavy.','Exhale longer than you inhale.','Rise like a sleepy cat.']},
+  4:{name:'Half Fold',sa:'Ardha Uttanāsana',g:'AR hapause',look:'length from tailbone through crown',water:'Inhale to lift and lengthen. Soft pause 2. Out 4.',exit:'Hands never press the knee joints.',geo:'Inverted L. Spine parallel to the floor.',yes:'long back, hands on shins or blocks',no:'rounded dump or neck crank',steps:['From the fold, lift the chest.','Hands find shins, thighs, or a chair.','One long line. Then fold or rise.']},
+  5:{name:'Low Lunge',sa:'Añjaneyāsana',g:'AÑJANI',look:'back-knee line into the front hip',water:'Inhale the chest. Exhale the hip down.',exit:'Front knee past toes or pinch = shorten.',geo:'Long scissor of legs. Tall spine.',yes:'back knee down if it needs to be',no:'dumping the low back',steps:['Step one foot forward.','Square the hip.','Stay or kneel the back knee.']},
+  6:{name:'Down Dog',sa:'Adho Mukha Śvānāsana',g:'ŚVANA',look:'the long V — sit-bones high',water:'Breathe into the back body. Soft knees.',exit:'Wrists scream = drop to forearms or child.',geo:'Two planes meeting at the hips.',yes:'bent knees allowed',no:'forcing heels down',steps:['Hands and feet. Hips high.','Let the head hang.','Walk or stay. Pain = down.']},
+  7:{name:'Plank',sa:'Phalakāsana',g:'PHALA',look:'one board from heels to crown',water:'Short even breath. Do not hold.',exit:'Hips pike or sag = knees down. Still plank.',geo:'One straight beam.',yes:'knees-down plank counts',no:'dumped lumbar, shrugged neck',steps:['Stack shoulders over wrists.','Press the floor away.','Leave before you shake apart.']},
+  8:{name:'Four-Limbed Staff',sa:'Caturaṅga Daṇḍāsana',g:'DAṆḌA',look:'elbows over wrists, chest not collapsed',water:'Exhale to lower. Do not pause in pain.',exit:'Shoulder pinch = knees down or skip.',geo:'Low beam, elbows close.',yes:'knees down is the twin',no:'shoulders dropping below elbows',steps:['From plank, bend the elbows back.','Hover or lower.','Move on. This door is brief.']},
+  9:{name:'Up Dog',sa:'Ūrdhva Mukha Śvānāsana',g:'MUKHA',look:'the chest lift, thighs light',water:'Inhale the chest. Exhale without collapsing.',exit:'Low-back pinch = cobra or child.',geo:'Hands under shoulders, chest through the arms.',yes:'Cobra is the twin',no:'dumping into the lumbar',steps:['Press the hands. Lift the chest.','Thighs off if they can.','Leave on the exhale.']},
+  10:{name:'Warrior I',sa:'Vīrabhadrāsana I',g:'VĪRA I',look:'the back heel and the square hip',water:'Rise on 4. Settle on 4.',exit:'Front knee past toes = shorten the stance.',geo:'Long stance, arms up, hip facing forward.',yes:'back heel lifted if it must',no:'front knee falling in',steps:['Step back. Bend the front knee.','Square the hip. Arms rise.','Stand the mountain on two different feet.']},
+  11:{name:'Warrior II',sa:'Vīrabhadrāsana II',g:'VĪRA II',look:'front knee over the ankle',water:'Even breath. Arms on the horizon.',exit:'Knee falling in or hip scream = rise.',geo:'Open stance. Gaze over the front hand.',yes:'short stance still counts',no:'locked back knee, collapsing front knee',steps:['Open the hips to the side.','Front knee tracks the toes.','Look past the front fingers.']},
+  12:{name:'Triangle',sa:'Utthita Trikoṇāsana',g:'TRIKOṆA',look:'the long side-body, not the floor hand',water:'Lengthen on inhale. Hinge on exhale.',exit:'Locked front knee or neck crank = hand higher.',geo:'Two legs as a triangle. Long side rib.',yes:'hand on shin or block',no:'forcing the floor',steps:['Wide feet. Hinge at the front hip.','Reach long, then rest the hand.','Look where the neck is happy.']},
+  13:{name:'Revolved Triangle',sa:'Parivṛtta Trikoṇāsana',g:'PARIVṚTTA',look:'the twist from the belly, not the neck',water:'Inhale length. Exhale turn.',exit:'Dizzy or low-back pinch = block or skip.',geo:'Closed hips, rotated ribcage.',yes:'hand to a block',no:'wrenching the neck to look up',steps:['Hinge first. Then turn.','Belly leads. Neck follows last.','Undo as slow as you entered.']},
+  14:{name:'Side Angle',sa:'Utthita Pārśvakoṇāsana',g:'PĀRŚVA',look:'the underside of the long rib',water:'Breathe into that underside.',exit:'Front knee collapsing = block, shorter stance.',geo:'Warrior II legs plus a long side line.',yes:'forearm on the thigh',no:'dumping into the front hip',steps:['Bend the front knee.','Long line from back foot to top hand.','Breathe under the ribs.']},
+  15:{name:'Wide Fold',sa:'Prasārita Pādottānāsana',g:'PRASĀRITA',look:'the crown hanging between even feet',water:'Long exhale. Rise on an inhale.',exit:'Room spins = bend knees, rise slow.',geo:'Two pillars. Hinge. Hang.',yes:'hands to blocks or shins',no:'locking both knees to look flexible',steps:['Wide feet. Hinge. Hang.','Weight even.','Come up with a long spine.']},
+  16:{name:'Tree',sa:'Vṛkṣāsana',g:'VṚKṢA',look:'the standing-foot three points',water:'Small even breath. The tree does not hold air.',exit:'Falling is allowed. Toe on the floor still counts.',geo:'One root. One branch.',yes:'foot to ankle or calf',no:'foot jammed into the standing knee',steps:['Root the standing foot.','Place the other foot. Hands optional.','Eyes on one still thing.']},
+  49:{name:'Cobra',sa:'Bhujaṅgāsana',g:'NĀGINĪ',look:'the heart lifting the earth',water:'Inhale the chest. Exhale without collapsing.',exit:'Low-back pinch = lower. Elbows stay bent if needed.',geo:'Prone arc. Pubic bone stays heavy.',yes:'small lift',no:'cranking the neck back',steps:['Lie. Hands by the ribs.','Lift the heart. Stay heavy in the pelvis.','Lower on an exhale.']},
+  112:{name:'Lotus',sa:'Padmāsana',g:'PADMA',look:'the quiet at the center of the seat',water:'OM then silence. Or just breathe.',exit:'Never force lotus. Open seat is the twin.',geo:'Two folded legs. Tall spine.',yes:'easy seat, sukhāsana, chair',no:'pulling the knees into pain',steps:['Sit. Do not invent a lotus you do not have.','Tall spine. Soft jaw.','Stay. Leave before numbness becomes damage.']}
+};
+var n=parseInt((location.search.match(/[?&]n=(\d+)/)||[0,1])[1],10);
+if(!n||n<1||n>112)n=1;
+var house=Math.ceil(n/16);
+var d=OPEN[n];
+document.title=pad(n)+' · School of 112';
+if(!d){
+  document.getElementById('name').textContent='Waiting pot '+pad(n);
+  document.getElementById('sa').textContent='House '+house+' · '+HOUSE[house-1]+' · unnamed on purpose';
+  document.getElementById('film').textContent='Same Tejas. Same arch. Same clothes. No film until this door is named and researched.';
+  document.getElementById('body').innerHTML='<div class="wait">Null is not a secret name. The pot is empty so it stays honest.</div>';
+}else{
+  document.getElementById('name').textContent=d.name;
+  document.getElementById('sa').textContent=pad(n)+' · '+d.sa+' · Guardian '+d.g+' · House '+house;
+  if(n===1)document.getElementById('film').textContent='Official loop: mist at the feet = exhale. Mist climbs = inhale. Mist falls = exhale. Six rounds.';
+  var steps='<ol>'+d.steps.map(function(s){return '<li>'+s+'</li>'}).join('')+'</ol>';
+  document.getElementById('body').innerHTML=
+    '<div class="block"><b>Look here.</b> '+d.look+'</div>'+
+    '<div class="block"><b>Water.</b> '+d.water+'</div>'+
+    '<div class="block"><b>Geometry.</b> '+d.geo+'</div>'+
+    '<div class="block"><b>Steps.</b> '+steps+'</div>'+
+    '<div class="block"><b>YES.</b> '+d.yes+'<br><b>NO.</b> '+d.no+'</div>'+
+    '<div class="block"><b>Exit.</b> '+d.exit+'</div>';
+}
+var p=n===1?112:n-1, nx=n===112?1:n+1;
+document.getElementById('prev').href='pose.html?n='+p;
+document.getElementById('prev').textContent='← '+pad(p);
+document.getElementById('next').href='pose.html?n='+nx;
+document.getElementById('next').textContent=pad(nx)+' →';
+</script>
+</body>
+</html>
