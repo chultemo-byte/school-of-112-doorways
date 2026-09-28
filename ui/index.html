@@ -21,6 +21,7 @@
   .film .poster span{color:var(--muted);font-size:.95rem;line-height:1.45}
   .film-cap{padding:12px 14px 14px;font-size:.82rem;color:var(--muted);letter-spacing:.04em;text-align:center;background:rgba(0,0,0,.35)}
   .film-cap b{color:var(--gold);font-weight:500}
+  .livebtn{display:block;width:100%;margin:10px 0 0;background:var(--vermilion);color:#f4efe6;border:0;border-radius:999px;padding:14px 18px;font-family:Georgia,serif;font-size:1.05rem;letter-spacing:.04em;cursor:pointer}
   .rule{border:1px solid rgba(255,255,255,.18);border-radius:16px;padding:18px 20px;margin:28px 0;background:rgba(201,162,39,.06)}
   .rule b{color:var(--ink);display:block;margin-bottom:6px;font-size:1.1rem}
   .doors{display:grid;gap:14px;margin-top:32px}
@@ -47,6 +48,8 @@
   .guru input:focus{outline:none;border-color:var(--gold)}
   .guru button{background:var(--gold);color:#0b0a12;border:none;border-radius:12px;padding:0 18px;font-family:system-ui,sans-serif;font-weight:600;cursor:pointer}
   .guru .g-foot{margin-top:12px;font-size:.8rem;color:var(--muted)}
+  .chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}
+  .chips button{border:1px solid rgba(201,162,39,.4);background:rgba(201,162,39,.08);color:var(--ink);border-radius:999px;padding:8px 12px;font-family:Georgia,serif;cursor:pointer}
   .free{margin-top:36px;color:var(--muted);font-size:.9rem;line-height:1.5}
   .free b{color:var(--ink)}
   footer{margin-top:48px;color:var(--muted);font-size:.85rem}
@@ -67,10 +70,11 @@
       </div>
       <div class="film-cap"><b>GURU MERU</b> · Door 001 · Mountain · six-second loop · start on the exhale</div>
     </div>
+    <button class="livebtn" id="liveOpen" type="button">Guru Meru · live instruction</button>
 
     <div class="rule"><b>The one rule. Free. Forever.</b> If it hurts, stop. That is not weakness. That is the whole practice. Soft knees. No breath-holding. A chair still counts as the door.</div>
     <div class="doors">
-      <a class="door" href="door-001.html"><b>001 — Tāḍāsana</b><span>Mountain · MERU · LAM · vermilion · the film lives here too</span></a>
+      <a class="door" href="door-001.html"><b>001 — Tāḍāsana</b><span>Mountain · live instruction button lives here too</span></a>
       <a class="door" href="door-2.html"><b>002 — Ūrdhva Hastāsana</b><span>Sky Reach · hinge · soft pause</span></a>
       <a class="door" href="door-3.html"><b>003 — Uttanāsana</b><span>Ragdoll Fold · sacrum · longer exhale</span></a>
       <a class="door" href="112.html"><b>The city of 112</b><span>7 houses · 16 doors · waiting pots stay empty</span></a>
@@ -89,19 +93,27 @@
       <div class="g-head">
         <div class="g-orb"></div>
         <div>
-          <div class="g-name">Guru Meru</div>
-          <div class="g-role">guardian of Door 001 · the axis</div>
+          <div class="g-name">Guru Meru · live instruction</div>
+          <div class="g-role">guardian of Door 001 · answers only from the plate</div>
         </div>
       </div>
-      <p class="g-say" id="g-say">I am Guru Meru. I know one door — the Mountain — and I know it completely. The film above is my body. Stand where you are. Tell me what you feel in your feet, and I will answer.</p>
+      <p class="g-say" id="g-say">I am Guru Meru. I know one door — the Mountain — and I know it completely. Ask the feet, the water, or the exit. I will not invent.</p>
+      <div class="chips">
+        <button type="button" data-q="look here">Look here?</button>
+        <button type="button" data-q="water">The water?</button>
+        <button type="button" data-q="exit">The exit?</button>
+        <button type="button" data-q="start">How do I start?</button>
+        <button type="button" data-q="hurt">It hurts</button>
+        <button type="button" data-q="geometry">Geometry?</button>
+      </div>
       <div class="g-input">
         <input id="g-in" placeholder="which foot point went quiet?" autocomplete="off" />
-        <button id="g-btn">Ask</button>
+        <button id="g-btn" type="button">Ask</button>
       </div>
-      <div class="g-foot">Guru Meru answers from the accepted Door 001 plate. He does not invent. He does not rush.</div>
+      <div class="g-foot">Look here. Breathe. Exit if it hurts. Teen voice. Not a lecture.</div>
     </div>
 
-    <p class="free"><b>This gate is free.</b> The film is the first teacher. Three doors. Two voices. The city map. The one rule on every plate. No card. No login. Walk in.</p>
+    <p class="free"><b>This gate is free.</b> The film is the first teacher. The button under the film is Guru Meru.</p>
     <footer>Practice is not treatment. <i>Sthira-sukham āsanam.</i></footer>
   </div>
 <script>
@@ -114,38 +126,42 @@
   }
   var say=document.getElementById('g-say');
   var inp=document.getElementById('g-in');
-  var btn=document.getElementById('g-btn');
   var replies=[
-    {k:['quiet','quiet first','went quiet','which'],t:'The quiet point is the door. Press it again, gently. That is where your mind wandered — and where it returns. Stay there one breath.'},
-    {k:['hurt','pain','stop'],t:'Then stop. Soften the knees. Sit if you need to. A chair is still the Mountain. The rule is not a suggestion.'},
-    {k:['breath','breathe','flower','bubble'],t:'Smell a flower — four. Blow a bubble — four. Six rounds. Soft knees the whole time. The breath is the water; the feet are the ground.'},
-    {k:['heel'],t:'The heel is root. Feel it press. If it is loud and the toes are silent, your weight has slid back. Find the middle again.'},
-    {k:['big toe','big-toe','toe pad'],t:'The big-toe pad is the forward root. Press it. If it is quiet, you are tipping back. The mountain does not lean.'},
-    {k:['little toe','little-toe'],t:'The little-toe pad is the side root. Press it. If it is quiet, you are collapsing inward. Open the outer edge.'},
-    {k:['weight','even','balance'],t:'Even weight across all three. Not equal force — equal attention. The feet do not argue.'},
-    {k:['soft knee','knees','locked'],t:'Soft knees. Never locked. A locked knee is a held breath in the leg. Let it bend a hair.'},
-    {k:['mountain','tadasana','tāḍāsana','stand'],t:'You are already standing. That is the whole pose. The mountain does not imagine. It just stands. Borrow that.'},
-    {k:['film','video','movie'],t:'The film is me standing. Watch the mist. Inhale it climbs. Exhale it falls. Start on the exhale. Soft knees. That is the whole class.'},
-    {k:['done','finish','exit','leave'],t:'Soften the knees. Carry the quiet. Or sit. The door closes when you choose — not when it is forced.'}
+    {k:['look','quiet','point','foot'],t:'Look here: heel, big-toe pad, little-toe pad. The quiet point is the door. Press it again, gently.'},
+    {k:['water','breath','flower','bubble','inhale','exhale'],t:'The water: start on the exhale. Mist at the feet. In four, out four. Six loops. No hold.'},
+    {k:['exit','hurt','pain','stop','sit'],t:'If it hurts, sit. A chair is still the Mountain. That is the whole rule.'},
+    {k:['start','begin','how'],t:'Stand. Soft knees. Find three points. Start on the exhale. Watch the mist climb and fall.'},
+    {k:['geometry','line','column'],t:'One vertical column. Soles through pelvis to crown. Zero-degree tilt. Arms rest.'},
+    {k:['heel'],t:'The heel is root. If it is loud and the toes are silent, your weight slid back.'},
+    {k:['big'],t:'The big-toe pad is the forward root. If it is quiet, you are tipping back.'},
+    {k:['little'],t:'The little-toe pad is the side root. If it is quiet, you are collapsing inward.'},
+    {k:['knee','locked','soft'],t:'Soft knees. A locked knee is a held breath in the leg. Let it bend a hair.'},
+    {k:['meru','fidget'],t:'I do not fidget. You do not have to either.'}
   ];
-  var fallback='I hear you. The Mountain has one answer for everything: press the three points, breathe four and four, and stop if it hurts. Ask me something specific about the feet, the breath, or the rule.';
+  var fallback='I hear you. Press the three points. Breathe four and four. Stop if it hurts. Ask the feet, the water, or the exit.';
   function answer(q){
     q=(q||'').toLowerCase();
     for(var i=0;i<replies.length;i++){
-      var r=replies[i];
-      for(var j=0;j<r.k.length;j++){ if(q.indexOf(r.k[j])!==-1) return r.t; }
+      for(var j=0;j<replies[i].k.length;j++){ if(q.indexOf(replies[i].k[j])!==-1) return replies[i].t; }
     }
     return fallback;
   }
-  function go(){
-    var q=inp.value.trim();
+  function go(q){
+    q=q||inp.value.trim();
     if(!q) return;
     say.textContent=answer(q);
     inp.value='';
     inp.focus();
   }
-  btn.addEventListener('click',go);
+  document.getElementById('g-btn').addEventListener('click',function(){ go(); });
   inp.addEventListener('keydown',function(e){ if(e.key==='Enter') go(); });
+  document.getElementById('liveOpen').addEventListener('click',function(){
+    document.getElementById('guru').scrollIntoView({behavior:'smooth',block:'center'});
+    inp.focus();
+  });
+  document.querySelectorAll('.chips button').forEach(function(b){
+    b.addEventListener('click',function(){ go(b.getAttribute('data-q')); });
+  });
 })();
 </script>
 </body>
