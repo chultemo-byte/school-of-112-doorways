@@ -1,1 +1,97 @@
-PLACEHOLDER
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>002 · Sky Reach · Guru Meru</title>
+<style>
+:root{--ink:#3a2a18;--muted:#7a5e3a;--vermilion:#9c2b1a;--arch:#c4a56a}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:#2b2116;color:var(--ink);font-family:Georgia,serif}
+.page{max-width:560px;margin:0 auto;background:linear-gradient(180deg,#f0e0c0,#e4cf9e);min-height:100vh;padding:28px 22px 80px}
+.title{text-align:center;letter-spacing:.28em;font-size:.82rem;color:var(--vermilion);text-transform:uppercase}
+h1{text-align:center;font-weight:500;font-size:2rem;margin:8px 0 4px}
+.sa{text-align:center;color:var(--muted);margin:0 0 14px}
+.stage{position:relative;border:2px solid var(--arch);border-radius:18px;overflow:hidden;background:#1a140c;min-height:440px;margin:0 0 12px}
+.arch{position:absolute;inset:18px 48px 78px;border:2px solid #c4a56a;border-radius:180px 180px 12px 12px}
+.body{position:absolute;left:50%;bottom:86px;width:16px;height:200px;margin-left:-8px;background:#c4a882;border-radius:10px}
+.head{position:absolute;left:50%;bottom:276px;width:34px;height:34px;margin-left:-17px;background:#d7b48a;border-radius:50%}
+.arm{position:absolute;left:50%;bottom:246px;width:8px;height:148px;background:#c4a882;border-radius:6px;transform-origin:50% 100%}
+.arm.l{transform:rotate(26deg);margin-left:-4px}
+.arm.r{transform:rotate(-26deg);margin-left:-4px}
+.cloth{position:absolute;left:50%;bottom:86px;width:68px;height:116px;margin-left:-34px;background:#f4efe6;border-radius:8px 8px 20px 20px}
+.mist{position:absolute;left:0;right:0;bottom:0;height:36%;background:radial-gradient(ellipse at 50% 100%, rgba(156,43,26,.62), transparent 70%);animation:breath 8s ease-in-out infinite}
+@keyframes breath{0%,100%{transform:translateY(16%);opacity:.4}50%{transform:translateY(-28%);opacity:.9}}
+.cap{position:absolute;left:0;right:0;bottom:0;padding:10px;text-align:center;font-size:.78rem;color:#e8d7b4;background:rgba(24,16,10,.55)}
+.cap b{color:#e7c56a}
+.livebtn{display:block;width:100%;margin:0 0 16px;background:var(--vermilion);color:#f4efe6;border:0;border-radius:999px;padding:14px 18px;font-family:Georgia,serif;font-size:1.05rem;cursor:pointer}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.tile{border:1px solid var(--arch);border-radius:10px;padding:12px;background:rgba(255,255,255,.22)}
+.k{color:var(--vermilion);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px}
+.law{font-size:.95rem;line-height:1.55}
+h2{font-size:1.05rem;margin:22px 0 8px;color:var(--vermilion);letter-spacing:.08em;text-transform:uppercase}
+a{color:var(--vermilion)}
+footer{margin-top:28px;font-size:.8rem;color:var(--muted);text-align:center}
+.overlay{position:fixed;inset:0;background:rgba(24,16,10,.72);display:none;align-items:flex-end;justify-content:center;z-index:40}
+.overlay.on{display:flex}
+.panel{width:min(560px,100%);background:#f0e0c0;border-radius:22px 22px 0 0;padding:20px 18px 32px}
+.who{letter-spacing:.2em;text-transform:uppercase;color:var(--vermilion);font-size:.72rem}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+.chips button{border:1px solid var(--arch);background:#fff;border-radius:999px;padding:8px 12px;font-family:Georgia,serif;color:var(--ink);cursor:pointer}
+.close{float:right;background:transparent;border:0;font-size:1.2rem;color:var(--muted);cursor:pointer}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="title">Guru Meru</div>
+  <h1>Sky Reach</h1>
+  <p class="sa">Door 002 · Ūrdhva Hastāsana · House 1 · Mūlādhāra · LAM</p>
+  <div class="stage" aria-label="Guru Meru arms raised">
+    <div class="arch"></div>
+    <div class="arm l"></div><div class="arm r"></div>
+    <div class="head"></div><div class="body"></div><div class="cloth"></div>
+    <div class="mist"></div>
+    <div class="cap"><b>GURU MERU</b> · arms rise · mist is the breath · start on the exhale</div>
+  </div>
+  <button class="livebtn" id="liveOpen" type="button">Guru Meru · live instruction</button>
+  <div class="grid">
+    <div class="tile"><div class="k">Look here</div>Thumbs, or a soft horizontal gaze if the neck wants rest.</div>
+    <div class="tile"><div class="k">The exit</div>Exhale the arms down to Mountain. Soften the shoulders.</div>
+    <div class="tile"><div class="k">Yes</div>Shoulders away from the ears. Soft knees.</div>
+    <div class="tile"><div class="k">No</div>Arms jammed behind the ears.</div>
+  </div>
+  <h2>The water</h2>
+  <p class="law">Inhale arms up for four. Soft pause at the top. Exhale four. Never force the pause. Mist climbs in. Mist falls out.</p>
+  <h2>Geometry</h2>
+  <p class="law">Mountain base. Arms rise on one line from soles through side ribs to fingertips. Soft elbows. Shoulders drop. Ribs quiet. Do not tip back.</p>
+  <h2>Five ways</h2>
+  <p class="law">1 Stand. 2 Raise both arms. 3 Drop the shoulders. 4 Breathe four and four. 5 Stop if it hurts.</p>
+  <h2>Safety</h2>
+  <p class="law">If the shoulders or low back complain, lower the arms. A chair still opens this door. Practice is not medicine.</p>
+  <p class="law"><a href="door-001.html">← 001</a> · <a href="index.html">gate</a> · <a href="door-003.html">003 →</a></p>
+  <footer>Same body. Same cloth. Same camera. The old Tejas loop stays off this page.</footer>
+</div>
+<div class="overlay" id="live">
+  <div class="panel">
+    <button class="close" id="liveClose" type="button">×</button>
+    <div class="who">Guru Meru · live instruction</div>
+    <p id="say">Arms up. Shoulders down. Start on the exhale.</p>
+    <div class="chips">
+      <button type="button" data-q="look">Look here?</button>
+      <button type="button" data-q="water">The water?</button>
+      <button type="button" data-q="exit">The exit?</button>
+      <button type="button" data-q="hurt">It hurts</button>
+    </div>
+  </div>
+</div>
+<script>
+(function(){
+  var say=document.getElementById('say');
+  var lines={look:'Look here: thumbs, or a soft horizontal gaze if the neck wants rest.',water:'The water: inhale four as the arms rise. Soft pause. Exhale four. Never force the pause.',exit:'The exit: exhale the arms down to Mountain. Soften the shoulders.',hurt:'If it hurts, lower the arms. Sit. A chair is still the mountain.'};
+  document.getElementById('liveOpen').onclick=function(){document.getElementById('live').className='overlay on';};
+  document.getElementById('liveClose').onclick=function(){document.getElementById('live').className='overlay';};
+  document.querySelectorAll('.chips button').forEach(function(b){b.onclick=function(){say.textContent=lines[b.getAttribute('data-q')]||lines.look;};});
+})();
+</script>
+</body>
+</html>
