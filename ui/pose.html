@@ -5,144 +5,32 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Door · School of 112 Doorways</title>
 <style>
-  :root{--bg:#0b0a12;--ink:#f4efe6;--muted:#9a8f7a;--gold:#c9a227;--vermilion:#c0392b}
-  *{box-sizing:border-box} html,body{margin:0;padding:0}
-  body{background:#0b0a12;color:var(--ink);font-family:Georgia,serif;min-height:100vh}
-  .wrap{max-width:640px;margin:0 auto;padding:28px 18px 100px}
-  a{color:var(--gold);text-decoration:none}
-  .eyebrow{color:var(--gold);letter-spacing:.22em;text-transform:uppercase;font-size:.72rem}
-  h1{font-weight:500;font-size:clamp(1.8rem,6vw,2.6rem);margin:8px 0}
-  .sa{color:var(--muted)}
-  .seal{font-size:1.15rem}
-  .slot{border:1px solid rgba(201,162,39,.4);border-radius:18px;min-height:200px;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;background:#1a140c;color:var(--muted);margin:14px 0}
-  .livebtn{display:block;width:100%;margin:0 0 16px;background:var(--vermilion);color:#f4efe6;border:0;border-radius:999px;padding:14px 18px;font-family:Georgia,serif;font-size:1.05rem;cursor:pointer}
-  section{margin:14px 0}
-  h2{font-size:1rem;color:var(--gold);font-weight:500;margin:0 0 6px}
-  p,li{line-height:1.5}
-  .waits{color:var(--muted);font-style:italic}
-  .safety span{display:block}
-  .yn{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-  .yn div{border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:10px}
-  nav{display:flex;justify-content:space-between;gap:8px;margin-top:18px}
-  footer{margin-top:22px;color:var(--muted);font-size:.85rem}
-  .err{color:var(--vermilion)}
-  .overlay{position:fixed;inset:0;background:rgba(24,16,10,.72);display:none;align-items:flex-end;justify-content:center;z-index:40}
-  .overlay.on{display:flex}
-  .panel{width:min(560px,100%);background:#f0e0c0;color:#3a2a18;border-radius:22px 22px 0 0;padding:20px 18px 32px}
-  .panel .who{letter-spacing:.2em;text-transform:uppercase;color:#9c2b1a;font-size:.72rem}
-  .chips{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
-  .chips button{border:1px solid #c4a56a;background:rgba(255,255,255,.4);border-radius:999px;padding:8px 12px;font-family:Georgia,serif;cursor:pointer;color:#3a2a18}
-  .ask{display:flex;gap:8px}
-  .ask input{flex:1;padding:10px;border-radius:10px;border:1px solid #c4a56a;font-family:Georgia,serif}
-  .ask button,.close{background:#9c2b1a;color:#f4efe6;border:0;border-radius:10px;padding:10px 14px;cursor:pointer}
-  .close{float:right;background:transparent;color:#7a5e3a;font-size:1.2rem}
+  body{margin:0;background:#0b0a12;color:#f4efe6;font-family:Georgia,serif}
+  .wrap{max-width:640px;margin:0 auto;padding:28px 18px}
+  .eyebrow{color:#c9a227;letter-spacing:.22em;text-transform:uppercase;font-size:.72rem}
+  a{color:#c9a227}
 </style>
 </head>
 <body>
   <div class="wrap">
     <div class="eyebrow">Guru Meru · 001 mold locked</div>
-    <div id="app"><p>Loading the pot.</p></div>
-  </div>
-  <div class="overlay" id="live">
-    <div class="panel">
-      <button class="close" id="liveClose" type="button">×</button>
-      <div class="who">Guru Meru · live instruction</div>
-      <p id="say">Ask look-here, water, or exit. I will not invent.</p>
-      <div class="chips">
-        <button type="button" data-q="look">Look here?</button>
-        <button type="button" data-q="water">The water?</button>
-        <button type="button" data-q="exit">The exit?</button>
-        <button type="button" data-q="start">How do I start?</button>
-        <button type="button" data-q="hurt">It hurts</button>
-      </div>
-      <div class="ask"><input id="qin" placeholder="ask the plate" autocomplete="off" /><button type="button" id="ask">Ask</button></div>
-    </div>
+    <p id="app">Opening the pot.</p>
   </div>
 <script>
 (function(){
-  function pad(n){return String(n).padStart(3,"0");}
-  function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&","<":"<",">":">","\"":""","'":"&#39;"}[c];});}
-  function nFrom(){var m=location.search.match(/[?&]n=(\d+)/);var n=m?parseInt(m[1],10):1;if(n<1)n=1;if(n>112)n=112;return n;}
-  var HOUSES=[
-    {name:"Mūlādhāra",el:"Earth",bija:"LAM",color:"vermilion"},
-    {name:"Svādhiṣṭhāna",el:"Water",bija:"VAM",color:"orange"},
-    {name:"Maṇipūra",el:"Fire",bija:"RAM",color:"gold"},
-    {name:"Anāhata",el:"Air",bija:"YAM",color:"emerald"},
-    {name:"Viśuddha",el:"Ether",bija:"HAM",color:"blue"},
-    {name:"Ājñā",el:"Light",bija:"OM",color:"indigo"},
-    {name:"Sahasrāra",el:"Silence",bija:"OM",color:"violet-white"}
-  ];
-  function houseOf(n){return HOUSES[Math.ceil(n/16)-1];}
-  function named(n){return (n>=1&&n<=16)||n===49||n===112;}
-  var PLATE=null;
-  function speakPlate(q){
-    q=(q||"").toLowerCase();
-    if(!PLATE) return "The pot is still loading.";
-    if(PLATE.sealed){
-      if(/hurt|pain|stop|exit|sit/.test(q)) return "If it hurts, stop. A chair still opens the door.";
-      return "This pot is sealed. A name will arrive honestly. Look here. Breathe. Exit if it hurts.";
-    }
-    if(/look|quiet|gaze|focus/.test(q)) return "Look here: "+(PLATE.look||"the quiet point.");
-    if(/water|breath|inhale|exhale/.test(q)) return PLATE.water||"Start on the exhale.";
-    if(/exit|hurt|pain|stop|sit/.test(q)) return PLATE.exit||"If it hurts, sit.";
-    if(/start|begin|how/.test(q)) return "Start on the exhale. Soft knees. Find the look-here. Stop if it hurts.";
-    return "Ask look-here, water, or exit. I will not invent.";
-  }
-  document.getElementById("liveClose").onclick=function(){document.getElementById("live").className="overlay";};
-  document.getElementById("ask").onclick=function(){var q=document.getElementById("qin").value.trim()||"look";document.getElementById("say").textContent=speakPlate(q);};
-  document.querySelectorAll(".chips button").forEach(function(b){b.onclick=function(){document.getElementById("say").textContent=speakPlate(b.getAttribute("data-q"));};});
-  function render(door){
-    var n=door.number,h=houseOf(n),html="";
-    PLATE=door;
-    if(door.sealed){
-      html+="<h1>Door "+pad(n)+"</h1>";
-      html+="<p class=\"seal\">this pot is sealed — a name will arrive honestly.</p>";
-      html+="<p>House "+door.house+" · "+esc(h.name)+" · "+esc(h.el)+" · "+esc(h.bija)+" · "+esc(h.color)+"</p>";
-      html+="<div class=\"slot\">Guru Meru stands in the unnamed pot. Same body. Same cloth. Same camera. The shape waits.</div>";
-      html+="<button class=\"livebtn\" id=\"liveOpen\" type=\"button\">Guru Meru · live instruction</button>";
-      html+="<section><h2>Look here</h2><p class=\"waits\">waits</p></section>";
-      html+="<section><h2>Water</h2><p>Start on the exhale.</p></section>";
-      html+="<section><h2>Exit</h2><p>If it hurts, stop. A chair still opens the door.</p></section>";
-      document.title=pad(n)+" · sealed";
-    } else {
-      html+="<h1>"+esc(door.english)+"</h1>";
-      html+="<p class=\"sa\">"+esc(door.sanskrit)+" · Door "+pad(n)+" · House "+door.house+" · "+esc(door.house_name||h.name)+" · "+esc(door.bija||h.bija)+"</p>";
-      html+="<div class=\"slot\">"+(door.film?"<video controls playsinline src=\""+esc(door.film)+"\"></video>":"animation slot — same camera as 001. Guru Meru. Same cloth.")+"</div>";
-      html+="<button class=\"livebtn\" id=\"liveOpen\" type=\"button\">Guru Meru · live instruction</button>";
-      html+="<section><h2>Look here</h2><p>"+esc(door.look)+"</p></section>";
-      html+="<section><h2>Water</h2><p>"+esc(door.water)+"</p></section>";
-      html+="<section><h2>Exit</h2><p>"+esc(door.exit)+"</p></section>";
-      html+="<section><h2>Yes</h2><p>"+esc(door.yes||"Soft knees.")+"</p></section>";
-      html+="<section><h2>No</h2><p>"+esc(door.no||"Do not force.")+"</p></section>";
-      html+="<section><h2>Safety</h2><p>If it hurts, stop. A chair still opens the door. Practice is not medicine.</p></section>";
-      document.title=pad(n)+" · "+door.english;
-    }
-    html+="<nav>"+(n>1?"<a href=\"pose.html?n="+(n-1)+"\">← "+pad(n-1)+"</a>":"<span>001</span>");
-    html+="<a href=\"door-001.html\">001 mold</a>";
-    html+=(n<112?"<a href=\"pose.html?n="+(n+1)+"\">"+pad(n+1)+" →</a>":"<span>112</span>")+"</nav>";
-    html+="<footer>001 template locked. Named pots 001–016 + 049 + 112. 017–021 sealed. <i>Sthira-sukham āsanam.</i></footer>";
-    document.getElementById("app").innerHTML=html;
-    var btn=document.getElementById("liveOpen");
-    if(btn) btn.onclick=function(){document.getElementById("live").className="overlay on";document.getElementById("say").textContent=speakPlate("start");};
-  }
-  function load(){
-    var n=nFrom();
-    fetch("https://cdn.jsdelivr.net/gh/chultemo-byte/school-of-112-doorways@main/public/doors.json").then(function(r){return r.json();}).then(function(doors){
-      var door=null;
-      for(var i=0;i<doors.length;i++) if(doors[i].number===n) door=doors[i];
-      if(!door){
-        var h=houseOf(n);
-        door={number:n,sealed:!named(n),english:null,sanskrit:null,look:null,water:null,exit:"If it hurts, stop. A chair still opens the door.",house:Math.ceil(n/16),house_name:h.name,bija:h.bija};
-      } else {
-        door.sealed = door.status==="sealed_unnamed" || !door.english;
-      }
-      render(door);
-    }).catch(function(){
-      var h=houseOf(n);
-      render({number:n,sealed:!named(n),english:named(n)?null:null,look:null,water:"Start on the exhale.",exit:"If it hurts, stop. A chair still opens the door.",house:Math.ceil(n/16),house_name:h.name,bija:h.bija});
-    });
-  }
-  load();
+  var m=location.search.match(/[?&]n=(\d+)/);
+  var n=m?parseInt(m[1],10):1;
+  if(n<1)n=1; if(n>112)n=112;
+  if(n===1){ location.replace("door-001.html"); return; }
+  if(n===2){ location.replace("door-002.html"); return; }
+  var named=(n>=1&&n<=16)||n===49||n===112;
+  var houses=["M\u016bl\u0101dh\u0101ra","Sv\u0101dhi\u1e63\u1e6dh\u0101na","Ma\u1e47ip\u016bra","An\u0101hata","Vi\u015buddha","\u0100j\u00f1\u0101","Sahasr\u0101ra"];
+  var bijas=["LAM","VAM","RAM","YAM","HAM","OM","OM"];
+  var h=Math.ceil(n/16);
+  var pad=String(n).padStart(3,"0");
+  document.getElementById("app").innerHTML = named
+    ? "<h1>Door "+pad+"</h1><p>The plate is in the constructor pots. Film waits.</p><p><a href=\"door-001.html\">001 mold</a> · <a href=\"door-002.html\">002 Sky Reach</a></p>"
+    : "<h1>Door "+pad+"</h1><p>This pot is sealed. A name will arrive honestly.</p><p>House "+h+" · "+houses[h-1]+" · "+bijas[h-1]+"</p><p>If it hurts, stop. A chair still opens the door.</p><p><a href=\"door-002.html\">002</a> · <a href=\"door-001.html\">001</a></p>";
 })();
 </script>
 </body>
