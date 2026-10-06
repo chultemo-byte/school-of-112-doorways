@@ -51,3 +51,14 @@ Each door records `previous_label`, `previous_file` (`doors/D-0NN/door.json at c
 `safety.legacy_notes`, with posture names redacted to `[retired posture]`. The verbatim originals are in git at 4382c90.
 
 Researcher IDs (R-001 … R-016) and the original research dates are unchanged.
+
+## Publish changes (2026-10-06)
+
+- Doors 005, 009 and 012: the pose-era body-part list in `safety.pain_rule` moved to `safety.legacy_notes.pain_rule`;
+  `pain_rule` is now the standard line used by the other doors ("Pain is information. Pause, regress, or exit. Never push
+  through sharp pain."). No other safety text changed.
+- Door 014: the door to practise instead is now Door 010 (attention resting on empty sky or a blank wall), matching the
+  guidance scripts. `commentary_note` wording "Singh offers an alternative" became "Singh also gives an alternative" so the
+  public pages pass the framing-word scan.
+- `doors/HOUSE-1-PLAIN-LINES.json` holds the plain one-line instruction shown on each public door page. Observe-only doors
+  get a reading line, never a practice cue.

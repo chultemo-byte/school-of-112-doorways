@@ -118,7 +118,7 @@
     }
   },
   "safety": {
-    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain in the front knee, back knee, hips, or low back.",
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
     "never_force": true,
     "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
     "contraindication_notes": "General practice caution only; not medical advice. Visualisation only, with ordinary breath. If the practice brings agitation, heat, shaking or strong emotion, stop, open the eyes and rest attention on the feet and the floor. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
@@ -126,6 +126,7 @@
       "source": "doors/D-005/door.json at commit 4382c90",
       "open_seat_alternate": "If kneeling is unavailable: take a [retired posture] with the back knee lifted and hands on blocks, or practice the rising-attention thread seated upright in an open seat.",
       "contraindication_notes": "General practice caution only; not medical advice. Pad the back knee. Keep the front knee tracking over the ankle, not collapsing inward. Skip deep backbending versions if the low back complains.",
+      "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain in the front knee, back knee, hips, or low back.",
       "status": "Posture-specific cautions, kept for traceability; they no longer apply because this door teaches no posture."
     }
   },

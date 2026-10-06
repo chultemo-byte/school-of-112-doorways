@@ -117,7 +117,7 @@
     }
   },
   "safety": {
-    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain in wrists, low back, neck, or legs.",
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
     "never_force": true,
     "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
     "contraindication_notes": "General practice caution only; not medical advice. If attention to the senses becomes overwhelming, open the eyes and look at one simple object in the room. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
@@ -125,6 +125,7 @@
       "source": "doors/D-009/door.json at commit 4382c90",
       "open_seat_alternate": "[retired posture] ([retired posture]) or [retired posture] with thighs down; or hands on blocks to reduce wrist extension",
       "contraindication_notes": "General practice caution for loaded wrist extension and lumbar compression; not medical advice. If wrists or low back complain, regress to [retired posture] or skip.",
+      "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain in wrists, low back, neck, or legs.",
       "status": "Posture-specific cautions, kept for traceability; they no longer apply because this door teaches no posture."
     }
   },

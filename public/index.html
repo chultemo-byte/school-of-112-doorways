@@ -3,69 +3,59 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Guru Meru · School of 112 Doorways</title>
-<meta name="description" content="Guru Meru demonstrates Door 001 Tadasana. 112 asanas as 112 dimensions." />
+<title>School of 112 Doorways · living memory of the Vijñāna Bhairava Tantra</title>
+<meta name="description" content="The School of 112 Doorways: living memory of the 112 dhāraṇās of the Vijñāna Bhairava Tantra. House 1, doors 1 to 16, is open." />
 <style>
-  :root{--bg:#0b0a12;--ink:#f4efe6;--muted:#9a8f7a;--gold:#c9a227;--vermilion:#c0392b}
-  *{box-sizing:border-box}html,body{margin:0;padding:0}
-  body{background:#0b0a12;color:var(--ink);font-family:Georgia,serif}
-  .stage{min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:18px 16px 48px}
-  .who{letter-spacing:.32em;text-transform:uppercase;color:var(--vermilion);font-size:.78rem;margin:8px 0 6px}
-  h1{margin:0 0 4px;font-weight:500;font-size:clamp(2rem,7vw,3.2rem);text-align:center}
-  .sa{color:var(--muted);text-align:center;margin:0 0 18px;font-size:.95rem}
-  .film{width:min(560px,100%);border:1px solid rgba(201,162,39,.4);border-radius:18px;overflow:hidden;background:#1a140c;box-shadow:0 24px 80px rgba(0,0,0,.45)}
-  .film video{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;background:#1a140c}
-  .poster{min-height:360px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:28px 20px;background:radial-gradient(circle at 50% 40%,rgba(192,57,43,.18),transparent 60%),#1a140c}
-  .poster .orb{width:72px;height:72px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#f4efe6,#c9a227 55%,#7a5a10);box-shadow:0 0 40px rgba(201,162,39,.45);margin-bottom:16px}
-  .poster h2{margin:0 0 8px;font-weight:500;font-size:2rem}
-  .poster p{margin:0;color:var(--muted);line-height:1.5}
-  .cap{padding:12px 14px 14px;text-align:center;font-size:.82rem;color:var(--muted);background:rgba(0,0,0,.35)}
-  .cap b{color:var(--gold);font-weight:500}
-  .grid{width:min(560px,100%);display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}
-  .tile{border:1px solid rgba(201,162,39,.3);border-radius:14px;padding:16px 14px;background:rgba(201,162,39,.05)}
-  .tile .k{color:var(--gold);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:6px}
-  .tile .v{color:var(--ink);font-size:.98rem;line-height:1.45}
-  .tile.full{grid-column:1/-1}
-  .law{max-width:560px;margin:18px auto 0;text-align:center;color:var(--muted);font-size:.95rem;line-height:1.55}
-  .law b{color:var(--ink)}
-  nav{margin-top:28px;display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
-  nav a{color:var(--gold);text-decoration:none;border:1px solid rgba(201,162,39,.35);border-radius:999px;padding:8px 14px;font-size:.85rem}
-  footer{margin-top:36px;color:var(--muted);font-size:.78rem;text-align:center}
+  :root{--bg:#0b0a12;--ink:#f4efe6;--muted:#9a8f7a;--vermilion:#c0392b;--gold:#c9a227}
+  *{box-sizing:border-box} html,body{margin:0;padding:0}
+  body{background:radial-gradient(1200px 800px at 50% -10%, #1a1530 0%, var(--bg) 60%);color:var(--ink);font-family:Georgia,serif;min-height:100vh}
+  .wrap{max-width:760px;margin:0 auto;padding:28px 20px 96px}
+  header{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center}
+  .brand{font-weight:600;letter-spacing:.04em}
+  .brand small{display:block;color:var(--muted);font-weight:400;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase}
+  header nav a{margin-left:12px}
+  a{color:var(--gold);text-decoration:none}
+  .eyebrow{color:var(--gold);letter-spacing:.22em;text-transform:uppercase;font-size:.74rem;text-align:center;margin-top:28px;font-family:system-ui,sans-serif}
+  h1{font-weight:500;font-size:clamp(1.9rem,5.5vw,2.8rem);line-height:1.1;margin:10px 0;text-align:center}
+  .verse-ref{text-align:center;color:var(--muted);margin:0 0 14px}
+  .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:0 0 18px}
+  .badge{font-family:system-ui,sans-serif;font-size:.78rem;border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:4px 10px;color:var(--ink)}
+  .badge.practice{border-color:rgba(201,162,39,.6)}
+  .badge.observe{border-color:var(--vermilion);background:rgba(192,57,43,.18)}
+  .observe-banner{border:1px solid var(--vermilion);border-left-width:4px;border-radius:12px;padding:12px 14px;margin:14px 0;background:rgba(192,57,43,.12);line-height:1.5}
+  .observe-banner b{display:block;color:#f2b8ae;letter-spacing:.06em;text-transform:uppercase;font-size:.85rem;font-family:system-ui,sans-serif;margin-bottom:4px}
+  .one-line{font-size:1.2rem;line-height:1.5;border:1px solid rgba(201,162,39,.4);border-radius:14px;padding:14px 16px;background:rgba(201,162,39,.06);margin:14px 0}
+  .guidance-slot{margin:14px 0}
+  .guidance-slot:empty{display:none}
+  section.field{margin:20px 0}
+  section.field h2{font-size:1rem;color:var(--gold);font-weight:500;margin:0 0 6px;font-family:system-ui,sans-serif;letter-spacing:.04em}
+  section.field p,section.field li{line-height:1.55;margin:0 0 6px}
+  .iast{font-style:italic;color:#e8d7b4}
+  .muted{color:var(--muted)}
+  .safety{border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:12px 16px}
+  details{margin:14px 0;border-top:1px solid rgba(255,255,255,.08);padding-top:10px}
+  summary{cursor:pointer;color:var(--gold);font-family:system-ui,sans-serif}
+  .law{margin:28px 0;color:var(--muted);line-height:1.6;border-top:1px solid rgba(255,255,255,.08);padding-top:16px}
+  nav.doors{display:flex;justify-content:space-between;gap:10px;margin-top:18px}
+  footer{margin-top:22px;color:var(--muted);font-size:.8rem;text-align:center}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+  .card{display:block;border:1px solid rgba(201,162,39,.35);border-radius:14px;padding:12px;background:rgba(201,162,39,.05);color:inherit}
+  .card b{display:block;color:var(--ink);line-height:1.3;margin:4px 0}
+  .card small{color:var(--muted);font-family:system-ui,sans-serif;font-size:.74rem;letter-spacing:.04em}
+  .card.observe{border-color:rgba(192,57,43,.6);background:rgba(192,57,43,.08)}
+  .cells{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+  .cell{border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:8px 6px;font-size:.72rem;font-family:system-ui,sans-serif;min-height:54px;display:block;color:var(--muted)}
+  .cell b{display:block;color:var(--ink);font-size:.78rem}
+  .cell.open{border-color:rgba(201,162,39,.45);background:rgba(201,162,39,.08);color:var(--ink)}
+  .cell.open.observe{border-color:rgba(192,57,43,.55);background:rgba(192,57,43,.08)}
+  h2.house{font-size:1.1rem;margin:28px 0 10px;color:var(--gold);font-weight:500}
+  p.lead{color:var(--muted);font-size:1.1rem;line-height:1.6}
+  @media(max-width:560px){.cells{grid-template-columns:repeat(2,1fr)}}
 </style>
 </head>
 <body>
-  <div class="stage">
-    <div class="who">Guru Meru</div>
-    <h1 data-meru="asana" role="button" tabindex="0" aria-label="Guru Meru speaks this door">Mountain</h1>
-    <p class="sa">Door 001 · Tāḍāsana · the pot and the body are one</p>
-
-    <div class="film" data-meru="asana" role="button" tabindex="0" aria-label="Guru Meru speaks this door">
-      <div class="poster" id="fallback">
-        <div class="orb"></div>
-        <h2>Guru Meru stands</h2>
-        <p>animation slot — same camera as 001<br>Start on the exhale. Mist at the feet.<br>Inhale — mist climbs. Exhale — mist falls.<br>Soft knees. Six loops. No hold.</p>
-      </div>
-      <div class="cap"><b>GURU MERU DEMONSTRATES</b> · six-second loop · start on the exhale</div>
-    </div>
-
-    <div class="grid">
-      <div class="tile"><div class="k">Look here</div><div class="v">Heel, big-toe pad, little-toe pad.</div></div>
-      <div class="tile"><div class="k">The water</div><div class="v">In four, out four. No hold.</div></div>
-      <div class="tile"><div class="k">The exit</div><div class="v">If it hurts, sit. A chair is still the mountain.</div></div>
-      <div class="tile"><div class="k">MERU</div><div class="v">I do not fidget. You do not have to either.</div></div>
-      <div class="tile full"><div class="k">The picture</div><div class="v">Same body on every later film. Same cloth. Same camera. Only the shape changes.</div></div>
-    </div>
-
-    <p class="law">Practice is not medicine. <i>Sthira-sukham āsanam.</i></p>
-    <nav>
-      <a href="/pose.html?n=1&meru=1">Walk the 112</a>
-      <a href="door-001.html?meru=1">Door 001</a>
-      <a href="112.html">City of 112</a>
-      <a href="https://yoga112.vercel.app/door-001.html">Parchment pot</a>
-    </nav>
-    <footer>School of 112 Doorways · practice is not medicine · <i>sthira-sukham āsanam</i></footer>
-  </div>
-<script type="application/json" id="meru-plate">{"number":1,"sealed":false,"english":"Mountain","sanskrit":"Tāḍāsana","guardian":"MERU","house":1,"house_name":"Mūlādhāra","bija":"LAM","look":"Heel, big-toe pad, little-toe pad.","water":"In four, out four. No hold.","yes":"Soft knees. Even three points.","no":"Locked legs. Fidgeting feet.","exit":"If it hurts, sit. A chair is still the mountain.","safety":"If it hurts, stop. A chair still opens the door.","open_seat":"A chair is still the mountain."}</script>
-<script src="meru.js"></script>
+<div class="wrap">
+<header><div class="brand">School of 112 Doorways<small>Living memory</small></div><nav><a href="index.html">Gate</a><a href="112.html">City of 112</a></nav></header><div class="eyebrow">Vijñāna Bhairava Tantra · 112 dhāraṇās</div><h1>The School of 112 Doorways</h1><p class="lead">The School is living memory. Each door is one dhāraṇā of the Vijñāna Bhairava Tantra, a way of resting attention that Bhairava describes to the Goddess. Door N is dhāraṇā N in Jaideva Singh's numbering, so Door 001 is verse 24.</p><p class="lead">House 1 is open: doors 001 to 016. Four of them (004, 008, 013, 014) are historical and observe only. They are kept as classical descriptions to read, not practised.</p><h2 class="house">House 1 · Mūlādhāra · doors 001–016</h2><div class="grid" id="house-1"><a class="card" href="door-001.html"><small>Door 001 · verse 24 · breath</small><b>Resting in the Two Turning Points of the Breath</b><small>Practice</small></a><a class="card" href="door-002.html"><small>Door 002 · verse 25 · breath</small><b>Not Turning Back from the Two Spaces</b><small>Practice</small></a><a class="card" href="door-003.html"><small>Door 003 · verse 26 · breath</small><b>The Opened Centre Where Breath Neither Leaves nor Enters</b><small>Practice</small></a><a class="card observe" href="door-004.html"><small>Door 004 · verse 27 · breath</small><b>Retained Breath and the Tranquil</b><small>Historical / observe only</small></a><a class="card" href="door-005.html"><small>Door 005 · verse 28 · visualization</small><b>Rays Rising from the Root, Dissolving above the Crown</b><small>Practice</small></a><a class="card" href="door-006.html"><small>Door 006 · verse 29 · visualization</small><b>Lightning Rising Centre by Centre</b><small>Practice</small></a><a class="card" href="door-007.html"><small>Door 007 · verse 30 · visualization</small><b>Twelve Stations, Twelve Letters</b><small>Practice</small></a><a class="card observe" href="door-008.html"><small>Door 008 · verse 31 · visualization</small><b>Filling to the Crown, Crossing the Brow-Bridge</b><small>Historical / observe only</small></a><a class="card" href="door-009.html"><small>Door 009 · verse 32 · sensation</small><b>The Five Voids of the Peacock Feather</b><small>Practice</small></a><a class="card" href="door-010.html"><small>Door 010 · verse 33 · concentration</small><b>Attention Dissolving into Space, a Wall, or a Worthy Vessel</b><small>Practice</small></a><a class="card" href="door-011.html"><small>Door 011 · verse 34 · concentration</small><b>Mind Placed Inside the Skull</b><small>Practice</small></a><a class="card" href="door-012.html"><small>Door 012 · verse 35 · visualization</small><b>Space Within the Central Channel</b><small>Practice</small></a><a class="card observe" href="door-013.html"><small>Door 013 · verse 36 · sensation</small><b>Sealing the Sense-Doors, Watching the Point Dissolve</b><small>Historical / observe only</small></a><a class="card observe" href="door-014.html"><small>Door 014 · verse 37 · visualization</small><b>The Point of Subtle Fire</b><small>Historical / observe only</small></a><a class="card" href="door-015.html"><small>Door 015 · verse 38 · sound</small><b>Bathing in the Unstruck Sound</b><small>Practice</small></a><a class="card" href="door-016.html"><small>Door 016 · verse 39 · sound</small><b>Praṇava Fading into Void</b><small>Practice</small></a></div><h2 class="house">Houses 2–7 · doors 017–112</h2><p class="muted">Being remembered. Their dhāraṇās will appear here when the research is ready. Null is not a secret name.</p><p><a href="112.html">See the city of 112 →</a></p><section class="law">Pain is information, never a badge. Never force the breath. Practice is not medical treatment. The door-to-dhāraṇā index is a School of 112 Doorways teaching device (school_device), not an ancient one-to-one canon.</section><footer>School of 112 Doorways · living memory of the 112 dhāraṇās of the Vijñāna Bhairava Tantra</footer>
+</div>
 </body>
 </html>

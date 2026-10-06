@@ -114,7 +114,7 @@
     }
   },
   "safety": {
-    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain in hamstring, knee, sacroiliac joint, or neck.",
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
     "never_force": true,
     "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
     "contraindication_notes": "General practice caution only; not medical advice. If the image brings strong sensations or agitation, open the eyes and feel the whole body resting on the floor. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
@@ -122,6 +122,7 @@
       "source": "doors/D-012/door.json at commit 4382c90",
       "open_seat_alternate": null,
       "contraindication_notes": "Shorten the stance, rest the lower hand on a block or shin, and keep the gaze neutral if balance, neck, or hamstrings complain. General practice caution only; not medical advice.",
+      "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain in hamstring, knee, sacroiliac joint, or neck.",
       "status": "Posture-specific cautions, kept for traceability; they no longer apply because this door teaches no posture."
     }
   },
