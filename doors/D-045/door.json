@@ -1,0 +1,215 @@
+{
+  "id": "D-045",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "Between Fire and Poison",
+  "sanskrit": "vahner viṣasya madhye tu",
+  "house": 3,
+  "status": "draft",
+  "practice_mode": "historical/observe_only",
+  "previous_label": "none: new door (doors/index.json at 32e76c4 lists door 45 as unassigned, with no name)",
+  "previous_file": "none: no door file existed for door 45 at commit 32e76c4",
+  "previous_vbt_ref": "none",
+  "dharana": {
+    "number": 45,
+    "verses": [
+      68
+    ],
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114, otherwise one verse each; dhāraṇā 112 = verse 137)",
+    "sanskrit_iast": "vahner viṣasya madhye tu cittaṃ sukhamayaṃ kṣipet | kevalaṃ vāyupūrṇaṃ vā smarānandena yujyate ||",
+    "sanskrit_source": "GRETIL e-text, compared with Wallis's concordance, Pradīpaka and the Singh scan",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [],
+    "rendering": "Let one cast the mind, full of pleasure, into the middle between 'fire' (vahni) and 'poison' (viṣa), either on its own or filled with breath; one is then joined with the bliss of love (smarānanda).",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+    "commentary_note": "Singh explains vahni and viṣa as technical terms: vahni is contraction (the descending kuṇḍalinī), viṣa (from viṣ, 'to pervade', not 'poison') is expansion (the rising kuṇḍalinī); 'filled with breath' means the breath restrained so that it leaves through no opening, and the joy of sexual union is here an inner union. Wallis titles it 'Mindful sex: between fire and poison' and reads it as attention between the start and end of sexual union, with forms of breath retention (kevala- or pūraka-kumbhaka).",
+    "technique_name": "Between Fire and Poison",
+    "category": "other",
+    "category_plain": "sensation",
+    "category_secondary": [
+      "sexual",
+      "breath retention"
+    ],
+    "instruction": "Observe only: read and understand this classical description. It is not practised in class.",
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 45] VERSE 68'",
+        "The Mystery Within (2019), Session Two list: 'Dharana 45' = verse 68 (agrees with Singh)",
+        "The Mystery Within (2019), parallel translations: 'Dharana 45 • verso 68' (agrees)",
+        "Wallis concordance: verse 68 = 'Mindful sex: between fire and poison (Y40 ~ A3)' (verse text and technique match)",
+        "GRETIL, Wallis and Pradīpaka: Sanskrit of verse 68 compared"
+      ],
+      "notes": "Door index = Singh dhāraṇā number, read directly in Singh's own headings and cross-checked against The Mystery Within's Singh-numbered list and Wallis's concordance. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "verse 68: Mindful sex: between fire and poison (Y40 ~ A3)"
+    },
+    "source_disagreements": [
+      "Singh reads vahni and viṣa esoterically (contraction and expansion of kuṇḍalinī; viṣa from viṣ 'to pervade', not 'poison') and the union as internal; Wallis reads the verse as concerning sexual union itself, with breath retention."
+    ]
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 68 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "between_two_poles",
+    "joints": [],
+    "points": [
+      "vahni ('fire': contraction, in Singh's technical reading)",
+      "viṣa ('pervading': expansion)",
+      "the middle between them"
+    ],
+    "summary": "Not a body shape. The classical map is a middle point between two poles, contraction and expansion. Recorded as text only.",
+    "svg_hint": "two faint poles with a point between them, drawn faint to signal observe-only",
+    "honesty": "Geometry records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
+  },
+  "reaction": {
+    "name": "Between two poles (described)",
+    "from_phase": "polarity",
+    "to_phase": "inner_union",
+    "summary": "School metaphor only: attention held between contraction and expansion, pictured as an inner union. A picture to understand, not an exercise. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "mode": "natural",
+    "lands_in": "wherever the breath naturally ends; this door places nothing on the breath",
+    "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+  },
+  "orientation": {
+    "cue": "Study the verse as text",
+    "gravity": "Let the floor or chair carry the body completely; there is no posture to hold",
+    "gaze": "Eyes closed or softly lowered",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
+  },
+  "attention": {
+    "primary": "Understanding the verse and its two readings",
+    "secondary": "Nothing to practise",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 045 (verse 68)",
+    "verse_paraphrase": "Let one cast the mind, full of pleasure, into the middle between 'fire' (vahni) and 'poison' (viṣa), either on its own or filled with breath; one is then joined with the bliss of love (smarānanda).",
+    "method_summary": "Classical description: the mind, full of pleasure, is placed between 'fire' and 'poison' (in Singh's reading, contraction and expansion of the subtle energy; in Wallis's, the beginning and end of sexual union), with the breath restrained, and one is joined with the bliss of love. Observe-only in this school: text to understand, with no practice cues.",
+    "practice_mode": "observe_only",
+    "historical_extreme": false,
+    "sexual_content": true
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Door 045 follows Vijñāna Bhairava Tantra dharana 45 (verse 68) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type is school_device: the dharana is the content, while the door index, seat and pacing are the school's.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 045 is dharana 45, verse 68. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review.",
+      "historical/observe_only: The verse concerns sexual union (read esoterically by Singh, literally by Wallis) and, in both readings, breath restraint. Taught as text to understand, not as a class drill.",
+      "Sexual content: the verse concerns sexual union or its memory. Recorded as classical text only; no practice cues are given."
+    ]
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. Not led as a practice. The verse concerns sexual experience; this school records it as classical text only and gives no practice cues. Nothing here is an invitation to any sexual activity in a class setting. Breath retention is not taught either. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+    "observe_only_note": "Not led as a practice. The verse concerns sexual experience; this school records it as classical text only and gives no practice cues. Nothing here is an invitation to any sexual activity in a class setting. Breath retention is also not taught."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+      "kind": "vbt",
+      "ref": "[Dhāraṇā 45] VERSE 68: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 68: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "'Session Two' list: 'Dharana 45' = verse 68 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 45 • verso 68' (agrees).",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+      "kind": "commentary",
+      "ref": "verse 68 = 'Mindful sex: between fire and poison (Y40 ~ A3)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 68: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+      "kind": "school",
+      "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 045: between fire and poison. Vijñāna Bhairava Tantra dharana 45, verse 68. This door is observe-only."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "No shape to make, and no drill. This verse is read as text. Its classical map is a middle point between two poles."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Let the body rest completely. Eyes open, reading or resting softly. Attention on understanding, not on doing."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Natural breath only. Nothing to practise with the breath here. No forced hold."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Hold the idea only: the tradition speaks of a middle point between contraction and expansion. Nothing to practise."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School image: a middle point between two poles. A metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Verse 68: describes placing the mind between 'fire' and 'poison', and union with the bliss of love. Observe-only text; no practice cues."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Close the text. Take a normal breath. Look around the room and move on when ready."
+    }
+  ],
+  "researcher": "R-045",
+  "researched_at": "2026-10-06",
+  "drafted_by": "Grok Bot (VBT Houses 2–7 research, branch research/vbt-houses-2-7)",
+  "review": {
+    "status": "pending_guardian_review",
+    "previous_review": "none (new door)"
+  }
+}
