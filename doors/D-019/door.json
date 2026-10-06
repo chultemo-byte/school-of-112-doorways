@@ -1,0 +1,213 @@
+{
+  "id": "D-019",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "Sounding a Seed-Mantra into Silence",
+  "sanskrit": "śūnyoccārād bhavec chivaḥ",
+  "house": 2,
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "none: new door (doors/index.json at 32e76c4 lists door 19 as unassigned, with no name)",
+  "previous_file": "none: no door file existed for door 19 at commit 32e76c4",
+  "previous_vbt_ref": "none",
+  "dharana": {
+    "number": 19,
+    "verses": [
+      42
+    ],
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114, otherwise one verse each; dhāraṇā 112 = verse 137)",
+    "sanskrit_iast": "piṇḍamantrasya sarvasya sthūlavarṇakrameṇa tu | ardhendubindunādāntaḥ śūnyoccārād bhavec chivaḥ ||",
+    "sanskrit_source": "GRETIL e-text, compared with Wallis's concordance, Pradīpaka and the Singh scan",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [
+      "verse 42: GRETIL input error 'pi.ṅda-' corrected to piṇḍa- (Singh, Wallis and Pradīpaka read piṇḍamantrasya)."
+    ],
+    "rendering": "By sounding any piṇḍa-mantra (a compact seed-mantra) through its sequence of audible letters, and then following it through its subtler phases, the half-moon, the point and the resonance, to the end of resonance and into the void, one becomes Śiva.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+    "commentary_note": "Singh: uccāra here does not mean mere muttering but moving upward from gross utterance to subtle vibration and finally to mental reflection. A piṇḍamantra is a compact mantra such as AUM or the nine-letter navātma. Singh reports Śivopādhyāya's mapping of AUM onto stations rising from the navel (A) through the heart (U) and mouth (M) to the point between the brows (bindu), the forehead (ardhacandra) and on to unmanā above the head; the audible letters take one measure each, the subtle phases half a measure, unmanā is beyond time.",
+    "technique_name": "Sounding a Seed-Mantra into Silence",
+    "category": "sound",
+    "category_plain": "sound",
+    "category_secondary": [
+      "mantra",
+      "gap (fading into void)"
+    ],
+    "instruction": "Sound Oṃ softly and follow it from voice to hum to silence, resting in the silence.",
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 19] VERSE 42'",
+        "The Mystery Within (2019), Session Two list: 'Dharana 19' = verse 42 (agrees with Singh)",
+        "The Mystery Within (2019), parallel translations: 'Dharana 19 • verso 42' (agrees)",
+        "Wallis concordance: verse 42 = 'Mantra-mass (Y16 ~ A3)' (verse text and technique match)",
+        "GRETIL, Wallis and Pradīpaka: Sanskrit of verse 42 compared"
+      ],
+      "notes": "Door index = Singh dhāraṇā number, read directly in Singh's own headings and cross-checked against The Mystery Within's Singh-numbered list and Wallis's concordance. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "verse 42: Mantra-mass (Y16 ~ A3)"
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 42 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "mantra_fading_upward",
+    "joints": [],
+    "points": [
+      "audible letters (A, U, M)",
+      "the hum after the letters (bindu, ardhacandra: commentarial)",
+      "resonance and its end (nāda, nādānta)",
+      "void (śūnya)"
+    ],
+    "summary": "Not a body shape. The map is a mantra growing quieter: audible letters, then the hum, then resonance, then silence. Commentary also pictures these phases rising from the navel to above the head; that is recorded, not required.",
+    "svg_hint": "the letters A U M on a rising line, followed by a dot, a crescent, a fading wave and an open circle",
+    "honesty": "Geometry records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
+  },
+  "reaction": {
+    "name": "Fade to void",
+    "from_phase": "gross_sound",
+    "to_phase": "subtle_silence",
+    "summary": "School metaphor only: a full, audible sound is refined step by step into hum, resonance and finally silence. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 8,
+    "cycles": 6,
+    "mode": "sounded_exhale",
+    "lands_in": "the silence after the hum fades",
+    "cue": "Natural in-breath. On the out-breath, sound the mantra softly and let it thin out with the breath. Take a free breath between rounds. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+  },
+  "orientation": {
+    "cue": "Follow the sound from loud to faint to silent",
+    "gravity": "Let the floor or chair carry the body completely; there is no posture to hold",
+    "gaze": "Eyes closed or softly lowered",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
+  },
+  "attention": {
+    "primary": "The mantra's sequence from audible letters to hum to resonance to silence",
+    "secondary": "The silence at the end, where the sound has gone",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 019 (verse 42)",
+    "verse_paraphrase": "By sounding any piṇḍa-mantra (a compact seed-mantra) through its sequence of audible letters, and then following it through its subtler phases, the half-moon, the point and the resonance, to the end of resonance and into the void, one becomes Śiva.",
+    "method_summary": "Choose a short seed-mantra; this school uses Oṃ. Sound A-U-M audibly on an out-breath, let it become a hum, let the hum become an inner resonance, and let the resonance fade into silence. Rest in the silence before the next round.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Door 019 follows Vijñāna Bhairava Tantra dharana 19 (verse 42) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type is school_device: the dharana is the content, while the door index, seat and pacing are the school's.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 019 is dharana 19, verse 42. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review.",
+      "School simplification: Oṃ is used as the piṇḍa-mantra. The navātma mantra and the detailed twelve-station mapping of the subtle phases are recorded only as commentary."
+    ]
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. Keep the voice soft and the out-breath unforced; take free breaths between rounds. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+      "kind": "vbt",
+      "ref": "[Dhāraṇā 19] VERSE 42: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 42: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "'Session Two' list: 'Dharana 19' = verse 42 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 19 • verso 42' (agrees).",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+      "kind": "commentary",
+      "ref": "verse 42 = 'Mantra-mass (Y16 ~ A3)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 42: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+      "kind": "school",
+      "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 019: sounding a seed-mantra into silence. Vijñāna Bhairava Tantra dharana 19, verse 42."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "No shape to make. Sit or lie down. The map is a sound growing quieter: letters, hum, resonance, silence."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Let the floor or the chair carry you. Eyes closed or soft."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Natural in-breath. Sound the mantra on a soft, unforced out-breath. A free breath between rounds. No hold."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Sound Oṃ softly. Let the letters become a hum, the hum an inner ring, and the ring silence. Rest in the silence."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School image: a full sound refined into silence. A metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Verse 42: sound a seed-mantra letter by letter, then through point, half-moon and resonance into the void, and one becomes Śiva."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Drop the exercise. Notice the room: its sounds, its light. Carry the quiet into what comes next."
+    }
+  ],
+  "researcher": "R-019",
+  "researched_at": "2026-10-06",
+  "drafted_by": "Grok Bot (VBT Houses 2–7 research, branch research/vbt-houses-2-7)",
+  "review": {
+    "status": "pending_guardian_review",
+    "previous_review": "none (new door)"
+  }
+}
