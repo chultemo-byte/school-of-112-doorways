@@ -1,0 +1,208 @@
+{
+  "id": "D-068",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "At the End of the Out-Breathed 'Ḥ'",
+  "sanskrit": "visargāntaṃ citiṃ kuru",
+  "house": 5,
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "none: new door (doors/index.json at 32e76c4 lists door 68 as unassigned, with no name)",
+  "previous_file": "none: no door file existed for door 68 at commit 32e76c4",
+  "previous_vbt_ref": "none",
+  "dharana": {
+    "number": 68,
+    "verses": [
+      91
+    ],
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114, otherwise one verse each; dhāraṇā 112 = verse 137)",
+    "sanskrit_iast": "varṇasya savisargasya visargāntaṃ citiṃ kuru | nirādhāreṇa cittena spṛśed brahma sanātanam ||",
+    "sanskrit_source": "GRETIL e-text, compared with Wallis's concordance, Pradīpaka and the Singh scan",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [],
+    "rendering": "Place awareness at the end of the visarga of a syllable that carries a visarga (the out-breathed 'ḥ'); with a mind free of support, one touches the eternal brahman.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+    "commentary_note": "Singh: Abhinavagupta (Tantrāloka 3.143) and a verse quoted by Śivopādhyāya identify visarga with the creative power (kaulikī śakti) from which the cosmos emanates; written as two dots after a letter, it is spoken as a soft 'ḥ'. Fixing the mind at the very end of that sound, the symbol of manifestation, the mind is detached from manifestation and slips into the void, steeped in the silence of brahman.",
+    "technique_name": "At the End of the Out-Breathed 'Ḥ'",
+    "category": "sound",
+    "category_plain": "sound",
+    "category_secondary": [
+      "gap (end of the sound)"
+    ],
+    "instruction": "Softly sound 'aḥ' and rest attention at the exact point where the breathy 'ḥ' fades into silence.",
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 68] VERSE 91'",
+        "The Mystery Within (2019), Session Two list: 'Dharana 68' = verse 91 (agrees with Singh)",
+        "The Mystery Within (2019), parallel translations: 'Dharana 68 • verso 91' (agrees)",
+        "Wallis concordance: verse 91 = 'Aspiration (Y67 ~ C2)' (verse text and technique match)",
+        "GRETIL, Wallis and Pradīpaka: Sanskrit of verse 91 compared"
+      ],
+      "notes": "Door index = Singh dhāraṇā number, read directly in Singh's own headings and cross-checked against The Mystery Within's Singh-numbered list and Wallis's concordance. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "verse 91: Aspiration (Y67 ~ C2)"
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 91 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "sound_trailing_to_silence",
+    "joints": [],
+    "points": [
+      "the syllable (for example 'aḥ')",
+      "the soft out-breathed 'ḥ'",
+      "its very end, where it becomes silence"
+    ],
+    "summary": "Not a body shape. The map is a syllable ending in a soft breath-sound, and the exact point where that breath-sound becomes silence.",
+    "svg_hint": "a short line ending in a feathered trail that fades into an open dot",
+    "honesty": "Geometry records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
+  },
+  "reaction": {
+    "name": "Follow the 'ḥ' out",
+    "from_phase": "attached_mind",
+    "to_phase": "supportless_silence",
+    "summary": "School metaphor only: attention rides a soft breath-sound to its end and is left without support, in silence. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 6,
+    "cycles": 6,
+    "mode": "sounded_exhale",
+    "lands_in": "the silence at the end of the soft 'ḥ'",
+    "cue": "Natural in-breath. On the out-breath, sound 'aḥ' softly and let the 'ḥ' trail away with the breath. A free breath between rounds. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+  },
+  "orientation": {
+    "cue": "Follow the sound to its very end",
+    "gravity": "Let the floor or chair carry the body completely; there is no posture to hold",
+    "gaze": "Eyes closed",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
+  },
+  "attention": {
+    "primary": "The very end of the soft out-breathed 'ḥ'",
+    "secondary": "The supportless silence after it",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 068 (verse 91)",
+    "verse_paraphrase": "Place awareness at the end of the visarga of a syllable that carries a visarga (the out-breathed 'ḥ'); with a mind free of support, one touches the eternal brahman.",
+    "method_summary": "Sound 'aḥ' softly on an out-breath, so that it ends in a gentle breathy 'ḥ'. Place awareness at the exact point where the 'ḥ' fades into silence, and rest there with the mind leaning on nothing.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Door 068 follows Vijñāna Bhairava Tantra dharana 68 (verse 91) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type is school_device: the dharana is the content, while the door index, seat and pacing are the school's.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 068 is dharana 68, verse 91. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+    ]
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. Keep the out-breath soft and unforced; take free breaths between rounds. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+      "kind": "vbt",
+      "ref": "[Dhāraṇā 68] VERSE 91: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 91: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "'Session Two' list: 'Dharana 68' = verse 91 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 68 • verso 91' (agrees).",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance, Part 2",
+      "kind": "commentary",
+      "ref": "verse 91 = 'Aspiration (Y67 ~ C2)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance-part-two"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 91: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+      "kind": "school",
+      "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 068: at the end of the out-breathed 'ḥ'. Vijñāna Bhairava Tantra dharana 68, verse 91."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "No shape to make. Sit or lie down. The map is a syllable ending in a soft breath-sound, and the point where it becomes silence."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Let the floor or the chair carry you. Eyes closed or soft."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Natural in-breath. Sound 'aḥ' softly on the out-breath. A free breath between rounds. No hold."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Sound 'aḥ' softly. Follow the 'ḥ' as it trails away. Rest at the exact point where it becomes silence."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School image: a breath-sound riding out into silence. A metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Verse 91: place awareness at the end of the visarga of a syllable; with a mind free of support, one touches the eternal brahman."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Let the practice go. Take one free breath. Open the eyes and look around the room."
+    }
+  ],
+  "researcher": "R-068",
+  "researched_at": "2026-10-06",
+  "drafted_by": "Grok Bot (VBT Houses 2–7 research, branch research/vbt-houses-2-7)",
+  "review": {
+    "status": "pending_guardian_review",
+    "previous_review": "none (new door)"
+  }
+}

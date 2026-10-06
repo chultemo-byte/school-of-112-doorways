@@ -1,0 +1,208 @@
+{
+  "id": "D-070",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "Attention Gathered at the Point of a Prick",
+  "sanskrit": "tīkṣṇasūcyādinā",
+  "house": 5,
+  "status": "draft",
+  "practice_mode": "historical/observe_only",
+  "previous_label": "none: new door (doors/index.json at 32e76c4 lists door 70 as unassigned, with no name)",
+  "previous_file": "none: no door file existed for door 70 at commit 32e76c4",
+  "previous_vbt_ref": "none",
+  "dharana": {
+    "number": 70,
+    "verses": [
+      93
+    ],
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114, otherwise one verse each; dhāraṇā 112 = verse 137)",
+    "sanskrit_iast": "kiṃcid aṅgaṃ vibhidyādau tīkṣṇasūcyādinā tataḥ | tatraiva cetanāṃ yuktvā bhairave nirmalā gatiḥ ||",
+    "sanskrit_source": "GRETIL e-text, compared with Wallis's concordance, Pradīpaka and the Singh scan",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [],
+    "rendering": "Having first pierced some part of the body with a sharp needle or the like, and then joining awareness to that very spot, there is a pure passage into Bhairava.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+    "commentary_note": "Singh: in intense attention, whether through pleasure or pain, the mind becomes one-pointed, and in that state the nature of the Self is revealed. Singh says it begins as āṇavopāya and ends in the śāmbhava state. Wallis: 'piercing'.",
+    "technique_name": "Attention Gathered at the Point of a Prick",
+    "category": "sensation",
+    "category_plain": "sensation",
+    "category_secondary": [
+      "pain"
+    ],
+    "instruction": "Observe only: read and understand this classical description. It is not practised in class. Never pierce or injure the body.",
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 70] VERSE 93'",
+        "The Mystery Within (2019), Session Two list: 'Dharana 70' = verse 93 (agrees with Singh)",
+        "The Mystery Within (2019), parallel translations: 'Dharana 70 • verso 93' (agrees)",
+        "Wallis concordance: verse 93 = 'Piercing (Y69 ~ C1)' (verse text and technique match)",
+        "GRETIL, Wallis and Pradīpaka: Sanskrit of verse 93 compared"
+      ],
+      "notes": "Door index = Singh dhāraṇā number, read directly in Singh's own headings and cross-checked against The Mystery Within's Singh-numbered list and Wallis's concordance. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "verse 93: Piercing (Y69 ~ C1)"
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 93 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "single_point_of_sensation",
+    "joints": [],
+    "points": [
+      "one spot on the body (in the classical method, the point of a prick)"
+    ],
+    "summary": "Not a body shape. The classical map is one sharp point of sensation that gathers all attention. Drawn faint: studied, not drilled.",
+    "svg_hint": "a single faint dot on a body outline, drawn faint to signal observe-only",
+    "honesty": "Geometry records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
+  },
+  "reaction": {
+    "name": "One-pointed (described)",
+    "from_phase": "scattered_attention",
+    "to_phase": "pure_passage",
+    "summary": "School metaphor only: intense sensation gathers attention to a single point. A picture to understand, not an exercise. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "mode": "natural",
+    "lands_in": "wherever the breath naturally ends; this door places nothing on the breath",
+    "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+  },
+  "orientation": {
+    "cue": "Study the verse; let the body simply rest while you do",
+    "gravity": "Let the floor or chair carry the body completely; there is no posture to hold",
+    "gaze": "Eyes closed or softly lowered",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
+  },
+  "attention": {
+    "primary": "Understanding the verse: intense sensation can gather the mind to one point",
+    "secondary": "Nothing is practised from this verse",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 070 (verse 93)",
+    "verse_paraphrase": "Having first pierced some part of the body with a sharp needle or the like, and then joining awareness to that very spot, there is a pure passage into Bhairava.",
+    "method_summary": "Classical method: piercing some part of the body with a sharp needle or the like, then joining awareness to that very spot, there is a pure passage into Bhairava. Observe-only in this school: read and understand it; never do it.",
+    "practice_mode": "observe_only",
+    "historical_extreme": true,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Door 070 follows Vijñāna Bhairava Tantra dharana 70 (verse 93) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type is school_device: the dharana is the content, while the door index, seat and pacing are the school's.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 070 is dharana 70, verse 93. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review.",
+      "historical/observe_only: The classical method is deliberately piercing the body with a sharp needle and attending to the spot; self-injury is never taught. Taught as text to understand, not as a class drill."
+    ]
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. Self-injury is never taught or encouraged. Do not pierce, prick or harm the body in any way. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+    "observe_only_note": "Observe-only. Piercing the skin risks injury and infection and is self-harm; it is never done in this school. If you have urges to hurt yourself, please reach out to someone you trust or a local support service."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+      "kind": "vbt",
+      "ref": "[Dhāraṇā 70] VERSE 93: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 93: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "'Session Two' list: 'Dharana 70' = verse 93 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 70 • verso 93' (agrees).",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance, Part 2",
+      "kind": "commentary",
+      "ref": "verse 93 = 'Piercing (Y69 ~ C1)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance-part-two"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 93: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+      "kind": "school",
+      "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 070: attention gathered at the point of a prick. Vijñāna Bhairava Tantra dharana 70, verse 93. This door is observe-only."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "No shape to make, and no drill. Sit comfortably while we read. Its classical map is one sharp point of sensation."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Let the body rest completely. Eyes open, reading or resting softly. Attention on understanding, not on doing."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Natural breath only. Nothing to practise with the breath here. No forced hold."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Hold the idea only: intense sensation gathers attention to a single point. We never injure the body."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School image: attention gathered to a single point. A metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Verse 93: describes piercing part of the body with a needle and joining awareness to that spot. Observe-only here; never done."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Close the text. Take a normal breath. Look around the room and move on when ready."
+    }
+  ],
+  "researcher": "R-070",
+  "researched_at": "2026-10-06",
+  "drafted_by": "Grok Bot (VBT Houses 2–7 research, branch research/vbt-houses-2-7)",
+  "review": {
+    "status": "pending_guardian_review",
+    "previous_review": "none (new door)"
+  }
+}

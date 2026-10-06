@@ -1,0 +1,214 @@
+{
+  "id": "D-072",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "Seeing Through the Powers That Limit",
+  "sanskrit": "māyā vimohinī nāma kalāyāḥ kalanaṃ sthitam",
+  "house": 5,
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "none: new door (doors/index.json at 32e76c4 lists door 72 as unassigned, with no name)",
+  "previous_file": "none: no door file existed for door 72 at commit 32e76c4",
+  "previous_vbt_ref": "none",
+  "dharana": {
+    "number": 72,
+    "verses": [
+      95
+    ],
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114, otherwise one verse each; dhāraṇā 112 = verse 137)",
+    "sanskrit_iast": "māyā vimohinī nāma kalāyāḥ kalanaṃ sthitam | ityādidharmaṃ tattvānāṃ kalayan na pṛthag bhavet ||",
+    "sanskrit_source": "GRETIL e-text, compared with Wallis's concordance, Pradīpaka and the Singh scan",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [
+      "verse 95: Singh records the variant reading kalayan nā pṛthag bhavet ('such a person becomes isolated, i.e. established in the Self')."
+    ],
+    "rendering": "'Māyā is the one that bewilders; the function of kalā is limiting activity': contemplating in this way the characteristics of the principles (tattvas), one no longer remains separate.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+    "commentary_note": "Singh: Abhinavagupta defines māyā as the power that veils the Self and shows diversity; through her coverings (kañcukas) she limits activity, knowledge, desire, time and causation. Knowing their functions, the yogī does not lose sight of the wholeness of reality and sees manifestation as Śiva's expression. Singh records a variant, kalayan nā pṛthag bhavet ('such a person becomes isolated, established in the Self'). Wallis counts this verse as 'not a yukti'.",
+    "technique_name": "Seeing Through the Powers That Limit",
+    "category": "other",
+    "category_plain": "contemplation",
+    "category_secondary": [
+      "contemplation"
+    ],
+    "instruction": "Recognise how time, place, knowledge, ability and desire limit experience, and stop taking those limits as who you are.",
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 72] VERSE 95'",
+        "The Mystery Within (2019), Session Two list: 'Dharana 72' = verse 95 (agrees with Singh)",
+        "The Mystery Within (2019), parallel translations: 'Dharana 72 • verso 95' (agrees)",
+        "Wallis concordance: verse 95 = '(not a yukti)' (verse text and technique match)",
+        "GRETIL, Wallis and Pradīpaka: Sanskrit of verse 95 compared"
+      ],
+      "notes": "Door index = Singh dhāraṇā number, read directly in Singh's own headings and cross-checked against The Mystery Within's Singh-numbered list and Wallis's concordance. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "verse 95: (not a yukti)",
+      "wallis_grouping": "Wallis marks verse 95 '(not a yukti)': he does not count it as a technique."
+    },
+    "source_disagreements": [
+      "Status as a technique: Singh counts verse 95 as dhāraṇā 72; Wallis marks it 'not a yukti'. Variant kalayan nā pṛthag bhavet recorded by Singh."
+    ]
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 95 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "veils_seen_through",
+    "joints": [],
+    "points": [
+      "māyā (bewilderment)",
+      "the limiting powers: activity, knowledge, desire, time, causation",
+      "wholeness seen through them"
+    ],
+    "summary": "Not a body shape. The map is a set of veils (the limiting powers) that, once recognised for what they do, no longer separate one from the whole.",
+    "svg_hint": "a few translucent layers in front of a light that shines through them",
+    "honesty": "Geometry records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
+  },
+  "reaction": {
+    "name": "Name the veils",
+    "from_phase": "unseen_limits",
+    "to_phase": "unseparated",
+    "summary": "School metaphor only: limits that operate unseen are recognised by name and lose their power to separate. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "mode": "natural",
+    "lands_in": "wherever the breath naturally ends; this door places nothing on the breath",
+    "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+  },
+  "orientation": {
+    "cue": "Turn attention toward what the verse names, and let everything else stay in the background",
+    "gravity": "Let the floor or chair carry the body completely; there is no posture to hold",
+    "gaze": "Eyes closed or softly lowered",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
+  },
+  "attention": {
+    "primary": "The functions of the limiting powers, recognised one by one",
+    "secondary": "Not feeling separate from the whole",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 072 (verse 95)",
+    "verse_paraphrase": "'Māyā is the one that bewilders; the function of kalā is limiting activity': contemplating in this way the characteristics of the principles (tattvas), one no longer remains separate.",
+    "method_summary": "Reflect on how experience is limited: by time, by place, by what one can do, by what one knows, by what one wants. Recognise each as a function, not as who you are. Let the sense of separation from the whole ease.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Door 072 follows Vijñāna Bhairava Tantra dharana 72 (verse 95) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type is school_device: the dharana is the content, while the door index, seat and pacing are the school's.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 072 is dharana 72, verse 95. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+    ]
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. A reflection, not a test; if it becomes heavy, let it go and rest with the breath. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+      "kind": "vbt",
+      "ref": "[Dhāraṇā 72] VERSE 95: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 95: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "'Session Two' list: 'Dharana 72' = verse 95 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 72 • verso 95' (agrees).",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance, Part 2",
+      "kind": "commentary",
+      "ref": "verse 95 = '(not a yukti)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance-part-two"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 95: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+      "kind": "school",
+      "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 072: seeing Through the Powers That Limit. Vijñāna Bhairava Tantra dharana 72, verse 95."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "No shape to make. Sit quietly. The map is a set of veils, recognised for what they do."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Let the floor or the chair carry you. Eyes closed or soft."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Notice how time, place, ability, knowledge and desire shape this moment. Each is a function, not who you are. Let separateness ease."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School image: unseen limits recognised. A metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Verse 95: knowing māyā as the bewilderer and kalā as limiting activity, contemplating the principles so, one no longer remains separate."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Let the practice go. Take one free breath. Open the eyes and look around the room."
+    }
+  ],
+  "researcher": "R-072",
+  "researched_at": "2026-10-06",
+  "drafted_by": "Grok Bot (VBT Houses 2–7 research, branch research/vbt-houses-2-7)",
+  "review": {
+    "status": "pending_guardian_review",
+    "previous_review": "none (new door)"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "id": "D-074",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "Who Am I Before Desire or Knowing Arise?",
+  "sanskrit": "yadā mamecchā notpannā jñānaṃ vā kas tadāsmi vai",
+  "house": 5,
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "none: new door (doors/index.json at 32e76c4 lists door 74 as unassigned, with no name)",
+  "previous_file": "none: no door file existed for door 74 at commit 32e76c4",
+  "previous_vbt_ref": "none",
+  "dharana": {
+    "number": 74,
+    "verses": [
+      97
+    ],
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114, otherwise one verse each; dhāraṇā 112 = verse 137)",
+    "sanskrit_iast": "yadā mamecchā notpannā jñānaṃ vā kas tadāsmi vai | tattvato 'haṃ tathābhūtas tallīnas tanmanā bhavet ||",
+    "sanskrit_source": "GRETIL e-text, compared with Wallis's concordance, Pradīpaka and the Singh scan",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [
+      "verse 97: GRETIL encoding artefact '=B9' restored as avagraha: tattvato 'haṃ."
+    ],
+    "rendering": "'When no desire, and no knowing, has arisen in me, who am I then? In truth I am that, just as it is.' Absorbed in that, one's mind becomes one with it.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+    "commentary_note": "Singh: the desire, knowledge and activity of the ego are not those of the essential Self; when one realises and practises contemplation of the Self as pure consciousness-bliss, one rises above the ego and is dissolved in the essential Self. Wallis: 'I am as I am'.",
+    "technique_name": "Who Am I Before Desire or Knowing Arise?",
+    "category": "other",
+    "category_plain": "contemplation",
+    "category_secondary": [
+      "contemplation"
+    ],
+    "instruction": "In a moment with no wanting and no thinking, ask 'who am I now?' and rest without answering in words.",
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 74] VERSE 97'",
+        "The Mystery Within (2019), Session Two list: 'Dharana 74' = verse 97 (agrees with Singh)",
+        "The Mystery Within (2019), parallel translations: 'Dharana 74 • verso 97' (agrees)",
+        "Wallis concordance: verse 97 = 'I am as I am (Y72 ~ B2)' (verse text and technique match)",
+        "GRETIL, Wallis and Pradīpaka: Sanskrit of verse 97 compared"
+      ],
+      "notes": "Door index = Singh dhāraṇā number, read directly in Singh's own headings and cross-checked against The Mystery Within's Singh-numbered list and Wallis's concordance. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "verse 97: I am as I am (Y72 ~ B2)"
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 97 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "before_arising",
+    "joints": [],
+    "points": [
+      "the moment before any desire",
+      "the moment before any knowing",
+      "what one is then"
+    ],
+    "summary": "Not a body shape. The map is the moment just before any wanting or knowing arises, and the question of what one is there.",
+    "svg_hint": "a blank space just before a line begins",
+    "honesty": "Geometry records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
+  },
+  "reaction": {
+    "name": "Before anything arises",
+    "from_phase": "busy_self",
+    "to_phase": "simply_being",
+    "summary": "School metaphor only: the restless self that wants and knows is set aside, and simple being is noticed. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "mode": "natural",
+    "lands_in": "wherever the breath naturally ends; this door places nothing on the breath",
+    "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+  },
+  "orientation": {
+    "cue": "Turn attention toward what the verse names, and let everything else stay in the background",
+    "gravity": "Let the floor or chair carry the body completely; there is no posture to hold",
+    "gaze": "Eyes closed or softly lowered",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
+  },
+  "attention": {
+    "primary": "The state before any desire or knowing arises",
+    "secondary": "The question 'who am I then?' left open",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 074 (verse 97)",
+    "verse_paraphrase": "'When no desire, and no knowing, has arisen in me, who am I then? In truth I am that, just as it is.' Absorbed in that, one's mind becomes one with it.",
+    "method_summary": "Rest until there is a moment with no particular want and no particular thought. Ask quietly: 'Who am I now?' Do not answer in words. Rest in what is there, just as it is.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Door 074 follows Vijñāna Bhairava Tantra dharana 74 (verse 97) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type is school_device: the dharana is the content, while the door index, seat and pacing are the school's.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 074 is dharana 74, verse 97. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+    ]
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. Leave the question open and light; it is not meant to be solved. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+      "kind": "vbt",
+      "ref": "[Dhāraṇā 74] VERSE 97: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 97: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "'Session Two' list: 'Dharana 74' = verse 97 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 74 • verso 97' (agrees).",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance, Part 2",
+      "kind": "commentary",
+      "ref": "verse 97 = 'I am as I am (Y72 ~ B2)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance-part-two"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 97: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+      "kind": "school",
+      "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 074: Who Am I Before Desire or Knowing Arise? Vijñāna Bhairava Tantra dharana 74, verse 97."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "No shape to make. Sit or lie down. The map is the moment just before any wanting or knowing."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Let the floor or the chair carry you. Eyes closed or soft."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "In a quiet moment with no wanting and no thinking, ask: who am I now? Do not answer in words. Rest in what is there."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School image: the restless self setting itself down. A metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Verse 97: when no desire or knowing has arisen, who am I? In truth, I am that, just as it is; absorbed there, the mind becomes one with it."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Let the breath go unwatched for a round. Move the fingers and toes. Return to the room."
+    }
+  ],
+  "researcher": "R-074",
+  "researched_at": "2026-10-06",
+  "drafted_by": "Grok Bot (VBT Houses 2–7 research, branch research/vbt-houses-2-7)",
+  "review": {
+    "status": "pending_guardian_review",
+    "previous_review": "none (new door)"
+  }
+}
