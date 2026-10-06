@@ -1,0 +1,206 @@
+{
+  "id": "D-053",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "Gazing at Space Dappled with Light",
+  "sanskrit": "ākāśe śabalīkṛte",
+  "house": 4,
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "none: new door (doors/index.json at 32e76c4 lists door 53 as unassigned, with no name)",
+  "previous_file": "none: no door file existed for door 53 at commit 32e76c4",
+  "previous_vbt_ref": "none",
+  "dharana": {
+    "number": 53,
+    "verses": [
+      76
+    ],
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114, otherwise one verse each; dhāraṇā 112 = verse 137)",
+    "sanskrit_iast": "tejasā sūryadīpāder ākāśe śabalīkṛte | dṛṣṭir niveśyā tatraiva svātmarūpam prakāśate ||",
+    "sanskrit_source": "GRETIL e-text, compared with Wallis's concordance, Pradīpaka and the Singh scan",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [],
+    "rendering": "Let the gaze be placed on space made many-coloured by the light of the sun, a lamp and the like; right there one's own nature shines.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+    "commentary_note": "Singh: 'and the like' includes the moon, whose light dapples the night sky; in such contemplation the yogī casts off the limitation of objective consciousness and experiences the infinity of consciousness. Wallis: a space 'dappled with the light of the sun or a lamp'.",
+    "technique_name": "Gazing at Space Dappled with Light",
+    "category": "sensation",
+    "category_plain": "sight",
+    "category_secondary": [
+      "light"
+    ],
+    "instruction": "Rest a soft gaze on a space patterned with light, without naming anything.",
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 53] VERSE 76'",
+        "The Mystery Within (2019), Session Two list: 'Dharana 53' = verse 76 (agrees with Singh)",
+        "The Mystery Within (2019), parallel translations: 'Dharana 53 • verso 76' (agrees)",
+        "Wallis concordance: verse 76 = 'Patterns of light (Y48 ~ C1)' (verse text and technique match)",
+        "GRETIL, Wallis and Pradīpaka: Sanskrit of verse 76 compared"
+      ],
+      "notes": "Door index = Singh dhāraṇā number, read directly in Singh's own headings and cross-checked against The Mystery Within's Singh-numbered list and Wallis's concordance. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "verse 76: Patterns of light (Y48 ~ C1)"
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 76 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "dappled_light_field",
+    "joints": [],
+    "points": [
+      "a patch of space lit and patterned by light (sunlight through leaves, lamplight, moonlight)"
+    ],
+    "summary": "Not a body shape. The map is a patch of space patterned by light, where the gaze rests without picking out objects.",
+    "svg_hint": "a soft field of scattered light spots and shadow",
+    "honesty": "Geometry records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
+  },
+  "reaction": {
+    "name": "Rest in the play of light",
+    "from_phase": "object_naming",
+    "to_phase": "luminous_self",
+    "summary": "School metaphor only: the eye stops naming objects and rests in the play of light itself. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "mode": "natural",
+    "lands_in": "wherever the breath naturally ends; this door places nothing on the breath",
+    "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+  },
+  "orientation": {
+    "cue": "Rest the gaze in a space patterned by light",
+    "gravity": "Let the floor or chair carry the body completely; there is no posture to hold",
+    "gaze": "Eyes open and soft on dappled light; never on the sun itself",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
+  },
+  "attention": {
+    "primary": "A space patterned with light: sunlight through leaves, lamplight, moonlight",
+    "secondary": "Seeing itself, rather than the objects",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 053 (verse 76)",
+    "verse_paraphrase": "Let the gaze be placed on space made many-coloured by the light of the sun, a lamp and the like; right there one's own nature shines.",
+    "method_summary": "Find a space patterned by light, such as sunlight through leaves, lamplight on a wall, or moonlight. Rest the gaze softly in the play of light without naming anything. Blink normally.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Door 053 follows Vijñāna Bhairava Tantra dharana 53 (verse 76) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type is school_device: the dharana is the content, while the door index, seat and pacing are the school's.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 053 is dharana 53, verse 76. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+    ]
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. Never look at the sun or any bright light source directly; look at the light where it falls. Blink freely. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+      "kind": "vbt",
+      "ref": "[Dhāraṇā 53] VERSE 76: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 76: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "'Session Two' list: 'Dharana 53' = verse 76 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 53 • verso 76' (agrees).",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+      "kind": "commentary",
+      "ref": "verse 76 = 'Patterns of light (Y48 ~ C1)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 76: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+      "kind": "school",
+      "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 053: gazing at space dappled with light. Vijñāna Bhairava Tantra dharana 53, verse 76."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "No shape to make. Sit where you can see light falling in patterns. The map is a patch of dappled light."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Sit comfortably. Eyes open and soft on the light where it falls. Never on the sun."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Rest the gaze softly in the play of light. Name nothing. Blink freely."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School image: the eye resting in the play of light. A metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Verse 76: let the gaze rest on space made many-coloured by the light of sun or lamp; right there one's own nature shines."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Release the attention. Feel the weight of the body on its support. Open the eyes when ready."
+    }
+  ],
+  "researcher": "R-053",
+  "researched_at": "2026-10-06",
+  "drafted_by": "Grok Bot (VBT Houses 2–7 research, branch research/vbt-houses-2-7)",
+  "review": {
+    "status": "pending_guardian_review",
+    "previous_review": "none (new door)"
+  }
+}

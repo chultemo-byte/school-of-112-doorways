@@ -1,0 +1,214 @@
+{
+  "id": "D-054",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "The Five Seals at the Moment of Seeing",
+  "sanskrit": "karaṅkiṇyā krodhanayā bhairavyā lelihānayā khecaryā",
+  "house": 4,
+  "status": "draft",
+  "practice_mode": "historical/observe_only",
+  "previous_label": "none: new door (doors/index.json at 32e76c4 lists door 54 as unassigned, with no name)",
+  "previous_file": "none: no door file existed for door 54 at commit 32e76c4",
+  "previous_vbt_ref": "none",
+  "dharana": {
+    "number": 54,
+    "verses": [
+      77
+    ],
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114, otherwise one verse each; dhāraṇā 112 = verse 137)",
+    "sanskrit_iast": "karaṅkiṇyā krodhanayā bhairavyā lelihānayā | khecaryā dṛṣṭikāle ca parāvāptiḥ prakāśate ||",
+    "sanskrit_source": "GRETIL e-text, compared with Wallis's concordance, Pradīpaka and the Singh scan",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [],
+    "rendering": "Through the seals (mudrā) called karaṅkiṇī, krodhanā, bhairavī, lelihānā and khecarī, at the moment of seeing, the supreme attainment shines forth.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+    "commentary_note": "Singh, following Lakshmanjoo, takes dṛṣṭikāla as 'at the time of practice' and describes each mudrā: karaṅkiṇī views the world as a mere skeleton and the body as dissolved in the highest space; krodhanā is a tense, tight disposition; bhairavī keeps the eyes fixed outward without blinking while attention turns inward; lelihānā 'tastes' the universe as one's own I-consciousness; khecarī has several forms, including turning the tongue back toward the palate, and in its highest form is remaining in Śiva-consciousness. Wallis notes that the Sanskrit commentaries are needed to understand the verse and counts the five mudrās as five yuktis (Y49–53).",
+    "technique_name": "The Five Seals at the Moment of Seeing",
+    "category": "other",
+    "category_plain": "contemplation",
+    "category_secondary": [
+      "mudrā",
+      "esoteric"
+    ],
+    "instruction": "Observe only: read and understand this classical description. It is not practised in class. For a gentle gaze practice, use Door 057 or Door 061.",
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 54] VERSE 77'",
+        "The Mystery Within (2019), Session Two list: 'Dharana 54' = verse 77 (agrees with Singh)",
+        "The Mystery Within (2019), parallel translations: 'Dharana 54 • verso 77' (agrees)",
+        "Wallis concordance: verse 77 = 'Krama mudrās (Y49-53; B2, A2, C2, A2 & A4 respectively)' (verse text and technique match)",
+        "GRETIL, Wallis and Pradīpaka: Sanskrit of verse 77 compared"
+      ],
+      "notes": "Door index = Singh dhāraṇā number, read directly in Singh's own headings and cross-checked against The Mystery Within's Singh-numbered list and Wallis's concordance. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "verse 77: Krama mudrās (Y49-53; B2, A2, C2, A2 & A4 respectively)",
+      "wallis_grouping": "Wallis counts the five mudrās of verse 77 as five yuktis (Y49–53)."
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 77 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "five_seals",
+    "joints": [],
+    "points": [
+      "karaṅkiṇī",
+      "krodhanā",
+      "bhairavī",
+      "lelihānā",
+      "khecarī"
+    ],
+    "summary": "Not a body shape. The classical map is five named seals, each a way of holding attention at the moment of perception. Drawn faint: studied, not drilled.",
+    "svg_hint": "five small faint marks in a row, each labelled with a seal name; drawn faint to signal observe-only",
+    "honesty": "Geometry records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
+  },
+  "reaction": {
+    "name": "Five seals (described)",
+    "from_phase": "ordinary_seeing",
+    "to_phase": "supreme_attainment",
+    "summary": "School metaphor only: five classical ways of sealing attention in the moment of seeing. A list to understand, not an exercise. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "mode": "natural",
+    "lands_in": "wherever the breath naturally ends; this door places nothing on the breath",
+    "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+  },
+  "orientation": {
+    "cue": "Study the verse; let the body simply rest while you do",
+    "gravity": "Let the floor or chair carry the body completely; there is no posture to hold",
+    "gaze": "Eyes closed or softly lowered",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
+  },
+  "attention": {
+    "primary": "Understanding the five named seals and why the verse needs commentary",
+    "secondary": "If sitting with anything, only the soft gaze of Door 057",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 054 (verse 77)",
+    "verse_paraphrase": "Through the seals (mudrā) called karaṅkiṇī, krodhanā, bhairavī, lelihānā and khecarī, at the moment of seeing, the supreme attainment shines forth.",
+    "method_summary": "Classical method: five seals (karaṅkiṇī, krodhanā, bhairavī, lelihānā, khecarī), each described only in commentary, are practised at the moment of perception, and the supreme attainment shines forth. Observe-only in this school: read and understand it. For a gentle gaze practice, use Door 057 or Door 061.",
+    "practice_mode": "observe_only",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Door 054 follows Vijñāna Bhairava Tantra dharana 54 (verse 77) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type is school_device: the dharana is the content, while the door index, seat and pacing are the school's.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 054 is dharana 54, verse 77. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review.",
+      "historical/observe_only: The verse names five esoteric seals (mudrā) known only from commentary; some involve physical techniques (a tense, tight disposition; turning the tongue back toward the palate; an unblinking fixed gaze) and they belong to initiatory lineages. Taught as text to understand, not as a class drill."
+    ]
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. The physical forms of these seals (tongue-turning, sustained unblinking gaze, tense holding) are not taught by this school. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+    "observe_only_note": "Observe-only. These seals are esoteric and commentary-dependent, and some forms (tongue-turning, sustained unblinking gaze, tense holding) can strain the body. For a gentle gaze practice, use Door 057 or Door 061."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+      "kind": "vbt",
+      "ref": "[Dhāraṇā 54] VERSE 77: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 77: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "'Session Two' list: 'Dharana 54' = verse 77 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 54 • verso 77' (agrees).",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+      "kind": "commentary",
+      "ref": "verse 77 = 'Krama mudrās (Y49-53; B2, A2, C2, A2 & A4 respectively)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 77: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+      "kind": "school",
+      "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 054: the five seals at the moment of seeing. Vijñāna Bhairava Tantra dharana 54, verse 77. This door is observe-only."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "No shape to make, and no drill. Sit comfortably while we read. Its classical map is five named seals of attention."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Let the body rest completely. Eyes open, reading or resting softly. Attention on understanding, not on doing."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Natural breath only. Nothing to practise with the breath here. No forced hold."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Hold the idea only: the tradition names five ways of sealing attention in the moment of seeing, known from commentary."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School image: five ways of sealing attention. A metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Verse 77: names the karaṅkiṇī, krodhanā, bhairavī, lelihānā and khecarī seals, through which the supreme attainment shines at the moment of seeing. Observe-only here. For a gentle gaze practice, use Door 057 or 061."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Close the text. Take a normal breath. Look around the room and move on when ready."
+    }
+  ],
+  "researcher": "R-054",
+  "researched_at": "2026-10-06",
+  "drafted_by": "Grok Bot (VBT Houses 2–7 research, branch research/vbt-houses-2-7)",
+  "review": {
+    "status": "pending_guardian_review",
+    "previous_review": "none (new door)"
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "id": "D-057",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "A Steady Gaze on a Solid Object",
+  "sanskrit": "sthūlarūpasya bhāvasya stabdhāṃ dṛṣṭiṃ nipātya",
+  "house": 4,
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "none: new door (doors/index.json at 32e76c4 lists door 57 as unassigned, with no name)",
+  "previous_file": "none: no door file existed for door 57 at commit 32e76c4",
+  "previous_vbt_ref": "none",
+  "dharana": {
+    "number": 57,
+    "verses": [
+      80
+    ],
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114, otherwise one verse each; dhāraṇā 112 = verse 137)",
+    "sanskrit_iast": "sthūlarūpasya bhāvasya stabdhāṃ dṛṣṭiṃ nipātya ca | acireṇa nirādhāraṃ manaḥ kṛtvā śivaṃ vrajet ||",
+    "sanskrit_source": "GRETIL e-text, compared with Wallis's concordance, Pradīpaka and the Singh scan",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [],
+    "rendering": "Having let a steady, unmoving gaze fall on some solid, physical thing, and soon making the mind free of support, one goes to Śiva.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+    "commentary_note": "Singh: fix the gaze without blinking on a gross object while directing attention inward; 'without support' means free of thought-constructs, which are the mind's props. Singh identifies this as the bhairavī mudrā and classes it as śāmbhavopāya. Wallis: 'making the mind free of thoughts and projections about that being'.",
+    "technique_name": "A Steady Gaze on a Solid Object",
+    "category": "sensation",
+    "category_plain": "sight",
+    "category_secondary": [
+      "concentration"
+    ],
+    "instruction": "Rest a steady gaze on one simple object and let go of all thoughts about it.",
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 57] VERSE 80'",
+        "The Mystery Within (2019), Session Two list: 'Dharana 57' = verse 80 (agrees with Singh)",
+        "The Mystery Within (2019), parallel translations: 'Dharana 57 • verso 80' (agrees)",
+        "Wallis concordance: verse 80 = 'Looking without a story (Y56 ~ C1)' (verse text and technique match)",
+        "GRETIL, Wallis and Pradīpaka: Sanskrit of verse 80 compared"
+      ],
+      "notes": "Door index = Singh dhāraṇā number, read directly in Singh's own headings and cross-checked against The Mystery Within's Singh-numbered list and Wallis's concordance. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "verse 80: Looking without a story (Y56 ~ C1)"
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 80 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "gaze_line_to_object",
+    "joints": [],
+    "points": [
+      "the eyes",
+      "a simple physical object (a stone, a cup, a candle-holder)"
+    ],
+    "summary": "Not a body shape. The map is a straight line of gaze from the eyes to one simple object, with the mind letting go of everything it thinks about that object.",
+    "svg_hint": "a dotted line from an eye to a small plain object",
+    "honesty": "Geometry records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
+  },
+  "reaction": {
+    "name": "Look without a story",
+    "from_phase": "commentary_mind",
+    "to_phase": "supportless_mind",
+    "summary": "School metaphor only: the eye stays on one thing while the mind's running commentary about it falls away. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "mode": "natural",
+    "lands_in": "wherever the breath naturally ends; this door places nothing on the breath",
+    "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+  },
+  "orientation": {
+    "cue": "Let the gaze rest steadily on one simple object",
+    "gravity": "Let the floor or chair carry the body completely; there is no posture to hold",
+    "gaze": "Eyes open and steady; blink whenever needed",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
+  },
+  "attention": {
+    "primary": "One simple object, seen steadily",
+    "secondary": "The mind letting go of thoughts about it",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 057 (verse 80)",
+    "verse_paraphrase": "Having let a steady, unmoving gaze fall on some solid, physical thing, and soon making the mind free of support, one goes to Śiva.",
+    "method_summary": "Place a simple object in front of you. Let the gaze rest on it steadily. Let go of names, judgments and stories about it, so the mind has nothing to lean on. Blink whenever the eyes need to.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Door 057 follows Vijñāna Bhairava Tantra dharana 57 (verse 80) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type is school_device: the dharana is the content, while the door index, seat and pacing are the school's.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 057 is dharana 57, verse 80. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review.",
+      "School adjustment: the verse and Singh describe an unblinking gaze; this school keeps the steadiness and allows normal blinking."
+    ]
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. Blink whenever needed: the classical gaze is unblinking, but this school does not ask for it. Stop if the eyes water or strain. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+      "kind": "vbt",
+      "ref": "[Dhāraṇā 57] VERSE 80: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 80: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "'Session Two' list: 'Dharana 57' = verse 80 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 57 • verso 80' (agrees).",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+      "kind": "commentary",
+      "ref": "verse 80 = 'Looking without a story (Y56 ~ C1)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 80: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+      "kind": "school",
+      "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 057: a steady gaze on a solid object. Vijñāna Bhairava Tantra dharana 57, verse 80."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "No shape to make. Sit with one simple object in front of you. The map is a line of gaze from your eyes to it."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Sit comfortably. Eyes open and steady on the object. Blink whenever needed."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Let the gaze rest steadily on the object. Let go of every thought about it. Blink whenever you need to."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School image: an eye that stays while the commentary falls away. A metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Verse 80: let a steady gaze fall on a solid thing, make the mind supportless, and one soon goes to Śiva."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Release the attention. Feel the weight of the body on its support. Open the eyes when ready."
+    }
+  ],
+  "researcher": "R-057",
+  "researched_at": "2026-10-06",
+  "drafted_by": "Grok Bot (VBT Houses 2–7 research, branch research/vbt-houses-2-7)",
+  "review": {
+    "status": "pending_guardian_review",
+    "previous_review": "none (new door)"
+  }
+}
