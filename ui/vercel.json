@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://www.yoga112.com/$1",
+      "permanent": true
+    }
+  ]
+}
