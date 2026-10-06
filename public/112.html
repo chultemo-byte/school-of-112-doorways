@@ -3,94 +3,58 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>112 Doorways · the city map</title>
+<title>The city of 112 doorways · School of 112 Doorways</title>
 <style>
-  :root{--bg:#0b0a12;--ink:#f4efe6;--muted:#9a8f7a;--gold:#c9a227;--red:#c0392b}
-  *{box-sizing:border-box}html,body{margin:0;padding:0}
-  body{background:#0b0a12;color:var(--ink);font-family:Georgia,serif}
-  .wrap{max-width:720px;margin:0 auto;padding:28px 18px 80px}
+  :root{--bg:#0b0a12;--ink:#f4efe6;--muted:#9a8f7a;--vermilion:#c0392b;--gold:#c9a227}
+  *{box-sizing:border-box} html,body{margin:0;padding:0}
+  body{background:radial-gradient(1200px 800px at 50% -10%, #1a1530 0%, var(--bg) 60%);color:var(--ink);font-family:Georgia,serif;min-height:100vh}
+  .wrap{max-width:760px;margin:0 auto;padding:28px 20px 96px}
+  header{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center}
+  .brand{font-weight:600;letter-spacing:.04em}
+  .brand small{display:block;color:var(--muted);font-weight:400;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase}
+  header nav a{margin-left:12px}
   a{color:var(--gold);text-decoration:none}
-  .eyebrow{color:var(--gold);letter-spacing:.2em;text-transform:uppercase;font-size:.7rem;font-family:system-ui,sans-serif}
-  h1{font-weight:500;font-size:2rem;line-height:1.15;margin:10px 0 12px}
-  p{color:var(--muted);line-height:1.55}
-  .law{border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:14px 16px;margin:18px 0}
-  h2{font-size:1.15rem;margin:28px 0 10px;color:var(--gold)}
-  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
-  .cell{border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:8px 6px;font-size:.72rem;font-family:system-ui,sans-serif;min-height:54px;display:block;color:inherit}
+  .eyebrow{color:var(--gold);letter-spacing:.22em;text-transform:uppercase;font-size:.74rem;text-align:center;margin-top:28px;font-family:system-ui,sans-serif}
+  h1{font-weight:500;font-size:clamp(1.9rem,5.5vw,2.8rem);line-height:1.1;margin:10px 0;text-align:center}
+  .verse-ref{text-align:center;color:var(--muted);margin:0 0 14px}
+  .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:0 0 18px}
+  .badge{font-family:system-ui,sans-serif;font-size:.78rem;border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:4px 10px;color:var(--ink)}
+  .badge.practice{border-color:rgba(201,162,39,.6)}
+  .badge.observe{border-color:var(--vermilion);background:rgba(192,57,43,.18)}
+  .observe-banner{border:1px solid var(--vermilion);border-left-width:4px;border-radius:12px;padding:12px 14px;margin:14px 0;background:rgba(192,57,43,.12);line-height:1.5}
+  .observe-banner b{display:block;color:#f2b8ae;letter-spacing:.06em;text-transform:uppercase;font-size:.85rem;font-family:system-ui,sans-serif;margin-bottom:4px}
+  .one-line{font-size:1.2rem;line-height:1.5;border:1px solid rgba(201,162,39,.4);border-radius:14px;padding:14px 16px;background:rgba(201,162,39,.06);margin:14px 0}
+  .guidance-slot{margin:14px 0}
+  .guidance-slot:empty{display:none}
+  section.field{margin:20px 0}
+  section.field h2{font-size:1rem;color:var(--gold);font-weight:500;margin:0 0 6px;font-family:system-ui,sans-serif;letter-spacing:.04em}
+  section.field p,section.field li{line-height:1.55;margin:0 0 6px}
+  .iast{font-style:italic;color:#e8d7b4}
+  .muted{color:var(--muted)}
+  .safety{border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:12px 16px}
+  details{margin:14px 0;border-top:1px solid rgba(255,255,255,.08);padding-top:10px}
+  summary{cursor:pointer;color:var(--gold);font-family:system-ui,sans-serif}
+  .law{margin:28px 0;color:var(--muted);line-height:1.6;border-top:1px solid rgba(255,255,255,.08);padding-top:16px}
+  nav.doors{display:flex;justify-content:space-between;gap:10px;margin-top:18px}
+  footer{margin-top:22px;color:var(--muted);font-size:.8rem;text-align:center}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+  .card{display:block;border:1px solid rgba(201,162,39,.35);border-radius:14px;padding:12px;background:rgba(201,162,39,.05);color:inherit}
+  .card b{display:block;color:var(--ink);line-height:1.3;margin:4px 0}
+  .card small{color:var(--muted);font-family:system-ui,sans-serif;font-size:.74rem;letter-spacing:.04em}
+  .card.observe{border-color:rgba(192,57,43,.6);background:rgba(192,57,43,.08)}
+  .cells{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+  .cell{border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:8px 6px;font-size:.72rem;font-family:system-ui,sans-serif;min-height:54px;display:block;color:var(--muted)}
   .cell b{display:block;color:var(--ink);font-size:.78rem}
-  .cell.open{border-color:rgba(201,162,39,.45);background:rgba(201,162,39,.08)}
-  .cell.seed{border-color:rgba(192,57,43,.4);background:rgba(192,57,43,.08)}
-  .cell.wait{color:var(--muted)}
-  .live{margin:18px 0;padding:16px;border:1px solid rgba(201,162,39,.45);border-radius:14px;background:rgba(201,162,39,.08)}
-  .live a.btn{display:inline-block;margin-top:8px;background:#c9a227;color:#0b0a12;border-radius:12px;padding:10px 16px;font-family:system-ui,sans-serif;font-weight:700}
-  footer{margin-top:36px;color:var(--muted);font-size:.85rem}
+  .cell.open{border-color:rgba(201,162,39,.45);background:rgba(201,162,39,.08);color:var(--ink)}
+  .cell.open.observe{border-color:rgba(192,57,43,.55);background:rgba(192,57,43,.08)}
+  h2.house{font-size:1.1rem;margin:28px 0 10px;color:var(--gold);font-weight:500}
+  p.lead{color:var(--muted);font-size:1.1rem;line-height:1.6}
+  @media(max-width:560px){.cells{grid-template-columns:repeat(2,1fr)}}
 </style>
 </head>
 <body>
-  <div class="wrap">
-    <div class="eyebrow">7 houses × 16 doors</div>
-    <h1>The city of 112 doorways</h1>
-    <p>Every pot is a complete page. Smart house, color, and bija are calculated. Named doors carry the encyclopedia. Waiting pots stay unnamed on purpose.</p>
-    <div class="law"><b>Student job.</b> Look here. Breathe. Exit if it hurts. Ask Guru Meru on the pot. The rest stays in the pot.</div>
-    <div class="live">
-      <b>Guru Meru lives on every door.</b>
-      <p style="margin:8px 0 0">Open any pot. Press Live Instruction. He answers look-here, water, exit, and safety from that plate only.</p>
-      <a class="btn" href="pose.html?n=1">Open Door 001 · Ask Guru Meru</a>
-    </div>
-
-    <h2>House 1 · Earth · LAM · 001–016 · OPEN</h2>
-    <div class="grid" id="h1"></div>
-    <h2>House 2 · Water · VAM · 017–032 · WAITING</h2>
-    <div class="grid" id="h2"></div>
-    <h2>House 3 · Fire · RAM · 033–048 · WAITING</h2>
-    <div class="grid" id="h3"></div>
-    <h2>House 4 · Air · YAM · 049–064</h2>
-    <div class="grid" id="h4"></div>
-    <h2>House 5 · Ether · HAM · 065–080 · WAITING</h2>
-    <div class="grid" id="h5"></div>
-    <h2>House 6 · Sight · OM · 081–096 · WAITING</h2>
-    <div class="grid" id="h6"></div>
-    <h2>House 7 · Crown · silence · 097–112</h2>
-    <div class="grid" id="h7"></div>
-
-    <p>049 and 112 are seeded anchors. Empty pots wait for a researched name. Null is not a secret name.</p>
-    <footer><a href="index.html">School gate</a> · <a href="pose.html?n=1">Door 001</a> · Practice is not medicine. <i>Sthira-sukham āsanam.</i></footer>
-  </div>
-<script>
-(function(){
-  var NAMED={
-    1:{name:'Mountain',sa:'Tāḍāsana',cls:'open'},
-    2:{name:'Sky Reach',sa:'Ūrdhva Hastāsana',cls:'open'},
-    3:{name:'Ragdoll Fold',sa:'Uttanāsana',cls:'open'},
-    4:{name:'Half Fold',sa:'Ardha Uttanāsana',cls:'open'},
-    5:{name:'Low Lunge',sa:'Añjaneyāsana',cls:'open'},
-    6:{name:'Down Dog',sa:'Adho Mukha Śvānāsana',cls:'open'},
-    7:{name:'Plank',sa:'Phalakāsana',cls:'open'},
-    8:{name:'Four-Limbed Staff',sa:'Caturaṅga Daṇḍāsana',cls:'open'},
-    9:{name:'Up Dog',sa:'Ūrdhva Mukha Śvānāsana',cls:'open'},
-    10:{name:'Warrior I',sa:'Vīrabhadrāsana I',cls:'open'},
-    11:{name:'Warrior II',sa:'Vīrabhadrāsana II',cls:'open'},
-    12:{name:'Triangle',sa:'Utthita Trikoṇāsana',cls:'open'},
-    13:{name:'Rev. Triangle',sa:'Parivṛtta Trikoṇāsana',cls:'open'},
-    14:{name:'Side Angle',sa:'Utthita Pārśvakoṇāsana',cls:'open'},
-    15:{name:'Wide Fold',sa:'Prasārita Pādottānāsana',cls:'open'},
-    16:{name:'Tree',sa:'Vṛkṣāsana',cls:'open'},
-    49:{name:'Cobra',sa:'Bhujaṅgāsana',cls:'seed'},
-    112:{name:'Lotus',sa:'Padmāsana',cls:'seed'}
-  };
-  function fill(id,start,end){
-    var h='';
-    for(var n=start;n<=end;n++){
-      var s=NAMED[n];
-      var href='pose.html?n='+n+'&meru=1';
-      if(s) h+='<a class="cell '+s.cls+'" href="'+href+'"><b>'+String(n).padStart(3,'0')+' '+s.name+'</b>'+s.sa+'</a>';
-      else h+='<a class="cell wait" href="'+href+'"><b>'+String(n).padStart(3,'0')+'</b>waiting pot</a>';
-    }
-    document.getElementById(id).innerHTML=h;
-  }
-  fill('h1',1,16); fill('h2',17,32); fill('h3',33,48);
-  fill('h4',49,64); fill('h5',65,80); fill('h6',81,96); fill('h7',97,112);
-})();
-</script>
+<div class="wrap">
+<header><div class="brand">School of 112 Doorways<small>City of 112</small></div><nav><a href="index.html">Gate</a><a href="112.html">City of 112</a></nav></header><div class="eyebrow">7 houses × 16 doors</div><h1>The city of 112 doorways</h1><p class="lead">One door for each dhāraṇā of the Vijñāna Bhairava Tantra. House 1 is open. The other houses are being remembered.</p><h2 class="house">House 1 · Mūlādhāra · Earth · 001–016 · open</h2><div class="cells"><a class="cell open" href="door-001.html"><b>001 · v.24</b>Resting in the Two Turning Points of the Breath</a><a class="cell open" href="door-002.html"><b>002 · v.25</b>Not Turning Back from the Two Spaces</a><a class="cell open" href="door-003.html"><b>003 · v.26</b>The Opened Centre Where Breath Neither Leaves nor Enters</a><a class="cell open observe" href="door-004.html"><b>004 · v.27</b>Retained Breath and the Tranquil · observe only</a><a class="cell open" href="door-005.html"><b>005 · v.28</b>Rays Rising from the Root, Dissolving above the Crown</a><a class="cell open" href="door-006.html"><b>006 · v.29</b>Lightning Rising Centre by Centre</a><a class="cell open" href="door-007.html"><b>007 · v.30</b>Twelve Stations, Twelve Letters</a><a class="cell open observe" href="door-008.html"><b>008 · v.31</b>Filling to the Crown, Crossing the Brow-Bridge · observe only</a><a class="cell open" href="door-009.html"><b>009 · v.32</b>The Five Voids of the Peacock Feather</a><a class="cell open" href="door-010.html"><b>010 · v.33</b>Attention Dissolving into Space, a Wall, or a Worthy Vessel</a><a class="cell open" href="door-011.html"><b>011 · v.34</b>Mind Placed Inside the Skull</a><a class="cell open" href="door-012.html"><b>012 · v.35</b>Space Within the Central Channel</a><a class="cell open observe" href="door-013.html"><b>013 · v.36</b>Sealing the Sense-Doors, Watching the Point Dissolve · observe only</a><a class="cell open observe" href="door-014.html"><b>014 · v.37</b>The Point of Subtle Fire · observe only</a><a class="cell open" href="door-015.html"><b>015 · v.38</b>Bathing in the Unstruck Sound</a><a class="cell open" href="door-016.html"><b>016 · v.39</b>Praṇava Fading into Void</a></div><h2 class="house">House 2 · Svādhiṣṭhāna · Water · 017–032 · being remembered</h2><div class="cells"><a class="cell" href="door-sealed.html?n=17"><b>017</b>being remembered</a><a class="cell" href="door-sealed.html?n=18"><b>018</b>being remembered</a><a class="cell" href="door-sealed.html?n=19"><b>019</b>being remembered</a><a class="cell" href="door-sealed.html?n=20"><b>020</b>being remembered</a><a class="cell" href="door-sealed.html?n=21"><b>021</b>being remembered</a><a class="cell" href="door-sealed.html?n=22"><b>022</b>being remembered</a><a class="cell" href="door-sealed.html?n=23"><b>023</b>being remembered</a><a class="cell" href="door-sealed.html?n=24"><b>024</b>being remembered</a><a class="cell" href="door-sealed.html?n=25"><b>025</b>being remembered</a><a class="cell" href="door-sealed.html?n=26"><b>026</b>being remembered</a><a class="cell" href="door-sealed.html?n=27"><b>027</b>being remembered</a><a class="cell" href="door-sealed.html?n=28"><b>028</b>being remembered</a><a class="cell" href="door-sealed.html?n=29"><b>029</b>being remembered</a><a class="cell" href="door-sealed.html?n=30"><b>030</b>being remembered</a><a class="cell" href="door-sealed.html?n=31"><b>031</b>being remembered</a><a class="cell" href="door-sealed.html?n=32"><b>032</b>being remembered</a></div><h2 class="house">House 3 · Maṇipūra · Fire · 033–048 · being remembered</h2><div class="cells"><a class="cell" href="door-sealed.html?n=33"><b>033</b>being remembered</a><a class="cell" href="door-sealed.html?n=34"><b>034</b>being remembered</a><a class="cell" href="door-sealed.html?n=35"><b>035</b>being remembered</a><a class="cell" href="door-sealed.html?n=36"><b>036</b>being remembered</a><a class="cell" href="door-sealed.html?n=37"><b>037</b>being remembered</a><a class="cell" href="door-sealed.html?n=38"><b>038</b>being remembered</a><a class="cell" href="door-sealed.html?n=39"><b>039</b>being remembered</a><a class="cell" href="door-sealed.html?n=40"><b>040</b>being remembered</a><a class="cell" href="door-sealed.html?n=41"><b>041</b>being remembered</a><a class="cell" href="door-sealed.html?n=42"><b>042</b>being remembered</a><a class="cell" href="door-sealed.html?n=43"><b>043</b>being remembered</a><a class="cell" href="door-sealed.html?n=44"><b>044</b>being remembered</a><a class="cell" href="door-sealed.html?n=45"><b>045</b>being remembered</a><a class="cell" href="door-sealed.html?n=46"><b>046</b>being remembered</a><a class="cell" href="door-sealed.html?n=47"><b>047</b>being remembered</a><a class="cell" href="door-sealed.html?n=48"><b>048</b>being remembered</a></div><h2 class="house">House 4 · Anāhata · Air · 049–064 · being remembered</h2><div class="cells"><a class="cell" href="door-sealed.html?n=49"><b>049</b>being remembered</a><a class="cell" href="door-sealed.html?n=50"><b>050</b>being remembered</a><a class="cell" href="door-sealed.html?n=51"><b>051</b>being remembered</a><a class="cell" href="door-sealed.html?n=52"><b>052</b>being remembered</a><a class="cell" href="door-sealed.html?n=53"><b>053</b>being remembered</a><a class="cell" href="door-sealed.html?n=54"><b>054</b>being remembered</a><a class="cell" href="door-sealed.html?n=55"><b>055</b>being remembered</a><a class="cell" href="door-sealed.html?n=56"><b>056</b>being remembered</a><a class="cell" href="door-sealed.html?n=57"><b>057</b>being remembered</a><a class="cell" href="door-sealed.html?n=58"><b>058</b>being remembered</a><a class="cell" href="door-sealed.html?n=59"><b>059</b>being remembered</a><a class="cell" href="door-sealed.html?n=60"><b>060</b>being remembered</a><a class="cell" href="door-sealed.html?n=61"><b>061</b>being remembered</a><a class="cell" href="door-sealed.html?n=62"><b>062</b>being remembered</a><a class="cell" href="door-sealed.html?n=63"><b>063</b>being remembered</a><a class="cell" href="door-sealed.html?n=64"><b>064</b>being remembered</a></div><h2 class="house">House 5 · Viśuddha · Ether · 065–080 · being remembered</h2><div class="cells"><a class="cell" href="door-sealed.html?n=65"><b>065</b>being remembered</a><a class="cell" href="door-sealed.html?n=66"><b>066</b>being remembered</a><a class="cell" href="door-sealed.html?n=67"><b>067</b>being remembered</a><a class="cell" href="door-sealed.html?n=68"><b>068</b>being remembered</a><a class="cell" href="door-sealed.html?n=69"><b>069</b>being remembered</a><a class="cell" href="door-sealed.html?n=70"><b>070</b>being remembered</a><a class="cell" href="door-sealed.html?n=71"><b>071</b>being remembered</a><a class="cell" href="door-sealed.html?n=72"><b>072</b>being remembered</a><a class="cell" href="door-sealed.html?n=73"><b>073</b>being remembered</a><a class="cell" href="door-sealed.html?n=74"><b>074</b>being remembered</a><a class="cell" href="door-sealed.html?n=75"><b>075</b>being remembered</a><a class="cell" href="door-sealed.html?n=76"><b>076</b>being remembered</a><a class="cell" href="door-sealed.html?n=77"><b>077</b>being remembered</a><a class="cell" href="door-sealed.html?n=78"><b>078</b>being remembered</a><a class="cell" href="door-sealed.html?n=79"><b>079</b>being remembered</a><a class="cell" href="door-sealed.html?n=80"><b>080</b>being remembered</a></div><h2 class="house">House 6 · Ājñā · Sight · 081–096 · being remembered</h2><div class="cells"><a class="cell" href="door-sealed.html?n=81"><b>081</b>being remembered</a><a class="cell" href="door-sealed.html?n=82"><b>082</b>being remembered</a><a class="cell" href="door-sealed.html?n=83"><b>083</b>being remembered</a><a class="cell" href="door-sealed.html?n=84"><b>084</b>being remembered</a><a class="cell" href="door-sealed.html?n=85"><b>085</b>being remembered</a><a class="cell" href="door-sealed.html?n=86"><b>086</b>being remembered</a><a class="cell" href="door-sealed.html?n=87"><b>087</b>being remembered</a><a class="cell" href="door-sealed.html?n=88"><b>088</b>being remembered</a><a class="cell" href="door-sealed.html?n=89"><b>089</b>being remembered</a><a class="cell" href="door-sealed.html?n=90"><b>090</b>being remembered</a><a class="cell" href="door-sealed.html?n=91"><b>091</b>being remembered</a><a class="cell" href="door-sealed.html?n=92"><b>092</b>being remembered</a><a class="cell" href="door-sealed.html?n=93"><b>093</b>being remembered</a><a class="cell" href="door-sealed.html?n=94"><b>094</b>being remembered</a><a class="cell" href="door-sealed.html?n=95"><b>095</b>being remembered</a><a class="cell" href="door-sealed.html?n=96"><b>096</b>being remembered</a></div><h2 class="house">House 7 · Sahasrāra · Crown · 097–112 · being remembered</h2><div class="cells"><a class="cell" href="door-sealed.html?n=97"><b>097</b>being remembered</a><a class="cell" href="door-sealed.html?n=98"><b>098</b>being remembered</a><a class="cell" href="door-sealed.html?n=99"><b>099</b>being remembered</a><a class="cell" href="door-sealed.html?n=100"><b>100</b>being remembered</a><a class="cell" href="door-sealed.html?n=101"><b>101</b>being remembered</a><a class="cell" href="door-sealed.html?n=102"><b>102</b>being remembered</a><a class="cell" href="door-sealed.html?n=103"><b>103</b>being remembered</a><a class="cell" href="door-sealed.html?n=104"><b>104</b>being remembered</a><a class="cell" href="door-sealed.html?n=105"><b>105</b>being remembered</a><a class="cell" href="door-sealed.html?n=106"><b>106</b>being remembered</a><a class="cell" href="door-sealed.html?n=107"><b>107</b>being remembered</a><a class="cell" href="door-sealed.html?n=108"><b>108</b>being remembered</a><a class="cell" href="door-sealed.html?n=109"><b>109</b>being remembered</a><a class="cell" href="door-sealed.html?n=110"><b>110</b>being remembered</a><a class="cell" href="door-sealed.html?n=111"><b>111</b>being remembered</a><a class="cell" href="door-sealed.html?n=112"><b>112</b>being remembered</a></div><section class="law">Pain is information, never a badge. Never force the breath. Practice is not medical treatment. The door-to-dhāraṇā index is a School of 112 Doorways teaching device (school_device), not an ancient one-to-one canon.</section><footer>School of 112 Doorways · living memory of the 112 dhāraṇās of the Vijñāna Bhairava Tantra</footer>
+</div>
 </body>
 </html>

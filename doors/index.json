@@ -1,135 +1,183 @@
 {
   "school": "School of 112 Doorways",
   "count": 112,
-  "note": "Doors 001-016 are House 1 researched records at doors/D-00N/door.json. Registry: doors/HOUSE-1-REGISTRY.md. Guardian reviews: guardians/reviews/. Doors 049 and 112 remain prototype seeds. Other doors are unassigned; null means not yet named, not a secret name.",
+  "note": "Doors 001-016 are House 1: Vijñāna Bhairava Tantra dhāraṇās 1-16 in Jaideva Singh numbering (door N = dhāraṇā N, verse N+23), at doors/D-00N/door.json (schema 2.0.0). Registry: doors/HOUSE-1-REGISTRY.md. sanskrit is a short phrase from the verse and english is the technique name. Doors 049 and 112 keep legacy prototype records used only by the engine self-check; they are not published. Doors 017-112 are being remembered; null means not yet named, not a secret name.",
   "doors": [
     {
       "number": 1,
-      "sanskrit": "Tadasana",
-      "english": "Mountain",
+      "sanskrit": "utpattidvitayasthāne bharitā sthitiḥ",
+      "english": "Resting in the Two Turning Points of the Breath",
       "status": "researched",
       "house": 1,
-      "file": "doors/D-001/door.json"
+      "file": "doors/D-001/door.json",
+      "vbt_dharana": 1,
+      "vbt_verse": 24,
+      "practice_mode": "practice"
     },
     {
       "number": 2,
-      "sanskrit": "Urdhva Hastasana",
-      "english": "Upward Salute",
+      "sanskrit": "viyadyugmānivartanāt",
+      "english": "Not Turning Back from the Two Spaces",
       "status": "researched",
       "house": 1,
-      "file": "doors/D-002/door.json"
+      "file": "doors/D-002/door.json",
+      "vbt_dharana": 2,
+      "vbt_verse": 25,
+      "practice_mode": "practice"
     },
     {
       "number": 3,
-      "sanskrit": "Uttanasana",
-      "english": "Standing Forward Fold",
+      "sanskrit": "na vrajen na viśec chaktiḥ",
+      "english": "The Opened Centre Where Breath Neither Leaves nor Enters",
       "status": "researched",
       "house": 1,
-      "file": "doors/D-003/door.json"
+      "file": "doors/D-003/door.json",
+      "vbt_dharana": 3,
+      "vbt_verse": 26,
+      "practice_mode": "practice"
     },
     {
       "number": 4,
-      "sanskrit": "Ardha Uttanasana",
-      "english": "Half Forward Fold",
+      "sanskrit": "kumbhitā recitā vāpi pūritā",
+      "english": "Retained Breath and the Tranquil",
       "status": "researched",
       "house": 1,
-      "file": "doors/D-004/door.json"
+      "file": "doors/D-004/door.json",
+      "vbt_dharana": 4,
+      "vbt_verse": 27,
+      "practice_mode": "historical/observe_only"
     },
     {
       "number": 5,
-      "sanskrit": "Anjaneyasana",
-      "english": "Low Lunge",
+      "sanskrit": "āmūlāt kiraṇābhāsām",
+      "english": "Rays Rising from the Root, Dissolving above the Crown",
       "status": "researched",
       "house": 1,
-      "file": "doors/D-005/door.json"
+      "file": "doors/D-005/door.json",
+      "vbt_dharana": 5,
+      "vbt_verse": 28,
+      "practice_mode": "practice"
     },
     {
       "number": 6,
-      "sanskrit": "Adho Mukha Svanasana",
-      "english": "Downward-Facing Dog",
+      "sanskrit": "udgacchantīṃ taḍidrūpām",
+      "english": "Lightning Rising Centre by Centre",
       "status": "researched",
       "house": 1,
-      "file": "doors/D-006/door.json"
+      "file": "doors/D-006/door.json",
+      "vbt_dharana": 6,
+      "vbt_verse": 29,
+      "practice_mode": "practice"
     },
     {
       "number": 7,
-      "sanskrit": "Phalakasana",
-      "english": "Plank",
+      "sanskrit": "kramadvādaśakam",
+      "english": "Twelve Stations, Twelve Letters",
       "status": "researched",
       "house": 1,
-      "file": "doors/D-007/door.json"
+      "file": "doors/D-007/door.json",
+      "vbt_dharana": 7,
+      "vbt_verse": 30,
+      "practice_mode": "practice"
     },
     {
       "number": 8,
-      "sanskrit": "Chaturanga Dandasana",
-      "english": "Four-Limbed Staff",
+      "sanskrit": "bhrūkṣepasetunā",
+      "english": "Filling to the Crown, Crossing the Brow-Bridge",
       "status": "researched",
       "house": 1,
-      "file": "doors/D-008/door.json"
+      "file": "doors/D-008/door.json",
+      "vbt_dharana": 8,
+      "vbt_verse": 31,
+      "practice_mode": "historical/observe_only"
     },
     {
       "number": 9,
-      "sanskrit": "Urdhva Mukha Svanasana",
-      "english": "Upward-Facing Dog",
+      "sanskrit": "śūnyapañcakam",
+      "english": "The Five Voids of the Peacock Feather",
       "status": "researched",
       "house": 1,
-      "file": "doors/D-009/door.json"
+      "file": "doors/D-009/door.json",
+      "vbt_dharana": 9,
+      "vbt_verse": 32,
+      "practice_mode": "practice"
     },
     {
       "number": 10,
-      "sanskrit": "Virabhadrasana I",
-      "english": "Warrior I",
+      "sanskrit": "śūnye kuḍye pare pātre",
+      "english": "Attention Dissolving into Space, a Wall, or a Worthy Vessel",
       "status": "researched",
       "house": 1,
-      "file": "doors/D-010/door.json"
+      "file": "doors/D-010/door.json",
+      "vbt_dharana": 10,
+      "vbt_verse": 33,
+      "practice_mode": "practice"
     },
     {
       "number": 11,
-      "sanskrit": "Virabhadrasana II",
-      "english": "Warrior II",
+      "sanskrit": "kapālāntar mano nyasya",
+      "english": "Mind Placed Inside the Skull",
       "status": "researched",
       "house": 1,
-      "file": "doors/D-011/door.json"
+      "file": "doors/D-011/door.json",
+      "vbt_dharana": 11,
+      "vbt_verse": 34,
+      "practice_mode": "practice"
     },
     {
       "number": 12,
-      "sanskrit": "Utthita Trikonasana",
-      "english": "Triangle",
+      "sanskrit": "madhyanāḍī madhyasaṃsthā",
+      "english": "Space Within the Central Channel",
       "status": "researched",
       "house": 1,
-      "file": "doors/D-012/door.json"
+      "file": "doors/D-012/door.json",
+      "vbt_dharana": 12,
+      "vbt_verse": 35,
+      "practice_mode": "practice"
     },
     {
       "number": 13,
-      "sanskrit": "Parivrtta Trikonasana",
-      "english": "Revolved Triangle",
+      "sanskrit": "kararuddhadṛgastreṇa",
+      "english": "Sealing the Sense-Doors, Watching the Point Dissolve",
       "status": "researched",
       "house": 1,
-      "file": "doors/D-013/door.json"
+      "file": "doors/D-013/door.json",
+      "vbt_dharana": 13,
+      "vbt_verse": 36,
+      "practice_mode": "historical/observe_only"
     },
     {
       "number": 14,
-      "sanskrit": "Utthita Parsvakonasana",
-      "english": "Extended Side Angle",
+      "sanskrit": "sūkṣmāgnitilakākṛtiṃ binduṃ",
+      "english": "The Point of Subtle Fire",
       "status": "researched",
       "house": 1,
-      "file": "doors/D-014/door.json"
+      "file": "doors/D-014/door.json",
+      "vbt_dharana": 14,
+      "vbt_verse": 37,
+      "practice_mode": "historical/observe_only"
     },
     {
       "number": 15,
-      "sanskrit": "Prasarita Padottanasana",
-      "english": "Wide-Legged Standing Forward Fold",
+      "sanskrit": "anāhate ... śabdabrahmaṇi niṣṇātaḥ",
+      "english": "Bathing in the Unstruck Sound",
       "status": "researched",
       "house": 1,
-      "file": "doors/D-015/door.json"
+      "file": "doors/D-015/door.json",
+      "vbt_dharana": 15,
+      "vbt_verse": 38,
+      "practice_mode": "practice"
     },
     {
       "number": 16,
-      "sanskrit": "Vrksasana",
-      "english": "Tree",
+      "sanskrit": "praṇavādisamuccārāt",
+      "english": "Praṇava Fading into Void",
       "status": "researched",
       "house": 1,
-      "file": "doors/D-016/door.json"
+      "file": "doors/D-016/door.json",
+      "vbt_dharana": 16,
+      "vbt_verse": 39,
+      "practice_mode": "practice"
     },
     {
       "number": 17,

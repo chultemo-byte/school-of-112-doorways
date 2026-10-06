@@ -1,0 +1,21 @@
+{
+  "note": "One plain line per House 1 door, shown on the public door page. School wording, drawn from adiyogi.method_summary in each door.json. Observe-only doors get a reading line, never a practice cue. Edit here, then run npm run build:public.",
+  "lines": {
+    "1": "Breathe naturally and let awareness rest where the breath turns: inside after the in-breath, outside after the out-breath.",
+    "2": "Breathe naturally and stay present in the small space after each in-breath and each out-breath, without hurrying on.",
+    "3": "Rest awareness in the still centre where the breath is neither going out nor coming in. Recognise the pause; never create it.",
+    "4": "Observe only: read the verse and its classical description. This door is not practised.",
+    "5": "Rest attention at the base of the body and imagine a soft radiance rising along the centre line until it dissolves above the crown.",
+    "6": "Gently mark attention centre by centre up the central line, then rest in the space above the crown for a breath or two.",
+    "7": "Move attention up the centre line one station at a time: feel it coarsely, then subtly, then let it go and rise.",
+    "8": "Observe only: read the verse and its classical description. This door is not practised.",
+    "9": "Feel the whole field of the senses as nested rings and let the detail dissolve toward a quiet centre at the heart.",
+    "10": "Rest a soft gaze on empty sky or a blank wall and let attention dissolve into it, blinking whenever needed.",
+    "11": "Close the eyes and rest attention inside the skull as a soft field, letting steadiness build without force.",
+    "12": "Rest awareness on one slender channel through the middle of the body and feel its inside as open space.",
+    "13": "Observe only: read the verse and its classical description. This door is not practised.",
+    "14": "Observe only: read the verse and its classical description. This door is not practised.",
+    "15": "Listen past ordinary sounds to the subtle, continuous hum of a quiet room and bathe in that unbroken sound.",
+    "16": "Sound a soft, long Oṃ, aloud or silently, and rest in the quiet gap when the sound ends."
+  }
+}

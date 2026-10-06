@@ -1,3 +1,9 @@
+> **Note added 2026-10-06 (not part of the original plan text).** The plan below is kept verbatim as the 2026-09-25 record.
+> Its posture framing for House 1 is retired. Door N is now Vijñāna Bhairava Tantra dhāraṇā N in Jaideva Singh's numbering
+> (Door 001 = dhāraṇā 1, verse 24), and the School is presented as living memory of the 112 dhāraṇās. Where this plan names
+> postures or speaks of a teaching machine, read it as history. Current state: `README.md`, `schemas/RESEARCH-DOOR-SCHEMA.md`
+> and `doors/HOUSE-1-REGISTRY.md`.
+
 # School of 112 Doorways — Yoga Teaching Machine
 ## Master Plan (Engineer Blueprint)
 

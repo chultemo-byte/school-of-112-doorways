@@ -1,84 +1,175 @@
 {
   "id": "D-014",
-  "name": "Extended Side Angle",
-  "sanskrit": "Utthita Parsvakonasana",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "The Point of Subtle Fire",
+  "sanskrit": "sūkṣmāgnitilakākṛtiṃ binduṃ",
   "house": 1,
-  "status": "researched",
-  "geometry": {
-    "polygon": "long lateral diagonal (back heel \u2192 front knee \u2192 side ribs \u2192 top hand) over a wide base triangle",
-    "joints": [
-      "ankles",
-      "front knee",
-      "hips",
-      "spine (lateral)",
-      "shoulders",
-      "top elbow",
-      "wrists"
+  "status": "draft",
+  "practice_mode": "historical/observe_only",
+  "previous_label": "Utthita Parsvakonasana — Extended Side Angle (asana framing, retired 2026-10)",
+  "previous_file": "doors/D-014/door.json at commit 4382c90 (researcher R-014, researched 2026-09-25)",
+  "previous_vbt_ref": "VBT dharana 014 (VBh ~43) (superseded)",
+  "dharana": {
+    "number": 14,
+    "verses": [
+      37
     ],
-    "summary": "From a wide Warrior II stance, bend the front knee over the front ankle, tip the torso over the front thigh, and place the bottom hand on the floor, a block, or the front shin. Reach the top arm overhead into one long side-body line from back heel through outer ribs to fingertips. Keep the chest open toward the side/ceiling; never collapse the front knee inward.",
-    "svg_hint": "wide base; bent front knee; angled torso; bottom hand support; top arm long diagonal"
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24, sequential, one verse per dhāraṇā for 1–16)",
+    "sanskrit_iast": "dhāmāntaḥkṣobhasambhūtasūkṣmāgnitilakākṛtim | binduṃ śikhānte hṛdaye layānte dhyāyato layaḥ ||",
+    "sanskrit_source": "GRETIL e-text, checked against Singh, Wallis's concordance and Pradīpaka",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [],
+    "rendering": "For one who meditates, at the top of the head or in the heart, on the bindu, a tilaka-like spark of subtle fire produced by agitation within the 'abode', there is dissolution at the end of dissolution.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer; not a quotation.",
+    "commentary_note": "Singh glosses the 'abode' (dhāma) as the light in the eyes and the agitation as pressure on the eyes. Bäumer has 'by agitating the eye', Chaudhri 'press the eyes gently' and Dubois 'une pression (exercée sur les yeux)' (all as printed in The Mystery Within). Singh also gives an alternative: the sparks seen as a lamp goes out. Wallis renders it more neutrally as 'inner stimulation of the Radiant Abode'.",
+    "technique_name": "The Point of Subtle Fire",
+    "category": "visualization",
+    "category_secondary": [
+      "light"
+    ],
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 14] VERSE 37'",
+        "The Mystery Within (2019): 'Dharana 14 • verso 37'",
+        "GRETIL, Pradīpaka and Wallis: verse text matches the technique"
+      ],
+      "notes": "Door index = Singh dharana number, verified directly in Singh's own headings and cross-checked against at least one independent edition. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "Y11 (Wallis groups verses 24–27 as one technique)",
+      "hatha_es": "dharana 14 = the text of verse 43 (space in all directions); non-standard, not followed (the previous draft of this door followed it)"
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 37 does not prescribe a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "single_light_point_two_locations",
+    "joints": [],
+    "points": [
+      "the top of the head (śikhānta)",
+      "the heart (hṛdaya)",
+      "a tiny spark of light (bindu) meditated at either place"
+    ],
+    "summary": "Not a body shape. The map is one tiny point of fire-like light, placed either at the top of the head or in the heart, that is watched until it dissolves. Observe-only because the classical trigger is pressure on the eyes.",
+    "svg_hint": "a small red-gold dot at the crown and another at the heart, drawn faint; observe-only",
+    "honesty": "Redefined in 2026-10: geometry now records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
   },
   "reaction": {
-    "name": "Solid \u2192 sky",
-    "from_phase": "solid body-edge",
-    "to_phase": "omnidirectional space",
-    "summary": "School metaphor: the strong lateral stretch first makes the body feel like a hard edge; then attention softens that edge into spaciousness felt in all directions at once (not a medical or biochemical claim)."
+    "name": "Spark to dissolution (observed)",
+    "from_phase": "single_spark",
+    "to_phase": "dissolution",
+    "summary": "School metaphor: one spark of attention is watched until it goes out, and attention goes out with it. A picture for understanding, not an exercise."
   },
   "breath": {
     "inhale": 4,
     "hold": 0,
-    "exhale": 6,
+    "exhale": 4,
     "cycles": 6,
-    "lands_in": "long side body (bottom waist through top ribs) then soft belly",
-    "cue": "Inhale lengthen the top arm and outer side; exhale settle weight into the back heel and front foot without collapsing the chest."
+    "mode": "natural",
+    "lands_in": "natural breath only",
+    "cue": "Natural breath only. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
   },
   "orientation": {
-    "cue": "Back heel heavy; front knee tracks over second toe; torso tips over front thigh while chest stays open to the side.",
-    "gravity": "Load both feet; bottom hand is a light prop, not a dump of the whole torso.",
-    "gaze": "Soft toward the top hand or forward along the cheek if the neck complains.",
-    "degrees_hint": "Front thigh approaching parallel when available; top arm continues the side-body line (~one long diagonal)."
+    "cue": "Study the verse; keep the eyes untouched and soft",
+    "gravity": "Fully supported; hands resting away from the face",
+    "gaze": "Eyes open, or closed without pressure",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
   },
   "attention": {
-    "primary": "Whole-body field as space in all six directions at once (front, back, left, right, above, below)",
-    "secondary": "Long outer-side line from back heel to top fingertips",
+    "primary": "Understanding the verse: a tiny point of light at the crown or heart, watched until it dissolves",
+    "secondary": "If sitting with it: noticing any light that appears by itself behind closed eyes, without touching the eyes",
     "chakra": null
   },
   "adiyogi": {
-    "vbt_ref": "VBT dharana 014 (VBh ~43)",
-    "verse_paraphrase": "In your own body, contemplate space in every direction at the same time. When the mind stops fabricating solid boundaries, experience unfolds as space.",
-    "method_summary": "While holding the shape (or seated after), sense the whole body at once and let attention spread evenly through front, back, sides, above, and below. Soften the idea of a hard body-edge; rest as if inner and outer space were the same field. Do not force a visualization or suppress thoughts.",
-    "practice_mode": "practice",
+    "vbt_ref": "VBT dharana 014 (verse 37)",
+    "verse_paraphrase": "For one who meditates, at the top of the head or in the heart, on the bindu, a tilaka-like spark of subtle fire produced by agitation within the 'abode', there is dissolution at the end of dissolution.",
+    "method_summary": "Classical method: produce a spark of light by pressure or agitation of the eyes, then meditate on it at the top of the head or in the heart until it dissolves. Observe-only in this school because the classical trigger is pressure on the eyes. Never press or rub the eyes. For practice with light and gaze, use Door 010 (attention resting on empty sky or a blank wall).",
+    "practice_mode": "observe_only",
     "historical_extreme": false,
     "sexual_content": false
   },
   "honesty": {
     "pairing_type": "school_device",
-    "disclosure": "This asana\u2194method link is a School of 112 Doorways teaching device, not ancient canon. Extended Side Angle and VBT dharana 014 are paired by school index so students can braid a strong side-body geometry with an omnidirectional space contemplation.",
-    "notes": "Experiential resonance (not canon): the pose\u2019s vivid one-sided stretch can highlight the habit of locating awareness in a solid edge; dharana 014 then invites space in all directions at once. Kept as school_device because the serial index pairing is the School\u2019s primary rule."
+    "disclosure": "Door 014 follows Vijñāna Bhairava Tantra dharana 14 (verse 37) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type stays school_device: the dharana is the content, while the door index, seat and pacing are the school's. The original honesty text is kept below in honesty.legacy, with retired posture names redacted; the verbatim text is at previous_file.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 014 is dharana 14, verse 37. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only.",
+      "historical/observe_only: The classical trigger for the spark of light is pressure on, or agitation of, the eyes. Taught as text to understand, not as a class drill.",
+      "Numbering correction: the previous draft of this door followed hatha.es's non-standard numbering (dharana 14 = the text of verse 43 (space in all directions)). Rebuilt to Singh's verse 37."
+    ],
+    "legacy": {
+      "source": "doors/D-014/door.json at commit 4382c90",
+      "disclosure": "This [retired posture]↔method link is a School of 112 Doorways teaching device, not ancient canon. [retired posture] and VBT dharana 014 are paired by school index so students can braid a strong side-body geometry with an omnidirectional space contemplation.",
+      "notes": "Experiential resonance (not canon): the [retired posture]’s vivid one-sided stretch can highlight the habit of locating awareness in a solid edge; dharana 014 then invites space in all directions at once. Kept as school_device because the serial index pairing is the School’s primary rule."
+    }
   },
   "safety": {
     "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
     "never_force": true,
-    "open_seat_alternate": "Hands-on-hips side bend in a shorter stance, or Warrior II with soft side stretch; use a block under the bottom hand rather than reaching the floor.",
-    "contraindication_notes": "General practice caution only; not medical advice. Ease off if front knee, hip, or neck complains; shorten stance and raise the bottom hand."
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. Never press or rub the eyes to produce light. This school does not teach eye pressure in any form. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+    "legacy_notes": {
+      "source": "doors/D-014/door.json at commit 4382c90",
+      "open_seat_alternate": "Hands-on-hips side bend in a shorter stance, or [retired posture] with soft side stretch; use a block under the bottom hand rather than reaching the floor.",
+      "contraindication_notes": "General practice caution only; not medical advice. Ease off if front knee, hip, or neck complains; shorten stance and raise the bottom hand.",
+      "status": "Posture-specific cautions, kept for traceability; they no longer apply because this door teaches no posture."
+    },
+    "observe_only_note": "Never press or rub the eyes to produce light. This school does not teach eye pressure in any form."
   },
   "sources": [
     {
-      "label": "Vij\u00f1\u0101na Bhairava Tantra \u2014 Dh\u0101ra\u1e47\u0101 14 (body as space in all directions)",
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
       "kind": "vbt",
-      "ref": "VBh ~43 / dharana 014; paraphrase from public commentary summary",
-      "url": "https://hatha.es/en/texts/vijnana-bhairava-tantra/014"
+      "ref": "[Dhāraṇā 14] verse 37: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
     },
     {
-      "label": "School of 112 Doorways \u2014 door schema & research template",
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 37: Sanskrit source for the IAST (input errors corrected against Singh, Wallis and Pradīpaka where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "heading 'Dharana 14 • verso 37' (numbering cross-check; parallel translations)",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+      "kind": "commentary",
+      "ref": "verse 37 = Wallis Y11. Wallis groups verses 24–27 as one technique, so his yukti numbers run one to three lower than Singh's dharana numbers from verse 25 on.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 37: Sanskrit and translation cross-check",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "hatha.es, Vijñāna Bhairava Tantra 'Dhāraṇā 014'",
+      "kind": "other",
+      "ref": "NOT FOLLOWED. Non-standard numbering (dharana 14 = the text of verse 43 (space in all directions)); the previous draft of this door used it.",
+      "url": "https://hatha.es/en/texts/vijnana-bhairava-tantra/014/"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
       "kind": "school",
-      "ref": "schemas/door.schema.json; research/PROMPT_TEMPLATE.md; research/house1-dispatches/R-014.md",
-      "url": ""
-    },
-    {
-      "label": "Utthita Parsvakonasana \u2014 common asana geometry (Iyengar / modern standing tradition)",
-      "kind": "asana",
-      "ref": "Standard teaching cues: wide stance, front knee tracking, long side body, prop under bottom hand",
+      "ref": "School devices added in the 2026-10 reframing; honesty and safety conventions from research/PROMPT_TEMPLATE.md and guardians/CHECKLIST.md",
       "url": ""
     }
   ],
@@ -86,44 +177,50 @@
     {
       "n": 1,
       "title": "Name the door",
-      "script": "Door D-014: Extended Side Angle \u2014 Utthita Parsvakonasana. One long side-body line over a wide base."
+      "script": "This is Door 014: the point of subtle fire. Vijñāna Bhairava Tantra dharana 14, verse 37. This door is observe-only."
     },
     {
       "n": 2,
       "title": "Geometry",
-      "script": "Wide stance. Bend the front knee over the ankle. Tip the torso over the front thigh. Bottom hand to floor, block, or shin. Top arm reaches long overhead."
+      "script": "No shape to make. Sit comfortably, hands away from the face. The map is one tiny point of light, at the crown or in the heart."
     },
     {
       "n": 3,
       "title": "Orientation",
-      "script": "Back heel heavy. Front knee tracks over the second toe. Bottom hand props lightly. Chest opens to the side, not folded down."
+      "script": "Keep the eyes soft and untouched. Eyes open, or closed without pressure."
     },
     {
       "n": 4,
       "title": "Breath",
-      "script": "Inhale four counts to lengthen the top side. Exhale six counts into both feet. Six cycles. Soften if the breath shortens."
+      "script": "Natural breath only. No forced hold."
     },
     {
       "n": 5,
       "title": "Attention",
-      "script": "Feel the long outer side \u2014 then also front, back, other side, above, and below. Attention fills the whole body-field at once."
+      "script": "Hold the idea: one spark, watched until it goes out."
     },
     {
       "n": 6,
       "title": "Reaction cue",
-      "script": "School cue: solid edge softens toward sky. The stretch stays; the sense of a hard body-boundary can loosen."
+      "script": "School image: a spark of attention goes out, and attention goes with it. A picture, not an exercise."
     },
     {
       "n": 7,
       "title": "Adiyogi thread",
-      "script": "VBT dharana 014, safe form: in this body, contemplate space in all directions at once. Rest when constructs of solidity quiet."
+      "script": "Verse 37: meditate on a spark of subtle fire at the crown or in the heart until it dissolves. Classically the spark comes from pressure on the eyes, so this door is observe-only. Never press the eyes."
     },
     {
       "n": 8,
       "title": "Exit / integrate",
-      "script": "Inhale to lift the torso. Straighten the front leg. Step back to standing. Notice residual space-sense before the next shape."
+      "script": "Open the eyes and look at something far away. Move on when ready."
     }
   ],
   "researcher": "R-014",
-  "researched_at": "2026-09-25"
+  "researched_at": "2026-09-25",
+  "reframed_by": "Grok Bot (House 1 VBT reframing)",
+  "reframed_at": "2026-10-06",
+  "review": {
+    "status": "pending_guardian_re_review",
+    "previous_review": "guardians/reviews/D-014.md (reviewed the posture framing)"
+  }
 }

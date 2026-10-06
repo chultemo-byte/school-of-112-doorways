@@ -1,90 +1,168 @@
 {
   "id": "D-013",
-  "name": "Revolved Triangle",
-  "sanskrit": "Parivrtta Trikonasana",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "Sealing the Sense-Doors, Watching the Point Dissolve",
+  "sanskrit": "kararuddhadṛgastreṇa",
   "house": 1,
-  "status": "researched",
-  "geometry": {
-    "polygon": "triangle + spiral axis",
-    "joints": [
-      "ankles",
-      "knees",
-      "hips",
-      "spine",
-      "shoulders",
-      "wrists",
-      "neck"
+  "status": "draft",
+  "practice_mode": "historical/observe_only",
+  "previous_label": "Parivrtta Trikonasana — Revolved Triangle (asana framing, retired 2026-10)",
+  "previous_file": "doors/D-013/door.json at commit 4382c90 (researcher R-013, researched 2026-09-25)",
+  "previous_vbt_ref": "VBT dharana 013 (verse 36)",
+  "dharana": {
+    "number": 13,
+    "verses": [
+      36
     ],
-    "summary": "From a wide standing base, the front foot points forward and the back foot turns in. Both legs stay long (soften the front knee if the hamstring shouts). The torso hinges over the front leg, then rotates toward the front thigh so the bottom hand meets a block, the shin, or the floor, and the top arm reaches up. The shape is a triangle in the legs with a long spiral through the spine.",
-    "svg_hint": "wide stance; front leg forward; torso fold + twist; bottom hand low, top arm high; long spiral spine"
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24, sequential, one verse per dhāraṇā for 1–16)",
+    "sanskrit_iast": "kararuddhadṛgastreṇa bhrūbhedād dvārarodhanāt | dṛṣṭe bindau kramāl līne tanmadhye paramā sthitiḥ ||",
+    "sanskrit_source": "GRETIL e-text, checked against Singh, Wallis's concordance and Pradīpaka",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [],
+    "rendering": "Closing the doors [of the senses] with the hands used as a 'weapon' that blocks the eyes, and piercing [the point between] the eyebrows, a point of light (bindu) is seen; as it gradually dissolves, in its midst is the supreme state.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer; not a quotation.",
+    "commentary_note": "Singh describes the hand seal: thumbs close the ears, index fingers the eyes, middle fingers the nostrils, ring and little fingers the mouth, so that 'the vital energy is confined within'. Singh also reports that Swami Lakshmanjoo reverses the order: first concentrate on the brow until a drop of light appears, then apply the seal. Because the classical seal covers the eyes and closes the nose and mouth, this door is observe-only.",
+    "technique_name": "Sealing the Sense-Doors, Watching the Point Dissolve",
+    "category": "sensation",
+    "category_secondary": [
+      "light",
+      "visualization"
+    ],
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 13] VERSE 36'",
+        "The Mystery Within (2019): 'Dharana 13 • verso 36'",
+        "GRETIL, Pradīpaka and Wallis: verse text matches the technique"
+      ],
+      "notes": "Door index = Singh dharana number, verified directly in Singh's own headings and cross-checked against at least one independent edition. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "Y10 (Wallis groups verses 24–27 as one technique)"
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 36 does not prescribe a body position (it describes a hand seal over the senses, which this school does not teach). The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "sealed_doors_and_brow_point",
+    "joints": [],
+    "points": [
+      "the sense openings of the head, closed by the hands",
+      "the point between the eyebrows",
+      "the bindu (point of light) and its dissolving"
+    ],
+    "summary": "Not a body shape. The map is the head with its sense-doors closed by the hands, a point at the brow, and a point of light that fades. The hand seal is part of the verse; this school does not teach it.",
+    "svg_hint": "a head outline with hands over the face drawn faint, a small light point at the brow fading; observe-only",
+    "honesty": "Redefined in 2026-10: geometry now records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
   },
   "reaction": {
-    "name": "Tangle to Thread",
-    "from_phase": "tangle",
-    "to_phase": "thread",
-    "summary": "School metaphor: the first moments of the twist feel knotted and busy. Soft length through the spine lets the knot thin into one clear thread of attention from back heel to crown."
+    "name": "Tangle to thread (observed)",
+    "from_phase": "busy_senses",
+    "to_phase": "single_fading_point",
+    "summary": "School metaphor: busy sense input narrows to one point of light that thins away. A picture for understanding, not a class exercise."
   },
   "breath": {
     "inhale": 4,
     "hold": 0,
-    "exhale": 6,
+    "exhale": 4,
     "cycles": 6,
-    "lands_in": "long spine and front heel",
-    "cue": "Inhale lengthen the side body; exhale rotate a little more around that length. Never yank the neck or force the bottom hand lower."
+    "mode": "natural",
+    "lands_in": "natural breath through the nose, never blocked",
+    "cue": "Natural breath only. No forced hold. Do not close the nostrils or mouth.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
   },
   "orientation": {
-    "cue": "Grow a long diagonal from the back outer heel through the crown while the ribs rotate around that line.",
-    "gravity": "Even weight through both feet; let the floor hold the base so the twist does not collapse the hips.",
-    "gaze": "Toward the top hand if the neck is easy; otherwise look to the floor or forward.",
-    "degrees_hint": "Stance roughly 3\u20134 feet; twist only as far as breath stays smooth"
+    "cue": "Study the verse; keep the face, eyes and brow soft",
+    "gravity": "Fully supported; hands resting in the lap",
+    "gaze": "Eyes open or gently closed without any pressure",
+    "degrees_hint": "No angle target; hands stay in the lap"
   },
   "attention": {
-    "primary": "Spinal length as the axis of the twist",
-    "secondary": "Soft midpoint between the eyebrows (no pressure)",
+    "primary": "Understanding the verse: senses closed, a point at the brow, a light that dissolves",
+    "secondary": "If sitting with it: soft attention at the brow with no pressure anywhere",
     "chakra": null
   },
   "adiyogi": {
     "vbt_ref": "VBT dharana 013 (verse 36)",
-    "verse_paraphrase": "With the hands closing the sense openings and attention at the brow, a point of light may appear; as it gradually dissolves, rest in the center of that stillness.",
-    "method_summary": "Classical method: a seated sensory-seal (hands covering eyes, ears, and other openings) while piercing attention at the eyebrow center until an inner bindu appears and fades. For this door, do not teach the sealing mudra in asana class; use only the safe contemplative form in Beat 7.",
+    "verse_paraphrase": "Closing the doors [of the senses] with the hands used as a 'weapon' that blocks the eyes, and piercing [the point between] the eyebrows, a point of light (bindu) is seen; as it gradually dissolves, in its midst is the supreme state.",
+    "method_summary": "Classical method: a seal of the senses with the hands (covering the eyes and the other openings) while piercing attention at the eyebrow centre until an inner point of light appears and fades. Observe-only in this school: do not press the eyes or block the nostrils or mouth. The only class form is to rest soft attention at the brow with the hands in the lap and notice quiet.",
     "practice_mode": "observe_only",
     "historical_extreme": false,
     "sexual_content": false
   },
   "honesty": {
     "pairing_type": "school_device",
-    "disclosure": "This asana and VBT method are paired by School of 112 Doorways index (Door 013 with dharana 013). That link is a teaching device, not a claim of ancient one-to-one canon.",
-    "notes": "Experiential rhyme only: both ask attention toward a center line (spinal axis; brow point). Not justified as inner_logic or axis_pairing without stronger historical support."
+    "disclosure": "Door 013 follows Vijñāna Bhairava Tantra dharana 13 (verse 36) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type stays school_device: the dharana is the content, while the door index, seat and pacing are the school's. The original honesty text is kept below in honesty.legacy, with retired posture names redacted; the verbatim text is at previous_file.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 013 is dharana 13, verse 36. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only.",
+      "historical/observe_only: The classical hand seal covers the eyes and closes the nose and mouth. Taught as text to understand, not as a class drill."
+    ],
+    "legacy": {
+      "source": "doors/D-013/door.json at commit 4382c90",
+      "disclosure": "This [retired posture] and VBT method are paired by School of 112 Doorways index (Door 013 with dharana 013). That link is a teaching device, not a claim of ancient one-to-one canon.",
+      "notes": "Experiential rhyme only: both ask attention toward a center line (spinal axis; brow point). Not justified as inner_logic or axis_pairing without stronger historical support."
+    }
   },
   "safety": {
     "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
     "never_force": true,
-    "open_seat_alternate": "Hand on a block or the shin instead of the floor; shorten the stance; keep gaze down if the neck complains.",
-    "contraindication_notes": "General practice caution for deep twists, hamstrings, and neck. Not medical advice. Skip classical sensory-seal pressure on the eyes in class."
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. Never press on the eyes or block the nose or mouth. Pressure on the eyeballs and obstruction of breathing are not taught by this school. Skip classical sensory-seal pressure on the eyes in class. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+    "legacy_notes": {
+      "source": "doors/D-013/door.json at commit 4382c90",
+      "open_seat_alternate": "Hand on a block or the shin instead of the floor; shorten the stance; keep gaze down if the neck complains.",
+      "contraindication_notes": "General practice caution for deep twists, hamstrings, and neck. Not medical advice. Skip classical sensory-seal pressure on the eyes in class.",
+      "status": "Posture-specific cautions, kept for traceability; they no longer apply because this door teaches no posture."
+    },
+    "observe_only_note": "Never press on the eyes or block the nose or mouth. Pressure on the eyeballs and obstruction of breathing are not taught by this school. Skip classical sensory-seal pressure on the eyes in class."
   },
   "sources": [
     {
-      "label": "Jaideva Singh \u2014 Vijnanabhairava (dharana 13 / verse 36)",
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
       "kind": "vbt",
-      "ref": "VBT verse 36; sensory-seal / brow-bindu method",
-      "url": "https://www.siva.sh/vijnana-bhairava-tantra/36-40"
+      "ref": "[Dhāraṇā 13] verse 36: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
     },
     {
-      "label": "VBT concordance \u2014 verse 36 translations",
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 36: Sanskrit source for the IAST (input errors corrected against Singh, Wallis and Pradīpaka where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
       "kind": "commentary",
-      "ref": "Multiple English renderings of kararuddhad\u1e5bgastre\u1e47a\u2026 (dharana 13)",
-      "url": ""
+      "ref": "heading 'Dharana 13 • verso 36' (numbering cross-check; parallel translations)",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
     },
     {
-      "label": "Standard asana teaching \u2014 Parivrtta Trikonasana",
-      "kind": "asana",
-      "ref": "Standing revolved triangle: wide stance, hinge, spiral, hand to block/shin/floor",
-      "url": ""
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+      "kind": "commentary",
+      "ref": "verse 36 = Wallis Y10. Wallis groups verses 24–27 as one technique, so his yukti numbers run one to three lower than Singh's dharana numbers from verse 25 on.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
     },
     {
-      "label": "School of 112 Doorways \u2014 House 1 registry",
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 36: Sanskrit and translation cross-check",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
       "kind": "school",
-      "ref": "D-013 Revolved Triangle / R-013",
+      "ref": "School devices added in the 2026-10 reframing; honesty and safety conventions from research/PROMPT_TEMPLATE.md and guardians/CHECKLIST.md",
       "url": ""
     }
   ],
@@ -92,44 +170,50 @@
     {
       "n": 1,
       "title": "Name the door",
-      "script": "This is Door 013: Revolved Triangle, Parivrtta Trikonasana. Standing base, long legs, a twist toward the front thigh."
+      "script": "This is Door 013: sealing the sense-doors and watching the point dissolve. Vijñāna Bhairava Tantra dharana 13, verse 36. This door is observe-only."
     },
     {
       "n": 2,
       "title": "Geometry",
-      "script": "Step wide. Front foot forward, back foot turned in. Hinge over the front leg, then spiral the ribs. Bottom hand to block, shin, or floor; top arm reaches up."
+      "script": "No shape to make. Sit comfortably with the hands resting in the lap. The verse uses the hands to close the senses; we do not."
     },
     {
       "n": 3,
       "title": "Orientation",
-      "script": "Feel a long line from back heel to crown. Gravity stays in both feet. Gaze up only if the neck is quiet; otherwise look down or forward."
+      "script": "Keep the face, eyes and brow soft. Eyes open or gently closed, with no pressure."
     },
     {
       "n": 4,
       "title": "Breath",
-      "script": "Inhale for four counts and lengthen. Exhale for six and rotate a little around that length. Six easy cycles. No yanking."
+      "script": "Natural breath through the nose. No forced hold. Nothing is blocked."
     },
     {
       "n": 5,
       "title": "Attention",
-      "script": "Keep the primary lock on spinal length \u2014 the axis you twist around. Optionally soften attention at the brow without pressing."
+      "script": "If you sit with it, rest soft attention at the brow. Notice quiet. Nothing more."
     },
     {
       "n": 6,
       "title": "Reaction cue",
-      "script": "Notice any tangle in the twist. Soften and lengthen until it thins into one clear thread from heel to crown. School metaphor only."
+      "script": "School image: busy senses narrow to one point that thins away. A picture, not an exercise."
     },
     {
       "n": 7,
       "title": "Adiyogi thread",
-      "script": "The VBT method for this door seals the senses and watches a point at the brow \u2014 observe only here. In class, simply rest soft attention at the brow and notice quiet; do not press the eyes or plug the nostrils."
+      "script": "Verse 36 seals the senses with the hands and watches a point of light dissolve at the brow. Observe-only here: do not press the eyes or plug the nostrils."
     },
     {
       "n": 8,
       "title": "Exit / integrate",
-      "script": "Inhale unwind the ribs to center. Exhale hand to hip and rise. Step the feet together. Stand for one breath and notice the after-feel of the spiral."
+      "script": "Open the eyes fully. Look around the room. Move on when ready."
     }
   ],
   "researcher": "R-013",
-  "researched_at": "2026-09-25"
+  "researched_at": "2026-09-25",
+  "reframed_by": "Grok Bot (House 1 VBT reframing)",
+  "reframed_at": "2026-10-06",
+  "review": {
+    "status": "pending_guardian_re_review",
+    "previous_review": "guardians/reviews/D-013.md (reviewed the posture framing)"
+  }
 }

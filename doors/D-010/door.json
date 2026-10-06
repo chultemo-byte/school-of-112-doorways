@@ -1,102 +1,164 @@
 {
   "id": "D-010",
-  "name": "Warrior I",
-  "sanskrit": "Virabhadrasana I",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "Attention Dissolving into Space, a Wall, or a Worthy Vessel",
+  "sanskrit": "śūnye kuḍye pare pātre",
   "house": 1,
-  "status": "researched",
-  "geometry": {
-    "polygon": "Forward lunge wedge with vertical arm column (front bent knee, back straight leg, arms overhead).",
-    "joints": [
-      "ankles",
-      "knees",
-      "hips",
-      "spine",
-      "shoulders",
-      "elbows",
-      "wrists"
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "Virabhadrasana I — Warrior I (asana framing, retired 2026-10)",
+  "previous_file": "doors/D-010/door.json at commit 4382c90 (researcher R-010, researched 2026-09-25)",
+  "previous_vbt_ref": "VBT dharana 010 (superseded)",
+  "dharana": {
+    "number": 10,
+    "verses": [
+      33
     ],
-    "summary": "One foot forward, one angled back and grounded; front knee tracks over the ankle without collapsing inward; torso lifts and arms reach up. Prefer feet on parallel tracks (hip-width) over a tightrope line. Turn the chest forward within comfort; do not wrench the back knee by forcing the pelvis fully square.",
-    "svg_hint": "side-view: back heel to crown vertical-ish stack over staggered base; arms as continuing vertical line"
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24, sequential, one verse per dhāraṇā for 1–16)",
+    "sanskrit_iast": "īdṛśena krameṇaiva yatra kutrāpi cintanā | śūnye kuḍye pare pātre svayaṃ līnā varapradā ||",
+    "sanskrit_source": "GRETIL e-text, checked against Singh, Wallis's concordance and Pradīpaka",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [],
+    "rendering": "In the same graded way, wherever attention rests, whether on empty space, on a wall, or on a worthy vessel, it dissolves there by itself and grants the boon.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer; not a quotation.",
+    "commentary_note": "'pare pātre' is read differently: Singh 'some excellent person' (glossed as a pure-minded, competent pupil), Bäumer 'a worthy disciple', Chaudhri 'a great person', Silburn 'receptacle suprême', Wallis 'a perfect vessel'. Singh and S. P. Singh & Maheshvarananda tie 'in this same way' back to the twelve stations of verse 30.",
+    "technique_name": "Attention Dissolving into Space, a Wall, or a Worthy Vessel",
+    "category": "concentration",
+    "category_secondary": [
+      "emptiness/space"
+    ],
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 10] VERSE 33'",
+        "The Mystery Within (2019): 'Dharana 10 • verso 33'",
+        "GRETIL, Pradīpaka and Wallis: verse text matches the technique"
+      ],
+      "notes": "Door index = Singh dharana number, verified directly in Singh's own headings and cross-checked against at least one independent edition. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "Y7 (Wallis groups verses 24–27 as one technique)",
+      "popular_lists": "Old notes say some popular lists put an all-directions space visualisation at dharana 10; that claim could not be traced to a named edition and is unverified."
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 33 does not prescribe a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "one_point_on_one_support",
+    "joints": [],
+    "points": [
+      "a single support for attention: empty space, a blank wall, or a worthy vessel"
+    ],
+    "summary": "Not a body shape. The map is one line of attention from the practitioner to a single plain support, ending where attention dissolves into it.",
+    "svg_hint": "a single line of attention ending on a blank rectangle (wall) or open space, fading at the end",
+    "honesty": "Redefined in 2026-10: geometry now records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
   },
   "reaction": {
-    "name": "Aim",
+    "name": "Dissolve into the support",
     "from_phase": "scattered",
-    "to_phase": "directed",
-    "summary": "School metaphor: diffuse readiness gathers into one upright forward line\u2014root through the back foot, reach through the arms\u2014without claiming any biochemical change."
+    "to_phase": "absorbed",
+    "summary": "School metaphor: diffuse attention gathers on one plain support and then dissolves into it, without claiming any biochemical change."
   },
   "breath": {
     "inhale": 4,
     "hold": 0,
     "exhale": 4,
     "cycles": 6,
-    "lands_in": "Back heel and outer edge of the back foot first, then ribs and the reach of the arms.",
-    "cue": "Inhale lengthen the upward reach; exhale root the back heel and steady the front knee."
+    "mode": "natural",
+    "lands_in": "ordinary breath, left alone",
+    "cue": "Natural breath, about four in and four out if counting helps. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
   },
   "orientation": {
-    "cue": "Chest faces the front of the mat within comfort; back foot angled about forty-five degrees with heel grounded; front knee stacked toward the ankle line.",
-    "gravity": "Weight shared between front heel and outer edge of the back foot; crown lifts away from the heels.",
-    "gaze": "Soft forward, or toward the thumbs only if the neck stays free.",
-    "degrees_hint": "Back foot ~45\u00b0 turn-out; front knee depth only as far as ankle tracking stays clean (often shy of 90\u00b0)."
+    "cue": "Face one plain support: open sky, a blank wall, or a worthy presence",
+    "gravity": "Body supported so that nothing distracts from the support",
+    "gaze": "Soft, steady, unblinking only as long as it is comfortable",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
   },
   "attention": {
-    "primary": "Outer edge of the back foot and the continuous upward reach through the arms.",
-    "secondary": "Front knee tracking over the ankle (not collapsing inward).",
+    "primary": "One plain support (space, wall, or worthy vessel), held until attention dissolves into it",
+    "secondary": "Noticing thoughts without following them",
     "chakra": null
   },
   "adiyogi": {
-    "vbt_ref": "VBT dharana 010",
-    "verse_paraphrase": "Rest awareness, one after another, on open emptiness, on a blank surface such as a wall, or on the presence of someone you hold as excellent; the quality of that resting itself leans toward absorption.",
-    "method_summary": "School class form: in Warrior I, let soft gaze rest in the open field above and between the hands (empty sky), keep attention there without chasing thoughts, and meet the still quality of that field like a quiet wall. Optional contemplative variant off-mat: briefly rest attention on a worthy presence you admire, then return to breath and stance. Practice is contemplative focus, not ritual or force.",
+    "vbt_ref": "VBT dharana 010 (verse 33)",
+    "verse_paraphrase": "In the same graded way, wherever attention rests, whether on empty space, on a wall, or on a worthy vessel, it dissolves there by itself and grants the boon.",
+    "method_summary": "Rest a soft gaze on empty sky or a blank wall, keep attention there without chasing thoughts, and let it dissolve into the support. Optional variant: briefly rest attention on the presence of someone you hold as worthy, then return to the breath. Contemplative focus only, not ritual or force.",
     "practice_mode": "practice",
     "historical_extreme": false,
     "sexual_content": false
   },
   "honesty": {
     "pairing_type": "school_device",
-    "disclosure": "This asana\u2194method link is a School of 112 Doorways teaching device, not ancient canon. Door index 010 is paired with VBT method/dharana 010 by school map.",
-    "notes": "Numbering note: many practice commentaries present Verse ~33 (void / wall / worthy person) as skill/dharana 10; some popular lists place an all-directions space visualization at dharana 10. This draft follows the void/wall/worthy-person lane as VBT dharana 010 and discloses the school pairing."
+    "disclosure": "Door 010 follows Vijñāna Bhairava Tantra dharana 10 (verse 33) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type stays school_device: the dharana is the content, while the door index, seat and pacing are the school's. The original honesty text is kept below in honesty.legacy, with retired posture names redacted; the verbatim text is at previous_file.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 010 is dharana 10, verse 33. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only."
+    ],
+    "legacy": {
+      "source": "doors/D-010/door.json at commit 4382c90",
+      "disclosure": "This [retired posture]↔method link is a School of 112 Doorways teaching device, not ancient canon. Door index 010 is paired with VBT method/dharana 010 by school map.",
+      "notes": "Numbering note: many practice commentaries present Verse ~33 (void / wall / worthy person) as skill/dharana 10; some popular lists place an all-directions space visualization at dharana 10. This draft follows the void/wall/worthy-person lane as VBT dharana 010 and discloses the school pairing."
+    }
   },
   "safety": {
     "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
     "never_force": true,
-    "open_seat_alternate": "If the flat back foot or hip rotation agitates the back knee or hip, use High Crescent Lunge (back heel lifted, hips freer) or shorten the stance. Do not force the pelvis square.",
-    "contraindication_notes": "General practice caution only for knees, hips, low back, and neck (especially if looking up). Not medical advice; regress depth or exit when needed."
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. Blink whenever needed; do not strain the eyes by staring. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+    "legacy_notes": {
+      "source": "doors/D-010/door.json at commit 4382c90",
+      "open_seat_alternate": "If the flat back foot or hip rotation agitates the back knee or hip, use [retired posture] (back heel lifted, hips freer) or shorten the stance. Do not force the pelvis square.",
+      "contraindication_notes": "General practice caution only for knees, hips, low back, and neck (especially if looking up). Not medical advice; regress depth or exit when needed.",
+      "status": "Posture-specific cautions, kept for traceability; they no longer apply because this door teaches no posture."
+    }
   },
   "sources": [
     {
-      "label": "Manblunder commentary \u2014 VBT Verse 33 as Skill 10 (void, wall, worthy person)",
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+      "kind": "vbt",
+      "ref": "[Dhāraṇā 10] verse 33: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 33: Sanskrit source for the IAST (input errors corrected against Singh, Wallis and Pradīpaka where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
       "kind": "commentary",
-      "ref": "Vijnana Bhairava Tantra Part 7; Verse 33 / Skill 10",
-      "url": "https://www.manblunder.com/articlesview/vijnana-bhairava-tantra-part-7/"
+      "ref": "heading 'Dharana 10 • verso 33' (numbering cross-check; parallel translations)",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
     },
     {
-      "label": "Grant Shepherd (Somanath) \u2014 Vijnana Bhairava Dharana 10 guided paraphrase",
-      "kind": "vbt",
-      "ref": "Dharana 10: void / wall / excellent person \u2192 absorption",
-      "url": "https://insighttimer.com/Somanath/guided-meditations/vijnana-bhairava-dharana-10"
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+      "kind": "commentary",
+      "ref": "verse 33 = Wallis Y7. Wallis groups verses 24–27 as one technique, so his yukti numbers run one to three lower than Singh's dharana numbers from verse 25 on.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
     },
     {
-      "label": "Jaideva Singh \u2014 Vij\u00f1\u0101nabhairava or Divine Consciousness (edition reference)",
-      "kind": "vbt",
-      "ref": "Standard scholarly English edition for VBT method numbering cross-check",
-      "url": ""
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 33: Sanskrit and translation cross-check",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
     },
     {
-      "label": "Yoga Journal \u2014 Warrior I Pose (Virabhadrasana I) practice cues",
-      "kind": "asana",
-      "ref": "Alignment overview: stance, front knee, arms, gaze",
-      "url": "https://www.yogajournal.com/poses/warrior-i-pose/"
-    },
-    {
-      "label": "Yoga International \u2014 demystifying Warrior I (stance width, back-leg rotation caution)",
-      "kind": "asana",
-      "ref": "Do not force full hip square; prefer stable tracks",
-      "url": "https://yogainternational.com/article/view/pose-breakdown-8-tips-to-demystify-warrior-i/"
-    },
-    {
-      "label": "School of 112 Doorways \u2014 door schema + R-010 dispatch",
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
       "kind": "school",
-      "ref": "schemas/door.schema.json; research/house1-dispatches/R-010.md",
+      "ref": "School devices added in the 2026-10 reframing; honesty and safety conventions from research/PROMPT_TEMPLATE.md and guardians/CHECKLIST.md",
       "url": ""
     }
   ],
@@ -104,44 +166,50 @@
     {
       "n": 1,
       "title": "Name the door",
-      "script": "Door D-010: Warrior I, Virabhadrasana I. A standing forward lunge with arms reaching up."
+      "script": "This is Door 010: attention dissolving into space, a wall, or a worthy vessel. Vijñāna Bhairava Tantra dharana 10, verse 33."
     },
     {
       "n": 2,
       "title": "Geometry",
-      "script": "Step one foot forward, angle the back foot and plant the heel. Bend the front knee over the ankle. Reach the arms up. Keep the feet hip-width for balance."
+      "script": "No shape to make. Sit where you can see open sky or a plain wall. The map is one line of attention to one plain support."
     },
     {
       "n": 3,
       "title": "Orientation",
-      "script": "Face the chest forward within comfort. Root the outer edge of the back foot. Lift the crown. Soft gaze forward\u2014or to the thumbs only if the neck is free."
+      "script": "Body supported. Soft, steady gaze on the support. Blink when you need to."
     },
     {
       "n": 4,
       "title": "Breath",
-      "script": "Breathe equal fours: inhale lengthen the reach; exhale root the back heel. Six easy cycles. No strain."
+      "script": "Natural breath, four in, four out. No forced hold."
     },
     {
       "n": 5,
       "title": "Attention",
-      "script": "Lock attention on the outer back foot and the upward line of the arms. Second check: front knee tracks clean over the ankle."
+      "script": "Keep attention on the support. Let thoughts pass without following. Let attention melt into what it rests on."
     },
     {
       "n": 6,
       "title": "Reaction cue",
-      "script": "Feel the school cue Aim: scattered energy gathers into one directed upright line. Metaphor only\u2014not a medical claim."
+      "script": "School image: scattered attention is absorbed by one support. Metaphor only."
     },
     {
       "n": 7,
       "title": "Adiyogi thread",
-      "script": "VBT dharana 010, safe form: rest soft gaze in the empty space above the hands, like sky or a quiet wall. Stay with that field; do not chase thoughts."
+      "script": "Verse 33: wherever attention rests, on space, a wall or a worthy vessel, it dissolves by itself and grants the boon. Stay with the field; do not chase thoughts."
     },
     {
       "n": 8,
       "title": "Exit / integrate",
-      "script": "Lower the arms. Straighten the front leg. Step back to Mountain. If anything felt sharp, choose Crescent or a shorter stance next time. Pain means pause."
+      "script": "Look away from the support. Take in the whole room. Move on when ready."
     }
   ],
   "researcher": "R-010",
-  "researched_at": "2026-09-25"
+  "researched_at": "2026-09-25",
+  "reframed_by": "Grok Bot (House 1 VBT reframing)",
+  "reframed_at": "2026-10-06",
+  "review": {
+    "status": "pending_guardian_re_review",
+    "previous_review": "guardians/reviews/D-010.md (reviewed the posture framing)"
+  }
 }

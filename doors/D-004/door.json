@@ -1,92 +1,173 @@
 {
   "id": "D-004",
-  "name": "Half Forward Fold",
-  "sanskrit": "Ardha Uttanasana",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "Retained Breath and the Tranquil",
+  "sanskrit": "kumbhitā recitā vāpi pūritā",
   "house": 1,
-  "status": "researched",
-  "geometry": {
-    "polygon": "Inverted L: vertical leg column + horizontal torso line (table spine)",
-    "joints": [
-      "ankles",
-      "knees",
-      "hips",
-      "lumbar",
-      "thoracic",
-      "cervical",
-      "shoulders",
-      "elbows",
-      "wrists"
+  "status": "draft",
+  "practice_mode": "historical/observe_only",
+  "previous_label": "Ardha Uttanasana — Half Forward Fold (asana framing, retired 2026-10)",
+  "previous_file": "doors/D-004/door.json at commit 4382c90 (researcher R-004, researched 2026-09-25)",
+  "previous_vbt_ref": "VBT dharana 004 (verse 27)",
+  "dharana": {
+    "number": 4,
+    "verses": [
+      27
     ],
-    "summary": "From a forward fold, lift the torso until the back is long and roughly parallel to the floor. Hands rest on shins, thighs, blocks, or the floor\u2014whichever height keeps the spine long. Legs stay rooted; knees may soft-bend. The shape is a hinge at the hips with a flat, extended back body, not a deeper fold.",
-    "svg_hint": "side view: two vertical legs, pelvis hinge, straight torso bar parallel to floor, head in line with spine, hands on mid-shin props"
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24, sequential, one verse per dhāraṇā for 1–16)",
+    "sanskrit_iast": "kumbhitā recitā vāpi pūritā vā yadā bhavet | tadante śāntanāmāsau śaktyā śāntaḥ prakāśate ||",
+    "sanskrit_source": "GRETIL e-text, checked against Singh, Wallis's concordance and Pradīpaka",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [],
+    "rendering": "When the breath-power is held (kumbhita), whether after it has been let out or after it has been drawn in, then at the end of that holding the power called 'the tranquil' (śāntā) reveals the Tranquil One.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer; not a quotation.",
+    "commentary_note": "Singh: exhalation retained outside and inhalation retained inside; at the end of the practice the śakti is called śāntā. Wallis groups verses 24 to 27 as one breath technique, with this verse as its retention phase.",
+    "technique_name": "Retained Breath and the Tranquil",
+    "category": "breath",
+    "category_secondary": [
+      "breath retention"
+    ],
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 4] VERSE 27'",
+        "The Mystery Within (2019): 'Dharana 4 • verso 27'",
+        "Lakshmanjoo lineage: repose.ghost.io labels verse 27 as meditation 4; not checked in a print Lakshmanjoo edition.",
+        "GRETIL, Pradīpaka and Wallis: verse text matches the technique"
+      ],
+      "notes": "Door index = Singh dharana number, verified directly in Singh's own headings and cross-checked against at least one independent edition. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "Y1 (cont.) (Wallis groups verses 24–27 as one technique)"
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 27 does not prescribe a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "two_retention_points",
+    "joints": [],
+    "points": [
+      "outer retention: after the out-breath (commentarial)",
+      "inner retention: after the in-breath (commentarial)"
+    ],
+    "summary": "Not a body shape. The verse describes two places of held breath, outside after exhaling and inside after inhaling. This door is observe-only: the map is studied, not drilled.",
+    "svg_hint": "two points on the breath path marked with a pause bar; drawn faint to signal observe-only",
+    "honesty": "Redefined in 2026-10: geometry now records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
   },
   "reaction": {
-    "name": "Suspend",
-    "from_phase": "collapsed fold",
-    "to_phase": "held length",
-    "summary": "School metaphor: the descending fold pauses into a suspended, long axis\u2014charge that was dumping downward reorganizes along a still horizontal line."
+    "name": "Suspend (observed)",
+    "from_phase": "moving_breath",
+    "to_phase": "tranquil_stillness",
+    "summary": "School metaphor: moving breath-power comes to stillness and is named 'tranquil'. Here it is a picture to understand, not an exercise. Not a biochemical or medical claim."
   },
   "breath": {
     "inhale": 4,
-    "hold": 2,
+    "hold": 0,
     "exhale": 4,
     "cycles": 6,
-    "lands_in": "front body length along the long spine (sternum to pubis)",
-    "cue": "Inhale to lift into half fold and lengthen. Softly notice the brief pause at the top without forcing retention. Exhale to return to fold or step forward as cued."
+    "mode": "natural",
+    "lands_in": "natural pauses only, observed rather than lengthened",
+    "cue": "Natural breath only. No forced retention. The verse describes held breath; this school does not teach breath-holding, so simply notice the pauses that happen by themselves.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
   },
   "orientation": {
-    "cue": "Hinge at the hips; sit bones reach back; crown reaches forward so the spine is one long line.",
-    "gravity": "Weight even through both feet; hands press down into support so the back body can lift against the hands.",
-    "gaze": "Soft toward the floor a short way ahead of the feet; neck stays in line with the spine.",
-    "degrees_hint": "Torso ~parallel to floor (0\u201320\u00b0 above horizontal); avoid cranking the neck upward."
+    "cue": "Study the verse; let the body simply rest while you do",
+    "gravity": "Fully supported; nothing to hold",
+    "gaze": "Eyes open, reading or resting softly",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
   },
   "attention": {
-    "primary": "Length from tip of tailbone through crown",
-    "secondary": "Hands pressing into shins, thighs, or blocks (not the knee joints)",
+    "primary": "Understanding the verse: stillness after held breath is called tranquil",
+    "secondary": "If sitting with it, only the natural pauses already practised in Doors 001 to 003",
     "chakra": null
   },
   "adiyogi": {
     "vbt_ref": "VBT dharana 004 (verse 27)",
-    "verse_paraphrase": "When the breath-power is gently retained after inhale or after exhale, at the end of that quiet pause the tranquil (\u015b\u0101nta) awareness is said to shine through that power.",
-    "method_summary": "Safe class form: in the half-lift, lengthen on the inhale, then briefly notice the natural still point at the end of the breath\u2014inside after inhale or outside after exhale\u2014without forcing a hard kumbhaka. Use the pause as a door of attention, then continue with soft equal breath.",
-    "practice_mode": "practice",
+    "verse_paraphrase": "When the breath-power is held (kumbhita), whether after it has been let out or after it has been drawn in, then at the end of that holding the power called 'the tranquil' (śāntā) reveals the Tranquil One.",
+    "method_summary": "Classical method: retention of the breath (kumbhaka) after exhaling or after inhaling, followed by resting in the tranquillity at the end of the retention. Observe-only in this school: read and understand it. For practice, return to the natural-pause forms of Doors 001 to 003. Do not hold the breath.",
+    "practice_mode": "observe_only",
     "historical_extreme": false,
     "sexual_content": false
   },
   "honesty": {
     "pairing_type": "school_device",
-    "disclosure": "This asana\u2194method link is a School of 112 Doorways teaching device, not ancient canon. Half Forward Fold is paired with VBT dharana 004 by school index, not by historical one-to-one tradition.",
-    "notes": "Mild experiential rhyme only: the half-lift is itself a pause between folds, which echoes dharana 004\u2019s attention to a retained-breath stillness. That rhyme does not upgrade pairing beyond school_device."
+    "disclosure": "Door 004 follows Vijñāna Bhairava Tantra dharana 4 (verse 27) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type stays school_device: the dharana is the content, while the door index, seat and pacing are the school's. The original honesty text is kept below in honesty.legacy, with retired posture names redacted; the verbatim text is at previous_file.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 004 is dharana 4, verse 27. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only.",
+      "historical/observe_only: Breath retention (kumbhaka) is the technique of this verse. Taught as text to understand, not as a class drill."
+    ],
+    "legacy": {
+      "source": "doors/D-004/door.json at commit 4382c90",
+      "disclosure": "This [retired posture]↔method link is a School of 112 Doorways teaching device, not ancient canon. [retired posture] is paired with VBT dharana 004 by school index, not by historical one-to-one tradition.",
+      "notes": "Mild experiential rhyme only: the [retired posture] is itself a pause between [retired posture], which echoes dharana 004’s attention to a retained-breath stillness. That rhyme does not upgrade pairing beyond school_device."
+    }
   },
   "safety": {
     "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
     "never_force": true,
-    "open_seat_alternate": "Hands on thighs, blocks, chair seat, or wall; soft bend in knees. Flat long spine beats straight legs or floor touch.",
-    "contraindication_notes": "General practice caution only; not medical advice. Avoid pressing hands on the knee joints. Ease out if low-back, hamstring, or neck sensation turns sharp. Pregnancy and back concerns: use a higher hand support and keep the spine long rather than deep."
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. Deliberate breath retention is not taught by this school. Breath-holding can bring dizziness, light-headedness or fainting and is not suitable for everyone, for example during pregnancy or for people with heart, blood-pressure or breathing conditions. Anyone who wants to learn retention should do so only with a qualified teacher and their own clinician's advice. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+    "legacy_notes": {
+      "source": "doors/D-004/door.json at commit 4382c90",
+      "open_seat_alternate": "Hands on thighs, blocks, chair seat, or wall; soft bend in knees. Flat long spine beats straight legs or floor touch.",
+      "contraindication_notes": "General practice caution only; not medical advice. Avoid pressing hands on the knee joints. Ease out if low-back, hamstring, or neck sensation turns sharp. Pregnancy and back concerns: use a higher hand support and keep the spine long rather than deep.",
+      "status": "Posture-specific cautions, kept for traceability; they no longer apply because this door teaches no posture."
+    },
+    "observe_only_note": "Deliberate breath retention is not taught by this school. Breath-holding can bring dizziness, light-headedness or fainting and is not suitable for everyone, for example during pregnancy or for people with heart, blood-pressure or breathing conditions. Anyone who wants to learn retention should do so only with a qualified teacher and their own clinician's advice."
   },
   "sources": [
     {
-      "label": "Jaideva Singh \u2014 Vijnanabhairava (dharana 4 / verse 27 paraphrase basis)",
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
       "kind": "vbt",
-      "ref": "VBT verse 27; kumbhit\u0101 recit\u0101 / p\u016brit\u0101 \u2192 \u015b\u0101nta Bhairava",
-      "url": "https://hareesh.org/blog/2022/11/30/vijana-bhairava-tantra-verses-22-27-the-foundational-practice"
+      "ref": "[Dhāraṇā 4] verse 27: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
     },
     {
-      "label": "Hareesh Wallis \u2014 VBT verses 22\u201327 commentary (practical reading of verse 27)",
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 27: Sanskrit source for the IAST (input errors corrected against Singh, Wallis and Pradīpaka where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
       "kind": "commentary",
-      "ref": "Quiescent breath retained after inhale or exhale; tranquil One manifests",
+      "ref": "heading 'Dharana 4 • verso 27' (numbering cross-check; parallel translations)",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+      "kind": "commentary",
+      "ref": "verse 27 = Wallis Y1 (cont.). Wallis groups verses 24–27 as one technique, so his yukti numbers run one to three lower than Singh's dharana numbers from verse 25 on.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 27: Sanskrit and translation cross-check",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "Hareesh Wallis, 'Vijñāna-bhairava-tantra verses 22–27: the foundational practice'",
+      "kind": "commentary",
+      "ref": "verses 24–27",
       "url": "https://hareesh.org/blog/2022/11/30/vijana-bhairava-tantra-verses-22-27-the-foundational-practice"
     },
     {
-      "label": "Yoga Journal \u2014 Standing Half Forward Bend (Ardha Uttanasana)",
-      "kind": "asana",
-      "ref": "Flat-back half lift; hands on floor/blocks/shins; length pubis to navel",
-      "url": "https://www.yogajournal.com/poses/standing-half-forward-bend/"
-    },
-    {
-      "label": "School of 112 Doorways \u2014 Yoga Teaching Machine Master Plan",
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
       "kind": "school",
-      "ref": "YOGA-TEACHING-MACHINE-MASTER-PLAN.md; school_device pairing law",
+      "ref": "School devices added in the 2026-10 reframing; honesty and safety conventions from research/PROMPT_TEMPLATE.md and guardians/CHECKLIST.md",
       "url": ""
     }
   ],
@@ -94,44 +175,50 @@
     {
       "n": 1,
       "title": "Name the door",
-      "script": "This door is Half Forward Fold, Ardha Uttanasana. It is the halfway lift\u2014a long spine pause inside the fold, not a deeper dive."
+      "script": "This is Door 004: retained breath and the tranquil. Vijñāna Bhairava Tantra dharana 4, verse 27. This door is observe-only."
     },
     {
       "n": 2,
       "title": "Geometry",
-      "script": "Hinge at the hips. Lift the torso until the back is long and roughly parallel to the floor. Hands find shins, thighs, or blocks\u2014whatever keeps that long line."
+      "script": "No shape to make, and no drill. Sit or lie comfortably while we look at the verse together. Its map is two places of held breath: outside after exhaling, inside after inhaling."
     },
     {
       "n": 3,
       "title": "Orientation",
-      "script": "Sit bones reach back; crown reaches forward. Gaze soft to the floor ahead. Neck stays in line with the spine. Weight stays even in both feet."
+      "script": "Let the body rest completely. Eyes open or soft. Attention on understanding, not on doing."
     },
     {
       "n": 4,
       "title": "Breath",
-      "script": "Inhale four counts to lift and lengthen. Soft hold for two counts at the top. Exhale four counts to fold or step on. Six easy cycles."
+      "script": "Natural breath only. No forced retention. Notice that small pauses already happen by themselves."
     },
     {
       "n": 5,
       "title": "Attention",
-      "script": "Lock attention on the length from tailbone through crown. Secondary: hands press into support, never into the knee joints."
+      "script": "Hold the idea, not the breath: stillness after movement is called tranquil."
     },
     {
       "n": 6,
       "title": "Reaction cue",
-      "script": "Feel the school cue called Suspend: the fold pauses into held length. Collapsed dump becomes a still horizontal line."
+      "script": "School image: moving breath comes to rest and is named tranquil. A picture, not an exercise."
     },
     {
       "n": 7,
       "title": "Adiyogi thread",
-      "script": "Adiyogi thread, safe form: notice the quiet pause at the end of the inhale or exhale. No forced breath-hold\u2014just meet the stillness, then continue."
+      "script": "Verse 27 describes holding the breath after an out-breath or an in-breath, and the tranquil one revealed at the end. Observe-only here: we do not hold the breath. For practice, use Doors 001 to 003."
     },
     {
       "n": 8,
       "title": "Exit / integrate",
-      "script": "Exhale back to fold, or inhale to rise. Soften the knees. Carry the long-spine cue into the next standing shape. Pain means pause or exit."
+      "script": "Take a normal breath. Look around the room. Move on when ready."
     }
   ],
   "researcher": "R-004",
-  "researched_at": "2026-09-25"
+  "researched_at": "2026-09-25",
+  "reframed_by": "Grok Bot (House 1 VBT reframing)",
+  "reframed_at": "2026-10-06",
+  "review": {
+    "status": "pending_guardian_re_review",
+    "previous_review": "guardians/reviews/D-004.md (reviewed the posture framing)"
+  }
 }

@@ -1,90 +1,175 @@
 {
   "id": "D-009",
-  "name": "Upward-Facing Dog",
-  "sanskrit": "Urdhva Mukha Svanasana",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "The Five Voids of the Peacock Feather",
+  "sanskrit": "śūnyapañcakam",
   "house": 1,
-  "status": "researched",
-  "geometry": {
-    "polygon": "Long front-opening arc: tops of feet to lifted thighs to pelvis to sternum, with two arm columns under the shoulders",
-    "joints": [
-      "wrists stacked under shoulders",
-      "elbows straight but soft",
-      "shoulders drawn off the ears",
-      "thoracic spine extending",
-      "hips and thighs lifted off the floor",
-      "knees extended",
-      "ankles dorsiflexed with tops of feet pressing down"
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "Urdhva Mukha Svanasana — Upward-Facing Dog (asana framing, retired 2026-10)",
+  "previous_file": "doors/D-009/door.json at commit 4382c90 (researcher R-009, researched 2026-09-25)",
+  "previous_vbt_ref": "VBT dharana 009 (verse 32; Jaideva Singh numbering) (superseded)",
+  "dharana": {
+    "number": 9,
+    "verses": [
+      32
     ],
-    "summary": "From prone or from Chaturanga, press the palms and the tops of the feet, straighten the arms with shoulders over wrists, and lift the thighs so only hands and feet touch the floor. The shape is a long front-body arc carried by active legs and open chest, not a dump into the low back.",
-    "svg_hint": "side view: two ground points (hands, feet), elevated thigh-pelvis line, open chest arc, head facing forward"
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24, sequential, one verse per dhāraṇā for 1–16)",
+    "sanskrit_iast": "śikhipakṣaiś citrarūpair maṇḍalaiḥ śūnyapañcakam | dhyāyato 'nuttare śūnye praveśo hṛdaye bhavet ||",
+    "sanskrit_source": "GRETIL e-text, checked against Singh, Wallis's concordance and Pradīpaka",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [
+      "GRETIL e-text prints ma.ṅdalaiḥ (an encoding error for maṇḍalaiḥ)."
+    ],
+    "rendering": "For one who meditates on the five voids by way of the many-coloured circles in a peacock's feathers, there is entry into the heart, the unsurpassed void.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer; not a quotation.",
+    "commentary_note": "Singh: the five voids are the five senses (their subtle sources, the tanmātras), seen like the circles of a peacock feather; one meditates in the heart. Singh also notes a double meaning: maṇḍala names both the circles in the feather and the five senses.",
+    "technique_name": "The Five Voids of the Peacock Feather",
+    "category": "sensation",
+    "category_secondary": [
+      "emptiness/space",
+      "visualization"
+    ],
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 9] VERSE 32'",
+        "The Mystery Within (2019): 'Dharana 9 • verso 32'",
+        "GRETIL, Pradīpaka and Wallis: verse text matches the technique"
+      ],
+      "notes": "Door index = Singh dharana number, verified directly in Singh's own headings and cross-checked against at least one independent edition. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "Y6 (Wallis groups verses 24–27 as one technique)"
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 32 does not prescribe a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "nested_circles_to_centre",
+    "joints": [],
+    "points": [
+      "five sense-fields as concentric circles",
+      "the empty centre",
+      "the heart (hṛdaya)"
+    ],
+    "summary": "Not a body shape. The map is the eye of a peacock feather: rings of colour around an empty centre, used as a picture of the five sense-fields converging on emptiness in the heart.",
+    "svg_hint": "concentric coloured rings narrowing to a dark empty centre, set over the heart",
+    "honesty": "Redefined in 2026-10: geometry now records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
   },
   "reaction": {
-    "name": "Open rise",
-    "from_phase": "front-body collapse",
-    "to_phase": "front-body lift and space",
-    "summary": "School metaphor: heavy closed front field shifts toward lifted, spacious chest and lengthened front line. Label only; not a chemical or medical claim."
+    "name": "Converge",
+    "from_phase": "scattered_senses",
+    "to_phase": "empty_heart",
+    "summary": "School metaphor: the five scattered sense-fields gather like rings toward one empty centre. Label only; not a chemical or medical claim."
   },
   "breath": {
     "inhale": 4,
-    "hold": 1,
+    "hold": 0,
     "exhale": 4,
     "cycles": 6,
-    "lands_in": "sternum and upper ribs, with soft belly support",
-    "cue": "Inhale to lengthen and lift the chest through the arms; brief pause at the top; exhale without collapsing the lift. Keep the breath even; never force range."
+    "mode": "natural",
+    "lands_in": "soft breath around the chest and heart area",
+    "cue": "Even, natural breath, about four in and four out. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
   },
   "orientation": {
-    "cue": "Shoulders stacked over wrists; tops of feet heavy; thighs active and lifted; chest draws forward-up through the arm gateway",
-    "gravity": "Load shared through palms and tops of feet; legs press back while chest reaches forward so the spine lengthens instead of hinging only at the lumbar",
-    "gaze": "Soft forward (or slight lift only if the neck stays free); do not throw the head back",
-    "degrees_hint": "Aim for roughly 90-degree wrist stack under shoulders; thoracic curve preferred over deep lumbar fold"
+    "cue": "Orient from the edges of the senses inward toward one centre",
+    "gravity": "Body supported and still",
+    "gaze": "Eyes softly open on a feather or image at first, then closed",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
   },
   "attention": {
-    "primary": "Sternum / heart-band space opening forward",
-    "secondary": "Tops of feet pressing down and long active legs",
-    "chakra": "anahata"
+    "primary": "The five sense-fields (sight, hearing, touch, taste, smell) as rings converging on an empty centre",
+    "secondary": "The heart as the place of entry named in the verse",
+    "chakra": null
   },
   "adiyogi": {
-    "vbt_ref": "VBT dharana 009 (verse 32; Jaideva Singh numbering)",
-    "verse_paraphrase": "Contemplate the five sense-fields as nested colorful circles like a peacock feather\u2019s eye; as they merge toward the empty center, awareness enters the heart as supreme open space.",
-    "method_summary": "Safe class form: in the held shape, soften the gaze and notice the whole sensory field (sight, sound, touch, taste, smell) as one nested mandala. Let detail dissolve toward the quiet center at the chest-heart, without chasing sensation or forcing trance. Practice contemplative only; not a prolonged peacock-feather visualization drill.",
+    "vbt_ref": "VBT dharana 009 (verse 32)",
+    "verse_paraphrase": "For one who meditates on the five voids by way of the many-coloured circles in a peacock's feathers, there is entry into the heart, the unsurpassed void.",
+    "method_summary": "Optionally look at a peacock feather or a picture of one, then close the eyes. Notice the whole sensory field (sight, sound, touch, taste, smell) as nested rings. Let detail dissolve toward the quiet centre at the heart, without chasing sensation or forcing trance.",
     "practice_mode": "practice",
     "historical_extreme": false,
     "sexual_content": false
   },
   "honesty": {
     "pairing_type": "school_device",
-    "disclosure": "This asana\u2194VBT link is a School of 112 Doorways teaching device by door index, not ancient one-to-one canon. Some editions number the same verse differently (e.g. as yukti 6).",
-    "notes": "School index D-009 maps to Jaideva Singh dharana 9 = verse 32 (five voids / peacock mandala \u2192 heart). Experiential affinity with open front-body and heart-band attention is noted but not claimed as ancient pairing."
+    "disclosure": "Door 009 follows Vijñāna Bhairava Tantra dharana 9 (verse 32) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type stays school_device: the dharana is the content, while the door index, seat and pacing are the school's. The original honesty text is kept below in honesty.legacy, with retired posture names redacted; the verbatim text is at previous_file.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 009 is dharana 9, verse 32. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only."
+    ],
+    "legacy": {
+      "source": "doors/D-009/door.json at commit 4382c90",
+      "disclosure": "This [retired posture]↔VBT link is a School of 112 Doorways teaching device by door index, not ancient one-to-one canon. Some editions number the same verse differently (e.g. as yukti 6).",
+      "notes": "School index D-009 maps to Jaideva Singh dharana 9 = verse 32 (five voids / peacock mandala → heart). Experiential affinity with open front-body and heart-band attention is noted but not claimed as ancient pairing."
+    }
   },
   "safety": {
-    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain in wrists, low back, neck, or legs.",
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
     "never_force": true,
-    "open_seat_alternate": "Bhujangasana (Cobra) or Sphinx with thighs down; or hands on blocks to reduce wrist extension",
-    "contraindication_notes": "General practice caution for loaded wrist extension and lumbar compression; not medical advice. If wrists or low back complain, regress to Cobra/Sphinx or skip."
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. If attention to the senses becomes overwhelming, open the eyes and look at one simple object in the room. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+    "legacy_notes": {
+      "source": "doors/D-009/door.json at commit 4382c90",
+      "open_seat_alternate": "[retired posture] ([retired posture]) or [retired posture] with thighs down; or hands on blocks to reduce wrist extension",
+      "contraindication_notes": "General practice caution for loaded wrist extension and lumbar compression; not medical advice. If wrists or low back complain, regress to [retired posture] or skip.",
+      "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain in wrists, low back, neck, or legs.",
+      "status": "Posture-specific cautions, kept for traceability; they no longer apply because this door teaches no posture."
+    }
   },
   "sources": [
     {
-      "label": "Jaideva Singh \u2014 Vijnanabhairava (dharana 9 / verse 32 paraphrase)",
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
       "kind": "vbt",
-      "ref": "VBT verse 32; Singh dharana 9",
-      "url": ""
+      "ref": "[Dhāraṇā 9] verse 32: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
     },
     {
-      "label": "Christopher Wallis / Hareesh \u2014 VBT verse 32 concordance and practice notes",
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 32: Sanskrit source for the IAST (input errors corrected against Singh, Wallis and Pradīpaka where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
       "kind": "commentary",
-      "ref": "Verse 32; Wallis yukti 6 (same Sanskrit verse as Singh dharana 9)",
+      "ref": "heading 'Dharana 9 • verso 32' (numbering cross-check; parallel translations)",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+      "kind": "commentary",
+      "ref": "verse 32 = Wallis Y6. Wallis groups verses 24–27 as one technique, so his yukti numbers run one to three lower than Singh's dharana numbers from verse 25 on.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 32: Sanskrit and translation cross-check",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "Hareesh Wallis, 'Vijñāna-bhairava-tantra verse 32: merging the sensual spaces'",
+      "kind": "commentary",
+      "ref": "verse 32",
       "url": "https://hareesh.org/blog/2023/11/28/vijana-bhairava-tantra-verse-32-merging-the-sensual-spaces"
     },
     {
-      "label": "Yoga Journal \u2014 Upward-Facing Dog alignment teaching cues",
-      "kind": "asana",
-      "ref": "Urdhva Mukha Svanasana wrist stack, leg drive, thoracic preference",
-      "url": "https://www.yogajournal.com/poses/upward-facing-dog-2/"
-    },
-    {
-      "label": "School of 112 Doorways \u2014 door schema and House 1 dispatch R-009",
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
       "kind": "school",
-      "ref": "schemas/door.schema.json; research/house1-dispatches/R-009.md",
+      "ref": "School devices added in the 2026-10 reframing; honesty and safety conventions from research/PROMPT_TEMPLATE.md and guardians/CHECKLIST.md",
       "url": ""
     }
   ],
@@ -92,44 +177,50 @@
     {
       "n": 1,
       "title": "Name the door",
-      "script": "This is Door D-009: Upward-Facing Dog, Urdhva Mukha Svanasana. A front-opening lift on hands and tops of feet."
+      "script": "This is Door 009: the five voids of the peacock feather. Vijñāna Bhairava Tantra dharana 9, verse 32."
     },
     {
       "n": 2,
       "title": "Geometry",
-      "script": "Press palms and tops of feet. Straighten arms with shoulders over wrists. Lift the thighs so only hands and feet touch. Long arc through chest, not a fold dumped into the low back."
+      "script": "No shape to make. Any easy seat. The map is a peacock feather's eye: rings of colour around an empty centre."
     },
     {
       "n": 3,
       "title": "Orientation",
-      "script": "Stack shoulders over wrists. Draw shoulders off the ears. Reach legs back while chest moves forward-up. Gaze soft forward unless the neck is free."
+      "script": "Body supported. Look at a feather or picture if you have one, then close the eyes. Orient inward."
     },
     {
       "n": 4,
       "title": "Breath",
-      "script": "Inhale four to lengthen and lift. Soft one-count pause. Exhale four without collapsing. Six even cycles. Breath lands at sternum with soft belly support."
+      "script": "Even, natural breath, four in and four out. No forced hold."
     },
     {
       "n": 5,
       "title": "Attention",
-      "script": "Primary lock: sternum and heart-band opening forward. Secondary: tops of feet pressing and long active legs."
+      "script": "Sight, sound, touch, taste, smell: feel them as five rings. Let them narrow toward one quiet centre at the heart."
     },
     {
       "n": 6,
       "title": "Reaction cue",
-      "script": "Name the phase Open rise: from front-body collapse toward lifted spacious front line. Metaphor only\u2014feel the shift, don\u2019t chase a stretch goal."
+      "script": "School image: scattered senses converge on an empty heart. Metaphor only."
     },
     {
       "n": 7,
       "title": "Adiyogi thread",
-      "script": "VBT dharana 009: notice the five senses as one nested field, like circles into a quiet center. Let attention rest in the heart-space of the open chest. Safe contemplative form only."
+      "script": "Verse 32: meditating on the five voids through the peacock feather's circles, one enters the heart, the unsurpassed void. Safe contemplative form only."
     },
     {
       "n": 8,
       "title": "Exit / integrate",
-      "script": "Exhale down to prone or move on with control. If wrists or low back spoke up, take Cobra or Sphinx next. Pain means stop. Pairing is a school teaching device, not ancient canon."
+      "script": "Open the eyes. Let the senses come back one by one: sound, light, touch."
     }
   ],
   "researcher": "R-009",
-  "researched_at": "2026-09-25"
+  "researched_at": "2026-09-25",
+  "reframed_by": "Grok Bot (House 1 VBT reframing)",
+  "reframed_at": "2026-10-06",
+  "review": {
+    "status": "pending_guardian_re_review",
+    "previous_review": "guardians/reviews/D-009.md (reviewed the posture framing)"
+  }
 }

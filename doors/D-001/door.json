@@ -1,88 +1,171 @@
 {
   "id": "D-001",
-  "name": "Mountain",
-  "sanskrit": "Tadasana",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "Resting in the Two Turning Points of the Breath",
+  "sanskrit": "utpattidvitayasthāne bharitā sthitiḥ",
   "house": 1,
-  "status": "researched",
-  "geometry": {
-    "polygon": "upright_column",
-    "joints": [
-      "ankles",
-      "knees",
-      "hips",
-      "shoulders",
-      "crown"
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "Tadasana — Mountain (asana framing, retired 2026-10)",
+  "previous_file": "doors/D-001/door.json at commit 4382c90 (researcher R-001, researched 2026-09-25)",
+  "previous_vbt_ref": "VBT dharana 001 (verse 24)",
+  "dharana": {
+    "number": 1,
+    "verses": [
+      24
     ],
-    "summary": "A vertical column from the soles through the pelvis and ribcage to the crown, with a base triangle formed by the two feet and the pelvic floor. Feet hip-width or together; legs long without locked knees; arms soft at the sides; spine stacked in one clear upright line.",
-    "svg_hint": "line from midfeet through pelvis to crown; base triangle feet-to-pelvic-floor"
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24, sequential, one verse per dhāraṇā for 1–16)",
+    "sanskrit_iast": "ūrdhve prāṇo hy adho jīvo visargātmā paroccaret | utpattidvitayasthāne bharaṇād bharitā sthitiḥ ||",
+    "sanskrit_source": "GRETIL e-text, checked against Singh, Wallis's concordance and Pradīpaka",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [],
+    "rendering": "Bhairava answers: the supreme power, whose nature is to pour itself out (visarga), keeps sounding as the breath: prāṇa moving upward and out, jīva moving downward and in. By filling with awareness the two places where these movements arise, one comes to rest in fullness (bharitā sthitiḥ).",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer; not a quotation.",
+    "commentary_note": "Singh's notes (following the Kashmir Shaiva commentators) place the two points at the heart-centre, where the in-breath ends, and the outer dvādaśānta, about twelve finger-widths in front of the nose, where the out-breath ends. The verse itself only says 'the two places of arising'.",
+    "technique_name": "Resting in the Two Turning Points of the Breath",
+    "category": "breath",
+    "category_secondary": [
+      "gap/pause"
+    ],
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 1] VERSE 24'",
+        "The Mystery Within (2019): 'Dharana 1 • verso 24'",
+        "Lakshmanjoo lineage: repose.ghost.io (a site presenting Lakshmanjoo's 112 meditations) labels verse 24 as meditation 1; not checked in a print Lakshmanjoo edition.",
+        "GRETIL, Pradīpaka and Wallis: verse text matches the technique"
+      ],
+      "notes": "Door index = Singh dharana number, verified directly in Singh's own headings and cross-checked against at least one independent edition. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "Y1 (Wallis groups verses 24–27 as one technique)"
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 24 does not prescribe a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "two_points_on_the_breath_path",
+    "joints": [],
+    "points": [
+      "inner turning point: heart-centre (commentarial)",
+      "outer turning point: about twelve finger-widths in front of the nose (commentarial, 'outer dvādaśānta')"
+    ],
+    "summary": "Not a body shape. The dharana's own map is two points joined by the path of the breath: the inner point where the in-breath ends and the outer point where the out-breath ends. The exact locations come from commentary (Singh's notes), not from the verse.",
+    "svg_hint": "one dot at the heart, one dot in space in front of the nose, a soft arrow going out and coming back between them",
+    "honesty": "Redefined in 2026-10: geometry now records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
   },
   "reaction": {
-    "name": "Settle",
+    "name": "Settle into fullness",
     "from_phase": "scattered_charge",
-    "to_phase": "grounded_stillness",
-    "summary": "School metaphor only: attention that was bouncing outward settles into quiet vertical presence. Not a biochemical or medical claim."
+    "to_phase": "filled_stillness",
+    "summary": "School metaphor only: attention that was bouncing outward settles where the breath turns, and the pause is felt as full rather than empty. Not a biochemical or medical claim."
   },
   "breath": {
     "inhale": 4,
     "hold": 0,
     "exhale": 4,
     "cycles": 6,
-    "lands_in": "lower belly, then soft ribs",
-    "cue": "Even inhale four, even exhale four. No forced hold. Notice the natural brief turn at the top and bottom of each breath."
+    "mode": "natural",
+    "lands_in": "wherever the breath naturally turns: inside at the end of the in-breath, outside at the end of the out-breath",
+    "cue": "Natural breath. If counting helps, an even four in and four out; otherwise do not count. No forced hold. Notice the natural brief turn at the top and bottom of each breath.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
   },
   "orientation": {
-    "cue": "Crown over heels; weight even on both feet",
-    "gravity": "Down through the triple foot points (heel, big-toe ball, little-toe ball); up through the crown",
-    "gaze": "Soft horizontal, eyes open or lightly closed",
-    "degrees_hint": "0 degrees tilt from vertical; no lean forward or back"
+    "cue": "Turn attention toward the two turning points, not toward the air itself",
+    "gravity": "Let the floor or chair carry the body completely so that no effort competes with the breath",
+    "gaze": "Eyes lightly closed, or open and resting softly on the floor",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
   },
   "attention": {
-    "primary": "Soles-to-crown vertical axis",
-    "secondary": "Natural pauses where breath turns",
+    "primary": "The two places where the breath turns: inside (heart-centre) and outside (space in front of the nose)",
+    "secondary": "The fullness of the pause itself",
     "chakra": null
   },
   "adiyogi": {
     "vbt_ref": "VBT dharana 001 (verse 24)",
-    "verse_paraphrase": "Exhalation rises and inhalation descends as a continuous emission. Rest awareness at the two places where these flows arise or turn; fullness (bharita) becomes available.",
-    "method_summary": "In standing stillness, follow natural breath without forcing. At the end of inhale and the end of exhale, rest attention for a moment in the brief turn (inner center and outer dvadasanta as classical map). Do not strain or stop the breath; notice the pause that is already there.",
+    "verse_paraphrase": "Bhairava answers: the supreme power, whose nature is to pour itself out (visarga), keeps sounding as the breath: prāṇa moving upward and out, jīva moving downward and in. By filling with awareness the two places where these movements arise, one comes to rest in fullness (bharitā sthitiḥ).",
+    "method_summary": "Breathe naturally. At the end of each in-breath, rest awareness for a moment at the inner turning point; at the end of each out-breath, rest it at the outer turning point. Do not stop, slow or lengthen the breath; meet the pause that is already there.",
     "practice_mode": "practice",
     "historical_extreme": false,
     "sexual_content": false
   },
   "honesty": {
     "pairing_type": "school_device",
-    "disclosure": "This asana and VBT method are linked by the School of 112 Doorways as a teaching device (Door 001 with dharana 001). It is not a claim of ancient one-to-one canon.",
-    "notes": "Supportive resonance only: Tadasana stillness makes the two breath-turn points easier to notice. Pairing remains school_device by door index."
+    "disclosure": "Door 001 follows Vijñāna Bhairava Tantra dharana 1 (verse 24) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type stays school_device: the dharana is the content, while the door index, seat and pacing are the school's. The original honesty text is kept below in honesty.legacy, with retired posture names redacted; the verbatim text is at previous_file.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 001 is dharana 1, verse 24. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only."
+    ],
+    "legacy": {
+      "source": "doors/D-001/door.json at commit 4382c90",
+      "disclosure": "This [retired posture] and VBT method are linked by the School of 112 Doorways as a teaching device (Door 001 with dharana 001). It is not a claim of ancient one-to-one canon.",
+      "notes": "Supportive resonance only: [retired posture] stillness makes the two breath-turn points easier to notice. Pairing remains school_device by door index."
+    }
   },
   "safety": {
     "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
     "never_force": true,
-    "open_seat_alternate": "If standing is not available, practice the same breath-turn attention seated upright in an open seat (sukhasana or chair).",
-    "contraindication_notes": "General practice caution only; not medical advice. Soften the knees if locking bothers them. Sit or hold a wall if balance or fatigue appear."
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. Never hold or stop the breath for this door. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+    "legacy_notes": {
+      "source": "doors/D-001/door.json at commit 4382c90",
+      "open_seat_alternate": "If standing is not available, practice the same breath-turn attention seated upright in an open seat ([retired posture] or chair).",
+      "contraindication_notes": "General practice caution only; not medical advice. Soften the knees if locking bothers them. Sit or hold a wall if balance or fatigue appear.",
+      "status": "Posture-specific cautions, kept for traceability; they no longer apply because this door teaches no posture."
+    }
   },
   "sources": [
     {
-      "label": "Jaideva Singh \u2014 Vijnanabhairava or Divine Consciousness (dharana 1 / verse 24 paraphrase used)",
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
       "kind": "vbt",
-      "ref": "VBT verse 24; first of 112 dharanas; breath-turn / bharita sthiti",
-      "url": ""
+      "ref": "[Dhāraṇā 1] verse 24: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
     },
     {
-      "label": "Public concordance summaries of VBT verse 24 (prana/jiva turn points)",
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 24: Sanskrit source for the IAST (input errors corrected against Singh, Wallis and Pradīpaka where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
       "kind": "commentary",
-      "ref": "Synthesis of standard Kashmir Shaiva commentary lane for dharana 1",
-      "url": "https://hatha.es/en/texts/vijnana-bhairava-tantra/001/"
+      "ref": "heading 'Dharana 1 • verso 24' (numbering cross-check; parallel translations)",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
     },
     {
-      "label": "School of 112 Doorways \u2014 House 1 Mountain / Tadasana geometry cues",
-      "kind": "asana",
-      "ref": "YOGA-TEACHING-MACHINE-MASTER-PLAN.md exemplar D-001",
-      "url": ""
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+      "kind": "commentary",
+      "ref": "verse 24 = Wallis Y1. Wallis groups verses 24–27 as one technique, so his yukti numbers run one to three lower than Singh's dharana numbers from verse 25 on.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
     },
     {
-      "label": "School honesty / safety conventions",
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 24: Sanskrit and translation cross-check",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "Hareesh Wallis, 'Vijñāna-bhairava-tantra verses 22–27: the foundational practice'",
+      "kind": "commentary",
+      "ref": "verses 24–27",
+      "url": "https://hareesh.org/blog/2022/11/30/vijana-bhairava-tantra-verses-22-27-the-foundational-practice"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
       "kind": "school",
-      "ref": "PROMPT_TEMPLATE.md + guardians/CHECKLIST.md",
+      "ref": "School devices added in the 2026-10 reframing; honesty and safety conventions from research/PROMPT_TEMPLATE.md and guardians/CHECKLIST.md",
       "url": ""
     }
   ],
@@ -90,44 +173,50 @@
     {
       "n": 1,
       "title": "Name the door",
-      "script": "This is Door 001, Mountain \u2014 Tadasana. Stand as a quiet upright column. Nothing to prove. Just arrive."
+      "script": "This is Door 001: the two turning points of the breath. It is the first dharana of the Vijñāna Bhairava Tantra, verse 24."
     },
     {
       "n": 2,
       "title": "Geometry",
-      "script": "Feet plant. Legs long, knees soft. Pelvis stacked over ankles, ribs over pelvis, crown floating up. Arms rest by your sides. One vertical line."
+      "script": "No shape to make. Sit, lie down, or stand, whatever is easiest. The map is two points: where the in-breath ends inside, near the heart, and where the out-breath ends outside, in front of the nose."
     },
     {
       "n": 3,
       "title": "Orientation",
-      "script": "Crown over heels. Weight even on both feet \u2014 heel, big-toe ball, little-toe ball. Gaze soft and level. Gravity down, length up."
+      "script": "Let the floor or the chair carry you. Eyes soft or closed. Turn attention toward the turning points, not toward the air."
     },
     {
       "n": 4,
       "title": "Breath",
-      "script": "Inhale for four. Exhale for four. Six easy cycles. Breath lands in the lower belly, then soft ribs. No forced hold."
+      "script": "Breathe naturally. If counting helps, four in, four out, six easy rounds. No forced hold."
     },
     {
       "n": 5,
       "title": "Attention",
-      "script": "Hold the soles-to-crown line. Secondary: notice the natural turn at the top of the inhale and the bottom of the exhale."
+      "script": "Rest at the inner turn after each in-breath, and at the outer turn after each out-breath. Notice the pause that is already there."
     },
     {
       "n": 6,
       "title": "Reaction cue",
-      "script": "Name the school shift Settle: scattered charge moves toward grounded stillness. Feel it as metaphor, not medicine."
+      "script": "School image: scattered charge settles into fullness. A metaphor, not medicine."
     },
     {
       "n": 7,
       "title": "Adiyogi thread",
-      "script": "From VBT dharana 001: rest awareness at the two places where breath turns. Do not stop the breath. Meet the pause that is already there."
+      "script": "Verse 24: fill the two places where the breath arises with awareness, and rest in fullness. Do not stop the breath. Meet the pause that is already there."
     },
     {
       "n": 8,
       "title": "Exit / integrate",
-      "script": "Take one free breath. Soften the knees. Carry the vertical quiet into the next step, or sit if you need rest."
+      "script": "Take one free breath without watching it. Open the eyes. Carry the sense of fullness into whatever comes next."
     }
   ],
   "researcher": "R-001",
-  "researched_at": "2026-09-25"
+  "researched_at": "2026-09-25",
+  "reframed_by": "Grok Bot (House 1 VBT reframing)",
+  "reframed_at": "2026-10-06",
+  "review": {
+    "status": "pending_guardian_re_review",
+    "previous_review": "guardians/reviews/D-001.md (reviewed the posture framing)"
+  }
 }

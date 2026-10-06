@@ -1,2243 +1,506 @@
 [
   {
     "number": 29,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
     "element": "Water",
-    "color": null,
     "bija": "VAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=29"
   },
   {
     "number": 30,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
     "element": "Water",
-    "color": null,
     "bija": "VAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=30"
   },
   {
     "number": 31,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
     "element": "Water",
-    "color": null,
     "bija": "VAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=31"
   },
   {
     "number": 32,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
     "element": "Water",
-    "color": null,
     "bija": "VAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=32"
   },
   {
     "number": 33,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 3,
     "house_name": "Maṇipūra",
     "element": "Fire",
-    "color": null,
     "bija": "RAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=33"
   },
   {
     "number": 34,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 3,
     "house_name": "Maṇipūra",
     "element": "Fire",
-    "color": null,
     "bija": "RAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=34"
   },
   {
     "number": 35,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 3,
     "house_name": "Maṇipūra",
     "element": "Fire",
-    "color": null,
     "bija": "RAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=35"
   },
   {
     "number": 36,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 3,
     "house_name": "Maṇipūra",
     "element": "Fire",
-    "color": null,
     "bija": "RAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=36"
   },
   {
     "number": 37,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 3,
     "house_name": "Maṇipūra",
     "element": "Fire",
-    "color": null,
     "bija": "RAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=37"
   },
   {
     "number": 38,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 3,
     "house_name": "Maṇipūra",
     "element": "Fire",
-    "color": null,
     "bija": "RAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=38"
   },
   {
     "number": 39,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 3,
     "house_name": "Maṇipūra",
     "element": "Fire",
-    "color": null,
     "bija": "RAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=39"
   },
   {
     "number": 40,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 3,
     "house_name": "Maṇipūra",
     "element": "Fire",
-    "color": null,
     "bija": "RAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=40"
   },
   {
     "number": 41,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 3,
     "house_name": "Maṇipūra",
     "element": "Fire",
-    "color": null,
     "bija": "RAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=41"
   },
   {
     "number": 42,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 3,
     "house_name": "Maṇipūra",
     "element": "Fire",
-    "color": null,
     "bija": "RAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=42"
   },
   {
     "number": 43,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 3,
     "house_name": "Maṇipūra",
     "element": "Fire",
-    "color": null,
     "bija": "RAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=43"
   },
   {
     "number": 44,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 3,
     "house_name": "Maṇipūra",
     "element": "Fire",
-    "color": null,
     "bija": "RAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=44"
   },
   {
     "number": 45,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 3,
     "house_name": "Maṇipūra",
     "element": "Fire",
-    "color": null,
     "bija": "RAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=45"
   },
   {
     "number": 46,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 3,
     "house_name": "Maṇipūra",
     "element": "Fire",
-    "color": null,
     "bija": "RAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=46"
   },
   {
     "number": 47,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 3,
     "house_name": "Maṇipūra",
     "element": "Fire",
-    "color": null,
     "bija": "RAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=47"
   },
   {
     "number": 48,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 3,
     "house_name": "Maṇipūra",
     "element": "Fire",
-    "color": null,
     "bija": "RAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=48"
   },
   {
     "number": 49,
-    "sanskrit": "Bhujaṅgāsana",
-    "english": "Cobra",
+    "status": "being_remembered",
     "house": 4,
     "house_name": "Anāhata",
     "element": "Air",
-    "color": null,
     "bija": "YAM",
-    "geometry": {
-      "polygon": "rising arc",
-      "vertices": [
-        [
-          0,
-          0
-        ],
-        [
-          1.2,
-          0.05
-        ],
-        [
-          2.4,
-          0.35
-        ],
-        [
-          3.4,
-          0.9
-        ],
-        [
-          4.2,
-          1.55
-        ]
-      ],
-      "summary": null,
-      "units": "Sagittal plane, in body-lengths. The tail of the arc — legs and pubic bone — stays low. The chest end rises. An open arc, not a closed ring and not a height to win."
-    },
-    "reaction": {
-      "reactants": [
-        "a collapsed upper back",
-        "a chest that has forgotten width"
-      ],
-      "catalyst": "low, even pressure through both palms, elbows slightly in",
-      "product": "a sternum that lifts without asking the lower back to shout",
-      "phase": "kindling",
-      "from_phase": null,
-      "to_phase": null,
-      "note": "Alchemical teaching metaphor for a backbend. Not heat applied to the spine, and not a chemical procedure."
-    },
-    "breath": {
-      "inhale": 4,
-      "exhale": 6,
-      "pause": 0,
-      "bandha": "None while prone. Keep the belly long enough to breathe. No uḍḍīyāna and no forced mūla bandha inside the backbend.",
-      "pause_after": "none",
-      "cue": null
-    },
-    "orientation": {
-      "hand_placement": "Palms on the floor beside the lower ribs, fingers spread and pointing forward, elbows bent and drawn slightly toward the waist.",
-      "gaze": "The floor a little ahead of the hands, or the horizon. Do not crank the neck to look at the ceiling.",
-      "joint_lead": "The thoracic spine and the width of the collarbones. The pubic bone stays heavy. The lower back follows; it does not lead.",
-      "cue": null,
-      "gravity": null
-    },
-    "attention": {
-      "locus": "width across the heart, not height at any cost",
-      "secondary": null,
-      "chakra": "anāhata"
-    },
-    "adiyogi_method": {
-      "vbt_verse": 49,
-      "vbt_ref": null,
-      "summary": "Teaching reference. Verse 49 of the Vijnana Bhairava Tantra is yukti 23 in the common enumeration. It turns attention into the space of the heart, in the inner recess of the heart-lotus, with the senses unhooked from their objects. The verse's lotus is the heart, not Padmāsana, and it is not an instruction to lift Cobra higher. In this school the pose only serves that width. If an edition numbers the verse a line off, follow the heart-space dharana and say so.",
-      "verse_paraphrase": null,
-      "practice_mode": "practice",
-      "yukti": 23
-    },
-    "guardian": "NAGINI",
-    "safety_notes": [
-      "Pregnancy: do not practice this prone backbend. A standing heart-opener, or rest, is the honest substitute.",
-      "Recent abdominal surgery, hernia, or an acute abdominal condition: do not enter the pose.",
-      "Acute low-back pain, a known spondylolisthesis, or spinal instability: do not enter a backbend. Reported pain halts the machine in any case.",
-      "Neck injury, or dizziness when looking up: keep the gaze on the floor. Do not extend the cervical spine to look impressive.",
-      "Painful wrists or carpal tunnel: do not grind through the heels of the hands. Skip the pose, or rest the forearms only if a teacher who can see you has already offered that variation.",
-      "Soon after a large meal: wait. A short breath and a quiet chest, face down or on the side, is enough."
-    ],
-    "five_ways": [
-      "Show a low cobra, then a lower one. Teach the lower one.",
-      "Cue three things: pubic bone heavy, elbows slightly in, collarbones wide. Do not cue a higher head.",
-      "If the wrists complain, the door for the day is rest, or a sphinx on the forearms already known to that student. Pain ends the experiment.",
-      "Inhale to prepare and exhale to admit that more height is unnecessary. Use four counts in and six out only while the throat stays quiet.",
-      "Read the heart-space verse as width in the chest. Ask what can be felt without moving one inch further."
-    ],
-    "exit": "If the wrists complain, the door for the day is rest, or a sphinx on the forearms already known to that student. Pain ends the experiment.",
-    "yes": "Teach the lower one.",
-    "no": "Do not cue a higher head.",
-    "look": "The floor a little ahead of the hands, or the horizon. Do not crank the neck to look at the ceiling.",
-    "water": "Inhale 4, exhale 6, pause 0. None while prone. Keep the belly long enough to breathe. No uḍḍīyāna and no forced mūla bandha inside the backbend.",
-    "open_seat": null,
-    "honesty": "Vijnana Bhairava Tantra. The asana–verse pairing on this door is a School of 112 Doorways device (school_device), not a claim of ancient one-to-one canon.",
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
-    "practice_mode": "practice",
-    "requires_lotus": false,
-    "status": "named",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "number": "research",
-      "sanskrit": "research",
-      "english": "research",
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "geometry": "research",
-      "reaction": "research",
-      "breath": "research",
-      "orientation": "research",
-      "attention": "research",
-      "adiyogi_method": "research",
-      "guardian": "owner",
-      "safety_notes": "research",
-      "five_ways": "research",
-      "exit": "research",
-      "pairing_type": "research",
-      "lotus_never_forced": "school_law",
-      "yes": "research",
-      "no": "research"
-    },
-    "derived": [
-      "water"
-    ]
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
+    "practice_mode": null,
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=49"
   },
   {
     "number": 50,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 4,
     "house_name": "Anāhata",
     "element": "Air",
-    "color": null,
     "bija": "YAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=50"
   },
   {
     "number": 51,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 4,
     "house_name": "Anāhata",
     "element": "Air",
-    "color": null,
     "bija": "YAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=51"
   },
   {
     "number": 52,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 4,
     "house_name": "Anāhata",
     "element": "Air",
-    "color": null,
     "bija": "YAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=52"
   },
   {
     "number": 53,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 4,
     "house_name": "Anāhata",
     "element": "Air",
-    "color": null,
     "bija": "YAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=53"
   },
   {
     "number": 54,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 4,
     "house_name": "Anāhata",
     "element": "Air",
-    "color": null,
     "bija": "YAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=54"
   },
   {
     "number": 55,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 4,
     "house_name": "Anāhata",
     "element": "Air",
-    "color": null,
     "bija": "YAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=55"
   },
   {
     "number": 56,
-    "sanskrit": null,
-    "english": null,
+    "status": "being_remembered",
     "house": 4,
     "house_name": "Anāhata",
     "element": "Air",
-    "color": null,
     "bija": "YAM",
-    "geometry": null,
-    "reaction": null,
-    "breath": null,
-    "orientation": null,
-    "attention": null,
-    "adiyogi_method": null,
-    "guardian": null,
-    "safety_notes": [
-      "If it hurts, stop. A chair still opens the door."
-    ],
-    "five_ways": null,
-    "exit": "If it hurts, stop. A chair still opens the door.",
-    "yes": null,
-    "no": null,
-    "look": null,
-    "water": null,
-    "open_seat": null,
-    "honesty": null,
-    "pairing_type": "school_device",
-    "lotus_never_forced": true,
+    "color": null,
+    "title": null,
+    "sanskrit": null,
+    "dharana": null,
+    "category": null,
+    "instruction": null,
     "practice_mode": null,
-    "status": "sealed_unnamed",
-    "film": null,
-    "stills": [
-      {
-        "slot": "Front",
-        "exists": false
-      },
-      {
-        "slot": "Side",
-        "exists": false
-      },
-      {
-        "slot": "Back",
-        "exists": false
-      },
-      {
-        "slot": "Up",
-        "exists": false
-      },
-      {
-        "slot": "Close",
-        "exists": false
-      },
-      {
-        "slot": "YES",
-        "exists": false
-      },
-      {
-        "slot": "NO",
-        "exists": false
-      }
-    ],
-    "field_sources": {
-      "house": "school_map",
-      "element": "ui/112.html",
-      "color": "absent",
-      "bija": "school_map",
-      "safety_notes": "school_default",
-      "exit": "school_default",
-      "pairing_type": "school_law",
-      "lotus_never_forced": "school_law"
-    },
-    "derived": [
-      "safety_notes",
-      "exit"
-    ]
+    "observe_only": null,
+    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
+    "page": "door-sealed.html?n=56"
   }
 ]

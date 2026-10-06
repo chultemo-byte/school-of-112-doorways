@@ -1,98 +1,176 @@
 {
   "id": "D-005",
-  "name": "Low Lunge",
-  "sanskrit": "Anjaneyasana",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "Rays Rising from the Root, Dissolving above the Crown",
+  "sanskrit": "āmūlāt kiraṇābhāsām",
   "house": 1,
-  "status": "researched",
-  "geometry": {
-    "polygon": "asymmetric_lunge_trapezoid",
-    "joints": [
-      "front ankle",
-      "front knee",
-      "front hip",
-      "back knee",
-      "back hip",
-      "pelvis",
-      "spine",
-      "shoulders",
-      "wrists"
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "Anjaneyasana — Low Lunge (asana framing, retired 2026-10)",
+  "previous_file": "doors/D-005/door.json at commit 4382c90 (researcher R-005, researched 2026-09-25)",
+  "previous_vbt_ref": "VBT dharana 005 (Jaideva Singh verse 28) (superseded)",
+  "dharana": {
+    "number": 5,
+    "verses": [
+      28
     ],
-    "summary": "From kneeling, step one foot forward so the front knee stacks over the ankle and the back knee rests on the floor. Hips square toward the front edge of the mat as much as honesty allows. Torso rises as a vertical column; hands may rest on the front thigh, frame the front foot, or reach overhead. The shape is a long grounded base with a lifted centerline\u2014not a deepest-backbend contest.",
-    "svg_hint": "side view: front shin vertical, front thigh near-horizontal, back thigh long diagonal to grounded knee, torso upright column, optional arms rising"
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24, sequential, one verse per dhāraṇā for 1–16)",
+    "sanskrit_iast": "āmūlāt kiraṇābhāsāṃ sūkṣmāt sūkṣmatarātmikām | cintayet tāṃ dviṣaṭkānte śāmyantīṃ bhairavodayaḥ ||",
+    "sanskrit_source": "GRETIL e-text, checked against Singh, Wallis's concordance and Pradīpaka",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [
+      "GRETIL e-text reads sūkṣmatarātmikam and śyāmyantīm; Wallis, Pradīpaka and Singh read sūkṣmatarātmikām and śāmyantīm ('coming to rest'). The GRETIL forms look like input errors; the common reading is used here."
+    ],
+    "rendering": "Contemplate her, the power, shining like rays of light from the root, becoming subtler than the subtlest, until she comes to rest in the 'end of twelve' (dviṣaṭkānta, the dvādaśānta above the crown); then Bhairava arises.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer; not a quotation.",
+    "commentary_note": "Singh glosses 'the root' as the mūlādhāra cakra and dviṣaṭkānta as dvādaśānta. The Mystery Within glosses the end point as the sahasrāra cakra. The verse itself says only 'from the root' and 'at the end of twelve'.",
+    "technique_name": "Rays Rising from the Root, Dissolving above the Crown",
+    "category": "visualization",
+    "category_secondary": [
+      "kuṇḍalinī / subtle body",
+      "light"
+    ],
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 5] VERSE 28'",
+        "The Mystery Within (2019): 'Dharana 5 • verso 28'",
+        "GRETIL, Pradīpaka and Wallis: verse text matches the technique"
+      ],
+      "notes": "Door index = Singh dharana number, verified directly in Singh's own headings and cross-checked against at least one independent edition. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "Y2 (Wallis groups verses 24–27 as one technique)",
+      "popular_lists": "Old notes say some popular lists number a different technique as 5; that claim could not be traced to a named edition and is unverified."
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 28 does not prescribe a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "rising_line_root_to_above_crown",
+    "joints": [],
+    "points": [
+      "root (Singh: mūlādhāra, base of the spine)",
+      "central line of the body",
+      "end of twelve (dvādaśānta), above the crown"
+    ],
+    "summary": "Not a body shape. The dharana's map is a vertical line of light rising from the root of the body to a point above the crown, growing finer until it dissolves.",
+    "svg_hint": "a fine vertical line from the base of the spine through the crown to a point above the head, fading as it rises",
+    "honesty": "Redefined in 2026-10: geometry now records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
   },
   "reaction": {
-    "name": "Base Rise",
-    "from_phase": "compact_ground_hold",
-    "to_phase": "ascending_length",
-    "summary": "School metaphor only: sensation gathered low at the grounded back knee and front hip crease softens and lengthens upward through the front body toward the crown\u2014density giving way to a finer rising line. Not a biochemical or medical claim."
+    "name": "Base rise",
+    "from_phase": "dense_base",
+    "to_phase": "fine_dissolving_light",
+    "summary": "School metaphor only: something dense at the base thins upward into finer and finer light until it dissolves. Not a biochemical or medical claim."
   },
   "breath": {
     "inhale": 4,
     "hold": 0,
     "exhale": 4,
     "cycles": 6,
-    "lands_in": "front of the pelvis and lower belly, then soft rise through the ribs",
-    "cue": "Inhale four: lengthen from the grounded back knee up through the crown. Exhale four: keep the front knee steady and let the hips settle without collapsing the chest. No forced hold."
+    "mode": "natural",
+    "lands_in": "ordinary breath, low and easy; the visualisation does not ride the breath",
+    "cue": "Ordinary breath, about four in and four out if counting helps. No forced hold. Do not pump or push the breath to make the light rise.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
   },
   "orientation": {
-    "cue": "Back knee heavy on the mat (pad if needed); front heel rooted; pelvis leveling toward square; spine stacking tall over the hips",
-    "gravity": "Primary weight into back knee and front foot; lift travels the centerline, not by yanking the lumbar into a deep arch",
-    "gaze": "Soft forward at eye level, or slightly upward only if the neck stays long and pain-free",
-    "degrees_hint": "Front knee near 90 degrees over ankle; torso upright with at most a gentle 0\u201315 degree chest lift; do not force a deep lumbar arch"
+    "cue": "Orient upward along the centre line, from the base toward the space above the head",
+    "gravity": "Weight settled into the support at the base; the rising is imagined, not muscular",
+    "gaze": "Eyes closed or softly lowered",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
   },
   "attention": {
-    "primary": "Contact of back knee and front hip crease as the low anchor",
-    "secondary": "A fine rising line from that anchor through the midline toward the crown",
-    "chakra": "muladhara"
+    "primary": "A fine line of light rising from the root and thinning toward the point above the crown",
+    "secondary": "The moment it dissolves",
+    "chakra": "mūlādhāra (Singh's gloss of 'the root'; the verse says only 'root')"
   },
   "adiyogi": {
-    "vbt_ref": "VBT dharana 005 (Jaideva Singh verse 28)",
-    "verse_paraphrase": "Contemplate the luminous power rising from the root center like rays of the sun, growing subtler and subtler until it dissolves in the upper twelve-finger space; in that dissolution, Bhairava becomes evident.",
-    "method_summary": "Safe class form: while steady in Low Lunge, rest attention at the base of the pelvis, then imagine a soft radiance rising and thinning along the centerline toward the space above the crown. Ordinary breath only. Do not force heat, shaking, breath retention, or dramatic kundalini theatrics.",
+    "vbt_ref": "VBT dharana 005 (verse 28)",
+    "verse_paraphrase": "Contemplate her, the power, shining like rays of light from the root, becoming subtler than the subtlest, until she comes to rest in the 'end of twelve' (dviṣaṭkānta, the dvādaśānta above the crown); then Bhairava arises.",
+    "method_summary": "Rest attention at the base of the body, then imagine a soft radiance rising along the centre line, growing subtler and subtler until it dissolves in the space above the crown. Ordinary breath. Do not force heat, shaking, breath retention or dramatic effects.",
     "practice_mode": "practice",
     "historical_extreme": false,
     "sexual_content": false
   },
   "honesty": {
     "pairing_type": "school_device",
-    "disclosure": "This Low Lunge and VBT dharana 005 are linked by the School of 112 Doorways as a teaching device (Door 005 with dharana 005). It is not a claim of ancient one-to-one canon.",
-    "notes": "Supportive resonance only: Anjaneyasana\u2019s grounded back knee and upright rising centerline make a base-to-rise attention map easy to feel, which echoes dharana 005\u2019s contemplation of luminosity rising from muladhara and subtling toward dvadasanta. Pairing remains school_device by door index. Edition note: Jaideva Singh / Lakshmanjoo number dharana 5 as verse 28 (muladhara sun-ray rise). Some popular web indexes place a nose-tip bindu method at dharana 5; this door follows the Jaideva Singh numbering used for House 1."
+    "disclosure": "Door 005 follows Vijñāna Bhairava Tantra dharana 5 (verse 28) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type stays school_device: the dharana is the content, while the door index, seat and pacing are the school's. The original honesty text is kept below in honesty.legacy, with retired posture names redacted; the verbatim text is at previous_file.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 005 is dharana 5, verse 28. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only."
+    ],
+    "legacy": {
+      "source": "doors/D-005/door.json at commit 4382c90",
+      "disclosure": "This [retired posture] and VBT dharana 005 are linked by the School of 112 Doorways as a teaching device (Door 005 with dharana 005). It is not a claim of ancient one-to-one canon.",
+      "notes": "Supportive resonance only: [retired posture]’s grounded back knee and upright rising centerline make a base-to-rise attention map easy to feel, which echoes dharana 005’s contemplation of luminosity rising from muladhara and subtling toward dvadasanta. Pairing remains school_device by door index. Edition note: Jaideva Singh / Lakshmanjoo number dharana 5 as verse 28 (muladhara sun-ray rise). Some popular web indexes place a nose-tip bindu method at dharana 5; this door follows the Jaideva Singh numbering used for House 1."
+    }
   },
   "safety": {
-    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain in the front knee, back knee, hips, or low back.",
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
     "never_force": true,
-    "open_seat_alternate": "If kneeling is unavailable: take a high lunge with the back knee lifted and hands on blocks, or practice the rising-attention thread seated upright in an open seat.",
-    "contraindication_notes": "General practice caution only; not medical advice. Pad the back knee. Keep the front knee tracking over the ankle, not collapsing inward. Skip deep backbending versions if the low back complains."
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. Visualisation only, with ordinary breath. If the practice brings agitation, heat, shaking or strong emotion, stop, open the eyes and rest attention on the feet and the floor. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+    "legacy_notes": {
+      "source": "doors/D-005/door.json at commit 4382c90",
+      "open_seat_alternate": "If kneeling is unavailable: take a [retired posture] with the back knee lifted and hands on blocks, or practice the rising-attention thread seated upright in an open seat.",
+      "contraindication_notes": "General practice caution only; not medical advice. Pad the back knee. Keep the front knee tracking over the ankle, not collapsing inward. Skip deep backbending versions if the low back complains.",
+      "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain in the front knee, back knee, hips, or low back.",
+      "status": "Posture-specific cautions, kept for traceability; they no longer apply because this door teaches no posture."
+    }
   },
   "sources": [
     {
-      "label": "Jaideva Singh \u2014 Vijnanabhairava or Divine Consciousness (dharana 5 / verse 28 paraphrase used)",
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
       "kind": "vbt",
-      "ref": "VBT verse 28; fifth of 112 dharanas; Sakti rising from muladhara like sun-rays, subtling into dvadasanta",
-      "url": ""
+      "ref": "[Dhāraṇā 5] verse 28: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
     },
     {
-      "label": "Swami Lakshmanjoo / Manual of Self-Realization commentary lane on dharana 5",
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 28: Sanskrit source for the IAST (input errors corrected against Singh, Wallis and Pradīpaka where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
       "kind": "commentary",
-      "ref": "Rising prana-sakti / cit-kundalini contemplation into upper dvadasanta; anavopaya moving toward saktopaya",
-      "url": ""
+      "ref": "heading 'Dharana 5 • verso 28' (numbering cross-check; parallel translations)",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
     },
     {
-      "label": "Repose paraphrase notes on VBT dharana 5",
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
       "kind": "commentary",
-      "ref": "Light arising from muladhara, growing subtler toward brahmarandhra",
-      "url": "https://repose.ghost.io/repose-dharana-5/"
+      "ref": "verse 28 = Wallis Y2. Wallis groups verses 24–27 as one technique, so his yukti numbers run one to three lower than Singh's dharana numbers from verse 25 on.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
     },
     {
-      "label": "School of 112 Doorways \u2014 House 1 Low Lunge / Anjaneyasana geometry cues",
-      "kind": "asana",
-      "ref": "HOUSE-1-REGISTRY.md D-005; common modern alignment: front knee over ankle, back knee down, torso upright",
-      "url": ""
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 28: Sanskrit and translation cross-check",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
     },
     {
-      "label": "School honesty / safety conventions",
+      "label": "Hareesh Wallis, 'Vijñāna-bhairava-tantra verse 28: the central channel'",
+      "kind": "commentary",
+      "ref": "verse 28 and the central-channel practices",
+      "url": "https://hareesh.org/blog/2022/12/3/vijana-bhairava-tantra-verse-28-the-central-channel-rhcdg"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
       "kind": "school",
-      "ref": "PROMPT_TEMPLATE.md + guardians/CHECKLIST.md",
+      "ref": "School devices added in the 2026-10 reframing; honesty and safety conventions from research/PROMPT_TEMPLATE.md and guardians/CHECKLIST.md",
       "url": ""
     }
   ],
@@ -100,44 +178,50 @@
     {
       "n": 1,
       "title": "Name the door",
-      "script": "This is Door 005, Low Lunge \u2014 Anjaneyasana. One foot forward, back knee down, centerline rising. A doorway of base and lift, not a pose to win."
+      "script": "This is Door 005: rays rising from the root and dissolving above the crown. Vijñāna Bhairava Tantra dharana 5, verse 28."
     },
     {
       "n": 2,
       "title": "Geometry",
-      "script": "Front knee stacks over the ankle. Back knee rests on the mat. Hips face forward as honestly as they can. Torso stands tall; arms may rise. Keep the shape long and steady."
+      "script": "No shape to make. Any steady seat, or lie down. The map is a fine vertical line: from the base of the body, up the centre, to a point above the head."
     },
     {
       "n": 3,
       "title": "Orientation",
-      "script": "Feel gravity in the back knee and front foot. Level the pelvis. Stack the spine over the hips. Gaze soft forward. Do not force the low back into a deep arch."
+      "script": "Let the base settle heavy into the support. Eyes closed or lowered. Orient upward along the centre line."
     },
     {
       "n": 4,
       "title": "Breath",
-      "script": "Inhale for four. Exhale for four. Six easy cycles. Let the breath land low in the pelvis, then rise softly through the ribs without gripping."
+      "script": "Ordinary breath, about four in and four out. No forced hold. The breath does not push the light."
     },
     {
       "n": 5,
       "title": "Attention",
-      "script": "Hold the back knee and front hip crease as your low anchor. Secondary: a thin rising thread up the midline toward the crown. Sensation, not strain."
+      "script": "Rest at the base. Imagine soft light rising, finer and finer, toward the space above the crown."
     },
     {
       "n": 6,
       "title": "Reaction cue",
-      "script": "Name the school shift Base Rise: from a compact ground-hold toward ascending length. Feel it as metaphor, not medicine."
+      "script": "School image: density at the base thins into fine light. Metaphor only."
     },
     {
       "n": 7,
       "title": "Adiyogi thread",
-      "script": "From VBT dharana 005: imagine soft light rising from the base of the pelvis, growing subtler toward the space above the crown. Ordinary breath. No force, no performance."
+      "script": "Verse 28: contemplate the power shining like rays from the root, ever subtler, coming to rest above the crown; then Bhairava arises. Ordinary breath. No force, no performance."
     },
     {
       "n": 8,
       "title": "Exit / integrate",
-      "script": "Hands frame the front foot. Step back to a stable kneel or your next shape. Stand or sit. Notice the after-feel of base and rise. Pain means pause."
+      "script": "Let the image go. Feel the weight of the body and the floor. Open the eyes."
     }
   ],
   "researcher": "R-005",
-  "researched_at": "2026-09-25"
+  "researched_at": "2026-09-25",
+  "reframed_by": "Grok Bot (House 1 VBT reframing)",
+  "reframed_at": "2026-10-06",
+  "review": {
+    "status": "pending_guardian_re_review",
+    "previous_review": "guardians/reviews/D-005.md (reviewed the posture framing)"
+  }
 }

@@ -1,90 +1,181 @@
 {
   "id": "D-016",
-  "name": "Tree",
-  "sanskrit": "Vrksasana",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "Praṇava Fading into Void",
+  "sanskrit": "praṇavādisamuccārāt",
   "house": 1,
-  "status": "researched",
-  "geometry": {
-    "polygon": "vertical column on single-foot base; raised-leg T-branch at hip; optional overhead arm triangle",
-    "joints": [
-      "standing ankle",
-      "standing knee",
-      "both hips",
-      "pelvis",
-      "spine",
-      "shoulders",
-      "raised knee"
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "Vrksasana — Tree (asana framing, retired 2026-10)",
+  "previous_file": "doors/D-016/door.json at commit 4382c90 (researcher R-016, researched 2026-09-25)",
+  "previous_vbt_ref": "VBT dharana 016 (verse 39)",
+  "dharana": {
+    "number": 16,
+    "verses": [
+      39
     ],
-    "summary": "Stand on one foot with the other foot pressed to the inner thigh or calf (never the knee). Keep the pelvis square and level, spine lengthening as a vertical column, and arms either at the heart or reaching up. The shape is a rooted trunk with one branch open to the side.",
-    "svg_hint": "upright stick on one circle foot; second foot mid-inner thigh; arms up or anjali"
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24, sequential, one verse per dhāraṇā for 1–16)",
+    "sanskrit_iast": "praṇavādisamuccārāt plutānte śūnyabhāvanāt | śūnyayā parayā śaktyā śūnyatām eti bhairavi ||",
+    "sanskrit_source": "GRETIL e-text, checked against Singh, Wallis's concordance and Pradīpaka",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [
+      "GRETIL, Pradīpaka and the Devanāgarī in Wallis's blog read śūnyabhāvānāt; Wallis's IAST and the Lakshmanjoo Academy read śūnyabhāvanāt ('by contemplating the void'). The meaning is the same; the latter is the grammatical form."
+    ],
+    "rendering": "O Bhairavī, by fully sounding the praṇava (such as Oṃ) and contemplating emptiness at the end of its prolonged (pluta) sound, one reaches emptiness through the supreme power that is emptiness.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer; not a quotation.",
+    "commentary_note": "Lakshmanjoo (via the Lakshmanjoo Academy) names three praṇavas, Oṃ, Hūṃ and Hrīṃ, sounded long with attention resting where the sound dissolves. Singh's note gives the same three (Vedic Auṃ, Śaiva Hūṃ, Śākta Hrīṃ) and stresses that at the end of the protracted sound one contemplates the void, not the usual ardhacandra, bindu and other subtle phases.",
+    "technique_name": "Praṇava Fading into Void",
+    "category": "sound",
+    "category_secondary": [
+      "mantra",
+      "emptiness/space"
+    ],
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 16] VERSE 39'",
+        "The Mystery Within (2019): 'Dharana 16 • verso 39'",
+        "Lakshmanjoo lineage: Lakshmanjoo Academy page quotes verse 39 with Lakshmanjoo's commentary but does not show a dhāraṇā number on the page.",
+        "GRETIL, Pradīpaka and Wallis: verse text matches the technique"
+      ],
+      "notes": "Door index = Singh dharana number, verified directly in Singh's own headings and cross-checked against at least one independent edition. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "Y13 (Wallis groups verses 24–27 as one technique)"
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 39 does not prescribe a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "sound_tapering_to_silence",
+    "joints": [],
+    "points": [
+      "the sounded syllable",
+      "its prolonged tail",
+      "the silence after it"
+    ],
+    "summary": "Not a body shape. The map is one long sound tapering to nothing, and the open silence after it.",
+    "svg_hint": "a horizontal wave that tapers to a thin line and then to blank space",
+    "honesty": "Redefined in 2026-10: geometry now records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
   },
   "reaction": {
-    "name": "Root settle",
-    "from_phase": "sway / scattered balance",
-    "to_phase": "still vertical axis",
-    "summary": "School metaphor: wobble and chase settle into one quiet plumb line from standing sole through crown. Not a medical or biochemical claim."
+    "name": "Sound to silence",
+    "from_phase": "sounded_syllable",
+    "to_phase": "open_void",
+    "summary": "School metaphor: one drawn-out sound thins and fades, and attention rests in the open silence that remains. Not a medical or biochemical claim."
   },
   "breath": {
     "inhale": 4,
     "hold": 0,
-    "exhale": 4,
+    "exhale": 8,
     "cycles": 6,
-    "lands_in": "standing foot sole, then low belly",
-    "cue": "Even breath. Soften the jaw. Let each exhale drop weight into the standing foot without collapsing the tall spine."
+    "mode": "sounded_exhale",
+    "lands_in": "the long out-breath that carries the sound, then the quiet after it",
+    "cue": "Inhale easily. Let the out-breath carry a long, soft Oṃ (or hum it silently) only as long as is comfortable, then rest in the quiet before the next easy in-breath. No forced hold and no straining to make the sound longer.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
   },
   "orientation": {
-    "cue": "Crown over standing heel; pelvis square to the front; raised knee opens only as far as the pelvis stays level",
-    "gravity": "Whole body weight through one foot's three points (big-toe mound, little-toe mound, heel); lifted foot presses in, standing thigh presses back",
-    "gaze": "Soft fixed point ahead at eye height (drishti); avoid looking down at the foot",
-    "degrees_hint": "0 deg twist; raised thigh opens in the frontal plane only while pelvis stays forward-facing"
+    "cue": "Follow the sound to its end and stay where it ends",
+    "gravity": "Body supported and relaxed; jaw and throat soft",
+    "gaze": "Eyes closed or softly lowered",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
   },
   "attention": {
-    "primary": "standing foot sole and inner standing thigh",
-    "secondary": "quiet vertical line sole to crown",
+    "primary": "The moment the sound ends, and the silence after it",
+    "secondary": "Not reaching for the next thought or the next sound",
     "chakra": null
   },
   "adiyogi": {
     "vbt_ref": "VBT dharana 016 (verse 39)",
-    "verse_paraphrase": "Utter a pra\u1e47ava (such as O\u1e43, or another seed sound in that family) in a drawn-out form; at the end of that protracted sound, rest attention in the silent open void. Through that spacious openness, awareness meets its own clear nature.",
-    "method_summary": "Safe class form: after settling in Tree, silently lengthen one soft O\u1e43 (or simply feel the breath as sound fading). At the moment sound or breath-sound ends, rest in the quiet gap\u2014no chasing the next thought. Keep eyes soft on the balance point; do not force breath retention.",
+    "verse_paraphrase": "O Bhairavī, by fully sounding the praṇava (such as Oṃ) and contemplating emptiness at the end of its prolonged (pluta) sound, one reaches emptiness through the supreme power that is emptiness.",
+    "method_summary": "Sound a soft, drawn-out Oṃ (or another seed-syllable you have been taught), or sound it silently. At the moment the sound ends, rest in the quiet gap. Do not chase the next thought. Do not force breath retention or strain to lengthen the sound.",
     "practice_mode": "practice",
     "historical_extreme": false,
     "sexual_content": false
   },
   "honesty": {
     "pairing_type": "school_device",
-    "disclosure": "This asana\u2194method link is a School of 112 Doorways teaching device, not ancient canon. Tree and VBT 016 share a modern school rhyme (rooted body, open sky of attention), not a historical one-to-one pairing.",
-    "notes": "Serial index pairing D-016 \u2194 VBT dharana/yukti 016 (commonly mapped to verse 39: pra\u1e47ava \u2192 \u015b\u016bnya at pluta-end). Experiential rhyme noted; claim kept at school_device."
+    "disclosure": "Door 016 follows Vijñāna Bhairava Tantra dharana 16 (verse 39) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type stays school_device: the dharana is the content, while the door index, seat and pacing are the school's. The original honesty text is kept below in honesty.legacy, with retired posture names redacted; the verbatim text is at previous_file.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 016 is dharana 16, verse 39. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only."
+    ],
+    "legacy": {
+      "source": "doors/D-016/door.json at commit 4382c90",
+      "disclosure": "This [retired posture]↔method link is a School of 112 Doorways teaching device, not ancient canon. [retired posture] and VBT 016 share a modern school rhyme (rooted body, open sky of attention), not a historical one-to-one pairing.",
+      "notes": "Serial index pairing D-016 ↔ VBT dharana/yukti 016 (commonly mapped to verse 39: praṇava → śūnya at pluta-end). Experiential rhyme noted; claim kept at school_device."
+    }
   },
   "safety": {
     "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
     "never_force": true,
-    "open_seat_alternate": "Foot to calf or toes to floor; stand near a wall; or keep both feet down in Mountain with arms branching up.",
-    "contraindication_notes": "Avoid pressing the raised foot into the standing knee joint. Use wall or lower foot placement if balance is unstable. General practice caution only; not medical advice."
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. Keep the sound soft and stop before the breath feels short. If you feel light-headed, return to ordinary breathing. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+    "legacy_notes": {
+      "source": "doors/D-016/door.json at commit 4382c90",
+      "open_seat_alternate": "Foot to calf or toes to floor; stand near a wall; or keep both feet down in [retired posture] with arms branching up.",
+      "contraindication_notes": "Avoid pressing the raised foot into the standing knee joint. Use wall or lower foot placement if balance is unstable. General practice caution only; not medical advice.",
+      "status": "Posture-specific cautions, kept for traceability; they no longer apply because this door teaches no posture."
+    }
   },
   "sources": [
     {
-      "label": "Vij\u00f1\u0101na Bhairava Tantra \u2014 dharana 16 / verse 39 (pra\u1e47ava \u2192 void)",
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
       "kind": "vbt",
-      "ref": "VBT \u015bloka 39; yukti/dharana 16 in sequential school indexing",
-      "url": "https://hareesh.org/blog/2024/10/1/vijnaana-bhairava-tantra-verses-38-amp-39"
+      "ref": "[Dhāraṇā 16] verse 39: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
     },
     {
-      "label": "Jaideva Singh / Trika commentaries on VBT 39",
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 39: Sanskrit source for the IAST (input errors corrected against Singh, Wallis and Pradīpaka where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
       "kind": "commentary",
-      "ref": "Standard Kashmir Shaiva reading: pluta pra\u1e47ava, then \u015b\u016bnya-bh\u0101van\u0101",
+      "ref": "heading 'Dharana 16 • verso 39' (numbering cross-check; parallel translations)",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+      "kind": "commentary",
+      "ref": "verse 39 = Wallis Y13. Wallis groups verses 24–27 as one technique, so his yukti numbers run one to three lower than Singh's dharana numbers from verse 25 on.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 39: Sanskrit and translation cross-check",
       "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
     },
     {
-      "label": "Yoga Journal \u2014 Vrksasana alignment",
-      "kind": "asana",
-      "ref": "Standing-leg plumb line; foot on thigh or calf, never knee; pelvis square",
-      "url": "https://www.yogajournal.com/practice/beginners/how-to/tree-pose/"
+      "label": "Hareesh Wallis, 'Vijñāna-bhairava-tantra verses 38 & 39'",
+      "kind": "commentary",
+      "ref": "verses 38–39",
+      "url": "https://hareesh.org/blog/2024/10/1/vijnaana-bhairava-tantra-verses-38-amp-39"
     },
     {
-      "label": "School of 112 Doorways \u2014 Phase 1 research template",
+      "label": "Lakshmanjoo Academy, 'How to enter in the transcendental void state of Shiva'",
+      "kind": "commentary",
+      "ref": "verse 39; three praṇavas Oṃ, Hūṃ, Hrīṃ (no dhāraṇā number shown on the page)",
+      "url": "https://www.lakshmanjooacademy.org/blog/how-to-enter-in-the-transcendental-void-state-of-shiva"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
       "kind": "school",
-      "ref": "research/PROMPT_TEMPLATE.md; schemas/door.schema.json",
+      "ref": "School devices added in the 2026-10 reframing; honesty and safety conventions from research/PROMPT_TEMPLATE.md and guardians/CHECKLIST.md",
       "url": ""
     }
   ],
@@ -92,44 +183,50 @@
     {
       "n": 1,
       "title": "Name the door",
-      "script": "This is Door 016: Tree, Vrksasana. One standing root, one open branch, tall spine."
+      "script": "This is Door 016: praṇava fading into void. Vijñāna Bhairava Tantra dharana 16, verse 39."
     },
     {
       "n": 2,
       "title": "Geometry",
-      "script": "From Mountain, shift onto one foot. Place the other foot on the inner thigh or calf\u2014never the knee. Hands at heart or reach up."
+      "script": "No shape to make. Any easy seat, or lie down. The map is one long sound tapering to silence."
     },
     {
       "n": 3,
       "title": "Orientation",
-      "script": "Crown over the standing heel. Keep the pelvis square. Gaze soft and fixed ahead. Wall is welcome."
+      "script": "Body relaxed, jaw and throat soft. Eyes closed or lowered."
     },
     {
       "n": 4,
       "title": "Breath",
-      "script": "Breathe four counts in, four out, about six rounds. Let the exhale land in the standing foot and low belly."
+      "script": "Easy in-breath. Let the out-breath carry a soft, long Om, aloud or silent, only as long as is comfortable. No forced hold."
     },
     {
       "n": 5,
       "title": "Attention",
-      "script": "Lock attention in the standing sole and inner thigh. Feel a quiet line from foot to crown. Soften the face."
+      "script": "When the sound ends, stay right there in the quiet. Do not reach for the next thought."
     },
     {
       "n": 6,
       "title": "Reaction cue",
-      "script": "Notice sway become a still axis. School name for that shift: Root settle. Wobble is information, not failure."
+      "script": "School image: one sound thins into open silence. Metaphor only."
     },
     {
       "n": 7,
       "title": "Adiyogi thread",
-      "script": "VBT 016 thread: silently draw out a soft Om, then rest in the quiet gap when sound ends. Stay with that open silence a few breaths."
+      "script": "Verse 39: sound the praṇava, and at the end of its prolonged sound contemplate emptiness; through that emptiness one reaches emptiness. Rest in the quiet gap. No straining."
     },
     {
       "n": 8,
       "title": "Exit / integrate",
-      "script": "Lower the foot with control. Stand in Mountain. Switch sides when ready. Carry the quiet root into your next step."
+      "script": "Breathe normally for a few rounds. Open the eyes."
     }
   ],
   "researcher": "R-016",
-  "researched_at": "2026-09-25"
+  "researched_at": "2026-09-25",
+  "reframed_by": "Grok Bot (House 1 VBT reframing)",
+  "reframed_at": "2026-10-06",
+  "review": {
+    "status": "pending_guardian_re_review",
+    "previous_review": "guardians/reviews/D-016.md (reviewed the posture framing)"
+  }
 }
