@@ -1,90 +1,185 @@
 {
   "id": "D-015",
-  "name": "Wide-Legged Standing Forward Fold",
-  "sanskrit": "Prasarita Padottanasana",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "Bathing in the Unstruck Sound",
+  "sanskrit": "anāhate ... śabdabrahmaṇi niṣṇātaḥ",
   "house": 1,
-  "status": "researched",
-  "geometry": {
-    "polygon": "Wide-base inverted V (A-frame): two long leg lines from a broad foot base to the hip hinge, then a lengthened spine vector toward the floor; optional crown contact as a soft third point.",
-    "joints": [
-      "ankles",
-      "knees",
-      "hips",
-      "lumbar-thoracic spine",
-      "shoulders",
-      "elbows",
-      "cervical / crown"
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "Prasarita Padottanasana — Wide-Legged Standing Forward Fold (asana framing, retired 2026-10)",
+  "previous_file": "doors/D-015/door.json at commit 4382c90 (researcher R-015, researched 2026-09-25)",
+  "previous_vbt_ref": "VBT dharana 015 (superseded)",
+  "dharana": {
+    "number": 15,
+    "verses": [
+      38
     ],
-    "summary": "Feet stand wide and parallel (or toes slightly in), legs firm, pelvis hinges forward. Hands land under the shoulders first with a long concave spine; then elbows bend and the crown may meet floor or a block while weight stays in the legs, not the head.",
-    "svg_hint": "Front view: wide stance rectangle base; side view: inverted-V legs + forward-hinged torso; mark crown optional support."
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24, sequential, one verse per dhāraṇā for 1–16)",
+    "sanskrit_iast": "anāhate pātrakarṇe 'bhagnaśabde sariddrute | śabdabrahmaṇi niṣṇātaḥ paraṃ brahmādhigacchati ||",
+    "sanskrit_source": "GRETIL e-text, checked against Singh, Wallis's concordance and Pradīpaka",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [],
+    "rendering": "One who is steeped in sound-Brahman, the unstruck (anāhata) and unbroken sound that rushes like a river and is heard by the fit ear, reaches the supreme Brahman.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer; not a quotation.",
+    "commentary_note": "Singh: niṣṇāta means both 'well-versed' and 'bathed in'; the sound is an inner sound heard by an ear made competent by yoga. Bäumer compares the sound to a waterfall, and Chaudhri adds 'the continuous sound of a river flowing, or by closing the ears' (both as printed in The Mystery Within). The verse itself names neither a waterfall nor closing the ears.",
+    "technique_name": "Bathing in the Unstruck Sound",
+    "category": "sound",
+    "category_secondary": [
+      "emptiness/space"
+    ],
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 15] VERSE 38'",
+        "The Mystery Within (2019): 'Dharana 15 • verso 38'",
+        "Lakshmanjoo lineage: A blog transcribing Lakshmanjoo's teaching (sannyastheatre.gallery) and an Italian study page label verse 38 'Dhāraṇā 15'; not checked in a print Lakshmanjoo edition.",
+        "GRETIL, Pradīpaka and Wallis: verse text matches the technique"
+      ],
+      "notes": "Door index = Singh dharana number, verified directly in Singh's own headings and cross-checked against at least one independent edition. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "Y12 (Wallis groups verses 24–27 as one technique)",
+      "hatha_es": "dharana 15 = a variant of verse 42 (piṇḍa-mantra fading into void); non-standard, not followed (the previous draft of this door followed it)"
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 38 does not prescribe a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "continuous_stream",
+    "joints": [],
+    "points": [
+      "the ears as a vessel (pātra-karṇa)",
+      "a continuous inner stream of sound"
+    ],
+    "summary": "Not a body shape. The map is a continuous stream of sound flowing through the vessel of the ear, followed inward until the listener is immersed in it.",
+    "svg_hint": "a soft wavy stream flowing into an ear outline and widening into open space",
+    "honesty": "Redefined in 2026-10: geometry now records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
   },
   "reaction": {
-    "name": "Gross to Void",
-    "from_phase": "gross_sound",
-    "to_phase": "clear_void",
-    "summary": "School metaphor: attention rides the coarse layer of stance and breath, then thins through half-felt vibration and a single point into quiet. Not a medical or chemical claim."
+    "name": "Gross to subtle sound",
+    "from_phase": "outer_noise",
+    "to_phase": "immersed_listening",
+    "summary": "School metaphor: attention moves from outer noise to a steady inner stream and is immersed in it. Not a medical or chemical claim."
   },
   "breath": {
     "inhale": 4,
     "hold": 0,
     "exhale": 6,
     "cycles": 6,
-    "lands_in": "the still gap after the exhale, at the soft crown line",
-    "cue": "Inhale lengthen the spine long; exhale hinge and settle without dumping weight on the head. Rest one beat in the quiet after sound fades."
+    "mode": "natural",
+    "lands_in": "quiet breath that does not compete with listening",
+    "cue": "Natural, quiet breath, about four in and six out if counting helps. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
   },
   "orientation": {
-    "cue": "Hinge at the hip creases; keep the spine long; let the crown aim toward the floor only after the back has stayed long.",
-    "gravity": "Load the four corners of both feet; legs carry the body. Head is light or supported\u2014never a dump.",
-    "gaze": "First stage: look forward with a concave back. Full fold: soft gaze toward the floor or eyes softly closed.",
-    "degrees_hint": "Stance roughly 90\u00b0 between legs (about 4\u20135 feet for many bodies); elbows near 90\u00b0 when crown lowers."
+    "cue": "Orient toward sound: first steady outer sound, then the subtle inner hum",
+    "gravity": "Body supported and still",
+    "gaze": "Eyes closed",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
   },
   "attention": {
-    "primary": "The quiet after the last audible edge of the breath or inner sound cue (bindu \u2192 \u015b\u016bnya)",
-    "secondary": "Even press through both feet and lifted inner arches",
+    "primary": "A steady, unbroken stream of sound, followed from outer to inner",
+    "secondary": "Being immersed in it rather than analysing it",
     "chakra": null
   },
   "adiyogi": {
-    "vbt_ref": "VBT dharana 015",
-    "verse_paraphrase": "On any compact (pi\u1e47\u1e0da) mantra, move attention along the gross letters, then through half-moon, point, end of resonance, into void\u2014this is supreme meditation.",
-    "method_summary": "Contemplative class form: take a short inner sound or the breath itself as the \u2018mantra,\u2019 notice it thicken then thin\u2014vibration, single point, fade\u2014and rest in the quiet that follows. Do not force occult letter-stages or unpronounceable consonant masses; the teaching is progressive dissolution into silence.",
+    "vbt_ref": "VBT dharana 015 (verse 38)",
+    "verse_paraphrase": "One who is steeped in sound-Brahman, the unstruck (anāhata) and unbroken sound that rushes like a river and is heard by the fit ear, reaches the supreme Brahman.",
+    "method_summary": "Begin with a steady natural sound if helpful (running water, wind, a fan), then let attention move to the subtle continuous hum heard when the room is quiet. Stay immersed in that unbroken sound like bathing in a river. If covering the ears, rest the palms lightly over them without pressing.",
     "practice_mode": "practice",
     "historical_extreme": false,
     "sexual_content": false
   },
   "honesty": {
     "pairing_type": "school_device",
-    "disclosure": "This asana\u2194method link is a School of 112 Doorways teaching device, not ancient canon. Wide-legged fold and dharana 015 are paired by school index, not by classical one-to-one lineage.",
-    "notes": "Edition note: school index = dharana 015 as labeled at hatha.es (pi\u1e47\u1e0damantra \u2192 ardhendu-bindu-n\u0101d\u0101nta-\u015b\u016bnya). Many printed editions place related Sanskrit near verse ~42 (e.g. Jaideva Singh / commentary lines); numbering of \u2018dharana 15\u2019 vs \u2018verse N\u2019 varies by edition. Soft experiential rhyme (gross form thinning toward quiet) is noted but not elevated to inner_logic without stronger textual warrant."
+    "disclosure": "Door 015 follows Vijñāna Bhairava Tantra dharana 15 (verse 38) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type stays school_device: the dharana is the content, while the door index, seat and pacing are the school's. The original honesty text is kept below in honesty.legacy, with retired posture names redacted; the verbatim text is at previous_file.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 015 is dharana 15, verse 38. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only.",
+      "Numbering correction: the previous draft of this door followed hatha.es's non-standard numbering (dharana 15 = a variant of verse 42 (piṇḍa-mantra fading into void)). Rebuilt to Singh's verse 38."
+    ],
+    "legacy": {
+      "source": "doors/D-015/door.json at commit 4382c90",
+      "disclosure": "This [retired posture]↔method link is a School of 112 Doorways teaching device, not ancient canon. [retired posture] and dharana 015 are paired by school index, not by classical one-to-one lineage.",
+      "notes": "Edition note: school index = dharana 015 as labeled at hatha.es (piṇḍamantra → ardhendu-bindu-nādānta-śūnya). Many printed editions place related Sanskrit near verse ~42 (e.g. Jaideva Singh / commentary lines); numbering of ‘dharana 15’ vs ‘verse N’ varies by edition. Soft experiential rhyme (gross form thinning toward quiet) is noted but not elevated to inner_logic without stronger textual warrant."
+    }
   },
   "safety": {
     "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
     "never_force": true,
-    "open_seat_alternate": "Keep hands on blocks or a chair with a concave spine; skip crown-to-floor. Soften knees if hamstrings or low back protest.",
-    "contraindication_notes": "General practice caution only; not medical advice. Use support under hands or head; avoid dumping weight onto the neck. If dizziness appears in the fold, come up slowly with hands on hips."
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. If listening inward makes a ringing or other sound in the ears feel distressing, stop and listen to ordinary sounds in the room instead. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+    "legacy_notes": {
+      "source": "doors/D-015/door.json at commit 4382c90",
+      "open_seat_alternate": "Keep hands on blocks or a chair with a concave spine; skip crown-to-floor. Soften knees if hamstrings or low back protest.",
+      "contraindication_notes": "General practice caution only; not medical advice. Use support under hands or head; avoid dumping weight onto the neck. If dizziness appears in the [retired posture], come up slowly with hands on hips.",
+      "status": "Posture-specific cautions, kept for traceability; they no longer apply because this door teaches no posture."
+    }
   },
   "sources": [
     {
-      "label": "hatha.es \u2014 Dh\u0101ra\u1e47\u0101 15 (Vij\u00f1\u0101na Bhairava Tantra)",
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
       "kind": "vbt",
-      "ref": "Dh\u0101ra\u1e47\u0101 15: pi\u1e47\u1e0damantra / ardhendu-bindu-n\u0101d\u0101nta-\u015b\u016bnya",
-      "url": "https://hatha.es/en/texts/vijnana-bhairava-tantra/015"
+      "ref": "[Dhāraṇā 15] verse 38: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
     },
     {
-      "label": "Yogi Matsyendranatha / Dupuche discussion of related \u015bloka",
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 38: Sanskrit source for the IAST (input errors corrected against Singh, Wallis and Pradīpaka where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
       "kind": "commentary",
-      "ref": "Discussion of pi\u1e47\u1e0damantra stages (often cited near VBT 42 in some editions)",
-      "url": "https://matsyendranatha.com/?p=169"
+      "ref": "heading 'Dharana 15 • verso 38' (numbering cross-check; parallel translations)",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
     },
     {
-      "label": "Iyengar tradition \u2014 Prasarita Padottanasana alignment",
-      "kind": "asana",
-      "ref": "Wide stance, concave-back stage, crown optional; weight in legs (Light on Yoga plates / studio cues)",
-      "url": "https://yogavastu.com/p/prasarita-padottanasana/"
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+      "kind": "commentary",
+      "ref": "verse 38 = Wallis Y12. Wallis groups verses 24–27 as one technique, so his yukti numbers run one to three lower than Singh's dharana numbers from verse 25 on.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
     },
     {
-      "label": "School of 112 Doorways \u2014 House 1 dispatch R-015",
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 38: Sanskrit and translation cross-check",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "Hareesh Wallis, 'Vijñāna-bhairava-tantra verses 38 & 39'",
+      "kind": "commentary",
+      "ref": "verses 38–39",
+      "url": "https://hareesh.org/blog/2024/10/1/vijnaana-bhairava-tantra-verses-38-amp-39"
+    },
+    {
+      "label": "Sannyas Theatre blog, 'Verse38※Dhāraṇā15 – VBT38' (transcribing Swami Lakshmanjoo's teaching)",
+      "kind": "other",
+      "ref": "labels verse 38 'Dhāraṇā 15' (secondary numbering cross-check; fan site)",
+      "url": "https://sannyastheatre.gallery/2021/01/05/verse38%e2%80%bbdhara%e1%b9%87a15-vbt38/"
+    },
+    {
+      "label": "hatha.es, Vijñāna Bhairava Tantra 'Dhāraṇā 015'",
+      "kind": "other",
+      "ref": "NOT FOLLOWED. Non-standard numbering (dharana 15 = a variant of verse 42 (piṇḍa-mantra fading into void)); the previous draft of this door used it.",
+      "url": "https://hatha.es/en/texts/vijnana-bhairava-tantra/015/"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
       "kind": "school",
-      "ref": "research/house1-dispatches/R-015.md + schemas/door.schema.json",
+      "ref": "School devices added in the 2026-10 reframing; honesty and safety conventions from research/PROMPT_TEMPLATE.md and guardians/CHECKLIST.md",
       "url": ""
     }
   ],
@@ -92,44 +187,50 @@
     {
       "n": 1,
       "title": "Name the door",
-      "script": "Door D-015: Wide-Legged Standing Forward Fold \u2014 Prasarita Padottanasana. A wide stance that folds the spine long toward quiet."
+      "script": "This is Door 015: bathing in the unstruck sound. Vijñāna Bhairava Tantra dharana 15, verse 38."
     },
     {
       "n": 2,
       "title": "Geometry",
-      "script": "Step the feet wide and parallel. Firm the legs. Hinge at the hips. Hands under the shoulders first; spine long. Crown may meet floor or a block later\u2014legs still carry you."
+      "script": "No shape to make. Any easy seat, or lie down. The map is a stream of sound flowing through the ear."
     },
     {
       "n": 3,
       "title": "Orientation",
-      "script": "Gravity lives in the feet. Keep the head light. Look forward while the back stays concave; only then soften the gaze down as you fold."
+      "script": "Body still. Eyes closed. Orient toward sound."
     },
     {
       "n": 4,
       "title": "Breath",
-      "script": "Inhale four to lengthen. Exhale six to hinge and settle. Six cycles. Land in the still gap after the exhale."
+      "script": "Quiet natural breath, four in, six out if you like. No forced hold."
     },
     {
       "n": 5,
       "title": "Attention",
-      "script": "Primary lock: the quiet after the last edge of breath or inner sound. Secondary: even press through both feet."
+      "script": "Listen to a steady outer sound, then to the subtle hum underneath. Let it flow like a river. Bathe in it."
     },
     {
       "n": 6,
       "title": "Reaction cue",
-      "script": "School cue only: Gross to Void. Feel coarse stance and sound thin toward a point, then open into quiet. Metaphor, not medicine."
+      "script": "School image: outer noise gives way to an inner stream. Metaphor only."
     },
     {
       "n": 7,
       "title": "Adiyogi thread",
-      "script": "Safe VBT 015 thread: let a short inner sound or the breath dissolve\u2014vibration, point, fade\u2014and rest in the silence that follows. No forced occult stages."
+      "script": "Verse 38: one steeped in the unstruck, unbroken sound that rushes like a river reaches the supreme. Just listen."
     },
     {
       "n": 8,
       "title": "Exit / integrate",
-      "script": "Inhale, lift the head, hands to hips, rise with a long spine. Feet walk in. Stand quiet for one breath and notice the same quiet without the fold."
+      "script": "Let ordinary sounds come back. Open the eyes slowly."
     }
   ],
   "researcher": "R-015",
-  "researched_at": "2026-09-25"
+  "researched_at": "2026-09-25",
+  "reframed_by": "Grok Bot (House 1 VBT reframing)",
+  "reframed_at": "2026-10-06",
+  "review": {
+    "status": "pending_guardian_re_review",
+    "previous_review": "guardians/reviews/D-015.md (reviewed the posture framing)"
+  }
 }

@@ -1,96 +1,179 @@
 {
   "id": "D-002",
-  "name": "Upward Salute",
-  "sanskrit": "Urdhva Hastasana",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "Not Turning Back from the Two Spaces",
+  "sanskrit": "viyadyugmānivartanāt",
   "house": 1,
-  "status": "researched",
-  "geometry": {
-    "polygon": "vertical column with overhead V (or joined palms)",
-    "joints": [
-      "ankles",
-      "knees",
-      "hips",
-      "spine",
-      "shoulders",
-      "elbows",
-      "wrists"
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "Urdhva Hastasana — Upward Salute (asana framing, retired 2026-10)",
+  "previous_file": "doors/D-002/door.json at commit 4382c90 (researcher R-002, researched 2026-09-25)",
+  "previous_vbt_ref": "VBT dharana 002 (commonly manuscript verse 25) (superseded)",
+  "dharana": {
+    "number": 2,
+    "verses": [
+      25
     ],
-    "summary": "From a stable Mountain base, both arms rise overhead on a long line from soles through side ribs to fingertips. Elbows soft, shoulders drop away from ears, ribs stay quiet rather than flared. Palms may face each other, touch lightly, or stay shoulder-width. The polygon is an upright column topped by an open V or a soft diamond of joined hands.",
-    "svg_hint": "feet_base_triangle + upright_spine_line + two_arm_rays_overhead; optional palm_join_at_crown"
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24, sequential, one verse per dhāraṇā for 1–16)",
+    "sanskrit_iast": "maruto 'ntar bahir vāpi viyadyugmānivartanāt | bhairavyā bhairavasyetthaṃ bhairavi vyajyate vapuḥ ||",
+    "sanskrit_source": "GRETIL e-text, checked against Singh, Wallis's concordance and Pradīpaka",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [
+      "Lakshmanjoo's edition (Manual for Self-Realization, as quoted by the Lakshmanjoo Academy) reads viyadyugmānuvartanāt ('by following / staying with the two spaces') where GRETIL, Singh and Wallis read viyadyugmānivartanāt ('by not turning back from the two spaces'). The practical sense (staying aware in the two pauses) is similar."
+    ],
+    "rendering": "O Bhairavī, when the breath, whether it has moved inward or outward, is not hurried back from the two spaces where it comes to rest, the inner and the outer, then in this way Bhairava's form shows itself through Bhairavī.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer; not a quotation.",
+    "commentary_note": "Singh describes the two spaces as the split-second pauses at the heart-centre and at the outer dvādaśānta. Singh calls the two pauses the outer and inner kumbhaka but describes them as split-second natural pauses that are only observed; this school follows that observational reading.",
+    "technique_name": "Not Turning Back from the Two Spaces",
+    "category": "breath",
+    "category_secondary": [
+      "gap/pause"
+    ],
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 2] VERSE 25'",
+        "The Mystery Within (2019): 'Dharana 2 • verso 25'",
+        "Lakshmanjoo lineage: Lakshmanjoo Academy page quoting the Manual for Self-Realization labels verse 25 'Dhāraṇā 2'.",
+        "GRETIL, Pradīpaka and Wallis: verse text matches the technique"
+      ],
+      "notes": "Door index = Singh dharana number, verified directly in Singh's own headings and cross-checked against at least one independent edition. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "Y1 (cont.) (Wallis groups verses 24–27 as one technique)"
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 25 does not prescribe a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "two_spaces",
+    "joints": [],
+    "points": [
+      "inner space: where the in-breath rests (commentarial: heart-centre)",
+      "outer space: where the out-breath rests (commentarial: outer dvādaśānta)"
+    ],
+    "summary": "Not a body shape. The verse names a pair of spaces (viyad-yugma), one inside and one outside, where the breath pauses. The practice is to stay in each space a moment longer before attention rushes on.",
+    "svg_hint": "two small open circles, one inside the chest and one in front of the nose, with the breath path looping between them",
+    "honesty": "Redefined in 2026-10: geometry now records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
   },
   "reaction": {
-    "name": "Lift-and-open",
-    "from_phase": "compressed_neutral_stand",
-    "to_phase": "lengthened_reach_with_soft_pause",
-    "summary": "School metaphor only: the field shifts from a compact vertical stand toward a lengthened overhead reach, then briefly settles in the quiet at the top of the inhale before return."
+    "name": "Open the pause",
+    "from_phase": "hurried_cycle",
+    "to_phase": "spacious_pause",
+    "summary": "School metaphor only: the breath cycle that felt hurried and continuous opens into two small spaces that are allowed to stay open. Not a biochemical or medical claim."
   },
   "breath": {
     "inhale": 4,
-    "hold": 1,
+    "hold": 0,
     "exhale": 4,
     "cycles": 6,
-    "lands_in": "side ribs and soft upper lungs, then quiet pause at turn",
-    "cue": "Inhale arms up for 4; soft 1-count pause at the top without strain; exhale arms down or stay up for 4. Never force the pause."
+    "mode": "natural",
+    "lands_in": "the quiet space after each in-breath and the quiet space after each out-breath",
+    "cue": "Natural breath. Let each pause last exactly as long as it naturally lasts; do not lengthen it on purpose. Never force the pause.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
   },
   "orientation": {
-    "cue": "Crown continues the line of the heels; arms stack over the side body, not behind the ears",
-    "gravity": "Even weight on both feet (big toe mound, little toe mound, heel); lift without tipping back",
-    "gaze": "Soft toward thumbs or slightly forward-up only if the neck stays free; otherwise gaze soft horizontal",
-    "degrees_hint": "0\u00b0 torso lean; arms ~180\u00b0 overhead relative to floor when range allows"
+    "cue": "Face the two spaces, and do not turn back from them too quickly",
+    "gravity": "Body fully supported; nothing to hold up",
+    "gaze": "Eyes closed or softly lowered",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
   },
   "attention": {
-    "primary": "The turn of the breath at the top of the inhale (and optionally the bottom of the exhale)",
-    "secondary": "Soles-to-fingertips length without shoulder shrug",
+    "primary": "The two spaces where the breath rests, inside and outside",
+    "secondary": "The habit of rushing into the next breath, noticed and softened",
     "chakra": null
   },
   "adiyogi": {
-    "vbt_ref": "VBT dharana 002 (commonly manuscript verse 25)",
-    "verse_paraphrase": "As breath moves in and out, rest awareness in the brief inner and outer pauses where the breath turns, without rushing back into the next movement; in that still interval, the nature of awareness is pointed to.",
-    "method_summary": "Practice: stand or sit with natural breath. Notice the micro-pause after inhale and after exhale. Keep attention in those gaps rather than on forcing the breath. In this door, braid the method with arms overhead so the soft pause at the top of the inhale is easier to feel.",
+    "vbt_ref": "VBT dharana 002 (verse 25)",
+    "verse_paraphrase": "O Bhairavī, when the breath, whether it has moved inward or outward, is not hurried back from the two spaces where it comes to rest, the inner and the outer, then in this way Bhairava's form shows itself through Bhairavī.",
+    "method_summary": "Breathe naturally. Notice the small space after the in-breath and the small space after the out-breath. Stay present in each space instead of hurrying attention back into the next movement. Do not hold the breath to make the space longer.",
     "practice_mode": "practice",
     "historical_extreme": false,
     "sexual_content": false
   },
   "honesty": {
     "pairing_type": "school_device",
-    "disclosure": "Linking Upward Salute to VBT dharana 002 is a School of 112 Doorways teaching device, not a claim of ancient one-to-one canon.",
-    "notes": "Serial school index pairs D-002 with method index 002. Shared experiential hook (breath-turn awareness) is a teaching braid only; editions also note verse-24/25 clustering as one breath-pause family."
+    "disclosure": "Door 002 follows Vijñāna Bhairava Tantra dharana 2 (verse 25) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type stays school_device: the dharana is the content, while the door index, seat and pacing are the school's. The original honesty text is kept below in honesty.legacy, with retired posture names redacted; the verbatim text is at previous_file.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 002 is dharana 2, verse 25. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only."
+    ],
+    "legacy": {
+      "source": "doors/D-002/door.json at commit 4382c90",
+      "disclosure": "Linking [retired posture] to VBT dharana 002 is a School of 112 Doorways teaching device, not a claim of ancient one-to-one canon.",
+      "notes": "Serial school index pairs D-002 with method index 002. Shared experiential hook (breath-turn awareness) is a teaching braid only; editions also note verse-24/25 clustering as one breath-pause family."
+    }
   },
   "safety": {
     "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
     "never_force": true,
-    "open_seat_alternate": "If standing overhead reach aggravates shoulders or low back, practice the same breath-pause attention seated with arms resting or only partially raised.",
-    "contraindication_notes": "General practice caution only; not medical advice. Ease range if shoulders, neck, or low back complain; keep ribs soft and avoid forcing arms behind the ears."
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. Do not convert this into breath-holding. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+    "legacy_notes": {
+      "source": "doors/D-002/door.json at commit 4382c90",
+      "open_seat_alternate": "If standing overhead reach aggravates shoulders or low back, practice the same breath-pause attention seated with arms resting or only partially raised.",
+      "contraindication_notes": "General practice caution only; not medical advice. Ease range if shoulders, neck, or low back complain; keep ribs soft and avoid forcing arms behind the ears.",
+      "status": "Posture-specific cautions, kept for traceability; they no longer apply because this door teaches no posture."
+    }
   },
   "sources": [
     {
-      "label": "Hareesh Wallis \u2014 VBT translation concordance (verses 24\u201325 breath-pause family)",
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
       "kind": "vbt",
-      "ref": "VBT vv. 24\u201325; dharana/index 002 treated as verse-25 pause method",
+      "ref": "[Dhāraṇā 2] verse 25: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 25: Sanskrit source for the IAST (input errors corrected against Singh, Wallis and Pradīpaka where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "heading 'Dharana 2 • verso 25' (numbering cross-check; parallel translations)",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+      "kind": "commentary",
+      "ref": "verse 25 = Wallis Y1 (cont.). Wallis groups verses 24–27 as one technique, so his yukti numbers run one to three lower than Singh's dharana numbers from verse 25 on.",
       "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
     },
     {
-      "label": "Life Positive \u2014 Teachings of the breath (names dharana 2 as pause awareness)",
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
       "kind": "commentary",
-      "ref": "Dharana 2 paraphrase: attention on pauses as breath turns",
-      "url": "https://www.lifepositive.com/index.php/teachings-of-the-breath"
+      "ref": "verse 25: Sanskrit and translation cross-check",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
     },
     {
-      "label": "Tantra 112 \u2014 Breath:Pause yukti notes (vv. 24\u201325)",
-      "kind": "vbt",
-      "ref": "Yukti notes on inner/outer pause; related verse cluster",
-      "url": "https://tantra112.app/y/breath-pause"
+      "label": "Hareesh Wallis, 'Vijñāna-bhairava-tantra verses 22–27: the foundational practice'",
+      "kind": "commentary",
+      "ref": "verses 24–27",
+      "url": "https://hareesh.org/blog/2022/11/30/vijana-bhairava-tantra-verses-22-27-the-foundational-practice"
     },
     {
-      "label": "School asana teaching \u2014 Urdhva Hastasana / Upward Salute alignment cues",
-      "kind": "asana",
-      "ref": "Standard standing overhead-arm geometry; school paraphrase, not a single locked edition",
-      "url": ""
+      "label": "Lakshmanjoo Academy, 'How to maintain uninterrupted awareness (Vijnana Bhairava verse 25)'",
+      "kind": "commentary",
+      "ref": "labels verse 25 'Dhāraṇā 2' (numbering cross-check); reads viyadyugmānuvartanāt",
+      "url": "https://www.lakshmanjooacademy.org/blog/how-to-maintain-uninterrupted-awareness-vijnana-bhaivava-verse-25"
     },
     {
-      "label": "School of 112 Doorways \u2014 master plan + door schema",
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
       "kind": "school",
-      "ref": "YOGA-TEACHING-MACHINE-MASTER-PLAN.md; schemas/door.schema.json",
+      "ref": "School devices added in the 2026-10 reframing; honesty and safety conventions from research/PROMPT_TEMPLATE.md and guardians/CHECKLIST.md",
       "url": ""
     }
   ],
@@ -98,44 +181,50 @@
     {
       "n": 1,
       "title": "Name the door",
-      "script": "This is Door D-002, Upward Salute, Urdhva Hastasana. From a steady stand, both arms rise overhead."
+      "script": "This is Door 002: not turning back from the two spaces. Vijñāna Bhairava Tantra dharana 2, verse 25."
     },
     {
       "n": 2,
       "title": "Geometry",
-      "script": "Feet root like Mountain. Arms lift on one line from heels through side ribs to fingertips. Soft elbows. Shoulders away from ears. Palms face or lightly touch."
+      "script": "No shape to make. Any easy seat, or lie down. The map is a pair of spaces: one inside after the in-breath, one outside after the out-breath."
     },
     {
       "n": 3,
       "title": "Orientation",
-      "script": "Weight even on both feet. Do not tip back. Crown stays over heels. Gaze soft to the thumbs, or forward if the neck prefers."
+      "script": "Let the body be fully held by the floor or chair. Eyes closed or lowered. Face the two spaces."
     },
     {
       "n": 4,
       "title": "Breath",
-      "script": "Inhale four as arms rise. Soft one-count pause at the top. Exhale four. Six easy cycles. Never strain the pause."
+      "script": "Natural breath, about four in and four out if you like to count. Never force the pause."
     },
     {
       "n": 5,
       "title": "Attention",
-      "script": "Primary lock: the turn of the breath at the top. Secondary: length from soles to fingertips without shrugging."
+      "script": "Stay present in the inner space and the outer space. Notice the urge to rush on, and let it soften."
     },
     {
       "n": 6,
       "title": "Reaction cue",
-      "script": "Feel the school cue Lift-and-open: compact stand becomes lengthened reach, then a quiet settle in the pause."
+      "script": "School image: a hurried cycle opens into two small spaces. Metaphor only."
     },
     {
       "n": 7,
       "title": "Adiyogi thread",
-      "script": "VBT method 002: rest awareness in the brief pause where the breath turns, inside and outside. Notice the gap; do not force it."
+      "script": "Verse 25: by not turning back from the two spaces, inner and outer, Bhairava's form shows itself through Bhairavī. Do not hold the breath; just do not hurry away."
     },
     {
       "n": 8,
       "title": "Exit / integrate",
-      "script": "Exhale arms down to Mountain, or stay up if steady. Soften shoulders. Keep the pause awareness for one more quiet breath, then release."
+      "script": "Let the breath go unwatched for one round. Open the eyes slowly."
     }
   ],
   "researcher": "R-002",
-  "researched_at": "2026-09-25"
+  "researched_at": "2026-09-25",
+  "reframed_by": "Grok Bot (House 1 VBT reframing)",
+  "reframed_at": "2026-10-06",
+  "review": {
+    "status": "pending_guardian_re_review",
+    "previous_review": "guardians/reviews/D-002.md (reviewed the posture framing)"
+  }
 }

@@ -1,95 +1,173 @@
 {
   "id": "D-006",
-  "name": "Downward-Facing Dog",
-  "sanskrit": "Adho Mukha Svanasana",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "Lightning Rising Centre by Centre",
+  "sanskrit": "udgacchantīṃ taḍidrūpām",
   "house": 1,
-  "status": "researched",
-  "geometry": {
-    "polygon": "inverted_V",
-    "joints": [
-      "wrists",
-      "elbows",
-      "shoulders",
-      "hips",
-      "knees",
-      "ankles"
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "Adho Mukha Svanasana — Downward-Facing Dog (asana framing, retired 2026-10)",
+  "previous_file": "doors/D-006/door.json at commit 4382c90 (researcher R-006, researched 2026-09-25)",
+  "previous_vbt_ref": "VBT dharana 006 (verse 29)",
+  "dharana": {
+    "number": 6,
+    "verses": [
+      29
     ],
-    "summary": "An inverted V: hands and feet as the two base points, hips as the high apex. Spine lengthens from wrists through the back body toward the heels. Knees may bend; heels reach toward the floor without forcing. Weight shared through the whole palm and the triple foot points.",
-    "svg_hint": "two_base_points_hands_feet_apex_hips_long_spine"
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24, sequential, one verse per dhāraṇā for 1–16)",
+    "sanskrit_iast": "udgacchantīṃ taḍidrūpāṃ praticakraṃ kramāt kramam | ūrdhvaṃ muṣṭitrayaṃ yāvat tāvad ante mahodayaḥ ||",
+    "sanskrit_source": "GRETIL e-text, checked against Singh, Wallis's concordance and Pradīpaka",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [
+      "GRETIL and Pradīpaka read taḍitrūpām; Wallis and Singh read taḍidrūpāṃ (same word, 'lightning-formed', different sandhi spelling). Wallis prints urddhvaṃ for ūrdhvaṃ."
+    ],
+    "rendering": "Contemplate her rising like lightning, from centre to centre (cakra) in sequence, upward as far as three fists above the head; at the end there is the great dawning (mahodaya).",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer; not a quotation.",
+    "commentary_note": "Singh identifies the power as kuṇḍalinī and 'three fists' as the dvādaśānta. Singh contrasts it with verse 28: here the power climbs through the centres one by one, whereas in verse 28 it goes straight up.",
+    "technique_name": "Lightning Rising Centre by Centre",
+    "category": "visualization",
+    "category_secondary": [
+      "kuṇḍalinī / subtle body",
+      "light"
+    ],
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 6] VERSE 29'",
+        "The Mystery Within (2019): 'Dharana 6 • verso 29'",
+        "GRETIL, Pradīpaka and Wallis: verse text matches the technique"
+      ],
+      "notes": "Door index = Singh dharana number, verified directly in Singh's own headings and cross-checked against at least one independent edition. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "Y3 (Wallis groups verses 24–27 as one technique)"
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 29 does not prescribe a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "stepped_vertical_line",
+    "joints": [],
+    "points": [
+      "successive centres (cakras) along the central line",
+      "three fists above the crown (Singh: dvādaśānta)"
+    ],
+    "summary": "Not a body shape. The map is a vertical line with stations along it, and a quick flash of light passing station by station to a point about three fists above the head.",
+    "svg_hint": "a vertical line with small marks for centres, a zig-zag flash moving up, ending at a point well above the head",
+    "honesty": "Redefined in 2026-10: geometry now records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
   },
   "reaction": {
-    "name": "Long settle",
-    "from_phase": "upright scatter",
-    "to_phase": "inverted long line",
-    "summary": "School metaphor: scattered upright charge settles into one long, quiet line from hands through hips to heels. Not a biochemical claim."
+    "name": "Flash and settle",
+    "from_phase": "gathered_charge",
+    "to_phase": "open_dawn",
+    "summary": "School metaphor: a brief flash of attention rises and then settles into open brightness. Not a biochemical claim."
   },
   "breath": {
     "inhale": 4,
     "hold": 0,
     "exhale": 6,
     "cycles": 6,
-    "lands_in": "side ribs and long back body",
-    "cue": "Inhale lengthen the sides of the waist; exhale root the hands and let the heels soften back without forcing."
+    "mode": "natural",
+    "lands_in": "ordinary breath; a slightly longer out-breath helps the body stay settled",
+    "cue": "Ordinary breath, about four in and six out if counting helps. No forced hold. Never use the breath to drive the image.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
   },
   "orientation": {
-    "cue": "Hips high as apex; crown soft toward the space between the upper arms; heels reach back and down.",
-    "gravity": "Weight shared through palms and feet; hips stay the highest point of the shape.",
-    "gaze": "Soft toward navel or thighs; neck long, not craned.",
-    "degrees_hint": "inverted V ~45-60 at ankles and wrists depending on body; no fixed angle target"
+    "cue": "Orient upward through the centres, then rest in the space above the head",
+    "gravity": "Body settled and supported; the rising is only imagined",
+    "gaze": "Eyes closed or softly lowered",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
   },
   "attention": {
-    "primary": "Continuous central line from hands through spine to heels",
-    "secondary": "Even rooting through the whole palm",
-    "chakra": null
+    "primary": "Attention moving centre by centre up the central line to a point above the head",
+    "secondary": "Resting in the open space at the end",
+    "chakra": "cakras in sequence (named in the verse as praticakram, 'each centre')"
   },
   "adiyogi": {
     "vbt_ref": "VBT dharana 006 (verse 29)",
-    "verse_paraphrase": "Imagine awareness rising like a brief flash of lightning through successive centers along the central channel, up to about three fists above the crown. At that soft culmination, a great dawning of clear awareness may be felt.",
-    "method_summary": "Safe class form: while holding Down Dog, quietly mark attention center by center along the long spine line (base, belly, heart, throat, brow, crown), then rest awareness in the soft space above the crown for a breath or two. Contemplative tracing only; never force sensation or breath.",
+    "verse_paraphrase": "Contemplate her rising like lightning, from centre to centre (cakra) in sequence, upward as far as three fists above the head; at the end there is the great dawning (mahodaya).",
+    "method_summary": "Gentle form: quietly mark attention centre by centre up the central line (base, belly, heart, throat, brow, crown), then rest awareness in the space above the crown for a breath or two. Contemplative tracing only; never try to produce rushes, heat or shaking, and never force sensation or breath.",
     "practice_mode": "practice",
     "historical_extreme": false,
     "sexual_content": false
   },
   "honesty": {
     "pairing_type": "school_device",
-    "disclosure": "This asana and VBT method are paired by School of 112 Doorways door number (D-006 with dharana 006). That link is a teaching device, not ancient one-to-one canon.",
-    "notes": "Both invite attention along a continuous central line. That shared metaphor supports the braid in class, but does not upgrade the pairing beyond school_device."
+    "disclosure": "Door 006 follows Vijñāna Bhairava Tantra dharana 6 (verse 29) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type stays school_device: the dharana is the content, while the door index, seat and pacing are the school's. The original honesty text is kept below in honesty.legacy, with retired posture names redacted; the verbatim text is at previous_file.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 006 is dharana 6, verse 29. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only."
+    ],
+    "legacy": {
+      "source": "doors/D-006/door.json at commit 4382c90",
+      "disclosure": "This [retired posture] and VBT method are paired by School of 112 Doorways door number (D-006 with dharana 006). That link is a teaching device, not ancient one-to-one canon.",
+      "notes": "Both invite attention along a continuous central line. That shared metaphor supports the braid in class, but does not upgrade the pairing beyond school_device."
+    }
   },
   "safety": {
     "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
     "never_force": true,
-    "open_seat_alternate": "Puppy pose (Anahatasana) or knees-down dog if wrists, shoulders, or hamstrings complain.",
-    "contraindication_notes": "General practice caution only; not medical advice. Ease off if wrists, shoulders, or low back complain; bend knees freely; do not force heels to the floor."
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. This school teaches only a slow, gentle tracing of this dharana. If it brings agitation, strong sensations or emotion, stop, open the eyes and ground attention in the feet. People who have had strong reactions to energy-focused meditation should choose a breath or sound door instead (for example Door 001 or Door 015). If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+    "legacy_notes": {
+      "source": "doors/D-006/door.json at commit 4382c90",
+      "open_seat_alternate": "[retired posture] ([retired posture]) or [retired posture] if wrists, shoulders, or hamstrings complain.",
+      "contraindication_notes": "General practice caution only; not medical advice. Ease off if wrists, shoulders, or low back complain; bend knees freely; do not force heels to the floor.",
+      "status": "Posture-specific cautions, kept for traceability; they no longer apply because this door teaches no posture."
+    }
   },
   "sources": [
     {
-      "label": "Jaideva Singh \u2014 Vijnanabhairava, or Divine Consciousness",
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
       "kind": "vbt",
-      "ref": "Dharana 6 / verse 29 (udgacchant\u012b\u1e43 ta\u1e0ditr\u016bp\u0101m\u2026); Motilal Banarsidass, 1979",
-      "url": ""
+      "ref": "[Dhāraṇā 6] verse 29: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
     },
     {
-      "label": "Christopher Wallis \u2014 Vij\u00f1ana-bhairava-tantra verses 29\u201330",
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 29: Sanskrit source for the IAST (input errors corrected against Singh, Wallis and Pradīpaka where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
       "kind": "commentary",
-      "ref": "Paraphrase of verse 29 lightning-ascent / mahodaya; twelve-finger dv\u0101da\u015b\u0101nta note",
-      "url": "https://hareesh.org/blog/2022/12/3/vijana-bhairava-tantra-verse-28-the-central-channel-rhcdg"
+      "ref": "heading 'Dharana 6 • verso 29' (numbering cross-check; parallel translations)",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
     },
     {
-      "label": "Sanskrit & Trika Shaivism \u2014 Vij\u00f1\u0101nabhairava verse 29",
-      "kind": "vbt",
-      "ref": "Sanskrit + English for verse 29 (lightning-form \u015bakti through cakras to mu\u1e63\u1e6di-traya)",
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+      "kind": "commentary",
+      "ref": "verse 29 = Wallis Y3. Wallis groups verses 24–27 as one technique, so his yukti numbers run one to three lower than Singh's dharana numbers from verse 25 on.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 29: Sanskrit and translation cross-check",
       "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
     },
     {
-      "label": "School asana geometry \u2014 Adho Mukha Svanasana",
-      "kind": "asana",
-      "ref": "House 1 registry working name Downward-Facing Dog; inverted-V teaching geometry",
-      "url": ""
+      "label": "Hareesh Wallis, 'Vijñāna-bhairava-tantra verse 28: the central channel'",
+      "kind": "commentary",
+      "ref": "verse 28 and the central-channel practices",
+      "url": "https://hareesh.org/blog/2022/12/3/vijana-bhairava-tantra-verse-28-the-central-channel-rhcdg"
     },
     {
-      "label": "School of 112 Doorways \u2014 master plan honesty laws",
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
       "kind": "school",
-      "ref": "Serial pairing = school_device; pain = information; no medical claims",
+      "ref": "School devices added in the 2026-10 reframing; honesty and safety conventions from research/PROMPT_TEMPLATE.md and guardians/CHECKLIST.md",
       "url": ""
     }
   ],
@@ -97,44 +175,50 @@
     {
       "n": 1,
       "title": "Name the door",
-      "script": "This is Door D-006: Downward-Facing Dog, Adho Mukha Svanasana. An inverted V that lengthens the whole back body."
+      "script": "This is Door 006: lightning rising centre by centre. Vijñāna Bhairava Tantra dharana 6, verse 29."
     },
     {
       "n": 2,
       "title": "Geometry",
-      "script": "Hands and feet plant. Hips rise as the peak. Spine long. Knees may bend. Heels reach back without forcing."
+      "script": "No shape to make. Any easy seat, or lie down. The map is a vertical line with stations, ending about three fists above the head."
     },
     {
       "n": 3,
       "title": "Orientation",
-      "script": "Share weight through palms and feet. Keep hips the high point. Soften the crown toward the space between the arms. Gaze toward navel or thighs."
+      "script": "Let the body be supported and still. Eyes closed or lowered. Orient upward."
     },
     {
       "n": 4,
       "title": "Breath",
-      "script": "Breathe inhale four, exhale six, for about six cycles. Inhale lengthen the waist. Exhale root the hands and soften the heels."
+      "script": "Ordinary breath, about four in, six out. No forced hold."
     },
     {
       "n": 5,
       "title": "Attention",
-      "script": "Hold one continuous line from hands through the spine to the heels. Secondary: even pressure across each whole palm."
+      "script": "Quietly mark each centre in turn, base to crown, then rest in the space above the head."
     },
     {
       "n": 6,
       "title": "Reaction cue",
-      "script": "Feel the school cue Long settle: upright scatter becoming one quiet inverted line. Metaphor only. If pain speaks, exit."
+      "script": "School image: a brief flash rises and settles into open brightness. Metaphor only."
     },
     {
       "n": 7,
       "title": "Adiyogi thread",
-      "script": "Safe VBT 006 thread: quietly mark attention up the centers along that long line, then rest soft awareness above the crown for a breath. Trace only. Never force."
+      "script": "Verse 29: the power rises like lightning, centre by centre, to three fists above the head, and at the end there is a great dawning. Trace gently. Never force."
     },
     {
       "n": 8,
       "title": "Exit / integrate",
-      "script": "Bend knees, walk or step forward, or lower to puppy pose. Stand or sit. Notice the long line still available without the shape."
+      "script": "Let the image go. Feel the feet and the floor. Open the eyes."
     }
   ],
   "researcher": "R-006",
-  "researched_at": "2026-09-25"
+  "researched_at": "2026-09-25",
+  "reframed_by": "Grok Bot (House 1 VBT reframing)",
+  "reframed_at": "2026-10-06",
+  "review": {
+    "status": "pending_guardian_re_review",
+    "previous_review": "guardians/reviews/D-006.md (reviewed the posture framing)"
+  }
 }

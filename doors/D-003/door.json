@@ -1,89 +1,170 @@
 {
   "id": "D-003",
-  "name": "Standing Forward Fold",
-  "sanskrit": "Uttanasana",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "The Opened Centre Where Breath Neither Leaves nor Enters",
+  "sanskrit": "na vrajen na viśec chaktiḥ",
   "house": 1,
-  "status": "researched",
-  "geometry": {
-    "polygon": "inverted V / hanging triangle",
-    "joints": [
-      "ankles",
-      "knees (soft)",
-      "hips (primary hinge)",
-      "spine",
-      "shoulders",
-      "neck (soft)"
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "Uttanasana — Standing Forward Fold (asana framing, retired 2026-10)",
+  "previous_file": "doors/D-003/door.json at commit 4382c90 (researcher R-003, researched 2026-09-25)",
+  "previous_vbt_ref": "VBT dharana 003 (verse 26)",
+  "dharana": {
+    "number": 3,
+    "verses": [
+      26
     ],
-    "summary": "From standing, feet about hip-width, tip the pelvis at the hip crease and fold the torso toward the legs. Keep knees soft as needed. Hands rest on floor, blocks, shins, or ankles. Crown hangs toward the floor; neck soft. The shape is an inverted V: feet as base points, hips as apex, spine and head as the hanging line.",
-    "svg_hint": "two foot points; hip peak; long fold line from hips to crown; soft knee marks; optional hand props"
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24, sequential, one verse per dhāraṇā for 1–16)",
+    "sanskrit_iast": "na vrajen na viśec chaktir marudrūpā vikāsite | nirvikalpatayā madhye tayā bhairavarūpatā ||",
+    "sanskrit_source": "GRETIL e-text, checked against Singh, Wallis's concordance and Pradīpaka",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [],
+    "rendering": "When the centre (madhya) opens out, the power that has the form of breath neither goes out nor comes in; as thought-constructs fall away in that middle, the state of Bhairava appears through her.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer; not a quotation.",
+    "commentary_note": "Singh and Wallis read this as a description of what happens spontaneously when the middle opens. Bäumer (as printed in The Mystery Within) translates it as an instruction ('The Energy of Breath should neither move out nor enter'); Wallis's concordance shows Dyczkowski reading it the same way. This school follows the spontaneous reading and never induces a stop of the breath.",
+    "technique_name": "The Opened Centre Where Breath Neither Leaves nor Enters",
+    "category": "breath",
+    "category_secondary": [
+      "gap between thoughts"
+    ],
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 3] VERSE 26'",
+        "The Mystery Within (2019): 'Dharana 3 • verso 26'",
+        "Lakshmanjoo lineage: repose.ghost.io labels verse 26 as meditation 3; not checked in a print Lakshmanjoo edition.",
+        "GRETIL, Pradīpaka and Wallis: verse text matches the technique"
+      ],
+      "notes": "Door index = Singh dharana number, verified directly in Singh's own headings and cross-checked against at least one independent edition. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "Y1 (cont.) (Wallis groups verses 24–27 as one technique)"
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 26 does not prescribe a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "single_centre",
+    "joints": [],
+    "points": [
+      "the middle (madhya): the still centre between out-breath and in-breath"
+    ],
+    "summary": "Not a body shape. The verse points to one centre, the middle state where breath is neither going out nor coming in and thought thins. It is a point in experience more than a place in the body.",
+    "svg_hint": "a single soft point with two faded arrows (out and in) that do not reach it",
+    "honesty": "Redefined in 2026-10: geometry now records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
   },
   "reaction": {
-    "name": "Still-center settle",
-    "from_phase": "upright scatter",
-    "to_phase": "hanging quiet",
-    "summary": "School metaphor: busy upright charge softens into a quiet middle pause as the fold lets outer motion thin. Not a biochemical claim."
+    "name": "Still-centre settle",
+    "from_phase": "busy_movement",
+    "to_phase": "quiet_middle",
+    "summary": "School metaphor: busy charge softens into a quiet middle where breath and thought both thin. Not a biochemical claim."
   },
   "breath": {
     "inhale": 4,
     "hold": 0,
     "exhale": 6,
     "cycles": 6,
-    "lands_in": "back body and soft belly",
-    "cue": "Inhale for four to lengthen the back of the body; exhale for six as the fold settles. No forced breath-hold. Soften on the longer out-breath."
+    "mode": "natural",
+    "lands_in": "the quiet join between out-breath and in-breath",
+    "cue": "Natural breath. Optional: a slightly longer out-breath (about four in, six out) while settling, then stop counting. No forced breath-hold. If the breath pauses on its own, witness it; do not strain into a hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
   },
   "orientation": {
-    "cue": "Hinge at the hip crease, not the waist. Soften knees so the spine can stay long before it rounds. Weight even through the feet, slightly toward the balls if heels lock you back.",
-    "gravity": "Crown yields toward the floor; hips stack over heels as much as available; let gravity do the fold\u2014do not pull yourself down.",
-    "gaze": "Eyes soft toward shins or closed; neck hangs free.",
-    "degrees_hint": "Pelvis tips forward over femurs; torso folds from ~0\u00b0 upright toward ~90\u00b0+ hang as available\u2014depth is not the goal."
+    "cue": "Orient toward the middle, the place between going out and coming in",
+    "gravity": "Let weight sink fully into the support; no posture to maintain",
+    "gaze": "Eyes closed or softly lowered",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
   },
   "attention": {
-    "primary": "Still point at the middle of the breath (madhya)\u2014where inhale and exhale meet and quiet",
-    "secondary": "Hip crease hinge and even foot contact",
+    "primary": "The still point at the middle of the breath (madhya), where inhale and exhale meet and quiet",
+    "secondary": "Thoughts thinning on their own",
     "chakra": null
   },
   "adiyogi": {
     "vbt_ref": "VBT dharana 003 (verse 26)",
-    "verse_paraphrase": "When breath-energy neither goes out nor comes in, and the middle opens as thought-constructs thin, the Bhairava nature is pointed to.",
-    "method_summary": "Rest awareness in the natural still center (madhya) where pr\u0101\u1e47a-\u015bakti is not rushing out or in. Prefer recognizing the pause over forcing a hold. Class-safe form: notice the quiet join of inhale and exhale while folded; if breath pauses lightly on its own, witness it\u2014do not strain into kumbhaka.",
+    "verse_paraphrase": "When the centre (madhya) opens out, the power that has the form of breath neither goes out nor comes in; as thought-constructs fall away in that middle, the state of Bhairava appears through her.",
+    "method_summary": "Rest awareness in the natural still centre where breath-energy is not rushing out or in. Recognise the pause rather than creating it. If breath pauses lightly on its own, witness it; never induce or prolong a stop of the breath.",
     "practice_mode": "practice",
     "historical_extreme": false,
     "sexual_content": false
   },
   "honesty": {
     "pairing_type": "school_device",
-    "disclosure": "This asana\u2194method link is a School of 112 Doorways teaching device, not ancient canon. Uttanasana and VBT dharana 003 are paired here by school index.",
-    "notes": "Serial pairing by door number. Optional teaching rhyme only: the fold often quiets outer motion and makes the breath\u2019s middle easier to notice; that rhyme does not upgrade this to inner_logic or claim historical pairing."
+    "disclosure": "Door 003 follows Vijñāna Bhairava Tantra dharana 3 (verse 26) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type stays school_device: the dharana is the content, while the door index, seat and pacing are the school's. The original honesty text is kept below in honesty.legacy, with retired posture names redacted; the verbatim text is at previous_file.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 003 is dharana 3, verse 26. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only."
+    ],
+    "legacy": {
+      "source": "doors/D-003/door.json at commit 4382c90",
+      "disclosure": "This [retired posture]↔method link is a School of 112 Doorways teaching device, not ancient canon. [retired posture] and VBT dharana 003 are paired here by school index.",
+      "notes": "Serial pairing by door number. Optional teaching rhyme only: the [retired posture] often quiets outer motion and makes the breath’s middle easier to notice; that rhyme does not upgrade this to inner_logic or claim historical pairing."
+    }
   },
   "safety": {
     "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
     "never_force": true,
-    "open_seat_alternate": "Bend knees generously, hands on blocks or shins, or take Ardha Uttanasana (half fold with long spine) if the full hang strains the low back or hamstrings.",
-    "contraindication_notes": "General practice caution only; not medical advice. Soften or exit if sharp low-back, hamstring, or head pressure appears. Avoid forcing straight legs. Use props. If dizziness arises when inverted, come up slowly with a long spine or bent knees."
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. Never induce or prolong a stop of the breath for this door. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+    "legacy_notes": {
+      "source": "doors/D-003/door.json at commit 4382c90",
+      "open_seat_alternate": "Bend knees generously, hands on blocks or shins, or take [retired posture] ([retired posture] with long spine) if the full hang strains the low back or hamstrings.",
+      "contraindication_notes": "General practice caution only; not medical advice. Soften or exit if sharp low-back, hamstring, or head pressure appears. Avoid forcing straight legs. Use props. If dizziness arises when inverted, come up slowly with a long spine or bent knees.",
+      "status": "Posture-specific cautions, kept for traceability; they no longer apply because this door teaches no posture."
+    }
   },
   "sources": [
     {
-      "label": "Vijnana Bhairava Tantra \u2014 dharana 3 / verse 26 (madhya; breath-\u015bakti neither exits nor enters)",
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
       "kind": "vbt",
-      "ref": "VBT verse 26; Jaideva Singh commentary tradition; Wallis concordance summary",
+      "ref": "[Dhāraṇā 3] verse 26: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 26: Sanskrit source for the IAST (input errors corrected against Singh, Wallis and Pradīpaka where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "heading 'Dharana 3 • verso 26' (numbering cross-check; parallel translations)",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+      "kind": "commentary",
+      "ref": "verse 26 = Wallis Y1 (cont.). Wallis groups verses 24–27 as one technique, so his yukti numbers run one to three lower than Singh's dharana numbers from verse 25 on.",
       "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
     },
     {
-      "label": "Hareesh.org \u2014 VBT verses 22\u201327 foundational practice notes",
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
       "kind": "commentary",
-      "ref": "Discussion of verse 26 as center-expansion / still breath-power",
+      "ref": "verse 26: Sanskrit and translation cross-check",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "Hareesh Wallis, 'Vijñāna-bhairava-tantra verses 22–27: the foundational practice'",
+      "kind": "commentary",
+      "ref": "verses 24–27",
       "url": "https://hareesh.org/blog/2022/11/30/vijana-bhairava-tantra-verses-22-27-the-foundational-practice"
     },
     {
-      "label": "Uttanasana teaching cues \u2014 hip hinge, soft knees, props",
-      "kind": "asana",
-      "ref": "Standard modern asana pedagogy (hip crease hinge; micro-bend; blocks/shins)",
-      "url": "https://liforme.com/blogs/blog/yoga-poses-standing-forward-fold"
-    },
-    {
-      "label": "School of 112 Doorways \u2014 research prompt + door schema",
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
       "kind": "school",
-      "ref": "research/PROMPT_TEMPLATE.md; schemas/door.schema.json; guardians/CHECKLIST.md",
+      "ref": "School devices added in the 2026-10 reframing; honesty and safety conventions from research/PROMPT_TEMPLATE.md and guardians/CHECKLIST.md",
       "url": ""
     }
   ],
@@ -91,44 +172,50 @@
     {
       "n": 1,
       "title": "Name the door",
-      "script": "This is Door D-003: Standing Forward Fold, Uttanasana. A standing fold that hangs the crown toward the floor."
+      "script": "This is Door 003: the opened centre where breath neither leaves nor enters. Vijñāna Bhairava Tantra dharana 3, verse 26."
     },
     {
       "n": 2,
       "title": "Geometry",
-      "script": "Feet hip-width. Tip from the hip crease into an inverted V: hips high, spine hanging, hands to floor, blocks, or shins. Soft knees are welcome."
+      "script": "No shape to make. Sit or lie in any easy way. The map is one point: the middle, between going out and coming in."
     },
     {
       "n": 3,
       "title": "Orientation",
-      "script": "Hinge at the hips, not the waist. Let the crown yield to gravity. Keep weight through the feet; do not yank yourself deeper."
+      "script": "Let the floor take your weight. Eyes closed or lowered. Turn toward the middle."
     },
     {
       "n": 4,
       "title": "Breath",
-      "script": "Inhale four to lengthen the back body. Exhale six to settle the fold. Six easy cycles. No forced holds."
+      "script": "Natural breath. If it helps you settle, four in and six out, then stop counting. No forced breath-hold."
     },
     {
       "n": 5,
       "title": "Attention",
-      "script": "Place attention at the still middle of the breath\u2014where inhale and exhale meet and quiet. Secondary: hip crease and even feet."
+      "script": "Rest in the quiet join where the out-breath ends and the in-breath has not begun. Let thoughts thin by themselves."
     },
     {
       "n": 6,
       "title": "Reaction cue",
-      "script": "Name the phase: upright scatter settling into hanging quiet. Feel outer rush thin. Metaphor only\u2014not a medical claim."
+      "script": "School image: busy movement settles into a quiet middle. Metaphor only."
     },
     {
       "n": 7,
       "title": "Adiyogi thread",
-      "script": "VBT dharana 003 points to the center where breath-energy is not rushing out or in. In the fold, notice that quiet join. Witness any natural pause; do not strain."
+      "script": "Verse 26: when the centre opens, the breath-power neither goes out nor comes in, and thought-constructs fall away. Witness any natural pause. Never strain."
     },
     {
       "n": 8,
       "title": "Exit / integrate",
-      "script": "Bend the knees. Rise slowly with a long spine, or step back to a milder fold. Stand and feel the after-quiet before the next door."
+      "script": "Take one fuller, free breath. Wriggle the fingers. Open the eyes."
     }
   ],
   "researcher": "R-003",
-  "researched_at": "2026-09-25"
+  "researched_at": "2026-09-25",
+  "reframed_by": "Grok Bot (House 1 VBT reframing)",
+  "reframed_at": "2026-10-06",
+  "review": {
+    "status": "pending_guardian_re_review",
+    "previous_review": "guardians/reviews/D-003.md (reviewed the posture framing)"
+  }
 }
