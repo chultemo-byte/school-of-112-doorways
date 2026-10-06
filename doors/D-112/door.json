@@ -1,0 +1,232 @@
+{
+  "id": "D-112",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "Knower and Known as One",
+  "sanskrit": "ekam ekasvabhāvatvāj jñānaṃ jñeyaṃ vibhāvyate",
+  "house": 7,
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "Padmāsana — Lotus (prototype seed, asana framing, retired 2026-10)",
+  "previous_file": "doors/112.json at commit 32e76c4 (prototype seed; left unchanged on this branch)",
+  "previous_vbt_ref": "verse 138, Wallis yukti 112 (superseded: under Singh, dhāraṇā 112 is verse 137; Singh reads verse 138 as the conclusion that follows the 112 dhāraṇās)",
+  "dharana": {
+    "number": 112,
+    "verses": [
+      137
+    ],
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114, otherwise one verse each; dhāraṇā 112 = verse 137)",
+    "sanskrit_iast": "jñānaprakāśakaṃ sarvaṃ sarveṇātmā prakāśakaḥ | ekam ekasvabhāvatvāj jñānaṃ jñeyaṃ vibhāvyate ||",
+    "sanskrit_source": "GRETIL e-text, compared with Wallis's concordance, Pradīpaka and the Singh scan",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [
+      "verse 137: Sandhi corrected: GRETIL -svabhāvatvāt jñānaṃ; Wallis and Pradīpaka -svabhāvatvāj jñānaṃ. Singh reports a second reading current in the Śaiva tradition (per Lakshmanjoo): jñānaṃ prakāśakaṃ loke ātmā caiva prakāśakaḥ | anayor apṛthagbhāvāj jñāne jñānī vibhāvyate; Wallis prints the GRETIL text but his translation follows this second reading."
+    ],
+    "rendering": "Everything is revealed by knowing, and the Self is revealed by everything; because their nature is one, knowing and the known are contemplated as one.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+    "commentary_note": "Singh: 'knowing' here stands for the knower; the known is revealed by the knower and the knower by the known. He cites the Ucchuṣmabhairava ('so long as there are no knowers, how can there be the known?') and a verse quoted by Śivopādhyāya: manifestation is not separate from the light of consciousness, nor that light from I-consciousness. Contemplating subject, object and consciousness as one reality, one attains Bhairava's nature. Singh classes it as śāktopāya. Singh reports a second reading, per Lakshmanjoo: 'knowledge reveals things in the world and the Self is the source of all revelation; since they are not different, the knower is revealed in knowledge'. Wallis's translation follows that reading.",
+    "technique_name": "Knower and Known as One",
+    "category": "other",
+    "category_plain": "contemplation",
+    "category_secondary": [
+      "contemplation"
+    ],
+    "instruction": "Notice that what you know and the one who knows reveal each other, and rest in them as one knowing.",
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 112] VERSE 137'",
+        "The Mystery Within (2019), Session Two list: 'Dharana 112' = verse 137 (agrees with Singh)",
+        "Wallis concordance: verse 137 = 'One essential nature (Y111 ~ B3)' (verse text and technique match)",
+        "GRETIL, Wallis and Pradīpaka: Sanskrit of verse 137 compared"
+      ],
+      "notes": "Door index = Singh dhāraṇā number, read directly in Singh's own headings and cross-checked against The Mystery Within's Singh-numbered list and Wallis's concordance. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "verse 137: One essential nature (Y111 ~ B3)",
+      "mystery_within_parallel": "The parallel-translations section of The Mystery Within labels verse 137 'Dharana 114', because from verse 106 on it gives every verse its own number (106 = 83 … 137 = 114). Singh and the same book's Session Two list put this at dhāraṇā 112. Not followed.",
+      "prototype_seed": "The older prototype seed doors/112.json pairs door 112 with verse 138, Wallis yukti 112 (superseded: under Singh, dhāraṇā 112 is verse 137; Singh reads verse 138 as the conclusion that follows the 112 dhāraṇās). Not followed."
+    },
+    "source_disagreements": [
+      "Verse 137: Singh reports a second reading current in the Śaiva tradition (per Lakshmanjoo), jñānaṃ prakāśakaṃ loke ātmā caiva prakāśakaḥ | anayor apṛthagbhāvāj jñāne jñānī vibhāvyate; Wallis prints the standard text but translates the second reading. The paraphrase follows the printed text; both readings arrive at knower and knowing as one."
+    ]
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 137 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "knower_and_known_one",
+    "joints": [],
+    "points": [
+      "the knower",
+      "the known",
+      "knowing, which is the same nature in both"
+    ],
+    "summary": "Not a body shape. The map is the knower and the known as two faces of one knowing, each revealing the other.",
+    "svg_hint": "two facing arcs that join into a single circle",
+    "honesty": "Geometry records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
+  },
+  "reaction": {
+    "name": "One knowing",
+    "from_phase": "subject_vs_object",
+    "to_phase": "bhairava_nature",
+    "summary": "School metaphor only: the split between the one who knows and what is known closes into a single knowing. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "mode": "natural",
+    "lands_in": "wherever the breath naturally ends; this door places nothing on the breath",
+    "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+  },
+  "orientation": {
+    "cue": "Turn attention toward what the verse names, and let everything else stay in the background",
+    "gravity": "Let the floor or chair carry the body completely; there is no posture to hold",
+    "gaze": "Eyes closed or softly lowered",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
+  },
+  "attention": {
+    "primary": "The knower and the known, each revealing the other",
+    "secondary": "Their single shared nature: knowing",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 112 (verse 137)",
+    "verse_paraphrase": "Everything is revealed by knowing, and the Self is revealed by everything; because their nature is one, knowing and the known are contemplated as one.",
+    "method_summary": "Look at, or listen to, anything. Notice that it is revealed by your knowing, and that your knowing is revealed by it. Let the two be seen as one nature, one knowing, and rest there.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Door 112 follows Vijñāna Bhairava Tantra dharana 112 (verse 137) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type is school_device: the dharana is the content, while the door index, seat and pacing are the school's. The prototype seed's lineage text and VBT gloss are kept in honesty.legacy, with posture names redacted; the seed file itself is untouched.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 112 is dharana 112, verse 137. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+    ],
+    "legacy": {
+      "source": "doors/112.json at commit 32e76c4",
+      "disclosure": "Vijnana Bhairava Tantra. The [retired posture]–verse pairing on this door is a School of 112 Doorways device (school_device), not a claim of ancient one-to-one canon. Lotus is an optional seat, not proof of mastery.",
+      "notes": "Teaching reference, marked historical and observe_only: not a class drill, and no readiness flag promotes it into one. Verse 138 is yukti 112 in the usual counting of the Vijnana Bhairava Tantra, the last of the 112 brief instructions. It points toward a settling in which restless mind, breath-as-effort, the feeling of being a separate knower, and the self-image are no longer being held in place. This gloss is not a translation and not a technique for forcing that settling. Verse 49's heart-lotus is a cousin image; this door does not collapse the two into one claim. The [retired posture] is never the method."
+    }
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. If this becomes abstract, simply rest in plain seeing or hearing. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+    "legacy_notes": {
+      "source": "doors/112.json at commit 32e76c4",
+      "notes": [
+        "Never force [retired posture]. Knee cartilage does not negotiate. If either knee lifts high, complains, or the foot must be hauled into place, come out at once.",
+        "Prior knee injury, knee surgery, ligament sprain, or pain under the kneecap: do not attempt lotus. A chair, or an easy seat in which both knees are comfortable, is the door for that day.",
+        "Ankle sprain, Achilles pain, or hips that do not already externally rotate: same rule. The hips lead. The ankles are not levers.",
+        "Hip replacement, or any limit a physician has set on hip rotation: stay inside that limit. This text is not a clearance to [retired posture] the leg.",
+        "Pregnancy: lotus is optional and often uncomfortable. Leave for numbness, pubic pain, or breath that cannot deepen. Side-sitting or a bolster is enough.",
+        "Sciatica or pain that travels down the leg: do not [retired posture] the legs into a shape that reproduces it.",
+        "Numbness in a foot is a reason to leave immediately, not a sign of progress."
+      ],
+      "status": "Posture-specific cautions from the prototype seed, kept for traceability; they do not apply to this dharana door."
+    }
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+      "kind": "vbt",
+      "ref": "[Dhāraṇā 112] VERSE 137: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 137: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "'Session Two' list: 'Dharana 112' = verse 137 (numbering cross-check; follows Singh). Parallel-translations section labels verse 137 as 'Dharana 114' (disagrees; see dharana.numbering_variants).",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance, Part 2",
+      "kind": "commentary",
+      "ref": "verse 137 = 'One essential nature (Y111 ~ B3)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance-part-two"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 137: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+      "kind": "school",
+      "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 112: knower and known as one. Vijñāna Bhairava Tantra dharana 112, verse 137."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "No shape to make. Sit with the eyes open or closed. The map is the knower and the known as one knowing."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Let the floor or the chair carry you. Eyes closed or soft."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Look at anything. It is revealed by your knowing; your knowing is revealed by it. One nature. Rest there."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School image: two arcs closing into one circle. A metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Verse 137: everything is revealed by knowing, and the Self by everything; because their nature is one, knower and known are contemplated as one."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Let the practice go. Take one free breath. Open the eyes and look around the room."
+    }
+  ],
+  "researcher": "R-112",
+  "researched_at": "2026-10-06",
+  "drafted_by": "Grok Bot (VBT Houses 2–7 research, branch research/vbt-houses-2-7)",
+  "review": {
+    "status": "pending_guardian_review",
+    "previous_review": "none for this dharana door; the prototype seed doors/112.json was reviewed in its posture framing"
+  }
+}
