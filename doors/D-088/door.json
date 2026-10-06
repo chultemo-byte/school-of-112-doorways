@@ -1,0 +1,212 @@
+{
+  "id": "D-088",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "When the Mind Gives Up: The Stillness After an Impasse",
+  "sanskrit": "ādhāreṣv athavā 'śaktyā 'jñānāc cittalayena vā",
+  "house": 6,
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "none: new door (doors/index.json at 32e76c4 lists door 88 as unassigned, with no name)",
+  "previous_file": "none: no door file existed for door 88 at commit 32e76c4",
+  "previous_vbt_ref": "none",
+  "dharana": {
+    "number": 88,
+    "verses": [
+      112
+    ],
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114, otherwise one verse each; dhāraṇā 112 = verse 137)",
+    "sanskrit_iast": "ādhāreṣv athavā 'śaktyā 'jñānāc cittalayena vā | jātaśaktisamāveśakṣobhānte bhairavaṃ vapuḥ ||",
+    "sanskrit_source": "GRETIL e-text, compared with Wallis's concordance, Pradīpaka and the Singh scan",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [],
+    "rendering": "Or, through inability regarding the supports (of knowing), or through the dissolution of the mind from not-knowing, at the end of the agitation of the absorption that arises, there is Bhairava's form.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+    "commentary_note": "Singh: through lack of power to apprehend objects of knowledge, or through sheer ignorance, the mind dissolves; at the end of the commotion this brings, Bhairava's nature appears. With verse 111, it describes the mind at the end of intense commotion: here a commotion of intellectual impasse, as when obstinate questioning or doubt exhausts itself. Singh classes it as śāktopāya. Wallis: 'the power of incapacity', incapacity regarding the loci (ādhāras).",
+    "technique_name": "When the Mind Gives Up: The Stillness After an Impasse",
+    "category": "emptiness/space",
+    "category_plain": "gap",
+    "category_secondary": [
+      "ordinary life",
+      "contemplation"
+    ],
+    "instruction": "When the mind cannot grasp or solve something, stop pushing and rest in the stillness after the struggle.",
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 88] VERSE 112'",
+        "The Mystery Within (2019), Session Two list: 'Dharana 88' = verse 112 (agrees with Singh)",
+        "Wallis concordance: verse 112 = 'The power of incapacity (Y87 ~ C2)' (verse text and technique match)",
+        "GRETIL, Wallis and Pradīpaka: Sanskrit of verse 112 compared"
+      ],
+      "notes": "Door index = Singh dhāraṇā number, read directly in Singh's own headings and cross-checked against The Mystery Within's Singh-numbered list and Wallis's concordance. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "verse 112: The power of incapacity (Y87 ~ C2)",
+      "mystery_within_parallel": "The parallel-translations section of The Mystery Within labels verse 112 'Dharana 89', because from verse 106 on it gives every verse its own number (106 = 83 … 137 = 114). Singh and the same book's Session Two list put this at dhāraṇā 88. Not followed."
+    },
+    "source_disagreements": [
+      "Reading of ādhāreṣu: Singh takes it as objects of knowledge (inability to apprehend them); Wallis keeps 'loci (ādhāras)', and Dyczkowski reads the senses and their objects as the foundations of perception. The door follows the shared sense: incapacity, then stillness after agitation."
+    ]
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 112 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "impasse_to_stillness",
+    "joints": [],
+    "points": [
+      "the effort to know or solve",
+      "the impasse, where the mind cannot go on",
+      "the stillness after the struggle"
+    ],
+    "summary": "Not a body shape. The map is a mind pushing against a wall it cannot pass, then the quiet when it stops pushing.",
+    "svg_hint": "a line pressing into a barrier, then relaxing into open space beside it",
+    "honesty": "Geometry records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
+  },
+  "reaction": {
+    "name": "Let the impasse be",
+    "from_phase": "straining_to_know",
+    "to_phase": "stillness_after",
+    "summary": "School metaphor only: when the mind cannot find an answer, its struggle is allowed to end, and the quiet afterward is noticed. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "mode": "natural",
+    "lands_in": "wherever the breath naturally ends; this door places nothing on the breath",
+    "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+  },
+  "orientation": {
+    "cue": "Let the struggle to understand end, and notice the quiet after it",
+    "gravity": "Let the floor or chair carry the body completely; there is no posture to hold",
+    "gaze": "Eyes closed or softly lowered",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
+  },
+  "attention": {
+    "primary": "The moment the mind gives up trying to grasp or solve something",
+    "secondary": "The stillness that follows when the agitation subsides",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 088 (verse 112)",
+    "verse_paraphrase": "Or, through inability regarding the supports (of knowing), or through the dissolution of the mind from not-knowing, at the end of the agitation of the absorption that arises, there is Bhairava's form.",
+    "method_summary": "When the mind meets something it cannot grasp (a question with no answer, a problem it cannot solve), stop pushing. Let the not-knowing be complete. As the agitation of effort subsides, notice the stillness that remains, and rest in it.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Door 088 follows Vijñāna Bhairava Tantra dharana 88 (verse 112) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type is school_device: the dharana is the content, while the door index, seat and pacing are the school's.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 088 is dharana 88, verse 112. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+    ]
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. This is about letting go of mental effort, not about ignoring practical problems; return to them afterwards with a rested mind. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+      "kind": "vbt",
+      "ref": "[Dhāraṇā 88] VERSE 112: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 112: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "'Session Two' list: 'Dharana 88' = verse 112 (numbering cross-check; follows Singh). Parallel-translations section labels verse 112 as 'Dharana 89' (disagrees; see dharana.numbering_variants).",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance, Part 2",
+      "kind": "commentary",
+      "ref": "verse 112 = 'The power of incapacity (Y87 ~ C2)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance-part-two"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 112: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+      "kind": "school",
+      "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 088: when the mind gives up: the stillness after an impasse. Vijñāna Bhairava Tantra dharana 88, verse 112."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "No shape to make. Sit or lie down. The map is a mind pushing against a wall, then the quiet when it stops."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Let the floor or the chair carry you. Eyes closed or soft."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Bring to mind a question with no answer. Notice the push to solve it. Let the push stop. Rest in the quiet after."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School image: a mind ceasing to push. A metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Verse 112: through inability regarding the supports of knowing, or the mind dissolving in not-knowing, at the end of that agitation there is Bhairava's form."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Let the practice go. Take one free breath. Open the eyes and look around the room."
+    }
+  ],
+  "researcher": "R-088",
+  "researched_at": "2026-10-06",
+  "drafted_by": "Grok Bot (VBT Houses 2–7 research, branch research/vbt-houses-2-7)",
+  "review": {
+    "status": "pending_guardian_review",
+    "previous_review": "none (new door)"
+  }
+}

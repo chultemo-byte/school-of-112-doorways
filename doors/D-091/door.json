@@ -1,0 +1,210 @@
+{
+  "id": "D-091",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "Wherever the Mind Goes",
+  "sanskrit": "yatra yatra mano yāti",
+  "house": 6,
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "none: new door (doors/index.json at 32e76c4 lists door 91 as unassigned, with no name)",
+  "previous_file": "none: no door file existed for door 91 at commit 32e76c4",
+  "previous_vbt_ref": "none",
+  "dharana": {
+    "number": 91,
+    "verses": [
+      116
+    ],
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114, otherwise one verse each; dhāraṇā 112 = verse 137)",
+    "sanskrit_iast": "yatra yatra mano yāti bāhye vābhyantare 'pi vā | tatra tatra śivāvasthā vyāpakatvāt kva yāsyati ||",
+    "sanskrit_source": "GRETIL e-text, compared with Wallis's concordance, Pradīpaka and the Singh scan",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [
+      "verse 116: GRETIL (and Pradīpaka) read śivāvāsthā; corrected to śivāvasthā with Wallis."
+    ],
+    "rendering": "Wherever the mind goes, outward or inward, there is the state of Śiva; since it pervades everything, where could the mind go?",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+    "commentary_note": "Singh: metaphysically, everything subjective or objective is Śiva; in practice, the aspirant need not struggle to concentrate on some mysterious reality. Whatever attracts the mind, outer (a jar, a colour) or inner (an emotion, a thought), is taken with full conviction as Śiva and meditated on; it then appears as universal consciousness in that form. He links it to Spandakārikā 2.3–5. Wallis: 'wherever the mind goes'.",
+    "technique_name": "Wherever the Mind Goes",
+    "category": "devotion",
+    "category_plain": "contemplation",
+    "category_secondary": [
+      "contemplation"
+    ],
+    "instruction": "Wherever the mind wanders, outside or inside, take that very place as the sacred and rest there.",
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 91] VERSE 116'",
+        "The Mystery Within (2019), Session Two list: 'Dharana 91' = verse 116 (agrees with Singh)",
+        "Wallis concordance: verse 116 = 'Wherever the mind goes (Y91 ~ B1)' (verse text and technique match)",
+        "GRETIL, Wallis and Pradīpaka: Sanskrit of verse 116 compared"
+      ],
+      "notes": "Door index = Singh dhāraṇā number, read directly in Singh's own headings and cross-checked against The Mystery Within's Singh-numbered list and Wallis's concordance. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "verse 116: Wherever the mind goes (Y91 ~ B1)",
+      "mystery_within_parallel": "The parallel-translations section of The Mystery Within labels verse 116 'Dharana 93', because from verse 106 on it gives every verse its own number (106 = 83 … 137 = 114). Singh and the same book's Session Two list put this at dhāraṇā 91. Not followed."
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 116 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "wherever_the_mind_goes",
+    "joints": [],
+    "points": [
+      "the mind going outward",
+      "the mind going inward",
+      "Śiva's state wherever it lands"
+    ],
+    "summary": "Not a body shape. The map is the mind wandering in every direction and finding the same reality wherever it lands.",
+    "svg_hint": "lines going out from a centre in many directions, each ending in the same soft glow",
+    "honesty": "Geometry records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
+  },
+  "reaction": {
+    "name": "Nowhere else to go",
+    "from_phase": "fighting_wandering",
+    "to_phase": "everywhere_śiva",
+    "summary": "School metaphor only: the struggle against a wandering mind ends; wherever it goes is taken as the very place to meet reality. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "mode": "natural",
+    "lands_in": "wherever the breath naturally ends; this door places nothing on the breath",
+    "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+  },
+  "orientation": {
+    "cue": "Turn attention toward what the verse names, and let everything else stay in the background",
+    "gravity": "Let the floor or chair carry the body completely; there is no posture to hold",
+    "gaze": "Eyes closed or softly lowered",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
+  },
+  "attention": {
+    "primary": "Wherever the mind lands, outer or inner",
+    "secondary": "That very place taken as the state of Śiva",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 091 (verse 116)",
+    "verse_paraphrase": "Wherever the mind goes, outward or inward, there is the state of Śiva; since it pervades everything, where could the mind go?",
+    "method_summary": "Let the mind go where it goes: a sound, a colour, a memory, a feeling. Do not pull it back. Wherever it lands, take that as the state of Śiva and rest there, until it moves on, and do the same again.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Door 091 follows Vijñāna Bhairava Tantra dharana 91 (verse 116) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type is school_device: the dharana is the content, while the door index, seat and pacing are the school's.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 091 is dharana 91, verse 116. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+    ]
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. No effort to control the mind is needed here; if a difficult memory arises, you may open the eyes and rest on something neutral. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+      "kind": "vbt",
+      "ref": "[Dhāraṇā 91] VERSE 116: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 116: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "'Session Two' list: 'Dharana 91' = verse 116 (numbering cross-check; follows Singh). Parallel-translations section labels verse 116 as 'Dharana 93' (disagrees; see dharana.numbering_variants).",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance, Part 2",
+      "kind": "commentary",
+      "ref": "verse 116 = 'Wherever the mind goes (Y91 ~ B1)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance-part-two"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 116: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+      "kind": "school",
+      "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 091: wherever the mind goes. Vijñāna Bhairava Tantra dharana 91, verse 116."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "No shape to make. Sit or lie down. The map is the mind wandering everywhere and finding the same reality."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Let the floor or the chair carry you. Eyes closed or soft."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Let the mind go where it goes. Do not pull it back. Wherever it lands, that is the state of Śiva. Rest there."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School image: every road leading to the same place. A metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Verse 116: wherever the mind goes, outward or inward, there is Śiva's state; since it pervades all, where could the mind go?"
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Drop the exercise. Notice the room: its sounds, its light. Carry the quiet into what comes next."
+    }
+  ],
+  "researcher": "R-091",
+  "researched_at": "2026-10-06",
+  "drafted_by": "Grok Bot (VBT Houses 2–7 research, branch research/vbt-houses-2-7)",
+  "review": {
+    "status": "pending_guardian_review",
+    "previous_review": "none (new door)"
+  }
+}
