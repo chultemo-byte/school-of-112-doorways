@@ -159,3 +159,20 @@
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", function () { boot(); });
   else boot();
 })();
+
+/* Guidance player hook: on a page with #guidance-slot, load guidance/player.js (next to this file).
+   The player reads everything else from the slot's data-* attributes and guidance/house-N.json. */
+(function () {
+  var here = document.currentScript && document.currentScript.src ? document.currentScript.src : "meru.js";
+  var src = here.replace(/meru\.js(?:[?#].*)?$/, "guidance/player.js");
+  function load() {
+    if (!document.getElementById("guidance-slot") || document.getElementById("guidance-player-js")) return;
+    var s = document.createElement("script");
+    s.id = "guidance-player-js";
+    s.src = src;
+    s.async = true;
+    document.body.appendChild(s);
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", load);
+  else load();
+})();

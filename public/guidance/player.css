@@ -1,0 +1,33 @@
+/* Guru Meru guidance player. Mounted inside #guidance-slot on the door pages. */
+.gp{border:1px solid rgba(201,162,39,.4);border-radius:16px;padding:14px;background:rgba(10,15,30,.55);font-family:system-ui,sans-serif;color:#f4efe6}
+.gp.gp-observe{border-color:rgba(192,57,43,.55)}
+.gp-head{margin:0 0 10px}
+.gp-eyebrow{margin:0;color:#c9a227;letter-spacing:.18em;text-transform:uppercase;font-size:.72rem}
+.gp.gp-observe .gp-eyebrow{color:#f2b8ae}
+.gp-title{margin:4px 0 0;font-family:Georgia,serif;font-size:1.05rem;line-height:1.35}
+.gp-note{margin:6px 0 0;color:#f2b8ae;font-size:.85rem;line-height:1.4}
+.gp-stage{position:relative;border-radius:12px;overflow:hidden;background:#0a0f1e;aspect-ratio:16/9}
+.gp-stage canvas{display:block;width:100%;height:100%}
+@supports not (aspect-ratio:16/9){.gp-stage{height:0;padding-top:56.25%}.gp-stage canvas{position:absolute;inset:0}}
+.gp-now{min-height:3.2em;margin:12px 2px 4px;font-family:Georgia,serif;font-size:1.15rem;line-height:1.45;color:#f4efe6}
+.gp-now.gp-now-quiet{color:#9a8f7a;letter-spacing:.3em}
+.gp-controls{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:8px 0}
+.gp-btn{min-height:44px;min-width:44px;padding:8px 14px;border-radius:999px;border:1px solid rgba(201,162,39,.55);background:transparent;color:#f4efe6;font:inherit;font-size:.92rem;cursor:pointer}
+.gp-btn.gp-play{background:#c9a227;border-color:#c9a227;color:#0b0a12;font-weight:700;min-width:96px}
+.gp-btn:hover:not(:disabled){background:rgba(201,162,39,.16)}
+.gp-btn.gp-play:hover:not(:disabled){background:#d8b440}
+.gp-btn:disabled{opacity:.4;cursor:default}
+.gp-btn:focus-visible{outline:2px solid #f2d8a0;outline-offset:3px}
+.gp-btn[aria-pressed="false"]{color:#9a8f7a;border-color:rgba(255,255,255,.2)}
+.gp-time{margin-left:auto;color:#9a8f7a;font-variant-numeric:tabular-nums;font-size:.85rem}
+.gp-bar{height:4px;border-radius:4px;background:rgba(255,255,255,.08);overflow:hidden}
+.gp-fill{height:100%;width:0;background:linear-gradient(90deg,#a9c4e8,#f2d8a0);transition:width .25s linear}
+.gp-status{min-height:1.2em;margin:6px 2px;color:#9a8f7a;font-size:.82rem}
+.gp-transcript{margin:6px 0 0;border-top:1px solid rgba(255,255,255,.08);padding-top:8px}
+.gp-transcript summary{color:#c9a227;cursor:pointer;font-size:.88rem}
+.gp-lines{position:relative;max-height:11em;overflow:auto;margin-top:8px;padding:2px 4px;font-family:Georgia,serif;line-height:1.6;color:#b9b0a0;scroll-behavior:smooth}
+.gp-s{border-radius:4px;padding:1px 2px;transition:background-color .6s ease,color .6s ease}
+.gp-s.gp-quiet{color:#6f6758;letter-spacing:.2em}
+.gp-s.gp-current{background:rgba(201,162,39,.22);color:#f4efe6}
+@media (max-width:560px){.gp{padding:10px}.gp-now{font-size:1.02rem}.gp-btn{padding:8px 11px}.gp-time{margin-left:0;width:100%}}
+@media (prefers-reduced-motion:reduce){.gp-fill,.gp-s{transition:none}.gp-lines{scroll-behavior:auto}}
