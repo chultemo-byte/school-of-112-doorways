@@ -1,0 +1,213 @@
+{
+  "id": "D-087",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "Whirling Until Falling (Classical)",
+  "sanskrit": "bhrāntvā bhrāntvā śarīreṇa",
+  "house": 6,
+  "status": "draft",
+  "practice_mode": "historical/observe_only",
+  "previous_label": "none: new door (doors/index.json at 32e76c4 lists door 87 as unassigned, with no name)",
+  "previous_file": "none: no door file existed for door 87 at commit 32e76c4",
+  "previous_vbt_ref": "none",
+  "dharana": {
+    "number": 87,
+    "verses": [
+      111
+    ],
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114, otherwise one verse each; dhāraṇā 112 = verse 137)",
+    "sanskrit_iast": "bhrāntvā bhrāntvā śarīreṇa tvaritam bhuvi pātanāt | kṣobhaśaktivirāmeṇa parā saṃjāyate daśā ||",
+    "sanskrit_source": "GRETIL e-text, compared with Wallis's concordance, Pradīpaka and the Singh scan",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [],
+    "rendering": "Whirling the body round and round, then swiftly falling to the ground: through the cessation of the energy of agitation, the supreme state arises.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+    "commentary_note": "Singh comments on verses 111 and 112 together: both refer to the condition of mind at the end of an intense commotion, here physical, in 112 intellectual. When the stirring ceases, thought-constructs are laid to rest and Bhairava's nature is revealed. He classes 111 as śāmbhavopāya. Wallis: 'cessation of the energy of excitation'.",
+    "technique_name": "Whirling Until Falling (Classical)",
+    "category": "sensation",
+    "category_plain": "sensation",
+    "category_secondary": [
+      "stillness after movement"
+    ],
+    "instruction": "Observe only: read and understand this classical description. It is not practised in class. Never spin until falling. For a gentle practice of stillness after movement, use Door 060.",
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 87] VERSE 111'. OCR note: Singh's heading is OCR'd as '[Dhāraṇā 81]' (a misread of 87): it sits between [Dhāraṇā 86] VERSE 110 and [Dhāraṇā 88] VERSE 112, and the verse is headed VERSE 111.",
+        "The Mystery Within (2019), Session Two list: 'Dharana 87' = verse 111 (agrees with Singh)",
+        "Wallis concordance: verse 111 = 'Cessation of the energy of excitation (Y86 ~ C1)' (verse text and technique match)",
+        "GRETIL, Wallis and Pradīpaka: Sanskrit of verse 111 compared"
+      ],
+      "notes": "Door index = Singh dhāraṇā number, read directly in Singh's own headings and cross-checked against The Mystery Within's Singh-numbered list and Wallis's concordance. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "verse 111: Cessation of the energy of excitation (Y86 ~ C1)",
+      "mystery_within_parallel": "The parallel-translations section of The Mystery Within labels verse 111 'Dharana 88', because from verse 106 on it gives every verse its own number (106 = 83 … 137 = 114). Singh and the same book's Session Two list put this at dhāraṇā 87. Not followed."
+    },
+    "source_disagreements": [
+      "Method: Singh, Dyczkowski and Bäumer read whirling round and round, then falling; Wallis adds an alternative, 'roaming on foot for hours and finally collapsing', and Dubois renders 'wandering for a long time'. The printed Sanskrit (bhrāntvā bhrāntvā) can mean either whirling or wandering."
+    ]
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 111 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "spiral_to_stillness",
+    "joints": [],
+    "points": [
+      "whirling (classical)",
+      "the fall (classical)",
+      "the stillness after"
+    ],
+    "summary": "Not a body shape. The classical map is a spiral of motion ending in stillness. Drawn faint: studied, not drilled.",
+    "svg_hint": "a faint spiral that ends in a still dot, drawn faint to signal observe-only",
+    "honesty": "Geometry records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
+  },
+  "reaction": {
+    "name": "Stillness after agitation (described)",
+    "from_phase": "agitation",
+    "to_phase": "supreme_state",
+    "summary": "School metaphor only: intense movement comes to rest, and the stillness after it is the point. A picture to understand, not an exercise. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "mode": "natural",
+    "lands_in": "wherever the breath naturally ends; this door places nothing on the breath",
+    "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+  },
+  "orientation": {
+    "cue": "Study the verse; let the body simply rest while you do",
+    "gravity": "Let the floor or chair carry the body completely; there is no posture to hold",
+    "gaze": "Eyes closed or softly lowered",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
+  },
+  "attention": {
+    "primary": "Understanding the verse: the stillness that follows the end of agitation",
+    "secondary": "Nothing is practised from this verse",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 087 (verse 111)",
+    "verse_paraphrase": "Whirling the body round and round, then swiftly falling to the ground: through the cessation of the energy of agitation, the supreme state arises.",
+    "method_summary": "Classical method: whirling the body round and round and then swiftly falling to the ground, the supreme state arises through the cessation of the energy of agitation. Observe-only in this school: read and understand it; never do it. For a gentle practice, use Door 060.",
+    "practice_mode": "observe_only",
+    "historical_extreme": true,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Door 087 follows Vijñāna Bhairava Tantra dharana 87 (verse 111) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type is school_device: the dharana is the content, while the door index, seat and pacing are the school's.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 087 is dharana 87, verse 111. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review.",
+      "historical/observe_only: The classical method is whirling the body until falling to the ground; this risks dizziness, falls, head injury and fainting. Taught as text to understand, not as a class drill."
+    ]
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. Do not whirl or spin to the point of dizziness or falling. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+    "observe_only_note": "Observe-only. Spinning until you fall can cause falls, head and joint injuries, nausea and fainting, and is unsafe with heart, blood-pressure, inner-ear or balance conditions and in pregnancy. For a gentle practice of stillness after movement, use Door 060."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+      "kind": "vbt",
+      "ref": "[Dhāraṇā 87] VERSE 111: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 111: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "'Session Two' list: 'Dharana 87' = verse 111 (numbering cross-check; follows Singh). Parallel-translations section labels verse 111 as 'Dharana 88' (disagrees; see dharana.numbering_variants).",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance, Part 2",
+      "kind": "commentary",
+      "ref": "verse 111 = 'Cessation of the energy of excitation (Y86 ~ C1)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance-part-two"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 111: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+      "kind": "school",
+      "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 087: whirling until falling, classical. Vijñāna Bhairava Tantra dharana 87, verse 111. This door is observe-only."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "No shape to make, and no drill. Sit comfortably while we read. Its classical map is a spiral of motion ending in stillness."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Let the body rest completely. Eyes open, reading or resting softly. Attention on understanding, not on doing."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Natural breath only. Nothing to practise with the breath here. No forced hold."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Hold the idea only: when agitation stops, a deep stillness appears. We never spin to the point of falling."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School image: a spiral ending in a still point. A metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Verse 111: describes whirling round and round, then falling; as agitation ceases, the supreme state arises. Observe-only here. For a gentle practice, use Door 060."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Close the text. Take a normal breath. Look around the room and move on when ready."
+    }
+  ],
+  "researcher": "R-087",
+  "researched_at": "2026-10-06",
+  "drafted_by": "Grok Bot (VBT Houses 2–7 research, branch research/vbt-houses-2-7)",
+  "review": {
+    "status": "pending_guardian_review",
+    "previous_review": "none (new door)"
+  }
+}

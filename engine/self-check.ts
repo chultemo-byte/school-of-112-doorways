@@ -17,17 +17,26 @@ function profile(partial: Partial<StudentProfile>): StudentProfile {
 
 const index = loadIndex();
 assert.equal(index.doors.length, 112);
-assert.equal(index.doors.filter((door) => door.status === "researched").length, 16);
+// Doors 049 and 112 stay on their prototype seeds for the engine; their research records are published.
+const PROTOTYPE_DOORS = [49, 112];
+assert.equal(index.doors.filter((door) => door.status === "researched").length, 110);
 assert.equal(index.doors.filter((door) => door.status === "seeded").length, 2);
-assert.equal(index.doors.filter((door) => door.status === "unassigned").length, 94);
-assert.equal(index.doors.filter((door) => door.sanskrit === null).length, 94);
+assert.equal(index.doors.filter((door) => door.status === "unassigned").length, 0);
+assert.equal(index.doors.filter((door) => door.sanskrit === null).length, 0);
 
-for (let number = 1; number <= 16; number += 1) {
-  const entry = index.doors[number - 1];
+const houseOfDoor = (number: number): number => Math.ceil(number / 16);
+const pad3 = (number: number): string => String(number).padStart(3, "0");
+for (let number = 1; number <= 112; number += 1) {
+  const entry = index.doors[number - 1] as (typeof index.doors)[number] & { research_file?: string };
   assert.equal(entry?.number, number);
+  if (PROTOTYPE_DOORS.includes(number)) {
+    assert.equal(entry?.status, "seeded");
+    assert.equal(entry?.research_file, "doors/D-" + pad3(number) + "/door.json");
+    continue;
+  }
   assert.equal(entry?.status, "researched");
-  assert.equal(entry?.house, 1);
-  assert.equal(entry?.file, "doors/D-" + String(number).padStart(3, "0") + "/door.json");
+  assert.equal(entry?.house, houseOfDoor(number));
+  assert.equal(entry?.file, "doors/D-" + pad3(number) + "/door.json");
 }
 
 const door1 = loadDoor(1);
@@ -49,27 +58,44 @@ assert.equal(door1.honesty.pairing_type, "school_device");
 assert.equal(door1.adiyogi.practice_mode, "practice");
 assert.equal(door1.adiyogi.vbt_ref, "VBT dharana 001 (verse 24)");
 
-// House 1 is VBT dharanas 1-16 (Jaideva Singh numbering: door N = dharana N = verse N + 23).
-const OBSERVE_ONLY_DOORS = [4, 8, 13, 14];
-for (let number = 1; number <= 16; number += 1) {
+// Door N is VBT dharana N (Jaideva Singh numbering: dharana 1 = verse 24; dharana 82 = verses 105-106,
+// dharana 89 = verses 113-114, otherwise one verse each; dharana 112 = verse 137).
+const SINGH_VERSES: number[][] = [];
+for (let number = 1, verse = 24; number <= 112; number += 1) {
+  const span = number === 82 || number === 89 ? 2 : 1;
+  SINGH_VERSES[number] = Array.from({ length: span }, (_, i) => verse + i);
+  verse += span;
+}
+assert.deepEqual(SINGH_VERSES[112], [137]);
+const OBSERVE_ONLY_DOORS = [4, 8, 13, 14, 29, 30, 41, 44, 45, 46, 47, 54, 55, 70, 87, 89, 90];
+const SEXUAL_CONTENT_DOORS = [45, 46, 47];
+for (let number = 1; number <= 112; number += 1) {
   const raw = JSON.parse(
     readFileSync(path.join(repoRoot(), "doors", "D-" + String(number).padStart(3, "0"), "door.json"), "utf8"),
   ) as {
     schema_version: string;
     framing: string;
     practice_mode: string;
+    status: string;
+    house: number;
     dharana: { number: number; verses: number[] };
-    adiyogi: { practice_mode: string };
+    adiyogi: { practice_mode: string; sexual_content?: boolean };
     breath: { hold: number };
+    review: { status: string };
   };
   assert.equal(raw.schema_version, "2.0.0");
   assert.equal(raw.framing, "vbt_dharana");
+  assert.equal(raw.house, houseOfDoor(number), "door " + number + " house");
   assert.equal(raw.dharana.number, number);
-  assert.equal(raw.dharana.verses[0], number + 23);
+  assert.deepEqual(raw.dharana.verses, SINGH_VERSES[number], "door " + number + " verses");
   assert.equal(raw.breath.hold, 0);
+  assert.equal(raw.status, "draft", "door " + number + " status");
+  assert.match(raw.review.status, /^pending_guardian_(re_)?review$/, "door " + number + " review");
   const observe = OBSERVE_ONLY_DOORS.includes(number);
   assert.equal(raw.practice_mode, observe ? "historical/observe_only" : "practice", "door " + number + " mode");
   assert.equal(raw.adiyogi.practice_mode, observe ? "observe_only" : "practice", "door " + number + " adiyogi mode");
+  assert.equal(raw.adiyogi.sexual_content === true, SEXUAL_CONTENT_DOORS.includes(number), "door " + number + " sexual_content");
+  if (PROTOTYPE_DOORS.includes(number)) continue;
   const door = loadDoor(number);
   assert.equal(isResearchDoor(door), true);
   assert.equal(vbtMode(door), observe ? "observe_only" : "practice", "door " + number + " vbtMode gate");
@@ -107,9 +133,13 @@ assert.equal(hasMedicalClaim("this pose cures pain"), true);
 assert.equal(hasMedicalClaim("Practice is not medical treatment."), false);
 assert.equal(hasMedicalClaim("This machine does not diagnose."), false);
 
-assert.throws(() => loadDoor(17), /unassigned/);
+const door17 = loadDoor(17);
+assert.equal(isResearchDoor(door17), true);
+if (isResearchDoor(door17)) {
+  assert.equal(door17.id, "D-017");
+}
 
-for (const number of [1, 2, 13, 16]) {
+for (const number of [1, 2, 13, 16, 17, 29, 45, 82, 89, 100, 111]) {
   const door = loadDoor(number);
   assert.equal(isResearchDoor(door), true);
   if (!isResearchDoor(door)) {
@@ -233,12 +263,13 @@ assert.equal(next.door ? doorNumber(next.door) : 0, 2);
 const house1 = Array.from({ length: 16 }, (_, index) => index + 1);
 const afterHouse = teach(profile({ completed_doors: house1 }));
 assert.equal(afterHouse.status, "teaching");
-assert.equal(afterHouse.door ? doorNumber(afterHouse.door) : 0, 49);
+assert.equal(afterHouse.door ? doorNumber(afterHouse.door) : 0, 17);
 
-const afterHouseAndCobra = teach(profile({ completed_doors: [...house1, 49] }));
-assert.equal(afterHouseAndCobra.status, "teaching");
-assert.equal(afterHouseAndCobra.door ? doorNumber(afterHouseAndCobra.door) : 0, 112);
-assert.match(afterHouseAndCobra.script[1].spoken, /Open-seat twin/);
+const allButLast = Array.from({ length: 111 }, (_, index) => index + 1);
+const afterAllButLast = teach(profile({ completed_doors: allButLast }));
+assert.equal(afterAllButLast.status, "teaching");
+assert.equal(afterAllButLast.door ? doorNumber(afterAllButLast.door) : 0, 112);
+assert.match(afterAllButLast.script[1].spoken, /Open-seat twin/);
 
 const publicRoot = path.join(repoRoot(), "public");
 type PublicDoor = {
@@ -254,57 +285,58 @@ type PublicDoor = {
   category: string | null;
   practice_mode: string | null;
   observe_only: boolean | null;
-  dharana: { number: number; verse: number } | null;
+  dharana: { number: number; verse: number; verses: number[] } | null;
   method?: { framing: string; text: string };
   beats?: unknown[] | null;
   breath?: unknown;
   seat?: unknown;
   safety?: { notes: string[]; observe_only_note: string | null };
-  honesty?: { pairing_type: string; flags: string[] };
+  honesty?: { pairing_type: string; flags: string[]; review: string | null };
   guidance?: { slot: string; audio: unknown; visual: unknown };
 };
 const registry = JSON.parse(readFileSync(path.join(publicRoot, "doors.json"), "utf8")) as PublicDoor[];
 assert.equal(registry.length, 112);
-const openPublic = registry.filter((door) => door.status === "remembered");
-const waitingPublic = registry.filter((door) => door.status === "being_remembered");
 assert.deepEqual(
-  openPublic.map((door) => door.number),
-  Array.from({ length: 16 }, (_, i) => i + 1),
+  registry.filter((door) => door.status === "remembered").map((door) => door.number),
+  Array.from({ length: 112 }, (_, i) => i + 1),
 );
-assert.equal(waitingPublic.length, 96);
-for (const door of waitingPublic) {
-  assert.equal(door.title, null, "door " + door.number + " title");
-  assert.equal(door.sanskrit, null, "door " + door.number + " sanskrit");
-  assert.equal(door.dharana, null, "door " + door.number + " dharana");
-  assert.equal(door.instruction, null, "door " + door.number + " instruction");
-}
-for (const door of openPublic) {
+for (const door of registry) {
   const n = door.number;
+  const verses = SINGH_VERSES[n];
+  assert.equal(door.house, houseOfDoor(n));
   assert.equal(door.dharana?.number, n);
-  assert.equal(door.dharana?.verse, n + 23);
+  assert.equal(door.dharana?.verse, verses[0]);
+  assert.deepEqual(door.dharana?.verses, verses);
   assert.equal(typeof door.title, "string");
   assert.equal(typeof door.instruction, "string");
   assert.equal(typeof door.category, "string");
   assert.equal(door.honesty?.pairing_type, "school_device");
   assert.ok((door.honesty?.flags.length ?? 0) > 0);
+  assert.match(door.honesty?.review ?? "", /^pending_guardian_(re_)?review$/);
   assert.ok((door.safety?.notes.length ?? 0) > 0);
   assert.equal(door.guidance?.slot, "#guidance-slot");
   const observe = OBSERVE_ONLY_DOORS.includes(n);
   assert.equal(door.observe_only, observe);
   assert.equal(door.practice_mode, observe ? "historical/observe_only" : "practice");
-  const html = readFileSync(path.join(publicRoot, "door-" + String(n).padStart(3, "0") + ".html"), "utf8");
-  assert.match(html, new RegExp("verse " + (n + 23) + "\\b"));
+  const html = readFileSync(path.join(publicRoot, "door-" + pad3(n) + ".html"), "utf8");
+  assert.match(html, new RegExp("verses? " + verses.join(", ") + "\\b"));
   assert.ok(html.includes(door.title ?? "\u0000"), "door " + n + " title on page");
-  assert.match(html, /id="guidance-slot"/);
+  assert.match(html, new RegExp('<section class="guidance-slot" id="guidance-slot" data-door="' + pad3(n) + '" data-dharana="' + n + '" data-verse="' + verses.join(",") + '" data-practice-mode="' + door.practice_mode + '"'));
+  assert.ok(html.indexOf('id="one-line"') < html.indexOf('id="guidance-slot"'), "door " + n + " slot after instruction");
+  assert.ok(html.indexOf('id="guidance-slot"') < html.indexOf("<h2>The verse</h2>"), "door " + n + " slot before verse");
   assert.match(html, /id="honesty"/);
   assert.match(html, /id="safety"/);
+  assert.match(html, /Draft · awaiting guardian review/);
   assert.doesNotMatch(html, /<video|\.mp4/);
+  assert.doesNotMatch(html, /http-equiv="refresh"/);
   if (observe) {
     assert.match(html, /Historical \/ observe only/);
     assert.match(html, /<h2>Classical description<\/h2>/);
-    assert.doesNotMatch(html, /How to sit with it|The eight beats|<h2>Breath<\/h2>/);
+    assert.match(html, /id="practise-instead"/);
+    assert.match(html, /data-practise-instead="\d{3}/);
+    assert.doesNotMatch(html, /How to sit with it|The eight beats|<h2>Breath<\/h2>|Where attention rests/);
     assert.equal(door.method?.framing, "classical_description");
-    assert.match(door.method?.text ?? "", /^Classical method: /);
+    assert.match(door.method?.text ?? "", SEXUAL_CONTENT_DOORS.includes(n) ? /^Classical description: / : /^Classical method: /);
     assert.equal(door.beats, null);
     assert.equal(door.breath, null);
     assert.equal(door.seat, null);
@@ -319,16 +351,12 @@ const publicDoor1 = readFileSync(path.join(publicRoot, "door-001.html"), "utf8")
 assert.match(publicDoor1, /Resting in the Two Turning Points of the Breath/);
 assert.match(publicDoor1, /verse 24/);
 assert.match(publicDoor1, /meru\.js/);
-assert.doesNotMatch(publicDoor1, /http-equiv="refresh"/);
 assert.equal(registry[0]?.bija, "LAM");
 assert.equal(registry[0]?.color, "vermilion");
 assert.equal(registry[0]?.house, 1);
-assert.equal(registry[16]?.status, "being_remembered");
 assert.equal(registry[16]?.house, 2);
 assert.equal(registry[16]?.bija, "VAM");
-assert.equal(registry[48]?.status, "being_remembered");
 assert.equal(registry[48]?.house, 4);
-assert.equal(registry[111]?.status, "being_remembered");
 assert.equal(registry[111]?.element, "Crown");
 for (let part = 1; part <= 4; part += 1) {
   const slice = JSON.parse(
@@ -368,15 +396,20 @@ for (const file of readdirSync(publicRoot)) {
 }
 
 const meruSrc = readFileSync(path.join(publicRoot, "meru.js"), "utf8");
-assert.match(meruSrc, /being remembered/);
+assert.doesNotMatch(meruSrc, /being remembered/);
 assert.match(meruSrc, /observe only/);
 const indexHtml = readFileSync(path.join(publicRoot, "index.html"), "utf8");
-for (let n = 1; n <= 16; n += 1) {
-  assert.match(indexHtml, new RegExp('href="door-' + String(n).padStart(3, "0") + '\\.html"'));
-}
-assert.match(indexHtml, /being remembered/i);
 const city = readFileSync(path.join(publicRoot, "112.html"), "utf8");
-assert.match(city, /being remembered/);
-assert.match(city, /door-sealed\.html\?n=49"/);
+for (let n = 1; n <= 112; n += 1) {
+  assert.match(indexHtml, new RegExp('href="door-' + pad3(n) + '\\.html"'));
+  assert.match(city, new RegExp('href="door-' + pad3(n) + '\\.html"'));
+}
+for (const page of [indexHtml, city]) {
+  assert.doesNotMatch(page, /being remembered/i);
+  assert.doesNotMatch(page, /door-sealed\.html/);
+}
+// Old links still land on the real door pages.
+assert.match(readFileSync(path.join(publicRoot, "door-sealed.html"), "utf8"), /location\.replace\("door-" \+ String\(n\)\.padStart\(3, "0"\) \+ "\.html"\)/);
+assert.match(readFileSync(path.join(publicRoot, "pose.html"), "utf8"), /var target = "door-" \+ String\(n\)\.padStart\(3, "0"\) \+ "\.html";/);
 
 console.log("self-check ok");

@@ -16,6 +16,7 @@
       "verses": [
         24
       ],
+      "verse_label": "24",
       "numbering": "Jaideva Singh (1979): dhāraṇā 1 = verse 24",
       "numbering_variants": {
         "wallis_yukti": "Y1 (Wallis groups verses 24–27 as one technique)"
@@ -29,6 +30,7 @@
       "verification": "verified"
     },
     "category": "breath",
+    "category_plain": null,
     "category_secondary": [
       "gap/pause"
     ],
@@ -40,7 +42,8 @@
       "framing": "practice",
       "text": "Breathe naturally. At the end of each in-breath, rest awareness for a moment at the inner turning point; at the end of each out-breath, rest it at the outer turning point. Do not stop, slow or lengthen the breath; meet the pause that is already there.",
       "note": null,
-      "practise_instead": []
+      "practise_instead": [],
+      "start_door": null
     },
     "seat": {
       "label": "Any steady, comfortable position (school addition)",
@@ -82,7 +85,8 @@
         "No medical claims. Reaction names are metaphors, not biochemistry.",
         "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only."
       ],
-      "review": "pending_guardian_re_review"
+      "review": "pending_guardian_re_review",
+      "status": "draft"
     },
     "beats": [
       {
@@ -188,6 +192,7 @@
       "verses": [
         25
       ],
+      "verse_label": "25",
       "numbering": "Jaideva Singh (1979): dhāraṇā 2 = verse 25",
       "numbering_variants": {
         "wallis_yukti": "Y1 (cont.) (Wallis groups verses 24–27 as one technique)"
@@ -201,6 +206,7 @@
       "verification": "verified"
     },
     "category": "breath",
+    "category_plain": null,
     "category_secondary": [
       "gap/pause"
     ],
@@ -212,7 +218,8 @@
       "framing": "practice",
       "text": "Breathe naturally. Notice the small space after the in-breath and the small space after the out-breath. Stay present in each space instead of hurrying attention back into the next movement. Do not hold the breath to make the space longer.",
       "note": null,
-      "practise_instead": []
+      "practise_instead": [],
+      "start_door": null
     },
     "seat": {
       "label": "Any steady, comfortable position (school addition)",
@@ -254,7 +261,8 @@
         "No medical claims. Reaction names are metaphors, not biochemistry.",
         "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only."
       ],
-      "review": "pending_guardian_re_review"
+      "review": "pending_guardian_re_review",
+      "status": "draft"
     },
     "beats": [
       {
@@ -365,6 +373,7 @@
       "verses": [
         26
       ],
+      "verse_label": "26",
       "numbering": "Jaideva Singh (1979): dhāraṇā 3 = verse 26",
       "numbering_variants": {
         "wallis_yukti": "Y1 (cont.) (Wallis groups verses 24–27 as one technique)"
@@ -378,6 +387,7 @@
       "verification": "verified"
     },
     "category": "breath",
+    "category_plain": null,
     "category_secondary": [
       "gap between thoughts"
     ],
@@ -389,7 +399,8 @@
       "framing": "practice",
       "text": "Rest awareness in the natural still centre where breath-energy is not rushing out or in. Recognise the pause rather than creating it. If breath pauses lightly on its own, witness it; never induce or prolong a stop of the breath.",
       "note": null,
-      "practise_instead": []
+      "practise_instead": [],
+      "start_door": null
     },
     "seat": {
       "label": "Any steady, comfortable position (school addition)",
@@ -430,7 +441,8 @@
         "No medical claims. Reaction names are metaphors, not biochemistry.",
         "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only."
       ],
-      "review": "pending_guardian_re_review"
+      "review": "pending_guardian_re_review",
+      "status": "draft"
     },
     "beats": [
       {
@@ -536,6 +548,7 @@
       "verses": [
         27
       ],
+      "verse_label": "27",
       "numbering": "Jaideva Singh (1979): dhāraṇā 4 = verse 27",
       "numbering_variants": {
         "wallis_yukti": "Y1 (cont.) (Wallis groups verses 24–27 as one technique)"
@@ -549,6 +562,7 @@
       "verification": "verified"
     },
     "category": "breath",
+    "category_plain": null,
     "category_secondary": [
       "breath retention"
     ],
@@ -564,7 +578,8 @@
         1,
         2,
         3
-      ]
+      ],
+      "start_door": null
     },
     "seat": null,
     "breath": null,
@@ -589,7 +604,8 @@
         "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only.",
         "historical/observe_only: Breath retention (kumbhaka) is the technique of this verse. Taught as text to understand, not as a class drill."
       ],
-      "review": "pending_guardian_re_review"
+      "review": "pending_guardian_re_review",
+      "status": "draft"
     },
     "beats": null,
     "sources": [
@@ -654,6 +670,7 @@
       "verses": [
         28
       ],
+      "verse_label": "28",
       "numbering": "Jaideva Singh (1979): dhāraṇā 5 = verse 28",
       "numbering_variants": {
         "wallis_yukti": "Y2 (Wallis groups verses 24–27 as one technique)",
@@ -668,6 +685,7 @@
       "verification": "verified"
     },
     "category": "visualization",
+    "category_plain": null,
     "category_secondary": [
       "kuṇḍalinī / subtle body",
       "light"
@@ -680,7 +698,8 @@
       "framing": "practice",
       "text": "Rest attention at the base of the body, then imagine a soft radiance rising along the centre line, growing subtler and subtler until it dissolves in the space above the crown. Ordinary breath. Do not force heat, shaking, breath retention or dramatic effects.",
       "note": null,
-      "practise_instead": []
+      "practise_instead": [],
+      "start_door": null
     },
     "seat": {
       "label": "Any steady, comfortable position (school addition)",
@@ -723,7 +742,8 @@
         "No medical claims. Reaction names are metaphors, not biochemistry.",
         "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only."
       ],
-      "review": "pending_guardian_re_review"
+      "review": "pending_guardian_re_review",
+      "status": "draft"
     },
     "beats": [
       {
@@ -829,6 +849,7 @@
       "verses": [
         29
       ],
+      "verse_label": "29",
       "numbering": "Jaideva Singh (1979): dhāraṇā 6 = verse 29",
       "numbering_variants": {
         "wallis_yukti": "Y3 (Wallis groups verses 24–27 as one technique)"
@@ -842,6 +863,7 @@
       "verification": "verified"
     },
     "category": "visualization",
+    "category_plain": null,
     "category_secondary": [
       "kuṇḍalinī / subtle body",
       "light"
@@ -854,7 +876,8 @@
       "framing": "practice",
       "text": "Gentle form: quietly mark attention centre by centre up the central line (base, belly, heart, throat, brow, crown), then rest awareness in the space above the crown for a breath or two. Contemplative tracing only; never try to produce rushes, heat or shaking, and never force sensation or breath.",
       "note": null,
-      "practise_instead": []
+      "practise_instead": [],
+      "start_door": null
     },
     "seat": {
       "label": "Any steady, comfortable position (school addition)",
@@ -896,7 +919,8 @@
         "No medical claims. Reaction names are metaphors, not biochemistry.",
         "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only."
       ],
-      "review": "pending_guardian_re_review"
+      "review": "pending_guardian_re_review",
+      "status": "draft"
     },
     "beats": [
       {
@@ -1002,6 +1026,7 @@
       "verses": [
         30
       ],
+      "verse_label": "30",
       "numbering": "Jaideva Singh (1979): dhāraṇā 7 = verse 30",
       "numbering_variants": {
         "wallis_yukti": "Y4 (Wallis groups verses 24–27 as one technique)"
@@ -1015,6 +1040,7 @@
       "verification": "verified"
     },
     "category": "visualization",
+    "category_plain": null,
     "category_secondary": [
       "sound/mantra",
       "kuṇḍalinī / subtle body"
@@ -1027,7 +1053,8 @@
       "framing": "practice",
       "text": "Classical method (Singh's notes): twelve stations from janmāgra to vyāpinī, linked with the twelve vowels, each contemplated in gross, subtle and supreme phases and then left behind. School simplification (flagged): move attention up a short midline sequence (pelvic floor, navel, heart, throat, brow, crown). At each station feel the coarse sense, then a subtler quiet, then leave it and rise. No phoneme placement, no forced breath-hold.",
       "note": null,
-      "practise_instead": []
+      "practise_instead": [],
+      "start_door": null
     },
     "seat": {
       "label": "Any steady, comfortable position (school addition)",
@@ -1069,7 +1096,8 @@
         "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only.",
         "School simplification: six midline stations are taught instead of the twelve stations and twelve vowels in Singh's notes."
       ],
-      "review": "pending_guardian_re_review"
+      "review": "pending_guardian_re_review",
+      "status": "draft"
     },
     "beats": [
       {
@@ -1175,6 +1203,7 @@
       "verses": [
         31
       ],
+      "verse_label": "31",
       "numbering": "Jaideva Singh (1979): dhāraṇā 8 = verse 31",
       "numbering_variants": {
         "wallis_yukti": "Y5 (Wallis groups verses 24–27 as one technique)",
@@ -1189,6 +1218,7 @@
       "verification": "verified"
     },
     "category": "visualization",
+    "category_plain": null,
     "category_secondary": [
       "breath",
       "kuṇḍalinī / subtle body"
@@ -1204,7 +1234,8 @@
       "practise_instead": [
         3,
         11
-      ]
+      ],
+      "start_door": null
     },
     "seat": null,
     "breath": null,
@@ -1230,7 +1261,8 @@
         "historical/observe_only: Relies on fast, forceful filling of the breath and deliberate contraction of the brow; some read it as suspending the breath. Taught as text to understand, not as a class drill.",
         "Numbering correction: the previous draft used Wallis Y8 = verse 34 and taught that verse here. That material moves to Door 011."
       ],
-      "review": "pending_guardian_re_review"
+      "review": "pending_guardian_re_review",
+      "status": "draft"
     },
     "beats": null,
     "sources": [
@@ -1295,6 +1327,7 @@
       "verses": [
         32
       ],
+      "verse_label": "32",
       "numbering": "Jaideva Singh (1979): dhāraṇā 9 = verse 32",
       "numbering_variants": {
         "wallis_yukti": "Y6 (Wallis groups verses 24–27 as one technique)"
@@ -1308,6 +1341,7 @@
       "verification": "verified"
     },
     "category": "sensation",
+    "category_plain": null,
     "category_secondary": [
       "emptiness/space",
       "visualization"
@@ -1320,7 +1354,8 @@
       "framing": "practice",
       "text": "Optionally look at a peacock feather or a picture of one, then close the eyes. Notice the whole sensory field (sight, sound, touch, taste, smell) as nested rings. Let detail dissolve toward the quiet centre at the heart, without chasing sensation or forcing trance.",
       "note": null,
-      "practise_instead": []
+      "practise_instead": [],
+      "start_door": null
     },
     "seat": {
       "label": "Any steady, comfortable position (school addition)",
@@ -1363,7 +1398,8 @@
         "No medical claims. Reaction names are metaphors, not biochemistry.",
         "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only."
       ],
-      "review": "pending_guardian_re_review"
+      "review": "pending_guardian_re_review",
+      "status": "draft"
     },
     "beats": [
       {
@@ -1469,6 +1505,7 @@
       "verses": [
         33
       ],
+      "verse_label": "33",
       "numbering": "Jaideva Singh (1979): dhāraṇā 10 = verse 33",
       "numbering_variants": {
         "wallis_yukti": "Y7 (Wallis groups verses 24–27 as one technique)",
@@ -1483,6 +1520,7 @@
       "verification": "verified"
     },
     "category": "concentration",
+    "category_plain": null,
     "category_secondary": [
       "emptiness/space"
     ],
@@ -1494,7 +1532,8 @@
       "framing": "practice",
       "text": "Rest a soft gaze on empty sky or a blank wall, keep attention there without chasing thoughts, and let it dissolve into the support. Optional variant: briefly rest attention on the presence of someone you hold as worthy, then return to the breath. Contemplative focus only, not ritual or force.",
       "note": null,
-      "practise_instead": []
+      "practise_instead": [],
+      "start_door": null
     },
     "seat": {
       "label": "Any steady, comfortable position (school addition)",
@@ -1535,7 +1574,8 @@
         "No medical claims. Reaction names are metaphors, not biochemistry.",
         "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only."
       ],
-      "review": "pending_guardian_re_review"
+      "review": "pending_guardian_re_review",
+      "status": "draft"
     },
     "beats": [
       {
@@ -1636,6 +1676,7 @@
       "verses": [
         34
       ],
+      "verse_label": "34",
       "numbering": "Jaideva Singh (1979): dhāraṇā 11 = verse 34",
       "numbering_variants": {
         "wallis_yukti": "Y8 (Wallis groups verses 24–27 as one technique)",
@@ -1650,6 +1691,7 @@
       "verification": "verified"
     },
     "category": "concentration",
+    "category_plain": null,
     "category_secondary": [
       "emptiness/space"
     ],
@@ -1661,7 +1703,8 @@
       "framing": "practice",
       "text": "Sit or lie quietly, close the eyes, and place attention inside the skull as a soft field rather than a clenched point. Let mental steadiness build bit by bit without forcing a vision or a blank.",
       "note": null,
-      "practise_instead": []
+      "practise_instead": [],
+      "start_door": null
     },
     "seat": {
       "label": "Any steady, comfortable position (school addition)",
@@ -1704,7 +1747,8 @@
         "Numbering correction: the previous draft of this door followed hatha.es's non-standard numbering (dharana 11 = verse 106 (connection of subject and object)). Rebuilt to Singh's verse 34.",
         "Content moved: the previous Door 008 draft carried verse 34. It now lives here, at its Singh position."
       ],
-      "review": "pending_guardian_re_review"
+      "review": "pending_guardian_re_review",
+      "status": "draft"
     },
     "beats": [
       {
@@ -1815,6 +1859,7 @@
       "verses": [
         35
       ],
+      "verse_label": "35",
       "numbering": "Jaideva Singh (1979): dhāraṇā 12 = verse 35",
       "numbering_variants": {
         "wallis_yukti": "Y9 (Wallis groups verses 24–27 as one technique)"
@@ -1828,6 +1873,7 @@
       "verification": "verified"
     },
     "category": "visualization",
+    "category_plain": null,
     "category_secondary": [
       "emptiness/space",
       "kuṇḍalinī / subtle body"
@@ -1840,7 +1886,8 @@
       "framing": "practice",
       "text": "Rest awareness on one continuous slender channel through the middle of the body, fine as a lotus-stalk fibre, and feel its inside as open space rather than as a muscle to grip. No forcing of breath or effort.",
       "note": null,
-      "practise_instead": []
+      "practise_instead": [],
+      "start_door": null
     },
     "seat": {
       "label": "Any steady, comfortable position (school addition)",
@@ -1882,7 +1929,8 @@
         "No medical claims. Reaction names are metaphors, not biochemistry.",
         "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only."
       ],
-      "review": "pending_guardian_re_review"
+      "review": "pending_guardian_re_review",
+      "status": "draft"
     },
     "beats": [
       {
@@ -1983,6 +2031,7 @@
       "verses": [
         36
       ],
+      "verse_label": "36",
       "numbering": "Jaideva Singh (1979): dhāraṇā 13 = verse 36",
       "numbering_variants": {
         "wallis_yukti": "Y10 (Wallis groups verses 24–27 as one technique)"
@@ -1996,6 +2045,7 @@
       "verification": "verified"
     },
     "category": "sensation",
+    "category_plain": null,
     "category_secondary": [
       "light",
       "visualization"
@@ -2008,7 +2058,8 @@
       "framing": "classical_description",
       "text": "Classical method: a seal of the senses with the hands (covering the eyes and the other openings) while piercing attention at the eyebrow centre until an inner point of light appears and fades.",
       "note": "Historical / observe only. Read and understood, not practised. No practice cues are given for this door.",
-      "practise_instead": []
+      "practise_instead": [],
+      "start_door": 1
     },
     "seat": null,
     "breath": null,
@@ -2033,7 +2084,8 @@
         "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only.",
         "historical/observe_only: The classical hand seal covers the eyes and closes the nose and mouth. Taught as text to understand, not as a class drill."
       ],
-      "review": "pending_guardian_re_review"
+      "review": "pending_guardian_re_review",
+      "status": "draft"
     },
     "beats": null,
     "sources": [
@@ -2093,6 +2145,7 @@
       "verses": [
         37
       ],
+      "verse_label": "37",
       "numbering": "Jaideva Singh (1979): dhāraṇā 14 = verse 37",
       "numbering_variants": {
         "wallis_yukti": "Y11 (Wallis groups verses 24–27 as one technique)",
@@ -2107,6 +2160,7 @@
       "verification": "verified"
     },
     "category": "visualization",
+    "category_plain": null,
     "category_secondary": [
       "light"
     ],
@@ -2120,7 +2174,8 @@
       "note": "Historical / observe only. Read and understood, not practised. No practice cues are given for this door.",
       "practise_instead": [
         10
-      ]
+      ],
+      "start_door": null
     },
     "seat": null,
     "breath": null,
@@ -2146,7 +2201,8 @@
         "historical/observe_only: The classical trigger for the spark of light is pressure on, or agitation of, the eyes. Taught as text to understand, not as a class drill.",
         "Numbering correction: the previous draft of this door followed hatha.es's non-standard numbering (dharana 14 = the text of verse 43 (space in all directions)). Rebuilt to Singh's verse 37."
       ],
-      "review": "pending_guardian_re_review"
+      "review": "pending_guardian_re_review",
+      "status": "draft"
     },
     "beats": null,
     "sources": [
@@ -2211,6 +2267,7 @@
       "verses": [
         38
       ],
+      "verse_label": "38",
       "numbering": "Jaideva Singh (1979): dhāraṇā 15 = verse 38",
       "numbering_variants": {
         "wallis_yukti": "Y12 (Wallis groups verses 24–27 as one technique)",
@@ -2225,6 +2282,7 @@
       "verification": "verified"
     },
     "category": "sound",
+    "category_plain": null,
     "category_secondary": [
       "emptiness/space"
     ],
@@ -2236,7 +2294,8 @@
       "framing": "practice",
       "text": "Begin with a steady natural sound if helpful (running water, wind, a fan), then let attention move to the subtle continuous hum heard when the room is quiet. Stay immersed in that unbroken sound like bathing in a river. If covering the ears, rest the palms lightly over them without pressing.",
       "note": null,
-      "practise_instead": []
+      "practise_instead": [],
+      "start_door": null
     },
     "seat": {
       "label": "Any steady, comfortable position (school addition)",
@@ -2279,7 +2338,8 @@
         "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only.",
         "Numbering correction: the previous draft of this door followed hatha.es's non-standard numbering (dharana 15 = a variant of verse 42 (piṇḍa-mantra fading into void)). Rebuilt to Singh's verse 38."
       ],
-      "review": "pending_guardian_re_review"
+      "review": "pending_guardian_re_review",
+      "status": "draft"
     },
     "beats": [
       {
@@ -2395,6 +2455,7 @@
       "verses": [
         39
       ],
+      "verse_label": "39",
       "numbering": "Jaideva Singh (1979): dhāraṇā 16 = verse 39",
       "numbering_variants": {
         "wallis_yukti": "Y13 (Wallis groups verses 24–27 as one technique)"
@@ -2408,6 +2469,7 @@
       "verification": "verified"
     },
     "category": "sound",
+    "category_plain": null,
     "category_secondary": [
       "mantra",
       "emptiness/space"
@@ -2420,7 +2482,8 @@
       "framing": "practice",
       "text": "Sound a soft, drawn-out Oṃ (or another seed-syllable you have been taught), or sound it silently. At the moment the sound ends, rest in the quiet gap. Do not chase the next thought. Do not force breath retention or strain to lengthen the sound.",
       "note": null,
-      "practise_instead": []
+      "practise_instead": [],
+      "start_door": null
     },
     "seat": {
       "label": "Any steady, comfortable position (school addition)",
@@ -2463,7 +2526,8 @@
         "No medical claims. Reaction names are metaphors, not biochemistry.",
         "Reframed from the earlier posture framing on 2026-10-06; awaiting guardian re-review. The previous review covered the posture framing only."
       ],
-      "review": "pending_guardian_re_review"
+      "review": "pending_guardian_re_review",
+      "status": "draft"
     },
     "beats": [
       {
@@ -2559,218 +2623,2063 @@
   },
   {
     "number": 17,
-    "status": "being_remembered",
+    "id": "D-017",
+    "status": "remembered",
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
     "element": "Water",
     "bija": "VAM",
     "color": null,
-    "title": null,
-    "sanskrit": null,
-    "dharana": null,
-    "category": null,
-    "instruction": null,
-    "practice_mode": null,
-    "observe_only": null,
-    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
-    "page": "door-sealed.html?n=17"
+    "title": "The Silence Before and After a Sound",
+    "sanskrit": "yasya kasyāpi varṇasya pūrvāntāv",
+    "dharana": {
+      "number": 17,
+      "verse": 40,
+      "verses": [
+        40
+      ],
+      "verse_label": "40",
+      "numbering": "Jaideva Singh (1979): dhāraṇā 17 = verse 40",
+      "numbering_variants": {
+        "wallis_yukti": "verse 40: Syllables emerging from and merging back into silence (Y14 ~ C2)"
+      },
+      "sanskrit_iast": "yasya kasyāpi varṇasya pūrvāntāv anubhāvayet | śūnyayā śūnyabhūto 'sau śūnyākāraḥ pumān bhavet ||",
+      "sanskrit_status": "verified",
+      "rendering": "Whoever dwells in the silence before any sound-syllable (varṇa) begins and after it ends becomes, through the power of that void, void himself: his very form becomes open space.",
+      "rendering_kind": "paraphrase",
+      "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+      "commentary_note": "Singh: contemplate the condition of a letter before it is uttered and after it is uttered as mere void; 'the power of the void' is parāśakti, and 'becoming the form of the void' means no longer identifying with the breath-body as the Self. Wallis reads 'the beginning and/or ending of any syllable whatsoever'. Singh classes it as śāktopāya ending in śāmbhavopāya.",
+      "verification": "verified"
+    },
+    "category": "sound",
+    "category_plain": "sound",
+    "category_secondary": [
+      "gap (silence before and after)"
+    ],
+    "instruction": "Say one soft syllable and rest in the silence just before and just after it.",
+    "practice_mode": "practice",
+    "practice_mode_label": "Practice",
+    "observe_only": false,
+    "method": {
+      "framing": "practice",
+      "text": "Say a single syllable softly, or hear one. Before it, rest in the silence it will come out of; after it, stay in the silence it goes back into. Let the syllable be small and the silences large. No straining to hear.",
+      "note": null,
+      "practise_instead": [],
+      "start_door": null
+    },
+    "seat": {
+      "label": "Any steady, comfortable position (school addition)",
+      "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+      "honesty": "School addition. Verse 40 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+    },
+    "breath": {
+      "mode": "sounded_exhale",
+      "cue": "Natural breath. On some out-breaths, say one soft syllable such as 'ma'; let it end with the breath. No forced hold.",
+      "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+    },
+    "attention": {
+      "primary": "The silence immediately before and immediately after a single syllable",
+      "secondary": "The syllable itself, held lightly"
+    },
+    "attention_map": {
+      "summary": "Not a body shape. The map is a line in time: silence, then one syllable, then silence. Attention rests on the two silences that frame the sound.",
+      "points": [
+        "the silence before the syllable",
+        "the syllable itself",
+        "the silence after the syllable"
+      ]
+    },
+    "safety": {
+      "notes": [
+        "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+        "General practice caution only; not medical advice. Keep any voiced syllable soft; there is no need to project the voice. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+        "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open."
+      ],
+      "observe_only_note": null,
+      "never_force": true
+    },
+    "honesty": {
+      "pairing_type": "school_device",
+      "disclosure": "Door 017 follows Vijñāna Bhairava Tantra dharana 17 (verse 40) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+      "flags": [
+        "Door index = Jaideva Singh dharana number: Door 017 is dharana 17, verse 40. Other editions number differently (see dharana.numbering_variants).",
+        "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+        "The English is a school paraphrase, not a quotation from any translator.",
+        "No medical claims. Reaction names are metaphors, not biochemistry.",
+        "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+      ],
+      "review": "pending_guardian_review",
+      "status": "draft"
+    },
+    "beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door 017: the silence before and after a sound. Vijñāna Bhairava Tantra dharana 17, verse 40."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "No shape to make. Sit or lie down in any easy way. The map is a line: silence, one syllable, silence."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Let the floor or the chair carry you. Eyes closed or soft."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Say one soft syllable, or listen for one. Rest in the silence before it, and stay in the silence after it."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "School image: a small sound inside a large silence. A metaphor, not medicine."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "Verse 40: dwell on what comes before and after any syllable, and through the power of the void one becomes open space. Let the sound be small and the silence large."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Release the attention. Feel the weight of the body on its support. Open the eyes when ready."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+        "ref": "[Dhāraṇā 17] VERSE 40: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+        "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+      },
+      {
+        "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+        "ref": "verse 40: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+        "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+      },
+      {
+        "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+        "ref": "'Session Two' list: 'Dharana 17' = verse 40 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 17 • verso 40' (agrees).",
+        "url": "https://archive.org/details/vijnanabhairavtantra"
+      },
+      {
+        "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+        "ref": "verse 40 = 'Syllables emerging from and merging back into silence (Y14 ~ C2)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+        "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+      },
+      {
+        "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+        "ref": "verse 40: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+        "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+      },
+      {
+        "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+        "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+        "url": null
+      }
+    ],
+    "guardian": null,
+    "guidance": {
+      "slot": "#guidance-slot",
+      "audio": null,
+      "visual": null
+    },
+    "page": "door-017.html"
   },
   {
     "number": 18,
-    "status": "being_remembered",
+    "id": "D-018",
+    "status": "remembered",
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
     "element": "Water",
     "bija": "VAM",
     "color": null,
-    "title": null,
-    "sanskrit": null,
-    "dharana": null,
-    "category": null,
-    "instruction": null,
-    "practice_mode": null,
-    "observe_only": null,
-    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
-    "page": "door-sealed.html?n=18"
+    "title": "Following a Long Musical Note to Its End",
+    "sanskrit": "tantryādivādyaśabdeṣu dīrgheṣu",
+    "dharana": {
+      "number": 18,
+      "verse": 41,
+      "verses": [
+        41
+      ],
+      "verse_label": "41",
+      "numbering": "Jaideva Singh (1979): dhāraṇā 18 = verse 41",
+      "numbering_variants": {
+        "wallis_yukti": "verse 41: Sound of the tambura (Y15 ~ C1)"
+      },
+      "sanskrit_iast": "tantryādivādyaśabdeṣu dīrgheṣu kramasaṃsthiteḥ | ananyacetāḥ pratyante paravyomavapur bhavet ||",
+      "sanskrit_status": "verified",
+      "rendering": "One who listens with undivided mind to the long, sustained sounds of stringed and other instruments, following them through their unfolding, becomes at their very end a body of supreme space.",
+      "rendering_kind": "paraphrase",
+      "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+      "commentary_note": "Singh's notes: a well-produced note seems to come out of eternity and to disappear into it, and when the music stops it still vibrates in memory; if the mind stays with that echo instead of wandering, one is absorbed in the source of all sound (parāvāk). Wallis glosses tantrī as a stringed instrument such as a vīṇā or tambura.",
+      "verification": "verified"
+    },
+    "category": "sound",
+    "category_plain": "sound",
+    "category_secondary": [
+      "gap (the end of the sound)"
+    ],
+    "instruction": "Listen to one long note until it disappears, and stay in the space it leaves.",
+    "practice_mode": "practice",
+    "practice_mode_label": "Practice",
+    "observe_only": false,
+    "method": {
+      "framing": "practice",
+      "text": "Sound or play one long, sustained note (a string, a bowl, a recorded drone). Listen to it with undivided attention as it unfolds and thins. When it becomes inaudible, do not move on; stay in what remains. Repeat with the next note.",
+      "note": null,
+      "practise_instead": [],
+      "start_door": null
+    },
+    "seat": {
+      "label": "Any steady, comfortable position (school addition)",
+      "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+      "honesty": "School addition. Verse 41 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+    },
+    "breath": {
+      "mode": "natural",
+      "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+      "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+    },
+    "attention": {
+      "primary": "One long note: a plucked string, a singing bowl, or a recorded drone, followed to its last trace",
+      "secondary": "The space that is left when the sound has gone"
+    },
+    "attention_map": {
+      "summary": "Not a body shape. The map is the life of one long note: onset, resonance, fading edge, and the space after it. Attention travels with the note and stays at its end.",
+      "points": [
+        "the onset of a sustained note",
+        "the long resonance",
+        "the edge where it becomes inaudible",
+        "what remains after"
+      ]
+    },
+    "safety": {
+      "notes": [
+        "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+        "General practice caution only; not medical advice. Keep the volume comfortable; do not hold the ear close to a loud instrument. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+        "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open."
+      ],
+      "observe_only_note": null,
+      "never_force": true
+    },
+    "honesty": {
+      "pairing_type": "school_device",
+      "disclosure": "Door 018 follows Vijñāna Bhairava Tantra dharana 18 (verse 41) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+      "flags": [
+        "Door index = Jaideva Singh dharana number: Door 018 is dharana 18, verse 41. Other editions number differently (see dharana.numbering_variants).",
+        "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+        "The English is a school paraphrase, not a quotation from any translator.",
+        "No medical claims. Reaction names are metaphors, not biochemistry.",
+        "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+      ],
+      "review": "pending_guardian_review",
+      "status": "draft"
+    },
+    "beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door 018: following a long musical note to its end. Vijñāna Bhairava Tantra dharana 18, verse 41."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "No shape to make. Any easy seat. The map is one note: its start, its long resonance, its fading edge, and the space after."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Let the floor or the chair carry you. Eyes closed or soft."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Strike or play one long note. Go with it all the way. When you can no longer hear it, stay right there."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "School image: attention rides a sound out into open space. A metaphor, not medicine."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "Verse 41: listen with undivided mind to the long sounds of strings and other instruments; at their end one becomes a body of supreme space."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Let the breath go unwatched for a round. Move the fingers and toes. Return to the room."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+        "ref": "[Dhāraṇā 18] VERSE 41: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+        "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+      },
+      {
+        "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+        "ref": "verse 41: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+        "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+      },
+      {
+        "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+        "ref": "'Session Two' list: 'Dharana 18' = verse 41 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 18 • verso 41' (agrees).",
+        "url": "https://archive.org/details/vijnanabhairavtantra"
+      },
+      {
+        "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+        "ref": "verse 41 = 'Sound of the tambura (Y15 ~ C1)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+        "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+      },
+      {
+        "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+        "ref": "verse 41: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+        "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+      },
+      {
+        "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+        "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+        "url": null
+      }
+    ],
+    "guardian": null,
+    "guidance": {
+      "slot": "#guidance-slot",
+      "audio": null,
+      "visual": null
+    },
+    "page": "door-018.html"
   },
   {
     "number": 19,
-    "status": "being_remembered",
+    "id": "D-019",
+    "status": "remembered",
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
     "element": "Water",
     "bija": "VAM",
     "color": null,
-    "title": null,
-    "sanskrit": null,
-    "dharana": null,
-    "category": null,
-    "instruction": null,
-    "practice_mode": null,
-    "observe_only": null,
-    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
-    "page": "door-sealed.html?n=19"
+    "title": "Sounding a Seed-Mantra into Silence",
+    "sanskrit": "śūnyoccārād bhavec chivaḥ",
+    "dharana": {
+      "number": 19,
+      "verse": 42,
+      "verses": [
+        42
+      ],
+      "verse_label": "42",
+      "numbering": "Jaideva Singh (1979): dhāraṇā 19 = verse 42",
+      "numbering_variants": {
+        "wallis_yukti": "verse 42: Mantra-mass (Y16 ~ A3)"
+      },
+      "sanskrit_iast": "piṇḍamantrasya sarvasya sthūlavarṇakrameṇa tu | ardhendubindunādāntaḥ śūnyoccārād bhavec chivaḥ ||",
+      "sanskrit_status": "verified",
+      "rendering": "By sounding any piṇḍa-mantra (a compact seed-mantra) through its sequence of audible letters, and then following it through its subtler phases, the half-moon, the point and the resonance, to the end of resonance and into the void, one becomes Śiva.",
+      "rendering_kind": "paraphrase",
+      "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+      "commentary_note": "Singh: uccāra here does not mean mere muttering but moving upward from gross utterance to subtle vibration and finally to mental reflection. A piṇḍamantra is a compact mantra such as AUM or the nine-letter navātma. Singh reports Śivopādhyāya's mapping of AUM onto stations rising from the navel (A) through the heart (U) and mouth (M) to the point between the brows (bindu), the forehead (ardhacandra) and on to unmanā above the head; the audible letters take one measure each, the subtle phases half a measure, unmanā is beyond time.",
+      "verification": "verified"
+    },
+    "category": "sound",
+    "category_plain": "sound",
+    "category_secondary": [
+      "mantra",
+      "gap (fading into void)"
+    ],
+    "instruction": "Sound Oṃ softly and follow it from voice to hum to silence, resting in the silence.",
+    "practice_mode": "practice",
+    "practice_mode_label": "Practice",
+    "observe_only": false,
+    "method": {
+      "framing": "practice",
+      "text": "Choose a short seed-mantra; this school uses Oṃ. Sound A-U-M audibly on an out-breath, let it become a hum, let the hum become an inner resonance, and let the resonance fade into silence. Rest in the silence before the next round.",
+      "note": null,
+      "practise_instead": [],
+      "start_door": null
+    },
+    "seat": {
+      "label": "Any steady, comfortable position (school addition)",
+      "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+      "honesty": "School addition. Verse 42 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+    },
+    "breath": {
+      "mode": "sounded_exhale",
+      "cue": "Natural in-breath. On the out-breath, sound the mantra softly and let it thin out with the breath. Take a free breath between rounds. No forced hold.",
+      "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+    },
+    "attention": {
+      "primary": "The mantra's sequence from audible letters to hum to resonance to silence",
+      "secondary": "The silence at the end, where the sound has gone"
+    },
+    "attention_map": {
+      "summary": "Not a body shape. The map is a mantra growing quieter: audible letters, then the hum, then resonance, then silence. Commentary also pictures these phases rising from the navel to above the head; that is recorded, not required.",
+      "points": [
+        "audible letters (A, U, M)",
+        "the hum after the letters (bindu, ardhacandra: commentarial)",
+        "resonance and its end (nāda, nādānta)",
+        "void (śūnya)"
+      ]
+    },
+    "safety": {
+      "notes": [
+        "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+        "General practice caution only; not medical advice. Keep the voice soft and the out-breath unforced; take free breaths between rounds. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+        "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open."
+      ],
+      "observe_only_note": null,
+      "never_force": true
+    },
+    "honesty": {
+      "pairing_type": "school_device",
+      "disclosure": "Door 019 follows Vijñāna Bhairava Tantra dharana 19 (verse 42) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+      "flags": [
+        "Door index = Jaideva Singh dharana number: Door 019 is dharana 19, verse 42. Other editions number differently (see dharana.numbering_variants).",
+        "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+        "The English is a school paraphrase, not a quotation from any translator.",
+        "No medical claims. Reaction names are metaphors, not biochemistry.",
+        "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review.",
+        "School simplification: Oṃ is used as the piṇḍa-mantra. The navātma mantra and the detailed twelve-station mapping of the subtle phases are recorded only as commentary."
+      ],
+      "review": "pending_guardian_review",
+      "status": "draft"
+    },
+    "beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door 019: sounding a seed-mantra into silence. Vijñāna Bhairava Tantra dharana 19, verse 42."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "No shape to make. Sit or lie down. The map is a sound growing quieter: letters, hum, resonance, silence."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Let the floor or the chair carry you. Eyes closed or soft."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Natural in-breath. Sound the mantra on a soft, unforced out-breath. A free breath between rounds. No hold."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Sound Oṃ softly. Let the letters become a hum, the hum an inner ring, and the ring silence. Rest in the silence."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "School image: a full sound refined into silence. A metaphor, not medicine."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "Verse 42: sound a seed-mantra letter by letter, then through point, half-moon and resonance into the void, and one becomes Śiva."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Drop the exercise. Notice the room: its sounds, its light. Carry the quiet into what comes next."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+        "ref": "[Dhāraṇā 19] VERSE 42: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+        "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+      },
+      {
+        "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+        "ref": "verse 42: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+        "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+      },
+      {
+        "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+        "ref": "'Session Two' list: 'Dharana 19' = verse 42 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 19 • verso 42' (agrees).",
+        "url": "https://archive.org/details/vijnanabhairavtantra"
+      },
+      {
+        "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+        "ref": "verse 42 = 'Mantra-mass (Y16 ~ A3)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+        "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+      },
+      {
+        "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+        "ref": "verse 42: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+        "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+      },
+      {
+        "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+        "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+        "url": null
+      }
+    ],
+    "guardian": null,
+    "guidance": {
+      "slot": "#guidance-slot",
+      "audio": null,
+      "visual": null
+    },
+    "page": "door-019.html"
   },
   {
     "number": 20,
-    "status": "being_remembered",
+    "id": "D-020",
+    "status": "remembered",
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
     "element": "Water",
     "bija": "VAM",
     "color": null,
-    "title": null,
-    "sanskrit": null,
-    "dharana": null,
-    "category": null,
-    "instruction": null,
-    "practice_mode": null,
-    "observe_only": null,
-    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
-    "page": "door-sealed.html?n=20"
+    "title": "Space in Every Direction at Once, Within the Body",
+    "sanskrit": "nijadehe sarvadikkaṃ yugapad bhāvayed viyat",
+    "dharana": {
+      "number": 20,
+      "verse": 43,
+      "verses": [
+        43
+      ],
+      "verse_label": "43",
+      "numbering": "Jaideva Singh (1979): dhāraṇā 20 = verse 43",
+      "numbering_variants": {
+        "wallis_yukti": "verse 43: Inner space (Y17 ~ C2)"
+      },
+      "sanskrit_iast": "nijadehe sarvadikkaṃ yugapad bhāvayed viyat | nirvikalpamanās tasya viyat sarvam pravartate ||",
+      "sanskrit_status": "verified",
+      "rendering": "Let one contemplate space (viyat) in every direction at once within one's own body. For one whose mind is free of thought-constructs, everything becomes space.",
+      "rendering_kind": "paraphrase",
+      "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+      "commentary_note": "Singh stresses two conditions: the contemplation must be simultaneous (yugapat), not direction by direction, and the mind must be still (nirvikalpamanāḥ); then one reaches the plane in which differences fall away. Wallis: 'everything becomes spacious'. Note: a previous House 1 draft of Door 014 carried this verse under hatha.es numbering; under Singh it belongs here.",
+      "verification": "verified"
+    },
+    "category": "emptiness/space",
+    "category_plain": "visualization/space",
+    "category_secondary": [
+      "sensation"
+    ],
+    "instruction": "Feel space opening in every direction within the body at the same time.",
+    "practice_mode": "practice",
+    "practice_mode_label": "Practice",
+    "observe_only": false,
+    "method": {
+      "framing": "practice",
+      "text": "Feel the body's inner space opening in every direction at once: front, back, sides, up and down together, not one after another. Let thoughts pass without following them, and rest in the openness.",
+      "note": null,
+      "practise_instead": [],
+      "start_door": null
+    },
+    "seat": {
+      "label": "Any steady, comfortable position (school addition)",
+      "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+      "honesty": "School addition. Verse 43 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+    },
+    "breath": {
+      "mode": "natural",
+      "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+      "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+    },
+    "attention": {
+      "primary": "Space in all directions within the body, felt simultaneously",
+      "secondary": "Thoughts left alone, so the openness can stay simple"
+    },
+    "attention_map": {
+      "summary": "Not a body shape. The map is a sphere: the body at its centre and space opening in every direction at the same moment, not one direction after another.",
+      "points": [
+        "the body as the centre",
+        "space opening in all directions at once"
+      ]
+    },
+    "safety": {
+      "notes": [
+        "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+        "General practice caution only; not medical advice. If the sense of openness feels unsettling, open the eyes and feel the contact of the body with the floor. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+        "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open."
+      ],
+      "observe_only_note": null,
+      "never_force": true
+    },
+    "honesty": {
+      "pairing_type": "school_device",
+      "disclosure": "Door 020 follows Vijñāna Bhairava Tantra dharana 20 (verse 43) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+      "flags": [
+        "Door index = Jaideva Singh dharana number: Door 020 is dharana 20, verse 43. Other editions number differently (see dharana.numbering_variants).",
+        "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+        "The English is a school paraphrase, not a quotation from any translator.",
+        "No medical claims. Reaction names are metaphors, not biochemistry.",
+        "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+      ],
+      "review": "pending_guardian_review",
+      "status": "draft"
+    },
+    "beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door 020: space in every direction at once, within the body. Vijñāna Bhairava Tantra dharana 20, verse 43."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "No shape to make. Sit or lie down. The map is a sphere, with you at the centre and space opening every way at once."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Let the floor or the chair carry you. Eyes closed or soft."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Feel space inside the body opening in every direction together. Not one direction, then the next. All at once."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "School image: a narrow focus opening into a sphere. A metaphor, not medicine."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "Verse 43: contemplate space in all directions at once within your own body; with a thought-free mind, everything becomes space."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Let the practice go. Take one free breath. Open the eyes and look around the room."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+        "ref": "[Dhāraṇā 20] VERSE 43: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+        "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+      },
+      {
+        "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+        "ref": "verse 43: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+        "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+      },
+      {
+        "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+        "ref": "'Session Two' list: 'Dharana 20' = verse 43 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 20 • verso 43' (agrees).",
+        "url": "https://archive.org/details/vijnanabhairavtantra"
+      },
+      {
+        "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+        "ref": "verse 43 = 'Inner space (Y17 ~ C2)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+        "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+      },
+      {
+        "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+        "ref": "verse 43: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+        "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+      },
+      {
+        "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+        "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+        "url": null
+      }
+    ],
+    "guardian": null,
+    "guidance": {
+      "slot": "#guidance-slot",
+      "audio": null,
+      "visual": null
+    },
+    "page": "door-020.html"
   },
   {
     "number": 21,
-    "status": "being_remembered",
+    "id": "D-021",
+    "status": "remembered",
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
     "element": "Water",
     "bija": "VAM",
     "color": null,
-    "title": null,
-    "sanskrit": null,
-    "dharana": null,
-    "category": null,
-    "instruction": null,
-    "practice_mode": null,
-    "observe_only": null,
-    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
-    "page": "door-sealed.html?n=21"
+    "title": "The Void Above and the Void at the Base",
+    "sanskrit": "pṛṣṭhaśūnyaṃ mūlaśūnyaṃ yugapad",
+    "dharana": {
+      "number": 21,
+      "verse": 44,
+      "verses": [
+        44
+      ],
+      "verse_label": "44",
+      "numbering": "Jaideva Singh (1979): dhāraṇā 21 = verse 44",
+      "numbering_variants": {
+        "wallis_yukti": "verse 44: Space above and below (Y18 ~ A2)"
+      },
+      "sanskrit_iast": "pṛṣṭhaśūnyaṃ mūlaśūnyaṃ yugapad bhāvayec ca yaḥ | śarīranirapekṣiṇyā śaktyā śūnyamanā bhavet ||",
+      "sanskrit_status": "verified",
+      "rendering": "Whoever contemplates at the same moment the void above and the void at the root becomes, through the power that does not depend on the body, void-minded.",
+      "rendering_kind": "paraphrase",
+      "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+      "commentary_note": "Singh takes pṛṣṭhaśūnya as 'the void above' and glosses 'the energy independent of the body' as prāṇaśakti; 'void-minded' means free of all thought-constructs. Wallis: the space above, at the crown of the head, and the space at the root of the body. The word pṛṣṭha can also mean 'back'; all three translators consulted read it as 'above'.",
+      "verification": "verified"
+    },
+    "category": "emptiness/space",
+    "category_plain": "visualization/space",
+    "category_secondary": [
+      "sensation"
+    ],
+    "instruction": "Feel open space above the head and at the base of the body at the same time.",
+    "practice_mode": "practice",
+    "practice_mode_label": "Practice",
+    "observe_only": false,
+    "method": {
+      "framing": "practice",
+      "text": "Feel an open space above the head and an open space at the base of the trunk, both at the same moment. Do not alternate between them. Rest as the mind between them grows empty.",
+      "note": null,
+      "practise_instead": [],
+      "start_door": null
+    },
+    "seat": {
+      "label": "Any steady, comfortable position (school addition)",
+      "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+      "honesty": "School addition. Verse 44 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+    },
+    "breath": {
+      "mode": "natural",
+      "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+      "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+    },
+    "attention": {
+      "primary": "The void above and the void at the base, held simultaneously",
+      "secondary": "The mind between them becoming quiet"
+    },
+    "attention_map": {
+      "summary": "Not a body shape. The map is two open spaces on the vertical line of the body, one above and one at the base, held at the same moment.",
+      "points": [
+        "void above (commentarial: at or above the crown)",
+        "void at the base (commentarial: root of the trunk)"
+      ]
+    },
+    "safety": {
+      "notes": [
+        "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+        "General practice caution only; not medical advice. Keep the attention light; there is nothing to push or lift. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+        "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open."
+      ],
+      "observe_only_note": null,
+      "never_force": true
+    },
+    "honesty": {
+      "pairing_type": "school_device",
+      "disclosure": "Door 021 follows Vijñāna Bhairava Tantra dharana 21 (verse 44) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+      "flags": [
+        "Door index = Jaideva Singh dharana number: Door 021 is dharana 21, verse 44. Other editions number differently (see dharana.numbering_variants).",
+        "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+        "The English is a school paraphrase, not a quotation from any translator.",
+        "No medical claims. Reaction names are metaphors, not biochemistry.",
+        "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+      ],
+      "review": "pending_guardian_review",
+      "status": "draft"
+    },
+    "beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door 021: the void above and the void at the base. Vijñāna Bhairava Tantra dharana 21, verse 44."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "No shape to make. Sit or lie down. The map is two open spaces on the body's line: one above, one at the base."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Let the floor or the chair carry you. Eyes closed or soft."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Feel the space above the head and the space at the base together, at the same moment. Not one, then the other."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "School image: both ends of a line opening at once. A metaphor, not medicine."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "Verse 44: contemplate the void above and the void at the base together, and by a power that does not depend on the body the mind becomes void."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Release the attention. Feel the weight of the body on its support. Open the eyes when ready."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+        "ref": "[Dhāraṇā 21] VERSE 44: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+        "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+      },
+      {
+        "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+        "ref": "verse 44: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+        "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+      },
+      {
+        "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+        "ref": "'Session Two' list: 'Dharana 21' = verse 44 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 21 • verso 44' (agrees).",
+        "url": "https://archive.org/details/vijnanabhairavtantra"
+      },
+      {
+        "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+        "ref": "verse 44 = 'Space above and below (Y18 ~ A2)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+        "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+      },
+      {
+        "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+        "ref": "verse 44: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+        "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+      },
+      {
+        "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+        "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+        "url": null
+      }
+    ],
+    "guardian": null,
+    "guidance": {
+      "slot": "#guidance-slot",
+      "audio": null,
+      "visual": null
+    },
+    "page": "door-021.html"
   },
   {
     "number": 22,
-    "status": "being_remembered",
+    "id": "D-022",
+    "status": "remembered",
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
     "element": "Water",
     "bija": "VAM",
     "color": null,
-    "title": null,
-    "sanskrit": null,
-    "dharana": null,
-    "category": null,
-    "instruction": null,
-    "practice_mode": null,
-    "observe_only": null,
-    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
-    "page": "door-sealed.html?n=22"
+    "title": "Three Voids at Once: Above, Base and Heart",
+    "sanskrit": "hṛcchūnyam bhāvayet sthiram",
+    "dharana": {
+      "number": 22,
+      "verse": 45,
+      "verses": [
+        45
+      ],
+      "verse_label": "45",
+      "numbering": "Jaideva Singh (1979): dhāraṇā 22 = verse 45",
+      "numbering_variants": {
+        "wallis_yukti": "verse 45: Three inner voids (Y19 ~ A3)"
+      },
+      "sanskrit_iast": "pṛṣṭhaśūnyaṃ mūlaśūnyaṃ hṛcchūnyam bhāvayet sthiram | yugapan nirvikalpatvān nirvikalpodayas tataḥ ||",
+      "sanskrit_status": "verified",
+      "rendering": "Let one steadily contemplate, all at once, the void above, the void at the root and the void in the heart. Because this is free of thought-constructs all at once, the thought-free state arises.",
+      "rendering_kind": "paraphrase",
+      "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+      "commentary_note": "Singh reports Śivopādhyāya's reading: the void above stands for the knowing subject (pramātṛ), the void at the root for the objects (prameya), and the void in the heart for knowing itself (pramāṇa), each contemplated as void. Wallis: the space above, at the root, and in the heart, simultaneously.",
+      "verification": "verified"
+    },
+    "category": "emptiness/space",
+    "category_plain": "visualization/space",
+    "category_secondary": [
+      "sensation"
+    ],
+    "instruction": "Feel open space above the head, in the heart and at the base, all at once.",
+    "practice_mode": "practice",
+    "practice_mode_label": "Practice",
+    "observe_only": false,
+    "method": {
+      "framing": "practice",
+      "text": "Feel an open space above the head, in the heart and at the base of the trunk, all three together, and hold that steadily without moving between them. Let the thought-free state come by itself.",
+      "note": null,
+      "practise_instead": [],
+      "start_door": null
+    },
+    "seat": {
+      "label": "Any steady, comfortable position (school addition)",
+      "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+      "honesty": "School addition. Verse 45 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+    },
+    "breath": {
+      "mode": "natural",
+      "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+      "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+    },
+    "attention": {
+      "primary": "The voids above, in the heart and at the base, held at once and steadily",
+      "secondary": "The thought-free quiet that follows"
+    },
+    "attention_map": {
+      "summary": "Not a body shape. The map is three open spaces on the vertical line (above, heart, base) held at the same moment and steadily.",
+      "points": [
+        "void above (commentarial: at or above the crown)",
+        "void in the heart",
+        "void at the base"
+      ]
+    },
+    "safety": {
+      "notes": [
+        "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+        "General practice caution only; not medical advice. If holding three places feels effortful, return to two (Door 021) or one. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+        "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open."
+      ],
+      "observe_only_note": null,
+      "never_force": true
+    },
+    "honesty": {
+      "pairing_type": "school_device",
+      "disclosure": "Door 022 follows Vijñāna Bhairava Tantra dharana 22 (verse 45) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+      "flags": [
+        "Door index = Jaideva Singh dharana number: Door 022 is dharana 22, verse 45. Other editions number differently (see dharana.numbering_variants).",
+        "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+        "The English is a school paraphrase, not a quotation from any translator.",
+        "No medical claims. Reaction names are metaphors, not biochemistry.",
+        "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+      ],
+      "review": "pending_guardian_review",
+      "status": "draft"
+    },
+    "beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door 022: three voids at once. Vijñāna Bhairava Tantra dharana 22, verse 45."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "No shape to make. Any easy seat. The map is three open spaces on the body's line: above, heart, base."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Let the floor or the chair carry you. Eyes closed or soft."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Feel all three spaces together and steadily. Do not move between them. Let them stay open at once."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "School image: three open spaces leave no room for the next thought. A metaphor, not medicine."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "Verse 45: steadily contemplate the void above, the void at the base and the void in the heart at once; the thought-free state arises."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Let the breath go unwatched for a round. Move the fingers and toes. Return to the room."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+        "ref": "[Dhāraṇā 22] VERSE 45: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+        "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+      },
+      {
+        "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+        "ref": "verse 45: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+        "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+      },
+      {
+        "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+        "ref": "'Session Two' list: 'Dharana 22' = verse 45 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 22 • verso 45' (agrees).",
+        "url": "https://archive.org/details/vijnanabhairavtantra"
+      },
+      {
+        "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+        "ref": "verse 45 = 'Three inner voids (Y19 ~ A3)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+        "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+      },
+      {
+        "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+        "ref": "verse 45: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+        "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+      },
+      {
+        "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+        "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+        "url": null
+      }
+    ],
+    "guardian": null,
+    "guidance": {
+      "slot": "#guidance-slot",
+      "audio": null,
+      "visual": null
+    },
+    "page": "door-022.html"
   },
   {
     "number": 23,
-    "status": "being_remembered",
+    "id": "D-023",
+    "status": "remembered",
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
     "element": "Water",
     "bija": "VAM",
     "color": null,
-    "title": null,
-    "sanskrit": null,
-    "dharana": null,
-    "category": null,
-    "instruction": null,
-    "practice_mode": null,
-    "observe_only": null,
-    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
-    "page": "door-sealed.html?n=23"
+    "title": "A Moment of Void in the Body",
+    "sanskrit": "tanūdeśe śūnyataiva kṣaṇamātraṃ",
+    "dharana": {
+      "number": 23,
+      "verse": 46,
+      "verses": [
+        46
+      ],
+      "verse_label": "46",
+      "numbering": "Jaideva Singh (1979): dhāraṇā 23 = verse 46",
+      "numbering_variants": {
+        "wallis_yukti": "verse 46: Space in any body part (Y20 ~ C1)"
+      },
+      "sanskrit_iast": "tanūdeśe śūnyataiva kṣaṇamātraṃ vibhāvayet | nirvikalpaṃ nirvikalpo nirvikalpasvarūpabhāk ||",
+      "sanskrit_status": "verified",
+      "rendering": "If, even for a single moment, one contemplates some region of the body as nothing but void, free of thought-constructs, one becomes thought-free and takes on the nature of the thought-free.",
+      "rendering_kind": "paraphrase",
+      "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+      "commentary_note": "Singh reads tanūdeśa as the body taken as the limited empirical self and describes three stages: contemplating it without thought-constructs, becoming habitually thought-free, and finally entering the state of Bhairava, whose nature is thought-free. Wallis and Bäumer read tanūdeśa as 'any part (or point) of the body'. This door follows the 'any part of the body' reading and notes Singh's.",
+      "verification": "verified"
+    },
+    "category": "emptiness/space",
+    "category_plain": "visualization/space",
+    "category_secondary": [
+      "sensation"
+    ],
+    "instruction": "For a moment, sense one part of the body, such as a hand, as empty space.",
+    "practice_mode": "practice",
+    "practice_mode_label": "Practice",
+    "observe_only": false,
+    "method": {
+      "framing": "practice",
+      "text": "Choose one region of the body, such as a hand. For a moment, sense it as nothing but open space, without thinking about it. Let the moment end naturally; repeat a few times.",
+      "note": null,
+      "practise_instead": [],
+      "start_door": null
+    },
+    "seat": {
+      "label": "Any steady, comfortable position (school addition)",
+      "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+      "honesty": "School addition. Verse 46 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+    },
+    "breath": {
+      "mode": "natural",
+      "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+      "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+    },
+    "attention": {
+      "primary": "One region of the body felt as void, just for a moment",
+      "secondary": "The thought-free quality of that moment"
+    },
+    "attention_map": {
+      "summary": "Not a body shape. The map is one small region of the body felt, just for a moment, as empty space.",
+      "points": [
+        "one chosen region of the body, felt as void (for example a hand)"
+      ]
+    },
+    "safety": {
+      "notes": [
+        "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+        "General practice caution only; not medical advice. Keep it brief and light; if numbness or unease appears, move the hand and feel it normally. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+        "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open."
+      ],
+      "observe_only_note": null,
+      "never_force": true
+    },
+    "honesty": {
+      "pairing_type": "school_device",
+      "disclosure": "Door 023 follows Vijñāna Bhairava Tantra dharana 23 (verse 46) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+      "flags": [
+        "Door index = Jaideva Singh dharana number: Door 023 is dharana 23, verse 46. Other editions number differently (see dharana.numbering_variants).",
+        "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+        "The English is a school paraphrase, not a quotation from any translator.",
+        "No medical claims. Reaction names are metaphors, not biochemistry.",
+        "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+      ],
+      "review": "pending_guardian_review",
+      "status": "draft"
+    },
+    "beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door 023: a moment of void in the body. Vijñāna Bhairava Tantra dharana 23, verse 46."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "No shape to make. Sit or lie down. The map is one small region, such as a hand, felt as open space."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Let the floor or the chair carry you. Eyes closed or soft."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Choose a hand. For one moment, sense it as empty space, without thinking about it. Let the moment go. Repeat."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "School image: something solid becoming open for a moment. A metaphor, not medicine."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "Verse 46: contemplate a region of the body as pure void even for a moment, without thoughts, and one becomes thought-free."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Drop the exercise. Notice the room: its sounds, its light. Carry the quiet into what comes next."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+        "ref": "[Dhāraṇā 23] VERSE 46: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+        "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+      },
+      {
+        "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+        "ref": "verse 46: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+        "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+      },
+      {
+        "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+        "ref": "'Session Two' list: 'Dharana 23' = verse 46 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 23 • verso 46' (agrees).",
+        "url": "https://archive.org/details/vijnanabhairavtantra"
+      },
+      {
+        "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+        "ref": "verse 46 = 'Space in any body part (Y20 ~ C1)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+        "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+      },
+      {
+        "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+        "ref": "verse 46: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+        "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+      },
+      {
+        "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+        "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+        "url": null
+      }
+    ],
+    "guardian": null,
+    "guidance": {
+      "slot": "#guidance-slot",
+      "audio": null,
+      "visual": null
+    },
+    "page": "door-023.html"
   },
   {
     "number": 24,
-    "status": "being_remembered",
+    "id": "D-024",
+    "status": "remembered",
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
     "element": "Water",
     "bija": "VAM",
     "color": null,
-    "title": null,
-    "sanskrit": null,
-    "dharana": null,
-    "category": null,
-    "instruction": null,
-    "practice_mode": null,
-    "observe_only": null,
-    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
-    "page": "door-sealed.html?n=24"
+    "title": "The Body's Tissues Pervaded by Space",
+    "sanskrit": "sarvaṃ dehagataṃ dravyaṃ viyadvyāptaṃ",
+    "dharana": {
+      "number": 24,
+      "verse": 47,
+      "verses": [
+        47
+      ],
+      "verse_label": "47",
+      "numbering": "Jaideva Singh (1979): dhāraṇā 24 = verse 47",
+      "numbering_variants": {
+        "wallis_yukti": "verse 47: Space pervading the tissues (Y21 ~ C1)"
+      },
+      "sanskrit_iast": "sarvaṃ dehagataṃ dravyaṃ viyadvyāptaṃ mṛgekṣaṇe | vibhāvayet tatas tasya bhāvanā sā sthirā bhavet ||",
+      "sanskrit_status": "verified",
+      "rendering": "O doe-eyed one, let one contemplate everything that makes up the body (bone, flesh and the rest) as pervaded by space; then that contemplation becomes steady.",
+      "rendering_kind": "paraphrase",
+      "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+      "commentary_note": "Singh: for one who cannot yet contemplate the void directly, this contemplation of the body's constituents (bone, flesh and so on) as pervaded by space steadies the contemplation of vacuity, which finally opens into the light of consciousness. Wallis: 'all the tissues of the body are pervaded by Space'.",
+      "verification": "verified"
+    },
+    "category": "emptiness/space",
+    "category_plain": "visualization/space",
+    "category_secondary": [
+      "sensation"
+    ],
+    "instruction": "Sense bone, flesh and every tissue of the body as filled through with space.",
+    "practice_mode": "practice",
+    "practice_mode_label": "Practice",
+    "observe_only": false,
+    "method": {
+      "framing": "practice",
+      "text": "Sense the body's tissues one after another (bone, muscle, blood, skin), each as pervaded by space, until the whole body feels porous and open. Rest there.",
+      "note": null,
+      "practise_instead": [],
+      "start_door": null
+    },
+    "seat": {
+      "label": "Any steady, comfortable position (school addition)",
+      "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+      "honesty": "School addition. Verse 47 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+    },
+    "breath": {
+      "mode": "natural",
+      "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+      "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+    },
+    "attention": {
+      "primary": "Space pervading bone, flesh and every tissue of the body",
+      "secondary": "The steadiness of the contemplation"
+    },
+    "attention_map": {
+      "summary": "Not a body shape. The map is the whole body seen as porous: every tissue with space running all through it.",
+      "points": [
+        "the body's tissues (bone, flesh and the rest)",
+        "space pervading them"
+      ]
+    },
+    "safety": {
+      "notes": [
+        "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+        "General practice caution only; not medical advice. If the image feels unpleasant, picture light or air passing through instead, or stop. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+        "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open."
+      ],
+      "observe_only_note": null,
+      "never_force": true
+    },
+    "honesty": {
+      "pairing_type": "school_device",
+      "disclosure": "Door 024 follows Vijñāna Bhairava Tantra dharana 24 (verse 47) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+      "flags": [
+        "Door index = Jaideva Singh dharana number: Door 024 is dharana 24, verse 47. Other editions number differently (see dharana.numbering_variants).",
+        "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+        "The English is a school paraphrase, not a quotation from any translator.",
+        "No medical claims. Reaction names are metaphors, not biochemistry.",
+        "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+      ],
+      "review": "pending_guardian_review",
+      "status": "draft"
+    },
+    "beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door 024: the body's tissues pervaded by space. Vijñāna Bhairava Tantra dharana 24, verse 47."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "No shape to make. Sit or lie down. The map is the whole body, porous, with space running all through it."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Let the floor or the chair carry you. Eyes closed or soft."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Sense the bones as full of space, then the muscles, the blood, the skin. Let the whole body feel open. Rest there."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "School image: a dense body becoming porous. A metaphor, not medicine."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "Verse 47: contemplate all the substance of the body as pervaded by space, and the contemplation becomes steady."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Let the practice go. Take one free breath. Open the eyes and look around the room."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+        "ref": "[Dhāraṇā 24] VERSE 47: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+        "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+      },
+      {
+        "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+        "ref": "verse 47: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+        "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+      },
+      {
+        "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+        "ref": "'Session Two' list: 'Dharana 24' = verse 47 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 24 • verso 47' (agrees).",
+        "url": "https://archive.org/details/vijnanabhairavtantra"
+      },
+      {
+        "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+        "ref": "verse 47 = 'Space pervading the tissues (Y21 ~ C1)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+        "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+      },
+      {
+        "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+        "ref": "verse 47: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+        "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+      },
+      {
+        "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+        "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+        "url": null
+      }
+    ],
+    "guardian": null,
+    "guidance": {
+      "slot": "#guidance-slot",
+      "audio": null,
+      "visual": null
+    },
+    "page": "door-024.html"
   },
   {
     "number": 25,
-    "status": "being_remembered",
+    "id": "D-025",
+    "status": "remembered",
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
     "element": "Water",
     "bija": "VAM",
     "color": null,
-    "title": null,
-    "sanskrit": null,
-    "dharana": null,
-    "category": null,
-    "instruction": null,
-    "practice_mode": null,
-    "observe_only": null,
-    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
-    "page": "door-sealed.html?n=25"
+    "title": "The Skin as a Wall with Nothing Inside",
+    "sanskrit": "tvagvibhāgam bhittibhūtaṃ vicintayet",
+    "dharana": {
+      "number": 25,
+      "verse": 48,
+      "verses": [
+        48
+      ],
+      "verse_label": "48",
+      "numbering": "Jaideva Singh (1979): dhāraṇā 25 = verse 48",
+      "numbering_variants": {
+        "wallis_yukti": "verse 48: Wall of skin (Y22 ~ C1)"
+      },
+      "sanskrit_iast": "dehāntare tvagvibhāgam bhittibhūtaṃ vicintayet | na kiṃcid antare tasya dhyāyann adhyeyabhāg bhavet ||",
+      "sanskrit_status": "verified",
+      "rendering": "Let one think of the skin of the body as a wall, with nothing at all inside it. Meditating in this way, one comes to share in what cannot be meditated upon.",
+      "rendering_kind": "paraphrase",
+      "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+      "commentary_note": "Singh: everyone habitually identifies with the body; detaching consciousness from its limits develops a sense of all-pervasiveness, and when that is reached there is no longer an object to meditate on, as Bhairava says in verse 16. Wallis: the 'dividing wall' of skin is merely a screen with nothing within.",
+      "verification": "verified"
+    },
+    "category": "sensation",
+    "category_plain": "visualization/space",
+    "category_secondary": [
+      "sensation"
+    ],
+    "instruction": "Feel the skin as a thin wall and the inside of the body as an empty room.",
+    "practice_mode": "practice",
+    "practice_mode_label": "Practice",
+    "observe_only": false,
+    "method": {
+      "framing": "practice",
+      "text": "Feel the skin all over the body as a thin wall, like the walls of a room. Imagine there is nothing inside it at all. Rest in that emptiness without looking for anything in it.",
+      "note": null,
+      "practise_instead": [],
+      "start_door": null
+    },
+    "seat": {
+      "label": "Any steady, comfortable position (school addition)",
+      "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+      "honesty": "School addition. Verse 48 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+    },
+    "breath": {
+      "mode": "natural",
+      "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+      "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+    },
+    "attention": {
+      "primary": "The skin all around the body, felt as a thin wall",
+      "secondary": "The empty space inside it"
+    },
+    "attention_map": {
+      "summary": "Not a body shape. The map is a thin boundary (the skin) around empty space, like a wall around an empty room.",
+      "points": [
+        "the skin as a thin wall",
+        "empty space inside it"
+      ]
+    },
+    "safety": {
+      "notes": [
+        "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+        "General practice caution only; not medical advice. If the image feels unsettling, rest the attention on the breath or the feet instead. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+        "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open."
+      ],
+      "observe_only_note": null,
+      "never_force": true
+    },
+    "honesty": {
+      "pairing_type": "school_device",
+      "disclosure": "Door 025 follows Vijñāna Bhairava Tantra dharana 25 (verse 48) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+      "flags": [
+        "Door index = Jaideva Singh dharana number: Door 025 is dharana 25, verse 48. Other editions number differently (see dharana.numbering_variants).",
+        "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+        "The English is a school paraphrase, not a quotation from any translator.",
+        "No medical claims. Reaction names are metaphors, not biochemistry.",
+        "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+      ],
+      "review": "pending_guardian_review",
+      "status": "draft"
+    },
+    "beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door 025: the skin as a wall with nothing inside. Vijñāna Bhairava Tantra dharana 25, verse 48."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "No shape to make. Any easy seat. The map is a thin wall of skin around empty space, like an empty room."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Let the floor or the chair carry you. Eyes closed or soft."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Feel the skin all around you as a thin wall. Inside, nothing at all. Rest there."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "School image: a thin wall around an empty room. A metaphor, not medicine."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "Verse 48: think of the skin as a wall with nothing inside it; meditating so, one reaches what cannot be meditated on."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Release the attention. Feel the weight of the body on its support. Open the eyes when ready."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+        "ref": "[Dhāraṇā 25] VERSE 48: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+        "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+      },
+      {
+        "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+        "ref": "verse 48: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+        "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+      },
+      {
+        "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+        "ref": "'Session Two' list: 'Dharana 25' = verse 48 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 25 • verso 48' (agrees).",
+        "url": "https://archive.org/details/vijnanabhairavtantra"
+      },
+      {
+        "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+        "ref": "verse 48 = 'Wall of skin (Y22 ~ C1)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+        "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+      },
+      {
+        "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+        "ref": "verse 48: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+        "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+      },
+      {
+        "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+        "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+        "url": null
+      }
+    ],
+    "guardian": null,
+    "guidance": {
+      "slot": "#guidance-slot",
+      "audio": null,
+      "visual": null
+    },
+    "page": "door-025.html"
   },
   {
     "number": 26,
-    "status": "being_remembered",
+    "id": "D-026",
+    "status": "remembered",
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
     "element": "Water",
     "bija": "VAM",
     "color": null,
-    "title": null,
-    "sanskrit": null,
-    "dharana": null,
-    "category": null,
-    "instruction": null,
-    "practice_mode": null,
-    "observe_only": null,
-    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
-    "page": "door-sealed.html?n=26"
+    "title": "Senses Dissolved in the Space of the Heart",
+    "sanskrit": "hṛdyākāśe nilīnākṣaḥ",
+    "dharana": {
+      "number": 26,
+      "verse": 49,
+      "verses": [
+        49
+      ],
+      "verse_label": "49",
+      "numbering": "Jaideva Singh (1979): dhāraṇā 26 = verse 49",
+      "numbering_variants": {
+        "wallis_yukti": "verse 49: Lotus in the heart (Y23 ~ A1)"
+      },
+      "sanskrit_iast": "hṛdyākāśe nilīnākṣaḥ padmasampuṭamadhyagaḥ | ananyacetāḥ subhage paraṃ saubhāgyam āpnuyāt ||",
+      "sanskrit_status": "verified",
+      "rendering": "With the senses dissolved in the space of the heart, entered into the middle of the two bowls of the lotus, with the mind on nothing else, O fortunate one, one gains the highest fortune.",
+      "rendering_kind": "paraphrase",
+      "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+      "commentary_note": "Singh: hṛt is not the physical heart but the central place above the diaphragm, pictured as a lotus of two bowls joined together; following Śivopādhyāya, the upper bowl is knowing, the lower bowl is the known, and the centre is the knower, into which the practitioner plunges. 'Highest fortune' is glossed as supreme bliss (Kṣemarāja cites this verse on Śivasūtra 1.15). Note: the prototype seed doors/049.json used this verse for Door 49; under Singh's numbering it is dharana 26.",
+      "verification": "verified"
+    },
+    "category": "concentration",
+    "category_plain": "visualization/space",
+    "category_secondary": [
+      "sensation",
+      "heart-space"
+    ],
+    "instruction": "Let the senses settle into the space at the centre of the chest and rest there.",
+    "practice_mode": "practice",
+    "practice_mode_label": "Practice",
+    "observe_only": false,
+    "method": {
+      "framing": "practice",
+      "text": "Let the senses withdraw from their objects and settle into the space at the centre of the chest. Picture it as the middle of a lotus formed by two bowls. Keep the mind there and on nothing else.",
+      "note": null,
+      "practise_instead": [],
+      "start_door": null
+    },
+    "seat": {
+      "label": "Any steady, comfortable position (school addition)",
+      "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+      "honesty": "School addition. Verse 49 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+    },
+    "breath": {
+      "mode": "natural",
+      "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+      "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+    },
+    "attention": {
+      "primary": "The space at the centre of the chest, between the two bowls of the lotus",
+      "secondary": "The senses drawn back from their objects"
+    },
+    "attention_map": {
+      "summary": "Not a body shape. The map is a small space in the centre of the chest, pictured as the meeting of two bowls, with attention resting in the middle.",
+      "points": [
+        "the space of the heart (commentarial: centre of the chest, not the physical heart)",
+        "upper and lower bowls of the lotus",
+        "their centre"
+      ]
+    },
+    "safety": {
+      "notes": [
+        "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+        "General practice caution only; not medical advice. This is attention in the chest, not effort; keep the breath free. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+        "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open."
+      ],
+      "observe_only_note": null,
+      "never_force": true
+    },
+    "honesty": {
+      "pairing_type": "school_device",
+      "disclosure": "Door 026 follows Vijñāna Bhairava Tantra dharana 26 (verse 49) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+      "flags": [
+        "Door index = Jaideva Singh dharana number: Door 026 is dharana 26, verse 49. Other editions number differently (see dharana.numbering_variants).",
+        "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+        "The English is a school paraphrase, not a quotation from any translator.",
+        "No medical claims. Reaction names are metaphors, not biochemistry.",
+        "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+      ],
+      "review": "pending_guardian_review",
+      "status": "draft"
+    },
+    "beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door 026: senses dissolved in the space of the heart. Vijñāna Bhairava Tantra dharana 26, verse 49."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "No shape to make. Sit or lie down. The map is a small space at the centre of the chest, like two bowls meeting."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Let the floor or the chair carry you. Eyes closed. Draw the senses inward."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Let seeing, hearing and touch draw back and settle in that space. Rest in its middle, on nothing else."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "School image: outward senses gathering into the heart. A metaphor, not medicine."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "Verse 49: with the senses dissolved in the space of the heart, in the middle of the lotus, mind on nothing else, one gains the highest fortune."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Let the breath go unwatched for a round. Move the fingers and toes. Return to the room."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+        "ref": "[Dhāraṇā 26] VERSE 49: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+        "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+      },
+      {
+        "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+        "ref": "verse 49: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+        "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+      },
+      {
+        "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+        "ref": "'Session Two' list: 'Dharana 26' = verse 49 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 26 • verso 49' (agrees).",
+        "url": "https://archive.org/details/vijnanabhairavtantra"
+      },
+      {
+        "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+        "ref": "verse 49 = 'Lotus in the heart (Y23 ~ A1)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+        "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+      },
+      {
+        "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+        "ref": "verse 49: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+        "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+      },
+      {
+        "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+        "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+        "url": null
+      }
+    ],
+    "guardian": null,
+    "guidance": {
+      "slot": "#guidance-slot",
+      "audio": null,
+      "visual": null
+    },
+    "page": "door-026.html"
   },
   {
     "number": 27,
-    "status": "being_remembered",
+    "id": "D-027",
+    "status": "remembered",
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
     "element": "Water",
     "bija": "VAM",
     "color": null,
-    "title": null,
-    "sanskrit": null,
-    "dharana": null,
-    "category": null,
-    "instruction": null,
-    "practice_mode": null,
-    "observe_only": null,
-    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
-    "page": "door-sealed.html?n=27"
+    "title": "Mind Dissolved at the Dvādaśānta",
+    "sanskrit": "dvādaśānte manolayāt",
+    "dharana": {
+      "number": 27,
+      "verse": 50,
+      "verses": [
+        50
+      ],
+      "verse_label": "50",
+      "numbering": "Jaideva Singh (1979): dhāraṇā 27 = verse 50",
+      "numbering_variants": {
+        "wallis_yukti": "verse 50: Mindfulness of the dvādaśānta (Y24 ~ A2)"
+      },
+      "sanskrit_iast": "sarvataḥ svaśarīrasya dvādaśānte manolayāt | dṛḍhabuddher dṛḍhībhūtaṃ tattvalakṣyam pravartate ||",
+      "sanskrit_status": "verified",
+      "rendering": "When the mind dissolves in the dvādaśānta while one's whole body is pervaded (by awareness), the reality that is the goal becomes steadily present for one whose understanding is firm.",
+      "rendering_kind": "paraphrase",
+      "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+      "commentary_note": "Singh admits it is not clear which bodily dvādaśānta is meant (there are several twelve-finger spans in the body) and suggests the brahmarandhra at the top of the head; Ānandabhaṭṭa's commentary allows the cosmic void or the central channel. Wallis: the dvādaśānta of one's subtle body. Bäumer's version instead reads 'the body is void in all parts'.",
+      "verification": "verified"
+    },
+    "category": "concentration",
+    "category_plain": "visualization/space",
+    "category_secondary": [
+      "sensation"
+    ],
+    "instruction": "Fill the body with awareness, then let the mind rest and dissolve at the crown.",
+    "practice_mode": "practice",
+    "practice_mode_label": "Practice",
+    "observe_only": false,
+    "method": {
+      "framing": "practice",
+      "text": "Let awareness fill the whole body. Then let the mind rest at a point at the crown or just above it, and let it dissolve there. Keep the understanding steady; return to the point whenever the mind wanders.",
+      "note": null,
+      "practise_instead": [],
+      "start_door": null
+    },
+    "seat": {
+      "label": "Any steady, comfortable position (school addition)",
+      "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+      "honesty": "School addition. Verse 50 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+    },
+    "breath": {
+      "mode": "natural",
+      "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+      "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+    },
+    "attention": {
+      "primary": "The whole body pervaded by awareness",
+      "secondary": "The mind resting and dissolving at the dvādaśānta at or above the crown"
+    },
+    "attention_map": {
+      "summary": "Not a body shape. The map is the whole body filled with awareness, with the mind resting and dissolving at one point at or above the crown.",
+      "points": [
+        "the whole body, pervaded by awareness",
+        "the dvādaśānta (commentarial: at the crown or just above it)"
+      ]
+    },
+    "safety": {
+      "notes": [
+        "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+        "General practice caution only; not medical advice. Keep the attention at the crown light; if pressure or headache appears, move attention to the feet. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+        "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open."
+      ],
+      "observe_only_note": null,
+      "never_force": true
+    },
+    "honesty": {
+      "pairing_type": "school_device",
+      "disclosure": "Door 027 follows Vijñāna Bhairava Tantra dharana 27 (verse 50) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+      "flags": [
+        "Door index = Jaideva Singh dharana number: Door 027 is dharana 27, verse 50. Other editions number differently (see dharana.numbering_variants).",
+        "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+        "The English is a school paraphrase, not a quotation from any translator.",
+        "No medical claims. Reaction names are metaphors, not biochemistry.",
+        "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+      ],
+      "review": "pending_guardian_review",
+      "status": "draft"
+    },
+    "beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door 027: mind dissolved at the dvādaśānta. Vijñāna Bhairava Tantra dharana 27, verse 50."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "No shape to make. Sit or lie down. The map is the whole body filled with awareness, and one point at the crown."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Let the floor or the chair carry you. Eyes closed or soft."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Let awareness fill the body. Then rest the mind at the crown, or just above it, and let it dissolve there."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "School image: a scattered mind settling at one point. A metaphor, not medicine."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "Verse 50: when the mind dissolves at the dvādaśānta with the whole body pervaded, the goal becomes steadily present to a firm mind."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Drop the exercise. Notice the room: its sounds, its light. Carry the quiet into what comes next."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+        "ref": "[Dhāraṇā 27] VERSE 50: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+        "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+      },
+      {
+        "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+        "ref": "verse 50: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+        "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+      },
+      {
+        "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+        "ref": "'Session Two' list: 'Dharana 27' = verse 50 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 27 • verso 50' (agrees).",
+        "url": "https://archive.org/details/vijnanabhairavtantra"
+      },
+      {
+        "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+        "ref": "verse 50 = 'Mindfulness of the dvādaśānta (Y24 ~ A2)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+        "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+      },
+      {
+        "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+        "ref": "verse 50: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+        "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+      },
+      {
+        "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+        "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+        "url": null
+      }
+    ],
+    "guardian": null,
+    "guidance": {
+      "slot": "#guidance-slot",
+      "audio": null,
+      "visual": null
+    },
+    "page": "door-027.html"
   },
   {
     "number": 28,
-    "status": "being_remembered",
+    "id": "D-028",
+    "status": "remembered",
     "house": 2,
     "house_name": "Svādhiṣṭhāna",
     "element": "Water",
     "bija": "VAM",
     "color": null,
-    "title": null,
-    "sanskrit": null,
-    "dharana": null,
-    "category": null,
-    "instruction": null,
-    "practice_mode": null,
-    "observe_only": null,
-    "note": "This door is being remembered. Its dhāraṇā is not yet published here.",
-    "page": "door-sealed.html?n=28"
+    "title": "Returning to the Dvādaśānta Wherever You Are",
+    "sanskrit": "yathā tathā yatra tatra dvādaśānte manaḥ kṣipet",
+    "dharana": {
+      "number": 28,
+      "verse": 51,
+      "verses": [
+        51
+      ],
+      "verse_label": "51",
+      "numbering": "Jaideva Singh (1979): dhāraṇā 28 = verse 51",
+      "numbering_variants": {
+        "wallis_yukti": "verse 51: Mindfulness of the dvādaśānta, cont’d"
+      },
+      "sanskrit_iast": "yathā tathā yatra tatra dvādaśānte manaḥ kṣipet | pratikṣaṇaṃ kṣīṇavṛtter vailakṣaṇyaṃ dinair bhavet ||",
+      "sanskrit_status": "verified",
+      "rendering": "However and wherever one is, let one cast the mind into the dvādaśānta, moment after moment; as the mind's fluctuations wane, within days something extraordinary arises.",
+      "rendering_kind": "paraphrase",
+      "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+      "commentary_note": "Singh: the mind may be fixed at any dvādaśānta: above the head, twelve finger-widths outside the nose at the end of the out-breath, or the inner centre. Śivopādhyāya glosses 'extraordinary' as the incomparable state of Bhairava. Wallis's concordance quotes Reps, who renders it 'in worldly activity, keep attentive between the two breaths' and notes it as Lakshmanjoo's favourite.",
+      "verification": "verified"
+    },
+    "category": "everyday activity",
+    "category_plain": "ordinary life",
+    "category_secondary": [
+      "concentration",
+      "breath (in one reading)"
+    ],
+    "instruction": "During the day, briefly return attention to the space just above the head, again and again.",
+    "practice_mode": "practice",
+    "practice_mode_label": "Practice",
+    "observe_only": false,
+    "method": {
+      "framing": "practice",
+      "text": "During ordinary activity (walking, washing, waiting), briefly place attention at the dvādaśānta: just above the head, or at the end of the out-breath in front of the nose. Then carry on. Do it again and again, a moment at a time.",
+      "note": null,
+      "practise_instead": [],
+      "start_door": null
+    },
+    "seat": {
+      "label": "Any steady, comfortable position (school addition)",
+      "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+      "honesty": "School addition. Verse 51 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+    },
+    "breath": {
+      "mode": "natural",
+      "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+      "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+    },
+    "attention": {
+      "primary": "The dvādaśānta, returned to briefly and often during the day",
+      "secondary": "The mind's fluctuation thinning"
+    },
+    "attention_map": {
+      "summary": "Not a body shape. The map is one point returned to again and again through the day, whatever one is doing.",
+      "points": [
+        "the dvādaśānta: above the head, or about twelve finger-widths in front of the nose at the end of the out-breath (commentarial)"
+      ]
+    },
+    "safety": {
+      "notes": [
+        "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+        "General practice caution only; not medical advice. Keep your main attention on anything that needs it, such as traffic or tools; this is a light return, not a withdrawal. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+        "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open."
+      ],
+      "observe_only_note": null,
+      "never_force": true
+    },
+    "honesty": {
+      "pairing_type": "school_device",
+      "disclosure": "Door 028 follows Vijñāna Bhairava Tantra dharana 28 (verse 51) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+      "flags": [
+        "Door index = Jaideva Singh dharana number: Door 028 is dharana 28, verse 51. Other editions number differently (see dharana.numbering_variants).",
+        "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+        "The English is a school paraphrase, not a quotation from any translator.",
+        "No medical claims. Reaction names are metaphors, not biochemistry.",
+        "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+      ],
+      "review": "pending_guardian_review",
+      "status": "draft"
+    },
+    "beats": [
+      {
+        "n": 1,
+        "title": "Name the door",
+        "script": "This is Door 028: returning to the dvādaśānta wherever you are. Vijñāna Bhairava Tantra dharana 28, verse 51."
+      },
+      {
+        "n": 2,
+        "title": "Geometry",
+        "script": "No shape to make. This one is practised in ordinary life. The map is one point, just above the head or at the end of the out-breath."
+      },
+      {
+        "n": 3,
+        "title": "Orientation",
+        "script": "Eyes open. Keep doing what you are doing. Let a part of attention return to the point."
+      },
+      {
+        "n": 4,
+        "title": "Breath",
+        "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+      },
+      {
+        "n": 5,
+        "title": "Attention",
+        "script": "Whatever you are doing, touch that point for a moment. Then carry on. Again and again through the day."
+      },
+      {
+        "n": 6,
+        "title": "Reaction cue",
+        "script": "School image: repeated small returns wearing down restlessness. A metaphor, not medicine."
+      },
+      {
+        "n": 7,
+        "title": "Adiyogi thread",
+        "script": "Verse 51: however and wherever you are, cast the mind into the dvādaśānta moment after moment; as fluctuation wanes, something extraordinary arises."
+      },
+      {
+        "n": 8,
+        "title": "Exit / integrate",
+        "script": "Keep the habit. Next time you wash your hands or wait for a door, return to the point for one breath."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+        "ref": "[Dhāraṇā 28] VERSE 51: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+        "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+      },
+      {
+        "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+        "ref": "verse 51: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+        "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+      },
+      {
+        "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+        "ref": "'Session Two' list: 'Dharana 28' = verse 51 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 28 • verso 51' (agrees).",
+        "url": "https://archive.org/details/vijnanabhairavtantra"
+      },
+      {
+        "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+        "ref": "verse 51 = 'Mindfulness of the dvādaśānta, cont’d'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+        "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+      },
+      {
+        "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+        "ref": "verse 51: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+        "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+      },
+      {
+        "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+        "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+        "url": null
+      }
+    ],
+    "guardian": null,
+    "guidance": {
+      "slot": "#guidance-slot",
+      "audio": null,
+      "visual": null
+    },
+    "page": "door-028.html"
   }
 ]

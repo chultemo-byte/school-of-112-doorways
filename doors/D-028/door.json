@@ -1,0 +1,209 @@
+{
+  "id": "D-028",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "Returning to the Dvādaśānta Wherever You Are",
+  "sanskrit": "yathā tathā yatra tatra dvādaśānte manaḥ kṣipet",
+  "house": 2,
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "none: new door (doors/index.json at 32e76c4 lists door 28 as unassigned, with no name)",
+  "previous_file": "none: no door file existed for door 28 at commit 32e76c4",
+  "previous_vbt_ref": "none",
+  "dharana": {
+    "number": 28,
+    "verses": [
+      51
+    ],
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114, otherwise one verse each; dhāraṇā 112 = verse 137)",
+    "sanskrit_iast": "yathā tathā yatra tatra dvādaśānte manaḥ kṣipet | pratikṣaṇaṃ kṣīṇavṛtter vailakṣaṇyaṃ dinair bhavet ||",
+    "sanskrit_source": "GRETIL e-text, compared with Wallis's concordance, Pradīpaka and the Singh scan",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [
+      "verse 51: Punctuation only: GRETIL prints a double daṇḍa at the half-verse."
+    ],
+    "rendering": "However and wherever one is, let one cast the mind into the dvādaśānta, moment after moment; as the mind's fluctuations wane, within days something extraordinary arises.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+    "commentary_note": "Singh: the mind may be fixed at any dvādaśānta: above the head, twelve finger-widths outside the nose at the end of the out-breath, or the inner centre. Śivopādhyāya glosses 'extraordinary' as the incomparable state of Bhairava. Wallis's concordance quotes Reps, who renders it 'in worldly activity, keep attentive between the two breaths' and notes it as Lakshmanjoo's favourite.",
+    "technique_name": "Returning to the Dvādaśānta Wherever You Are",
+    "category": "everyday activity",
+    "category_plain": "ordinary life",
+    "category_secondary": [
+      "concentration",
+      "breath (in one reading)"
+    ],
+    "instruction": "During the day, briefly return attention to the space just above the head, again and again.",
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 28] VERSE 51'",
+        "The Mystery Within (2019), Session Two list: 'Dharana 28' = verse 51 (agrees with Singh)",
+        "The Mystery Within (2019), parallel translations: 'Dharana 28 • verso 51' (agrees)",
+        "Wallis concordance: verse 51 = 'Mindfulness of the dvādaśānta, cont’d' (verse text and technique match)",
+        "GRETIL, Wallis and Pradīpaka: Sanskrit of verse 51 compared"
+      ],
+      "notes": "Door index = Singh dhāraṇā number, read directly in Singh's own headings and cross-checked against The Mystery Within's Singh-numbered list and Wallis's concordance. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "verse 51: Mindfulness of the dvādaśānta, cont’d"
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 51 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "return_point_in_daily_life",
+    "joints": [],
+    "points": [
+      "the dvādaśānta: above the head, or about twelve finger-widths in front of the nose at the end of the out-breath (commentarial)"
+    ],
+    "summary": "Not a body shape. The map is one point returned to again and again through the day, whatever one is doing.",
+    "svg_hint": "a small open point above a simple figure going about daily tasks, with short arrows returning to it",
+    "honesty": "Geometry records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
+  },
+  "reaction": {
+    "name": "Keep returning",
+    "from_phase": "fluctuating_mind",
+    "to_phase": "settled_extraordinary",
+    "summary": "School metaphor only: brief, repeated returns to one point wear down the mind's fluctuation. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "mode": "natural",
+    "lands_in": "wherever the breath naturally ends; this door places nothing on the breath",
+    "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+  },
+  "orientation": {
+    "cue": "Return to the point, briefly, whatever you are doing",
+    "gravity": "Let the floor or chair carry the body completely; there is no posture to hold",
+    "gaze": "Eyes open; this is practised during ordinary activity",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
+  },
+  "attention": {
+    "primary": "The dvādaśānta, returned to briefly and often during the day",
+    "secondary": "The mind's fluctuation thinning",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 028 (verse 51)",
+    "verse_paraphrase": "However and wherever one is, let one cast the mind into the dvādaśānta, moment after moment; as the mind's fluctuations wane, within days something extraordinary arises.",
+    "method_summary": "During ordinary activity (walking, washing, waiting), briefly place attention at the dvādaśānta: just above the head, or at the end of the out-breath in front of the nose. Then carry on. Do it again and again, a moment at a time.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Door 028 follows Vijñāna Bhairava Tantra dharana 28 (verse 51) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type is school_device: the dharana is the content, while the door index, seat and pacing are the school's.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 028 is dharana 28, verse 51. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+    ]
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. Keep your main attention on anything that needs it, such as traffic or tools; this is a light return, not a withdrawal. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+      "kind": "vbt",
+      "ref": "[Dhāraṇā 28] VERSE 51: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 51: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "'Session Two' list: 'Dharana 28' = verse 51 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 28 • verso 51' (agrees).",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+      "kind": "commentary",
+      "ref": "verse 51 = 'Mindfulness of the dvādaśānta, cont’d'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 51: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+      "kind": "school",
+      "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 028: returning to the dvādaśānta wherever you are. Vijñāna Bhairava Tantra dharana 28, verse 51."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "No shape to make. This one is practised in ordinary life. The map is one point, just above the head or at the end of the out-breath."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Eyes open. Keep doing what you are doing. Let a part of attention return to the point."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Whatever you are doing, touch that point for a moment. Then carry on. Again and again through the day."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School image: repeated small returns wearing down restlessness. A metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Verse 51: however and wherever you are, cast the mind into the dvādaśānta moment after moment; as fluctuation wanes, something extraordinary arises."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Keep the habit. Next time you wash your hands or wait for a door, return to the point for one breath."
+    }
+  ],
+  "researcher": "R-028",
+  "researched_at": "2026-10-06",
+  "drafted_by": "Grok Bot (VBT Houses 2–7 research, branch research/vbt-houses-2-7)",
+  "review": {
+    "status": "pending_guardian_review",
+    "previous_review": "none (new door)"
+  }
+}

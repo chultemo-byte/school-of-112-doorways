@@ -1,0 +1,218 @@
+{
+  "id": "D-089",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "Unmoving Eyes; Ears and Lower Openings Closed (Classical)",
+  "sanskrit": "netrayoḥ stabdhamātrayoḥ … saṃkocaṃ karṇayoḥ kṛtvā hy adhodvāre",
+  "house": 6,
+  "status": "draft",
+  "practice_mode": "historical/observe_only",
+  "previous_label": "none: new door (doors/index.json at 32e76c4 lists door 89 as unassigned, with no name)",
+  "previous_file": "none: no door file existed for door 89 at commit 32e76c4",
+  "previous_vbt_ref": "none",
+  "dharana": {
+    "number": 89,
+    "verses": [
+      113,
+      114
+    ],
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114, otherwise one verse each; dhāraṇā 112 = verse 137)",
+    "sanskrit_iast": "sampradāyam imam devi śṛṇu samyag vadāmy aham | kaivalyaṃ jāyate sadyo netrayoḥ stabdhamātrayoḥ || saṃkocaṃ karṇayoḥ kṛtvā hy adhodvāre tathaiva ca | anackam ahalaṃ dhyāyan viśed brahma sanātanam ||",
+    "sanskrit_source": "GRETIL e-text, compared with Wallis's concordance, Pradīpaka and the Singh scan",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [],
+    "rendering": "(113) O Goddess, listen: I shall tell you this tradition fully. For one whose eyes are held motionless, aloneness-in-freedom (kaivalya) arises at once. (114) Contracting the ears, and the lower opening likewise, meditating on the unstruck sound without vowel or consonant, one enters the eternal brahman.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+    "commentary_note": "Singh: the unmoving eyes refer to the bhairavī mudrā, eyes open outward without blinking while attention turns to the reality within; he cites Kṣemarāja's Svacchanda Tantra commentary. In 114, the openings of the ears and of the anus and genital are contracted and one meditates on the inner, unstruck sound (anāhata) without vowel or consonant; he relates it to bindu (Śiva) and pure visarga (Śakti). He stresses that kaivalya here is not Sāṃkhya isolation but the world contracted into Śiva. Wallis counts the verses as two yuktis: 'eyes paralyzed' (Y88) and 'blocking the ears and hearing the unstruck sound' (Y89).",
+    "technique_name": "Unmoving Eyes; Ears and Lower Openings Closed (Classical)",
+    "category": "sound",
+    "category_plain": "sound",
+    "category_secondary": [
+      "sight",
+      "esoteric"
+    ],
+    "instruction": "Observe only: read and understand this classical description. It is not practised in class. Do not hold an unblinking gaze, press the ears, or contract the pelvic openings from this door. For gentle related practices, use Door 066 or Door 017.",
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 89] VERSES 113-114'",
+        "The Mystery Within (2019), Session Two list: 'Dharana 89' = verse 113–114 (agrees with Singh)",
+        "Wallis concordance: verse 113 = 'Eyes ‘paralyzed’ (Y88 ~ C1)'; verse 114 = 'Blocking the ears and hearing the unstruck sound (Y89 ~ A2)' (verse text and technique match)",
+        "GRETIL, Wallis and Pradīpaka: Sanskrit of verse 113–114 compared"
+      ],
+      "notes": "Door index = Singh dhāraṇā number, read directly in Singh's own headings and cross-checked against The Mystery Within's Singh-numbered list and Wallis's concordance. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "verse 113: Eyes ‘paralyzed’ (Y88 ~ C1); verse 114: Blocking the ears and hearing the unstruck sound (Y89 ~ A2)",
+      "mystery_within_parallel": "The parallel-translations section of The Mystery Within labels verse 113 'Dharana 90', verse 114 'Dharana 91', because from verse 106 on it gives every verse its own number (106 = 83 … 137 = 114). Singh and the same book's Session Two list put this at dhāraṇā 89. Not followed.",
+      "two_verses": "Singh heads verses 113 and 114 together as one dhāraṇā; Wallis counts them as two yuktis (Y88, Y89)."
+    },
+    "source_disagreements": [
+      "Grouping: Singh heads verses 113–114 together as one dhāraṇā (89), as does The Mystery Within's Session Two list; Wallis counts them as two yuktis (Y88, Y89).",
+      "The lower opening: Singh reads the openings of the anus and the genital; Wallis 'the lower gate'; Dyczkowski, Bäumer and Dubois the anus only."
+    ]
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 113–114 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "sealed_senses_inner_sound",
+    "joints": [],
+    "points": [
+      "the unmoving eyes (classical)",
+      "the closed ears (classical)",
+      "the lower opening (classical)",
+      "the unstruck inner sound"
+    ],
+    "summary": "Not a body shape. The classical map is the senses sealed, outward and downward, and attention resting on an inner sound with no vowel or consonant. Drawn faint: studied, not drilled.",
+    "svg_hint": "a faint head outline with small closed marks at the eyes and ears and a faint inner resonance, drawn faint to signal observe-only",
+    "honesty": "Geometry records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
+  },
+  "reaction": {
+    "name": "Senses sealed (described)",
+    "from_phase": "outward_senses",
+    "to_phase": "eternal_brahman",
+    "summary": "School metaphor only: the senses are sealed and attention falls on the unstruck inner sound. A picture to understand, not an exercise. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "mode": "natural",
+    "lands_in": "wherever the breath naturally ends; this door places nothing on the breath",
+    "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+  },
+  "orientation": {
+    "cue": "Study the verses; let the body simply rest while you do",
+    "gravity": "Let the floor or chair carry the body completely; there is no posture to hold",
+    "gaze": "Eyes closed or softly lowered",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
+  },
+  "attention": {
+    "primary": "Understanding the verses: sealed senses and the unstruck inner sound",
+    "secondary": "Nothing is practised from these verses",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 089 (verse 113–114)",
+    "verse_paraphrase": "(113) O Goddess, listen: I shall tell you this tradition fully. For one whose eyes are held motionless, aloneness-in-freedom (kaivalya) arises at once. (114) Contracting the ears, and the lower opening likewise, meditating on the unstruck sound without vowel or consonant, one enters the eternal brahman.",
+    "method_summary": "Classical method: with the eyes held motionless, aloneness-in-freedom arises at once; contracting the ears and the lower opening, and meditating on the unstruck sound without vowel or consonant, one enters the eternal brahman. Observe-only in this school: read and understand it; never do it. For gentle related practices, use Door 066 or Door 017.",
+    "practice_mode": "observe_only",
+    "historical_extreme": true,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Door 089 follows Vijñāna Bhairava Tantra dharana 89 (verse 113–114) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type is school_device: the dharana is the content, while the door index, seat and pacing are the school's.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 089 is dharana 89, verse 113–114. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review.",
+      "historical/observe_only: The classical method combines a sustained unblinking gaze with closing the ears and contracting the anal and genital openings (a lock, bandha) while meditating on the unstruck inner sound; these are commentary-dependent lineage techniques. Taught as text to understand, not as a class drill."
+    ]
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. No sustained unblinking gaze, no pressing on the ears and no pelvic contractions are taught from this door. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+    "observe_only_note": "Observe-only. A sustained unblinking gaze can dry and strain the eyes, pressing the ears can hurt them, and sustained pelvic contractions belong to lineage training and can strain the pelvic floor. For gentle related practices, use Door 066 (gently quieting a sense) or Door 017 (listening into silence)."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+      "kind": "vbt",
+      "ref": "[Dhāraṇā 89] VERSES 113-114: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 113–114: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "'Session Two' list: 'Dharana 89' = verse 113–114 (numbering cross-check; follows Singh). Parallel-translations section labels verse 113 as 'Dharana 90', verse 114 as 'Dharana 91' (disagrees; see dharana.numbering_variants).",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance, Part 2",
+      "kind": "commentary",
+      "ref": "verse 113 = 'Eyes ‘paralyzed’ (Y88 ~ C1)'; verse 114 = 'Blocking the ears and hearing the unstruck sound (Y89 ~ A2)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance-part-two"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 113–114: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+      "kind": "school",
+      "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 089: unmoving eyes; ears and lower openings closed, classical. Vijñāna Bhairava Tantra dharana 89, verses 113–114. This door is observe-only."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "No shape to make, and no drill. Sit comfortably while we read. Its classical map is the senses sealed and an inner sound."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Let the body rest completely. Eyes open, reading or resting softly. Attention on understanding, not on doing."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Natural breath only. Nothing to practise with the breath here. No forced hold."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Hold the idea only: with the senses sealed, attention falls on a sound with no vowel or consonant. Nothing to do."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School image: senses sealed around an inner sound. A metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Verse 113–114: describe motionless eyes, closed ears and the lower opening contracted, meditating on the unstruck sound. Observe-only here. Gentle practices: Doors 066 and 017."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Close the text. Take a normal breath. Look around the room and move on when ready."
+    }
+  ],
+  "researcher": "R-089",
+  "researched_at": "2026-10-06",
+  "drafted_by": "Grok Bot (VBT Houses 2–7 research, branch research/vbt-houses-2-7)",
+  "review": {
+    "status": "pending_guardian_review",
+    "previous_review": "none (new door)"
+  }
+}

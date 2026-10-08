@@ -1,0 +1,226 @@
+{
+  "id": "D-049",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "The Fullness of Savouring Food and Drink",
+  "sanskrit": "jagdhipānakṛtollāsarasānandavijṛmbhaṇāt",
+  "house": 4,
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "Bhujaṅgāsana — Cobra (prototype seed, asana framing, retired 2026-10)",
+  "previous_file": "doors/049.json at commit 32e76c4 (prototype seed; left unchanged on this branch)",
+  "previous_vbt_ref": "verse 49, Wallis yukti 23 (superseded: under Singh, verse 49 is dhāraṇā 26, Door D-026; dhāraṇā 49 is verse 72)",
+  "dharana": {
+    "number": 49,
+    "verses": [
+      72
+    ],
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114, otherwise one verse each; dhāraṇā 112 = verse 137)",
+    "sanskrit_iast": "jagdhipānakṛtollāsarasānandavijṛmbhaṇāt | bhāvayed bharitāvasthāṃ mahānandas tato bhavet ||",
+    "sanskrit_source": "GRETIL e-text, compared with Wallis's concordance, Pradīpaka and the Singh scan",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [],
+    "rendering": "When the delight of savour, the joy that comes from eating and drinking, expands, let one contemplate that state of fullness; from it comes great bliss.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+    "commentary_note": "Singh: if one meditates on the full condition of the joy that comes even from satisfying bodily needs, one finds that its source is the divine pulse (spanda), and absorbed in it one experiences spiritual bliss. Singh groups verses 69–73 as examples of the senses (touch, sight, taste, sound) turned into yoga: in each, the point is the source of the joy, not the sense object. Note: the older prototype seed doors/049.json paired Door 49 with verse 49 (heart-space), which under Singh is dharana 26 (Door D-026).",
+    "technique_name": "The Fullness of Savouring Food and Drink",
+    "category": "everyday activity",
+    "category_plain": "ordinary life",
+    "category_secondary": [
+      "sensation (taste)"
+    ],
+    "instruction": "Eat or drink slowly, savour fully, and rest attention in the fullness it brings.",
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 49] VERSE 72'",
+        "The Mystery Within (2019), Session Two list: 'Dharana 49' = verse 72 (agrees with Singh)",
+        "The Mystery Within (2019), parallel translations: 'Dharana 49 • verso 72' (agrees)",
+        "Wallis concordance: verse 72 = 'The Pleasure of Food and Drink (Y44 ~ C1)' (verse text and technique match)",
+        "GRETIL, Wallis and Pradīpaka: Sanskrit of verse 72 compared"
+      ],
+      "notes": "Door index = Singh dhāraṇā number, read directly in Singh's own headings and cross-checked against The Mystery Within's Singh-numbered list and Wallis's concordance. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "verse 72: The Pleasure of Food and Drink (Y44 ~ C1)",
+      "prototype_seed": "The older prototype seed doors/049.json pairs door 49 with verse 49, Wallis yukti 23 (superseded: under Singh, verse 49 is dhāraṇā 26, Door D-026; dhāraṇā 49 is verse 72). Not followed."
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position for eating or drinking, such as sitting at a table.",
+    "honesty": "School addition. Verse 72 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "taste_expanding_to_fullness",
+    "joints": [],
+    "points": [
+      "the taste in the mouth",
+      "the joy of savouring as it spreads",
+      "the state of fullness itself"
+    ],
+    "summary": "Not a body shape. The map starts small, at the taste in the mouth, and widens into a felt fullness through the whole body.",
+    "svg_hint": "a small point at the mouth with soft rings widening out through a body outline",
+    "honesty": "Geometry records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
+  },
+  "reaction": {
+    "name": "Savour into fullness",
+    "from_phase": "hurried_eating",
+    "to_phase": "full_contentment",
+    "summary": "School metaphor only: a hurried bite slows into savouring, and the pleasure widens into a sense of fullness. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "mode": "natural",
+    "lands_in": "wherever the breath naturally ends; this door places nothing on the breath",
+    "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+  },
+  "orientation": {
+    "cue": "Turn from the food to the fullness that savouring brings",
+    "gravity": "Let the floor or chair carry the body completely; there is no posture to hold",
+    "gaze": "Eyes open or closed while eating or drinking",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
+  },
+  "attention": {
+    "primary": "The expanding joy of savouring while eating or drinking",
+    "secondary": "The state of fullness itself, beyond the particular taste",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 049 (verse 72)",
+    "verse_paraphrase": "When the delight of savour, the joy that comes from eating and drinking, expands, let one contemplate that state of fullness; from it comes great bliss.",
+    "method_summary": "Eat or drink something slowly. Savour it fully. As the pleasure of the taste spreads, turn attention from the food to the fullness itself, and rest in that fullness.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Door 049 follows Vijñāna Bhairava Tantra dharana 49 (verse 72) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type is school_device: the dharana is the content, while the door index, seat and pacing are the school's. The prototype seed's lineage text and VBT gloss are kept in honesty.legacy, with posture names redacted; the seed file itself is untouched.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 049 is dharana 49, verse 72. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+    ],
+    "legacy": {
+      "source": "doors/049.json at commit 32e76c4",
+      "disclosure": "Vijnana Bhairava Tantra. The [retired posture]–verse pairing on this door is a School of 112 Doorways device (school_device), not a claim of ancient one-to-one canon.",
+      "notes": "Teaching reference. Verse 49 of the Vijnana Bhairava Tantra is yukti 23 in the common enumeration. It turns attention into the space of the heart, in the inner recess of the heart-lotus, with the senses unhooked from their objects. The verse's lotus is the heart, not [retired posture], and it is not an instruction to lift [retired posture] higher. In this school the [retired posture] only serves that width. If an edition numbers the verse a line off, follow the heart-space dharana and say so."
+    }
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. Ordinary eating only; nothing here asks for more food, fasting or any change of diet. Mind any allergies as usual. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor.",
+    "legacy_notes": {
+      "source": "doors/049.json at commit 32e76c4",
+      "notes": [
+        "Pregnancy: do not practice this prone backbend. A standing heart-opener, or rest, is the honest substitute.",
+        "Recent abdominal surgery, hernia, or an acute abdominal condition: do not enter the [retired posture].",
+        "Acute low-back pain, a known spondylolisthesis, or spinal instability: do not enter a backbend. Reported pain halts the machine in any case.",
+        "Neck injury, or dizziness when looking up: keep the gaze on the floor. Do not extend the cervical spine to look impressive.",
+        "Painful wrists or carpal tunnel: do not grind through the heels of the hands. Skip the [retired posture], or rest the forearms only if a teacher who can see you has already offered that variation.",
+        "Soon after a large meal: wait. A short breath and a quiet chest, face down or on the side, is enough."
+      ],
+      "status": "Posture-specific cautions from the prototype seed, kept for traceability; they do not apply to this dharana door."
+    }
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+      "kind": "vbt",
+      "ref": "[Dhāraṇā 49] VERSE 72: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 72: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "'Session Two' list: 'Dharana 49' = verse 72 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 49 • verso 72' (agrees).",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+      "kind": "commentary",
+      "ref": "verse 72 = 'The Pleasure of Food and Drink (Y44 ~ C1)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 72: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+      "kind": "school",
+      "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 049: the fullness of savouring food and drink. Vijñāna Bhairava Tantra dharana 49, verse 72."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "No shape to make. Sit as you would to eat. The map starts at the taste in the mouth and widens into fullness."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Sit comfortably with something simple to eat or drink. Eyes open or closed."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Take one bite or sip slowly. Savour it. As the pleasure spreads, turn from the taste to the fullness itself. Rest there."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School image: a hurried bite widening into fullness. A metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Verse 72: when the joy of savouring food and drink expands, contemplate that fullness, and great bliss arises."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Finish the food or drink in your own time. Carry the sense of fullness into the next part of the day."
+    }
+  ],
+  "researcher": "R-049",
+  "researched_at": "2026-10-06",
+  "drafted_by": "Grok Bot (VBT Houses 2–7 research, branch research/vbt-houses-2-7)",
+  "review": {
+    "status": "pending_guardian_review",
+    "previous_review": "none for this dharana door; the prototype seed doors/049.json was reviewed in its posture framing"
+  }
+}

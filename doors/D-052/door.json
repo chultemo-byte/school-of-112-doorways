@@ -1,0 +1,208 @@
+{
+  "id": "D-052",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "The Threshold of Sleep",
+  "sanskrit": "anāgatāyāṃ nidrāyām",
+  "house": 4,
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "none: new door (doors/index.json at 32e76c4 lists door 52 as unassigned, with no name)",
+  "previous_file": "none: no door file existed for door 52 at commit 32e76c4",
+  "previous_vbt_ref": "none",
+  "dharana": {
+    "number": 52,
+    "verses": [
+      75
+    ],
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114, otherwise one verse each; dhāraṇā 112 = verse 137)",
+    "sanskrit_iast": "anāgatāyāṃ nidrāyām praṇaṣṭe bāhyagocare | sāvasthā manasā gamyā parā devī prakāśate ||",
+    "sanskrit_source": "GRETIL e-text, compared with Wallis's concordance, Pradīpaka and the Singh scan",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [],
+    "rendering": "When sleep has not yet come but the outer world has faded away, that state can be reached by the mind; there the supreme Goddess shines.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+    "commentary_note": "Singh: the in-between state of sleep and waking is a thought-free (nirvikalpa) state, which he identifies with the fourth (turīya), transcendental state; concentrating on it one experiences the nature of the Self, called here parā devī. Wallis: 'on the edge of sleep'.",
+    "technique_name": "The Threshold of Sleep",
+    "category": "other",
+    "category_plain": "gap",
+    "category_secondary": [
+      "sleep"
+    ],
+    "instruction": "As you fall asleep, notice the quiet edge just before sleep and rest there.",
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 52] VERSE 75'",
+        "The Mystery Within (2019), Session Two list: 'Dharana 52' = verse 75 (agrees with Singh)",
+        "The Mystery Within (2019), parallel translations: 'Dharana 52 • verso 75' (agrees)",
+        "Wallis concordance: verse 75 = 'On the edge of sleep (Y47 ~ A1)' (verse text and technique match)",
+        "GRETIL, Wallis and Pradīpaka: Sanskrit of verse 75 compared"
+      ],
+      "notes": "Door index = Singh dhāraṇā number, read directly in Singh's own headings and cross-checked against The Mystery Within's Singh-numbered list and Wallis's concordance. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "verse 75: On the edge of sleep (Y47 ~ A1)"
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Lying down as for sleep, which is where this threshold naturally occurs.",
+    "honesty": "School addition. Verse 75 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "threshold_between_waking_and_sleep",
+    "joints": [],
+    "points": [
+      "waking, with the outer world fading",
+      "the threshold",
+      "sleep, not yet arrived"
+    ],
+    "summary": "Not a body shape. The map is a threshold in time: the outer world has faded, sleep has not yet come, and attention rests on the edge.",
+    "svg_hint": "a line fading from light to dark with a thin bright band at the boundary",
+    "honesty": "Geometry records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
+  },
+  "reaction": {
+    "name": "Stay on the edge",
+    "from_phase": "waking_bustle",
+    "to_phase": "liminal_clarity",
+    "summary": "School metaphor only: the busy waking mind fades and, before sleep, a clear quiet edge is noticed. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "mode": "natural",
+    "lands_in": "wherever the breath naturally ends; this door places nothing on the breath",
+    "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+  },
+  "orientation": {
+    "cue": "Rest on the edge between waking and sleep",
+    "gravity": "Let the floor or chair carry the body completely; there is no posture to hold",
+    "gaze": "Eyes closed; lying down",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
+  },
+  "attention": {
+    "primary": "The threshold where the outer world has faded and sleep has not yet come",
+    "secondary": "Its clarity and quiet",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 052 (verse 75)",
+    "verse_paraphrase": "When sleep has not yet come but the outer world has faded away, that state can be reached by the mind; there the supreme Goddess shines.",
+    "method_summary": "Lie down as for sleep. As the outer world fades, notice the quiet state just before sleep arrives. Rest attention lightly on that edge. If you fall asleep, that is fine.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Door 052 follows Vijñāna Bhairava Tantra dharana 52 (verse 75) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type is school_device: the dharana is the content, while the door index, seat and pacing are the school's.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 052 is dharana 52, verse 75. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+    ]
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. Let sleep come if it comes; do not keep yourself awake on purpose. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+      "kind": "vbt",
+      "ref": "[Dhāraṇā 52] VERSE 75: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 75: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "'Session Two' list: 'Dharana 52' = verse 75 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 52 • verso 75' (agrees).",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+      "kind": "commentary",
+      "ref": "verse 75 = 'On the edge of sleep (Y47 ~ A1)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 75: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+      "kind": "school",
+      "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 052: the threshold of sleep. Vijñāna Bhairava Tantra dharana 52, verse 75."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "No shape to make. Lie down as for sleep. The map is a threshold: the world fading, sleep not yet here."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Lie down comfortably. Eyes closed. Let the day go."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "As the outer world fades, notice the quiet just before sleep. Rest lightly on that edge."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School image: a busy mind fading to a clear edge. A metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Verse 75: when sleep has not yet come and the outer world has faded, that state can be reached; there the supreme Goddess shines."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Let sleep come if it wants to. If you are getting up instead, stretch slowly and open the eyes."
+    }
+  ],
+  "researcher": "R-052",
+  "researched_at": "2026-10-06",
+  "drafted_by": "Grok Bot (VBT Houses 2–7 research, branch research/vbt-houses-2-7)",
+  "review": {
+    "status": "pending_guardian_review",
+    "previous_review": "none (new door)"
+  }
+}

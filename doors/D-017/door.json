@@ -1,0 +1,208 @@
+{
+  "id": "D-017",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "The Silence Before and After a Sound",
+  "sanskrit": "yasya kasyāpi varṇasya pūrvāntāv",
+  "house": 2,
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "none: new door (doors/index.json at 32e76c4 lists door 17 as unassigned, with no name)",
+  "previous_file": "none: no door file existed for door 17 at commit 32e76c4",
+  "previous_vbt_ref": "none",
+  "dharana": {
+    "number": 17,
+    "verses": [
+      40
+    ],
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114, otherwise one verse each; dhāraṇā 112 = verse 137)",
+    "sanskrit_iast": "yasya kasyāpi varṇasya pūrvāntāv anubhāvayet | śūnyayā śūnyabhūto 'sau śūnyākāraḥ pumān bhavet ||",
+    "sanskrit_source": "GRETIL e-text, compared with Wallis's concordance, Pradīpaka and the Singh scan",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [],
+    "rendering": "Whoever dwells in the silence before any sound-syllable (varṇa) begins and after it ends becomes, through the power of that void, void himself: his very form becomes open space.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+    "commentary_note": "Singh: contemplate the condition of a letter before it is uttered and after it is uttered as mere void; 'the power of the void' is parāśakti, and 'becoming the form of the void' means no longer identifying with the breath-body as the Self. Wallis reads 'the beginning and/or ending of any syllable whatsoever'. Singh classes it as śāktopāya ending in śāmbhavopāya.",
+    "technique_name": "The Silence Before and After a Sound",
+    "category": "sound",
+    "category_plain": "sound",
+    "category_secondary": [
+      "gap (silence before and after)"
+    ],
+    "instruction": "Say one soft syllable and rest in the silence just before and just after it.",
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 17] VERSE 40'",
+        "The Mystery Within (2019), Session Two list: 'Dharana 17' = verse 40 (agrees with Singh)",
+        "The Mystery Within (2019), parallel translations: 'Dharana 17 • verso 40' (agrees)",
+        "Wallis concordance: verse 40 = 'Syllables emerging from and merging back into silence (Y14 ~ C2)' (verse text and technique match)",
+        "GRETIL, Wallis and Pradīpaka: Sanskrit of verse 40 compared"
+      ],
+      "notes": "Door index = Singh dhāraṇā number, read directly in Singh's own headings and cross-checked against The Mystery Within's Singh-numbered list and Wallis's concordance. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "verse 40: Syllables emerging from and merging back into silence (Y14 ~ C2)"
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 40 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "silence_sound_silence",
+    "joints": [],
+    "points": [
+      "the silence before the syllable",
+      "the syllable itself",
+      "the silence after the syllable"
+    ],
+    "summary": "Not a body shape. The map is a line in time: silence, then one syllable, then silence. Attention rests on the two silences that frame the sound.",
+    "svg_hint": "a short sound-wave drawn in the middle of a long empty line, with the empty stretches on both sides highlighted",
+    "honesty": "Geometry records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
+  },
+  "reaction": {
+    "name": "Frame the sound",
+    "from_phase": "busy_sound",
+    "to_phase": "open_silence",
+    "summary": "School metaphor only: the sound is felt as a brief shape inside a larger silence that was there before it and remains after it. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 6,
+    "cycles": 6,
+    "mode": "sounded_exhale",
+    "lands_in": "the silence after the syllable fades",
+    "cue": "Natural breath. On some out-breaths, say one soft syllable such as 'ma'; let it end with the breath. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+  },
+  "orientation": {
+    "cue": "Turn toward the edges of the sound: just before it starts and just after it stops",
+    "gravity": "Let the floor or chair carry the body completely; there is no posture to hold",
+    "gaze": "Eyes closed or softly lowered",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
+  },
+  "attention": {
+    "primary": "The silence immediately before and immediately after a single syllable",
+    "secondary": "The syllable itself, held lightly",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 017 (verse 40)",
+    "verse_paraphrase": "Whoever dwells in the silence before any sound-syllable (varṇa) begins and after it ends becomes, through the power of that void, void himself: his very form becomes open space.",
+    "method_summary": "Say a single syllable softly, or hear one. Before it, rest in the silence it will come out of; after it, stay in the silence it goes back into. Let the syllable be small and the silences large. No straining to hear.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Door 017 follows Vijñāna Bhairava Tantra dharana 17 (verse 40) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type is school_device: the dharana is the content, while the door index, seat and pacing are the school's.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 017 is dharana 17, verse 40. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+    ]
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. Keep any voiced syllable soft; there is no need to project the voice. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+      "kind": "vbt",
+      "ref": "[Dhāraṇā 17] VERSE 40: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 40: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "'Session Two' list: 'Dharana 17' = verse 40 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 17 • verso 40' (agrees).",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+      "kind": "commentary",
+      "ref": "verse 40 = 'Syllables emerging from and merging back into silence (Y14 ~ C2)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 40: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+      "kind": "school",
+      "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 017: the silence before and after a sound. Vijñāna Bhairava Tantra dharana 17, verse 40."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "No shape to make. Sit or lie down in any easy way. The map is a line: silence, one syllable, silence."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Let the floor or the chair carry you. Eyes closed or soft."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Say one soft syllable, or listen for one. Rest in the silence before it, and stay in the silence after it."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School image: a small sound inside a large silence. A metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Verse 40: dwell on what comes before and after any syllable, and through the power of the void one becomes open space. Let the sound be small and the silence large."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Release the attention. Feel the weight of the body on its support. Open the eyes when ready."
+    }
+  ],
+  "researcher": "R-017",
+  "researched_at": "2026-10-06",
+  "drafted_by": "Grok Bot (VBT Houses 2–7 research, branch research/vbt-houses-2-7)",
+  "review": {
+    "status": "pending_guardian_review",
+    "previous_review": "none (new door)"
+  }
+}

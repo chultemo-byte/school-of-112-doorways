@@ -1,0 +1,210 @@
+{
+  "id": "D-085",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "I Share the Qualities of Śiva",
+  "sanskrit": "sa evāhaṃ śaivadharmā",
+  "house": 6,
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "none: new door (doors/index.json at 32e76c4 lists door 85 as unassigned, with no name)",
+  "previous_file": "none: no door file existed for door 85 at commit 32e76c4",
+  "previous_vbt_ref": "none",
+  "dharana": {
+    "number": 85,
+    "verses": [
+      109
+    ],
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114, otherwise one verse each; dhāraṇā 112 = verse 137)",
+    "sanskrit_iast": "sarvajñaḥ sarvakartā ca vyāpakaḥ parameśvaraḥ | sa evāhaṃ śaivadharmā iti dārḍhyāc chivo bhavet ||",
+    "sanskrit_source": "GRETIL e-text, compared with Wallis's concordance, Pradīpaka and the Singh scan",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [
+      "verse 109: GRETIL and Singh read śaivadharmā iti dārḍhyāc chivo bhavet; Pradīpaka applies sandhi (śaivadharmeti); Wallis and The Mystery Within read dārḍhyād bhavec chivaḥ. Meaning is the same."
+    ],
+    "rendering": "'The supreme Lord is all-knowing, all-doing and all-pervading. I am he, having the qualities of Śiva': through the firmness of this conviction, one becomes Śiva.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+    "commentary_note": "Singh: the dhāraṇā of the first phase of recognition (pratyabhijñā): one is Śiva in essence, masked as an individual (jīva); when the individual intensely recognises its essential reality, the mask falls away and grace (anugraha) operates. Wallis: 'I have Śiva's qualities'.",
+    "technique_name": "I Share the Qualities of Śiva",
+    "category": "devotion",
+    "category_plain": "contemplation",
+    "category_secondary": [
+      "recognition"
+    ],
+    "instruction": "Recognise in yourself the qualities of the supreme: knowing, acting and pervading.",
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 85] VERSE 109'",
+        "The Mystery Within (2019), Session Two list: 'Dharana 85' = verse 109 (agrees with Singh)",
+        "Wallis concordance: verse 109 = 'I have Śiva’s qualities (Y84 ~ B3)' (verse text and technique match)",
+        "GRETIL, Wallis and Pradīpaka: Sanskrit of verse 109 compared"
+      ],
+      "notes": "Door index = Singh dhāraṇā number, read directly in Singh's own headings and cross-checked against The Mystery Within's Singh-numbered list and Wallis's concordance. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "verse 109: I have Śiva’s qualities (Y84 ~ B3)",
+      "mystery_within_parallel": "The parallel-translations section of The Mystery Within labels verse 109 'Dharana 86', because from verse 106 on it gives every verse its own number (106 = 83 … 137 = 114). Singh and the same book's Session Two list put this at dhāraṇā 85. Not followed."
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 109 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "recognition_of_shared_qualities",
+    "joints": [],
+    "points": [
+      "the supreme: all-knowing, all-doing, all-pervading",
+      "the same qualities in oneself",
+      "firm recognition"
+    ],
+    "summary": "Not a body shape. The map is recognition: the qualities of the whole found, in seed, in oneself.",
+    "svg_hint": "a large circle and a small circle with the same pattern inside both",
+    "honesty": "Geometry records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
+  },
+  "reaction": {
+    "name": "Recognise it",
+    "from_phase": "masked_self",
+    "to_phase": "recognised_self",
+    "summary": "School metaphor only: the sense of being a small, limited self gives way to recognising the qualities of the whole in oneself. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "mode": "natural",
+    "lands_in": "wherever the breath naturally ends; this door places nothing on the breath",
+    "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+  },
+  "orientation": {
+    "cue": "Turn attention toward what the verse names, and let everything else stay in the background",
+    "gravity": "Let the floor or chair carry the body completely; there is no posture to hold",
+    "gaze": "Eyes closed or softly lowered",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
+  },
+  "attention": {
+    "primary": "The conviction 'I share the qualities of Śiva: knowing, doing, pervading'",
+    "secondary": "Steady, firm recognition",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 085 (verse 109)",
+    "verse_paraphrase": "'The supreme Lord is all-knowing, all-doing and all-pervading. I am he, having the qualities of Śiva': through the firmness of this conviction, one becomes Śiva.",
+    "method_summary": "Reflect on the qualities of the supreme: knowing everything, doing everything, present everywhere. Then recognise those same capacities in yourself: you know, you act, your awareness extends. Hold that recognition firmly and rest in it.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Door 085 follows Vijñāna Bhairava Tantra dharana 85 (verse 109) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type is school_device: the dharana is the content, while the door index, seat and pacing are the school's.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 085 is dharana 85, verse 109. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+    ]
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. This is recognition of essential nature, not a claim to special powers. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+      "kind": "vbt",
+      "ref": "[Dhāraṇā 85] VERSE 109: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 109: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "'Session Two' list: 'Dharana 85' = verse 109 (numbering cross-check; follows Singh). Parallel-translations section labels verse 109 as 'Dharana 86' (disagrees; see dharana.numbering_variants).",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance, Part 2",
+      "kind": "commentary",
+      "ref": "verse 109 = 'I have Śiva’s qualities (Y84 ~ B3)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance-part-two"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 109: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+      "kind": "school",
+      "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 085: I share the qualities of Śiva. Vijñāna Bhairava Tantra dharana 85, verse 109."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "No shape to make. Sit or lie down. The map is the whole's qualities found in oneself."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Let the floor or the chair carry you. Eyes closed or soft."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Knowing, doing, pervading: the supreme's qualities. You know, you act, your awareness extends. Recognise it. Hold it firmly."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School image: the mask of smallness falling away. A metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Verse 109: the supreme Lord is all-knowing, all-doing, all-pervading; I am he, having Śiva's qualities. Through firm conviction one becomes Śiva."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Release the attention. Feel the weight of the body on its support. Open the eyes when ready."
+    }
+  ],
+  "researcher": "R-085",
+  "researched_at": "2026-10-06",
+  "drafted_by": "Grok Bot (VBT Houses 2–7 research, branch research/vbt-houses-2-7)",
+  "review": {
+    "status": "pending_guardian_review",
+    "previous_review": "none (new door)"
+  }
+}

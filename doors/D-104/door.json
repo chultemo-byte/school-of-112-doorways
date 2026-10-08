@@ -1,0 +1,211 @@
+{
+  "id": "D-104",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "Wherever the Mind Goes, Let It Go at Once",
+  "sanskrit": "yatra yatra mano yāti tat tat tenaiva tatkṣaṇam",
+  "house": 7,
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "none: new door (doors/index.json at 32e76c4 lists door 104 as unassigned, with no name)",
+  "previous_file": "none: no door file existed for door 104 at commit 32e76c4",
+  "previous_vbt_ref": "none",
+  "dharana": {
+    "number": 104,
+    "verses": [
+      129
+    ],
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114, otherwise one verse each; dhāraṇā 112 = verse 137)",
+    "sanskrit_iast": "yatra yatra mano yāti tat tat tenaiva tatkṣaṇam | parityajyānavasthityā nistaraṅgas tato bhavet ||",
+    "sanskrit_source": "GRETIL e-text, compared with Wallis's concordance, Pradīpaka and the Singh scan",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [],
+    "rendering": "Wherever the mind goes, let it give up that very thing, in that very instant, by that same mind; by not settling anywhere, one becomes free of waves.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+    "commentary_note": "Singh: agitation of mind is removed by dispassion and practice together: the negative method withdraws attention from whatever distracts it, the positive method concentrates on the object of meditation. He cites Bhagavad Gītā 6.26. Wallis: 'nothing to hang onto'; having nothing to hang onto, the mind becomes 'waveless'. The verse opens with the same words as verse 116 (D-091), but there the mind's destination is embraced; here it is released.",
+    "technique_name": "Wherever the Mind Goes, Let It Go at Once",
+    "category": "other",
+    "category_plain": "contemplation",
+    "category_secondary": [
+      "contemplation"
+    ],
+    "instruction": "Wherever the mind lands, let it go in that same instant, and do not let it settle anywhere.",
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 104] VERSE 129'",
+        "The Mystery Within (2019), Session Two list: 'Dharana 104' = verse 129 (agrees with Singh)",
+        "Wallis concordance: verse 129 = 'Nothing to hang onto (Y104 ~ C3)' (verse text and technique match)",
+        "GRETIL, Wallis and Pradīpaka: Sanskrit of verse 129 compared"
+      ],
+      "notes": "Door index = Singh dhāraṇā number, read directly in Singh's own headings and cross-checked against The Mystery Within's Singh-numbered list and Wallis's concordance. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "verse 129: Nothing to hang onto (Y104 ~ C3)",
+      "mystery_within_parallel": "The parallel-translations section of The Mystery Within labels verse 129 'Dharana 106', because from verse 106 on it gives every verse its own number (106 = 83 … 137 = 114). Singh and the same book's Session Two list put this at dhāraṇā 104. Not followed."
+    },
+    "source_disagreements": [
+      "Verses 116 (D-091) and 129 (D-104) open with the same words (yatra yatra mano yāti) but give opposite instructions: 116 finds Śiva wherever the mind goes; 129 releases wherever the mind goes. Singh, Wallis and The Mystery Within all keep them as separate dhāraṇās."
+    ]
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 129 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "not_settling",
+    "joints": [],
+    "points": [
+      "the mind landing on something",
+      "letting it go in that instant",
+      "no resting place: waveless"
+    ],
+    "summary": "Not a body shape. The map is the mind landing on one thing after another, and releasing each in the instant it lands, until there are no waves.",
+    "svg_hint": "a series of small touches on water, each fading at once, the surface becoming still",
+    "honesty": "Geometry records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
+  },
+  "reaction": {
+    "name": "Let go at once",
+    "from_phase": "settling_mind",
+    "to_phase": "waveless",
+    "summary": "School metaphor only: the mind is not allowed to settle anywhere, and with nothing to hang onto it becomes still. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "mode": "natural",
+    "lands_in": "wherever the breath naturally ends; this door places nothing on the breath",
+    "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+  },
+  "orientation": {
+    "cue": "Turn attention toward what the verse names, and let everything else stay in the background",
+    "gravity": "Let the floor or chair carry the body completely; there is no posture to hold",
+    "gaze": "Eyes closed or softly lowered",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
+  },
+  "attention": {
+    "primary": "Each thing the mind lands on, released in the same instant",
+    "secondary": "The waveless mind that remains",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 104 (verse 129)",
+    "verse_paraphrase": "Wherever the mind goes, let it give up that very thing, in that very instant, by that same mind; by not settling anywhere, one becomes free of waves.",
+    "method_summary": "Watch where the mind goes: a sound, a thought, an itch. In the very instant it lands, let it go, using the same mind that went there. Do not let it settle anywhere. Notice the stillness that grows.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Door 104 follows Vijñāna Bhairava Tantra dharana 104 (verse 129) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type is school_device: the dharana is the content, while the door index, seat and pacing are the school's.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 104 is dharana 104, verse 129. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+    ]
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. Keep the letting go light and quick, not forceful; if it becomes tense, rest for a while. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+      "kind": "vbt",
+      "ref": "[Dhāraṇā 104] VERSE 129: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 129: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "'Session Two' list: 'Dharana 104' = verse 129 (numbering cross-check; follows Singh). Parallel-translations section labels verse 129 as 'Dharana 106' (disagrees; see dharana.numbering_variants).",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance, Part 2",
+      "kind": "commentary",
+      "ref": "verse 129 = 'Nothing to hang onto (Y104 ~ C3)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance-part-two"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 129: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+      "kind": "school",
+      "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 104: wherever the mind goes, let it go at once. Vijñāna Bhairava Tantra dharana 104, verse 129."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "No shape to make. Sit or lie down. The map is the mind landing and letting go, again and again."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Let the floor or the chair carry you. Eyes closed or soft."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Watch where the mind goes. In the instant it lands, let it go. Do not let it settle. Notice the stillness."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School image: a surface becoming waveless. A metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Verse 129: wherever the mind goes, let it give that up in the same instant; by not settling anywhere, one becomes free of waves."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Let the practice go. Take one free breath. Open the eyes and look around the room."
+    }
+  ],
+  "researcher": "R-104",
+  "researched_at": "2026-10-06",
+  "drafted_by": "Grok Bot (VBT Houses 2–7 research, branch research/vbt-houses-2-7)",
+  "review": {
+    "status": "pending_guardian_review",
+    "previous_review": "none (new door)"
+  }
+}

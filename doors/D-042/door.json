@@ -1,0 +1,210 @@
+{
+  "id": "D-042",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "Body and World Filled with One's Own Bliss",
+  "sanskrit": "svānandabharitaṃ smaret",
+  "house": 3,
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "none: new door (doors/index.json at 32e76c4 lists door 42 as unassigned, with no name)",
+  "previous_file": "none: no door file existed for door 42 at commit 32e76c4",
+  "previous_vbt_ref": "none",
+  "dharana": {
+    "number": 42,
+    "verses": [
+      65
+    ],
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114, otherwise one verse each; dhāraṇā 112 = verse 137)",
+    "sanskrit_iast": "sarvaṃ jagat svadehaṃ vā svānandabharitaṃ smaret | yugapat svāmṛtenaiva parānandamayo bhavet ||",
+    "sanskrit_source": "GRETIL e-text, compared with Wallis's concordance, Pradīpaka and the Singh scan",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [
+      "verse 65: Singh reports Lakshmanjoo's reading of vā as ca ('and': the world and the body together) rather than 'or'."
+    ],
+    "rendering": "Let one call to mind the whole world, or one's own body, as filled with one's own bliss, all at once; through that inner nectar one becomes full of supreme bliss.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+    "commentary_note": "Singh: 'all at once' means with the totality of attention in one sweep; 'one's own bliss' is the bliss of consciousness, not pleasure from objects; 'nectar' signals that it does not change. Kṣemarāja cites the verse on Śivasūtra 1.18 and 3.39. Singh reports Lakshmanjoo's reading of vā as 'and': the world and the body together.",
+    "technique_name": "Body and World Filled with One's Own Bliss",
+    "category": "sensation",
+    "category_plain": "sensation",
+    "category_secondary": [
+      "visualization/space"
+    ],
+    "instruction": "Let a quiet, inner gladness fill your whole body, then the world around you.",
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 42] VERSE 65'",
+        "The Mystery Within (2019), Session Two list: 'Dharana 42' = verse 65 (agrees with Singh)",
+        "The Mystery Within (2019), parallel translations: 'Dharana 42 • verso 65' (agrees)",
+        "Wallis concordance: verse 65 = 'Body of bliss (Y37 ~ A2)' (verse text and technique match)",
+        "GRETIL, Wallis and Pradīpaka: Sanskrit of verse 65 compared"
+      ],
+      "notes": "Door index = Singh dhāraṇā number, read directly in Singh's own headings and cross-checked against The Mystery Within's Singh-numbered list and Wallis's concordance. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "verse 65: Body of bliss (Y37 ~ A2)"
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 65 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "body_and_world_filled",
+    "joints": [],
+    "points": [
+      "one's own body",
+      "the whole world",
+      "both filled with one's own quiet joy"
+    ],
+    "summary": "Not a body shape. The map is the body, or the body and the world, filled evenly with a quiet, inner gladness.",
+    "svg_hint": "a body outline glowing softly, the glow continuing outward into a wide circle",
+    "honesty": "Geometry records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
+  },
+  "reaction": {
+    "name": "Fill with gladness",
+    "from_phase": "flat_mood",
+    "to_phase": "full_bliss",
+    "summary": "School metaphor only: a flat or ordinary mood is filled through with a quiet, self-sourced gladness. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "mode": "natural",
+    "lands_in": "wherever the breath naturally ends; this door places nothing on the breath",
+    "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+  },
+  "orientation": {
+    "cue": "Let gladness fill the body, then the world, at once",
+    "gravity": "Let the floor or chair carry the body completely; there is no posture to hold",
+    "gaze": "Eyes closed or softly lowered",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
+  },
+  "attention": {
+    "primary": "The body, or body and world, felt as filled with one's own quiet joy",
+    "secondary": "That joy as inner, not dependent on anything outside",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 042 (verse 65)",
+    "verse_paraphrase": "Let one call to mind the whole world, or one's own body, as filled with one's own bliss, all at once; through that inner nectar one becomes full of supreme bliss.",
+    "method_summary": "Recall a simple, quiet gladness that does not depend on anything outside. Let it fill the whole body at once, then the world around. Rest in that fullness without chasing intensity.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Door 042 follows Vijñāna Bhairava Tantra dharana 42 (verse 65) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type is school_device: the dharana is the content, while the door index, seat and pacing are the school's.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 042 is dharana 42, verse 65. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+    ]
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. If no gladness is available today, that is fine; rest with whatever is present without forcing a feeling. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+      "kind": "vbt",
+      "ref": "[Dhāraṇā 42] VERSE 65: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 65: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "'Session Two' list: 'Dharana 42' = verse 65 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 42 • verso 65' (agrees).",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+      "kind": "commentary",
+      "ref": "verse 65 = 'Body of bliss (Y37 ~ A2)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 65: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+      "kind": "school",
+      "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 042: body and world filled with one's own bliss. Vijñāna Bhairava Tantra dharana 42, verse 65."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "No shape to make. Sit or lie down. The map is the body, then the world, filled with a quiet gladness."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Let the floor or the chair carry you. Eyes closed or soft."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Recall a simple gladness that needs nothing outside. Let it fill the whole body at once, then the world. No chasing."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School image: an ordinary mood filled with quiet gladness. A metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Verse 65: call to mind the world or your own body as filled with your own bliss, all at once; through that nectar one becomes supreme bliss."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Let the breath go unwatched for a round. Move the fingers and toes. Return to the room."
+    }
+  ],
+  "researcher": "R-042",
+  "researched_at": "2026-10-06",
+  "drafted_by": "Grok Bot (VBT Houses 2–7 research, branch research/vbt-houses-2-7)",
+  "review": {
+    "status": "pending_guardian_review",
+    "previous_review": "none (new door)"
+  }
+}

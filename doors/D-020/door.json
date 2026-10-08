@@ -1,0 +1,207 @@
+{
+  "id": "D-020",
+  "schema_version": "2.0.0",
+  "framing": "vbt_dharana",
+  "name": "Space in Every Direction at Once, Within the Body",
+  "sanskrit": "nijadehe sarvadikkaṃ yugapad bhāvayed viyat",
+  "house": 2,
+  "status": "draft",
+  "practice_mode": "practice",
+  "previous_label": "none: new door (doors/index.json at 32e76c4 lists door 20 as unassigned, with no name)",
+  "previous_file": "none: no door file existed for door 20 at commit 32e76c4",
+  "previous_vbt_ref": "none",
+  "dharana": {
+    "number": 20,
+    "verses": [
+      43
+    ],
+    "numbering_edition": "Jaideva Singh 1979 (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114, otherwise one verse each; dhāraṇā 112 = verse 137)",
+    "sanskrit_iast": "nijadehe sarvadikkaṃ yugapad bhāvayed viyat | nirvikalpamanās tasya viyat sarvam pravartate ||",
+    "sanskrit_source": "GRETIL e-text, compared with Wallis's concordance, Pradīpaka and the Singh scan",
+    "sanskrit_status": "verified",
+    "sanskrit_variants": [],
+    "rendering": "Let one contemplate space (viyat) in every direction at once within one's own body. For one whose mind is free of thought-constructs, everything becomes space.",
+    "rendering_kind": "paraphrase",
+    "rendering_attribution": "School paraphrase drawing on Jaideva Singh (1979), Christopher Wallis and Bettina Bäumer (as printed in Wallis's concordance); not a quotation.",
+    "commentary_note": "Singh stresses two conditions: the contemplation must be simultaneous (yugapat), not direction by direction, and the mind must be still (nirvikalpamanāḥ); then one reaches the plane in which differences fall away. Wallis: 'everything becomes spacious'. Note: a previous House 1 draft of Door 014 carried this verse under hatha.es numbering; under Singh it belongs here.",
+    "technique_name": "Space in Every Direction at Once, Within the Body",
+    "category": "emptiness/space",
+    "category_plain": "visualization/space",
+    "category_secondary": [
+      "sensation"
+    ],
+    "instruction": "Feel space opening in every direction within the body at the same time.",
+    "verification": {
+      "status": "verified",
+      "checked_against": [
+        "Jaideva Singh 1979 (scanned copy): '[Dhāraṇā 20] VERSE 43'",
+        "The Mystery Within (2019), Session Two list: 'Dharana 20' = verse 43 (agrees with Singh)",
+        "The Mystery Within (2019), parallel translations: 'Dharana 20 • verso 43' (agrees)",
+        "Wallis concordance: verse 43 = 'Inner space (Y17 ~ C2)' (verse text and technique match)",
+        "GRETIL, Wallis and Pradīpaka: Sanskrit of verse 43 compared"
+      ],
+      "notes": "Door index = Singh dhāraṇā number, read directly in Singh's own headings and cross-checked against The Mystery Within's Singh-numbered list and Wallis's concordance. Caveat: Singh was read from an OCR scan, not a print copy in hand."
+    },
+    "numbering_variants": {
+      "wallis_yukti": "verse 43: Inner space (Y17 ~ C2)"
+    }
+  },
+  "seat": {
+    "school_device": true,
+    "label": "Any steady, comfortable position (school addition)",
+    "summary": "Any steady, comfortable position: sitting on a chair, sitting on the floor with support under the hips, or lying on the back. Standing or walking slowly is also acceptable when that is easier. Choose the position in which the body needs the least effort.",
+    "honesty": "School addition. Verse 43 does not specify a body position. The seat is a convenience so the dharana can be practised; it is not part of the technique and makes no claim of tradition."
+  },
+  "geometry": {
+    "kind": "attention_map",
+    "polygon": "sphere_of_space",
+    "joints": [],
+    "points": [
+      "the body as the centre",
+      "space opening in all directions at once"
+    ],
+    "summary": "Not a body shape. The map is a sphere: the body at its centre and space opening in every direction at the same moment, not one direction after another.",
+    "svg_hint": "a seated outline drawn very faintly at the centre of a soft sphere with rays in all directions",
+    "honesty": "Geometry records the dharana's own map of attention, not a body shape. Locations marked 'commentarial' come from commentary, not from the verse."
+  },
+  "reaction": {
+    "name": "Open in all directions",
+    "from_phase": "narrow_focus",
+    "to_phase": "spherical_openness",
+    "summary": "School metaphor only: attention stops travelling from place to place and opens everywhere at once. Not a biochemical or medical claim."
+  },
+  "breath": {
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 4,
+    "cycles": 6,
+    "mode": "natural",
+    "lands_in": "wherever the breath naturally ends; this door places nothing on the breath",
+    "cue": "Natural breath. Count about four in and four out only if it helps you settle, then let the count go. No forced hold.",
+    "honesty": "The counts are an optional school pacing aid, not part of the verse. Hold is always 0: this school never adds a deliberate breath-hold."
+  },
+  "orientation": {
+    "cue": "Open in every direction at once, without picking a direction",
+    "gravity": "Let the floor or chair carry the body completely; there is no posture to hold",
+    "gaze": "Eyes closed or softly lowered",
+    "degrees_hint": "No angle target: the VBT gives no posture for this dharana"
+  },
+  "attention": {
+    "primary": "Space in all directions within the body, felt simultaneously",
+    "secondary": "Thoughts left alone, so the openness can stay simple",
+    "chakra": null
+  },
+  "adiyogi": {
+    "vbt_ref": "VBT dharana 020 (verse 43)",
+    "verse_paraphrase": "Let one contemplate space (viyat) in every direction at once within one's own body. For one whose mind is free of thought-constructs, everything becomes space.",
+    "method_summary": "Feel the body's inner space opening in every direction at once: front, back, sides, up and down together, not one after another. Let thoughts pass without following them, and rest in the openness.",
+    "practice_mode": "practice",
+    "historical_extreme": false,
+    "sexual_content": false
+  },
+  "honesty": {
+    "pairing_type": "school_device",
+    "disclosure": "Door 020 follows Vijñāna Bhairava Tantra dharana 20 (verse 43) in Jaideva Singh's numbering. The door-to-dharana index is a School of 112 Doorways teaching device. Singh's sequence is one edition's count, not an ancient one-to-one canon. The seat, counts, reaction and beat scripts are school additions.",
+    "notes": "pairing_type is school_device: the dharana is the content, while the door index, seat and pacing are the school's.",
+    "flags": [
+      "Door index = Jaideva Singh dharana number: Door 020 is dharana 20, verse 43. Other editions number differently (see dharana.numbering_variants).",
+      "The seat, breath counts, reaction metaphor, attention-map drawing and beat scripts are school devices, not part of the verse.",
+      "The English is a school paraphrase, not a quotation from any translator.",
+      "No medical claims. Reaction names are metaphors, not biochemistry.",
+      "New door researched on 2026-10-06 on branch research/vbt-houses-2-7; awaiting guardian review."
+    ]
+  },
+  "safety": {
+    "pain_rule": "Pain is information. Pause, regress, or exit. Never push through sharp pain.",
+    "never_force": true,
+    "open_seat_alternate": "This door needs no particular posture: sit on a chair, sit on the floor with support, or lie down. Eyes may stay open.",
+    "contraindication_notes": "General practice caution only; not medical advice. If the sense of openness feels unsettling, open the eyes and feel the contact of the body with the floor. If anything feels distressing (dizziness, agitation, strong emotion), stop, open the eyes and rest attention on the feet and the floor."
+  },
+  "sources": [
+    {
+      "label": "Jaideva Singh, Vijñānabhairava or Divine Consciousness: A Treasury of 112 Types of Yoga (Delhi: Motilal Banarsidass, 1979)",
+      "kind": "vbt",
+      "ref": "[Dhāraṇā 20] VERSE 43: numbering, translation and notes. Checked against a scanned copy (text extracted with pdftotext), not a print copy.",
+      "url": "https://www.gianfrancobertagni.it/materiali/tantra/singh2.pdf"
+    },
+    {
+      "label": "Vijñānabhairava, GRETIL e-text (data entry Marino Faliero, 1998)",
+      "kind": "vbt",
+      "ref": "verse 43: Sanskrit source for the IAST (input errors corrected against Wallis and the Singh scan where noted in dharana.sanskrit_variants)",
+      "url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vijJAnabhairava.htm"
+    },
+    {
+      "label": "Vijñāna Bhairava Tantra: The Mystery Within (2019 compilation of translations: Bäumer, Singh, Chaudhri, S. P. Singh & Maheshvarananda, Silburn, Dubois, Figueroa)",
+      "kind": "commentary",
+      "ref": "'Session Two' list: 'Dharana 20' = verse 43 (numbering cross-check; follows Singh). Parallel-translations section: 'Dharana 20 • verso 43' (agrees).",
+      "url": "https://archive.org/details/vijnanabhairavtantra"
+    },
+    {
+      "label": "Christopher (Hareesh) Wallis, Vijñāna-bhairava-tantra translation concordance",
+      "kind": "commentary",
+      "ref": "verse 43 = 'Inner space (Y17 ~ C2)'. Sanskrit and parallel translations (Wallis, Singh, Dyczkowski, Bäumer and others) used for the paraphrase.",
+      "url": "https://hareesh.org/blog/2023/9/27/vijaana-bhairava-tantra-translation-concordance"
+    },
+    {
+      "label": "Gabriel Pradīpaka, Vijñānabhairava (Sanskrit & Trika Shaivism)",
+      "kind": "commentary",
+      "ref": "verse 43: Sanskrit compared. Pradīpaka's text shares much of GRETIL's input (it repeats several GRETIL errors), so it is not counted as an independent witness.",
+      "url": "https://www.sanskrit-trikashaivism.com/en/vijnana-bhairava-trika-scriptures-non-dual-shaivism-of-kashmir/587"
+    },
+    {
+      "label": "School of 112 Doorways: seat, breath counts, reaction metaphor, attention map drawing and beat scripts",
+      "kind": "school",
+      "ref": "School devices, following the House 1 conventions (doors/HOUSE-1-REGISTRY.md, guardians/CHECKLIST.md). research/PROMPT_TEMPLATE.md is not present in the repository at 32e76c4.",
+      "url": ""
+    }
+  ],
+  "beats": [
+    {
+      "n": 1,
+      "title": "Name the door",
+      "script": "This is Door 020: space in every direction at once, within the body. Vijñāna Bhairava Tantra dharana 20, verse 43."
+    },
+    {
+      "n": 2,
+      "title": "Geometry",
+      "script": "No shape to make. Sit or lie down. The map is a sphere, with you at the centre and space opening every way at once."
+    },
+    {
+      "n": 3,
+      "title": "Orientation",
+      "script": "Let the floor or the chair carry you. Eyes closed or soft."
+    },
+    {
+      "n": 4,
+      "title": "Breath",
+      "script": "Natural breath. Count about four in and four out only if it helps. No forced hold."
+    },
+    {
+      "n": 5,
+      "title": "Attention",
+      "script": "Feel space inside the body opening in every direction together. Not one direction, then the next. All at once."
+    },
+    {
+      "n": 6,
+      "title": "Reaction cue",
+      "script": "School image: a narrow focus opening into a sphere. A metaphor, not medicine."
+    },
+    {
+      "n": 7,
+      "title": "Adiyogi thread",
+      "script": "Verse 43: contemplate space in all directions at once within your own body; with a thought-free mind, everything becomes space."
+    },
+    {
+      "n": 8,
+      "title": "Exit / integrate",
+      "script": "Let the practice go. Take one free breath. Open the eyes and look around the room."
+    }
+  ],
+  "researcher": "R-020",
+  "researched_at": "2026-10-06",
+  "drafted_by": "Grok Bot (VBT Houses 2–7 research, branch research/vbt-houses-2-7)",
+  "review": {
+    "status": "pending_guardian_review",
+    "previous_review": "none (new door)"
+  }
+}
