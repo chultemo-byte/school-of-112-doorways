@@ -1909,10 +1909,10 @@
     "verse": 36,
     "title": "Sealing the Sense-Doors, Watching the Point Dissolve",
     "practice_mode": "historical/observe_only",
-    "script": "This is Door 13. Sealing the sense-doors, watching the point dissolve. It is verse 36 of the old text. The school keeps this door as memory. We observe it. We do not practise it. The old text says, in our plain words: close the doors of the senses with the hands, and pierce the point between the eyebrows. A point of light is seen. As it slowly dissolves, in its middle is the highest state. Jaideva Singh describes the old hand seal. The thumbs close the ears. The fingers cover the eyes, and close the nostrils and the mouth. He also tells that Swami Lakshmanjoo taught it the other way round: the point of light first, the seal after. Because the old seal covers the eyes and closes the nose and mouth, the school does not teach it. Never press on the eyes. Never block the nose or the mouth. [pause 4s] If you want a door to practise, go to Door 9. The five voids of the peacock feather. There the senses are not shut by the hands. You notice them as five soft rings of colour, narrowing toward one quiet centre at the heart. [pause 3s] Open the eyes fully. Look around the room. Move on when ready.",
-    "est_seconds": 101,
+    "script": "This is Door 13. Sealing the sense-doors, watching the point dissolve. It is verse 36 of the old text. The school keeps this door as memory. We observe it. We do not practise it. The old text says, in our plain words: close the doors of the senses with the hands, and pierce the point between the eyebrows. A point of light is seen. As it slowly dissolves, in its middle is the highest state. Jaideva Singh describes the old hand seal. The thumbs close the ears. The fingers cover the eyes, and close the nostrils and the mouth. He also tells that Swami Lakshmanjoo taught it the other way round: the point of light first, the seal after. Because the old seal covers the eyes and closes the nose and mouth, the school does not teach it. Never press on the eyes. Never block the nose or the mouth. [pause 4s] If you want a door to practise, go to Door 1. Resting at the two turning points of the breath. This verse has no direct practice door in the school, so Door 1 is a good place to begin. There you only notice where the breath turns, at the heart and just in front of the nose. Nothing is forced, and the breath is never stopped. [pause 3s] Open the eyes fully. Look around the room. Move on when ready.",
+    "est_seconds": 111,
     "visual": {
-      "concept": "A still, faint historical image: seven small points, the sense-doors, dimming one by one around a central point of light that slowly dissolves; then Door 9's soft rings appear.",
+      "concept": "A still, faint historical image: seven small points, the sense-doors, dimming one by one around a central point of light that slowly dissolves; then Door 1's two soft points with a breathing line between them.",
       "elements": [
         {
           "id": "field",
@@ -1930,9 +1930,9 @@
           "description": "A small point of pale light (#E8DDB8) in the middle of the cluster, slowly dissolving."
         },
         {
-          "id": "door9_rings",
-          "shape": "concentric_rings",
-          "description": "At the close, Door 9's five soft concentric rings fade in."
+          "id": "door1_points",
+          "shape": "points",
+          "description": "At the close, Door 1's two soft points with a faint line of light between them."
         }
       ],
       "timeline": [
@@ -1968,17 +1968,17 @@
         },
         {
           "t_start": 73,
-          "t_end": 93,
-          "action": "Voice speaks. Door 9's five soft rings fade in where the old image was."
+          "t_end": 103,
+          "action": "Voice speaks. Door 1's two soft points appear, one at heart height and one just in front, with a faint line of light breathing between them."
         },
         {
-          "t_start": 93,
-          "t_end": 96,
-          "action": "Pause 3 s. Rings glow, still."
+          "t_start": 103,
+          "t_end": 106,
+          "action": "Pause 3 s. The two points glow softly, the line breathing."
         },
         {
-          "t_start": 96,
-          "t_end": 101,
+          "t_start": 106,
+          "t_end": 111,
           "action": "Voice speaks. Everything fades to the dark field."
         }
       ]

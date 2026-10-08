@@ -844,10 +844,10 @@
     "verse": 93,
     "title": "Attention Gathered at the Point of a Prick",
     "practice_mode": "historical/observe_only",
-    "script": "This is Door 70. Attention Gathered at the Point of a Prick. It is verse 93 of the old text. The school keeps this door as memory. We observe it. We do not practise it. The old text describes pricking some part of the body with a sharp needle, and joining awareness to that very spot. That, it says, is a pure passage into the divine. Singh explains the idea behind it: strong attention, from pleasure or from pain, gathers the mind to one point. The school never teaches harming the body in any way. Don't prick, pierce or hurt yourself. [pause 4s] If you want a door to practise, go to Door 23. A moment of void in the body. There you gently choose one region, such as a hand, and for a moment sense it as open space. Nothing touches it. [pause 3s] Close the text. Take a normal breath. Look around the room and move on when ready.",
-    "est_seconds": 78,
+    "script": "This is Door 70. Attention Gathered at the Point of a Prick. It is verse 93 of the old text. The school keeps this door as memory. We observe it. We do not practise it. The old text describes pricking some part of the body with a sharp needle, and joining awareness to that very spot. That, it says, is a pure passage into the divine. Singh explains the idea behind it: strong attention, from pleasure or from pain, gathers the mind to one point. The school never teaches harming the body in any way. Don't prick, pierce or hurt yourself. [pause 4s] If you want a door to practise, go to Door 1. Resting at the two turning points of the breath. This verse has no direct practice door in the school, so Door 1 is a good place to begin. There you only notice where the breath turns, at the heart and just in front of the nose. Nothing is forced, and the breath is never stopped. [pause 3s] Close the text. Take a normal breath. Look around the room and move on when ready.",
+    "est_seconds": 90,
     "visual": {
-      "concept": "A still, faint historical image: a single faint point, gently fading; then Door 23's small shape opening into an outline.",
+      "concept": "A still, faint historical image: a single faint point, gently fading; then Door 1's two soft points with a breathing line between them.",
       "elements": [
         {
           "id": "field",
@@ -860,9 +860,9 @@
           "description": "A single small faint point (#C9A26B at low opacity). No body, no needle."
         },
         {
-          "id": "door23",
-          "shape": "ring",
-          "description": "At the close, Door 23's small soft shape shown as an open outline."
+          "id": "door1_points",
+          "shape": "points",
+          "description": "At the close, Door 1's two soft points with a faint line of light between them."
         }
       ],
       "timeline": [
@@ -898,17 +898,17 @@
         },
         {
           "t_start": 50,
-          "t_end": 68,
-          "action": "Voice speaks. Door 23's small open outline appears."
+          "t_end": 80,
+          "action": "Voice speaks. Door 1's two soft points appear, one at heart height and one just in front, with a faint line of light breathing between them."
         },
         {
-          "t_start": 68,
-          "t_end": 71,
+          "t_start": 80,
+          "t_end": 83,
           "action": "Pause 3 s. The new shape glows, still."
         },
         {
-          "t_start": 71,
-          "t_end": 78,
+          "t_start": 83,
+          "t_end": 90,
           "action": "Voice speaks. Everything fades to the dark field."
         }
       ]
