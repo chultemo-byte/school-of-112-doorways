@@ -1,0 +1,2448 @@
+[
+  {
+    "door": 81,
+    "verse": 104,
+    "title": "'I Am Everywhere'",
+    "practice_mode": "practice",
+    "script": "This is Door 81. 'I Am Everywhere'. It is verse 104 of the old text. In our plain words: let go of living only inside this body. With a firm mind, and looking at nothing else, contemplate: I am everywhere. Then, the old text says, happiness comes. Singh says there are two sides to it. First, I am not only this body, this place, this time. Then, I am everywhere. [pause 3s] If it hurts, stop. If this feels disorienting, feel the body's weight on the floor, and open your eyes. If you feel dizzy, restless, or a strong feeling comes up, stop. Open your eyes, and rest your attention on your feet and the floor. Find any steady, easy position. A chair is good. The floor, with a cushion under you, is good. Lying down is good. Let the floor or the chair take your weight. Close your eyes, or lower them softly. [pause 4s] First notice the habit of feeling: I am here, inside this body. Loosen it. Then, steadily, contemplate: I am everywhere. [pause 3s] Breathe naturally. About four in and four out, if counting helps; if not, don't count. Don't stop the breath, and don't stretch it. Six rounds, two at a time. [pause 16s] Not only here. Let the edges of here loosen. [pause 16s] I am everywhere. Steady. [pause 16s] Let the count go. Rest, and notice any gladness that comes. [pause 16s] Release the attention. Feel the weight of the body on its support. Open the eyes when ready.",
+    "est_seconds": 184,
+    "visual": {
+      "concept": "A small point of light at the centre that spreads evenly until it fills the whole frame.",
+      "elements": [
+        {
+          "id": "field",
+          "shape": "rect",
+          "description": "Full-frame dark field, deep night blue (#0A0F1E)."
+        },
+        {
+          "id": "here",
+          "shape": "circle",
+          "description": "A small soft gold (#F2D8A0) point at the centre: 'here'."
+        },
+        {
+          "id": "everywhere",
+          "shape": "glow",
+          "description": "The same light spread evenly across the frame."
+        },
+        {
+          "id": "breath_halo",
+          "shape": "ring",
+          "description": "A very faint pale-blue halo (#A9C4E8) that swells with the in-breath and softens with the out-breath. It only paces the breath."
+        }
+      ],
+      "timeline": [
+        {
+          "t_start": 0,
+          "t_end": 7,
+          "action": "Voice speaks. Dark field. A small point of light appears at the centre."
+        },
+        {
+          "t_start": 7,
+          "t_end": 22,
+          "action": "Voice speaks. The light spreads outward evenly."
+        },
+        {
+          "t_start": 22,
+          "t_end": 32,
+          "action": "Voice speaks. The shapes rest, faint and even."
+        },
+        {
+          "t_start": 32,
+          "t_end": 35,
+          "action": "Pause 3 s. Stillness."
+        },
+        {
+          "t_start": 35,
+          "t_end": 55,
+          "action": "Voice speaks. The shapes dim slightly. Nothing moves."
+        },
+        {
+          "t_start": 55,
+          "t_end": 72,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 72,
+          "t_end": 76,
+          "action": "Pause 4 s. Stillness while the student settles."
+        },
+        {
+          "t_start": 76,
+          "t_end": 85,
+          "action": "Voice speaks. The point loosens at its edge."
+        },
+        {
+          "t_start": 85,
+          "t_end": 88,
+          "action": "Pause 3 s. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 88,
+          "t_end": 101,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 101,
+          "t_end": 105,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 105,
+          "t_end": 109,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 109,
+          "t_end": 113,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 113,
+          "t_end": 117,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 117,
+          "t_end": 121,
+          "action": "Voice speaks. The edge softens."
+        },
+        {
+          "t_start": 121,
+          "t_end": 125,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 125,
+          "t_end": 129,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 129,
+          "t_end": 133,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 133,
+          "t_end": 137,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 137,
+          "t_end": 139,
+          "action": "Voice speaks. The light fills the frame."
+        },
+        {
+          "t_start": 139,
+          "t_end": 143,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 143,
+          "t_end": 147,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 147,
+          "t_end": 151,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 151,
+          "t_end": 155,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 155,
+          "t_end": 160,
+          "action": "Voice speaks. One even light everywhere."
+        },
+        {
+          "t_start": 160,
+          "t_end": 176,
+          "action": "Pause 16 s. Uncounted quiet: one even light everywhere. No breath pacing is shown."
+        },
+        {
+          "t_start": 176,
+          "t_end": 184,
+          "action": "Voice speaks. The light fades to the dark field."
+        }
+      ]
+    }
+  },
+  {
+    "door": 82,
+    "verse": [
+      105,
+      106
+    ],
+    "title": "Knowing and Willing in Everything, and Attention to the Link",
+    "practice_mode": "practice",
+    "script": "This is Door 82. Knowing and Willing in Everything, and Attention to the Link. It is verses 105 and 106 of the old text. In our plain words: the knowing and the willing in me are not in me alone. They arise in everything, even in a clay pot. Contemplating this, you become all-pervading. And the next verse adds: everyone knows things, but a yogi stays aware of the link between the knower and the known. Singh counts both verses as one door. Wallis counts them as two. The school follows Singh. [pause 3s] If it hurts, stop. This is a contemplation, not a belief to force on yourself. Keep it light. If you feel dizzy, restless, or a strong feeling comes up, stop. Open your eyes, and rest your attention on your feet and the floor. Find any steady, easy position. A chair is good. The floor, with a cushion under you, is good. Lying down is good. Let the floor or the chair take your weight. Close your eyes, or lower them softly. [pause 4s] First, feel your own knowing and willing. Then bring to mind a simple thing, a pot or a stone, and sense the same knowing in it. Then notice the link between you, the knower, and it, the known. [pause 3s] Breathe naturally. About four in and four out, if counting helps; if not, don't count. Don't stop the breath, and don't stretch it. Six rounds, two at a time. [pause 16s] Knowing here. The same in the pot, the stone. [pause 16s] Now the link. Knower, known, and the link between. [pause 16s] Let the count go. Rest in that link. [pause 16s] Let the breath go unwatched for a round. Move the fingers and toes. Return to the room.",
+    "est_seconds": 203,
+    "visual": {
+      "concept": "Two soft points of light, one larger and one smaller, joined by a thin line that slowly brightens.",
+      "elements": [
+        {
+          "id": "field",
+          "shape": "rect",
+          "description": "Full-frame dark field, deep night blue (#0A0F1E)."
+        },
+        {
+          "id": "knower",
+          "shape": "circle",
+          "description": "A soft soft gold (#F2D8A0) point on the left: the knower."
+        },
+        {
+          "id": "known",
+          "shape": "circle",
+          "description": "A smaller pale blue (#A9C4E8) point on the right: a simple object."
+        },
+        {
+          "id": "link",
+          "shape": "line",
+          "description": "A thin line between them that brightens."
+        },
+        {
+          "id": "breath_halo",
+          "shape": "ring",
+          "description": "A very faint pale-blue halo (#A9C4E8) that swells with the in-breath and softens with the out-breath. It only paces the breath."
+        }
+      ],
+      "timeline": [
+        {
+          "t_start": 0,
+          "t_end": 11,
+          "action": "Voice speaks. Dark field. Two soft points appear, one on each side."
+        },
+        {
+          "t_start": 11,
+          "t_end": 35,
+          "action": "Voice speaks. Both glow the same; a thin line joins them."
+        },
+        {
+          "t_start": 35,
+          "t_end": 42,
+          "action": "Voice speaks. The shapes rest, faint and even."
+        },
+        {
+          "t_start": 42,
+          "t_end": 45,
+          "action": "Pause 3 s. Stillness."
+        },
+        {
+          "t_start": 45,
+          "t_end": 65,
+          "action": "Voice speaks. The shapes dim slightly. Nothing moves."
+        },
+        {
+          "t_start": 65,
+          "t_end": 82,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 82,
+          "t_end": 86,
+          "action": "Pause 4 s. Stillness while the student settles."
+        },
+        {
+          "t_start": 86,
+          "t_end": 103,
+          "action": "Voice speaks. The two points glow the same."
+        },
+        {
+          "t_start": 103,
+          "t_end": 106,
+          "action": "Pause 3 s. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 106,
+          "t_end": 119,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 119,
+          "t_end": 123,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 123,
+          "t_end": 127,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 127,
+          "t_end": 131,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 131,
+          "t_end": 135,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 135,
+          "t_end": 139,
+          "action": "Voice speaks. Both glow evenly."
+        },
+        {
+          "t_start": 139,
+          "t_end": 143,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 143,
+          "t_end": 147,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 147,
+          "t_end": 151,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 151,
+          "t_end": 155,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 155,
+          "t_end": 159,
+          "action": "Voice speaks. The line between them brightens."
+        },
+        {
+          "t_start": 159,
+          "t_end": 163,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 163,
+          "t_end": 167,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 167,
+          "t_end": 171,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 171,
+          "t_end": 175,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 175,
+          "t_end": 179,
+          "action": "Voice speaks. Only the bright link."
+        },
+        {
+          "t_start": 179,
+          "t_end": 195,
+          "action": "Pause 16 s. Uncounted quiet: the bright link. No breath pacing is shown."
+        },
+        {
+          "t_start": 195,
+          "t_end": 203,
+          "action": "Voice speaks. Points and line fade to the dark field."
+        }
+      ]
+    }
+  },
+  {
+    "door": 83,
+    "verse": 107,
+    "title": "The Same Awareness in Another's Body",
+    "practice_mode": "practice",
+    "script": "This is Door 83. The Same Awareness in Another's Body. It is verse 107 of the old text. In our plain words: feel awareness in another's body just as in your own. Let go of concern for your own body, and you become all-pervading. The verse says this happens within days. That is the old text's own claim. The school promises nothing. [pause 3s] If it hurts, stop. This is an inner contemplation. It is never a reason to cross anyone's boundaries, of body or of feeling. If you feel dizzy, restless, or a strong feeling comes up, stop. Open your eyes, and rest your attention on your feet and the floor. Find any steady, easy position. A chair is good. The floor, with a cushion under you, is good. Lying down is good. Let the floor or the chair take your weight. Close your eyes, or lower them softly. [pause 4s] First feel the awareness alive in your own body. Then bring to mind someone nearby, or someone you know, and feel the same awareness alive in them, just as clearly. [pause 3s] Breathe naturally. About four in and four out, if counting helps; if not, don't count. Don't stop the breath, and don't stretch it. Six rounds, two at a time. [pause 16s] Awareness alive here. [pause 16s] The same awareness, alive in them, just as clearly. [pause 16s] Let the count go. Let concern for this body rest a while. [pause 16s] Drop the exercise. Notice the room: its sounds, its light. Carry the quiet into what comes next.",
+    "est_seconds": 186,
+    "visual": {
+      "concept": "Two soft rounded fields of light side by side, each with the same glow, which slowly match in brightness.",
+      "elements": [
+        {
+          "id": "field",
+          "shape": "rect",
+          "description": "Full-frame dark field, deep night blue (#0A0F1E)."
+        },
+        {
+          "id": "field_a",
+          "shape": "ellipse",
+          "description": "A soft rounded soft gold (#F2D8A0) field on the left. No figure."
+        },
+        {
+          "id": "field_b",
+          "shape": "ellipse",
+          "description": "A matching rounded field on the right."
+        },
+        {
+          "id": "breath_halo",
+          "shape": "ring",
+          "description": "A very faint pale-blue halo (#A9C4E8) that swells with the in-breath and softens with the out-breath. It only paces the breath."
+        }
+      ],
+      "timeline": [
+        {
+          "t_start": 0,
+          "t_end": 8,
+          "action": "Voice speaks. Dark field. A soft rounded field appears on the left."
+        },
+        {
+          "t_start": 8,
+          "t_end": 20,
+          "action": "Voice speaks. A matching field appears on the right."
+        },
+        {
+          "t_start": 20,
+          "t_end": 28,
+          "action": "Voice speaks. The shapes rest, faint and even."
+        },
+        {
+          "t_start": 28,
+          "t_end": 31,
+          "action": "Pause 3 s. Stillness."
+        },
+        {
+          "t_start": 31,
+          "t_end": 53,
+          "action": "Voice speaks. The shapes dim slightly. Nothing moves."
+        },
+        {
+          "t_start": 53,
+          "t_end": 70,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 70,
+          "t_end": 74,
+          "action": "Pause 4 s. Stillness while the student settles."
+        },
+        {
+          "t_start": 74,
+          "t_end": 88,
+          "action": "Voice speaks. The left field glows."
+        },
+        {
+          "t_start": 88,
+          "t_end": 91,
+          "action": "Pause 3 s. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 91,
+          "t_end": 104,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 104,
+          "t_end": 108,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 108,
+          "t_end": 112,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 112,
+          "t_end": 116,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 116,
+          "t_end": 120,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 120,
+          "t_end": 121,
+          "action": "Voice speaks. The right field glows the same."
+        },
+        {
+          "t_start": 121,
+          "t_end": 125,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 125,
+          "t_end": 129,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 129,
+          "t_end": 133,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 133,
+          "t_end": 137,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 137,
+          "t_end": 141,
+          "action": "Voice speaks. Both glow evenly."
+        },
+        {
+          "t_start": 141,
+          "t_end": 145,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 145,
+          "t_end": 149,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 149,
+          "t_end": 153,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 153,
+          "t_end": 157,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 157,
+          "t_end": 162,
+          "action": "Voice speaks. Both glow as one."
+        },
+        {
+          "t_start": 162,
+          "t_end": 178,
+          "action": "Pause 16 s. Uncounted quiet: both fields glowing as one. No breath pacing is shown."
+        },
+        {
+          "t_start": 178,
+          "t_end": 186,
+          "action": "Voice speaks. The fields fade together to the dark."
+        }
+      ]
+    }
+  },
+  {
+    "door": 84,
+    "verse": 108,
+    "title": "A Supportless Mind That Builds No Thoughts",
+    "practice_mode": "practice",
+    "script": "This is Door 84. A Supportless Mind That Builds No Thoughts. It is verse 108 of the old text. In our plain words: make the mind rest on no support, and don't build up thoughts. Then the self becomes the supreme self, and that, the old text says, is Bhairava. Bhairava is the old text's name for Shiva as the wide, open awareness. Singh says the supports can be outer, like objects, or inner, like images and ideas. [pause 3s] If it hurts, stop. If this starts to feel like effort, rest attention lightly on the breath for a while. If you feel dizzy, restless, or a strong feeling comes up, stop. Open your eyes, and rest your attention on your feet and the floor. Find any steady, easy position. A chair is good. The floor, with a cushion under you, is good. Lying down is good. Let the floor or the chair take your weight. Close your eyes, or lower them softly. [pause 4s] Let the mind lean on nothing. No object, no image, no idea. When a thought appears, don't build on it. Let it pass. [pause 3s] Breathe naturally. About four in and four out, if counting helps; if not, don't count. Don't stop the breath, and don't stretch it. Six rounds, two at a time. [pause 16s] Leaning on nothing. [pause 16s] A thought comes. Don't build. Let it pass. [pause 16s] Let the count go. Rest in the open awareness that remains. [pause 16s] Let the practice go. Take one free breath. Open the eyes and look around the room.",
+    "est_seconds": 187,
+    "visual": {
+      "concept": "A soft field with a few faint shapes that dissolve before they can join, leaving open space.",
+      "elements": [
+        {
+          "id": "field",
+          "shape": "rect",
+          "description": "Full-frame dark field, deep night blue (#0A0F1E)."
+        },
+        {
+          "id": "open",
+          "shape": "glow",
+          "description": "An open, softly lit field."
+        },
+        {
+          "id": "bits",
+          "shape": "points",
+          "description": "A few faint soft gold (#F2D8A0) marks that appear and dissolve before they connect."
+        },
+        {
+          "id": "breath_halo",
+          "shape": "ring",
+          "description": "A very faint pale-blue halo (#A9C4E8) that swells with the in-breath and softens with the out-breath. It only paces the breath."
+        }
+      ],
+      "timeline": [
+        {
+          "t_start": 0,
+          "t_end": 9,
+          "action": "Voice speaks. Dark field. An open, softly lit field appears."
+        },
+        {
+          "t_start": 9,
+          "t_end": 23,
+          "action": "Voice speaks. A few faint marks appear, then dissolve."
+        },
+        {
+          "t_start": 23,
+          "t_end": 36,
+          "action": "Voice speaks. The shapes rest, faint and even."
+        },
+        {
+          "t_start": 36,
+          "t_end": 39,
+          "action": "Pause 3 s. Stillness."
+        },
+        {
+          "t_start": 39,
+          "t_end": 59,
+          "action": "Voice speaks. The shapes dim slightly. Nothing moves."
+        },
+        {
+          "t_start": 59,
+          "t_end": 76,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 76,
+          "t_end": 80,
+          "action": "Pause 4 s. Stillness while the student settles."
+        },
+        {
+          "t_start": 80,
+          "t_end": 90,
+          "action": "Voice speaks. The field rests open."
+        },
+        {
+          "t_start": 90,
+          "t_end": 93,
+          "action": "Pause 3 s. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 93,
+          "t_end": 106,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 106,
+          "t_end": 110,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 110,
+          "t_end": 114,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 114,
+          "t_end": 118,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 118,
+          "t_end": 122,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 122,
+          "t_end": 123,
+          "action": "Voice speaks. A mark appears, and dissolves unjoined."
+        },
+        {
+          "t_start": 123,
+          "t_end": 127,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 127,
+          "t_end": 131,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 131,
+          "t_end": 135,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 135,
+          "t_end": 139,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 139,
+          "t_end": 143,
+          "action": "Voice speaks. Fewer marks."
+        },
+        {
+          "t_start": 143,
+          "t_end": 147,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 147,
+          "t_end": 151,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 151,
+          "t_end": 155,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 155,
+          "t_end": 159,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 159,
+          "t_end": 164,
+          "action": "Voice speaks. Only the open field."
+        },
+        {
+          "t_start": 164,
+          "t_end": 180,
+          "action": "Pause 16 s. Uncounted quiet: the open field. No breath pacing is shown."
+        },
+        {
+          "t_start": 180,
+          "t_end": 187,
+          "action": "Voice speaks. The field fades to the dark."
+        }
+      ]
+    }
+  },
+  {
+    "door": 85,
+    "verse": 109,
+    "title": "I Share the Qualities of Śiva",
+    "practice_mode": "practice",
+    "script": "This is Door 85. I Share the Qualities of Śiva. It is verse 109 of the old text. In our plain words: 'The supreme knows all, does all, and is everywhere. I am that, with the same qualities as Shiva.' Through the firmness of this knowing, the old text says, you become Shiva. Singh calls this the first step of recognition: seeing your own nature under the mask of a small self. [pause 3s] If it hurts, stop. This is recognising your own nature. It is not a claim to special powers. If you feel dizzy, restless, or a strong feeling comes up, stop. Open your eyes, and rest your attention on your feet and the floor. Find any steady, easy position. A chair is good. The floor, with a cushion under you, is good. Lying down is good. Let the floor or the chair take your weight. Close your eyes, or lower them softly. [pause 4s] Three qualities. Knowing. Doing. Being everywhere. Recognise them, in small measure, in yourself. You know. You act. Your awareness reaches out. [pause 3s] Breathe naturally. About four in and four out, if counting helps; if not, don't count. Don't stop the breath, and don't stretch it. Six rounds, two at a time. [pause 16s] You know. You act. Your awareness reaches. [pause 16s] The same qualities. Recognise them, firmly. [pause 16s] Let the count go. Rest in that recognition. [pause 16s] Release the attention. Feel the weight of the body on its support. Open the eyes when ready.",
+    "est_seconds": 185,
+    "visual": {
+      "concept": "Three soft points of light around a centre, each linking to it in turn, until all four glow as one.",
+      "elements": [
+        {
+          "id": "field",
+          "shape": "rect",
+          "description": "Full-frame dark field, deep night blue (#0A0F1E)."
+        },
+        {
+          "id": "centre",
+          "shape": "circle",
+          "description": "A soft soft gold (#F2D8A0) centre point."
+        },
+        {
+          "id": "three",
+          "shape": "points",
+          "description": "Three points around it: knowing, doing, being everywhere."
+        },
+        {
+          "id": "breath_halo",
+          "shape": "ring",
+          "description": "A very faint pale-blue halo (#A9C4E8) that swells with the in-breath and softens with the out-breath. It only paces the breath."
+        }
+      ],
+      "timeline": [
+        {
+          "t_start": 0,
+          "t_end": 8,
+          "action": "Voice speaks. Dark field. A centre point with three points around it appears."
+        },
+        {
+          "t_start": 8,
+          "t_end": 24,
+          "action": "Voice speaks. All four glow faintly."
+        },
+        {
+          "t_start": 24,
+          "t_end": 33,
+          "action": "Voice speaks. The shapes rest, faint and even."
+        },
+        {
+          "t_start": 33,
+          "t_end": 36,
+          "action": "Pause 3 s. Stillness."
+        },
+        {
+          "t_start": 36,
+          "t_end": 56,
+          "action": "Voice speaks. The shapes dim slightly. Nothing moves."
+        },
+        {
+          "t_start": 56,
+          "t_end": 73,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 73,
+          "t_end": 77,
+          "action": "Pause 4 s. Stillness while the student settles."
+        },
+        {
+          "t_start": 77,
+          "t_end": 87,
+          "action": "Voice speaks. Each outer point links to the centre."
+        },
+        {
+          "t_start": 87,
+          "t_end": 90,
+          "action": "Pause 3 s. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 90,
+          "t_end": 103,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 103,
+          "t_end": 107,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 107,
+          "t_end": 111,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 111,
+          "t_end": 115,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 115,
+          "t_end": 119,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 119,
+          "t_end": 122,
+          "action": "Voice speaks. The links brighten."
+        },
+        {
+          "t_start": 122,
+          "t_end": 126,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 126,
+          "t_end": 130,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 130,
+          "t_end": 134,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 134,
+          "t_end": 138,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 138,
+          "t_end": 141,
+          "action": "Voice speaks. The points draw closer."
+        },
+        {
+          "t_start": 141,
+          "t_end": 145,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 145,
+          "t_end": 149,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 149,
+          "t_end": 153,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 153,
+          "t_end": 157,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 157,
+          "t_end": 161,
+          "action": "Voice speaks. All glow as one."
+        },
+        {
+          "t_start": 161,
+          "t_end": 177,
+          "action": "Pause 16 s. Uncounted quiet: all glowing as one. No breath pacing is shown."
+        },
+        {
+          "t_start": 177,
+          "t_end": 185,
+          "action": "Voice speaks. The points fade to the dark field."
+        }
+      ]
+    }
+  },
+  {
+    "door": 86,
+    "verse": 110,
+    "title": "Waves from Water: The World Arising from Me",
+    "practice_mode": "practice",
+    "script": "This is Door 86. Waves from Water: The World Arising from Me. It is verse 110 of the old text. In our plain words: as waves rise from water, flames from fire, and rays from the sun, so all the many waves of the world rise from me, from Bhairava. Singh calls this the second step of recognition: the world, too, is your own expression. [pause 3s] If it hurts, stop. This is about awareness. It is not a claim to control events. If you feel dizzy, restless, or a strong feeling comes up, stop. Open your eyes, and rest your attention on your feet and the floor. Find any steady, easy position. A chair is good. The floor, with a cushion under you, is good. Lying down is good. Let the floor or the chair take your weight. Close your eyes, or lower them softly. [pause 4s] Picture waves rising from water. Many forms, one water. Then let sounds, sights and thoughts be waves rising from your own awareness. [pause 3s] Breathe naturally. About four in and four out, if counting helps; if not, don't count. Don't stop the breath, and don't stretch it. Six rounds, two at a time. [pause 16s] Waves from water. Flames from fire. Rays from the sun. [pause 16s] Sounds, sights, thoughts. Waves from your own awareness. [pause 16s] Let the count go. Rest as the water. [pause 16s] Let the breath go unwatched for a round. Move the fingers and toes. Return to the room.",
+    "est_seconds": 184,
+    "visual": {
+      "concept": "A calm surface of light from which soft waves rise and fall back, all of the same light.",
+      "elements": [
+        {
+          "id": "field",
+          "shape": "rect",
+          "description": "Full-frame dark field, deep night blue (#0A0F1E)."
+        },
+        {
+          "id": "water",
+          "shape": "rect",
+          "description": "A calm, soft pale blue (#A9C4E8) surface across the lower frame."
+        },
+        {
+          "id": "waves",
+          "shape": "waves",
+          "description": "Soft soft gold (#F2D8A0) waves rising and falling back into it."
+        },
+        {
+          "id": "breath_halo",
+          "shape": "ring",
+          "description": "A very faint pale-blue halo (#A9C4E8) that swells with the in-breath and softens with the out-breath. It only paces the breath."
+        }
+      ],
+      "timeline": [
+        {
+          "t_start": 0,
+          "t_end": 9,
+          "action": "Voice speaks. Dark field. A calm surface of light appears."
+        },
+        {
+          "t_start": 9,
+          "t_end": 23,
+          "action": "Voice speaks. Soft waves rise from it."
+        },
+        {
+          "t_start": 23,
+          "t_end": 30,
+          "action": "Voice speaks. The shapes rest, faint and even."
+        },
+        {
+          "t_start": 30,
+          "t_end": 33,
+          "action": "Pause 3 s. Stillness."
+        },
+        {
+          "t_start": 33,
+          "t_end": 52,
+          "action": "Voice speaks. The shapes dim slightly. Nothing moves."
+        },
+        {
+          "t_start": 52,
+          "t_end": 69,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 69,
+          "t_end": 73,
+          "action": "Pause 4 s. Stillness while the student settles."
+        },
+        {
+          "t_start": 73,
+          "t_end": 83,
+          "action": "Voice speaks. Waves rise and fall."
+        },
+        {
+          "t_start": 83,
+          "t_end": 86,
+          "action": "Pause 3 s. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 86,
+          "t_end": 99,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 99,
+          "t_end": 103,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 103,
+          "t_end": 107,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 107,
+          "t_end": 111,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 111,
+          "t_end": 115,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 115,
+          "t_end": 120,
+          "action": "Voice speaks. Many waves, one surface."
+        },
+        {
+          "t_start": 120,
+          "t_end": 124,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 124,
+          "t_end": 128,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 128,
+          "t_end": 132,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 132,
+          "t_end": 136,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 136,
+          "t_end": 140,
+          "action": "Voice speaks. The waves soften."
+        },
+        {
+          "t_start": 140,
+          "t_end": 144,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 144,
+          "t_end": 148,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 148,
+          "t_end": 152,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 152,
+          "t_end": 156,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 156,
+          "t_end": 160,
+          "action": "Voice speaks. Only the calm surface."
+        },
+        {
+          "t_start": 160,
+          "t_end": 176,
+          "action": "Pause 16 s. Uncounted quiet: the calm surface. No breath pacing is shown."
+        },
+        {
+          "t_start": 176,
+          "t_end": 184,
+          "action": "Voice speaks. The surface fades to the dark field."
+        }
+      ]
+    }
+  },
+  {
+    "door": 87,
+    "verse": 111,
+    "title": "Whirling Until Falling (Classical)",
+    "practice_mode": "historical/observe_only",
+    "script": "This is Door 87. Whirling Until Falling (Classical). It is verse 111 of the old text. The school keeps this door as memory. We observe it. We do not practise it. The old text describes whirling the body round and round, then swiftly falling to the ground. When the agitation stops, it says, the supreme state appears. Singh reads it together with the next verse: both are about the stillness at the end of a great stirring. Some translators read wandering for a long time instead of whirling. The school never teaches spinning or falling. Don't whirl until you are dizzy or fall. [pause 4s] If you want a door to practise, go to Door 60. Gentle rocking or swaying, where a slow, easy movement brings calm, and you rest in it. [pause 3s] Close the text. Take a normal breath. Look around the room and move on when ready.",
+    "est_seconds": 73,
+    "visual": {
+      "concept": "A still, faint historical image: a loose spiral of light, motionless, gently fading; then Door 60's soft swaying arc.",
+      "elements": [
+        {
+          "id": "field",
+          "shape": "rect",
+          "description": "Full-frame dark field, deep night blue (#0A0F1E)."
+        },
+        {
+          "id": "spiral",
+          "shape": "spiral",
+          "description": "A loose, motionless spiral (#C9A26B at low opacity). No figure."
+        },
+        {
+          "id": "door60",
+          "shape": "arc",
+          "description": "At the close, Door 60's soft swaying arc shown as an outline."
+        }
+      ],
+      "timeline": [
+        {
+          "t_start": 0,
+          "t_end": 7,
+          "action": "Voice speaks. Dark field. A loose, still spiral appears."
+        },
+        {
+          "t_start": 7,
+          "t_end": 14,
+          "action": "Voice speaks. The image stays still."
+        },
+        {
+          "t_start": 14,
+          "t_end": 26,
+          "action": "Voice speaks. The spiral stays still."
+        },
+        {
+          "t_start": 26,
+          "t_end": 40,
+          "action": "Voice speaks. It begins a slow fade."
+        },
+        {
+          "t_start": 40,
+          "t_end": 47,
+          "action": "Voice speaks. The spiral is almost gone."
+        },
+        {
+          "t_start": 47,
+          "t_end": 51,
+          "action": "Pause 4 s. The old image keeps fading."
+        },
+        {
+          "t_start": 51,
+          "t_end": 63,
+          "action": "Voice speaks. Door 60's soft swaying arc appears."
+        },
+        {
+          "t_start": 63,
+          "t_end": 66,
+          "action": "Pause 3 s. The new shape glows, still."
+        },
+        {
+          "t_start": 66,
+          "t_end": 73,
+          "action": "Voice speaks. Everything fades to the dark field."
+        }
+      ]
+    }
+  },
+  {
+    "door": 88,
+    "verse": 112,
+    "title": "When the Mind Gives Up: The Stillness After an Impasse",
+    "practice_mode": "practice",
+    "script": "This is Door 88. When the Mind Gives Up: The Stillness After an Impasse. It is verse 112 of the old text. In our plain words: when the mind can't grasp what it reaches for, or simply doesn't know, it dissolves. At the end of the stirring that follows, the old text says, Bhairava's form appears. Singh pictures questioning or doubt wearing itself out. We rehearse here with a question that can't be answered in words. That is a school device; the verse itself is about such moments as they come. [pause 3s] If it hurts, stop. This is letting go of mental effort. It is not ignoring real problems. Come back to them later, rested. If you feel dizzy, restless, or a strong feeling comes up, stop. Open your eyes, and rest your attention on your feet and the floor. Find any steady, easy position. A chair is good. The floor, with a cushion under you, is good. Lying down is good. Let the floor or the chair take your weight. Close your eyes, or lower them softly. [pause 4s] Ask a question the mind can't answer. Where was this thought just before it came? Look, and let the mind fail to find it. [pause 3s] Breathe naturally. About four in and four out, if counting helps; if not, don't count. Don't stop the breath, and don't stretch it. Six rounds, two at a time. [pause 16s] The mind reaches. It can't grasp. Stop pushing. [pause 16s] Let the not-knowing be complete. [pause 16s] Let the count go. Rest in the stillness after. [pause 16s] Let the practice go. Take one free breath. Open the eyes and look around the room.",
+    "est_seconds": 195,
+    "visual": {
+      "concept": "A line of light reaching forward that meets nothing, softens, and settles into a calm field.",
+      "elements": [
+        {
+          "id": "field",
+          "shape": "rect",
+          "description": "Full-frame dark field, deep night blue (#0A0F1E)."
+        },
+        {
+          "id": "reach",
+          "shape": "line",
+          "description": "A soft gold (#F2D8A0) line reaching forward into empty space."
+        },
+        {
+          "id": "calm",
+          "shape": "glow",
+          "description": "A calm, soft field that remains when the line settles."
+        },
+        {
+          "id": "breath_halo",
+          "shape": "ring",
+          "description": "A very faint pale-blue halo (#A9C4E8) that swells with the in-breath and softens with the out-breath. It only paces the breath."
+        }
+      ],
+      "timeline": [
+        {
+          "t_start": 0,
+          "t_end": 10,
+          "action": "Voice speaks. Dark field. A line of light reaches forward."
+        },
+        {
+          "t_start": 10,
+          "t_end": 25,
+          "action": "Voice speaks. It meets nothing and softens."
+        },
+        {
+          "t_start": 25,
+          "t_end": 41,
+          "action": "Voice speaks. The shapes rest, faint and even."
+        },
+        {
+          "t_start": 41,
+          "t_end": 44,
+          "action": "Pause 3 s. Stillness."
+        },
+        {
+          "t_start": 44,
+          "t_end": 66,
+          "action": "Voice speaks. The shapes dim slightly. Nothing moves."
+        },
+        {
+          "t_start": 66,
+          "t_end": 83,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 83,
+          "t_end": 87,
+          "action": "Pause 4 s. Stillness while the student settles."
+        },
+        {
+          "t_start": 87,
+          "t_end": 98,
+          "action": "Voice speaks. The line reaches, slowing."
+        },
+        {
+          "t_start": 98,
+          "t_end": 101,
+          "action": "Pause 3 s. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 101,
+          "t_end": 114,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 114,
+          "t_end": 118,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 118,
+          "t_end": 122,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 122,
+          "t_end": 126,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 126,
+          "t_end": 130,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 130,
+          "t_end": 134,
+          "action": "Voice speaks. It stops and softens."
+        },
+        {
+          "t_start": 134,
+          "t_end": 138,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 138,
+          "t_end": 142,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 142,
+          "t_end": 146,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 146,
+          "t_end": 150,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 150,
+          "t_end": 152,
+          "action": "Voice speaks. It settles into the field."
+        },
+        {
+          "t_start": 152,
+          "t_end": 156,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 156,
+          "t_end": 160,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 160,
+          "t_end": 164,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 164,
+          "t_end": 168,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 168,
+          "t_end": 172,
+          "action": "Voice speaks. Only the calm field."
+        },
+        {
+          "t_start": 172,
+          "t_end": 188,
+          "action": "Pause 16 s. Uncounted quiet: the calm field. No breath pacing is shown."
+        },
+        {
+          "t_start": 188,
+          "t_end": 195,
+          "action": "Voice speaks. The field fades to the dark."
+        }
+      ]
+    }
+  },
+  {
+    "door": 89,
+    "verse": [
+      113,
+      114
+    ],
+    "title": "Unmoving Eyes; Ears and Lower Openings Closed (Classical)",
+    "practice_mode": "historical/observe_only",
+    "script": "This is Door 89. Unmoving Eyes; Ears and Lower Openings Closed (Classical). It is verses 113 and 114 of the old text. The school keeps this door as memory. We observe it. We do not practise it. These two verses describe the eyes kept completely still, and then closing the ears and the lower openings of the body while meditating on an inner, unstruck sound. Singh counts the two verses as one door. Wallis counts them as two. Singh links the still eyes to an unblinking, open-eyed gaze. The school doesn't teach any of this. No unblinking gaze, no pressing on the ears, and no contracting of the body. [pause 4s] If you want a door to practise, go to Door 66. When a sense is blocked. There you rest your palms lightly over your ears, or simply let the eyes rest shut, and notice the quiet space that opens. [pause 3s] Close the text. Take a normal breath. Look around the room and move on when ready.",
+    "est_seconds": 82,
+    "visual": {
+      "concept": "A still, faint historical image: a few small closed circles, gently fading; then Door 66's soft line with open space behind it.",
+      "elements": [
+        {
+          "id": "field",
+          "shape": "rect",
+          "description": "Full-frame dark field, deep night blue (#0A0F1E)."
+        },
+        {
+          "id": "closed",
+          "shape": "circles",
+          "description": "A few small closed circles (#C9A26B at low opacity). No face or body."
+        },
+        {
+          "id": "door66",
+          "shape": "line",
+          "description": "At the close, Door 66's soft line, with open space behind it, shown as an outline."
+        }
+      ],
+      "timeline": [
+        {
+          "t_start": 0,
+          "t_end": 10,
+          "action": "Voice speaks. Dark field. A few small closed circles appear, still."
+        },
+        {
+          "t_start": 10,
+          "t_end": 17,
+          "action": "Voice speaks. The image stays still."
+        },
+        {
+          "t_start": 17,
+          "t_end": 30,
+          "action": "Voice speaks. The circles stay still."
+        },
+        {
+          "t_start": 30,
+          "t_end": 40,
+          "action": "Voice speaks. They begin a slow fade."
+        },
+        {
+          "t_start": 40,
+          "t_end": 50,
+          "action": "Voice speaks. The circles are almost gone."
+        },
+        {
+          "t_start": 50,
+          "t_end": 54,
+          "action": "Pause 4 s. The old image keeps fading."
+        },
+        {
+          "t_start": 54,
+          "t_end": 72,
+          "action": "Voice speaks. Door 66's soft line and open space appear."
+        },
+        {
+          "t_start": 72,
+          "t_end": 75,
+          "action": "Pause 3 s. The new shape glows, still."
+        },
+        {
+          "t_start": 75,
+          "t_end": 82,
+          "action": "Voice speaks. Everything fades to the dark field."
+        }
+      ]
+    }
+  },
+  {
+    "door": 90,
+    "verse": 115,
+    "title": "Gazing into a Deep Well (Classical)",
+    "practice_mode": "historical/observe_only",
+    "script": "This is Door 90. Gazing into a Deep Well (Classical). It is verse 115 of the old text. The school keeps this door as memory. We observe it. We do not practise it. The old text describes standing above a well or a great chasm and gazing down into it. For a mind free of busy thoughts, it says, the mind dissolves at once. Singh adds that the depth brings giddiness and fear, which jolt the mind out of its usual track. The school never teaches standing at an edge or a height. Don't practise at wells, cliffs or drops. [pause 4s] If you want a door to practise, go to Door 36. Gazing into the space inside a pot. There you look safely into the hollow of a bowl, leave the walls aside, and rest in the space inside. [pause 3s] Close the text. Take a normal breath. Look around the room and move on when ready.",
+    "est_seconds": 76,
+    "visual": {
+      "concept": "A still, faint historical image: a deep dark oval, gently fading; then Door 36's open bowl shape.",
+      "elements": [
+        {
+          "id": "field",
+          "shape": "rect",
+          "description": "Full-frame dark field, deep night blue (#0A0F1E)."
+        },
+        {
+          "id": "well",
+          "shape": "ellipse",
+          "description": "A deep dark oval (#C9A26B rim at low opacity). No figure, no edge to stand on."
+        },
+        {
+          "id": "door36",
+          "shape": "arc",
+          "description": "At the close, Door 36's open bowl shape shown as an outline."
+        }
+      ],
+      "timeline": [
+        {
+          "t_start": 0,
+          "t_end": 8,
+          "action": "Voice speaks. Dark field. A deep dark oval appears, still."
+        },
+        {
+          "t_start": 8,
+          "t_end": 15,
+          "action": "Voice speaks. The image stays still."
+        },
+        {
+          "t_start": 15,
+          "t_end": 29,
+          "action": "Voice speaks. The oval stays still."
+        },
+        {
+          "t_start": 29,
+          "t_end": 37,
+          "action": "Voice speaks. It begins a slow fade."
+        },
+        {
+          "t_start": 37,
+          "t_end": 45,
+          "action": "Voice speaks. The oval is almost gone."
+        },
+        {
+          "t_start": 45,
+          "t_end": 49,
+          "action": "Pause 4 s. The old image keeps fading."
+        },
+        {
+          "t_start": 49,
+          "t_end": 66,
+          "action": "Voice speaks. Door 36's open bowl shape appears."
+        },
+        {
+          "t_start": 66,
+          "t_end": 69,
+          "action": "Pause 3 s. The new shape glows, still."
+        },
+        {
+          "t_start": 69,
+          "t_end": 76,
+          "action": "Voice speaks. Everything fades to the dark field."
+        }
+      ]
+    }
+  },
+  {
+    "door": 91,
+    "verse": 116,
+    "title": "Wherever the Mind Goes",
+    "practice_mode": "practice",
+    "script": "This is Door 91. Wherever the Mind Goes. It is verse 116 of the old text. In our plain words: wherever the mind goes, outward or inward, there is the state of Shiva. Since that state is everywhere, where could the mind go? Singh says there is no need to struggle to concentrate. Whatever draws the mind, take it as that very state. [pause 3s] If it hurts, stop. If a difficult memory comes, you can open your eyes and rest on something neutral. If you feel dizzy, restless, or a strong feeling comes up, stop. Open your eyes, and rest your attention on your feet and the floor. Find any steady, easy position. A chair is good. The floor, with a cushion under you, is good. Lying down is good. Let the floor or the chair take your weight. Close your eyes, or lower them softly. [pause 4s] Let the mind go where it goes. A sound. A colour. A memory. Don't pull it back. Wherever it lands, rest there, as in the sacred. [pause 3s] Breathe naturally. About four in and four out, if counting helps; if not, don't count. Don't stop the breath, and don't stretch it. Six rounds, two at a time. [pause 16s] Wherever it lands. Rest there. [pause 16s] It moves. Rest where it lands again. [pause 16s] Let the count go. Nowhere to go but here. [pause 16s] Drop the exercise. Notice the room: its sounds, its light. Carry the quiet into what comes next.",
+    "est_seconds": 181,
+    "visual": {
+      "concept": "A small point of light drifting slowly to different places in the frame; wherever it pauses, a soft glow surrounds it.",
+      "elements": [
+        {
+          "id": "field",
+          "shape": "rect",
+          "description": "Full-frame dark field, deep night blue (#0A0F1E)."
+        },
+        {
+          "id": "mind",
+          "shape": "circle",
+          "description": "A small soft gold (#F2D8A0) point that drifts slowly."
+        },
+        {
+          "id": "halo",
+          "shape": "ring",
+          "description": "A soft glow that forms wherever it pauses."
+        },
+        {
+          "id": "breath_halo",
+          "shape": "ring",
+          "description": "A very faint pale-blue halo (#A9C4E8) that swells with the in-breath and softens with the out-breath. It only paces the breath."
+        }
+      ],
+      "timeline": [
+        {
+          "t_start": 0,
+          "t_end": 7,
+          "action": "Voice speaks. Dark field. A small point appears."
+        },
+        {
+          "t_start": 7,
+          "t_end": 19,
+          "action": "Voice speaks. It drifts and pauses; a soft glow forms around it."
+        },
+        {
+          "t_start": 19,
+          "t_end": 28,
+          "action": "Voice speaks. The shapes rest, faint and even."
+        },
+        {
+          "t_start": 28,
+          "t_end": 31,
+          "action": "Pause 3 s. Stillness."
+        },
+        {
+          "t_start": 31,
+          "t_end": 51,
+          "action": "Voice speaks. The shapes dim slightly. Nothing moves."
+        },
+        {
+          "t_start": 51,
+          "t_end": 68,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 68,
+          "t_end": 72,
+          "action": "Pause 4 s. Stillness while the student settles."
+        },
+        {
+          "t_start": 72,
+          "t_end": 84,
+          "action": "Voice speaks. The point drifts, and pauses."
+        },
+        {
+          "t_start": 84,
+          "t_end": 87,
+          "action": "Pause 3 s. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 87,
+          "t_end": 100,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 100,
+          "t_end": 104,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 104,
+          "t_end": 108,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 108,
+          "t_end": 112,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 112,
+          "t_end": 116,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 116,
+          "t_end": 118,
+          "action": "Voice speaks. A glow forms where it rests."
+        },
+        {
+          "t_start": 118,
+          "t_end": 122,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 122,
+          "t_end": 126,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 126,
+          "t_end": 130,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 130,
+          "t_end": 134,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 134,
+          "t_end": 137,
+          "action": "Voice speaks. It drifts again; the glow follows."
+        },
+        {
+          "t_start": 137,
+          "t_end": 141,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 141,
+          "t_end": 145,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 145,
+          "t_end": 149,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 149,
+          "t_end": 153,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 153,
+          "t_end": 157,
+          "action": "Voice speaks. The whole field glows."
+        },
+        {
+          "t_start": 157,
+          "t_end": 173,
+          "action": "Pause 16 s. Uncounted quiet: the whole field glowing. No breath pacing is shown."
+        },
+        {
+          "t_start": 173,
+          "t_end": 181,
+          "action": "Voice speaks. The glow fades to the dark field."
+        }
+      ]
+    }
+  },
+  {
+    "door": 92,
+    "verse": 117,
+    "title": "Consciousness Shining Through the Senses",
+    "practice_mode": "practice",
+    "script": "This is Door 92. Consciousness Shining Through the Senses. It is verse 117 of the old text. In our plain words: wherever consciousness shows itself through the senses, it is consciousness alone that carries what is perceived. So the mind dissolves into it, and you come to fullness. Singh's picture is a mirror. A reflection in it is nothing but the mirror. [pause 3s] If it hurts, stop. If sensations are strong or unpleasant, begin with a neutral one, like a soft sound. If you feel dizzy, restless, or a strong feeling comes up, stop. Open your eyes, and rest your attention on your feet and the floor. Find any steady, easy position. A chair is good. The floor, with a cushion under you, is good. Lying down is good. Let the floor or the chair take your weight. Keep your eyes open or closed, as you like. [pause 4s] Notice a sensation as it arrives. A sound. A colour. The touch of air. Feel it as awareness itself, taking that form, like a reflection that is only the mirror. [pause 3s] Breathe naturally. About four in and four out, if counting helps; if not, don't count. Don't stop the breath, and don't stretch it. Six rounds, two at a time. [pause 16s] A sound. Only awareness, in that form. [pause 16s] A touch. A colour. The same. [pause 16s] Let the count go. Rest in the fullness. [pause 16s] Let the practice go. Take one free breath. Open the eyes and look around the room.",
+    "est_seconds": 184,
+    "visual": {
+      "concept": "A soft mirror-like surface where small shapes of light appear and are seen to be the surface itself.",
+      "elements": [
+        {
+          "id": "field",
+          "shape": "rect",
+          "description": "Full-frame dark field, deep night blue (#0A0F1E)."
+        },
+        {
+          "id": "mirror",
+          "shape": "rect",
+          "description": "A soft, faintly bright pale blue (#A9C4E8) surface."
+        },
+        {
+          "id": "reflections",
+          "shape": "points",
+          "description": "Small soft gold (#F2D8A0) shapes that appear on it and melt into it."
+        },
+        {
+          "id": "breath_halo",
+          "shape": "ring",
+          "description": "A very faint pale-blue halo (#A9C4E8) that swells with the in-breath and softens with the out-breath. It only paces the breath."
+        }
+      ],
+      "timeline": [
+        {
+          "t_start": 0,
+          "t_end": 8,
+          "action": "Voice speaks. Dark field. A soft mirror surface appears."
+        },
+        {
+          "t_start": 8,
+          "t_end": 22,
+          "action": "Voice speaks. Small shapes appear on it and melt in."
+        },
+        {
+          "t_start": 22,
+          "t_end": 28,
+          "action": "Voice speaks. The shapes rest, faint and even."
+        },
+        {
+          "t_start": 28,
+          "t_end": 31,
+          "action": "Pause 3 s. Stillness."
+        },
+        {
+          "t_start": 31,
+          "t_end": 51,
+          "action": "Voice speaks. The shapes dim slightly. Nothing moves."
+        },
+        {
+          "t_start": 51,
+          "t_end": 69,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 69,
+          "t_end": 73,
+          "action": "Pause 4 s. Stillness while the student settles."
+        },
+        {
+          "t_start": 73,
+          "t_end": 87,
+          "action": "Voice speaks. A shape appears on the surface."
+        },
+        {
+          "t_start": 87,
+          "t_end": 90,
+          "action": "Pause 3 s. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 90,
+          "t_end": 103,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 103,
+          "t_end": 107,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 107,
+          "t_end": 111,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 111,
+          "t_end": 115,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 115,
+          "t_end": 119,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 119,
+          "t_end": 122,
+          "action": "Voice speaks. It melts into the surface."
+        },
+        {
+          "t_start": 122,
+          "t_end": 126,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 126,
+          "t_end": 130,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 130,
+          "t_end": 134,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 134,
+          "t_end": 138,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 138,
+          "t_end": 141,
+          "action": "Voice speaks. Another appears and melts."
+        },
+        {
+          "t_start": 141,
+          "t_end": 145,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 145,
+          "t_end": 149,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 149,
+          "t_end": 153,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 153,
+          "t_end": 157,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 157,
+          "t_end": 161,
+          "action": "Voice speaks. Only the bright surface."
+        },
+        {
+          "t_start": 161,
+          "t_end": 177,
+          "action": "Pause 16 s. Uncounted quiet: the bright surface. No breath pacing is shown."
+        },
+        {
+          "t_start": 177,
+          "t_end": 184,
+          "action": "Voice speaks. The surface fades to the dark field."
+        }
+      ]
+    }
+  },
+  {
+    "door": 93,
+    "verse": 118,
+    "title": "Sneezes, Shocks and Sudden Moments",
+    "practice_mode": "practice",
+    "script": "This is Door 93. Sneezes, Shocks and Sudden Moments. It is verse 118 of the old text. In our plain words: at the start and end of a sneeze, in fear, in sorrow, at a deep sigh, in flight, in curiosity, at the start and end of hunger: that state is full of the being of the absolute. Singh says any sudden jolt throws ordinary awareness back to its depth. Readings differ on one word: Singh hears a deep sigh, others a deep pit. This door is for such moments as they come in daily life. Sitting here, we rehearse only with small sudden moments, like an unexpected sound, or a flicker of curiosity. Never stir up fear, sorrow or hunger to practise. [pause 3s] If it hurts, stop. Only notice these moments as they come by themselves. If fear or sorrow is overwhelming, reach out to people you trust. If you feel dizzy, restless, or a strong feeling comes up, stop. Open your eyes, and rest your attention on your feet and the floor. Find any steady, easy position. A chair is good. The floor, with a cushion under you, is good. Lying down is good. Let the floor or the chair take your weight. Keep your eyes as they are. [pause 4s] Wait, relaxed, for a small sudden moment. A sound you didn't expect. A swallow. A flicker of curiosity. Notice the brief opening it makes. [pause 3s] Breathe naturally. About four in and four out, if counting helps; if not, don't count. Don't stop the breath, and don't stretch it. Six rounds, two at a time. [pause 16s] A small jolt. The brief opening. [pause 16s] Rest in that opening for a moment. [pause 16s] Let the count go. Let the next sudden moment remind you of this door. [pause 16s] Carry on with your day. Let the next sudden moment be a reminder of this door.",
+    "est_seconds": 214,
+    "visual": {
+      "concept": "A calm line with a single soft flash; for a moment after it, a clear open space glows.",
+      "elements": [
+        {
+          "id": "field",
+          "shape": "rect",
+          "description": "Full-frame dark field, deep night blue (#0A0F1E)."
+        },
+        {
+          "id": "line",
+          "shape": "line",
+          "description": "A calm pale blue (#A9C4E8) line across the frame."
+        },
+        {
+          "id": "flash",
+          "shape": "glow",
+          "description": "A single soft soft gold (#F2D8A0) flash, followed by a moment of clear open space."
+        },
+        {
+          "id": "breath_halo",
+          "shape": "ring",
+          "description": "A very faint pale-blue halo (#A9C4E8) that swells with the in-breath and softens with the out-breath. It only paces the breath."
+        }
+      ],
+      "timeline": [
+        {
+          "t_start": 0,
+          "t_end": 8,
+          "action": "Voice speaks. Dark field. A calm line appears."
+        },
+        {
+          "t_start": 8,
+          "t_end": 27,
+          "action": "Voice speaks. A single soft flash, then a clear opening."
+        },
+        {
+          "t_start": 27,
+          "t_end": 57,
+          "action": "Voice speaks. The shapes rest, faint and even."
+        },
+        {
+          "t_start": 57,
+          "t_end": 60,
+          "action": "Pause 3 s. Stillness."
+        },
+        {
+          "t_start": 60,
+          "t_end": 83,
+          "action": "Voice speaks. The shapes dim slightly. Nothing moves."
+        },
+        {
+          "t_start": 83,
+          "t_end": 100,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 100,
+          "t_end": 104,
+          "action": "Pause 4 s. Stillness while the student settles."
+        },
+        {
+          "t_start": 104,
+          "t_end": 115,
+          "action": "Voice speaks. The line waits, calm."
+        },
+        {
+          "t_start": 115,
+          "t_end": 118,
+          "action": "Pause 3 s. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 118,
+          "t_end": 131,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 131,
+          "t_end": 135,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 135,
+          "t_end": 139,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 139,
+          "t_end": 143,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 143,
+          "t_end": 147,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 147,
+          "t_end": 150,
+          "action": "Voice speaks. A soft flash; a clear opening."
+        },
+        {
+          "t_start": 150,
+          "t_end": 154,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 154,
+          "t_end": 158,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 158,
+          "t_end": 162,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 162,
+          "t_end": 166,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 166,
+          "t_end": 169,
+          "action": "Voice speaks. The opening glows."
+        },
+        {
+          "t_start": 169,
+          "t_end": 173,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 173,
+          "t_end": 177,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 177,
+          "t_end": 181,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 181,
+          "t_end": 185,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 185,
+          "t_end": 191,
+          "action": "Voice speaks. The line rests, calm."
+        },
+        {
+          "t_start": 191,
+          "t_end": 207,
+          "action": "Pause 16 s. Uncounted quiet: the calm line. No breath pacing is shown."
+        },
+        {
+          "t_start": 207,
+          "t_end": 214,
+          "action": "Voice speaks. The line fades to the dark field."
+        }
+      ]
+    }
+  },
+  {
+    "door": 94,
+    "verse": 119,
+    "title": "Seeing a Familiar Place, Letting Memories Go",
+    "practice_mode": "practice",
+    "script": "This is Door 94. Seeing a Familiar Place, Letting Memories Go. It is verse 119 of the old text. In our plain words: when a place is seen and memories come, release the mind from them. Let the body be without support, and the Lord spreads forth. Singh says to let the remembered things go and rest in the plain experience of seeing. Wallis says it is a place you have been before. The room you are in now will do. [pause 3s] If it hurts, stop. If a place carries painful memories, don't force this. Choose a neutral place, or come back to it with support. If you feel dizzy, restless, or a strong feeling comes up, stop. Open your eyes, and rest your attention on your feet and the floor. Find any steady, easy position. A chair is good. The floor, with a cushion under you, is good. Lying down is good. Let the floor or the chair take your weight. Keep your eyes open, softly. [pause 4s] Look around this familiar room. Notice the memories it brings up. Let each one go, without following it. See the room as it is, right now. [pause 3s] Breathe naturally. About four in and four out, if counting helps; if not, don't count. Don't stop the breath, and don't stretch it. Six rounds, two at a time. [pause 16s] A memory comes. Let it go. Just the room, now. [pause 16s] Feel the body as if resting on nothing. Open. [pause 16s] Let the count go. Rest in plain seeing. [pause 16s] Let the breath go unwatched for a round. Move the fingers and toes. Return to the room.",
+    "est_seconds": 195,
+    "visual": {
+      "concept": "A simple frame of light with faint overlapping traces that fade, leaving the frame clear and fresh.",
+      "elements": [
+        {
+          "id": "field",
+          "shape": "rect",
+          "description": "Full-frame dark field, deep night blue (#0A0F1E)."
+        },
+        {
+          "id": "frame",
+          "shape": "rect",
+          "description": "A simple soft gold (#F2D8A0) frame: the place seen now."
+        },
+        {
+          "id": "traces",
+          "shape": "lines",
+          "description": "Faint overlapping traces inside it: memories, which fade."
+        },
+        {
+          "id": "breath_halo",
+          "shape": "ring",
+          "description": "A very faint pale-blue halo (#A9C4E8) that swells with the in-breath and softens with the out-breath. It only paces the breath."
+        }
+      ],
+      "timeline": [
+        {
+          "t_start": 0,
+          "t_end": 9,
+          "action": "Voice speaks. Dark field. A simple frame with faint traces appears."
+        },
+        {
+          "t_start": 9,
+          "t_end": 22,
+          "action": "Voice speaks. The traces fade."
+        },
+        {
+          "t_start": 22,
+          "t_end": 37,
+          "action": "Voice speaks. The shapes rest, faint and even."
+        },
+        {
+          "t_start": 37,
+          "t_end": 40,
+          "action": "Pause 3 s. Stillness."
+        },
+        {
+          "t_start": 40,
+          "t_end": 62,
+          "action": "Voice speaks. The shapes dim slightly. Nothing moves."
+        },
+        {
+          "t_start": 62,
+          "t_end": 78,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 78,
+          "t_end": 82,
+          "action": "Pause 4 s. Stillness while the student settles."
+        },
+        {
+          "t_start": 82,
+          "t_end": 94,
+          "action": "Voice speaks. The traces begin to fade."
+        },
+        {
+          "t_start": 94,
+          "t_end": 97,
+          "action": "Pause 3 s. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 97,
+          "t_end": 110,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 110,
+          "t_end": 114,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 114,
+          "t_end": 118,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 118,
+          "t_end": 122,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 122,
+          "t_end": 126,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 126,
+          "t_end": 131,
+          "action": "Voice speaks. The frame clears."
+        },
+        {
+          "t_start": 131,
+          "t_end": 135,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 135,
+          "t_end": 139,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 139,
+          "t_end": 143,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 143,
+          "t_end": 147,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 147,
+          "t_end": 151,
+          "action": "Voice speaks. The frame floats, unsupported."
+        },
+        {
+          "t_start": 151,
+          "t_end": 155,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 155,
+          "t_end": 159,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 159,
+          "t_end": 163,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 163,
+          "t_end": 167,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 167,
+          "t_end": 171,
+          "action": "Voice speaks. Only the clear frame."
+        },
+        {
+          "t_start": 171,
+          "t_end": 187,
+          "action": "Pause 16 s. Uncounted quiet: the clear frame. No breath pacing is shown."
+        },
+        {
+          "t_start": 187,
+          "t_end": 195,
+          "action": "Voice speaks. The frame fades to the dark field."
+        }
+      ]
+    }
+  },
+  {
+    "door": 95,
+    "verse": 120,
+    "title": "Placing the Gaze, Then Withdrawing It",
+    "practice_mode": "practice",
+    "script": "This is Door 95. Placing the Gaze, Then Withdrawing It. It is verse 120 of the old text. In our plain words: rest the gaze on some object. Then slowly withdraw it, and with it the knowing of the object, and the mind too. Then, the old text says, you become a home of the void. Singh also mentions an unblinking gaze. That isn't in the verse, and the school doesn't teach it. Blink naturally. [pause 3s] If it hurts, stop. Blink whenever you need to. Never strain the eyes. If you feel dizzy, restless, or a strong feeling comes up, stop. Open your eyes, and rest your attention on your feet and the floor. Find any steady, easy position. A chair is good. The floor, with a cushion under you, is good. Set one simple thing in front of you, like a cup or a stone. Keep your eyes open and soft, resting on that simple thing. [pause 4s] Rest the gaze on the simple thing. Later, slowly withdraw. First the eyes soften or close. Then the thought of the thing fades. Then the mind itself settles back. [pause 3s] Breathe naturally. About four in and four out, if counting helps; if not, don't count. Don't stop the breath, and don't stretch it. Six rounds, two at a time. [pause 16s] The gaze resting on the thing. [pause 16s] Now soften or close the eyes. Let the thought of it fade. [pause 16s] Let the count go. Let the mind settle back, into open emptiness. [pause 16s] Drop the exercise. Notice the room: its sounds, its light. Carry the quiet into what comes next.",
+    "est_seconds": 192,
+    "visual": {
+      "concept": "A small simple shape in front that fades in three stages: its outline, its glow, then the space around it, leaving an empty open field.",
+      "elements": [
+        {
+          "id": "field",
+          "shape": "rect",
+          "description": "Full-frame dark field, deep night blue (#0A0F1E)."
+        },
+        {
+          "id": "object",
+          "shape": "circle",
+          "description": "A small simple soft gold (#F2D8A0) shape in front."
+        },
+        {
+          "id": "void",
+          "shape": "glow",
+          "description": "An empty, open field left when it fades."
+        },
+        {
+          "id": "breath_halo",
+          "shape": "ring",
+          "description": "A very faint pale-blue halo (#A9C4E8) that swells with the in-breath and softens with the out-breath. It only paces the breath."
+        }
+      ],
+      "timeline": [
+        {
+          "t_start": 0,
+          "t_end": 8,
+          "action": "Voice speaks. Dark field. A small simple shape appears."
+        },
+        {
+          "t_start": 8,
+          "t_end": 25,
+          "action": "Voice speaks. It fades in stages to an open field."
+        },
+        {
+          "t_start": 25,
+          "t_end": 34,
+          "action": "Voice speaks. The shapes rest, faint and even."
+        },
+        {
+          "t_start": 34,
+          "t_end": 37,
+          "action": "Pause 3 s. Stillness."
+        },
+        {
+          "t_start": 37,
+          "t_end": 54,
+          "action": "Voice speaks. The shapes dim slightly. Nothing moves."
+        },
+        {
+          "t_start": 54,
+          "t_end": 74,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 74,
+          "t_end": 78,
+          "action": "Pause 4 s. Stillness while the student settles."
+        },
+        {
+          "t_start": 78,
+          "t_end": 91,
+          "action": "Voice speaks. The shape is clear."
+        },
+        {
+          "t_start": 91,
+          "t_end": 94,
+          "action": "Pause 3 s. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 94,
+          "t_end": 107,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 107,
+          "t_end": 111,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 111,
+          "t_end": 115,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 115,
+          "t_end": 119,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 119,
+          "t_end": 123,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 123,
+          "t_end": 126,
+          "action": "Voice speaks. The shape is steady."
+        },
+        {
+          "t_start": 126,
+          "t_end": 130,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 130,
+          "t_end": 134,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 134,
+          "t_end": 138,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 138,
+          "t_end": 142,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 142,
+          "t_end": 147,
+          "action": "Voice speaks. Its outline softens; its glow fades."
+        },
+        {
+          "t_start": 147,
+          "t_end": 151,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 151,
+          "t_end": 155,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 155,
+          "t_end": 159,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 159,
+          "t_end": 163,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 163,
+          "t_end": 168,
+          "action": "Voice speaks. Only the open field."
+        },
+        {
+          "t_start": 168,
+          "t_end": 184,
+          "action": "Pause 16 s. Uncounted quiet: the open, empty field. No breath pacing is shown."
+        },
+        {
+          "t_start": 184,
+          "t_end": 192,
+          "action": "Voice speaks. The field fades to the dark."
+        }
+      ]
+    }
+  },
+  {
+    "door": 96,
+    "verse": 121,
+    "title": "The Understanding Born of Devotion",
+    "practice_mode": "practice",
+    "script": "This is Door 96. The Understanding Born of Devotion. It is verse 121 of the old text. In our plain words: the understanding that comes from overflowing devotion, in one free of grasping, is the power of Shiva. Contemplate it constantly, and you are Shiva. Singh says devotion is not only flowers and incense. It is seeing the sacred in all life. [pause 3s] If it hurts, stop. Devotion here is inner and freely given. It never asks you to give up your judgement, your boundaries, or the people in your life. If you feel dizzy, restless, or a strong feeling comes up, stop. Open your eyes, and rest your attention on your feet and the floor. Find any steady, easy position. A chair is good. The floor, with a cushion under you, is good. Lying down is good. Let the floor or the chair take your weight. Close your eyes, or keep them soft. [pause 4s] Turn toward whatever is sacred to you. The divine. Life itself. A teacher, or an ideal. Let devotion well up, wanting nothing from it. [pause 3s] Breathe naturally. About four in and four out, if counting helps; if not, don't count. Don't stop the breath, and don't stretch it. Six rounds, two at a time. [pause 16s] Devotion, wanting nothing. [pause 16s] Notice the quiet, clear understanding it brings. [pause 16s] Let the count go. Rest in that understanding, and return to it often. [pause 16s] Let the practice go. Take one free breath. Open the eyes and look around the room.",
+    "est_seconds": 185,
+    "visual": {
+      "concept": "A soft light welling up from below like a spring, overflowing gently, and settling as a clear calm glow.",
+      "elements": [
+        {
+          "id": "field",
+          "shape": "rect",
+          "description": "Full-frame dark field, deep night blue (#0A0F1E)."
+        },
+        {
+          "id": "spring",
+          "shape": "glow",
+          "description": "A soft soft gold (#F2D8A0) light welling up from the lower centre."
+        },
+        {
+          "id": "clear",
+          "shape": "glow",
+          "description": "A clear, calm glow that remains above it."
+        },
+        {
+          "id": "breath_halo",
+          "shape": "ring",
+          "description": "A very faint pale-blue halo (#A9C4E8) that swells with the in-breath and softens with the out-breath. It only paces the breath."
+        }
+      ],
+      "timeline": [
+        {
+          "t_start": 0,
+          "t_end": 8,
+          "action": "Voice speaks. Dark field. A soft light begins to well up."
+        },
+        {
+          "t_start": 8,
+          "t_end": 21,
+          "action": "Voice speaks. It overflows gently."
+        },
+        {
+          "t_start": 21,
+          "t_end": 29,
+          "action": "Voice speaks. The shapes rest, faint and even."
+        },
+        {
+          "t_start": 29,
+          "t_end": 32,
+          "action": "Pause 3 s. Stillness."
+        },
+        {
+          "t_start": 32,
+          "t_end": 56,
+          "action": "Voice speaks. The shapes dim slightly. Nothing moves."
+        },
+        {
+          "t_start": 56,
+          "t_end": 73,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 73,
+          "t_end": 77,
+          "action": "Pause 4 s. Stillness while the student settles."
+        },
+        {
+          "t_start": 77,
+          "t_end": 88,
+          "action": "Voice speaks. The light wells up."
+        },
+        {
+          "t_start": 88,
+          "t_end": 91,
+          "action": "Pause 3 s. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 91,
+          "t_end": 104,
+          "action": "Voice speaks. Breath pacing is not shown; the focal shapes glow softly and steadily."
+        },
+        {
+          "t_start": 104,
+          "t_end": 108,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 108,
+          "t_end": 112,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 112,
+          "t_end": 116,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 116,
+          "t_end": 120,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 120,
+          "t_end": 121,
+          "action": "Voice speaks. It overflows gently."
+        },
+        {
+          "t_start": 121,
+          "t_end": 125,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 125,
+          "t_end": 129,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 129,
+          "t_end": 133,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 133,
+          "t_end": 137,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 137,
+          "t_end": 140,
+          "action": "Voice speaks. A clear calm glow settles above."
+        },
+        {
+          "t_start": 140,
+          "t_end": 144,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 144,
+          "t_end": 148,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 148,
+          "t_end": 152,
+          "action": "In-breath, 4 s: a faint pale-blue halo (#A9C4E8) around the focal shape swells evenly."
+        },
+        {
+          "t_start": 152,
+          "t_end": 156,
+          "action": "Out-breath, 4 s: the halo softens back evenly; the next in-breath begins without a still frame."
+        },
+        {
+          "t_start": 156,
+          "t_end": 162,
+          "action": "Voice speaks. Only the clear glow."
+        },
+        {
+          "t_start": 162,
+          "t_end": 178,
+          "action": "Pause 16 s. Uncounted quiet: the clear calm glow. No breath pacing is shown."
+        },
+        {
+          "t_start": 178,
+          "t_end": 185,
+          "action": "Voice speaks. The glow fades to the dark field."
+        }
+      ]
+    }
+  }
+]
