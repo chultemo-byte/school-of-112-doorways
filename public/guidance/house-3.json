@@ -1879,10 +1879,10 @@
     "verse": 68,
     "title": "Between Fire and Poison",
     "practice_mode": "historical/observe_only",
-    "script": "This is Door 45. Between Fire and Poison. It is verse 68 of the old text. The school keeps this door as memory. We observe it. We do not practise it. This verse is one of a small group of old verses about the joy of love between partners. Its images are 'fire' and 'poison', and the space between them. Singh reads the two words as inner movements of energy, and the union as inward. Wallis reads the verse as being about physical union, with the breath restrained. The school records this verse as history only. It gives no practice from it, and nothing here is an invitation to any such activity. The breath restraint it mentions is not taught either. [pause 4s] If you want a door to practise, go to Door 38. The middle between two perceptions. There you notice two simple things, such as two sounds, let both go together, and rest in the space between them. [pause 3s] Close the text. Take a normal breath. Look around the room and move on when ready.",
-    "est_seconds": 86,
+    "script": "This is Door 45. Between Fire and Poison. It is verse 68 of the old text. The school keeps this door as memory. We observe it. We do not practise it. This verse is one of a small group of old verses about the joy of love between partners. Its images are 'fire' and 'poison', and the space between them. Singh reads the two words as inner movements of energy, and the union as inward. Wallis reads the verse as being about physical union, with the breath restrained. The school records this verse as history only. It gives no practice from it, and nothing here is an invitation to any such activity. The breath restraint it mentions is not taught either. [pause 4s] If you want a door to practise, go to Door 1. Resting at the two turning points of the breath. This verse has no direct practice door in the school, so Door 1 is a good place to begin. There you only notice where the breath turns, at the heart and just in front of the nose. Nothing is forced, and the breath is never stopped. [pause 3s] Close the text. Take a normal breath. Look around the room and move on when ready.",
+    "est_seconds": 99,
     "visual": {
-      "concept": "A still, faint historical image: two small poles with a point between them, fading; then Door 38's two points and glowing middle.",
+      "concept": "A still, faint historical image: two small poles with a point between them, fading; then Door 1's two soft points with a breathing line between them.",
       "elements": [
         {
           "id": "field",
@@ -1900,9 +1900,9 @@
           "description": "A faint point between them."
         },
         {
-          "id": "door38",
-          "shape": "glow",
-          "description": "At the close, Door 38's two points with a soft glow between them."
+          "id": "door1_points",
+          "shape": "points",
+          "description": "At the close, Door 1's two soft points with a faint line of light between them."
         }
       ],
       "timeline": [
@@ -1938,17 +1938,17 @@
         },
         {
           "t_start": 59,
-          "t_end": 76,
-          "action": "Voice speaks. Door 38's two points and glowing middle appear."
+          "t_end": 89,
+          "action": "Voice speaks. Door 1's two soft points appear, one at heart height and one just in front, with a faint line of light breathing between them."
         },
         {
-          "t_start": 76,
-          "t_end": 79,
+          "t_start": 89,
+          "t_end": 92,
           "action": "Pause 3 s. The new shape glows, still."
         },
         {
-          "t_start": 79,
-          "t_end": 86,
+          "t_start": 92,
+          "t_end": 99,
           "action": "Voice speaks. Everything fades to the dark field."
         }
       ]
@@ -1959,10 +1959,10 @@
     "verse": 69,
     "title": "The Delight at the Culmination of Union",
     "practice_mode": "historical/observe_only",
-    "script": "This is Door 46. The Delight at the Culmination of Union. It is verse 69 of the old text. The school keeps this door as memory. We observe it. We do not practise it. The old text speaks of the delight that comes at the height of union with a partner. It calls that delight the joy of the divine, and says it is one's own. Singh reads the verse as a picture. The highest joy comes when the sense of two falls away, and it belongs to the Self, not to any outer source. The school records this verse as history only. It gives no practice from it, and nothing here is an invitation to any such activity. [pause 4s] If you want a door to practise, go to Door 42. Body and world filled with one's own bliss. There you let a quiet gladness that depends on nothing outside fill the body, then the world around. [pause 3s] Close the text. Take a normal breath. Look around the room and move on when ready.",
-    "est_seconds": 86,
+    "script": "This is Door 46. The Delight at the Culmination of Union. It is verse 69 of the old text. The school keeps this door as memory. We observe it. We do not practise it. The old text speaks of the delight that comes at the height of union with a partner. It calls that delight the joy of the divine, and says it is one's own. Singh reads the verse as a picture. The highest joy comes when the sense of two falls away, and it belongs to the Self, not to any outer source. The school records this verse as history only. It gives no practice from it, and nothing here is an invitation to any such activity. [pause 4s] If you want a door to practise, go to Door 1. Resting at the two turning points of the breath. This verse has no direct practice door in the school, so Door 1 is a good place to begin. There you only notice where the breath turns, at the heart and just in front of the nose. Nothing is forced, and the breath is never stopped. [pause 3s] Close the text. Take a normal breath. Look around the room and move on when ready.",
+    "est_seconds": 99,
     "visual": {
-      "concept": "A still, faint historical image: two faint circles that slowly merge into one and fade; then Door 42's warm glow.",
+      "concept": "A still, faint historical image: two faint circles that slowly merge into one and fade; then Door 1's two soft points with a breathing line between them.",
       "elements": [
         {
           "id": "field",
@@ -1980,9 +1980,9 @@
           "description": "The single faint circle they become."
         },
         {
-          "id": "door42_glow",
-          "shape": "glow",
-          "description": "At the close, Door 42's soft warm glow."
+          "id": "door1_points",
+          "shape": "points",
+          "description": "At the close, Door 1's two soft points with a faint line of light between them."
         }
       ],
       "timeline": [
@@ -2018,17 +2018,17 @@
         },
         {
           "t_start": 59,
-          "t_end": 76,
-          "action": "Voice speaks. Door 42's warm glow appears."
+          "t_end": 89,
+          "action": "Voice speaks. Door 1's two soft points appear, one at heart height and one just in front, with a faint line of light breathing between them."
         },
         {
-          "t_start": 76,
-          "t_end": 79,
+          "t_start": 89,
+          "t_end": 92,
           "action": "Pause 3 s. The new shape glows, still."
         },
         {
-          "t_start": 79,
-          "t_end": 86,
+          "t_start": 92,
+          "t_end": 99,
           "action": "Voice speaks. Everything fades to the dark field."
         }
       ]
@@ -2039,10 +2039,10 @@
     "verse": 70,
     "title": "The Memory of Love's Delight",
     "practice_mode": "historical/observe_only",
-    "script": "This is Door 47. The Memory of Love's Delight. It is verse 70 of the old text. The school keeps this door as memory. We observe it. We do not practise it. The old text says that even without a partner, the memory of love's joy can bring a flood of delight. Singh draws one lesson from it. If delight can come from memory alone, then it must already be within, and that inner delight is what one turns toward. The school records this verse as history only. It gives no practice from it, and nothing here is an invitation to any such activity. [pause 4s] If you want a door to practise, go to Door 48. Merging with a great joy, such as meeting a friend. There, when joy arrives, you turn from what caused it to the joy itself, and stay with it. [pause 3s] Close the text. Take a normal breath. Look around the room and move on when ready.",
-    "est_seconds": 80,
+    "script": "This is Door 47. The Memory of Love's Delight. It is verse 70 of the old text. The school keeps this door as memory. We observe it. We do not practise it. The old text says that even without a partner, the memory of love's joy can bring a flood of delight. Singh draws one lesson from it. If delight can come from memory alone, then it must already be within, and that inner delight is what one turns toward. The school records this verse as history only. It gives no practice from it, and nothing here is an invitation to any such activity. [pause 4s] If you want a door to practise, go to Door 1. Resting at the two turning points of the breath. This verse has no direct practice door in the school, so Door 1 is a good place to begin. There you only notice where the breath turns, at the heart and just in front of the nose. Nothing is forced, and the breath is never stopped. [pause 3s] Close the text. Take a normal breath. Look around the room and move on when ready.",
+    "est_seconds": 92,
     "visual": {
-      "concept": "A still, faint historical image: a faint arrow curving back from the edge to a point within, fading; then Door 48's softly cresting wave.",
+      "concept": "A still, faint historical image: a faint arrow curving back from the edge to a point within, fading; then Door 1's two soft points with a breathing line between them.",
       "elements": [
         {
           "id": "field",
@@ -2060,9 +2060,9 @@
           "description": "A faint point at the centre."
         },
         {
-          "id": "door48_wave",
-          "shape": "wave",
-          "description": "At the close, Door 48's gentle wave with its glowing crest."
+          "id": "door1_points",
+          "shape": "points",
+          "description": "At the close, Door 1's two soft points with a faint line of light between them."
         }
       ],
       "timeline": [
@@ -2098,17 +2098,17 @@
         },
         {
           "t_start": 52,
-          "t_end": 70,
-          "action": "Voice speaks. Door 48's gentle wave appears."
+          "t_end": 82,
+          "action": "Voice speaks. Door 1's two soft points appear, one at heart height and one just in front, with a faint line of light breathing between them."
         },
         {
-          "t_start": 70,
-          "t_end": 73,
+          "t_start": 82,
+          "t_end": 85,
           "action": "Pause 3 s. The new shape glows, still."
         },
         {
-          "t_start": 73,
-          "t_end": 80,
+          "t_start": 85,
+          "t_end": 92,
           "action": "Voice speaks. Everything fades to the dark field."
         }
       ]
