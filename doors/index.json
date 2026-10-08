@@ -1,7 +1,7 @@
 {
   "school": "School of 112 Doorways",
   "count": 112,
-  "note": "Doors 001-016 are House 1: Vijñāna Bhairava Tantra dhāraṇās 1-16 in Jaideva Singh numbering (door N = dhāraṇā N, verse N+23), at doors/D-00N/door.json (schema 2.0.0). Registry: doors/HOUSE-1-REGISTRY.md. sanskrit is a short phrase from the verse and english is the technique name. Doors 049 and 112 keep legacy prototype records used only by the engine self-check; they are not published. Doors 017-112 are being remembered; null means not yet named, not a secret name.",
+  "note": "Door N is Vijñāna Bhairava Tantra dhāraṇā N in Jaideva Singh numbering (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114, so vbt_verse is the first verse and vbt_verses lists both; dhāraṇā 112 = verse 137). Every door's research record is doors/D-NNN/door.json (schema 2.0.0); registries: doors/HOUSE-1-REGISTRY.md … doors/HOUSE-7-REGISTRY.md. sanskrit is a short phrase from the verse and english is the technique name. All 112 doors are published at www.yoga112.com from those records. Exception for the engine only: entries 049 and 112 stay status 'seeded' and point at the legacy prototype records (doors/049.json, doors/112.json) that the engine self-check exercises; their published research records are named in research_file. The prototypes are not published.",
   "doors": [
     {
       "number": 1,
@@ -181,581 +181,1067 @@
     },
     {
       "number": 17,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "yasya kasyāpi varṇasya pūrvāntāv",
+      "english": "The Silence Before and After a Sound",
+      "status": "researched",
+      "house": 2,
+      "file": "doors/D-017/door.json",
+      "vbt_dharana": 17,
+      "vbt_verse": 40,
+      "practice_mode": "practice"
     },
     {
       "number": 18,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "tantryādivādyaśabdeṣu dīrgheṣu",
+      "english": "Following a Long Musical Note to Its End",
+      "status": "researched",
+      "house": 2,
+      "file": "doors/D-018/door.json",
+      "vbt_dharana": 18,
+      "vbt_verse": 41,
+      "practice_mode": "practice"
     },
     {
       "number": 19,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "śūnyoccārād bhavec chivaḥ",
+      "english": "Sounding a Seed-Mantra into Silence",
+      "status": "researched",
+      "house": 2,
+      "file": "doors/D-019/door.json",
+      "vbt_dharana": 19,
+      "vbt_verse": 42,
+      "practice_mode": "practice"
     },
     {
       "number": 20,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "nijadehe sarvadikkaṃ yugapad bhāvayed viyat",
+      "english": "Space in Every Direction at Once, Within the Body",
+      "status": "researched",
+      "house": 2,
+      "file": "doors/D-020/door.json",
+      "vbt_dharana": 20,
+      "vbt_verse": 43,
+      "practice_mode": "practice"
     },
     {
       "number": 21,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "pṛṣṭhaśūnyaṃ mūlaśūnyaṃ yugapad",
+      "english": "The Void Above and the Void at the Base",
+      "status": "researched",
+      "house": 2,
+      "file": "doors/D-021/door.json",
+      "vbt_dharana": 21,
+      "vbt_verse": 44,
+      "practice_mode": "practice"
     },
     {
       "number": 22,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "hṛcchūnyam bhāvayet sthiram",
+      "english": "Three Voids at Once: Above, Base and Heart",
+      "status": "researched",
+      "house": 2,
+      "file": "doors/D-022/door.json",
+      "vbt_dharana": 22,
+      "vbt_verse": 45,
+      "practice_mode": "practice"
     },
     {
       "number": 23,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "tanūdeśe śūnyataiva kṣaṇamātraṃ",
+      "english": "A Moment of Void in the Body",
+      "status": "researched",
+      "house": 2,
+      "file": "doors/D-023/door.json",
+      "vbt_dharana": 23,
+      "vbt_verse": 46,
+      "practice_mode": "practice"
     },
     {
       "number": 24,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "sarvaṃ dehagataṃ dravyaṃ viyadvyāptaṃ",
+      "english": "The Body's Tissues Pervaded by Space",
+      "status": "researched",
+      "house": 2,
+      "file": "doors/D-024/door.json",
+      "vbt_dharana": 24,
+      "vbt_verse": 47,
+      "practice_mode": "practice"
     },
     {
       "number": 25,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "tvagvibhāgam bhittibhūtaṃ vicintayet",
+      "english": "The Skin as a Wall with Nothing Inside",
+      "status": "researched",
+      "house": 2,
+      "file": "doors/D-025/door.json",
+      "vbt_dharana": 25,
+      "vbt_verse": 48,
+      "practice_mode": "practice"
     },
     {
       "number": 26,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "hṛdyākāśe nilīnākṣaḥ",
+      "english": "Senses Dissolved in the Space of the Heart",
+      "status": "researched",
+      "house": 2,
+      "file": "doors/D-026/door.json",
+      "vbt_dharana": 26,
+      "vbt_verse": 49,
+      "practice_mode": "practice"
     },
     {
       "number": 27,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "dvādaśānte manolayāt",
+      "english": "Mind Dissolved at the Dvādaśānta",
+      "status": "researched",
+      "house": 2,
+      "file": "doors/D-027/door.json",
+      "vbt_dharana": 27,
+      "vbt_verse": 50,
+      "practice_mode": "practice"
     },
     {
       "number": 28,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "yathā tathā yatra tatra dvādaśānte manaḥ kṣipet",
+      "english": "Returning to the Dvādaśānta Wherever You Are",
+      "status": "researched",
+      "house": 2,
+      "file": "doors/D-028/door.json",
+      "vbt_dharana": 28,
+      "vbt_verse": 51,
+      "practice_mode": "practice"
     },
     {
       "number": 29,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "kālāgninā kālapadād utthitena",
+      "english": "The Fire of Time Rising Through One's Own Body",
+      "status": "researched",
+      "house": 2,
+      "file": "doors/D-029/door.json",
+      "vbt_dharana": 29,
+      "vbt_verse": 52,
+      "practice_mode": "historical/observe_only"
     },
     {
       "number": 30,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "evam eva jagat sarvaṃ dagdhaṃ",
+      "english": "The Whole World Burnt by the Fire of Time",
+      "status": "researched",
+      "house": 2,
+      "file": "doors/D-030/door.json",
+      "vbt_dharana": 30,
+      "vbt_verse": 53,
+      "practice_mode": "historical/observe_only"
     },
     {
       "number": 31,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "tattvāni yāni nilayaṃ dhyātvā",
+      "english": "Principles Dissolving into Their Sources",
+      "status": "researched",
+      "house": 2,
+      "file": "doors/D-031/door.json",
+      "vbt_dharana": 31,
+      "vbt_verse": 54,
+      "practice_mode": "practice"
     },
     {
       "number": 32,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "pīnāṃ ca durbalāṃ śaktiṃ",
+      "english": "Thick Breath, Thin Breath, Entering the Heart",
+      "status": "researched",
+      "house": 2,
+      "file": "doors/D-032/door.json",
+      "vbt_dharana": 32,
+      "vbt_verse": 55,
+      "practice_mode": "practice"
     },
     {
       "number": 33,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "bhuvanādhvādirūpeṇa cintayet kramaśo 'khilam",
+      "english": "The Paths of Manifestation Dissolving Step by Step",
+      "status": "researched",
+      "house": 3,
+      "file": "doors/D-033/door.json",
+      "vbt_dharana": 33,
+      "vbt_verse": 56,
+      "practice_mode": "practice"
     },
     {
       "number": 34,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "tattvaṃ śaivaṃ dhyātvā mahodayaḥ",
+      "english": "The Whole Universe Seen as Śiva, All at Once",
+      "status": "researched",
+      "house": 3,
+      "file": "doors/D-034/door.json",
+      "vbt_dharana": 34,
+      "vbt_verse": 57,
+      "practice_mode": "practice"
     },
     {
       "number": 35,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "viśvam etan mahādevi śūnyabhūtaṃ vicintayet",
+      "english": "The Universe as Void",
+      "status": "researched",
+      "house": 3,
+      "file": "doors/D-035/door.json",
+      "vbt_dharana": 35,
+      "vbt_verse": 58,
+      "practice_mode": "practice"
     },
     {
       "number": 36,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "ghaṭādibhājane dṛṣṭiṃ bhittīs tyaktvā",
+      "english": "Gazing into the Space Inside a Pot",
+      "status": "researched",
+      "house": 3,
+      "file": "doors/D-036/door.json",
+      "vbt_dharana": 36,
+      "vbt_verse": 59,
+      "practice_mode": "practice"
     },
     {
       "number": 37,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "nirvṛkṣagiribhittyādideśe dṛṣṭiṃ vinikṣipet",
+      "english": "Gazing over Open Country",
+      "status": "researched",
+      "house": 3,
+      "file": "doors/D-037/door.json",
+      "vbt_dharana": 37,
+      "vbt_verse": 60,
+      "practice_mode": "practice"
     },
     {
       "number": 38,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "ubhayor bhāvayor jñāne dhyātvā madhyaṃ samāśrayet",
+      "english": "The Middle Between Two Perceptions",
+      "status": "researched",
+      "house": 3,
+      "file": "doors/D-038/door.json",
+      "vbt_dharana": 38,
+      "vbt_verse": 61,
+      "practice_mode": "practice"
     },
     {
       "number": 39,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "bhāve tyakte niruddhā cin naiva bhāvāntaraṃ vrajet",
+      "english": "Not Moving On to the Next Thing",
+      "status": "researched",
+      "house": 3,
+      "file": "doors/D-039/door.json",
+      "vbt_dharana": 39,
+      "vbt_verse": 62,
+      "practice_mode": "practice"
     },
     {
       "number": 40,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "sarvaṃ dehaṃ cinmayaṃ hi jagad vā",
+      "english": "Body and World as Consciousness, All at Once",
+      "status": "researched",
+      "house": 3,
+      "file": "doors/D-040/door.json",
+      "vbt_dharana": 40,
+      "vbt_verse": 63,
+      "practice_mode": "practice"
     },
     {
       "number": 41,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "vāyudvayasya saṃghaṭṭād",
+      "english": "The Meeting of the Two Breaths",
+      "status": "researched",
+      "house": 3,
+      "file": "doors/D-041/door.json",
+      "vbt_dharana": 41,
+      "vbt_verse": 64,
+      "practice_mode": "historical/observe_only"
     },
     {
       "number": 42,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "svānandabharitaṃ smaret",
+      "english": "Body and World Filled with One's Own Bliss",
+      "status": "researched",
+      "house": 3,
+      "file": "doors/D-042/door.json",
+      "vbt_dharana": 42,
+      "vbt_verse": 65,
+      "practice_mode": "practice"
     },
     {
       "number": 43,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "kuhanena prayogeṇa",
+      "english": "Sudden Joy from a Trick or a Wonder",
+      "status": "researched",
+      "house": 3,
+      "file": "doors/D-043/door.json",
+      "vbt_dharana": 43,
+      "vbt_verse": 66,
+      "practice_mode": "practice"
     },
     {
       "number": 44,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "pipīlasparśavelāyām",
+      "english": "All Streams Closed, the Creeping of Ants",
+      "status": "researched",
+      "house": 3,
+      "file": "doors/D-044/door.json",
+      "vbt_dharana": 44,
+      "vbt_verse": 67,
+      "practice_mode": "historical/observe_only"
     },
     {
       "number": 45,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "vahner viṣasya madhye tu",
+      "english": "Between Fire and Poison",
+      "status": "researched",
+      "house": 3,
+      "file": "doors/D-045/door.json",
+      "vbt_dharana": 45,
+      "vbt_verse": 68,
+      "practice_mode": "historical/observe_only"
     },
     {
       "number": 46,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "tat sukhaṃ svākyam ucyate",
+      "english": "The Delight at the Culmination of Union",
+      "status": "researched",
+      "house": 3,
+      "file": "doors/D-046/door.json",
+      "vbt_dharana": 46,
+      "vbt_verse": 69,
+      "practice_mode": "historical/observe_only"
     },
     {
       "number": 47,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "strīsukhasya bharāt smṛteḥ",
+      "english": "The Memory of Love's Delight",
+      "status": "researched",
+      "house": 3,
+      "file": "doors/D-047/door.json",
+      "vbt_dharana": 47,
+      "vbt_verse": 70,
+      "practice_mode": "historical/observe_only"
     },
     {
       "number": 48,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "dṛṣṭe vā bāndhave cirāt",
+      "english": "Merging with a Great Joy, Such as Meeting a Friend",
+      "status": "researched",
+      "house": 3,
+      "file": "doors/D-048/door.json",
+      "vbt_dharana": 48,
+      "vbt_verse": 71,
+      "practice_mode": "practice"
     },
     {
       "number": 49,
       "sanskrit": "Bhujaṅgāsana",
       "english": "Cobra",
       "status": "seeded",
-      "file": "doors/049.json"
+      "file": "doors/049.json",
+      "research_file": "doors/D-049/door.json",
+      "research_english": "The Fullness of Savouring Food and Drink",
+      "research_vbt_dharana": 49,
+      "research_vbt_verse": 72
     },
     {
       "number": 50,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "gītādiviṣayāsvādāsamasaukhya",
+      "english": "Becoming One with the Joy of Music",
+      "status": "researched",
+      "house": 4,
+      "file": "doors/D-050/door.json",
+      "vbt_dharana": 50,
+      "vbt_verse": 73,
+      "practice_mode": "practice"
     },
     {
       "number": 51,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "yatra yatra manas tuṣṭir manas tatraiva dhārayet",
+      "english": "Resting the Mind Wherever It Is Content",
+      "status": "researched",
+      "house": 4,
+      "file": "doors/D-051/door.json",
+      "vbt_dharana": 51,
+      "vbt_verse": 74,
+      "practice_mode": "practice"
     },
     {
       "number": 52,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "anāgatāyāṃ nidrāyām",
+      "english": "The Threshold of Sleep",
+      "status": "researched",
+      "house": 4,
+      "file": "doors/D-052/door.json",
+      "vbt_dharana": 52,
+      "vbt_verse": 75,
+      "practice_mode": "practice"
     },
     {
       "number": 53,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "ākāśe śabalīkṛte",
+      "english": "Gazing at Space Dappled with Light",
+      "status": "researched",
+      "house": 4,
+      "file": "doors/D-053/door.json",
+      "vbt_dharana": 53,
+      "vbt_verse": 76,
+      "practice_mode": "practice"
     },
     {
       "number": 54,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "karaṅkiṇyā krodhanayā bhairavyā lelihānayā khecaryā",
+      "english": "The Five Seals at the Moment of Seeing",
+      "status": "researched",
+      "house": 4,
+      "file": "doors/D-054/door.json",
+      "vbt_dharana": 54,
+      "vbt_verse": 77,
+      "practice_mode": "historical/observe_only"
     },
     {
       "number": 55,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "mṛdvāsane sphijaikena hastapādau nirāśrayam",
+      "english": "Sitting Unsupported on a Soft Seat",
+      "status": "researched",
+      "house": 4,
+      "file": "doors/D-055/door.json",
+      "vbt_dharana": 55,
+      "vbt_verse": 78,
+      "practice_mode": "historical/observe_only"
     },
     {
       "number": 56,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "kakṣavyomni manaḥ kurvañ",
+      "english": "The Space in the Armpits",
+      "status": "researched",
+      "house": 4,
+      "file": "doors/D-056/door.json",
+      "vbt_dharana": 56,
+      "vbt_verse": 79,
+      "practice_mode": "practice"
     },
     {
       "number": 57,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "sthūlarūpasya bhāvasya stabdhāṃ dṛṣṭiṃ nipātya",
+      "english": "A Steady Gaze on a Solid Object",
+      "status": "researched",
+      "house": 4,
+      "file": "doors/D-057/door.json",
+      "vbt_dharana": 57,
+      "vbt_verse": 80,
+      "practice_mode": "practice"
     },
     {
       "number": 58,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "hoccāraṃ manasā kurvaṃs",
+      "english": "Mouth Open, Mentally Sounding 'Ha'",
+      "status": "researched",
+      "house": 4,
+      "file": "doors/D-058/door.json",
+      "vbt_dharana": 58,
+      "vbt_verse": 81,
+      "practice_mode": "practice"
     },
     {
       "number": 59,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "nirādhāraṃ vibhāvayan svadehaṃ",
+      "english": "The Body Contemplated as Unsupported",
+      "status": "researched",
+      "house": 4,
+      "file": "doors/D-059/door.json",
+      "vbt_dharana": 59,
+      "vbt_verse": 82,
+      "practice_mode": "practice"
     },
     {
       "number": 60,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "calāsane sthitasyātha śanair vā dehacālanāt",
+      "english": "Gentle Rocking or Swaying",
+      "status": "researched",
+      "house": 4,
+      "file": "doors/D-060/door.json",
+      "vbt_dharana": 60,
+      "vbt_verse": 83,
+      "practice_mode": "practice"
     },
     {
       "number": 61,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "ākāśaṃ vimalam paśyan",
+      "english": "Gazing into a Clear Sky",
+      "status": "researched",
+      "house": 4,
+      "file": "doors/D-061/door.json",
+      "vbt_dharana": 61,
+      "vbt_verse": 84,
+      "practice_mode": "practice"
     },
     {
       "number": 62,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "līnaṃ mūrdhni viyat sarvam",
+      "english": "The Whole Sky Dissolved in the Head",
+      "status": "researched",
+      "house": 4,
+      "file": "doors/D-062/door.json",
+      "vbt_dharana": 62,
+      "vbt_verse": 85,
+      "practice_mode": "practice"
     },
     {
       "number": 63,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "viśvādi bhairavaṃ rūpaṃ jñātvā",
+      "english": "Waking, Dream and Deep Sleep as One Light",
+      "status": "researched",
+      "house": 4,
+      "file": "doors/D-063/door.json",
+      "vbt_dharana": 63,
+      "vbt_verse": 86,
+      "practice_mode": "practice"
     },
     {
       "number": 64,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "evam eva durniśāyāṃ kṛṣṇapakṣāgame ciram",
+      "english": "Contemplating the Darkness of a Moonless Night",
+      "status": "researched",
+      "house": 4,
+      "file": "doors/D-064/door.json",
+      "vbt_dharana": 64,
+      "vbt_verse": 87,
+      "practice_mode": "practice"
     },
     {
       "number": 65,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "nimīlyādau netre kṛṣṇābham agrataḥ",
+      "english": "Darkness Before Closed Eyes, Then Before Open Eyes",
+      "status": "researched",
+      "house": 5,
+      "file": "doors/D-065/door.json",
+      "vbt_dharana": 65,
+      "vbt_verse": 88,
+      "practice_mode": "practice"
     },
     {
       "number": 66,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "yasya kasyendriyasyāpi vyāghātāc ca nirodhataḥ",
+      "english": "When a Sense Is Blocked, the Void Behind It",
+      "status": "researched",
+      "house": 5,
+      "file": "doors/D-066/door.json",
+      "vbt_dharana": 66,
+      "vbt_verse": 89,
+      "practice_mode": "practice"
     },
     {
       "number": 67,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "abindum avisargaṃ ca akāraṃ japato",
+      "english": "Sounding the Plain Letter 'A'",
+      "status": "researched",
+      "house": 5,
+      "file": "doors/D-067/door.json",
+      "vbt_dharana": 67,
+      "vbt_verse": 90,
+      "practice_mode": "practice"
     },
     {
       "number": 68,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "visargāntaṃ citiṃ kuru",
+      "english": "At the End of the Out-Breathed 'Ḥ'",
+      "status": "researched",
+      "house": 5,
+      "file": "doors/D-068/door.json",
+      "vbt_dharana": 68,
+      "vbt_verse": 91,
+      "practice_mode": "practice"
     },
     {
       "number": 69,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "vyomākāraṃ svam ātmānaṃ dhyāyed digbhir anāvṛtam",
+      "english": "Oneself as Boundless Sky",
+      "status": "researched",
+      "house": 5,
+      "file": "doors/D-069/door.json",
+      "vbt_dharana": 69,
+      "vbt_verse": 92,
+      "practice_mode": "practice"
     },
     {
       "number": 70,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "tīkṣṇasūcyādinā",
+      "english": "Attention Gathered at the Point of a Prick",
+      "status": "researched",
+      "house": 5,
+      "file": "doors/D-070/door.json",
+      "vbt_dharana": 70,
+      "vbt_verse": 93,
+      "practice_mode": "historical/observe_only"
     },
     {
       "number": 71,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "cittādyantaḥkṛtir nāsti mamāntar",
+      "english": "No Inner Apparatus of Mind Within Me",
+      "status": "researched",
+      "house": 5,
+      "file": "doors/D-071/door.json",
+      "vbt_dharana": 71,
+      "vbt_verse": 94,
+      "practice_mode": "practice"
     },
     {
       "number": 72,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "māyā vimohinī nāma kalāyāḥ kalanaṃ sthitam",
+      "english": "Seeing Through the Powers That Limit",
+      "status": "researched",
+      "house": 5,
+      "file": "doors/D-072/door.json",
+      "vbt_dharana": 72,
+      "vbt_verse": 95,
+      "practice_mode": "practice"
     },
     {
       "number": 73,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "jhagitīcchāṃ samutpannām avalokya śamaṃ nayet",
+      "english": "Letting a Desire Return to Its Source",
+      "status": "researched",
+      "house": 5,
+      "file": "doors/D-073/door.json",
+      "vbt_dharana": 73,
+      "vbt_verse": 96,
+      "practice_mode": "practice"
     },
     {
       "number": 74,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "yadā mamecchā notpannā jñānaṃ vā kas tadāsmi vai",
+      "english": "Who Am I Before Desire or Knowing Arise?",
+      "status": "researched",
+      "house": 5,
+      "file": "doors/D-074/door.json",
+      "vbt_dharana": 74,
+      "vbt_verse": 97,
+      "practice_mode": "practice"
     },
     {
       "number": 75,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "icchāyām athavā jñāne jāte cittaṃ niveśayet",
+      "english": "Desire or Knowing Seen as the Self",
+      "status": "researched",
+      "house": 5,
+      "file": "doors/D-075/door.json",
+      "vbt_dharana": 75,
+      "vbt_verse": 98,
+      "practice_mode": "practice"
     },
     {
       "number": 76,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "tattvataḥ kasyacin naitad",
+      "english": "Thoughts Belong to No One",
+      "status": "researched",
+      "house": 5,
+      "file": "doors/D-076/door.json",
+      "vbt_dharana": 76,
+      "vbt_verse": 99,
+      "practice_mode": "practice"
     },
     {
       "number": 77,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "ciddharmā sarvadeheṣu viśeṣo nāsti kutracit",
+      "english": "The Same Awareness in Every Body",
+      "status": "researched",
+      "house": 5,
+      "file": "doors/D-077/door.json",
+      "vbt_dharana": 77,
+      "vbt_verse": 100,
+      "practice_mode": "practice"
     },
     {
       "number": 78,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "kāmakrodhalobhamohamadamātsaryagocare",
+      "english": "Stillness at the Heart of a Strong Emotion",
+      "status": "researched",
+      "house": 5,
+      "file": "doors/D-078/door.json",
+      "vbt_dharana": 78,
+      "vbt_verse": 101,
+      "practice_mode": "practice"
     },
     {
       "number": 79,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "indrajālamayaṃ viśvaṃ vyastaṃ vā citrakarmavat",
+      "english": "The World as a Magic Show or a Painting",
+      "status": "researched",
+      "house": 5,
+      "file": "doors/D-079/door.json",
+      "vbt_dharana": 79,
+      "vbt_verse": 102,
+      "practice_mode": "practice"
     },
     {
       "number": 80,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "bhairavi jñāyatāṃ madhye kiṃ tattvam avaśiṣyate",
+      "english": "Neither in Pain nor in Pleasure: What Remains Between",
+      "status": "researched",
+      "house": 5,
+      "file": "doors/D-080/door.json",
+      "vbt_dharana": 80,
+      "vbt_verse": 103,
+      "practice_mode": "practice"
     },
     {
       "number": 81,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "sarvatrāsmīti bhāvayan",
+      "english": "'I Am Everywhere'",
+      "status": "researched",
+      "house": 6,
+      "file": "doors/D-081/door.json",
+      "vbt_dharana": 81,
+      "vbt_verse": 104,
+      "practice_mode": "practice"
     },
     {
       "number": 82,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "ghaṭādau yac ca vijñānam",
+      "english": "Knowing and Willing in Everything, and Attention to the Link",
+      "status": "researched",
+      "house": 6,
+      "file": "doors/D-082/door.json",
+      "vbt_dharana": 82,
+      "vbt_verse": 105,
+      "vbt_verses": [
+        105,
+        106
+      ],
+      "practice_mode": "practice"
     },
     {
       "number": 83,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "svavad anyaśarīre 'pi saṃvittim anubhāvayet",
+      "english": "The Same Awareness in Another's Body",
+      "status": "researched",
+      "house": 6,
+      "file": "doors/D-083/door.json",
+      "vbt_dharana": 83,
+      "vbt_verse": 107,
+      "practice_mode": "practice"
     },
     {
       "number": 84,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "nirādhāraṃ manaḥ kṛtvā vikalpān na vikalpayet",
+      "english": "A Supportless Mind That Builds No Thoughts",
+      "status": "researched",
+      "house": 6,
+      "file": "doors/D-084/door.json",
+      "vbt_dharana": 84,
+      "vbt_verse": 108,
+      "practice_mode": "practice"
     },
     {
       "number": 85,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "sa evāhaṃ śaivadharmā",
+      "english": "I Share the Qualities of Śiva",
+      "status": "researched",
+      "house": 6,
+      "file": "doors/D-085/door.json",
+      "vbt_dharana": 85,
+      "vbt_verse": 109,
+      "practice_mode": "practice"
     },
     {
       "number": 86,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "jalasyevormayo vahner jvālābhaṅgyaḥ prabhā raveḥ",
+      "english": "Waves from Water: The World Arising from Me",
+      "status": "researched",
+      "house": 6,
+      "file": "doors/D-086/door.json",
+      "vbt_dharana": 86,
+      "vbt_verse": 110,
+      "practice_mode": "practice"
     },
     {
       "number": 87,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "bhrāntvā bhrāntvā śarīreṇa",
+      "english": "Whirling Until Falling (Classical)",
+      "status": "researched",
+      "house": 6,
+      "file": "doors/D-087/door.json",
+      "vbt_dharana": 87,
+      "vbt_verse": 111,
+      "practice_mode": "historical/observe_only"
     },
     {
       "number": 88,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "ādhāreṣv athavā 'śaktyā 'jñānāc cittalayena vā",
+      "english": "When the Mind Gives Up: The Stillness After an Impasse",
+      "status": "researched",
+      "house": 6,
+      "file": "doors/D-088/door.json",
+      "vbt_dharana": 88,
+      "vbt_verse": 112,
+      "practice_mode": "practice"
     },
     {
       "number": 89,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "netrayoḥ stabdhamātrayoḥ … saṃkocaṃ karṇayoḥ kṛtvā hy adhodvāre",
+      "english": "Unmoving Eyes; Ears and Lower Openings Closed (Classical)",
+      "status": "researched",
+      "house": 6,
+      "file": "doors/D-089/door.json",
+      "vbt_dharana": 89,
+      "vbt_verse": 113,
+      "vbt_verses": [
+        113,
+        114
+      ],
+      "practice_mode": "historical/observe_only"
     },
     {
       "number": 90,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "kūpādike mahāgarte sthitvopari nirīkṣaṇāt",
+      "english": "Gazing into a Deep Well (Classical)",
+      "status": "researched",
+      "house": 6,
+      "file": "doors/D-090/door.json",
+      "vbt_dharana": 90,
+      "vbt_verse": 115,
+      "practice_mode": "historical/observe_only"
     },
     {
       "number": 91,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "yatra yatra mano yāti",
+      "english": "Wherever the Mind Goes",
+      "status": "researched",
+      "house": 6,
+      "file": "doors/D-091/door.json",
+      "vbt_dharana": 91,
+      "vbt_verse": 116,
+      "practice_mode": "practice"
     },
     {
       "number": 92,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "yatra yatrākṣamārgeṇa caitanyaṃ vyajyate vibhoḥ",
+      "english": "Consciousness Shining Through the Senses",
+      "status": "researched",
+      "house": 6,
+      "file": "doors/D-092/door.json",
+      "vbt_dharana": 92,
+      "vbt_verse": 117,
+      "practice_mode": "practice"
     },
     {
       "number": 93,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "kṣutādyante bhaye śoke",
+      "english": "Sneezes, Shocks and Sudden Moments",
+      "status": "researched",
+      "house": 6,
+      "file": "doors/D-093/door.json",
+      "vbt_dharana": 93,
+      "vbt_verse": 118,
+      "practice_mode": "practice"
     },
     {
       "number": 94,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "vastuṣu smaryamāṇeṣu dṛṣṭe deśe manas tyajet",
+      "english": "Seeing a Familiar Place, Letting Memories Go",
+      "status": "researched",
+      "house": 6,
+      "file": "doors/D-094/door.json",
+      "vbt_dharana": 94,
+      "vbt_verse": 119,
+      "practice_mode": "practice"
     },
     {
       "number": 95,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "kvacid vastuni vinyasya śanair dṛṣṭiṃ nivartayet",
+      "english": "Placing the Gaze, Then Withdrawing It",
+      "status": "researched",
+      "house": 6,
+      "file": "doors/D-095/door.json",
+      "vbt_dharana": 95,
+      "vbt_verse": 120,
+      "practice_mode": "practice"
     },
     {
       "number": 96,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "bhaktyudrekād viraktasya yādṛśī jāyate matiḥ",
+      "english": "The Understanding Born of Devotion",
+      "status": "researched",
+      "house": 6,
+      "file": "doors/D-096/door.json",
+      "vbt_dharana": 96,
+      "vbt_verse": 121,
+      "practice_mode": "practice"
     },
     {
       "number": 97,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "vastvantare vedyamāne sarvavastuṣu śūnyatā",
+      "english": "While One Thing Is Known, the Emptiness of All Others",
+      "status": "researched",
+      "house": 7,
+      "file": "doors/D-097/door.json",
+      "vbt_dharana": 97,
+      "vbt_verse": 122,
+      "practice_mode": "practice"
     },
     {
       "number": 98,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "na śucir hy aśucis tasmān nirvikalpaḥ sukhī bhavet",
+      "english": "Beyond Pure and Impure",
+      "status": "researched",
+      "house": 7,
+      "file": "doors/D-098/door.json",
+      "vbt_dharana": 98,
+      "vbt_verse": 123,
+      "practice_mode": "practice"
     },
     {
       "number": 99,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "sarvatra bhairavo bhāvaḥ sāmānyeṣv api gocaraḥ",
+      "english": "Bhairava Is Everywhere, Even in the Ordinary",
+      "status": "researched",
+      "house": 7,
+      "file": "doors/D-099/door.json",
+      "vbt_dharana": 99,
+      "vbt_verse": 124,
+      "practice_mode": "practice"
     },
     {
       "number": 100,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "samaḥ śatrau ca mitre ca samo mānāvamānayoḥ",
+      "english": "Equal Toward Friend and Foe",
+      "status": "researched",
+      "house": 7,
+      "file": "doors/D-100/door.json",
+      "vbt_dharana": 100,
+      "vbt_verse": 125,
+      "practice_mode": "practice"
     },
     {
       "number": 101,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "rāgadveṣavinirmuktau madhye brahma prasarpati",
+      "english": "Neither Aversion nor Attachment",
+      "status": "researched",
+      "house": 7,
+      "file": "doors/D-101/door.json",
+      "vbt_dharana": 101,
+      "vbt_verse": 126,
+      "practice_mode": "practice"
     },
     {
       "number": 102,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "yad avedyaṃ yad agrāhyaṃ yac chūnyaṃ yad abhāvagam",
+      "english": "The Unknowable, Ungraspable and Empty as Bhairava",
+      "status": "researched",
+      "house": 7,
+      "file": "doors/D-102/door.json",
+      "vbt_dharana": 102,
+      "vbt_verse": 127,
+      "practice_mode": "practice"
     },
     {
       "number": 103,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "bāhyākāśe manaḥ kṛtvā nirākāśaṃ samāviśet",
+      "english": "The Mind Placed in Outer Space",
+      "status": "researched",
+      "house": 7,
+      "file": "doors/D-103/door.json",
+      "vbt_dharana": 103,
+      "vbt_verse": 128,
+      "practice_mode": "practice"
     },
     {
       "number": 104,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "yatra yatra mano yāti tat tat tenaiva tatkṣaṇam",
+      "english": "Wherever the Mind Goes, Let It Go at Once",
+      "status": "researched",
+      "house": 7,
+      "file": "doors/D-104/door.json",
+      "vbt_dharana": 104,
+      "vbt_verse": 129,
+      "practice_mode": "practice"
     },
     {
       "number": 105,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "bhairavaśabdasya santatoccāraṇāc chivaḥ",
+      "english": "Sounding the Name 'Bhairava'",
+      "status": "researched",
+      "house": 7,
+      "file": "doors/D-105/door.json",
+      "vbt_dharana": 105,
+      "vbt_verse": 130,
+      "practice_mode": "practice"
     },
     {
       "number": 106,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "ahaṃ mamedam ityādi pratipattiprasaṅgataḥ",
+      "english": "'I' and 'Mine': Following Them to No Support",
+      "status": "researched",
+      "house": 7,
+      "file": "doors/D-106/door.json",
+      "vbt_dharana": 106,
+      "vbt_verse": 131,
+      "practice_mode": "practice"
     },
     {
       "number": 107,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "nityo vibhur nirādhāro vyāpakaś cākhilādhipaḥ",
+      "english": "Eternal, Pervading, Supportless: Contemplating the Words",
+      "status": "researched",
+      "house": 7,
+      "file": "doors/D-107/door.json",
+      "vbt_dharana": 107,
+      "vbt_verse": 132,
+      "practice_mode": "practice"
     },
     {
       "number": 108,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "atattvam indrajālābham idaṃ sarvam avasthitam",
+      "english": "All This Is Like a Magic Show",
+      "status": "researched",
+      "house": 7,
+      "file": "doors/D-108/door.json",
+      "vbt_dharana": 108,
+      "vbt_verse": 133,
+      "practice_mode": "practice"
     },
     {
       "number": 109,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "ātmano nirvikārasya kva jñānaṃ kva ca vā kriyā",
+      "english": "The Unchanging Self: This World Is Empty",
+      "status": "researched",
+      "house": 7,
+      "file": "doors/D-109/door.json",
+      "vbt_dharana": 109,
+      "vbt_verse": 134,
+      "practice_mode": "practice"
     },
     {
       "number": 110,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "na me bandho na mokṣo me",
+      "english": "No Bondage, No Liberation: The Sun in the Water",
+      "status": "researched",
+      "house": 7,
+      "file": "doors/D-110/door.json",
+      "vbt_dharana": 110,
+      "vbt_verse": 135,
+      "practice_mode": "practice"
     },
     {
       "number": 111,
-      "sanskrit": null,
-      "english": null,
-      "status": "unassigned"
+      "sanskrit": "itīndriyāṇi saṃtyajya svasthaḥ svātmani vartate",
+      "english": "Pleasure and Pain Come Through the Senses: Abiding in Oneself",
+      "status": "researched",
+      "house": 7,
+      "file": "doors/D-111/door.json",
+      "vbt_dharana": 111,
+      "vbt_verse": 136,
+      "practice_mode": "practice"
     },
     {
       "number": 112,
       "sanskrit": "Padmāsana",
       "english": "Lotus",
       "status": "seeded",
-      "file": "doors/112.json"
+      "file": "doors/112.json",
+      "research_file": "doors/D-112/door.json",
+      "research_english": "Knower and Known as One",
+      "research_vbt_dharana": 112,
+      "research_vbt_verse": 137
     }
   ]
 }

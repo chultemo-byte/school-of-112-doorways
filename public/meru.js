@@ -1,10 +1,10 @@
-/* Guru Meru on the House 1 door pages. Keyword matching only, from the door's own plate.
+/* Guru Meru on the door pages (doors 001-112). Keyword matching only, from the door's own plate.
    No network call for an answer. Observe-only doors never get practice cues. */
 (function () {
   var FOOT = "Guru Meru answers only from this door's page. He does not invent. He does not rush.";
   var CLOSE = "If anything hurts or feels distressing, stop, open the eyes and rest attention on the feet and the floor.";
   var OBSERVE = "This door is historical, observe only. It is read and understood, not practised.";
-  var REMEMBERED = "This door is being remembered. Its dhāraṇā is not yet published here.";
+  var REMEMBERED = "This door's page did not load its plate. Find the door in the City of 112.";
   var MUTE_KEY = "meru-muted";
   var bound = false;
   var lastFocus = null;
@@ -15,7 +15,8 @@
     return false;
   }
   function verseLine(p) {
-    return "Door " + pad(p.number) + " is dhāraṇā " + p.dharana + " of the Vijñāna Bhairava Tantra, verse " + p.verse + " in Jaideva Singh's numbering.";
+    var many = p.verses && p.verses.length > 1;
+    return "Door " + pad(p.number) + " is dhāraṇā " + p.dharana + " of the Vijñāna Bhairava Tantra, " + (many ? "verses " : "verse ") + p.verse + " in Jaideva Singh's numbering.";
   }
   function insteadLine(p) {
     var k = p.practise_instead || [];
