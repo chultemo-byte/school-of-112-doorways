@@ -5,6 +5,7 @@
  *   public/door-001.html … door-112.html            door pages (VBT dhāraṇās 1–112, Houses 1–7)
  *   public/index.html                               the gate
  *   public/112.html                                 the city map
+ *   public/robots.txt, public/sitemap.xml           search indexes (www.yoga112.com)
  *
  * Door N is Vijñāna Bhairava Tantra dhāraṇā N in Jaideva Singh's numbering
  * (dhāraṇā 1 = verse 24; dhāraṇā 82 = verses 105–106 and dhāraṇā 89 = verses 113–114,
@@ -247,8 +248,10 @@ const CSS = `  :root{--bg:#0b0a12;--ink:#f4efe6;--muted:#9a8f7a;--vermilion:#c03
   @media(max-width:560px){.cells{grid-template-columns:repeat(2,1fr)}}
 `;
 
+const ICONS = "<link rel=\"icon\" href=\"/favicon.ico\" sizes=\"any\" />\n<link rel=\"icon\" href=\"/icon.svg\" type=\"image/svg+xml\" />\n<link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\" />\n";
+
 function shell(title, body, extraHead = "", tail = "") {
-  return "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n<title>" + esc(title) + "</title>\n" + extraHead + "<style>\n" + CSS + "</style>\n</head>\n<body>\n<div class=\"wrap\">\n" + body + "\n</div>\n" + tail + "</body>\n</html>\n";
+  return "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n<title>" + esc(title) + "</title>\n" + extraHead + ICONS + "<style>\n" + CSS + "</style>\n</head>\n<body>\n<div class=\"wrap\">\n" + body + "\n</div>\n" + tail + "</body>\n</html>\n";
 }
 function header(small) {
   return "<header><div class=\"brand\">School of 112 Doorways<small>" + esc(small) + "</small></div><nav><a href=\"index.html\">Gate</a><a href=\"112.html\">City of 112</a></nav></header>";
@@ -381,7 +384,8 @@ function cityPage(all) {
     b += "</div>";
   }
   b += LAW + FOOTER;
-  return shell("The city of 112 doorways · School of 112 Doorways", b);
+  const desc = "<meta name=\"description\" content=\"One door for each dhāraṇā of the Vijñāna Bhairava Tantra. All seven houses are open. Every door is a draft awaiting guardian review.\" />\n";
+  return shell("The city of 112 doorways · School of 112 Doorways", b, desc);
 }
 
 // ---------- write ----------
@@ -425,6 +429,22 @@ if (problems.length) {
   process.exit(1);
 }
 for (const [file, text] of Object.entries(outputs)) writeFileSync(path.join(ROOT, file), text);
+
+const ORIGIN = "https://www.yoga112.com";
+const sitemapUrls = ["/", "/112.html", ...ALL.map((n) => "/door-" + pad(n) + ".html")];
+writeFileSync(
+  path.join(ROOT, "public/robots.txt"),
+  "User-agent: *\nAllow: /\n\nSitemap: " + ORIGIN + "/sitemap.xml\n",
+);
+writeFileSync(
+  path.join(ROOT, "public/sitemap.xml"),
+  '<?xml version="1.0" encoding="UTF-8"?>\n' +
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+    sitemapUrls
+      .map((u) => "  <url><loc>" + ORIGIN + u + "</loc></url>")
+      .join("\n") +
+    "\n</urlset>\n",
+);
 
 const opened = doors.filter((d) => d.status === "remembered");
 console.log("doors", doors.length, "published", opened.length, "per house", HOUSES.map((h) => h.house + ":" + opened.filter((d) => d.house === h.house).length).join(" "));
